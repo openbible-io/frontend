@@ -1,14 +1,15 @@
 import { h, Component, createRef, Fragment } from 'preact'
 import { Reader } from './reader'
+import styles from './readers.css'
 
 /*
-	Contains many <Reader> and handles resizing them
+ *	Contains many <Reader>s and handles resizing them
 */
 export class Readers extends Component {
 	state = {
 		readers: [
 			{ book: 'GEN', chapter: 4, width: 0, readerRef: createRef() },
-			// { book: 'LUK', chapter: 3, width: 0, readerRef: createRef() },
+			{ book: 'LUK', chapter: 3, width: 0, readerRef: createRef() },
 		]
 	}
 	preMoveMouseWidths
@@ -34,6 +35,7 @@ export class Readers extends Component {
 	}
 
 	mouseMoveHandler(e, index) {
+		e.preventDefault()
 		this.initialPageX = e.pageX
 		this.preMoveMouseWidths = this.state.readers.map(r => r.width)
 		
@@ -55,7 +57,7 @@ export class Readers extends Component {
 							ref={reader.readerRef}
 						/>
 						{index !== this.state.readers.length - 1 &&
-							<a class="dragbar" onMouseDown={e => this.mouseMoveHandler(e, index)} />}
+							<div class={styles.dragbar} onMouseDown={e => this.mouseMoveHandler(e, index)} />}
 					</Fragment>
 				))}
 			</Fragment>

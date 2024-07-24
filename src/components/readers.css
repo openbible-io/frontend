@@ -1,0 +1,6 @@
+.dragbar {
+	cursor: col-resize;
+	border-left: 4px solid gray;
+	margin-right: 2px;
+	margin-left: 2px;
+}

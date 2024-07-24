@@ -79,3 +79,26 @@ td:not([align]),
 th:not([align]) {
   text-align: left;
 }
+
+/* Site styles */
+:root {
+  --main-text-color: #3b4351;
+  --primary-theme-color: #5755d9;
+}
+main {
+  display: flex;
+  min-height: 0;
+}
+html,
+body {
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  line-height: 1.5;
+  color: var(--main-text-color);
+  text-rendering: optimizeLegibility;
+  height: 100%;
+}
+:global(#root) {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
