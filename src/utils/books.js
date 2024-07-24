@@ -276,3 +276,8 @@ export const books = {
     chapters: 22
   },
 }
+
+export const texts = {
+  'en_ult': 'unfoldingWord® Literal Text',
+  'en_ust': 'unfoldingWord® Simplified Text',
+}

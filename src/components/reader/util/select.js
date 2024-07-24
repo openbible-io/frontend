@@ -1,7 +1,17 @@
+import { getLocalSetting } from '../../../utils/settings'
 import styles from './select.css'
 
 // Handles selecting anywhere in <article> of <Reader>
 const selectableTags = ['SPAN']
+const selectableCSSVars = [
+	'padding',
+	'margin',
+	'font-family',
+	'font-size',
+	'color',
+	'background-color',
+	'text-indent',
+]
 const selectedNodes = []
 
 function snapToWords(range) {
@@ -76,15 +86,38 @@ export function onDoubleClickVerseNumber(ev) {
   ev.preventDefault()
 }
 
-// TODO
 export function onCopy(ev) {
+	if (getLocalSetting('selectVerseNums') === 'default') {
+		return
+	}
 	const range = document.getSelection().getRangeAt(0)
+	const contents = range.cloneContents()
 	let toCopy = ''
 	iterateOverRange(range, node => {
-		if (selectableTags.includes(node.parentNode.nodeName)) {
+		if (node.nodeName === '#text' && selectableTags.includes(node.parentNode.nodeName)) {
+			console.log('node', node)
 			toCopy += node.textContent
 		}
+		else if (node.nodeName === 'P') {
+			toCopy += '\n'
+		}
 	})
+	contents.childNodes.forEach(node => {
+		node.childNodes.forEach(childNode => {
+			if (!selectableTags.includes(childNode.nodeName)) {
+				node.removeChild(childNode)
+			}
+		})
+	})
+	let toCopyHTML = '<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"></head><body><meta charset="utf-8">'
+	contents.childNodes.forEach(node => {
+		console.log('copy styles', node, getComputedStyle(node))
+		toCopyHTML += node.outerHTML
+	})
+	toCopyHTML += '</body></html>'
+	ev.clipboardData.setData('text/html', toCopyHTML)
 	ev.clipboardData.setData('text/plain', toCopy)
+	console.log(toCopyHTML)
+	console.log(toCopy)
 	ev.preventDefault()
 }

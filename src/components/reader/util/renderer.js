@@ -19,7 +19,7 @@ function getClass(child) {
 }
 
 function renderTag(tag) {
-  let prependSpace = tag.t === 'w' || tag.t === 'v' && tag.n > 1
+  let prependSpace = tag.t === 'w'
   if (lastTag && (lastTag.n || quoteRegex.test(lastTag.v))) {
     prependSpace = false
   }
@@ -31,7 +31,7 @@ function renderTag(tag) {
         <sup class={styles.sup}>{tag.n}</sup>
       }
       {tag.v && 
-        <span class={getClass(tag)}>{tag.v}</span>
+        <span data-id={tag.id} class={getClass(tag)}>{tag.v}</span>
       }
     </Fragment>
   )
@@ -41,13 +41,15 @@ function renderChild(child) {
   return (
     <Fragment>
       {Array.isArray(child.v)
-        ? <p class={getClass(child)}>{renderChildren(child.v)}</p>
+        ? <p data-id={child.id} class={getClass(child)}>
+            {renderChildren(child.v)}
+          </p>
         : renderTag(child)}
     </Fragment>
   )
 }
 
-export function renderChildren(children) {
+export function renderChildren(children, text) {
   if (!children) {
     return // TODO: Loading state
   }

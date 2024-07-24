@@ -1,7 +1,8 @@
 import { h, Fragment, Component } from 'preact'
 import { Nav, Reader, Button, Dropdown } from '../components'
 import styles from './settings.css'
-import { cssVars, saveLocalCSSVar } from '../utils/cssVars'
+import { cssVars, setLocalCSSVar } from '../utils/cssVars'
+import { getLocalSetting, setLocalSetting } from '../utils/settings'
 import readerStyles from '../components/reader/reader.css'
 
 export class Settings extends Component {
@@ -13,16 +14,19 @@ export class Settings extends Component {
         return acc
       }, {})
 
-    this.setState({ cssVars: docCSSVars })
+    this.setState({
+      cssVars: docCSSVars,
+      selectVerseNums: getLocalSetting('selectVerseNums') || 'noSelect'
+    })
   }
 
   setCSSVar = (cssVar, cssValue) => {
     document.body.style.setProperty(cssVar, cssValue)
     this.state.cssVars[cssVar] = cssValue
-    saveLocalCSSVar(cssVar, cssValue)
+    setLocalCSSVar(cssVar, cssValue)
   }
 
-  onInput(cssVar, ev) {
+  onCSSVarInput(cssVar, ev) {
     this.setCSSVar(cssVar, ev.target.value)
   }
 
@@ -43,12 +47,18 @@ export class Settings extends Component {
     this.setState(this.state)
   }
 
+  onSettingInput = (key, val) => {
+    setLocalSetting(key, val)
+    this.setState({ [key]: val })
+  }
+
   render() {
     return (
       <Fragment>
         <Nav />
         <main>
           <form class={styles.form} onSubmit={this.onSubmit} onReset={this.onReset}>
+            <h2>CSS Variables</h2>
             {Object.entries(this.state.cssVars)
               .map(entry => (
                 <p key={entry[0]}>
@@ -56,10 +66,26 @@ export class Settings extends Component {
                   <input
                     type={entry[0].includes('color') ? 'color' : ''}
                     value={entry[1]}
-                    onInput={e => this.onInput(entry[0], e)}
+                    onInput={e => this.onCSSVarInput(entry[0], e)}
                     />
                 </p>
             ))}
+            <h2>Copy behavior</h2>
+            <p>
+              <label>Snap selection to words</label>
+              TODO: code no snapping but still snapping for highlighting
+            </p>
+            <p>
+              <label>Verse number selection</label>
+              <select
+                value={this.state.selectVerseNums}
+                onChange={ev => this.onSettingInput('selectVerseNums', ev.target.value)}
+              >
+                <option value="noSelect">Don't select</option>
+                <option value="addSpace">Add space</option>
+                <option value="default">Browser default</option>
+              </select>
+            </p>
             <input type="reset" value="Reset settings" />
             <input type="submit" value="Save settings" />
           </form>

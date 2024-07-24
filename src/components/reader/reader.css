@@ -7,3 +7,12 @@
 	min-height: 0px;
   font-family: var(--secondary-font-family);
 }
+.toolbarContainer {
+	display: flex;
+	flex-wrap: wrap;
+}
+.toolbar {
+	display: flex;
+	justify-content: flex-end;
+	flex: auto;
+}
