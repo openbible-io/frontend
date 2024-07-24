@@ -1,0 +1,16 @@
+.dropdown {
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+}
+.dropdownList {
+	position: absolute;
+	background: #fff;
+	box-shadow: 0 .05rem .2rem rgba(48,55,66,.3);
+	padding: .4rem;
+	margin-top: .2rem;
+	min-width: 100px;
+}
+.dropdownList > li {
+	padding: 0 .4rem;
+}

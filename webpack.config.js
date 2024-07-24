@@ -16,7 +16,7 @@ module.exports = (_env, argv) => {
 			path: path.resolve('dist'),
 			filename: '[name].[contenthash:8].bundle.js'
 		},
-		devtool: isDev ? 'cheap-module-eval-source-map' : 'source-map',
+		devtool: isDev ? 'cheap-module-source-map' : 'source-map',
 		module: {
 			rules: [
 				{

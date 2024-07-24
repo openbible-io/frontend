@@ -8,28 +8,28 @@ import styles from './readers.css'
 export class Readers extends Component {
 	state = {
 		readers: [
-			{ book: 'GEN', chapter: 4, width: 0, readerRef: createRef() },
-			{ book: 'LUK', chapter: 3, width: 0, readerRef: createRef() },
+			{ book: 'GEN', chapter: 4, readerRef: createRef() },
+			{ book: 'LUK', chapter: 3, readerRef: createRef() },
 		]
 	}
 	preMoveMouseWidths
 	initialPageX = 0
 
-	componentDidMount() {
+	constructor(props) {
+		super(props)
 		this.state.readers.forEach(reader => {
-			reader.width = reader.readerRef.current.base.offsetWidth
+			reader.width = 1 / this.state.readers.length
 		})
-		this.setState({ readers: this.state.readers })
 	}
 
 	onMouseMove = (e, index) => {
 		e.preventDefault()
-		const offsetX = e.pageX - this.initialPageX
+		const offsetXPercent = (e.pageX - this.initialPageX) / window.innerWidth
 		this.state.readers.forEach((reader, i) => {
 			if (i === index)
-				reader.width = this.preMoveMouseWidths[i] + offsetX
+				reader.width = this.preMoveMouseWidths[i] + offsetXPercent
 			else if (i === index + 1)
-				reader.width = this.preMoveMouseWidths[i] - offsetX
+				reader.width = this.preMoveMouseWidths[i] - offsetXPercent
 		})
 		this.setState({ readers: this.state.readers })
 	}
@@ -53,11 +53,12 @@ export class Readers extends Component {
 						<Reader
 							book={reader.book}
 							chapter={reader.chapter}
-							width={reader.width}
+							width={`${reader.width * 100}%`}
 							ref={reader.readerRef}
 						/>
 						{index !== this.state.readers.length - 1 &&
-							<div class={styles.dragbar} onMouseDown={e => this.mouseMoveHandler(e, index)} />}
+							<div class={styles.dragbar} onMouseDown={e => this.mouseMoveHandler(e, index)} />
+						}
 					</Fragment>
 				))}
 			</Fragment>

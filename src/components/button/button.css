@@ -1,0 +1,10 @@
+.primary {
+	background-color: var(--primary-theme-color);
+	color: #fff;
+	border: .5rem solid var(--primary-theme-color);
+	cursor: pointer;
+}
+.primary:hover {
+	background:#4240d4;
+	border-color:#3634d2;
+}

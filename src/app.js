@@ -2,7 +2,7 @@ import { h, render, Fragment } from 'preact'
 import { Nav, Readers } from './components'
 import './app.css'
 
-const element = (
+const App = (
 	<Fragment>
 		<Nav />
 		<main>
@@ -11,4 +11,4 @@ const element = (
 	</Fragment>
 )
 
-render(element, document.getElementById('root'))
+render(App, document.getElementById('root'))

@@ -1,0 +1,8 @@
+.article {
+	display: flex;
+	flex-direction: column;
+}
+.reader {
+	overflow-y: auto;
+	min-height: 0px;
+}

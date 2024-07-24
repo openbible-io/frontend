@@ -1,5 +1,6 @@
-import { h, Component } from 'preact'
-import { getChapter, books, renderChildren } from '../utils'
+import { h, Component, Fragment } from 'preact'
+import { Dropdown } from '../dropdown/dropdown'
+import { getChapter, books, renderChildren } from '../../utils'
 import styles from './reader.css'
 
 export class Reader extends Component {
@@ -37,9 +38,13 @@ export class Reader extends Component {
 
 	render() {
 		return (
-			<article class={styles.reader} style={this.props.width ? { width: this.props.width } : { flex: 1 }}>
+			<article class={styles.article} style={{ width: this.props.width }}>
 				<nav>
-					<select name="book" value={this.props.book} onChange={this.onBookChange}>
+					<Dropdown>
+						<Fragment>A</Fragment>
+						<Fragment>B</Fragment>
+					</Dropdown>
+					{/* <select name="book" value={this.props.book} onChange={this.onBookChange}>
 						{Object.entries(books).map(([key, val]) =>
 							<option value={key} key={key}>{val.name}</option>
 						)}
@@ -50,9 +55,11 @@ export class Reader extends Component {
 							.map(i =>
 								<option value={i + 1} key={i}>{i + 1}</option>
 						)}
-					</select>
+					</select> */}
 				</nav>
-				{renderChildren(this.state.data)}
+				<div class={styles.reader}>
+					{renderChildren(this.state.data)}
+				</div>
 			</article>
 		)
 	}
