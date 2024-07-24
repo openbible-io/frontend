@@ -29,7 +29,8 @@
 	content: 'Open Bible';
 }
 .navbarBrand > svg {
-	margin-bottom: -0.5rem;
+	margin-bottom: -0.55rem;
+	margin-right: 0.2rem;
 }
 .form {
 	margin-left: 3px;
