@@ -2,6 +2,7 @@ const path = require('path')
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
 	entry: './src/app.js',
@@ -20,12 +21,18 @@ module.exports = {
 				}
 			},
 			{
-				test: /\.css$/,
+				test: /\.(sa|sc|c)ss$/,
 				use: [
-					'style-loader',
-					'css-loader'
+					{
+						loader: MiniCssExtractPlugin.loader,
+						options: {
+							hmr: process.env.NODE_ENV === 'development',
+						},
+					},
+					"css-loader", // translates CSS into CommonJS
+					"sass-loader" // compiles Sass to CSS, using Node Sass by default
 				]
-			},
+      },
 			{
 				test: /\.(png|svg|jpg|gif)$/,
 				use: [
@@ -39,7 +46,11 @@ module.exports = {
 		new HtmlWebpackPlugin({
 			template: './src/index.html'
 		}),
-		new webpack.HashedModuleIdsPlugin()
+		new webpack.HashedModuleIdsPlugin(),
+		new MiniCssExtractPlugin({
+      filename: '[name].[contenthash:6].css',
+      chunkFilename: '[name].[contenthash:6].css',
+    }),
 	],
 	optimization: {
 		runtimeChunk: 'single',
