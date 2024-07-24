@@ -1,4 +1,5 @@
 study tools
+- [ ] audio
 - [ ] synced scrolling
 	- [ ] versification
 		- https://github.com/Clear-Bible/Biblelib/tree/main/biblelib/versification
@@ -35,8 +36,8 @@ reader
 
 bugs
 - [x] double fetching frt when duplicate tabs
-- [ ] multiple loading chapters
-- [ ] version select
+- [x] multiple loading chapters
+- [x] version select
 
 settings
 - [x] fix foreword

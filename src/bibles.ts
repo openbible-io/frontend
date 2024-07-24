@@ -71,14 +71,17 @@ export type BookId = keyof typeof bookNames;
 export type Books = {
 	[book in BookId]: number | number[]; // chapters 1-number or number[]
 };
+// See openbible-io:static/build.js
 export type BibleInfo = {
-	version: string,
-	publisher: string,
+	downloadUrl?: string;
 	title: string,
-	date: string,
+	publisher: string,
+	publisherUrl?: string,
+	repo: string,
 	modified: string,
 	license: string,
-	authors: string[],
+	licenseUrl?: string,
+	authors?: string[],
 	books: Books,
 	about?: string,
 };

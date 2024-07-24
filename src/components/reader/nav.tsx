@@ -1,4 +1,4 @@
-import { createSignal, createEffect, For, Switch, Match, batch, createMemo } from 'solid-js';
+import { createSignal, createEffect, For, Switch, Match, batch, createMemo, Show } from 'solid-js';
 import { BookId, VersionBookChapter, BibleInfos, BibleInfo, bookNames, infoAboutUrl, bookChapters } from '../../bibles';
 import { InfoIcon, ThreeDotsVerticalIcon } from '../../icons/index';
 import { Dropdown, InnerHtml } from '../index';
@@ -128,18 +128,22 @@ function VersionInfo(props: VersionInfoProps) {
 			</nav>
 			<Switch>
 				<Match when={view() == 'info'}>
-					<h1>{props.info.title}</h1>
-					<div>Publisher: {props.info.publisher}</div>
-					<div>Date: {props.info.date}</div>
+					<h1>
+						<a href={props.info.downloadUrl} target="_blank">{props.info.title}</a>
+					</h1>
+					<div>Publisher: <a href={props.info.publisherUrl} target="_blank">{props.info.publisher}</a></div>
+					<div>License: <a href={props.info.licenseUrl}>{props.info.license}</a></div>
+					<Show when={props.info.authors?.length}>
+						<div>Authors:
+							<ul class={styles.authors}>
+								<For each={props.info.authors}>
+									{name => <li>{name}</li>}
+								</For>
+							</ul>
+						</div>
+					</Show>
 					<div>Modified: {props.info.modified}</div>
-					<div>License: {props.info.license}</div>
-					<div>Authors:
-						<ul class={styles.authors}>
-							<For each={props.info.authors}>
-								{name => <li>{name}</li>}
-							</For>
-						</ul>
-					</div>
+					<a href={props.info.repo}>Repo</a>
 				</Match>
 				<Match when={view() == 'foreword'}>
 					<InnerHtml url={infoAboutUrl(props.info)} />

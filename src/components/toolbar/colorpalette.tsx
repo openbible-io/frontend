@@ -42,7 +42,7 @@ export function ColorPalette(props: ColorPaletteProps) {
 								<div
 									class={styles.swatch}
 									style={{ background: color }}
-									onClick={() => props.onSelect(color)}></div>
+									onClick={() => props.onSelect(color)} />
 							</td>
 						)}
 					</tr>

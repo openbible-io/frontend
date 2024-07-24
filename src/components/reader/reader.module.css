@@ -145,3 +145,6 @@
 	display: inline-block;
 	margin-left: 1.75rem;
 } */
+.reader[data-version="en_bsb"]:not([data-book="psa"]) > br {
+	display: none;
+}

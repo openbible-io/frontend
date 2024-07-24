@@ -42,7 +42,13 @@ export function Reader(props: ReaderProps) {
 					<InnerHtml
 						url={vbcUrl(c.vbc)}
 						onSuccess={() => c.loaded = true}
-						div={{ class: styles.reader }}
+						div={{
+							class: styles.reader,
+							// For css selectors
+							'data-version': c.vbc.version,
+							'data-book': c.vbc.book,
+							'data-chapter': c.vbc.chapter,
+						}}
 						amendHtml={html => {
 							// Gotta put this here or upon loading the scroll position will
 							// not be consistent.
@@ -203,7 +209,7 @@ function ChapterHeading(props: ChapterHeadingProps) {
 				</h1>
 			</Show>
 			<h2 class={styles.chapterNumber}>
-				{props.vbc.chapter}
+				Chapter {props.vbc.chapter}
 			</h2>
 		</>
 	);
