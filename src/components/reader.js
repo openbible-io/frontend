@@ -1,5 +1,5 @@
 import { h, Component, Fragment } from 'preact'
-import { getChapter, books, renderChildren } from '../helpers'
+import { getChapter, books, renderChildren } from '../utils'
 
 export class Reader extends Component {
 	static defaultProps = {

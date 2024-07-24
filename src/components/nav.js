@@ -1,4 +1,5 @@
 import { h, Component } from 'preact';
+import styles from './nav.css'
 
 export class Nav extends Component {
 	state = {
@@ -11,7 +12,7 @@ export class Nav extends Component {
 
 	render() {
 		return (
-			<nav className="navbar is-info" role="navigation" aria-label="main navigation">
+			<nav className={styles.navbar} role="navigation" aria-label="main navigation">
 				<div className="navbar-brand">
 					<a className="navbar-item" href="/">
 						Open Bible
@@ -37,7 +38,7 @@ export class Nav extends Component {
 						</a>
 
 						<div className="navbar-item has-dropdown is-hoverable">
-							<a className={"navbar-link" + (this.state.isDocMenuOpen ? " is-arrow-down" : "")} onClick={this.toggleDocMenu}>
+							<a className={"navbar-link" + (this.state.isDocMenuOpen ? " is-active" : "")} onClick={this.toggleDocMenu}>
 								Documentation
 							</a>
 

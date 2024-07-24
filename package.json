@@ -7,8 +7,8 @@
     "build": "webpack --mode production",
     "build:static": "node scripts/generateStaticAssets.js",
     "clean": "shx rm -rf static",
-    "start": "webpack-dev-server --mode development",
-    "test": "http-server dist"
+    "serve": "http-server dist",
+    "start": "webpack-dev-server --mode development"
   },
   "repository": {
     "type": "git",
@@ -25,30 +25,26 @@
   },
   "homepage": "https://github.com/thesmartwon/openbible#readme",
   "dependencies": {
-    "preact": "^10.0.5",
+    "preact": "^10.1.0",
     "usfm2json": "^0.0.19"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.5",
-    "@babel/plugin-proposal-class-properties": "^7.4.4",
-    "@babel/plugin-transform-react-jsx": "^7.3.0",
-    "@babel/preset-env": "^7.4.5",
-    "@babel/preset-react": "^7.0.0",
+    "@babel/core": "^7.7.5",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-transform-react-jsx": "^7.7.4",
+    "@babel/preset-env": "^7.7.6",
     "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
-    "copy-webpack-plugin": "^5.0.3",
-    "css-loader": "^3.0.0",
-    "glob": "^7.1.4",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^3.3.2",
+    "file-loader": "^5.0.2",
+    "glob": "^7.1.6",
     "html-webpack-plugin": "^3.2.0",
-    "http-server": "^0.11.1",
-    "mini-css-extract-plugin": "^0.7.0",
-    "node-sass": "^4.12.0",
-    "sass-loader": "^7.1.0",
+    "mini-css-extract-plugin": "^0.8.0",
     "shx": "^0.3.2",
-    "style-loader": "^0.23.1",
     "url-loader": "^2.0.0",
-    "webpack": "^4.33.0",
-    "webpack-cli": "^3.3.4",
-    "webpack-dev-server": "^3.7.1"
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
   }
 }

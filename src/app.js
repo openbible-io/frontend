@@ -1,6 +1,6 @@
 import { h, render, Fragment } from 'preact';
 import { Nav, Readers } from './components';
-import './app.sass';
+import './app.css'
 
 const element = (
 	<Fragment>
