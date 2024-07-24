@@ -22,7 +22,7 @@ export function renderChildren(children) {
         <sup class={styles.sup}>{child.n}</sup>
       }
       {Array.isArray(child.v)
-        ? <p>{renderChildren(child.v)}</p>
+        ? <p class={styles.p}>{renderChildren(child.v)}</p>
         : renderTag(child)}
     </Fragment>
   ))

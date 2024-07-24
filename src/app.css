@@ -83,6 +83,7 @@ th:not([align]) {
 /* Site styles */
 :root {
   --primary-text-color: #3b4351;
+  --primary-text-indent: 0.5rem;
   --primary-theme-color: #5755d9;
   --primary-font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
 }
@@ -103,4 +104,3 @@ body {
   text-rendering: optimizeLegibility;
   height: 100%;
 }
-
