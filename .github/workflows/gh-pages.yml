@@ -12,6 +12,7 @@ jobs:
       with:
         node-version: 12
     - run: npm install
+    - run: npm run build:static
     - run: npm run build
     - run: rm -rf texts
     - name: Deploy to gh-pages
