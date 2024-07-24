@@ -7,10 +7,10 @@ export const renderChildren = children => {
   return children.map(child => {
     return (
       <Fragment>
-        {child.n && <strong>{child.n} </strong>}
+        {child.n && <b>{child.n} </b>}
         {Array.isArray(child.v)
           ? <p>{renderChildren(child.v)}</p>
-          : child.v + ' '}
+          : (child.v || '') + ' '}
       </Fragment>
     )
   })

@@ -1,6 +1,5 @@
 import { h, render, Fragment } from 'preact';
-import { Nav } from './nav';
-import { Readers } from './readers';
+import { Nav, Readers } from './components';
 import './app.sass';
 
 const element = (
