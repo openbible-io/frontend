@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from 'preact/hooks'
 import styles from './versenote.css'
 import { NoteContext } from './versenotecontext'
 import { NoteType, VerseType, classnames } from '../../utils'
-import EditIcon from '../../icons/fa-edit.svg'
+import EditIcon from '../../icons/md-edit.svg'
 import paragraphStyles from '../paragraphs/paragraph.css'
 import { getParagraphClass } from './paragraph'
 

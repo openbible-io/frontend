@@ -1,6 +1,32 @@
 .toolbar {
-	padding-left: var(--reader-padding);
+	border-top: 1px solid #dadce0;
+	border-bottom: 1px solid #dadce0;
+	padding-left: 24px;
 	display: flex;
 	flex-wrap: wrap;
 	line-height: 1;
+}
+.button {
+	width: 24px;
+	height: 24px;
+	margin: 6px 1px 6px 1px;
+	background: transparent;
+	border: none;
+	padding: 0;
+}
+.button:hover {
+	background: #f1f3f4;
+}
+.button:hover > .tooltip {
+	top: 1.5rem;
+}
+/* https://www.w3.org/TR/wai-aria-practices/examples/toolbar/toolbar.html */
+.tooltip {
+	background: #6d6d6d;
+	color: #f1f3f4;
+	border: .4rem solid #6d6d6d;
+	border-radius: .2rem;
+	display: block;
+	position: absolute;
+	top: -30000em;
 }
