@@ -7,7 +7,7 @@ import { VerseType } from '../../utils/books'
 import { VerseNote } from './versenote'
 
 let lastVerse: VerseType
-const startPunct = /['"“‘\[\(]/
+const startPunct = /['"“‘\[\(\-]/
 
 interface VerseProps {
   verse: VerseType;

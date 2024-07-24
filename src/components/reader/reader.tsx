@@ -76,7 +76,7 @@ export class Reader extends Component<ReaderProps, ReaderState> {
 					if (!highlight) {
 						highlight = highlights[verse.id]
 					}
-					else {
+					if (highlight) {
 						verse.highlight = highlight.color
 						if (verse.id >= +highlight.toId) {
 							highlight = undefined
