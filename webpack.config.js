@@ -86,17 +86,20 @@ module.exports = (_env, argv) => {
 			}),
 			new webpack.HashedModuleIdsPlugin(),
 			new CopyPlugin([{ from: 'static', to: 'static' }]),
-			...(!isDev
+			...(isDev
 				? [
+					new ForkTsCheckerWebpackPlugin({
+						async: false,
+						checkSyntacticErrors: true,
+					}),
+				]
+				: [
 					new CleanWebpackPlugin(),
 					new SizePlugin(),
 					// new BundleAnalyzerPlugin(),
 				]
-				: []),
-			new ForkTsCheckerWebpackPlugin({
-				async: false,
-				checkSyntacticErrors: true,
-			}),
+			),
+
 		],
 		optimization: {
 			splitChunks: {

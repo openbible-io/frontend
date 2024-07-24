@@ -5,12 +5,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
+    - name: Clone submodules
+      run: git submodule update --init
     - name: Use Node.js 12
       uses: actions/setup-node@v1
       with:
         node-version: 12
     - run: npm install
     - run: npm run build
+    - run: rm -rf texts
     - name: Deploy to gh-pages
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
