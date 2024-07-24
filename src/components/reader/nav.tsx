@@ -59,7 +59,7 @@ export function ReaderNav(props: ReaderNavProps) {
 				</For>
 			</select>
 			<button popoverTarget="version-info">
-				<InfoIcon style={{ fill: '#5f6368' }} width="1rem" height="1rem" />
+				<InfoIcon width="1rem" height="1rem" />
 			</button>
 			<VersionInfo version={version()} info={versionInfo()} />
 			<select
@@ -88,7 +88,7 @@ export function ReaderNav(props: ReaderNavProps) {
 			<Dropdown
 				button={{
 					class: styles.dropdown,
-					children: <ThreeDotsVerticalIcon style={{ fill: '#5f6368' }} width="1rem" height="1rem" />
+					children: <ThreeDotsVerticalIcon width="1rem" height="1rem" />
 				}}
 				div={{
 					class: styles.popover,
@@ -107,10 +107,15 @@ function VersionInfo(props: VersionInfoProps) {
 	type View = 'info' | 'foreword';
 	const [view, setView] = createSignal<View>('info');
 	const [about, setAbout] = createSignal('Loading...');
-	createEffect(() => props.info.fetchAboutHtml().then(setAbout));
+
+	function onToggle(ev: Event) {
+		if (ev.newState == 'open') {
+			props.info.fetchAboutHtml().then(setAbout)
+		}
+	}
 
 	return (
-		<div popover id="version-info" class={styles.versionInfo}>
+		<div popover id="version-info" class={styles.versionInfo} onToggle={onToggle}>
 			<nav>
 				<ul>
 					{(['info', 'foreword'] as View[]).map(v =>

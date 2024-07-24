@@ -36,7 +36,7 @@ export function Toolbar() {
 	// 			<span class={styles.tooltip}>Bold</span>
 	// 		</button>
 	// 		<button class={styles.button}>
-	// 			<FormatItalicIcon style={{ fill: '#5f6368' }} />
+	// 			<FormatItalicIcon />
 	// 			<span class={styles.tooltip}>Italic</span>
 	// 		</button>
 	// 		<button class={styles.button}>

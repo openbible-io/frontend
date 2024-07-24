@@ -81,6 +81,7 @@ export function Reader(props: ReaderProps) {
 	}
 
 	let lastScroll = container.scrollTop;
+	let scrollLoading = false;
 	function onScroll() {
 		const target = container;
 		const scrollBottom = target.scrollTop + target.clientHeight;
@@ -95,13 +96,15 @@ export function Reader(props: ReaderProps) {
 			}
 		}
 
+		if (scrollLoading) return;
 		if (target.scrollHeight - scrollBottom < 300 && target.scrollTop > lastScroll) {
 			const lastChild = container.lastChild as HTMLDivElement;
 			if (lastChild.attributes.getNamedItem('data-loading')) return;
 			const last = bibleChapter(lastChild);
 			const n = last.next(props.indices, 1);
 			if (n) {
-				loadChapter(n, true);
+				scrollLoading = true;
+				loadChapter(n, true).then(() => scrollLoading = false);
 				setNext(n.next(props.indices, 1));
 			}
 		}
@@ -109,7 +112,8 @@ export function Reader(props: ReaderProps) {
 		if (target.offsetTop <= 100 && target.scrollTop < lastScroll) {
 			const prev = cur().next(props.indices, -1);
 			if (prev) {
-				loadChapter(prev, false);
+				scrollLoading = true;
+				loadChapter(prev, false).then(() => scrollLoading = false);
 			}
 		}
 		lastScroll = target.scrollTop;
@@ -154,14 +158,14 @@ export function Reader(props: ReaderProps) {
 						onClick={props.onAddReader}
 						class={styles.windowButton}
 					>
-						<SolidPlusIcon style={{ fill: '#5f6368' }} height="1rem" width="1rem" />
+						<SolidPlusIcon height="1rem" width="1rem" />
 					</button>
 					<button
 						onClick={props.onCloseReader}
 						class={styles.windowButton}
 						disabled={!props.canClose}
 					>
-						<SolidXIcon style={{ fill: '#5f6368' }} height="1rem" width="1rem" />
+						<SolidXIcon height="1rem" width="1rem" />
 					</button>
 				</span>
 			</header>
