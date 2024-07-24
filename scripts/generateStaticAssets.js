@@ -16,7 +16,7 @@ glob.sync('./texts/**/*.usfm').forEach(file => {
 
 	const { chapters, ...meta } = json
 	chapters.forEach(chapter => {
-		const chapterFile	= `${toPrefixPath}-${(chapter.num + 1 + '').padStart(2, '0')}.json`
+		const chapterFile	= `${toPrefixPath}-${(chapter.num + '').padStart(2, '0')}.json`
 		fs.writeFileSync(chapterFile, JSON.stringify({ chapter, ...meta }, null, 2))
 	})
 })
