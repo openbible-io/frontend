@@ -1,11 +1,12 @@
-import { createSignal, onCleanup, createEffect, For, createMemo } from 'solid-js';
+import { createSignal, onCleanup, createEffect, For, Show } from 'solid-js';
 import { InnerHtml } from '../index';
 import { SolidPlusIcon, SolidXIcon } from '../../icons/index';
 import { ReaderNav } from './nav';
-import { BibleInfos, VersionBookChapter, BookId, BookChapter, Books, bookNames, bcEql, vbcEql, vbcUrl, bookChapters, nextBookChapter } from '../../bibles';
+import { BibleInfos, VersionBookChapter, BookChapter, Books, bookNames, vbcEql, vbcUrl, bookChapters, nextBookChapter } from '../../bibles';
 import styles from './reader.module.css';
+import { render } from 'solid-js/web';
 
-const maxLoaded = 50;
+const maxLoaded = 15;
 
 export interface ReaderProps {
 	vbc: VersionBookChapter;
@@ -21,76 +22,79 @@ export function Reader(props: ReaderProps) {
 		vbc: props.vbc,
 		loaded: false,
 	}]);
-	const [prev, setPrev] = createSignal<VersionBookChapter | undefined>(undefined, { equals: vbcEql });
 	const [cur, setCur] = createSignal(props.vbc, { equals: vbcEql });
-	const books = (version: string) => props.indices[version].books;
-
 	createEffect(() => {
-		const vbc = prev();
-		if (!vbc) return;
-		console.log('hello', vbc);
-		setVbcs(existing => [{ vbc, loaded: false }, ...existing]);
+		if (props.onNavChange) props.onNavChange(cur());
 	});
+	const books = (version: string) => props.indices[version].books;
+	function next(): VersionBookChapter | undefined {
+		const chaps = vbcs();
+		const last = chaps[chaps.length - 1];
+		const res = nextBookChapter(last.vbc, props.indices[last.vbc.version].books, 1);
+		if (res) return { version: last.vbc.version, ...res };
+	}
+	const isLoading = () => vbcs().some(v => !v.loaded);
+
 	const container = (
-		<div
-			tabIndex={0}
-			class={styles.container}
-			onScroll={onScroll}
-			data-version={props.vbc.version}
-		>
+		<div tabIndex={0} class={styles.content} onScroll={onScroll}>
 			<For each={vbcs()}>
 				{c =>
 					<InnerHtml
 						url={vbcUrl(c.vbc)}
+						onSuccess={() => c.loaded = true}
+						div={{ class: styles.reader }}
 						amendHtml={html => {
-							let res = [];
-							const firstChapter = bookChapters(books(c.vbc.version), c.vbc.book)[0];
-							if (c.vbc.chapter == firstChapter) {
-								res.push(`<h1 class="${styles.bookTitle}">${bookNames[c.vbc.book]}</h1>`);
-							}
-							res.push(`<h2 class="${styles.chapterNumber}">${c.vbc.chapter}</h1>`);
-							res.push(html)
-							return res.join('');
-						}}
-						onSuccess={() => {
-							c.loaded = true;
-							if (bcEql(c.vbc, cur())) {
-								const toLoad = nextN(c.vbc, books(c.vbc.version), 5)
-									.map(vbc => ({ vbc: { version: cur().version, ...vbc }, loaded: false }));
-								console.log(toLoad);
-								setVbcs(existing => [...existing, ...toLoad]);
-							}
-						}}
-						div={{
-							/* data-* Needed for scroll tracking */
-							'data-book': c.vbc.book,
-							'data-chapter': c.vbc.chapter,
+							// Gotta put this here or upon loading the scroll position will
+							// not be consistent.
+							// GOOD: <div><Spinner> -> <div>
+							// BAD: <div><div><Spinner> -> <div><div> (div nesting doesn't matter)
+							const tmp = document.createElement('div');
+							const deinit = render(() => <ChapterHeading vbc={c.vbc} indices={props.indices} />, tmp);
+							const res = tmp.innerHTML + html;
+							deinit();
+							return res;
 						}}
 					/>
 				}
 			</For>
+			{/* Scrolling/overflow checking may not always be reliable (screen readers?) */}
+			<Show when={next()}>
+				<div class={styles.loadNext}>
+				<ChapterHeading vbc={next()!} indices={props.indices} />
+				<button
+					onClick={() => setVbcs(old => [...old, { vbc: next()!, loaded: false }].slice(-maxLoaded))}
+				>
+					Load {bookNames[next()!.book]} {next()!.chapter}
+					<link
+						rel="prefetch"
+						type="fetch"
+						crossorigin="anonymous"
+						href={vbcUrl(next()!)}
+					/>
+				</button>
+				</div>
+			</Show>
 		</div>
 	) as HTMLDivElement;
 
-	createEffect(() => {
-		if (props.onNavChange) props.onNavChange(cur());
-	});
-
-	// Scroll tracking (calls setCur)
 	let lastScroll = container.scrollTop;
 	function onScroll() {
+		// Update `cur`
 		const target = container;
 		const scrollBottom = target.scrollTop + target.clientHeight;
-		for (let i = 0; i < container.children.length; i++) {
-			const visible = container.children[container.children.length - i - 1] as HTMLDivElement;
+		for (let i = container.children.length - 1; i >= 0; i--) {
+			const visible = container.children[i] as HTMLDivElement;
 
 			if (visible.offsetTop <= target.scrollTop) {
-				const firstChapter = vbcFrom(visible);
-				if (firstChapter) setCur(firstChapter);
-				break;
+				const c = vbcs()[i];
+				if (c) {
+					setCur(c.vbc);
+					break;
+				}
 			}
 		}
 
+		// If near top or bottom load previous/next chapter
 		const chaps = vbcs();
 		if (target.scrollHeight - scrollBottom < 500 && target.scrollTop > lastScroll) {
 			const last = chaps[chaps.length - 1];
@@ -104,19 +108,29 @@ export function Reader(props: ReaderProps) {
 		if (target.scrollTop <= 300 && target.scrollTop < lastScroll) {
 			const first = chaps[0];
 			if (!first.loaded) return;
-			const firstChapter = first.vbc;
-			const version = firstChapter.version;
-			const newPrev = nextBookChapter(firstChapter, books(version), -1);
+			const version = first.vbc.version;
+			const newPrev = nextBookChapter(first.vbc, books(version), -1);
 			if (!newPrev) return;
-			console.log(target.offsetTop);
-			setPrev({ version, ...newPrev });
+			const vbc: VersionBookChapter = { version: first.vbc.version, ...newPrev };
+			setVbcs(existing => [{ vbc, loaded: false }, ...existing]);
 		}
 		lastScroll = target.scrollTop;
 	}
 	const observer = new ResizeObserver(async () => {
-		if (!isOverflown(container)) {
-			// await init(cur());
-		}
+		if (isOverflown(container) || isLoading()) return;
+		// Load more so that onScroll interactions may load chapters.
+		// How much more? Ideally we'd estimate based on the available height
+		// and character count of each chapter. However, chapter lengths are
+		// too costly to include in the index (1189 integers per version).
+		//
+		// So we pick 5 because that's around the max parallel HTTP requests
+		// allowed per-origin by browsers. Their loading (or resizing this window)
+		// will trigger this check again.
+		const chaps = vbcs();
+		const last = chaps[chaps.length - 1];
+		const toLoad = nextN(last.vbc, books(last.vbc.version), 5)
+			.map(vbc => ({ vbc: { version: last.vbc.version, ...vbc }, loaded: false }));
+		setVbcs(existing => [...existing, ...toLoad]);
 	});
 	observer.observe(container);
 	onCleanup(() => observer.disconnect());
@@ -159,14 +173,6 @@ function isOverflown(element: HTMLElement) {
   return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;
 }
 
-function vbcFrom(ele: Element): VersionBookChapter | undefined {
-	const container = ele.parentElement as HTMLDivElement;
-	const version = container.getAttribute('data-version');
-	const book = ele.getAttribute('data-book') as BookId | null;
-	const chapter = ele.getAttribute('data-chapter');
-	if (version && book && chapter) return { version, book, chapter: +chapter };
-}
-
 function nextN(bc: BookChapter, books: Books, n: number): BookChapter[] {
 	const res: BookChapter[] = [];
 	let next: BookChapter | undefined = bc;
@@ -179,4 +185,26 @@ function nextN(bc: BookChapter, books: Books, n: number): BookChapter[] {
 		}
 	}
 	return res;
+}
+
+interface ChapterHeadingProps {
+	vbc: VersionBookChapter;
+	indices: BibleInfos;
+};
+function ChapterHeading(props: ChapterHeadingProps) {
+	const books = (version: string) => props.indices[version].books;
+	const isFirst = () => props.vbc.chapter == bookChapters(books(props.vbc.version), props.vbc.book)[0];
+
+	return (
+		<>
+			<Show when={isFirst()}>
+				<h1 class={styles.bookTitle}>
+					{bookNames[props.vbc.book]}
+				</h1>
+			</Show>
+			<h2 class={styles.chapterNumber}>
+				{props.vbc.chapter}
+			</h2>
+		</>
+	);
 }

@@ -50,18 +50,6 @@ export function ReaderNav(props: ReaderNavProps) {
 
 	const nav = (
 		<nav class={styles.nav}>
-			<select
-				name="version"
-				value={version()}
-				onChange={ev => onVersionChange(ev.target.value)}
-			>
-				<For each={Object.keys(props.indices)}>
-					{v => <option value={v}>{v}</option>}
-				</For>
-			</select>
-			<button popoverTarget="version-info">
-				<InfoIcon width="1rem" height="1rem" />
-			</button>
 			<VersionInfo info={info()} />
 			<select
 				name="book"
@@ -81,6 +69,18 @@ export function ReaderNav(props: ReaderNavProps) {
 					{c => <option value={c}>{c}</option>}
 				</For>
 			</select>
+			<select
+				name="version"
+				value={version()}
+				onChange={ev => onVersionChange(ev.target.value)}
+			>
+				<For each={Object.keys(props.indices)}>
+					{v => <option value={v}>{v}</option>}
+				</For>
+			</select>
+			<button popoverTarget="version-info">
+				<InfoIcon width="1rem" height="1rem" />
+			</button>
 		</nav>
 	);
 
