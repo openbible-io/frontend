@@ -152,7 +152,7 @@ export class Reader extends Component<ReaderProps, ReaderState> {
 		}
 	}
 
-	onHighlight = () => {
+	onHighlight = (color: string) => {
 		const selected = this.getSelectedNodes()
 		if (!selected) {
 			return
@@ -164,7 +164,7 @@ export class Reader extends Component<ReaderProps, ReaderState> {
 			const toId = +selected.toId
 			this.visitParagraphs(paragraphs, verse => {
 				if (verse.id >= fromId && verse.id <= toId) {
-					verse.highlight = this.state.selectedColor
+					verse.highlight = color
 				}
 			})
 			this.setState({ paragraphs })
@@ -175,7 +175,7 @@ export class Reader extends Component<ReaderProps, ReaderState> {
 				this.props.chapter,
 				selected.fromId,
 				selected.toId,
-				this.state.selectedColor
+				color
 			)
 			const selection = document.getSelection()
 			if (selection) {
@@ -223,7 +223,7 @@ export class Reader extends Component<ReaderProps, ReaderState> {
 	}
 
 	render() {
-		let selectedColor = this.state.selectedColor
+		const selectedColor = this.state.selectedColor
 		const style = this.props.style || {}
 		return (
 			<article class={styles.article} style={style}>
@@ -255,12 +255,11 @@ export class Reader extends Component<ReaderProps, ReaderState> {
 							icon="▼"
 							selected={<HighlighterIcon height="12px" style="fill: #5f6368;" />}
 							onSelect={(index: number) => {
-								selectedColor = highlighterColors[index]
-								this.setState({ selectedColor })
-								this.onHighlight()
+								this.setState({ selectedColor: highlighterColors[index] })
+								this.onHighlight(highlighterColors[index])
 							}}
-							onClick={this.onHighlight}
-							style={{ borderBottom: `4px solid ${selectedColor}` }}
+							onClick={() => this.onHighlight(selectedColor)}
+							style={{ borderBottom: `4px solid ${this.state.selectedColor}` }}
 						>
 							{highlighterColors.map(color =>
 								<HighlighterIcon value={color} height="12px" style={`fill: ${color};`} />
