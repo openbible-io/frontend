@@ -4,11 +4,11 @@ import styles from './readers.css'
 
 /*
  *	Contains many <Reader>s and handles resizing them
-*/
+ */
 export class Readers extends Component {
 	state = {
 		readers: [
-			{ book: 'GEN', chapter: 4, readerRef: createRef() },
+			{ book: 'LUK', chapter: 4, readerRef: createRef() },
 			{ book: 'PSA', chapter: 119, readerRef: createRef() },
 		]
 	}
@@ -57,7 +57,10 @@ export class Readers extends Component {
 							ref={reader.readerRef}
 						/>
 						{index !== this.state.readers.length - 1 &&
-							<div class={styles.dragbar} onMouseDown={e => this.mouseMoveHandler(e, index)} />
+							<div
+								class={styles.dragbar}
+								onMouseDown={e => this.mouseMoveHandler(e, index)}
+							/>
 						}
 					</Fragment>
 				))}

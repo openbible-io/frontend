@@ -1,6 +1,8 @@
-import { h, Component, Fragment } from 'preact'
+import { h, Component } from 'preact'
 import { Dropdown } from '../dropdown/dropdown'
-import { getChapter, books, renderChildren } from '../../utils'
+import { getChapter, books } from '../../utils'
+import { onSelectChange, onCopy } from './util/select'
+import { renderChildren } from './util/renderer'
 import styles from './reader.css'
 
 export class Reader extends Component {
@@ -63,7 +65,13 @@ export class Reader extends Component {
 						)}
 					</select>
 				</nav>
-				<div class={styles.reader}>
+				<div
+					onMouseUp={onSelectChange}
+					onKeyUp={onSelectChange}
+					class={styles.reader}
+					onCopy={onCopy}
+					tabindex="0"
+				>
 					{renderChildren(this.state.data)}
 				</div>
 			</article>
