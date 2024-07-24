@@ -7,9 +7,9 @@ import { Reader } from './reader'
 export class Readers extends Component {
 	state = {
 		readers: [
-			{ book: 'OBA', chapter: 1, width: 0, readerRef: createRef() },
-			{ book: 'MIC', chapter: 1, width: 0, readerRef: createRef() },
-			{ book: 'JUD', chapter: 1, width: 0, readerRef: createRef() },
+			{ book: 'GEN', chapter: 1, width: 0, readerRef: createRef() },
+			{ book: 'MAT', chapter: 1, width: 0, readerRef: createRef() },
+			{ book: 'REV', chapter: 1, width: 0, readerRef: createRef() },
 		]
 	}
 	preMoveMouseWidths
