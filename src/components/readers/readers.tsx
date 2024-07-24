@@ -1,11 +1,11 @@
-import { h, Component, createRef, Fragment } from 'preact'
+import { h, Component, Fragment } from 'preact'
 import { Reader, ReaderProps } from '../reader/reader'
-import styles from './readers.css'
+import { setLocalReaders, getLocalReaders } from '../../utils/readers'
 import { BookNames } from '../../utils'
+import styles from './readers.css'
 
-interface ReaderState extends ReaderProps {
+export interface ReaderState extends ReaderProps {
 	width: number;
-	ref: preact.Ref<Reader>;
 }
 
 interface ReadersState {
@@ -18,12 +18,20 @@ interface ReadersState {
 export class Readers extends Component<{}, ReadersState> {
 	state = {
 		readers: [
-			{ text: 'en_ult', width: 50, book: 'LUK' as BookNames, chapter: 4, ref: createRef() },
-			{ text: 'en_ult', width: 50, book: 'PSA' as BookNames, chapter: 119, ref: createRef() },
+			{ text: 'en_ult', book: 'LUK' as BookNames, chapter: 4, width: 50 },
+			{ text: 'en_ult', book: 'PSA' as BookNames, chapter: 119, width: 50 },
 		]
 	} as ReadersState
 	preMoveMouseWidths: number[] = []
 	initialPageX = 0
+
+	constructor(props: {}) {
+		super(props)
+		const readers = getLocalReaders()
+		if (readers.length > 0) {
+			this.state = { readers }
+		}
+	}
 
 	componentWillMount() {
 		this.state.readers.forEach(reader =>
@@ -39,6 +47,7 @@ export class Readers extends Component<{}, ReadersState> {
 			else if (i === index + 1)
 				reader.width = this.preMoveMouseWidths[i] - offsetXPercent
 		})
+		setLocalReaders(this.state.readers)
 		this.setState({ readers: this.state.readers })
 	}
 
@@ -55,13 +64,20 @@ export class Readers extends Component<{}, ReadersState> {
 
 	onAddReader = (index: number) => {
 		const newReader = Object.assign({}, this.state.readers[index])
-		newReader.ref = createRef()
 		this.state.readers.splice(index, 0, newReader)
 		this.setState({ readers: this.state.readers })
 	}
 
 	onCloseReader = (index: number) => {
 		this.state.readers.splice(index, 1)
+		this.setState({ readers: this.state.readers })
+	}
+
+	onReaderChange = (reader: ReaderState, text: string, book: BookNames, chapter: number) => {
+		reader.text = text
+		reader.book = book
+		reader.chapter = chapter
+		setLocalReaders(this.state.readers)
 		this.setState({ readers: this.state.readers })
 	}
 
@@ -77,7 +93,7 @@ export class Readers extends Component<{}, ReadersState> {
 							style={{ width: `${reader.width * 100}%` }}
 							onAddReader={() => this.onAddReader(index)}
 							onCloseReader={() => this.onCloseReader(index)}
-							ref={reader.ref}
+							onNavChange={(text, book, chapter) => this.onReaderChange(reader, text, book, chapter)}
 						/>
 						{index !== this.state.readers.length - 1 &&
 							<div

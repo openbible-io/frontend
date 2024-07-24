@@ -22,6 +22,7 @@ export interface ReaderProps {
 	style?: { [key: string]: string | number } | string;
 	onAddReader?: () => void;
 	onCloseReader?: () => void;
+	onNavChange?: (text: string, book: BookNames, chapter: number) => void
 }
 
 interface ReaderState {
@@ -111,20 +112,27 @@ export class Reader extends Component<ReaderProps, ReaderState> {
 			})
 	}
 
+	onNavChange(text: string, book: BookNames, chapter: number) {
+		this.fetchChapter(text, book, chapter)
+		if (this.props.onNavChange) {
+			this.props.onNavChange(text, book, chapter)
+		}
+	}
+
 	onBookChange = (ev: any) => {
 		const book = ev.target.value as BookNames
 		let chapter = this.props.chapter
 		if (chapter > books[book].chapters)
 			chapter = books[book].chapters
-		this.fetchChapter(this.props.text, book, chapter)
+		this.onNavChange(this.props.text, book, chapter)
 	}
 
 	onChapterChange = (ev: any) => {
-		this.fetchChapter(this.props.text, this.props.book, ev.target.value)
+		this.onNavChange(this.props.text, this.props.book, ev.target.value)
 	}
 
 	onTextChange = (ev: any) => {
-		this.fetchChapter(ev.target.value, this.props.book, this.props.chapter)
+		this.onNavChange(ev.target.value, this.props.book, this.props.chapter)
 	}
 
 	getSelectedNodes = () => {
