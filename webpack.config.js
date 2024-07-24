@@ -108,7 +108,7 @@ module.exports = (_env, argv) => {
 				: [
 					new CleanWebpackPlugin(),
 					new SizePlugin(),
-					new BundleAnalyzerPlugin(),
+					// new BundleAnalyzerPlugin(),
 				]
 			),
 		],
