@@ -1,7 +1,7 @@
 import { createSignal, createEffect, For, Switch, Match, batch } from 'solid-js';
 import { BookId, BibleChapter, BibleIndices, BibleIndex, bookNames } from '../../utils';
 import { InfoIcon, ThreeDotsVerticalIcon } from '../../icons/index';
-import { Dropdown } from '../index';
+import { Dropdown, InnerHTML } from '../index';
 import styles from './nav.module.css';
 
 export interface ReaderNavProps {
@@ -106,25 +106,24 @@ interface VersionInfoProps {
 function VersionInfo(props: VersionInfoProps) {
 	type View = 'info' | 'foreword';
 	const [view, setView] = createSignal<View>('info');
-	const [about, setAbout] = createSignal('Loading...');
-
-	function onToggle(ev: Event) {
-		if (ev.newState == 'open') {
-			props.info.fetchAboutHtml().then(setAbout)
-		}
-	}
+	createEffect(() => {
+		props.info;
+		setView('info');
+	});
 
 	return (
-		<div popover id="version-info" class={styles.versionInfo} onToggle={onToggle}>
+		<div popover id="version-info" class={styles.versionInfo}>
 			<nav>
 				<ul>
-					{(['info', 'foreword'] as View[]).map(v =>
-						<li>
-							<button onClick={() => setView(v)}>
-								{v}
-							</button>
-						</li>
-					)}
+					<li><button onClick={() => setView('info')}>Info</button></li>
+					<li>
+						<button
+							onClick={() => setView('foreword')}
+							disabled={!Boolean(props.info.aboutUrl())}
+						>
+							Foreword
+						</button>
+					</li>
 				</ul>
 			</nav>
 			<Switch>
@@ -143,10 +142,9 @@ function VersionInfo(props: VersionInfoProps) {
 					</div>
 				</Match>
 				<Match when={view() == 'foreword'}>
-					<div innerHTML={about() ?? ''} />
+					<InnerHTML url={props.info.aboutUrl()!} />
 				</Match>
 			</Switch>
 		</div>
 	);
 }
-

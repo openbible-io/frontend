@@ -1,5 +1,5 @@
 import { A as Link, AnchorProps as LinkProps } from '@solidjs/router';
-import { FavIcon } from '../../icons/index';
+import { FavIcon } from '../icons/index';
 import styles from './nav.module.css';
 
 const NavLink = (props: Omit<LinkProps, 'activeClass'>) => (

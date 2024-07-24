@@ -1,7 +1,7 @@
 import { For, createResource, ResourceReturn, Show } from 'solid-js';
 import { Reader } from '../reader/reader';
 import { useLocalStorage, BibleChapter, BibleIndices, BibleIndex } from '../../utils';
-import styles from './readergroup.module.css';
+import styles from './group.module.css';
 
 export const defaultReaders = [
 	// Single reader in case on small display

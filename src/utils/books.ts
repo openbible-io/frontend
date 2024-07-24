@@ -105,10 +105,9 @@ export class BibleIndex {
 		return Array.from({ length: nChaptersOrChapters }, (_, i) => i + 1);
 	}
 
-	async fetchAboutHtml(): Promise<string> {
-		if (!this.about) return 'No foreword';
-		const url = `${import.meta.env['OPENBIBLE_STATIC_URL']}/bibles/${this.version}/${this.about}.html`;
-		return fetchHtml(url);
+	aboutUrl() {
+		if (!this.about) return;
+		return `${import.meta.env['OPENBIBLE_STATIC_URL']}/bibles/${this.version}/${this.about}.html`;
 	}
 };
 export type BibleIndices = { [version: string]: BibleIndex };
