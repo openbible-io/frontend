@@ -1,10 +1,30 @@
-.primary {
-	background-color: var(--primary-theme-color);
-	color: #fff;
-	border: .5rem solid var(--primary-theme-color);
+.button {
+	padding: .25rem .4rem;
+	border: .05rem solid var(--primary-theme-color);
 	cursor: pointer;
 }
+.button:focus {
+	box-shadow: 0 0 0 .1rem rgba(87,85,217,.2);
+}
+.primary {
+	background: var(--primary-theme-color);
+	color: #fff;
+}
+.primary:focus,
 .primary:hover {
-	background:#4240d4;
+	background:#3634d2;
 	border-color:#3634d2;
+}
+.secondary {
+	background: #fff;
+	color: var(--primary-theme-color);
+}
+.secondary:focus,
+.secondary:hover {
+	background: #f1f1fc;
+}
+.secondary:active {
+	background: #4b48d6;
+	border-color: #3634d2;
+	color: #fff;
 }

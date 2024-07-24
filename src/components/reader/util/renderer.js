@@ -1,11 +1,6 @@
 import { h, Fragment } from 'preact'
-// import { onDoubleClickVerseNumber } from '../../utils'
+import { onDoubleClickVerseNumber } from '../../reader/util/select'
 import styles from './renderer.css'
-
-function onDoubleClickVerseNumber(ev) {
-  ev.preventDefault()
-  console.log('hey', ev)
-}
 
 let lastTag
 const quoteRegex = /['"“‘]/
@@ -28,7 +23,7 @@ function renderTag(tag) {
     <Fragment>
       {prependSpace && <span> </span>}
       {tag.n &&
-        <sup class={styles.sup}>{tag.n}</sup>
+        <sup class={styles.sup} onDblClick={onDoubleClickVerseNumber}>{tag.n}</sup>
       }
       {tag.v && 
         <span data-id={tag.id} class={getClass(tag)}>{tag.v}</span>

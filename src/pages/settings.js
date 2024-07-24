@@ -90,7 +90,8 @@ export class Settings extends Component {
             <input type="submit" value="Save settings" />
           </form>
           <div class={`${readerStyles.reader} ${styles.testDiv}`}>
-            <Button>Test button</Button>
+            <Button>Primary button</Button>
+            <Button variant="secondary">Secondary button</Button>
             <Dropdown>
               <div>Item 1</div>
               <div>Item 2</div>

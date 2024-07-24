@@ -4,7 +4,7 @@
 }
 .reader {
 	overflow-y: auto;
-	min-height: 0px;
+	min-height: 0;
   font-family: var(--secondary-font-family);
 }
 .toolbarContainer {
@@ -15,4 +15,5 @@
 	display: flex;
 	justify-content: flex-end;
 	flex: auto;
+	margin-right: 60px;
 }

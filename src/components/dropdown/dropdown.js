@@ -1,24 +1,22 @@
 import { h, Component, toChildArray, createRef } from 'preact'
 import { Button } from '../button/button'
+import { classnames } from '../../utils/classnames'
 import styles from './dropdown.css'
 
 export class Dropdown extends Component {
 	state = {
-		isOpen: false,
-		selected: 'Choose item'
+		isOpen: false
 	}
 	buttonRef = createRef()
+	buttonRef2 = createRef()
+	ulRef = createRef()
 
-	constructor(props) {
-		super(props)
-		if (props.selected) {
-			this.state.selected = props.selected
-		}
-	}
-
-	close = event => {
-		if (event.target === this.buttonRef.current) {
-			// Let toggleOpen handle it instead
+	close = ev => {
+		if (ev && (ev.target === this.buttonRef.current ||
+				ev.target === this.buttonRef2.current ||
+				this.ulRef.current.contains(ev.target))) {
+			// Let toggleOpen or selectItem handle it instead
+			ev.preventDefault()
 			return
 		}
 		this.setState({ isOpen: false })
@@ -33,10 +31,10 @@ export class Dropdown extends Component {
 		this.setState({ isOpen: !isOpen })
 	}
 
-	selectItem(item) {
+	selectItem = (index, ev) => {
 		const bubbleUp = this.props.onSelect
 		if (bubbleUp) {
-			bubbleUp(item)
+			bubbleUp(index, ev)
 		}
 		this.close()
 	}
@@ -44,13 +42,37 @@ export class Dropdown extends Component {
 	render() {
 		return (
 			<div class={styles.dropdown}>
-				<Button ref={this.buttonRef} onClick={() => this.toggleOpen()}>
-					{this.state.selected}
+				<Button
+					variant="secondary"
+					ref={this.buttonRef}
+					onClick={this.props.onClick
+						? this.props.onClick
+						: () => this.toggleOpen()}
+				>
+					{this.props.selected || 'Choose item'}
 				</Button>
+				{this.props.icon && 
+					<Button
+						variant="secondary"
+						ref={this.buttonRef2}
+						class={styles.iconButton}
+						onClick={() => this.toggleOpen()}
+					>
+						{this.props.icon}
+					</Button>
+				}
 				{this.state.isOpen &&
-					<ul class={styles.dropdownList}>
-						{toChildArray(this.props.children).map(child =>
-							<li onClick={() => this.selectItem(child)}>{child}</li>
+					<ul
+						ref={this.ulRef}
+						class={classnames(
+							styles.dropdownList,
+							this.props.isRight && styles.dropdownListRight
+						)}
+					>
+						{toChildArray(this.props.children).map((child, index) =>
+							<li onClick={ev => this.selectItem(index, ev)}>
+								{child}
+							</li>
 						)}
 					</ul>
 				}

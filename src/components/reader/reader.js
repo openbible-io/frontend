@@ -1,10 +1,14 @@
-import { h, Component } from 'preact'
+import { h, Component, createRef } from 'preact'
 import { Dropdown } from '../dropdown/dropdown'
 import { getChapter, books, texts } from '../../utils'
-import { onSelectChange, onCopy } from './util/select'
+import { onSelectChange, onCopy, selectedNodes } from './util/select'
 import { renderChildren } from './util/renderer'
-import HighlighterIcon from './icons/highlighter.svg'
+import HighlighterIcon from './icons/fa-highlighter.svg'
 import styles from './reader.css'
+import highlightStyles from './highlights.css'
+import { getLocalHighlights, setLocalHighlight } from '../../utils/highlights'
+
+const highlighterColors = ['red', 'blue', 'gray', 'yellow']
 
 export class Reader extends Component {
 	static defaultProps = {
@@ -14,12 +18,36 @@ export class Reader extends Component {
 	}
 
 	state = {
-		data: null
+		data: null,
+		selectedColor: highlighterColors[0]
 	}
+	divRef = createRef()
 
 	constructor(props) {
 		super(props)
 		this.fetchChapter()
+	}
+
+	componentDidUpdate() {
+		const highlights = getLocalHighlights(this.props.book, this.props.chapter)
+		const it = document.createNodeIterator(this.divRef.current,)
+		let node, highlight
+		while (node = it.nextNode()) {
+			if (node.nodeName === '#text') {
+				const parentNode = node.parentNode
+				const id = parentNode.getAttribute('data-id')
+				if (highlights[id]) {
+					highlight = highlights[id]
+				}
+				if (highlight) {
+					console.log('aha', highlight.toId)
+					this.highlightNode(parentNode, highlight.color)
+					if (id === highlight.toId) {
+						highlight = undefined
+					}
+				}
+			}
+		}
 	}
 
 	fetchChapter = () => {
@@ -44,6 +72,31 @@ export class Reader extends Component {
 		this.fetchChapter()
 	}
 
+	// Add highlight class
+	highlightNode(node, color) {
+		node.classList.add(highlightStyles[color])
+	}
+
+	onHighlight = () => {
+		const containedNodes = selectedNodes
+			.filter(node => this.divRef.current.contains(node))
+
+		containedNodes.map(node => this.highlightNode(node, this.state.selectedColor))
+		// Save locally
+		const ids = containedNodes
+			.map(node => node.getAttribute('data-id'))
+			.filter(Boolean)
+		const fromId = ids[0]
+		const toId = ids[ids.length - 1]
+		setLocalHighlight(
+			this.props.book,
+			this.props.chapter,
+			fromId,
+			toId,
+			this.state.selectedColor
+		)
+	}
+ 
 	render() {
 		const style = this.props.style || {}
 		const width = this.props.width
@@ -73,12 +126,26 @@ export class Reader extends Component {
 						</select>
 					</nav>
 					<div class={styles.toolbar}>
-						<button>
-							<HighlighterIcon width="16px" />
-						</button>
+						<Dropdown
+							isRight
+							icon="▼"
+							selected={<HighlighterIcon width="14px" style={`fill: ${this.state.selectedColor};`} />}
+							onSelect={index => {
+								const selectedColor = highlighterColors[index]
+								this.state.selectedColor = selectedColor
+								this.setState({ selectedColor })
+								this.onHighlight()
+							}}
+							onClick={this.onHighlight}
+						>
+							{highlighterColors.map(color =>
+								<HighlighterIcon value={color} width="16px" style={`fill: ${color};`} />
+							)}
+						</Dropdown>
 					</div>
 				</div>
 				<div
+					ref={this.divRef}
 					onMouseUp={onSelectChange}
 					onKeyUp={onSelectChange}
 					class={styles.reader}

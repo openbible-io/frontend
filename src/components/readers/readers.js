@@ -1,5 +1,5 @@
 import { h, Component, createRef, Fragment } from 'preact'
-import { Reader } from './reader'
+import { Reader } from '../reader/reader'
 import styles from './readers.css'
 
 /*
@@ -49,7 +49,7 @@ export class Readers extends Component {
 		return (
 			<Fragment>
 				{this.state.readers.map((reader, index) => (
-					<Fragment>
+					<Fragment key={index}>
 						<Reader
 							book={reader.book}
 							chapter={reader.chapter}
