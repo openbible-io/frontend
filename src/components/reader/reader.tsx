@@ -1,18 +1,15 @@
-import { h, Component, createRef } from 'preact'
-import { Button } from '../button/button'
-import { Dropdown } from '../dropdown/dropdown'
-import { getChapter, books, texts, BookNames } from '../../utils'
-import { ParagraphType, VerseType, NoteType } from '../../utils/books'
+import { h } from 'preact'
+import { useState, useRef, useEffect } from 'preact/hooks'
+import { getChapter, books, texts, BookNames, useLocalStorage, subscribe, visitParagraphs } from '../../utils'
+import { ParagraphType, NoteType } from '../../utils/books'
 import { getLocalHighlights, setLocalHighlight, Highlight } from '../../utils/highlights'
 import { onSelectChange, onCopy, selectedNodes, getRange } from '../paragraphs/select'
 import { NoteContext } from '../paragraphs/versenotecontext'
 import { Paragraphs } from '../paragraphs/paragraphs'
-import { setLocalNote, getLocalNotes, SavedNote } from '../../utils/notes'
-import HighlighterIcon from '../../icons/fa-highlighter.svg'
-import AddCommentIcon from '../../icons/md-add-comment.svg'
+import { setLocalNote, getLocalNotes } from '../../utils/notes'
 import styles from './reader.css'
-
-const highlighterColors = ['red', 'blue', 'gray', 'yellow']
+import { defaultSettings } from '../../pages'
+// import { onAddNote } from '../../actions/onAddNote'
 
 export interface ReaderProps {
 	text: string;
@@ -25,54 +22,23 @@ export interface ReaderProps {
 	onNavChange?: (text: string, book: BookNames, chapter: number) => void
 }
 
-interface ReaderState {
-	paragraphs?: ParagraphType[];
-	selectedColor: string;
-}
+export function Reader(props = {
+	book: books.GEN.name,
+	chapter: 1,
+	text: Object.keys(texts)[0]
+} as ReaderProps) {
+	const [paragraphs, setParagraphs] = useState([] as ParagraphType[])
+  const [config,] = useLocalStorage('settings', defaultSettings);
+	const divRef = useRef<HTMLDivElement>()
 
-export class Reader extends Component<ReaderProps, ReaderState> {
-	static defaultProps = {
-		book: books.GEN,
-		chapter: 1,
-		text: Object.keys(texts)[0]
-	}
-
-	state = {
-		paragraphs: [],
-		selectedColor: highlighterColors[0]
-	} as ReaderState
-
-	divRef = createRef()
-
-	visit(
-		verse: ParagraphType | VerseType,
-		visitor: (verse: VerseType) => void
-	) {
-		visitor(verse)
-		if (Array.isArray(verse.v)) {
-			(verse as ParagraphType).v.forEach(v => this.visit(v, visitor))
-		}
-	}
-
-	visitParagraphs(
-		paragraphs: ParagraphType[] | undefined,
-		visitor: (verse: VerseType) => void
-	) {
-		if (!paragraphs) {
-			return
-		}
-		paragraphs.forEach(p => this.visit(p, visitor))
-	}
-
-	constructor(props: ReaderProps) {
-		super(props)
-		this.fetchChapter(props.text, props.book, props.chapter)
+	useEffect(() => {
+		getChapter(props.text, props.book, props.chapter)
 			.then(paragraphs => {
-				const highlights = getLocalHighlights(this.props.book, this.props.chapter)
-				const notes = getLocalNotes(this.props.book, this.props.chapter)
+				const highlights = getLocalHighlights(props.book, props.chapter)
+				const notes = getLocalNotes(props.book, props.chapter)
 				let highlight: Highlight | undefined
 				let note: NoteType | undefined
-				this.visitParagraphs(paragraphs, verse => {
+				visitParagraphs(paragraphs, verse => {
 					if (!highlight) {
 						highlight = highlights[verse.id]
 					}
@@ -100,102 +66,60 @@ export class Reader extends Component<ReaderProps, ReaderState> {
 						}
 					}
 				})
-				this.setState({ paragraphs })
+				setParagraphs(paragraphs)
+				subscribe('ADD_NOTE', () => onAddNote(paragraphs))
 			})
-	}
+	}, [])
 
-	fetchChapter(text: string, book: string, chapter: number) {
-		return getChapter(text, book, chapter)
+	const onNavChange = (text: string, book: BookNames, chapter: number) => {
+		getChapter(text, book, chapter)
 			.then(paragraphs => {
-				this.setState({ paragraphs })
-				this.divRef.current.scrollTop = 0
-				return paragraphs
+				setParagraphs(paragraphs)
+				if (divRef.current) {
+					divRef.current.scrollTop = 0
+				}
 			})
-	}
-
-	onNavChange(text: string, book: BookNames, chapter: number) {
-		this.fetchChapter(text, book, chapter)
-		if (this.props.onNavChange) {
-			this.props.onNavChange(text, book, chapter)
+		if (props.onNavChange) {
+			props.onNavChange(text, book, chapter)
 		}
 	}
 
-	onBookChange = (ev: any) => {
+	const onBookChange = (ev: any) => {
 		const book = ev.target.value as BookNames
-		let chapter = this.props.chapter
+		let chapter = props.chapter
 		if (chapter > books[book].chapters)
 			chapter = books[book].chapters
-		this.onNavChange(this.props.text, book, chapter)
+		onNavChange(props.text, book, chapter)
 	}
 
-	onChapterChange = (ev: any) => {
-		this.onNavChange(this.props.text, this.props.book, ev.target.value)
+	const onChapterChange = (ev: any) => {
+		onNavChange(props.text, props.book, ev.target.value)
 	}
 
-	onTextChange = (ev: any) => {
-		this.onNavChange(ev.target.value, this.props.book, this.props.chapter)
+	const onTextChange = (ev: any) => {
+		onNavChange(ev.target.value, props.book, props.chapter)
 	}
 
-	getSelectedNodes = () => {
+	const getSelectedNodes = () => {
 		if (!getRange()) {
 			return
 		}
-		const containedNodes = selectedNodes
-			.filter(node => this.divRef.current.contains(node))
-
-		const ids = containedNodes
+		const ids = selectedNodes
+			.filter(node => divRef.current && divRef.current.contains(node))
 			.map(node => (node as Element).getAttribute('data-id'))
 			.filter(Boolean)
 		return {
-			containedNodes,
 			fromId: ids[0],
 			toId: ids[ids.length - 1]
 		}
 	}
 
-	onHighlight = (color: string) => {
-		const selected = this.getSelectedNodes()
-		if (!selected) {
-			return
-		}
-
-		const paragraphs = this.state.paragraphs
-		if (selected.fromId && selected.toId) {
+	const onAddNote = (paragraphs: ParagraphType[]) => {
+		const selected = getSelectedNodes()
+		if (selected && selected.fromId && selected.toId) {
 			const fromId = +selected.fromId
 			const toId = +selected.toId
-			this.visitParagraphs(paragraphs, verse => {
-				if (verse.id >= fromId && verse.id <= toId) {
-					verse.highlight = color
-				}
-			})
-			this.setState({ paragraphs })
-
-			// Save locally
-			setLocalHighlight(
-				this.props.book,
-				this.props.chapter,
-				selected.fromId,
-				selected.toId,
-				color
-			)
-			const selection = document.getSelection()
-			if (selection) {
-				selection.removeAllRanges()
-			}
-		}
-	}
-
-	onNoteAdd = () => {
-		const selected = this.getSelectedNodes()
-		if (!selected) {
-			return
-		}
-
-		const paragraphs = this.state.paragraphs
-		if (selected.fromId && selected.toId) {
-			const fromId = +selected.fromId
-			const toId = +selected.toId
-			this.visitParagraphs(paragraphs, v => {
+			visitParagraphs(paragraphs, v => {
 				if (v.id >= fromId && v.id <= toId) {
 					v.noted = selected.fromId
 				}
@@ -203,31 +127,57 @@ export class Reader extends Component<ReaderProps, ReaderState> {
 					v.note = { fromId, toId, note: '', isFormOpen: true }
 				}
 			})
-			this.setState({ paragraphs })
 
-			const selection = document.getSelection()
-			if (selection) {
-				selection.removeAllRanges()
-			}
+			setParagraphs(Object.assign([], paragraphs))
 		}
 	}
 
-	onNoteSubmit = (note: NoteType) => {
+	// const onHighlight = (color: string) => {
+	// 	const selected = getSelectedNodes()
+	// 	if (!selected) {
+	// 		return
+	// 	}
+
+	// 	if (selected.fromId && selected.toId) {
+	// 		const fromId = +selected.fromId
+	// 		const toId = +selected.toId
+	// 		visitParagraphs(paragraphs, verse => {
+	// 			if (verse.id >= fromId && verse.id <= toId) {
+	// 				verse.highlight = color
+	// 			}
+	// 		})
+	// 		setParagraphs(Object.assign([], paragraphs))
+
+	// 		// Save locally
+	// 		setLocalHighlight(
+	// 			props.book,
+	// 			props.chapter,
+	// 			selected.fromId,
+	// 			selected.toId,
+	// 			color
+	// 		)
+	// 		const selection = document.getSelection()
+	// 		if (selection) {
+	// 			selection.removeAllRanges()
+	// 		}
+	// 	}
+	// }
+
+	const onNoteSubmit = (note: NoteType) => {
 		setLocalNote(
-			this.props.book,
-			this.props.chapter,
+			props.book,
+			props.chapter,
 			note.fromId + '',
 			note.toId + '',
 			note.note
 		)
-		this.setState({ paragraphs: this.state.paragraphs })
+		setParagraphs(Object.assign([], paragraphs))
 	}
 
-	onNoteRemove = (note: NoteType) => {
+	const onNoteRemove = (note: NoteType) => {
 		const fromId = +note.fromId
 		const toId = +note.toId
-		const paragraphs = this.state.paragraphs
-		this.visitParagraphs(paragraphs, v => {
+		visitParagraphs(paragraphs, v => {
 			if (v.id >= fromId && v.id <= toId) {
 				delete v.noted
 			}
@@ -235,86 +185,58 @@ export class Reader extends Component<ReaderProps, ReaderState> {
 				delete v.note
 			}
 		})
-		this.setState({ paragraphs })
+		setParagraphs(Object.assign([], paragraphs))
 	}
 
-	render() {
-		const selectedColor = this.state.selectedColor
-		const style = this.props.style || {}
-		return (
-			<article class={styles.article} style={style}>
-				<div class={styles.toolbarContainer}>
-					<nav>
-						<select name="book" value={this.props.book} onChange={this.onBookChange}>
-							{Object.entries(books).map(([key, val]) =>
-								<option value={key} key={key}>{val.name}</option>
-							)}
-						</select>
-						<select name="chapter" value={this.props.chapter} onChange={this.onChapterChange}>
-							{Array.apply(null, Array(books[this.props.book].chapters))
-								.map((_el: unknown, i: number) =>
-									<option value={i + 1} key={i}>{i + 1}</option>
-							)}
-						</select>
-						<select name="text" value={this.props.text} onChange={this.onTextChange}>
-							{Object.entries(texts).map(([key, val]) => 
-								<option value={key} key={key}>{key}</option>
-							)}
-						</select>
-					</nav>
-					<div class={styles.toolbar}>
-						<Button variant="secondary" onClick={this.onNoteAdd}>
-							<AddCommentIcon height="12px" style="fill: #5f6368;" />
-						</Button>
-						<Dropdown
-							isRight
-							icon="▼"
-							selected={<HighlighterIcon height="12px" style="fill: #5f6368;" />}
-							onSelect={(index: number) => {
-								this.setState({ selectedColor: highlighterColors[index] })
-								this.onHighlight(highlighterColors[index])
-							}}
-							onClick={() => this.onHighlight(selectedColor)}
-							style={{ borderBottom: `4px solid ${this.state.selectedColor}` }}
-						>
-							{highlighterColors.map(color =>
-								<HighlighterIcon value={color} height="12px" style={`fill: ${color};`} />
-							)}
-						</Dropdown>
-					</div>
-					<div>
-						<Button
-							variant="secondary"
-							onClick={this.props.onAddReader}
-							class={styles.windowButton}
-						>
-							+
-						</Button>
-						<Button
-							variant="secondary"
-							onClick={this.props.onCloseReader}
-							class={styles.windowButton}
-						>
-							x
-						</Button>
-					</div>
+	const style = props.style || {}
+	return (
+		<article class={styles.article} style={style}>
+			<div class={styles.navContainer}>
+				<nav>
+					<select name="book" value={props.book} onChange={onBookChange}>
+						{Object.entries(books).map(([key, val]) =>
+							<option value={key} key={key}>{val.name}</option>
+						)}
+					</select>
+					<select name="chapter" value={props.chapter} onChange={onChapterChange}>
+						{Array.apply(null, Array(books[props.book].chapters))
+							.map((_el: unknown, i: number) =>
+								<option value={i + 1} key={i}>{i + 1}</option>
+						)}
+					</select>
+					<select name="text" value={props.text} onChange={onTextChange}>
+						{Object.entries(texts).map(([key, val]) => 
+							<option value={key} key={key}>{key}</option>
+						)}
+					</select>
+				</nav>
+				<div>
+					<button
+						onClick={props.onAddReader}
+						class={styles.windowButton}
+					>
+						+
+					</button>
+					<button
+						onClick={props.onCloseReader}
+						class={styles.windowButton}
+					>
+						x
+					</button>
 				</div>
-				<div
-					ref={this.divRef}
-					onMouseUp={onSelectChange}
-					onKeyUp={onSelectChange}
-					class={styles.reader}
-					onCopy={onCopy}
-					tabIndex={0}
-				>
-					<NoteContext.Provider value={{
-						onNoteSubmit: this.onNoteSubmit,
-						onNoteRemove: this.onNoteRemove,
-					}}>
-						<Paragraphs	paragraphs={this.state.paragraphs} />
-					</NoteContext.Provider>
-				</div>
-			</article>
-		)
-	}
+			</div>
+			<div
+				ref={divRef}
+				onMouseUp={onSelectChange}
+				onKeyUp={onSelectChange}
+				class={styles.reader}
+				onCopy={(ev: any) => onCopy(ev, config)}
+				tabIndex={0}
+			>
+				<NoteContext.Provider value={{ onNoteSubmit, onNoteRemove }}>
+					<Paragraphs	paragraphs={paragraphs} />
+				</NoteContext.Provider>
+			</div>
+		</article>
+	)
 }

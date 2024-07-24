@@ -71,7 +71,7 @@ module.exports = (_env, argv) => {
 					]
 				},
 				{
-					test: /fonts\/.*\.(woff(2)?|ttf|eot)(\?v=\d+\.\d+\.\d+)?$/,
+					test: /.(woff(2)?|ttf|eot)(\?v=\d+\.\d+\.\d+)?$/,
 					use: [
 						{
 							loader: 'file-loader',
@@ -100,18 +100,17 @@ module.exports = (_env, argv) => {
 			new CopyPlugin([{ from: 'static', to: 'static' }]),
 			...(isDev
 				? [
-					// new ForkTsCheckerWebpackPlugin({
-					// 	async: false,
-					// 	checkSyntacticErrors: true,
-					// }),
+					new ForkTsCheckerWebpackPlugin({
+						async: false,
+						checkSyntacticErrors: true,
+					}),
 				]
 				: [
 					new CleanWebpackPlugin(),
 					new SizePlugin(),
-					// new BundleAnalyzerPlugin(),
+					new BundleAnalyzerPlugin(),
 				]
 			),
-
 		],
 		optimization: {
 			splitChunks: {
@@ -124,6 +123,7 @@ module.exports = (_env, argv) => {
 					}
 				},
 			},
+			minimize: false,
 			runtimeChunk: 'single',
 		},
 		stats: 'minimal',

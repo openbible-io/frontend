@@ -1,4 +1,4 @@
-import { getLocalSetting } from '../../utils/settings'
+import { SettingsType } from "../../pages"
 
 // Handles selecting anywhere in <article> of <Reader>
 export const selectedNodes: Node[] = []
@@ -97,9 +97,9 @@ export function onDoubleClickVerseNumber(ev: any) {
   ev.preventDefault()
 }
 
-export function onCopy(ev: any) {
+export function onCopy(ev: any, config: SettingsType) {
 	const range = getRange()
-	if (!range || getLocalSetting('selectVerseNums') === 'default') {
+	if (!range || config.selectVerseNums === 'default') {
 		return
 	}
 	let toCopy = ''

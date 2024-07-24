@@ -12,7 +12,3 @@ export function loadLocalCSSVars() {
     rootElement.style.setProperty(cssVar, localStorage.getItem(`css-${cssVar}`))
   })
 }
-
-export function setLocalCSSVar(cssVar: string, value: string) {
-  localStorage.setItem(`css-${cssVar}`, value)
-}

@@ -1,23 +1,23 @@
-import { h, render, Component } from 'preact'
+import { h, render } from 'preact'
+import { useEffect } from 'preact/hooks'
 import Router from 'preact-router'
 import { Home, About, Settings } from './pages'
 import { loadLocalCSSVars } from './utils/cssVars'
 import './app.css'
 
-class App extends Component {
-	componentWillMount() {
-		loadLocalCSSVars()
-	}
+function App() {
+	useEffect(loadLocalCSSVars, [])
 
-	render() {
-		return (
-			<Router>
-				<Home path="/" />
-				<About path="/about" />
-				<Settings path="/settings" />
-			</Router>
-		)
-	}
+	return (
+		<Router>
+			<Home path="/" />
+			<About path="/about" />
+			<Settings path="/settings" />
+		</Router>
+	)
 }
 
-render(<App />, document.getElementById('root') as HTMLElement)
+render(
+	<App />,
+	document.getElementById('root') as HTMLElement
+)

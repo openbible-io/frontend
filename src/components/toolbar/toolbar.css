@@ -1,0 +1,5 @@
+.toolbar {
+	padding-left: var(--reader-padding);
+	display: flex;
+	flex-wrap: wrap;
+}

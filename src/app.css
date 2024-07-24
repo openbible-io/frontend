@@ -89,6 +89,7 @@ th:not([align]) {
   --primary-theme-color: #0b8dc4;
   --primary-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
   --secondary-font-family: "Sentinel A", "Sentinel B", "Gentium Plus", "Ezra", Georgia, Times, serif;
+  --reader-padding: 1rem;
 }
 html,
 body {

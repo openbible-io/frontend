@@ -16,19 +16,14 @@
 	overflow-y: auto;
 	min-height: 0;
 	font-family: "Libre Baskerville" "Sentinel A", "Sentinel B", "Gentium Plus", "Ezra", Georgia, Times, serif;
-	padding: 1rem;
+	padding: var(--reader-padding);
 }
-.toolbarContainer {
+.navContainer {
 	display: flex;
 	flex-wrap: wrap;
 	/* Safari */
 	flex-shrink: 0;
-}
-.toolbar {
-	display: flex;
-	justify-content: flex-end;
-	flex: auto;
-	margin-right: 22px;
+	padding-left: var(--reader-padding);
 }
 .windowButton {
 	padding: 0 .3rem;
