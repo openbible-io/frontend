@@ -10,7 +10,7 @@
 	width: 100%;
 }
 
-@container reader-nav (width > 19em) {
+@container reader-nav (width > 18rem) {
 	.dropdown {
 		display: none;
 	}

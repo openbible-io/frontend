@@ -102,7 +102,7 @@ export function Reader(props: ReaderProps) {
 			const next = nextBookChapter(last.vbc, props.indices[props.vbc.version].books, 1);
 			if (!next) return;
 			const vbc: VersionBookChapter = { version: last.vbc.version, ...next };
-			setVbcs(existing => [...existing, { vbc, loaded: false }].slice(maxLoaded));
+			setVbcs(existing => [...existing, { vbc, loaded: false }].slice(-maxLoaded));
 		}
 
 		if (target.scrollTop <= 300 && target.scrollTop < lastScroll) {
@@ -112,7 +112,7 @@ export function Reader(props: ReaderProps) {
 			const newPrev = nextBookChapter(first.vbc, books(version), -1);
 			if (!newPrev) return;
 			const vbc: VersionBookChapter = { version: first.vbc.version, ...newPrev };
-			setVbcs(existing => [{ vbc, loaded: false }, ...existing].slice(-maxLoaded));
+			setVbcs(existing => [{ vbc, loaded: false }, ...existing].slice(0, maxLoaded));
 		}
 		lastScroll = target.scrollTop;
 	}
