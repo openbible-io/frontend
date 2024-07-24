@@ -1,7 +1,28 @@
 .sup {
   padding-left: 0.25rem;
   padding-right: 0.0625rem;
+  user-select: none;
 }
 .p {
   text-indent: var(--primary-text-indent);
+}
+/* Q for poetry */
+.q {
+  /* How far word-wrapped lines are indented */
+  padding-left: 6rem;
+  text-indent: -4rem;
+}
+.qcol {
+  /* How far word-wrapped lines are indented */
+  padding-left: 6rem;
+  text-indent: -6rem;
+}
+/* Long enough for 3-digit verse number (PSA 117) */
+/* .qcol > sup {
+  width: 1.75rem;
+  display: inline-block;
+  margin-left: 1.75rem;
+} */
+.d {
+  font-style: italic;
 }

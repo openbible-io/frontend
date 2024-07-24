@@ -5,7 +5,10 @@ export const About = () => (
 	<Fragment>
 		<Nav />
 		<main>
-			About
+			<h1>About</h1>
+			<p>
+				This is a site that renders open source UnfoldingWord translations.
+			</p>
 		</main>
 	</Fragment>
 )

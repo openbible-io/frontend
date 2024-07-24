@@ -5,4 +5,5 @@
 .reader {
 	overflow-y: auto;
 	min-height: 0px;
+  font-family: var(--secondary-font-family);
 }

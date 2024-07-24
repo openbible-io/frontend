@@ -70,7 +70,7 @@ export class Settings extends Component {
               <div>Item 2</div>
               <div>Item 3</div>
             </Dropdown>
-            <Reader book="GEN" chapter={1} />
+            <Reader book="PSA" chapter={119} />
           </div>
         </main>
       </Fragment>

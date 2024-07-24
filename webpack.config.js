@@ -50,7 +50,8 @@ module.exports = (_env, argv) => {
 									localIdentName: isDev ? '[path][name]__[local]' : 'css-[hash:base64:5]',
 								},
 							},
-						}
+						},
+						'postcss-loader',
 					]
 				},
 				{

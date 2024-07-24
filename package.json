@@ -28,13 +28,14 @@
     "core-js": "^3.5.0",
     "preact": "^10.1.0",
     "preact-router": "^3.1.0",
-    "usfm2json": "^0.0.19"
+    "usfm2json": "^0.0.20"
   },
   "devDependencies": {
     "@babel/core": "^7.7.5",
     "@babel/plugin-proposal-class-properties": "^7.7.4",
     "@babel/plugin-transform-react-jsx": "^7.7.4",
     "@babel/preset-env": "^7.7.6",
+    "autoprefixer": "^9.7.3",
     "babel-loader": "^8.0.6",
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^5.1.1",
@@ -43,6 +44,7 @@
     "glob": "^7.1.6",
     "html-webpack-plugin": "^3.2.0",
     "mini-css-extract-plugin": "^0.8.0",
+    "postcss-loader": "^3.0.0",
     "preact-svg-loader": "^0.2.1",
     "shx": "^0.3.2",
     "size-plugin": "^2.0.1",

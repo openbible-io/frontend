@@ -9,7 +9,7 @@ export class Readers extends Component {
 	state = {
 		readers: [
 			{ book: 'GEN', chapter: 4, readerRef: createRef() },
-			{ book: 'LUK', chapter: 3, readerRef: createRef() },
+			{ book: 'PSA', chapter: 119, readerRef: createRef() },
 		]
 	}
 	preMoveMouseWidths
