@@ -62,6 +62,7 @@ export class Nav extends Component {
 						</a>
 					</div>
 
+					{/* Eventually we need to add this functionality
 					<div className="navbar-end">
 						<div className="navbar-item">
 							<div className="buttons">
@@ -73,7 +74,7 @@ export class Nav extends Component {
 								</a>
 							</div>
 						</div>
-					</div>
+					</div> */}
 				</div>
 			</nav>
 		);

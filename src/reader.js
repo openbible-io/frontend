@@ -1,5 +1,5 @@
 import { h, Component } from 'preact'
-import { getChapter, books } from './helpers'
+import { getChapter, books, renderChildren } from './helpers'
 
 export class Reader extends Component {
 	static defaultProps = {
@@ -9,25 +9,29 @@ export class Reader extends Component {
 	}
 
 	state = {
-		book: null
+		data: null
 	}
 
 	constructor(props) {
 		super(props)
-		getChapter(props.text, props.book, props.chapter)
-			.then(res => this.setState({ book: res }))
+		this.fetchChapter()
 	}
 
-	onBookChange = event => {
-		this.props.book = event.target.value
+	fetchChapter = () => {
 		getChapter(this.props.text, this.props.book, this.props.chapter)
-			.then(res => this.setState({ book: res }))
+			.then(res => this.setState({ data: res }))
 	}
 
-	onChapterChange = event => {
-		this.props.chapter = event.target.value
-		getChapter(this.props.text, this.props.book, this.props.chapter)
-			.then(res => this.setState({ book: res }))
+	onBookChange = e => {
+		this.props.book = e.target.value
+		if (this.props.chapter > books[this.props.book].chapters)
+			this.props.chapter = books[this.props.book].chapters
+		this.fetchChapter()
+	}
+
+	onChapterChange = e => {
+		this.props.chapter = e.target.value
+		this.fetchChapter()
 	}
 
 	render() {
@@ -45,7 +49,7 @@ export class Reader extends Component {
 					)}
 				</select>
 				<br />
-				{JSON.stringify(this.state.book)}
+				{this.state.data && renderChildren(this.state.data.chapter.children)}
 			</article>
 		);
 	}
