@@ -37,14 +37,20 @@ export class Reader extends Component {
 	}
 
 	render() {
+		const style = this.props.style || {}
+		const width = this.props.width
+		if (width) {
+			style.width = width;
+		}
 		return (
-			<article class={styles.article} style={{ width: this.props.width }}>
+			<article class={styles.article} style={style}>
 				<nav>
-					<Dropdown>
-						<Fragment>A</Fragment>
-						<Fragment>B</Fragment>
-					</Dropdown>
-					{/* <select name="book" value={this.props.book} onChange={this.onBookChange}>
+					{/* <Dropdown selected={this.props.book}>
+						{Object.entries(books).map(([key, val]) =>
+							<Fragment key={key}>{val.name}</Fragment>
+						)}
+					</Dropdown> */}
+					<select name="book" value={this.props.book} onChange={this.onBookChange}>
 						{Object.entries(books).map(([key, val]) =>
 							<option value={key} key={key}>{val.name}</option>
 						)}
@@ -55,7 +61,7 @@ export class Reader extends Component {
 							.map(i =>
 								<option value={i + 1} key={i}>{i + 1}</option>
 						)}
-					</select> */}
+					</select>
 				</nav>
 				<div class={styles.reader}>
 					{renderChildren(this.state.data)}

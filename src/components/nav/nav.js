@@ -9,13 +9,15 @@ export function Nav() {
 			<nav class={styles.navbarGrow}>
 				<ul class={styles.navbar}>
 					<li><Link class={styles.navbarBrand} href="/">Open Bible</Link></li>
-					<li><Link href="/study">Study</Link></li>
 					<li><Link href="/about">About</Link></li>
-					<li><a target="_blank" href={bugs.url}>Report an issue</a></li>
 				</ul>
 			</nav>
-			<div>
-				<form>
+			<div style={{ display: 'flex' }}>
+				<ul class={styles.navbar}>
+					<li><Link href="/settings">Settings</Link></li>
+					<li><a target="_blank" href={bugs.url}>Report an issue</a></li>
+				</ul>
+				<form class={styles.form}>
 					<input placeholder="Search"></input>
 				</form>
 			</div>

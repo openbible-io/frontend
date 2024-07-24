@@ -17,6 +17,9 @@ module.exports = (_env, argv) => {
 			filename: '[name].[contenthash:8].bundle.js'
 		},
 		devtool: isDev ? 'cheap-module-source-map' : 'source-map',
+		devServer: {
+			historyApiFallback: true,
+		},
 		module: {
 			rules: [
 				{

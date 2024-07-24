@@ -10,7 +10,8 @@
 	flex-wrap: wrap;
 }
 .navbar > li {
-	margin-left: 6px;
+	margin-left: 3px;
+	margin-right: 3px;
 }
 .navbarGrow {
 	display: flex;
@@ -21,4 +22,7 @@
 	color: var(--primary-theme-color);
 	font-weight: 700;
 	margin-right: .5rem;
+}
+.form {
+	margin-left: 3px;
 }

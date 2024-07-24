@@ -4,9 +4,17 @@ import styles from './dropdown.css'
 
 export class Dropdown extends Component {
 	state = {
-		isOpen: false
+		isOpen: false,
+		selected: 'Choose item'
 	}
 	buttonRef = createRef()
+
+	constructor(props) {
+		super(props)
+		if (props.selected) {
+			this.state.selected = props.selected
+		}
+	}
 
 	close = event => {
 		if (event.target === this.buttonRef.current) {
@@ -36,7 +44,9 @@ export class Dropdown extends Component {
 	render() {
 		return (
 			<div class={styles.dropdown}>
-				<Button ref={this.buttonRef} onClick={() => this.toggleOpen()}>Really long thing haha</Button>
+				<Button ref={this.buttonRef} onClick={() => this.toggleOpen()}>
+					{this.state.selected}
+				</Button>
 				{this.state.isOpen &&
 					<ul class={styles.dropdownList}>
 						{toChildArray(this.props.children).map(child =>

@@ -82,8 +82,14 @@ th:not([align]) {
 
 /* Site styles */
 :root {
-  --main-text-color: #3b4351;
+  --primary-text-color: #3b4351;
   --primary-theme-color: #5755d9;
+  --primary-font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+}
+:global(#root) {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 main {
   display: flex;
@@ -91,14 +97,10 @@ main {
 }
 html,
 body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+  font-family: var(--primary-font-stack);
+  color: var(--primary-text-color);
   line-height: 1.5;
-  color: var(--main-text-color);
   text-rendering: optimizeLegibility;
   height: 100%;
 }
-:global(#root) {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
+

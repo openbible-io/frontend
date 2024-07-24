@@ -1,14 +1,23 @@
-import { h, render, Fragment } from 'preact'
-import { Nav, Readers } from './components'
+import { h, render, Component } from 'preact'
+import Router from 'preact-router'
+import { Home, About, Settings } from './pages'
+import { loadLocalCSSVars } from './utils/cssVars'
 import './app.css'
 
-const App = (
-	<Fragment>
-		<Nav />
-		<main>
-			<Readers />
-		</main>
-	</Fragment>
-)
+class App extends Component {
+	componentWillMount() {
+		loadLocalCSSVars()
+	}
 
-render(App, document.getElementById('root'))
+	render() {
+		return (
+			<Router>
+				<Home path="/" />
+				<About path="/about" />
+				<Settings path="/settings" />
+			</Router>
+		)
+	}
+}
+
+render(<App />, document.getElementById('root'))
