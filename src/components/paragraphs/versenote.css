@@ -2,6 +2,12 @@
   cursor: pointer;
 }
 .textarea {
-  margin-top: .2rem;
+  display: block;
   width: 100%;
+}
+.textareaContainer {
+  margin: .2rem .2rem 0 .2rem;
+}
+.form {
+  text-indent: 0;
 }

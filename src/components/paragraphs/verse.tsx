@@ -8,7 +8,11 @@ import { VerseNote } from './versenote'
 
 let lastVerse: VerseType
 const startPunct = /['"“‘\[\(\-]/
-const endPunct = /['".”’,?!:;\]\)]/
+const endPunct = /['".”’,?!:;\]\)\-]/
+const suffixes = [
+  's', // Possesion like "Pharaoh’s"
+  'th', // Number like "480th year"
+]
 
 interface VerseProps {
   verse: VerseType;
@@ -17,10 +21,13 @@ interface VerseProps {
 export function Verse(props: VerseProps) {
   const verse = props.verse
   const color = verse.highlight && highlightStyles[verse.highlight]
-  let prependSpace = verse.t === 'w' || verse.t === 't'
-  if (lastVerse && (lastVerse.n
-      || startPunct.test(lastVerse.v as string)
-      || endPunct.test(verse.v as string))) {
+  let prependSpace = verse.t === 'w' || verse.t === 't' 
+  if (lastVerse && (
+        lastVerse.n
+        || startPunct.test(lastVerse.v as string)
+        || endPunct.test(verse.v as string)
+        || suffixes.includes(verse.v as string)
+    )) {
     prependSpace = false
   }
   const res = (

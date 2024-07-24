@@ -5,7 +5,7 @@ import { getChapter, books, texts, BookNames } from '../../utils'
 import { ParagraphType, VerseType, NoteType } from '../../utils/books'
 import { getLocalHighlights, setLocalHighlight, Highlight } from '../../utils/highlights'
 import { onSelectChange, onCopy, selectedNodes, getRange } from '../paragraphs/select'
-import { NoteContext } from '../paragraphs/notecontext'
+import { NoteContext } from '../paragraphs/versenotecontext'
 import { Paragraphs } from '../paragraphs/paragraphs'
 import { setLocalNote, getLocalNotes, SavedNote } from '../../utils/notes'
 import HighlighterIcon from '../../icons/fa-highlighter.svg'
@@ -223,6 +223,21 @@ export class Reader extends Component<ReaderProps, ReaderState> {
 		this.setState({ paragraphs: this.state.paragraphs })
 	}
 
+	onNoteRemove = (note: NoteType) => {
+		const fromId = +note.fromId
+		const toId = +note.toId
+		const paragraphs = this.state.paragraphs
+		this.visitParagraphs(paragraphs, v => {
+			if (v.id >= fromId && v.id <= toId) {
+				delete v.noted
+			}
+			if (v.id === toId) {
+				delete v.note
+			}
+		})
+		this.setState({ paragraphs })
+	}
+
 	render() {
 		const selectedColor = this.state.selectedColor
 		const style = this.props.style || {}
@@ -293,7 +308,8 @@ export class Reader extends Component<ReaderProps, ReaderState> {
 					tabIndex={0}
 				>
 					<NoteContext.Provider value={{
-						onNoteSubmit: this.onNoteSubmit
+						onNoteSubmit: this.onNoteSubmit,
+						onNoteRemove: this.onNoteRemove,
 					}}>
 						<Paragraphs	paragraphs={this.state.paragraphs} />
 					</NoteContext.Provider>
