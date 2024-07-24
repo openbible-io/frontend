@@ -45,6 +45,18 @@ export class Readers extends Component {
 			document.removeEventListener('mousemove', handler))
 	}
 
+	onAddReader = index => {
+		const newReader = Object.assign({}, this.state.readers[index])
+		newReader.readerRef = createRef()
+		this.state.readers.splice(index, 0, newReader)
+		this.setState({ readers: this.state.readers })
+	}
+
+	onCloseReader = index => {
+		this.state.readers.splice(index, 1)
+		this.setState({ readers: this.state.readers })
+	}
+
 	render() {
 		return (
 			<Fragment>
@@ -54,6 +66,8 @@ export class Readers extends Component {
 							book={reader.book}
 							chapter={reader.chapter}
 							width={`${reader.width * 100}%`}
+							onAddReader={() => this.onAddReader(index)}
+							onCloseReader={() => this.onCloseReader(index)}
 							ref={reader.readerRef}
 						/>
 						{index !== this.state.readers.length - 1 &&

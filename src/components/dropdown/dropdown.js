@@ -45,6 +45,8 @@ export class Dropdown extends Component {
 				<Button
 					variant="secondary"
 					ref={this.buttonRef}
+					class={styles.iconButton}
+					style={this.props.style}
 					onClick={this.props.onClick
 						? this.props.onClick
 						: () => this.toggleOpen()}

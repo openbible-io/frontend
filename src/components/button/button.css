@@ -1,7 +1,11 @@
 .button {
 	padding: .25rem .4rem;
-	border: .05rem solid var(--primary-theme-color);
+	border: none;
+	/* border: .05rem solid var(--primary-theme-color); */
+	border-radius: .1rem;
 	cursor: pointer;
+	font-size: 100%;
+  font-family: inherit;
 }
 .button:focus {
 	box-shadow: 0 0 0 .1rem rgba(87,85,217,.2);

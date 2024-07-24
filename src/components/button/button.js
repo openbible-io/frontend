@@ -7,6 +7,7 @@ export const Button = forwardRef(function Button({
 	variant = "primary",
 	onClick,
 	class: className,
+	style,
 	children,
 }, ref) {
 	return <button
@@ -17,6 +18,7 @@ export const Button = forwardRef(function Button({
 			className
 		)}
 		onClick={onClick}
+		style={style}
 		tabIndex="0"
 	>
 		{children}

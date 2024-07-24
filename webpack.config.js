@@ -76,8 +76,8 @@ module.exports = (_env, argv) => {
 				template: './src/index.html'
 			}),
 			new MiniCssExtractPlugin({
-				filename: '[name].[contenthash:6].css',
-				chunkFilename: '[name].[contenthash:6].css',
+				filename: '[name].[contenthash].css',
+				chunkFilename: '[name].[contenthash].css',
 			}),
 			new webpack.HashedModuleIdsPlugin(),
 			new CopyPlugin([{ from: 'static', to: 'static' }]),

@@ -1,4 +1,5 @@
 import { h, Component, createRef } from 'preact'
+import { Button } from '../button/button'
 import { Dropdown } from '../dropdown/dropdown'
 import { getChapter, books, texts } from '../../utils'
 import { getLocalHighlights, setLocalHighlight } from '../../utils/highlights'
@@ -30,6 +31,9 @@ export class Reader extends Component {
 
 	componentDidUpdate() {
 		const highlights = getLocalHighlights(this.props.book, this.props.chapter)
+		if (Object.keys(highlights).length === 0) {
+			return
+		}
 		const it = document.createNodeIterator(this.divRef.current)
 		let node, highlight
 		while (node = it.nextNode()) {
@@ -98,6 +102,7 @@ export class Reader extends Component {
 	}
  
 	render() {
+		let selectedColor = this.state.selectedColor
 		const style = this.props.style || {}
 		const width = this.props.width
 		if (width) {
@@ -129,19 +134,35 @@ export class Reader extends Component {
 						<Dropdown
 							isRight
 							icon="▼"
-							selected={<HighlighterIcon width="14px" style={`fill: ${this.state.selectedColor};`} />}
+							selected={<HighlighterIcon height="12px" style={'fill: #5f6368;'} />}
 							onSelect={index => {
-								const selectedColor = highlighterColors[index]
-								this.state.selectedColor = selectedColor
+								selectedColor = highlighterColors[index]
 								this.setState({ selectedColor })
 								this.onHighlight()
 							}}
 							onClick={this.onHighlight}
+							style={{ borderBottom: `4px solid ${selectedColor}` }}
 						>
 							{highlighterColors.map(color =>
-								<HighlighterIcon value={color} width="16px" style={`fill: ${color};`} />
+								<HighlighterIcon value={color} height="12px" style={`fill: ${color};`} />
 							)}
 						</Dropdown>
+					</div>
+					<div>
+						<Button
+							variant="secondary"
+							onClick={this.props.onAddReader}
+							class={styles.windowButton}
+						>
+							+
+						</Button>
+						<Button
+							variant="secondary"
+							onClick={this.props.onCloseReader}
+							class={styles.windowButton}
+						>
+							x
+						</Button>
 					</div>
 				</div>
 				<div

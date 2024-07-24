@@ -19,7 +19,7 @@
 .dropdownList > li {
 	display: block;
 	padding: .2rem .8rem;
-	border-radius: .3rem;
+	border-radius: .1rem;
 }
 .dropdownList > li + li {
 	margin-top: .2rem;
@@ -33,5 +33,6 @@
 	right: 0;
 }
 .iconButton {
-	padding: 0;
+	padding: 0 .125rem;
+	font-size: 12px;
 }
