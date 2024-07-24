@@ -1,12 +1,12 @@
 import { h, Component, createRef } from 'preact'
 import { Dropdown } from '../dropdown/dropdown'
 import { getChapter, books, texts } from '../../utils'
+import { getLocalHighlights, setLocalHighlight } from '../../utils/highlights'
 import { onSelectChange, onCopy, selectedNodes } from './util/select'
 import { renderChildren } from './util/renderer'
 import HighlighterIcon from './icons/fa-highlighter.svg'
 import styles from './reader.css'
 import highlightStyles from './highlights.css'
-import { getLocalHighlights, setLocalHighlight } from '../../utils/highlights'
 
 const highlighterColors = ['red', 'blue', 'gray', 'yellow']
 
@@ -30,7 +30,7 @@ export class Reader extends Component {
 
 	componentDidUpdate() {
 		const highlights = getLocalHighlights(this.props.book, this.props.chapter)
-		const it = document.createNodeIterator(this.divRef.current,)
+		const it = document.createNodeIterator(this.divRef.current)
 		let node, highlight
 		while (node = it.nextNode()) {
 			if (node.nodeName === '#text') {
@@ -40,7 +40,6 @@ export class Reader extends Component {
 					highlight = highlights[id]
 				}
 				if (highlight) {
-					console.log('aha', highlight.toId)
 					this.highlightNode(parentNode, highlight.color)
 					if (id === highlight.toId) {
 						highlight = undefined
@@ -95,6 +94,7 @@ export class Reader extends Component {
 			toId,
 			this.state.selectedColor
 		)
+		document.getSelection().removeAllRanges()
 	}
  
 	render() {

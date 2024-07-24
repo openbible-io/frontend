@@ -1,8 +1,8 @@
 import { getLocalSetting } from '../../../utils/settings'
 
 // Handles selecting anywhere in <article> of <Reader>
-const selectableTags = ['SPAN']
 export const selectedNodes = []
+const copyableTags = ['SPAN']
 const copyStyles = {
 	BODY: [
 		'color',
@@ -73,7 +73,7 @@ export function onSelectChange() {
 	selectedNodes.length = 0
 	
 	iterateOverRange(range, node => {
-		if (node.nodeName === '#text' && selectableTags.includes(node.parentNode.nodeName)) {
+		if (node.nodeName === '#text') {
 			selectedNodes.push(node.parentNode)
 		}
 	})
@@ -101,7 +101,7 @@ export function onCopy(ev) {
 	iterateOverRange(range, node => {
 		const parentNode = node.parentNode
 		if (node.nodeName === '#text'
-				&& selectableTags.includes(parentNode.nodeName)) {
+				&& copyableTags.includes(parentNode.nodeName)) {
 			toCopy += node.textContent
 			if (!addedFirstPara) {
 				toCopyHTML += `<p style="${getStyles(parentNode.parentNode)}">`
