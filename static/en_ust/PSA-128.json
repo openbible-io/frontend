@@ -1,91 +1,100 @@
-{
-  "chapter": {
-    "children": [
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "tag": "d",
-        "text": "A psalm written for those going up to the temple to worship."
-      },
-      {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "How fortunate are you who have an awesome respect for him"
-          },
-          {
-            "tag": "q2",
-            "text": "and do what he wants you to do."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "You will be able to enjoy the food you provide yourself with;"
-          },
-          {
-            "tag": "q1",
-            "text": "you will be fortunate and prosperous."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Your wife will be like a grapevine that bears many grapes;"
-          },
-          {
-            "tag": "q2",
-            "text": "she will give birth to many children."
-          },
-          {
-            "tag": "q1",
-            "text": "Your children who sit around your table;"
-          },
-          {
-            "tag": "q1",
-            "text": "you will be like a strong olive tree that has many shoots growing up around it."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Like that, Yahweh will bless every man who has an awesome respect for him."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "I wish that God in his temple on Mount Zion may help you greatly,"
-          },
-          {
-            "tag": "q1",
-            "text": "and that you will see the people of Jerusalem prospering every day that you live!"
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "I wish that you may live many years"
-          },
-          {
-            "tag": "q2",
-            "text": "and that you may have grandchildren and be able to see them."
-          },
-          {
-            "tag": "q1",
-            "text": "I wish that things may go well for people in Israel!"
-          }
-        ],
-        "auto": true
-      }
-    ],
-    "num": 128
+[
+  {
+    "t": "m",
+    "v": []
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 1,
+        "v": "If people are building a house without Yahweh helping them,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "It is also useless to arise very early and go to sleep late at night"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Children are a gift that comes to parents from Yahweh;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "If a man has sons while he is still young,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "How fortunate is a man who has many sons;"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they are building it in vain."
+  },
+  {
+    "t": "q",
+    "v": "Similarly, if Yahweh does not protect a city,"
+  },
+  {
+    "t": "q",
+    "v": "it is useless for guards to stay awake at night."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so that you can work hard all day to earn money to buy food"
+  },
+  {
+    "t": "q",
+    "v": "because Yahweh gives food to those whom he loves even while they sleep."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they are a reward from him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "when they grow up, they will be able to help him defend his family"
+  },
+  {
+    "t": "q",
+    "v": "as a soldier can defend himself if he has a bow and arrows in his hand."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he is like a soldier who has many arrows in his quiver."
+  },
+  {
+    "t": "q",
+    "v": "If a man with his many grown sons is taken by his enemies to the place where they decide matters, his enemies will never be able to defeat that man"
+  },
+  {
+    "t": "q",
+    "v": "because his sons will help to defend him."
+  }
+]

@@ -1,71 +1,77 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Then Bildad the Shuhite answered and said,"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "“Dominion and fear are with him;"
-          },
-          {
-            "tag": "q",
-            "text": "he makes order in his high places of heaven."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Is there any end to the number of his armies?"
-          },
-          {
-            "tag": "q",
-            "text": "Upon whom does his light not shine?"
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "How then can man be righteous with God?"
-          },
-          {
-            "tag": "q",
-            "text": "How can he who is born of a woman be clean, acceptable to him?"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "See, even the moon has no brightness to him;"
-          },
-          {
-            "tag": "q",
-            "text": "the stars are not pure in his sight."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "How much less man, who is a worm—"
-          },
-          {
-            "tag": "q",
-            "text": "a son of man, who is a worm!”"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "Then Bildad the Shuhite answered and said,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "“Dominion and fear are with him;"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Is there any end to the number of his armies?"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "How then can man be righteous with God?"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "See, even the moon has no brightness to him;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "How much less man, who is a worm—"
       }
-    ],
-    "num": 25
+    ]
   },
-  "id": "JOB unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Job",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Job"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he makes order in his high places of heaven."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Upon whom does his light not shine?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "How can he who is born of a woman be clean, acceptable to him?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the stars are not pure in his sight."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "a son of man, who is a worm!”"
+  }
+]

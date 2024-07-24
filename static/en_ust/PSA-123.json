@@ -1,73 +1,148 @@
-{
-  "chapter": {
-    "children": [
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "tag": "d",
-        "text": "A psalm written for people going up to the temple to worship"
-      },
-      {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Yahweh, I look up toward you,"
-          },
-          {
-            "tag": "q2",
-            "text": "up to heaven, from where you rule."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "As servants ask their masters for what they need"
-          },
-          {
-            "tag": "q1",
-            "text": "and as maids ask their mistresses for what they need,"
-          },
-          {
-            "tag": "q2",
-            "text": "we ask you, Yahweh our God, for what we need,"
-          },
-          {
-            "tag": "q2",
-            "text": "until you act mercifully toward us."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Yahweh, act very mercifully toward us"
-          },
-          {
-            "tag": "q2",
-            "text": "because our enemies have acted very contemptuously toward us."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Arrogant people have made fun of us for a long time,"
-          },
-          {
-            "tag": "q2",
-            "text": "and proud people have oppressed us and have acted as though we were worthless."
-          }
-        ],
-        "auto": true
-      }
-    ],
-    "num": 123
+[
+  {
+    "t": "m",
+    "v": []
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 1,
+        "v": "I was glad when people said to me,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "Now we are here,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "We can see that Jerusalem was a carefully built city."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "We people of the tribes of Israel"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "There are the thrones,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Pray that there will be peace in Jerusalem!"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "I pray that there may be peace inside the walls of the city"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "For the sake of my relatives and friends,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "And because I love the temple of Yahweh our God,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "“We should go to the temple of Yahweh in Jerusalem!”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "standing inside the gates of Jerusalem."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Every part of the city was built to fit together"
+  },
+  {
+    "t": "q",
+    "v": "within the city as a whole. "
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "who belong to Yahweh can now go up there,"
+  },
+  {
+    "t": "q",
+    "v": "as Yahweh commanded that we should do,"
+  },
+  {
+    "t": "q",
+    "v": "so we can thank him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the thrones that the kings of Israel sat"
+  },
+  {
+    "t": "q",
+    "v": "when they ruled Israel. "
+  },
+  {
+    "t": "q",
+    "v": "These are the thrones of the descendants of King David."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "“I pray that those who love Jerusalem will succeed in life."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and that people who are inside the palaces may be safe.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "“I pray that people will live peacefully inside Jerusalem.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "“I pray that things will go well for the people who live in Jerusalem.”"
+  }
+]

@@ -1,229 +1,187 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "tag": "toc1",
-        "text": "The Book of Genesis"
+        "t": "v",
+        "n": 1,
+        "v": "In the beginning, God created the heavens and the earth."
       },
       {
-        "tag": "toc2",
-        "text": "Genesis"
+        "t": "v",
+        "n": 2,
+        "v": "The earth was without form and empty. Darkness was upon the surface of the deep. The Spirit of God was moving above the surface of the waters."
       },
       {
-        "tag": "toc3",
-        "text": "Gen"
+        "t": "v",
+        "n": 3,
+        "v": "God said, “Let there be light,” and there was light."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "In the beginning, God created the heavens and the earth. "
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "The earth was without form and empty. Darkness was upon the surface of the deep. The Spirit of God was moving above the surface of the waters."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "God said, “Let there be light,” and there was light."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "God saw the light, that it was good. He divided the light from the darkness."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "God called the light “day,” and the darkness he called “night.” This was evening and morning, the first day. "
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 4,
+        "v": "God saw the light, that it was good. He divided the light from the darkness."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "God said, “Let there be an expanse between the waters, and let it divide the waters from the waters.”"
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "God made the expanse and divided the waters which were under the expanse from the waters which were above the expanse. It was so."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "God called the expanse “sky.” This was evening and morning, the second day."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "God said, “Let the waters under the sky be gathered together to one place, and let the dry land appear.” It was so."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "God called the dry land “earth,” and the gathered waters he called “seas.” He saw that it was good."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "God said, “Let the earth sprout vegetation: plants yielding seed and fruit trees bearing fruit whose seed is in the fruit, each according to its own kind.” It was so."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "The earth produced vegetation, plants producing seed after their kind, and trees bearing fruit whose seed was in it, after their kind. God saw that it was good."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "This was evening and morning, the third day."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "God said, “Let there be lights in the sky to divide the day from the night and let them be as signs, for seasons, for days and years."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "Let them be lights in the sky to give light upon the earth.” It was so."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "God made the two great lights, the greater light to rule the day, and the lesser light to rule the night. He made the stars also."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "God set them in the sky to give light upon the earth,"
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "to rule over the day and over the night, and to divide the light from the darkness. God saw that it was good."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "This was evening and morning, the fourth day."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "God said, “Let the waters be filled with great numbers of living creatures, and let birds fly above the earth in the expanse of the sky.”"
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "God created the great sea creatures, as well as every living creature after its kind, creatures that move and which fill the waters everywhere, and every winged bird after its kind. God saw that it was good."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "God blessed them, saying, “Be fruitful and multiply, and fill the waters in the seas. Let birds multiply on the earth.”"
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "This was evening and morning, the fifth day."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "God said, “Let the earth produce living creatures, each according to its own kind, livestock, creeping things, and beasts of the earth, each according to its own kind.” It was so."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "God made the beasts of the earth after their kind, the livestock after their kinds, and everything that creeps upon the ground after its kind. He saw that it was good."
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "God said, “Let us make man in our image, after our likeness. Let them have dominion over the fish of the sea, over the birds of the sky, over the livestock, over all the earth, and over every creeping thing that creeps on the earth.” "
-          },
-          {
-            "tag": "f",
-            "text": "+ "
-          },
-          {
-            "tag": "ft",
-            "text": "Some ancient manuscripts have "
-          },
-          {
-            "tag": "fqa",
-            "text": "... Over the livestock, over all the animals of the earth, and over every creeping thing that creeps on the earth ."
-          },
-          {
-            "tag": "f",
-            "text": "*"
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "God created man in his own image. In his own image he created him. Male and female he created them."
-          },
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "God blessed them and said to them, “Be fruitful, and multiply. Fill the earth, and subdue it. Have dominion over the fish of the sea, over the birds of the sky, and over every living thing that moves upon the earth.”"
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "God said, “See, I have given you every plant yielding seed which is upon the surface of all the earth, and every tree with fruit which has seed in it. They will be food to you."
-          },
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "To every beast of the earth, to every bird of the heavens, and to everything that creeps upon the earth, and to every creature that has the breath of life I have given every green plant for food.” It was so."
-          },
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "God saw everything that he had made. Behold, it was very good. This was evening and morning, the sixth day."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 5,
+        "v": "God called the light “day,” and the darkness he called “night.” This was evening and morning, the first day."
       }
-    ],
-    "num": 1
+    ]
   },
-  "id": "GEN unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Genesis",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Genesis "
-    }
-  ]
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 6,
+        "v": "God said, “Let there be an expanse between the waters, and let it divide the waters from the waters.”"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "God made the expanse and divided the waters which were under the expanse from the waters which were above the expanse. It was so."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "God called the expanse “sky.” This was evening and morning, the second day."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 9,
+        "v": "God said, “Let the waters under the sky be gathered together to one place, and let the dry land appear.” It was so."
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "God called the dry land “earth,” and the gathered waters he called “seas.” He saw that it was good."
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "God said, “Let the earth sprout vegetation: plants yielding seed and fruit trees bearing fruit whose seed is in the fruit, each according to its own kind.” It was so."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "The earth produced vegetation, plants producing seed after their kind, and trees bearing fruit whose seed was in it, after their kind. God saw that it was good."
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "This was evening and morning, the third day."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 14,
+        "v": "God said, “Let there be lights in the sky to divide the day from the night and let them be as signs, for seasons, for days and years."
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Let them be lights in the sky to give light upon the earth.” It was so."
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "God made the two great lights, the greater light to rule the day, and the lesser light to rule the night. He made the stars also."
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "God set them in the sky to give light upon the earth,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "to rule over the day and over the night, and to divide the light from the darkness. God saw that it was good."
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "This was evening and morning, the fourth day."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 20,
+        "v": "God said, “Let the waters be filled with great numbers of living creatures, and let birds fly above the earth in the expanse of the sky.”"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "God created the great sea creatures, as well as every living creature after its kind, creatures that move and which fill the waters everywhere, and every winged bird after its kind. God saw that it was good."
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "God blessed them, saying, “Be fruitful and multiply, and fill the waters in the seas. Let birds multiply on the earth.”"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "This was evening and morning, the fifth day."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 24,
+        "v": "God said, “Let the earth produce living creatures, each according to its own kind, livestock, creeping things, and beasts of the earth, each according to its own kind.” It was so."
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "God made the beasts of the earth after their kind, the livestock after their kinds, and everything that creeps upon the ground after its kind. He saw that it was good."
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "God said, “Let us make man in our image, after our likeness. Let them have dominion over the fish of the sea, over the birds of the sky, over the livestock, over all the earth, and over every creeping thing that creeps on the earth.”"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "God created man in his own image. In his own image he created him. Male and female he created them."
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "God blessed them and said to them, “Be fruitful, and multiply. Fill the earth, and subdue it. Have dominion over the fish of the sea, over the birds of the sky, and over every living thing that moves upon the earth.”"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "God said, “See, I have given you every plant yielding seed which is upon the surface of all the earth, and every tree with fruit which has seed in it. They will be food to you."
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "To every beast of the earth, to every bird of the heavens, and to everything that creeps upon the earth, and to every creature that has the breath of life I have given every green plant for food.” It was so."
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "God saw everything that he had made. Behold, it was very good. This was evening and morning, the sixth day."
+      }
+    ]
+  }
+]

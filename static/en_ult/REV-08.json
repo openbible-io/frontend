@@ -1,158 +1,1707 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Now when the Lamb opened the seventh seal, there was a silence in heaven for about half an hour."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Then I saw the seven angels who stand before God, and seven trumpets were given to them."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": ""
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Another angel came, holding a golden incense bowl, and stood at the incense altar. Much incense was given to him so that he would offer it with the prayers of all the saints on the golden incense altar that was before the throne."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "The smoke of the incense, with the prayers of the saints, rose up before God from the angel’ s hand."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Then the angel took the incense bowl and filled it with fire from the altar. He threw it down to the earth, and there were crashes of thunder, rumblings, flashes of lightning, and an earthquake."
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "Now"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Then the seven angels who had the seven trumpets prepared to sound them."
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "when"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "The first angel sounded his trumpet, and there was hail and fire mixed with blood. It was thrown down onto the earth, and a third of the earth was burned up, a third of the trees were burned up, and all the green grass was burned up."
-          },
-          {
-            "tag": "f",
-            "text": "+ "
-          },
-          {
-            "tag": "ft",
-            "text": "Some older versions leave out, "
-          },
-          {
-            "tag": "fqa",
-            "text": "and a third of the earth was burned up ."
-          },
-          {
-            "tag": "f",
-            "text": "*"
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "the"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Then the second angel sounded his trumpet, and something like a great mountain burning with fire was thrown into the sea. A third of the sea became blood,"
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "a third of the creatures that were living in the sea died, and a third of the ships were destroyed."
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "Lamb"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Then the third angel sounded his trumpet, and a huge star fell from the sky, blazing like a torch, and it fell on a third of the rivers and on the springs of water."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "The name of the star is called Wormwood. A third of the waters became wormwood, and many people died from the waters that became bitter."
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "opened"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Then the fourth angel sounded his trumpet, and a third of the sun was struck, as well as a third of the moon and a third of the stars, so that a third of them turned dark. The day did not shine for a third of it, and likewise for the night."
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "the"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Then I looked, and I heard an eagle"
-          },
-          {
-            "tag": "f",
-            "text": "+ "
-          },
-          {
-            "tag": "ft",
-            "text": "Some copies have the word "
-          },
-          {
-            "tag": "fqa",
-            "text": "angel instead of"
-          },
-          {
-            "tag": "fqa",
-            "text": "eagle ."
-          },
-          {
-            "tag": "f",
-            "text": "* that was flying overhead calling out with a loud voice, “ Woe, woe, woe, to those who live on the earth, because of the remaining blasts of the trumpet of the three angels who are about to sound their trumpets.”"
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "seventh"
+      },
+      {
+        "t": "w",
+        "v": "seal"
+      },
+      {
+        "t": "w",
+        "v": "there"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "silence"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "heaven"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "about"
+      },
+      {
+        "t": "w",
+        "v": "half"
+      },
+      {
+        "t": "w",
+        "v": "an"
+      },
+      {
+        "t": "w",
+        "v": "hour"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Then"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "saw"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "seven"
+      },
+      {
+        "t": "w",
+        "v": "angels"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "stand"
+      },
+      {
+        "t": "w",
+        "v": "before"
+      },
+      {
+        "t": "w",
+        "v": "God"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "seven"
+      },
+      {
+        "t": "w",
+        "v": "trumpets"
+      },
+      {
+        "t": "w",
+        "v": "were"
+      },
+      {
+        "t": "w",
+        "v": "given"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "them"
       }
-    ],
-    "num": 8
+    ]
   },
-  "id": "REV EN_ULT en_English_ltr Wed Jun 26 2019 08:26:41 GMT-0400 (EDT) tc",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Revelation",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Revelation"
-    }
-  ]
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 3,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Another"
+      },
+      {
+        "t": "w",
+        "v": "angel"
+      },
+      {
+        "t": "w",
+        "v": "came"
+      },
+      {
+        "t": "w",
+        "v": "holding"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "golden"
+      },
+      {
+        "t": "w",
+        "v": "incense"
+      },
+      {
+        "t": "w",
+        "v": "bowl"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "stood"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "incense"
+      },
+      {
+        "t": "w",
+        "v": "altar"
+      },
+      {
+        "t": "w",
+        "v": "Much"
+      },
+      {
+        "t": "w",
+        "v": "incense"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "given"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "so"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "would"
+      },
+      {
+        "t": "w",
+        "v": "offer"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "prayers"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "all"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "saints"
+      },
+      {
+        "t": "w",
+        "v": "on"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "golden"
+      },
+      {
+        "t": "w",
+        "v": "incense"
+      },
+      {
+        "t": "w",
+        "v": "altar"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "before"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "throne"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "The"
+      },
+      {
+        "t": "w",
+        "v": "smoke"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "incense"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "prayers"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "saints"
+      },
+      {
+        "t": "w",
+        "v": "rose"
+      },
+      {
+        "t": "w",
+        "v": "up"
+      },
+      {
+        "t": "w",
+        "v": "before"
+      },
+      {
+        "t": "w",
+        "v": "God"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "angel"
+      },
+      {
+        "t": "w",
+        "v": "s"
+      },
+      {
+        "t": "w",
+        "v": "hand"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Then"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "angel"
+      },
+      {
+        "t": "w",
+        "v": "took"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "incense"
+      },
+      {
+        "t": "w",
+        "v": "bowl"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "filled"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "fire"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "altar"
+      },
+      {
+        "t": "w",
+        "v": "He"
+      },
+      {
+        "t": "w",
+        "v": "threw"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "down"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "earth"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "there"
+      },
+      {
+        "t": "w",
+        "v": "were"
+      },
+      {
+        "t": "w",
+        "v": "crashes"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "thunder"
+      },
+      {
+        "t": "w",
+        "v": "rumblings"
+      },
+      {
+        "t": "w",
+        "v": "flashes"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "lightning"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "an"
+      },
+      {
+        "t": "w",
+        "v": "earthquake"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 6,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Then"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "seven"
+      },
+      {
+        "t": "w",
+        "v": "angels"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "had"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "seven"
+      },
+      {
+        "t": "w",
+        "v": "trumpets"
+      },
+      {
+        "t": "w",
+        "v": "prepared"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "sound"
+      },
+      {
+        "t": "w",
+        "v": "them"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 7,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "The"
+      },
+      {
+        "t": "w",
+        "v": "first"
+      },
+      {
+        "t": "w",
+        "v": "angel"
+      },
+      {
+        "t": "w",
+        "v": "sounded"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "trumpet"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "there"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "hail"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "fire"
+      },
+      {
+        "t": "w",
+        "v": "mixed"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "blood"
+      },
+      {
+        "t": "w",
+        "v": "It"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "thrown"
+      },
+      {
+        "t": "w",
+        "v": "down"
+      },
+      {
+        "t": "w",
+        "v": "onto"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "earth"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "third"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "earth"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "burned"
+      },
+      {
+        "t": "w",
+        "v": "up"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "third"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "trees"
+      },
+      {
+        "t": "w",
+        "v": "were"
+      },
+      {
+        "t": "w",
+        "v": "burned"
+      },
+      {
+        "t": "w",
+        "v": "up"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "all"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "green"
+      },
+      {
+        "t": "w",
+        "v": "grass"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "burned"
+      },
+      {
+        "t": "w",
+        "v": "up"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 8,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Then"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "second"
+      },
+      {
+        "t": "w",
+        "v": "angel"
+      },
+      {
+        "t": "w",
+        "v": "sounded"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "trumpet"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "something"
+      },
+      {
+        "t": "w",
+        "v": "like"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "great"
+      },
+      {
+        "t": "w",
+        "v": "mountain"
+      },
+      {
+        "t": "w",
+        "v": "burning"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "fire"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "thrown"
+      },
+      {
+        "t": "w",
+        "v": "into"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "sea"
+      },
+      {
+        "t": "w",
+        "v": "A"
+      },
+      {
+        "t": "w",
+        "v": "third"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "sea"
+      },
+      {
+        "t": "w",
+        "v": "became"
+      },
+      {
+        "t": "w",
+        "v": "blood"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "third"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "creatures"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "were"
+      },
+      {
+        "t": "w",
+        "v": "living"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "sea"
+      },
+      {
+        "t": "w",
+        "v": "died"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "third"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "ships"
+      },
+      {
+        "t": "w",
+        "v": "were"
+      },
+      {
+        "t": "w",
+        "v": "destroyed"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 10,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Then"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "third"
+      },
+      {
+        "t": "w",
+        "v": "angel"
+      },
+      {
+        "t": "w",
+        "v": "sounded"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "trumpet"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "huge"
+      },
+      {
+        "t": "w",
+        "v": "star"
+      },
+      {
+        "t": "w",
+        "v": "fell"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "sky"
+      },
+      {
+        "t": "w",
+        "v": "blazing"
+      },
+      {
+        "t": "w",
+        "v": "like"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "torch"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "fell"
+      },
+      {
+        "t": "w",
+        "v": "on"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "third"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "rivers"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "on"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "springs"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "water"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "The"
+      },
+      {
+        "t": "w",
+        "v": "name"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "star"
+      },
+      {
+        "t": "w",
+        "v": "is"
+      },
+      {
+        "t": "w",
+        "v": "called"
+      },
+      {
+        "t": "w",
+        "v": "Wormwood"
+      },
+      {
+        "t": "w",
+        "v": "A"
+      },
+      {
+        "t": "w",
+        "v": "third"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "waters"
+      },
+      {
+        "t": "w",
+        "v": "became"
+      },
+      {
+        "t": "w",
+        "v": "wormwood"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "many"
+      },
+      {
+        "t": "w",
+        "v": "people"
+      },
+      {
+        "t": "w",
+        "v": "died"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "waters"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "became"
+      },
+      {
+        "t": "w",
+        "v": "bitter"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 12,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Then"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "fourth"
+      },
+      {
+        "t": "w",
+        "v": "angel"
+      },
+      {
+        "t": "w",
+        "v": "sounded"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "trumpet"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "third"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "sun"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "struck"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "well"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "third"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "moon"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "third"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "stars"
+      },
+      {
+        "t": "w",
+        "v": "so"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "third"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "them"
+      },
+      {
+        "t": "w",
+        "v": "turned"
+      },
+      {
+        "t": "w",
+        "v": "dark"
+      },
+      {
+        "t": "w",
+        "v": "The"
+      },
+      {
+        "t": "w",
+        "v": "day"
+      },
+      {
+        "t": "w",
+        "v": "did"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "shine"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "third"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "likewise"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "night"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 13,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Then"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "looked"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "heard"
+      },
+      {
+        "t": "w",
+        "v": "an"
+      },
+      {
+        "t": "w",
+        "v": "eagle"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "flying"
+      },
+      {
+        "t": "w",
+        "v": "overhead"
+      },
+      {
+        "t": "w",
+        "v": "calling"
+      },
+      {
+        "t": "w",
+        "v": "out"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "loud"
+      },
+      {
+        "t": "w",
+        "v": "voice"
+      },
+      {
+        "t": "w",
+        "v": "Woe"
+      },
+      {
+        "t": "w",
+        "v": "woe"
+      },
+      {
+        "t": "w",
+        "v": "woe"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "those"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "live"
+      },
+      {
+        "t": "w",
+        "v": "on"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "earth"
+      },
+      {
+        "t": "w",
+        "v": "because"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "remaining"
+      },
+      {
+        "t": "w",
+        "v": "blasts"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "trumpet"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "three"
+      },
+      {
+        "t": "w",
+        "v": "angels"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "are"
+      },
+      {
+        "t": "w",
+        "v": "about"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "sound"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "trumpets"
+      }
+    ]
+  }
+]

@@ -1,162 +1,138 @@
-{
-  "chapter": {
-    "children": [
-      {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Israel, return to Yahweh your God!"
-          },
-          {
-            "tag": "q2",
-            "text": "You have sinned because you have done wicked things."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "So now, return to Yahweh, and think about how you will confess your sins to him."
-          },
-          {
-            "tag": "q2",
-            "text": "Say this to him:"
-          },
-          {
-            "tag": "q1",
-            "text": "\"Take away all our sins,"
-          },
-          {
-            "tag": "q2",
-            "text": "and accept us; please be kind to us."
-          },
-          {
-            "tag": "q1",
-            "text": "Please accept us back, so that we may praise you in our words and song."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Assyria cannot save us."
-          },
-          {
-            "tag": "q2",
-            "text": "It is useless for us to ride horses into battle."
-          },
-          {
-            "tag": "q1",
-            "text": "We will never again say, 'You are our gods'"
-          },
-          {
-            "tag": "q2",
-            "text": "to the idols we have made with our own hands."
-          },
-          {
-            "tag": "q2",
-            "text": "Even children with no fathers look to you, Yahweh, and they find that you are kind to them.\""
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Yahweh says, \"I will forgive these people for having stopped honoring me;"
-          },
-          {
-            "tag": "q2",
-            "text": "I will love them without ceasing,"
-          },
-          {
-            "tag": "q2",
-            "text": "because I have decided to stop being angry at them."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "I will help the people of Israel as the dew helps the ground."
-          },
-          {
-            "tag": "q2",
-            "text": "They will prosper like the lilies bloom."
-          },
-          {
-            "tag": "q2",
-            "text": "They will become as strong as the cedar trees in Lebanon."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "They will be like trees whose branches spread out."
-          },
-          {
-            "tag": "q1",
-            "text": "They will be as beautiful as the olive trees,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they will please others as much as the fragrant cedar trees in Lebanon."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "They will return and live under the protection that Israel has from me;"
-          },
-          {
-            "tag": "q2",
-            "text": "I will protect them from hardship."
-          },
-          {
-            "tag": "q1",
-            "text": "They will be successful like a field of grain that grows well, like grapevines that are growing well."
-          },
-          {
-            "tag": "q2",
-            "text": "They will become as famous as the wine that people produce in the land of Lebanon."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "You people of Israel, I will completely stop you from worshiping idols. "
-          },
-          {
-            "tag": "q2",
-            "text": "It is I, Yahweh, who will take care of you. No idol can do that."
-          },
-          {
-            "tag": "q1",
-            "text": "I am like a cypress tree that grows and stays fresh the entire year;"
-          },
-          {
-            "tag": "q2",
-            "text": "all your good gifts come from me.\""
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Every wise person will understand the things about which I have written;"
-          },
-          {
-            "tag": "q2",
-            "text": "those who have understanding will study these things and pay careful attention to them."
-          },
-          {
-            "tag": "q1",
-            "text": "The way in which Yahweh wants us to live is right."
-          },
-          {
-            "tag": "q2",
-            "text": "Those who do what is right live by them."
-          },
-          {
-            "tag": "q2",
-            "text": "The rebellious people, however, sin, unable to obey him."
-          }
-        ],
-        "auto": true
-      }
-    ],
-    "num": 14
+[
+  {
+    "t": "q",
+    "v": []
   },
-  "id": "HOS unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Hosea"
-}
+  {
+    "t": "q",
+    "v": "You have sinned because you have done wicked things."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Say this to him:"
+  },
+  {
+    "t": "q",
+    "v": "“Take away all our sins,"
+  },
+  {
+    "t": "q",
+    "v": "and accept us; please be kind to us."
+  },
+  {
+    "t": "q",
+    "v": "Please accept us back, so that we may praise you in our words and song."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "It is useless for us to ride horses into battle."
+  },
+  {
+    "t": "q",
+    "v": "We will never again say, ‘You are our gods’"
+  },
+  {
+    "t": "q",
+    "v": "to the idols we have made with our own hands."
+  },
+  {
+    "t": "q",
+    "v": "Even children with no fathers look to you, Yahweh, and they find that you are kind to them.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will love them without ceasing,"
+  },
+  {
+    "t": "q",
+    "v": "because I have decided to stop being angry at them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "They will prosper like the lilies bloom."
+  },
+  {
+    "t": "q",
+    "v": "They will become as strong as the cedar trees in Lebanon."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "They will be as beautiful as the olive trees,"
+  },
+  {
+    "t": "q",
+    "v": "and they will please others as much as the fragrant cedar trees in Lebanon."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will protect them from hardship."
+  },
+  {
+    "t": "q",
+    "v": "They will be successful like a field of grain that grows well, like grapevines that are growing well."
+  },
+  {
+    "t": "q",
+    "v": "They will become as famous as the wine that people produce in the land of Lebanon."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "It is I, Yahweh, who will take care of you. No idol can do that."
+  },
+  {
+    "t": "q",
+    "v": "I am like a cypress tree that grows and stays fresh the entire year;"
+  },
+  {
+    "t": "q",
+    "v": "all your good gifts come from me.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "those who have understanding will study these things and pay careful attention to them."
+  },
+  {
+    "t": "q",
+    "v": "The way in which Yahweh wants us to live is right."
+  },
+  {
+    "t": "q",
+    "v": "Those who do what is right live by them."
+  },
+  {
+    "t": "q",
+    "v": "The rebellious people, however, sin, unable to obey him."
+  }
+]

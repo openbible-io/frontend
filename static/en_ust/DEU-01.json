@@ -1,342 +1,317 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "tag": "toc1",
-        "text": "The Book of Deuteronomy"
+        "t": "v",
+        "n": 1,
+        "v": "In this book is written what Moses had said to all the Israelites, after they had set up their tents east of the Jordan—in the desert plain along the Jordan—near a place named Suph, between Paran on one side of the Jordan River and the towns of Tophel, Laban, Hazeroth, and Dizahab on the other side of the river."
       },
       {
-        "tag": "toc2",
-        "text": "Deuteronomy"
-      },
-      {
-        "tag": "toc3",
-        "text": "Deu"
-      },
-      {
-        "tag": "mt1",
-        "text": "Moses' second speech"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "In this book is written what Moses had said to all the Israelites, after they had set up their tents east of the Jordan—in the desert plain along the Jordan—near a place named Suph, between Paran on one side of the Jordan River and the towns of Tophel, Laban, Hazeroth, and Dizahab on the other side of the river."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "To walk from Mount Sinai to Kadesh Barnea, people usually travel for only eleven days, going by way of the hill country called Edom."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Forty years after the Israelites had left Egypt, Moses told the Israelite people everything that Yahweh had commanded him."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "This was after they had defeated Sihon, the king of the Amor people group, who lived in the city of Heshbon, and Og, the king of the region of Bashan, who lived in towns of Ashtaroth and Edrei."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Moses told them these things while the people were in Moab, on the east side of the Jordan River. He explained to them God's instructions. This is what he said to them:"
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "\"Yahweh our God said to us when we were at Mount Sinai, 'You have stayed for a very long time at the foot of this mountain."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "So now continue traveling. Go to the hill country where the Amorites live and to the nearby areas—to the plain along the Jordan, to the hill country, to the western foothills, to the southern Judean wilderness, to the Mediterranean seacoast, to all the land of Canaan, to the Lebanon mountains, and northeast to the great Euphrates River."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "I will give that land to you. I, Yahweh, promised to your ancestors Abraham and Isaac and Jacob that I would give it to them and to their descendants. So now go and occupy it.'\""
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Moses also said to the people, \"When we were still at Mount Sinai, I said to your ancestors, 'It is a very big task for me to govern all of you. I cannot do it by myself."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Yahweh our God has caused us Israelites to become as numerous as the stars in the sky."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "And I hope that Yahweh, the God whom our ancestors worshiped, will cause us to become a thousand times as numerous as we are now and that he will bless us just like he promised to do."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "But I certainly cannot deal with all of your complaints and disputes."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "So choose some men from your tribes who are wise and who have good sense and who are respected. Then I will appoint them to be your leaders.'"
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "Your ancestors replied, 'What you have suggested is good for us to do.'"
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "So I took the wise and respected men that your ancestors chose from your tribes, and I appointed them to be your leaders. I appointed some to rule over one thousand people, some to have authority over one hundred people, some to have authority over fifty people, and some to have authority over ten people. I also appointed other officers from throughout your tribes."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "I instructed your leaders, 'Listen to the disputes that occur among your people. Judge each dispute, including disputes between close relatives and quarrels between your people and people from other countries who live among you."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "You must not play favorites. You must treat poor people and important people equally. You must not worry about what anyone will think, because you will decide matters as God wants you to. If any dispute is very difficult and you are unable to decide it, bring it to me, and I will decide.'"
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "At that time I also told to you many other things.\""
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "\"Then, just like Yahweh our God commanded us, we left Mount Sinai and went through that huge desert that is very dangerous, on the road to the hill country where the Amor people group live. We arrived at Kadesh Barnea."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "I said to your ancestors, 'We have now come to the hill country where the Amor people group live. This is part of the area that Yahweh our God, the one whom our ancestors worshiped, is giving to us."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "Note that Yahweh our God is giving this land to us. So go and occupy it as he commanded. Do not be at all afraid.'"
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "But your ancestors all came to me and said, 'Before we go, we should first send some men there to explore the land, in order that they can return and tell us which will be the best road to go there and what kind of towns are there.'"
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "I thought that it would be good to do that, so I chose twelve men, one man from each tribe."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "They went up into the hill country as far as Eshcol Valley, and they explored all that area."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "They picked some of the fruit that they found there and brought it to us. They reported that the land that Yahweh our God was giving to us is very good.\""
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "\"But your ancestors refused to go and conquer that land. They rebelled against what Yahweh our God had commanded them to do, and they would not go into that land."
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "Your ancestors stayed in their tents and complained. They said, 'Yahweh hates us. So he has brought us here from Egypt just to allow the Amor people group to destroy us."
-          },
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "We do not want to go there. The men whom we sent there have made us very discouraged. They have told us that the people there are much stronger and taller than we are, and that there are very high walls around their towns. Also they reported that they had seen giants there that are descendants of Anak.'"
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "Then I said to your ancestors, 'Do not be afraid at all of those people!"
-          },
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "Yahweh our God will go ahead of you, and he will fight for you, just like you saw him do for you in Egypt"
-          },
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "and in the desert. You saw how he brought you safely here, like a man would carry his son. '"
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "32-33",
-            "text": "I reminded them that he always went ahead of them while they traveled in the desert. He directed them by a pillar of fire during the night and a pillar of cloud during the day. He showed them places to set up their tents. But in spite of what I said, your ancestors would not trust Yahweh our God."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "34",
-            "text": "Yahweh heard what they said, and he became angry. He solemnly declared,"
-          },
-          {
-            "tag": "v",
-            "num": "35-36",
-            "text": "'Caleb son of Jephunneh, will enter the land. He has obeyed me completely. So I will give to him and to his descendants some of the land that he explored. He is the only one of all you people who will enter that land. None of these evil people will ever see that good land which I solemnly promised to give to your ancestors.'"
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "37",
-            "text": "But because of what your ancestors did, Yahweh was also angry with me. He said to me, 'You also will not go enter that land."
-          },
-          {
-            "tag": "v",
-            "num": "38",
-            "text": "Joshua son of Nun, who is your helper, will enter it. Encourage him, because he is the one who will enable you Israelite people to occupy that land.'"
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "39",
-            "text": "Then Yahweh said to all of us, 'You said that your children would be captured by your enemies. Because they are very young, they do not yet know what is good and what is evil. But they are the ones to whom I will give that land, and they will enter it and occupy it."
-          },
-          {
-            "tag": "v",
-            "num": "40",
-            "text": "But as for you, turn around and go back into the desert, toward the Sea of Reeds.'"
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "41",
-            "text": "Then your ancestors replied, 'We have sinned; we have disobeyed Yahweh. So we will go and attack the people who live in that land, just as Yahweh our God has commanded us to do.' And each of their men put on his weapons, and they thought that it would be easy to invade the hill country."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "42",
-            "text": "But Yahweh said to me, 'Tell them, \"Do not go there and attack those people, because I will not go with you, and if you go, you can be sure that your enemy will defeat you.\"'"
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "43",
-            "text": "So I said that to your ancestors, but they did not want to listen to what I said. They again rebelled against what Yahweh commanded them to do. Their soldiers proudly marched up into that hill country."
-          },
-          {
-            "tag": "v",
-            "num": "44",
-            "text": "Then the men of the Amor people group who lived in that region came out of their towns and attacked those soldiers. They chased your ancestors' soldiers like a swarm of bees would chase a person, and they pursued their men south from Edom and defeated them at the city of Hormah."
-          },
-          {
-            "tag": "v",
-            "num": "45",
-            "text": "So your ancestors went back to Kadesh Barnea and cried out to request Yahweh to help them, but he did not listen to them. He did not pay any attention to them."
-          },
-          {
-            "tag": "v",
-            "num": "46",
-            "text": "So we stayed there at Kadesh Barnea for a long time.\""
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "To walk from Mount Sinai to Kadesh Barnea, people usually travel for only eleven days, going by way of the hill country called Edom."
       }
-    ],
-    "num": 1
+    ]
   },
-  "id": "DEU unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Deuteronomy"
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Forty years after the Israelites had left Egypt, Moses told the Israelite people everything that Yahweh had commanded him."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "This was after they had defeated Sihon, the king of the Amor people group, who lived in the city of Heshbon, and Og, the king of the region of Bashan, who lived in towns of Ashtaroth and Edrei."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Moses told them these things while the people were in Moab, on the east side of the Jordan River. He explained to them God’s instructions. This is what he said to them:"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 6,
+        "v": "“Yahweh our God said to us when we were at Mount Sinai, ‘You have stayed for a very long time at the foot of this mountain."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "So now continue traveling. Go to the hill country where the Amorites live and to the nearby areas—to the plain along the Jordan, to the hill country, to the western foothills, to the southern Judean wilderness, to the Mediterranean seacoast, to all the land of Canaan, to the Lebanon mountains, and northeast to the great Euphrates River."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "I will give that land to you. I, Yahweh, promised to your ancestors Abraham and Isaac and Jacob that I would give it to them and to their descendants. So now go and occupy it.’”"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Moses also said to the people, “When we were still at Mount Sinai, I said to your ancestors, ‘It is a very big task for me to govern all of you. I cannot do it by myself."
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Yahweh our God has caused us Israelites to become as numerous as the stars in the sky."
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "And I hope that Yahweh, the God whom our ancestors worshiped, will cause us to become a thousand times as numerous as we are now and that he will bless us just like he promised to do."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "But I certainly cannot deal with all of your complaints and disputes."
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "So choose some men from your tribes who are wise and who have good sense and who are respected. Then I will appoint them to be your leaders.’"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 14,
+        "v": "Your ancestors replied, ‘What you have suggested is good for us to do.’"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 15,
+        "v": "So I took the wise and respected men that your ancestors chose from your tribes, and I appointed them to be your leaders. I appointed some to rule over one thousand people, some to have authority over one hundred people, some to have authority over fifty people, and some to have authority over ten people. I also appointed other officers from throughout your tribes."
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "I instructed your leaders, ‘Listen to the disputes that occur among your people. Judge each dispute, including disputes between close relatives and quarrels between your people and people from other countries who live among you."
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "You must not play favorites. You must treat poor people and important people equally. You must not worry about what anyone will think, because you will decide matters as God wants you to. If any dispute is very difficult and you are unable to decide it, bring it to me, and I will decide.’"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "At that time I also told to you many other things.”"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 19,
+        "v": "“Then, just like Yahweh our God commanded us, we left Mount Sinai and went through that huge desert that is very dangerous, on the road to the hill country where the Amor people group live. We arrived at Kadesh Barnea."
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "I said to your ancestors, ‘We have now come to the hill country where the Amor people group live. This is part of the area that Yahweh our God, the one whom our ancestors worshiped, is giving to us."
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Note that Yahweh our God is giving this land to us. So go and occupy it as he commanded. Do not be at all afraid.’"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 22,
+        "v": "But your ancestors all came to me and said, ‘Before we go, we should first send some men there to explore the land, in order that they can return and tell us which will be the best road to go there and what kind of towns are there.’"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 23,
+        "v": "I thought that it would be good to do that, so I chose twelve men, one man from each tribe."
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "They went up into the hill country as far as Eshcol Valley, and they explored all that area."
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "They picked some of the fruit that they found there and brought it to us. They reported that the land that Yahweh our God was giving to us is very good.”"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 26,
+        "v": "“But your ancestors refused to go and conquer that land. They rebelled against what Yahweh our God had commanded them to do, and they would not go into that land."
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "Your ancestors stayed in their tents and complained. They said, ‘Yahweh hates us. So he has brought us here from Egypt just to allow the Amor people group to destroy us."
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "We do not want to go there. The men whom we sent there have made us very discouraged. They have told us that the people there are much stronger and taller than we are, and that there are very high walls around their towns. Also they reported that they had seen giants there that are descendants of Anak.’"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 29,
+        "v": "Then I said to your ancestors, ‘Do not be afraid at all of those people!"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "Yahweh our God will go ahead of you, and he will fight for you, just like you saw him do for you in Egypt"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "and in the desert. You saw how he brought you safely here, like a man would carry his son. ‘"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 32,
+        "v": "I reminded them that he always went ahead of them while they traveled in the desert. He directed them by a pillar of fire during the night and a pillar of cloud during the day. He showed them places to set up their tents. But in spite of what I said, your ancestors would not trust Yahweh our God."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 34,
+        "v": "Yahweh heard what they said, and he became angry. He solemnly declared,"
+      },
+      {
+        "t": "v",
+        "n": 35,
+        "v": "‘Caleb son of Jephunneh, will enter the land. He has obeyed me completely. So I will give to him and to his descendants some of the land that he explored. He is the only one of all you people who will enter that land. None of these evil people will ever see that good land which I solemnly promised to give to your ancestors.’"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 37,
+        "v": "But because of what your ancestors did, Yahweh was also angry with me. He said to me, ‘You also will not go enter that land."
+      },
+      {
+        "t": "v",
+        "n": 38,
+        "v": "Joshua son of Nun, who is your helper, will enter it. Encourage him, because he is the one who will enable you Israelite people to occupy that land.’"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 39,
+        "v": "Then Yahweh said to all of us, ‘You said that your children would be captured by your enemies. Because they are very young, they do not yet know what is good and what is evil. But they are the ones to whom I will give that land, and they will enter it and occupy it."
+      },
+      {
+        "t": "v",
+        "n": 40,
+        "v": "But as for you, turn around and go back into the desert, toward the Sea of Reeds.’"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 41,
+        "v": "Then your ancestors replied, ‘We have sinned; we have disobeyed Yahweh. So we will go and attack the people who live in that land, just as Yahweh our God has commanded us to do.’ And each of their men put on his weapons, and they thought that it would be easy to invade the hill country."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 42,
+        "v": "But Yahweh said to me, ‘Tell them, “Do not go there and attack those people, because I will not go with you, and if you go, you can be sure that your enemy will defeat you.”’"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 43,
+        "v": "So I said that to your ancestors, but they did not want to listen to what I said. They again rebelled against what Yahweh commanded them to do. Their soldiers proudly marched up into that hill country."
+      },
+      {
+        "t": "v",
+        "n": 44,
+        "v": "Then the men of the Amor people group who lived in that region came out of their towns and attacked those soldiers. They chased your ancestors’ soldiers like a swarm of bees would chase a person, and they pursued their men south from Edom and defeated them at the city of Hormah."
+      },
+      {
+        "t": "v",
+        "n": 45,
+        "v": "So your ancestors went back to Kadesh Barnea and cried out to request Yahweh to help them, but he did not listen to them. He did not pay any attention to them."
+      },
+      {
+        "t": "v",
+        "n": 46,
+        "v": "So we stayed there at Kadesh Barnea for a long time.”"
+      }
+    ]
+  }
+]

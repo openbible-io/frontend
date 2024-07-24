@@ -1,37 +1,542 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "King Ahasuerus made the people living on land and along the sea pay a tax."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "And all the great things that Ahasuerus did because of his power have been written in the book of the chronicles of the kings of Media and Persia. Also written there is a history of the great things done by Mordecai, and of the honor that the king gave him."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Mordecai the Jew, was second in rank to King Ahasuerus, and all the Jews also considered him to be a very great man. He was respected by his Jewish brothers and sisters, for he sought the welfare of his people, and he spoke to gain security for all of them."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "King"
+      },
+      {
+        "t": "w",
+        "v": "Xerxes"
+      },
+      {
+        "t": "w",
+        "v": "required"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "all"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "people"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "empire"
+      },
+      {
+        "t": "w",
+        "v": "pay"
+      },
+      {
+        "t": "w",
+        "v": "taxes"
+      },
+      {
+        "t": "w",
+        "v": "Even"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "people"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "lived"
+      },
+      {
+        "t": "w",
+        "v": "on"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "islands"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Mediterranean"
+      },
+      {
+        "t": "w",
+        "v": "Sea"
+      },
+      {
+        "t": "w",
+        "v": "were"
+      },
+      {
+        "t": "w",
+        "v": "required"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "pay"
+      },
+      {
+        "t": "w",
+        "v": "taxes"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "And"
+      },
+      {
+        "t": "w",
+        "v": "all"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "great"
+      },
+      {
+        "t": "w",
+        "v": "things"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "Xerxes"
+      },
+      {
+        "t": "w",
+        "v": "did"
+      },
+      {
+        "t": "w",
+        "v": "because"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "power"
+      },
+      {
+        "t": "w",
+        "v": "were"
+      },
+      {
+        "t": "w",
+        "v": "written"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "scroll"
+      },
+      {
+        "t": "w",
+        "v": "called"
+      },
+      {
+        "t": "w",
+        "v": "The"
+      },
+      {
+        "t": "w",
+        "v": "record"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "things"
+      },
+      {
+        "t": "w",
+        "v": "done"
+      },
+      {
+        "t": "w",
+        "v": "by"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "kings"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Media"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "Persia"
+      },
+      {
+        "t": "w",
+        "v": "In"
+      },
+      {
+        "t": "w",
+        "v": "this"
+      },
+      {
+        "t": "w",
+        "v": "book"
+      },
+      {
+        "t": "w",
+        "v": "were"
+      },
+      {
+        "t": "w",
+        "v": "also"
+      },
+      {
+        "t": "w",
+        "v": "written"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "great"
+      },
+      {
+        "t": "w",
+        "v": "things"
+      },
+      {
+        "t": "w",
+        "v": "done"
+      },
+      {
+        "t": "w",
+        "v": "by"
+      },
+      {
+        "t": "w",
+        "v": "Mordecai"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "man"
+      },
+      {
+        "t": "w",
+        "v": "whom"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "king"
+      },
+      {
+        "t": "w",
+        "v": "had"
+      },
+      {
+        "t": "w",
+        "v": "greatly"
+      },
+      {
+        "t": "w",
+        "v": "honored"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Mordecai"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "Jew"
+      },
+      {
+        "t": "w",
+        "v": "became"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "king"
+      },
+      {
+        "t": "w",
+        "v": "s"
+      },
+      {
+        "t": "w",
+        "v": "most"
+      },
+      {
+        "t": "w",
+        "v": "important"
+      },
+      {
+        "t": "w",
+        "v": "official"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "all"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Jews"
+      },
+      {
+        "t": "w",
+        "v": "also"
+      },
+      {
+        "t": "w",
+        "v": "considered"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "be"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "very"
+      },
+      {
+        "t": "w",
+        "v": "great"
+      },
+      {
+        "t": "w",
+        "v": "man"
+      },
+      {
+        "t": "w",
+        "v": "They"
+      },
+      {
+        "t": "w",
+        "v": "all"
+      },
+      {
+        "t": "w",
+        "v": "respected"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "because"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "did"
+      },
+      {
+        "t": "w",
+        "v": "many"
+      },
+      {
+        "t": "w",
+        "v": "good"
+      },
+      {
+        "t": "w",
+        "v": "things"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Jews"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "often"
+      },
+      {
+        "t": "w",
+        "v": "asked"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "king"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "do"
+      },
+      {
+        "t": "w",
+        "v": "good"
+      },
+      {
+        "t": "w",
+        "v": "things"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "them"
       }
-    ],
-    "num": 10
-  },
-  "id": "EST unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Esther",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Esther"
-    }
-  ]
-}
+    ]
+  }
+]

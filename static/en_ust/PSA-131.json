@@ -1,64 +1,115 @@
-{
-  "chapter": {
-    "children": [
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "tag": "d",
-        "text": "A psalm written by David for people going up to the temple to worship."
-      },
-      {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Yahweh, I am not proud;"
-          },
-          {
-            "tag": "q2",
-            "text": "I do not deserve to achieve impressive things in life."
-          },
-          {
-            "tag": "q1",
-            "text": "I do not worry about problems that are too difficult for me to solve."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Instead, I am calm and peaceful in my inner being"
-          },
-          {
-            "tag": "q2",
-            "text": "like a small child who no longer nurses but is happy to be with its mother."
-          },
-          {
-            "tag": "q2",
-            "text": "In the same way, I am peaceful within my inner being."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "You, my fellow Israelites, confidently expect that Yahweh will do good things for you"
-          },
-          {
-            "tag": "q2",
-            "text": "now and forever!"
-          }
-        ],
-        "auto": true
-      }
-    ],
-    "num": 131
+[
+  {
+    "t": "m",
+    "v": []
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh, I have great troubles, so I call out to you."
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "Yahweh, hear me"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Yahweh, if you kept a record of the sins that we have committed,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "But you forgive us,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Yahweh has said that he would help me;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "I wait for Yahweh to help me"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "You, my fellow Israelites, confidently expect that Yahweh will bless us."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "It is he who will save us Israelite people from being punished for all the sins that we have committed."
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "while I call out to you to have mercy on me!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "not one of us would escape from being condemned and punished!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "with the result that we have an awesome respect for you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I trust what he said, and I wait eagerly for him to do that."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "more than watchmen wait for the morning to come;"
+  },
+  {
+    "t": "q",
+    "v": "yes, I wait more eagerly than they do!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "He will bless us because he has mercy on us,"
+  },
+  {
+    "t": "q",
+    "v": "and he is very willing to save us."
+  },
+  {
+    "t": "q",
+    "v": []
+  }
+]

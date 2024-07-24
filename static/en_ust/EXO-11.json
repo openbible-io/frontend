@@ -1,87 +1,72 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Then Yahweh said to Moses, \"I will bring one more disaster on the king of Egypt and on all his people. After that, he will let you leave. In fact, he will chase you out of Egypt."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "So now, speak to all the Israelite people. Tell them to ask all their Egyptian neighbors, both men and women, to give them their silver and gold jewelry.\""
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Yahweh made the Egyptians highly respect the Israelite people. In fact, the king's officials and all the rest of the people thought that Moses was a very great man."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "Then Yahweh said to Moses, “I will bring one more disaster on the king of Egypt and on all his people. After that, he will let you leave. In fact, he will chase you out of Egypt."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Then Moses went to the king and said, \"This is what Yahweh says: 'About midnight tonight I will go through Egypt,"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "and I will cause all the firstborn sons to die. From the king's oldest son to the oldest son of the slave woman who grinds grain, and the oldest son of everyone else. I will also kill the oldest males of your livestock."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "When that happens, people all over Egypt will lament loudly. They will lament more loudly than they ever have lamented before and more than they ever will again."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "But among the Israelite people it will be so quiet that not even a dog will bark! Then you will know for sure that I, Yahweh, am treating the Egyptians differently from the Israelites.'"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Then all these officials of yours will come and bow down before me and will say, 'Please get out of Egypt, you and all the Israelite people!' After that, we will leave Egypt!\" When Moses had said that, he left the king very angrily."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "So now, speak to all the Israelite people. Tell them to ask all their Egyptian neighbors, both men and women, to give them their silver and gold jewelry.”"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Then Yahweh said to Moses, \"The king will not listen to what you say. So I will perform more miracles in the land of Egypt.\""
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Aaron and Moses did all these miracles in front of the king, but Yahweh made the king stubborn. The king did not let the Israelite people leave his land."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 3,
+        "v": "Yahweh made the Egyptians highly respect the Israelite people. In fact, the king’s officials and all the rest of the people thought that Moses was a very great man."
       }
-    ],
-    "num": 11
+    ]
   },
-  "id": "EXO unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Exodus",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "The Escape from Egypt (Exodus)"
-    }
-  ]
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Then Moses went to the king and said, “This is what Yahweh says: ‘About midnight tonight I will go through Egypt,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "and I will cause all the firstborn sons to die. From the king’s oldest son to the oldest son of the slave woman who grinds grain, and the oldest son of everyone else. I will also kill the oldest males of your livestock."
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "When that happens, people all over Egypt will lament loudly. They will lament more loudly than they ever have lamented before and more than they ever will again."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "But among the Israelite people it will be so quiet that not even a dog will bark! Then you will know for sure that I, Yahweh, am treating the Egyptians differently from the Israelites.’"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Then all these officials of yours will come and bow down before me and will say, ‘Please get out of Egypt, you and all the Israelite people!’ After that, we will leave Egypt!” When Moses had said that, he left the king very angrily."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Then Yahweh said to Moses, “The king will not listen to what you say. So I will perform more miracles in the land of Egypt.”"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Aaron and Moses did all these miracles in front of the king, but Yahweh made the king stubborn. The king did not let the Israelite people leave his land."
+      }
+    ]
+  }
+]

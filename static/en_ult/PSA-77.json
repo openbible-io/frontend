@@ -1,246 +1,167 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "God has made himself known in Judah;"
       },
       {
-        "tag": "d",
-        "text": "For the chief musician; after the manner of Jeduthun. A psalm of Asaph."
+        "t": "v",
+        "n": 2,
+        "v": "His tent is in Salem;"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "I will call out with my voice to God;"
-          },
-          {
-            "tag": "q",
-            "text": "I will call with my voice to God, and my God will hear me."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "In the day of my trouble I sought the Lord;"
-          },
-          {
-            "tag": "q",
-            "text": "at night I stretched my hands out, and they would not become tired."
-          },
-          {
-            "tag": "q",
-            "text": "My soul refused to be comforted."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "I thought of God as I groaned;"
-          },
-          {
-            "tag": "q",
-            "text": "I thought about him as I grew faint."
-          },
-          {
-            "tag": "qs",
-            "text": "Selah"
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "You held my eyes open;"
-          },
-          {
-            "tag": "q",
-            "text": "I was too troubled to speak."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "I thought about the days of old,"
-          },
-          {
-            "tag": "q",
-            "text": "about times long past."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "During the night I called to mind the song I once sang."
-          },
-          {
-            "tag": "q",
-            "text": "I thought carefully"
-          },
-          {
-            "tag": "q",
-            "text": "and tried to understand what had happened."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Will the Lord reject me forever?"
-          },
-          {
-            "tag": "q",
-            "text": "Will he never again show me favor?"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Was his covenant faithfulness gone forever?"
-          },
-          {
-            "tag": "q",
-            "text": "Had his promise failed forever?"
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Had God forgotten to be gracious?"
-          },
-          {
-            "tag": "q",
-            "text": "Had his anger shut off his compassion?"
-          },
-          {
-            "tag": "qs",
-            "text": "Selah"
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "I said, “This is my sorrow:"
-          },
-          {
-            "tag": "q",
-            "text": "the changing of the right hand of the Most High toward us.”"
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "But I will call to mind your deeds, Yahweh;"
-          },
-          {
-            "tag": "q",
-            "text": "I will think about your wonderful deeds of old."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "I will ponder all your deeds"
-          },
-          {
-            "tag": "q",
-            "text": "and will reflect on them."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Your way, God, is holy;"
-          },
-          {
-            "tag": "q",
-            "text": "what god compares to our great God?"
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "You are the God who does wonders;"
-          },
-          {
-            "tag": "q",
-            "text": "you have revealed your strength among the peoples."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "You gave your people victory by your great power—"
-          },
-          {
-            "tag": "q",
-            "text": "the descendants of Jacob and Joseph."
-          },
-          {
-            "tag": "qs",
-            "text": "Selah"
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "The waters saw you, God;"
-          },
-          {
-            "tag": "q",
-            "text": "the waters saw you, and they were afraid;"
-          },
-          {
-            "tag": "q",
-            "text": "the depths trembled."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "The clouds poured down water;"
-          },
-          {
-            "tag": "q",
-            "text": "the cloudy skies gave voice;"
-          },
-          {
-            "tag": "q",
-            "text": "your arrows flew about."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "Your thunderous voice was heard in the wind;"
-          },
-          {
-            "tag": "q",
-            "text": "the lightning lit up the world;"
-          },
-          {
-            "tag": "q",
-            "text": "the earth trembled and shook."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "Your path went through the sea"
-          },
-          {
-            "tag": "q",
-            "text": "and your way through the surging waters,"
-          },
-          {
-            "tag": "q",
-            "text": "but your footprints were not seen."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "You led your people like a flock"
-          },
-          {
-            "tag": "q",
-            "text": "by the hand of Moses and Aaron."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "There he broke the arrows of the bow,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "You shine brightly and reveal your glory,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "The bravehearted were plundered;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "At your rebuke, God of Jacob,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "You, yes you, are to be feared;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "From heaven you made your judgment heard;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "when you, God, arose to execute judgment"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Surely your angry judgment against humanity will bring you praise;"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Make vows to Yahweh your God and keep them."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "He cuts off the spirit of the princes;"
       }
-    ],
-    "num": 77
+    ]
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "his name is great in Israel."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "his dwelling place is in Zion."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the shield, the sword, and the other weapons of war."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "as you descend from the mountains, where you killed your victims."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they fell asleep."
+  },
+  {
+    "t": "q",
+    "v": "All the warriors were helpless."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "both rider and horse fell asleep."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "who can stand in your sight when you are angry?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the earth was afraid and silent"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and to save all the oppressed of the earth."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you gird yourself with what is left of your anger."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "May all who surround him bring gifts to him who is to be feared."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he is feared by the kings of the earth. "
+  }
+]

@@ -1,171 +1,2410 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Now I wish to answer your questions about the money that we are collecting for the people in Jerusalem who belong to God. You should do exactly what I told the believers in the churches in Galatia to do."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Every Sunday, each of you should put some money aside, as you are able, so you will not need any more collections when I come."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "You must choose people, whomever you wish, to take your gifts to Jerusalem. And when I arrive, I will send letters with them about your gift."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "If it is the right thing to do, they will travel together with me to Jerusalem."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": ""
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "I am planning to come to you when I travel through the region of Macedonia."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Perhaps I will stay with you, and perhaps all through the winter, so that you can help me along the way in my trip."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "I do not want to see you for only a short time. I hope that the Lord will allow me to spend enough time together that we can help each other."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "I want to stay in Ephesus until the Festival of Pentecost,"
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "because the Lord has opened a door for me there, although there are still many who oppose us."
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "Now"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Now when Timothy comes, treat him kindly and see to it that he has nothing to be afraid of, for he is doing the Lord' s work, just like I am doing."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Do not let anyone treat him as unimportant. Help him on his way as much as you can; send him away in peace so that he may join me. I am expecting him to travel with other brothers who are coming my way."
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "I"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "You asked about our brother Apollos. I urged him strongly that he should visit you when the other brothers came to you. He decided not to come now, but he will come to you later when he has opportunity."
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "wish"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Be on guard, do not wander from your faith. Work for the Lord like grown men, and be strong."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "Do everything through the power of love."
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "to"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "You know the people in the house of Stephanas. You know that they were the first ones in the province of Achaia to believe, and they are determined to help those who belong to the Lord. I urge you, brothers and sisters,"
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "obey people like them who help in the work and who work hard with us."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "I was glad when Stephanas, Fortunatus, and Achaicus arrived here from Corinth, because they made up for the fact that you were not here."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "They encouraged and helped me in my spirit, and they helped you as well. Tell others about how much they helped you."
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "answer"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "The churches in Asia send greetings. Aquila and Priscilla send you greetings as you do the work of the Lord, and the other believers that meet in their home do so as well."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "The rest of the brothers and sisters greet you, too. Greet one another with a kiss of affection."
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "your"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "I, Paul, am writing this sentence with my own hand."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "If anyone does not love the Lord, let a curse be on him. O Lord, come!"
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "May the kindness we do not deserve that comes from the Lord Jesus be with you."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "I send you this reminder that I love all of you, as you all are joined together in the Messiah Jesus."
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "questions"
+      },
+      {
+        "t": "w",
+        "v": "about"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "money"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "we"
+      },
+      {
+        "t": "w",
+        "v": "are"
+      },
+      {
+        "t": "w",
+        "v": "collecting"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "people"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "Jerusalem"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "belong"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "God"
+      },
+      {
+        "t": "w",
+        "v": "You"
+      },
+      {
+        "t": "w",
+        "v": "should"
+      },
+      {
+        "t": "w",
+        "v": "do"
+      },
+      {
+        "t": "w",
+        "v": "exactly"
+      },
+      {
+        "t": "w",
+        "v": "what"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "told"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "believers"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "churches"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "Galatia"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "do"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Every"
+      },
+      {
+        "t": "w",
+        "v": "Sunday"
+      },
+      {
+        "t": "w",
+        "v": "each"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "should"
+      },
+      {
+        "t": "w",
+        "v": "put"
+      },
+      {
+        "t": "w",
+        "v": "some"
+      },
+      {
+        "t": "w",
+        "v": "money"
+      },
+      {
+        "t": "w",
+        "v": "aside"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "are"
+      },
+      {
+        "t": "w",
+        "v": "able"
+      },
+      {
+        "t": "w",
+        "v": "so"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "will"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "need"
+      },
+      {
+        "t": "w",
+        "v": "any"
+      },
+      {
+        "t": "w",
+        "v": "more"
+      },
+      {
+        "t": "w",
+        "v": "collections"
+      },
+      {
+        "t": "w",
+        "v": "when"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "come"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "You"
+      },
+      {
+        "t": "w",
+        "v": "must"
+      },
+      {
+        "t": "w",
+        "v": "choose"
+      },
+      {
+        "t": "w",
+        "v": "people"
+      },
+      {
+        "t": "w",
+        "v": "whomever"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "wish"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "take"
+      },
+      {
+        "t": "w",
+        "v": "your"
+      },
+      {
+        "t": "w",
+        "v": "gifts"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "Jerusalem"
+      },
+      {
+        "t": "w",
+        "v": "And"
+      },
+      {
+        "t": "w",
+        "v": "when"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "arrive"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "will"
+      },
+      {
+        "t": "w",
+        "v": "send"
+      },
+      {
+        "t": "w",
+        "v": "letters"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "them"
+      },
+      {
+        "t": "w",
+        "v": "about"
+      },
+      {
+        "t": "w",
+        "v": "your"
+      },
+      {
+        "t": "w",
+        "v": "gift"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "If"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "is"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "right"
+      },
+      {
+        "t": "w",
+        "v": "thing"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "do"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "will"
+      },
+      {
+        "t": "w",
+        "v": "travel"
+      },
+      {
+        "t": "w",
+        "v": "together"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "me"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "Jerusalem"
       }
-    ],
-    "num": 16
+    ]
   },
-  "id": "CO EN_UST en_English_ltr unfoldingWord Simplified Text Fri May 24 2019 13:40:44 GMT-0400 (EDT) tc",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Corinthians"
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 5,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "am"
+      },
+      {
+        "t": "w",
+        "v": "planning"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "come"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "when"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "travel"
+      },
+      {
+        "t": "w",
+        "v": "through"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "region"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Macedonia"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Perhaps"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "will"
+      },
+      {
+        "t": "w",
+        "v": "stay"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "perhaps"
+      },
+      {
+        "t": "w",
+        "v": "all"
+      },
+      {
+        "t": "w",
+        "v": "through"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "winter"
+      },
+      {
+        "t": "w",
+        "v": "so"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "can"
+      },
+      {
+        "t": "w",
+        "v": "help"
+      },
+      {
+        "t": "w",
+        "v": "me"
+      },
+      {
+        "t": "w",
+        "v": "along"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "way"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "my"
+      },
+      {
+        "t": "w",
+        "v": "trip"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "do"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "want"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "see"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "only"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "short"
+      },
+      {
+        "t": "w",
+        "v": "time"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "hope"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Lord"
+      },
+      {
+        "t": "w",
+        "v": "will"
+      },
+      {
+        "t": "w",
+        "v": "allow"
+      },
+      {
+        "t": "w",
+        "v": "me"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "spend"
+      },
+      {
+        "t": "w",
+        "v": "enough"
+      },
+      {
+        "t": "w",
+        "v": "time"
+      },
+      {
+        "t": "w",
+        "v": "together"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "we"
+      },
+      {
+        "t": "w",
+        "v": "can"
+      },
+      {
+        "t": "w",
+        "v": "help"
+      },
+      {
+        "t": "w",
+        "v": "each"
+      },
+      {
+        "t": "w",
+        "v": "other"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "want"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "stay"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "Ephesus"
+      },
+      {
+        "t": "w",
+        "v": "until"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Festival"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Pentecost"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "because"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Lord"
+      },
+      {
+        "t": "w",
+        "v": "has"
+      },
+      {
+        "t": "w",
+        "v": "opened"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "door"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "me"
+      },
+      {
+        "t": "w",
+        "v": "there"
+      },
+      {
+        "t": "w",
+        "v": "although"
+      },
+      {
+        "t": "w",
+        "v": "there"
+      },
+      {
+        "t": "w",
+        "v": "are"
+      },
+      {
+        "t": "w",
+        "v": "still"
+      },
+      {
+        "t": "w",
+        "v": "many"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "oppose"
+      },
+      {
+        "t": "w",
+        "v": "us"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 10,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Now"
+      },
+      {
+        "t": "w",
+        "v": "when"
+      },
+      {
+        "t": "w",
+        "v": "Timothy"
+      },
+      {
+        "t": "w",
+        "v": "comes"
+      },
+      {
+        "t": "w",
+        "v": "treat"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "kindly"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "see"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "has"
+      },
+      {
+        "t": "w",
+        "v": "nothing"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "be"
+      },
+      {
+        "t": "w",
+        "v": "afraid"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "is"
+      },
+      {
+        "t": "w",
+        "v": "doing"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Lord"
+      },
+      {
+        "t": "w",
+        "v": "s"
+      },
+      {
+        "t": "w",
+        "v": "work"
+      },
+      {
+        "t": "w",
+        "v": "just"
+      },
+      {
+        "t": "w",
+        "v": "like"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "am"
+      },
+      {
+        "t": "w",
+        "v": "doing"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Do"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "let"
+      },
+      {
+        "t": "w",
+        "v": "anyone"
+      },
+      {
+        "t": "w",
+        "v": "treat"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "unimportant"
+      },
+      {
+        "t": "w",
+        "v": "Help"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "on"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "way"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "much"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "can"
+      },
+      {
+        "t": "w",
+        "v": "send"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "away"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "peace"
+      },
+      {
+        "t": "w",
+        "v": "so"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "may"
+      },
+      {
+        "t": "w",
+        "v": "join"
+      },
+      {
+        "t": "w",
+        "v": "me"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "am"
+      },
+      {
+        "t": "w",
+        "v": "expecting"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "travel"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "other"
+      },
+      {
+        "t": "w",
+        "v": "brothers"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "are"
+      },
+      {
+        "t": "w",
+        "v": "coming"
+      },
+      {
+        "t": "w",
+        "v": "my"
+      },
+      {
+        "t": "w",
+        "v": "way"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 12,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "You"
+      },
+      {
+        "t": "w",
+        "v": "asked"
+      },
+      {
+        "t": "w",
+        "v": "about"
+      },
+      {
+        "t": "w",
+        "v": "our"
+      },
+      {
+        "t": "w",
+        "v": "brother"
+      },
+      {
+        "t": "w",
+        "v": "Apollos"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "urged"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "strongly"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "should"
+      },
+      {
+        "t": "w",
+        "v": "visit"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "when"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "other"
+      },
+      {
+        "t": "w",
+        "v": "brothers"
+      },
+      {
+        "t": "w",
+        "v": "came"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "He"
+      },
+      {
+        "t": "w",
+        "v": "decided"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "come"
+      },
+      {
+        "t": "w",
+        "v": "now"
+      },
+      {
+        "t": "w",
+        "v": "but"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "will"
+      },
+      {
+        "t": "w",
+        "v": "come"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "later"
+      },
+      {
+        "t": "w",
+        "v": "when"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "has"
+      },
+      {
+        "t": "w",
+        "v": "opportunity"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 13,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Be"
+      },
+      {
+        "t": "w",
+        "v": "on"
+      },
+      {
+        "t": "w",
+        "v": "guard"
+      },
+      {
+        "t": "w",
+        "v": "do"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "wander"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "your"
+      },
+      {
+        "t": "w",
+        "v": "faith"
+      },
+      {
+        "t": "w",
+        "v": "Work"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Lord"
+      },
+      {
+        "t": "w",
+        "v": "like"
+      },
+      {
+        "t": "w",
+        "v": "grown"
+      },
+      {
+        "t": "w",
+        "v": "men"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "be"
+      },
+      {
+        "t": "w",
+        "v": "strong"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Do"
+      },
+      {
+        "t": "w",
+        "v": "everything"
+      },
+      {
+        "t": "w",
+        "v": "through"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "power"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "love"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 15,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "You"
+      },
+      {
+        "t": "w",
+        "v": "know"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "people"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "house"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Stephanas"
+      },
+      {
+        "t": "w",
+        "v": "You"
+      },
+      {
+        "t": "w",
+        "v": "know"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "were"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "first"
+      },
+      {
+        "t": "w",
+        "v": "ones"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "province"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Achaia"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "believe"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "are"
+      },
+      {
+        "t": "w",
+        "v": "determined"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "help"
+      },
+      {
+        "t": "w",
+        "v": "those"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "belong"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Lord"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "urge"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "brothers"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "sisters"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "obey"
+      },
+      {
+        "t": "w",
+        "v": "people"
+      },
+      {
+        "t": "w",
+        "v": "like"
+      },
+      {
+        "t": "w",
+        "v": "them"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "help"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "work"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "work"
+      },
+      {
+        "t": "w",
+        "v": "hard"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "us"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "glad"
+      },
+      {
+        "t": "w",
+        "v": "when"
+      },
+      {
+        "t": "w",
+        "v": "Stephanas"
+      },
+      {
+        "t": "w",
+        "v": "Fortunatus"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "Achaicus"
+      },
+      {
+        "t": "w",
+        "v": "arrived"
+      },
+      {
+        "t": "w",
+        "v": "here"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "Corinth"
+      },
+      {
+        "t": "w",
+        "v": "because"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "made"
+      },
+      {
+        "t": "w",
+        "v": "up"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "fact"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "were"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "here"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "They"
+      },
+      {
+        "t": "w",
+        "v": "encouraged"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "helped"
+      },
+      {
+        "t": "w",
+        "v": "me"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "my"
+      },
+      {
+        "t": "w",
+        "v": "spirit"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "helped"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "well"
+      },
+      {
+        "t": "w",
+        "v": "Tell"
+      },
+      {
+        "t": "w",
+        "v": "others"
+      },
+      {
+        "t": "w",
+        "v": "about"
+      },
+      {
+        "t": "w",
+        "v": "how"
+      },
+      {
+        "t": "w",
+        "v": "much"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "helped"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 19,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "The"
+      },
+      {
+        "t": "w",
+        "v": "churches"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "Asia"
+      },
+      {
+        "t": "w",
+        "v": "send"
+      },
+      {
+        "t": "w",
+        "v": "greetings"
+      },
+      {
+        "t": "w",
+        "v": "Aquila"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "Priscilla"
+      },
+      {
+        "t": "w",
+        "v": "send"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "greetings"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "do"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "work"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Lord"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "other"
+      },
+      {
+        "t": "w",
+        "v": "believers"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "meet"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "home"
+      },
+      {
+        "t": "w",
+        "v": "do"
+      },
+      {
+        "t": "w",
+        "v": "so"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "well"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "The"
+      },
+      {
+        "t": "w",
+        "v": "rest"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "brothers"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "sisters"
+      },
+      {
+        "t": "w",
+        "v": "greet"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "too"
+      },
+      {
+        "t": "w",
+        "v": "Greet"
+      },
+      {
+        "t": "w",
+        "v": "one"
+      },
+      {
+        "t": "w",
+        "v": "another"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "kiss"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "affection"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 21,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "Paul"
+      },
+      {
+        "t": "w",
+        "v": "am"
+      },
+      {
+        "t": "w",
+        "v": "writing"
+      },
+      {
+        "t": "w",
+        "v": "this"
+      },
+      {
+        "t": "w",
+        "v": "sentence"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "my"
+      },
+      {
+        "t": "w",
+        "v": "own"
+      },
+      {
+        "t": "w",
+        "v": "hand"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "If"
+      },
+      {
+        "t": "w",
+        "v": "anyone"
+      },
+      {
+        "t": "w",
+        "v": "does"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "love"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Lord"
+      },
+      {
+        "t": "w",
+        "v": "let"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "curse"
+      },
+      {
+        "t": "w",
+        "v": "be"
+      },
+      {
+        "t": "w",
+        "v": "on"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "O"
+      },
+      {
+        "t": "w",
+        "v": "Lord"
+      },
+      {
+        "t": "w",
+        "v": "come"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "May"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "kindness"
+      },
+      {
+        "t": "w",
+        "v": "we"
+      },
+      {
+        "t": "w",
+        "v": "do"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "deserve"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "comes"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Lord"
+      },
+      {
+        "t": "w",
+        "v": "Jesus"
+      },
+      {
+        "t": "w",
+        "v": "be"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "send"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "this"
+      },
+      {
+        "t": "w",
+        "v": "reminder"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "love"
+      },
+      {
+        "t": "w",
+        "v": "all"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "all"
+      },
+      {
+        "t": "w",
+        "v": "are"
+      },
+      {
+        "t": "w",
+        "v": "joined"
+      },
+      {
+        "t": "w",
+        "v": "together"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Messiah"
+      },
+      {
+        "t": "w",
+        "v": "Jesus"
+      }
+    ]
+  }
+]

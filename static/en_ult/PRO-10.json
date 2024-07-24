@@ -1,329 +1,2488 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "The proverbs of Solomon."
-          },
-          {
-            "tag": "q",
-            "text": "A wise son makes his father rejoice"
-          },
-          {
-            "tag": "q",
-            "text": "but a foolish son brings grief to his mother."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Treasures accumulated by wickedness have no value,"
-          },
-          {
-            "tag": "q",
-            "text": "but doing what is right keeps you from death."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Yahweh does not let the soul of the righteous person go hungry,"
-          },
-          {
-            "tag": "q",
-            "text": "but he frustrates the cravings of the wicked."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "A lazy hand causes a person to be poor,"
-          },
-          {
-            "tag": "q",
-            "text": "but the hand of the diligent person gains riches."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "A wise son gathers a crop in the summer,"
-          },
-          {
-            "tag": "q",
-            "text": "but it is disgraceful for him to sleep during harvest."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Gifts from God are upon the head of the righteous person,"
-          },
-          {
-            "tag": "q",
-            "text": "but the mouth of the wicked covers up violence."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "The righteous person makes those who remember him happy,"
-          },
-          {
-            "tag": "q",
-            "text": "but the name of the wicked will rot away."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Those who are sensible accept commands,"
-          },
-          {
-            "tag": "q",
-            "text": "but a talkative fool will come to ruin."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "He who walks in integrity walks in safety,"
-          },
-          {
-            "tag": "q",
-            "text": "but the one who makes his ways crooked, he will be found out."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "He who winks the eye causes grief,"
-          },
-          {
-            "tag": "q",
-            "text": "but a talkative fool will be thrown down."
-          },
-          {
-            "tag": "f",
-            "text": "+ "
-          },
-          {
-            "tag": "ft",
-            "text": "Some modern versions have "
-          },
-          {
-            "tag": "fqa",
-            "text": "but one who bravely corrects makes peace ."
-          },
-          {
-            "tag": "f",
-            "text": "*"
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "The mouth of the righteous person is a water spring of life,"
-          },
-          {
-            "tag": "q",
-            "text": "but the mouth of the wicked covers up violence."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Hatred stirs up conflicts,"
-          },
-          {
-            "tag": "q",
-            "text": "but love covers over all offenses."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Wisdom is found on the lips of a discerning person,"
-          },
-          {
-            "tag": "q",
-            "text": "but a rod is for the back of the one who has no sense."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "Wise men store up knowledge,"
-          },
-          {
-            "tag": "q",
-            "text": "but the mouth of a fool brings destruction near."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "The wealth of a rich man is his fortified city;"
-          },
-          {
-            "tag": "q",
-            "text": "the poverty of the poor is their destruction."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "The wage of the righteous person leads to life;"
-          },
-          {
-            "tag": "q",
-            "text": "the profit of the wicked leads them to sin."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "There is a path to life for the one who follows discipline,"
-          },
-          {
-            "tag": "q",
-            "text": "but the one who rejects correction is led astray."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "Whoever conceals hatred has lying lips,"
-          },
-          {
-            "tag": "q",
-            "text": "and whoever spreads slander is a fool."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "When there are many words, transgression is not lacking,"
-          },
-          {
-            "tag": "q",
-            "text": "but he who is careful in what he says is wise."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "The tongue of the righteous person is pure silver;"
-          },
-          {
-            "tag": "q",
-            "text": "there is little value in the heart of the wicked."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "The lips of the righteous person nourish many,"
-          },
-          {
-            "tag": "q",
-            "text": "but fools die because of their lack of sense."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "The good gifts of Yahweh bring wealth"
-          },
-          {
-            "tag": "q",
-            "text": "and he adds no pain to it."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "Wickedness is a game a fool plays,"
-          },
-          {
-            "tag": "q",
-            "text": "but wisdom is a pleasure to a man of understanding."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "The fear of the wicked person will overtake him,"
-          },
-          {
-            "tag": "q",
-            "text": "but the desire of righteous people will be granted."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "The wicked are like the storm that passes by, and they are no more,"
-          },
-          {
-            "tag": "q",
-            "text": "but the righteous person is a foundation that lasts forever."
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "Like vinegar on the teeth and smoke in the eyes,"
-          },
-          {
-            "tag": "q",
-            "text": "so is the sluggard to those who send him."
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "The fear of Yahweh prolongs life,"
-          },
-          {
-            "tag": "q",
-            "text": "but the years of the wicked will be short."
-          },
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "The hope of righteous people is their joy,"
-          },
-          {
-            "tag": "q",
-            "text": "but the years of wicked people will be short."
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "The way of Yahweh protects those who have integrity,"
-          },
-          {
-            "tag": "q",
-            "text": "but it is destruction for the wicked."
-          },
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "The righteous person will never be overthrown,"
-          },
-          {
-            "tag": "q",
-            "text": "but the wicked will not remain in the land."
-          },
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "Out of the mouth of the righteous person comes the fruit of wisdom,"
-          },
-          {
-            "tag": "q",
-            "text": "but the perverse tongue will be cut out."
-          },
-          {
-            "tag": "v",
-            "num": "32",
-            "text": "The lips of the righteous person know what is acceptable,"
-          },
-          {
-            "tag": "q",
-            "text": "but the mouth of the wicked, they know what is perverse."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "The proverbs of Solomon."
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "Treasures accumulated by wickedness have no value,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Yahweh does not let the soul of the righteous person go hungry,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "A lazy hand causes a person to be poor,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "A wise son gathers a crop in the summer,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Gifts from God are upon the head of the righteous person,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "The righteous person makes those who remember him happy,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Those who are sensible accept commands,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "He who walks in integrity walks in safety,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "He who winks the eye causes grief,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "The mouth of the righteous person is a water spring of life,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Hatred stirs up conflicts,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Wisdom is found on the lips of a discerning person,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "Wise men store up knowledge,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "The wealth of a rich man is his fortified city;"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "The wage of the righteous person leads to life;"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "There is a path to life for the one who follows discipline,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Whoever conceals hatred has lying lips,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "When there are many words, transgression is not lacking,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "The tongue of the righteous person is pure silver;"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "The lips of the righteous person nourish many,"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "The good gifts of Yahweh bring wealth"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "Wickedness is a game a fool plays,"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "The fear of the wicked person will overtake him,"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "The wicked are like the storm that passes by, and they are no more,"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "Like vinegar on the teeth and smoke in the eyes,"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "The fear of Yahweh prolongs life,"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "The hope of righteous people is their joy,"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "The way of Yahweh protects those who have integrity,"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "The righteous person will never be overthrown,"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "Out of the mouth of the righteous person comes the fruit of wisdom,"
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "The lips of the righteous person know what is acceptable,"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh hates scales that are not accurate,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "When pride comes, then comes disgrace,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "The integrity of the upright guides them,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Wealth is worthless on the day of wrath,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "The right conduct of a blameless person makes his way straight,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "The right conduct of those who please God keeps them safe,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "When a wicked man dies, his hope perishes"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "The righteous person is kept away from trouble"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "With his mouth the godless person destroys his neighbor,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "When righteous people prosper, a city rejoices;"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Through the good gifts of those who please God, the city becomes great;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "The man who has contempt for his friend has no sense,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Whoever goes around slandering reveals secrets,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "Where there is no wise direction, a nation falls,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Whoever guarantees a loan for a stranger will surely suffer harm,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "A gracious woman gets honor,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "A kind person benefits himself,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "The wicked person lies to get his wages,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "An honest person who does what is right will live,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Yahweh hates those whose hearts are perverse,"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Be sure of this—the wicked person will not go unpunished,"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Like a gold ring in a pig’s nose"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "The desires of righteous people result in good,"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "There is one who scatters—he will accumulate even more;"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "The generous person will prosper"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "People curse the man who refuses to sell grain,"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "The one who diligently seeks good is also seeking favor,"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "Those who trust in their riches will fall,"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "The one who brings trouble on his own household will inherit the wind"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "The righteous person will be like a tree of life,"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "Behold! The righteous person receives what he deserves;"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "Whoever loves discipline loves knowledge,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "Yahweh gives favor to a good man,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "A person cannot be established by wickedness,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "A worthy wife is her husband’s crown,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "The plans of the righteous are just,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "The words of wicked people are an ambush waiting for a chance to kill,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Wicked people are overthrown and they are gone,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "A person is praised by how much wisdom he has,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Better to have an unimportant position—only being a servant—"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "The righteous person cares about the needs of his animal,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "The one who works his land will have plenty of food,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "The wicked person desires what evil men have stolen from others,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "An evil person is trapped by his wicked talk,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "From the fruit of his words a person is filled with good things,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "The way of a fool is right in his own eyes,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "A fool shows his anger at once,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "The one who speaks the truth says what is right,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "The words of one who speaks rashly are like the thrusts of a sword,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Truthful lips last forever,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "There is deceit in the hearts of those who plan to do evil,"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "No ill comes on the righteous person,"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Yahweh hates lying lips,"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "A prudent man conceals his knowledge,"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "The hand of the diligent will rule,"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "Anxiety in the heart of a person weighs him down,"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "The righteous person is a guide for his friend,"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "Lazy people would not roast their own game,"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "Those who walk in the right way find life"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "A wise son hears his father’s instruction,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "From the fruit of his mouth a person enjoys good things,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "The one who guards his mouth protects his life,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "The appetite of lazy people craves but gets nothing,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "The righteous person hates lies,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Righteousness protects those who are faultless in their path,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "There is someone who enriches himself, but has nothing at all,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "The ransom of a rich man’s life is his wealth,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "The light of righteous people rejoices,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Pride only breeds conflict,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Wealth dwindles away when there is too much vanity,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "When hope is postponed, it breaks the heart,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Whoever despises instruction brings destruction on himself,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "The teaching of a wise person is a fountain of life,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Good insight wins favor,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Prudent people act out of knowledge in every decision,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "A wicked messenger falls into trouble,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "The one who ignores instruction will have poverty and shame,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "A longing realized is sweet to the appetite,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Walk with wise people and you will be wise,"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Disaster runs after sinners,"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "A good person leaves an inheritance for his grandchildren,"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "An unplowed field owned by the poor could produce much food,"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "The one who does not discipline his son hates him,"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "The righteous person eats until he satisfies his appetite,"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "The wise woman builds her house,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "The one who walks uprightly fears Yahweh,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "From the mouth of a fool comes a rod for his back,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Where there are no cattle the feeding trough is clean,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "A faithful witness does not lie,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "A mocker seeks wisdom and there is none,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Walk away from a foolish person,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "The wisdom of the prudent person is to understand his own way,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Fools mock when the guilt offering is sacrificed,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "The heart knows its own bitterness"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "The house of wicked people will be destroyed,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "There is a way that seems right to a man,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "A heart can laugh but still be in pain"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "The one who is not faithful will get what his ways deserve,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "The one who is naive believes everything,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "A wise man fears and turns away from evil,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "One who is quick to become angry does foolish things,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "The naive inherit foolishness,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Evil people will bow down before those who are good"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "The poor person is hated even by his own companions,"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "The one who shows contempt for his neighbor is sinning,"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Do not those who plot evil go astray?"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "With all hard work comes a profit,"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "The crown of wise people is their wealth,"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "A truthful witness saves lives,"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "When someone fears Yahweh, he also has much confidence in him;"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "The fear of Yahweh is a fountain of life,"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "The glory of a king is found in the great number of his people,"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "A patient person has great understanding,"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "A tranquil heart is life for the body,"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "The one who oppresses the poor curses his Maker,"
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "The wicked person is brought down by his evil actions,"
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "Wisdom rests in the heart of the discerning,"
+      },
+      {
+        "t": "v",
+        "n": 34,
+        "v": "Doing what is right exalts a nation,"
+      },
+      {
+        "t": "v",
+        "n": 35,
+        "v": "The favor of the king is with the servant who acts prudently,"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "A gentle answer turns away wrath,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "The tongue of wise people compliments knowledge,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "The eyes of Yahweh are everywhere,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "A healing tongue is a tree of life,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "A fool has contempt for his father’s instruction,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "In the house of the righteous person there is great treasure,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "The lips of wise people scatter knowledge about,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Yahweh hates the sacrifices of wicked people,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Yahweh hates the way of wicked people,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Harsh discipline awaits anyone who forsakes the way"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Sheol and destruction are open before Yahweh;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "The mocker resents correction;"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "A joyful heart makes the face cheerful,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "The heart of the discerning seeks knowledge,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "All the days of oppressed people are miserable,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Better is little with the fear of Yahweh"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Better is a meal with vegetables where there is love"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "An angry man stirs up arguments,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "The path of the sluggard is like a place with a hedge of thorns,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "A wise son brings joy to his father,"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Folly delights a person who lacks sense,"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Plans go wrong where there is no advice,"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "A person finds joy when he gives a pertinent reply;"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "The path of life leads upward for prudent people,"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "Yahweh tears down the house of the proud,"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "Yahweh hates the thoughts of wicked people,"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "The robber brings trouble to his family,"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "The heart of the righteous person ponders before it answers,"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "Yahweh is far away from wicked people,"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "The light of the eyes brings joy to the heart"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "If you pay attention when someone corrects how you live,"
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "The one who rejects discipline despises himself,"
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "The fear of Yahweh teaches wisdom"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "The plans of the heart belong to a person,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "All of a person’s ways are pure in his own eyes,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Commit your works to Yahweh"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Yahweh has made everything for its purpose,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Yahweh hates everyone who has an arrogant heart,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "By covenant faithfulness and trustworthiness iniquity is atoned for"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "When a person’s ways are pleasing to Yahweh,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Better is a little with what is right,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "In his heart a person plans out his way,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Insightful decisions are on the lips of a king,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Honest scales come from Yahweh;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "When kings do wicked things, that is something to be despised,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "A king delights in lips that say what is right"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "A king’s wrath is a messenger of death"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "In the light of a king’s face is life"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "How much better it is to get wisdom than gold."
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "The highway of upright people turns away from evil;"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Pride comes before destruction"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "It is better to be humble among poor people"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Whoever contemplates what they are taught will find what is good,"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "The one who is wise in heart is called discerning"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Understanding is a fountain of life to the one who has it,"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "The heart of a wise person gives insight to his mouth"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "Pleasant words are a honeycomb—"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "There is a way that seems right to a man,"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "The laborer’s appetite works for him;"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "A worthless person digs up mischief"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "A perverse person stirs up conflict"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "A man of violence lies to his neighbor"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "The one who winks the eye is plotting perverse things;"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "Gray hair is a crown of glory;"
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "It is better to be slow to anger than to be a warrior"
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "The lots are cast into the lap,"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "It is better to have quiet with a dry morsel of bread"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "A wise servant will rule over a son who acts shamefully"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "The crucible is for silver and the furnace is for gold,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "The evildoer pays attention to wicked lips;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Whoever mocks the poor insults his Maker"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Grandchildren are the crown of the aged"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Eloquent speech is not suitable for a fool;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "A bribe is like a magic stone to the one who gives it;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Whoever overlooks an offense seeks love,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "A rebuke goes deeper into a person who has understanding"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "An evil person only seeks rebellion,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "It is better to meet a bear robbed of her cubs"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "When someone returns evil for good,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "The beginning of conflict is like one who releases water everywhere,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "The person who acquits the wicked person and the person who condemns the righteous person—"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Why should a fool pay money to learn about wisdom,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "A friend is loving at all times"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "A man having no sense makes binding promises"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Whoever loves conflict loves sin;"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "A person who has a crooked heart finds nothing that is good;"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Whoever is the parent of a fool brings grief to himself;"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "A cheerful heart is good medicine,"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "A wicked man accepts a secret bribe"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "The one who has understanding sets his face toward wisdom,"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "A foolish son is a grief to his father"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "Also, it is never good to punish the righteous person;"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "One who has knowledge uses few words"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "Even a fool is thought to be wise if he keeps silent;"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "One who isolates himself seeks his own desire"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "A fool finds no pleasure in understanding,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "When a wicked person comes, contempt comes with him—"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "The words of a man’s mouth are deep waters;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "It is not good to be partial to the wicked person,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "A fool’s lips bring him conflict"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "A fool’s mouth is his ruin"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "The words of a gossip are like delicious morsels"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Also, one who is slack in his work"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "The name of Yahweh is a strong tower;"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "The wealth of the rich is his fortified city"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Before his downfall a person’s heart is proud,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "One who answers before listening—"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "A person’s spirit will survive sickness,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "The heart of the intelligent acquires knowledge"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "A man’s gift may open the way"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "The first to plead his case seems right"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Casting the lot settles disputes"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "An offended brother is harder to be won than a strong city,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "From the fruit of his mouth one’s stomach is filled;"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Death and life are controlled by the tongue,"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "He who finds a wife finds a good thing"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "A poor person pleads for mercy,"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "The one who claims many friends is brought to ruin by them,"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "Better is a poor person who walks in his integrity"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "Also, it is not good to have desire without knowledge"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "A person’s folly ruins his life"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Wealth adds many friends,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "A false witness will not go unpunished"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Many will ask for a favor from a generous person"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "All the brothers of a poor man hate him;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "He who gets wisdom loves his own life;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "A false witness will not go unpunished,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "It is not fitting for a fool to live in luxury—"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Discretion makes a person slow to anger"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "The wrath of the king is like the roaring of a young lion,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "A foolish son is ruin to his father"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "A house and wealth are inherited from parents,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Laziness throws a person into a deep sleep,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "The one who obeys the command guards his life,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Whoever is kind to the poor lends to Yahweh"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Discipline your son while there is hope"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "A hot-tempered person must pay the penalty;"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Listen to advice and accept instruction,"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Many are the plans in a person’s heart,"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Loyalty is what a person desires"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "Honor for Yahweh leads people to life;"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "The sluggard buries his hand in the dish;"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "Strike a mocker, and the naive person will become prudent;"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "The one who robs his father and chases his mother away"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "If you cease to hear instruction, my son,"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "A corrupt witness mocks justice"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "Condemnation is ready for mockers"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "Wine is a mocker and strong drink is a brawler;"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "The fear of a king is like the fear of a young lion that is roaring;"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "It is an honor for anyone to avoid conflict,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "The lazy person does not plow in autumn;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "The purpose in a human heart is like deep water,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Many a person proclaims he is loyal,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "The righteous person walks in his integrity,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "A king who sits on the throne performing the duties of a judge"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Who can say, “I have kept my heart pure;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Differing weights and unequal measures—"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Even a youth is known by his actions,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Ears that hear and eyes that see—"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Do not love sleep or you will come to poverty;"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "“Bad! Bad!” says the buyer,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "There is gold and an abundance of costly stones,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Take a garment of one who has put up security for a stranger,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Bread gained by deceit tastes sweet,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Plans are established by advice"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "A gossip reveals secrets"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "If a person curses his father or his mother,"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "An inheritance gained quickly at the beginning"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Do not say, “I will pay you back for this wrong!”"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "Yahweh hates unequal weights"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "A person’s steps are directed by Yahweh;"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "It is a snare for a person to say rashly, “This thing is holy,”"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "A wise king winnows the wicked"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "The spirit of a person is the lamp of Yahweh,"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "Covenant faithfulness and trustworthiness preserve the king;"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "The glory of young men is their strength"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "Blows that make a wound cleanse away evil"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "The king’s heart is a stream of water in the hand of Yahweh;"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "Every person’s way is right in his own eyes,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "To do what is right and just"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Haughty eyes and a proud heart—"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "The plans of the diligent lead only to prosperity,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Acquiring riches by a lying tongue"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "The violence of the wicked will drag them away,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "The way of a guilty person is crooked,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "It is better to live on a corner of the roof"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "The appetite of the wicked craves evil;"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "When the mocker is punished, the naive become wise,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "The righteous person watches the house of the wicked person;"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "The one who shuts his ears to the cry of the poor,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "A gift in secret appeases anger"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "When justice is done, it brings joy to the righteous person,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "The one who wanders from the way of understanding,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Whoever loves pleasure will become poor;"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "A wicked person is ransom for the righteous person,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "It is better to live in the desert"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Desirable treasure and oil are kept in the dwelling of the wise,"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "The one who does right and is kind—"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "A wise man scales the city of the mighty ones,"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "Whoever guards his mouth and tongue"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "The proud and haughty person—”Mocker” is his name—"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "The desire of the lazy kills him,"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "All day long he craves and craves more,"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "The sacrifice of the wicked is detestable;"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "A false witness will perish,"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "A wicked man makes his face hard,"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "There is no wisdom, there is no understanding, and there is no advice"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "The horse is prepared for the day of battle,"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "A good name is to be chosen over great riches"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "Rich and poor people have this in common—"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "A prudent man sees trouble and hides himself,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "The reward for humility and fear of Yahweh"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Thorns and snares lie in the path of the perverse;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Teach a child the way he should go"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Rich people rule over poor people"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "He who sows injustice will reap trouble"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "The one who has a generous eye will be blessed,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Drive away the mocker, and out goes strife;"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "The one who loves a pure heart"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "The eyes of Yahweh keep watch over knowledge,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "The lazy person says, “There is a lion in the street!"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "The mouth of an adulteress is a deep pit;"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Foolishness is bound up in the heart of a child,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "The one who oppresses poor people to increase his wealth,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Incline your ear and listen to the words of the wise"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "for it will be pleasant for you if you keep them within you,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "So your trust may be in Yahweh,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Have I not written for you thirty sayings"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "to teach you truth in these trustworthy words,"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Do not rob the poor because he is poor,"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "for Yahweh will plead their case,"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "Do not make a friend of someone who is ruled by anger"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "or you will learn his ways"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "Do not be one who strikes hands in making a pledge,"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "If you lack the means to pay,"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "Do not remove the ancient boundary stone"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "Do you see a man skilled at his work? He will stand before kings;"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "When you sit to eat with a ruler,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "and put a knife to your throat"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Do not crave his delicacies,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Do not work too hard to gain wealth;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Will you let your eyes light upon it?"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Do not eat the food of one with an evil eye—"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "for he is the kind of man who counts the price of the food."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "You will vomit up the little you have eaten"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Do not speak in the hearing of a fool,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Do not move an ancient boundary stone"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "for their Redeemer is strong"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Apply your heart to instruction"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Do not withhold instruction from a child,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "It is you who must beat him with the rod"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "My son, if your heart is wise,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "my inmost being will rejoice"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Do not let your heart envy sinners,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Surely there is a future"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Hear—you!—my son, and be wise"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Do not associate with drunkards,"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "for the drunkard and the glutton become poor"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Listen to your father who begot you"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "Buy the truth, but do not sell it;"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "The father of the righteous person will greatly rejoice,"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "Let your father and your mother be glad"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "My son, give me your heart"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "For a prostitute is a deep pit,"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "She lies in wait like a robber"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "Who has woe? Who has sorrow? Who has fights?"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "Those who linger over wine,"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "Do not look at the wine when it is red,"
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "In the last it bites like a serpent"
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "Your eyes will see strange things"
+      },
+      {
+        "t": "v",
+        "n": 34,
+        "v": "You will be as one who sleeps on the high seas"
+      },
+      {
+        "t": "v",
+        "n": 35,
+        "v": "“They hit me,” you will say, “but I was not hurt."
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "Do not be envious of those who are evil,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "because their hearts plot violence"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Through wisdom a house is built"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "By knowledge the rooms are filled"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "A warrior of wisdom is strong,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "for by wise direction you can wage your war"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Wisdom is too high for a fool;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "There is one who plans to do evil—"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "A foolish plan is sin"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "If you become weak with fear in the day of trouble,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Rescue those who are being taken away to death"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "If you say, “Behold, we knew nothing about this,”"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "My son, eat honey because it is good,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "Such is wisdom for your soul—"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Do not lie in wait like the wicked person"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "For the righteous person falls down seven times and rises again,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Do not celebrate when your enemy falls"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "or Yahweh will see and disapprove"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Do not worry because of evildoers,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "for the evil person has no future"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Fear Yahweh, and fear the king, my son;"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "for suddenly their disaster will come"
       }
-    ],
-    "num": 10
+    ]
   },
-  "id": "PRO unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Proverbs",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Proverbs"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": "A wise son makes his father rejoice"
+  },
+  {
+    "t": "q",
+    "v": "but a foolish son brings grief to his mother."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but doing what is right keeps you from death."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but he frustrates the cravings of the wicked."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but the hand of the diligent person gains riches."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but it is disgraceful for him to sleep during harvest."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but the mouth of the wicked covers up violence."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but the name of the wicked will rot away."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but a talkative fool will come to ruin."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but the one who makes his ways crooked, he will be found out."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but a talkative fool will be thrown down."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but the mouth of the wicked covers up violence."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but love covers over all offenses."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but a rod is for the back of the one who has no sense."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but the mouth of a fool brings destruction near."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the poverty of the poor is their destruction."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the profit of the wicked leads them to sin."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but the one who rejects correction is led astray."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and whoever spreads slander is a fool."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but he who is careful in what he says is wise."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "there is little value in the heart of the wicked."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but fools die because of their lack of sense."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and he adds no pain to it."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but wisdom is a pleasure to a man of understanding."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but the desire of righteous people will be granted."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but the righteous person is a foundation that lasts forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so is the sluggard to those who send him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but the years of the wicked will be short."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but the years of wicked people will be short."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but it is destruction for the wicked."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but the wicked will not remain in the land."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but the perverse tongue will be cut out."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but the mouth of the wicked, they know what is perverse."
+  }
+]

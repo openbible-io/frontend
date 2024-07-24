@@ -1,236 +1,383 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "Hear my prayer, Yahweh;"
       },
       {
-        "tag": "d",
-        "text": "A psalm of David."
+        "t": "v",
+        "n": 2,
+        "v": "Do not hide your face from me in my time of trouble."
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "I give praise to Yahweh with all my life,"
-          },
-          {
-            "tag": "q",
-            "text": "and with all that is within me, I give praise to his holy name."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "I give praise to Yahweh with all my life,"
-          },
-          {
-            "tag": "q",
-            "text": "and I remember all of his good deeds."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "He forgives all your sins;"
-          },
-          {
-            "tag": "q",
-            "text": "he heals all your diseases."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "He redeems your life from destruction;"
-          },
-          {
-            "tag": "q",
-            "text": "he crowns you with covenant faithfulness and acts of tender mercy."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "He satisfies your life with good things"
-          },
-          {
-            "tag": "q",
-            "text": "so that your youth is renewed like the eagle."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Yahweh does what is fair"
-          },
-          {
-            "tag": "q",
-            "text": "and does acts of justice for all who are oppressed."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "He made known his ways to Moses,"
-          },
-          {
-            "tag": "q",
-            "text": "his deeds to the descendants of Israel."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Yahweh is merciful and gracious;"
-          },
-          {
-            "tag": "q",
-            "text": "he is patient; he has great covenant loyalty."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "He will not always discipline;"
-          },
-          {
-            "tag": "q",
-            "text": "he is not always angry."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "He does not deal with us as our sins deserve"
-          },
-          {
-            "tag": "q",
-            "text": "or repay us for what our sins demand."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "For as the skies are high above the earth,"
-          },
-          {
-            "tag": "q",
-            "text": "so great is his covenant faithfulness toward those who honor him."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "As far as the east is from the west,"
-          },
-          {
-            "tag": "q",
-            "text": "this is how far he has removed the guilt of our sins from us."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "As a father has compassion on his children,"
-          },
-          {
-            "tag": "q",
-            "text": "so Yahweh has compassion on those who honor him."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "For he knows how we are formed;"
-          },
-          {
-            "tag": "q",
-            "text": "he knows that we are dust."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "As for man, his days are like grass;"
-          },
-          {
-            "tag": "q",
-            "text": "he flourishes like a flower in a field."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "The wind blows over it, and it disappears,"
-          },
-          {
-            "tag": "q",
-            "text": "and no one can even tell where it once grew."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "But the covenant faithfulness of Yahweh is from everlasting to everlasting on those who honor him."
-          },
-          {
-            "tag": "q",
-            "text": "His righteousness extends to their descendants."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "They keep his covenant"
-          },
-          {
-            "tag": "q",
-            "text": "and remember to obey his instructions."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "Yahweh has established his throne in the heavens,"
-          },
-          {
-            "tag": "q",
-            "text": "and his kingdom rules over everyone."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Give praise to Yahweh, you his angels,"
-          },
-          {
-            "tag": "q",
-            "text": "you mighty ones who are strong and do his word,"
-          },
-          {
-            "tag": "q",
-            "text": "and obey the sound of his word."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "Give praise to Yahweh, all his hosts,"
-          },
-          {
-            "tag": "q",
-            "text": "you are his servants who carry out his will."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Give praise to Yahweh, all his creatures,"
-          },
-          {
-            "tag": "q",
-            "text": "in all the places where he reigns."
-          },
-          {
-            "tag": "q",
-            "text": "I will give praise to Yahweh with all my life."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "For my days pass away like smoke,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "My heart is crushed, and I am like grass that has withered."
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "With my continual groaning,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "I am like a pelican of the wilderness;"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "I lie awake like a solitary bird,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "My enemies taunt me all day long;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "I eat ashes like bread"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Because of your raging anger,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "My days are like a shadow that fades,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "But you, Yahweh, live forever,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "You will rise up and have mercy on Zion."
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "For your servants hold her stones dear"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "The nations will respect your name, Yahweh,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Yahweh will rebuild Zion"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "At that time, he will respond to the prayer of the destitute;"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "This will be written for future generations,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "For he has looked down from the holy heights;"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "to hear the groaning of the prisoners,"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Then men will proclaim the name of Yahweh in Zion"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "when the peoples and kingdoms gather together"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "He has taken away my strength in the middle of life."
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "I said, “My God, do not take me away in the middle of life;"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "In ancient times you set the earth in place;"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "They will perish, but you will remain;"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "But you are the same,"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "The children of your servants will live on,"
       }
-    ],
-    "num": 103
+    ]
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "hear my cry to you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Listen to me."
+  },
+  {
+    "t": "q",
+    "v": "When I call out to you, answer me quickly."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and my bones burn like fire."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I forget to eat any food."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I have become very thin."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I have become like an owl in the ruins."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "alone on the housetop."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "those who mock me use my name in curses."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and mix my drink with tears."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you have lifted me up to throw me down."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and I have withered like grass."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and your fame is for all generations."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Now is the time to have mercy upon her;"
+  },
+  {
+    "t": "q",
+    "v": "the appointed time has come."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and feel compassion for the dust of her ruins."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and all the kings of the earth will honor your glory."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and will appear in his glory."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he will not reject their prayer."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and a people not yet born will praise Yahweh."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "from heaven Yahweh has viewed the earth,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "to release those who were condemned to death."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and his praise in Jerusalem"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "to serve Yahweh."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "He has shortened my days."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you are here throughout all generations."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the heavens are the work of your hands."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they will all grow old like a garment;"
+  },
+  {
+    "t": "q",
+    "v": "like clothing, you will remove them, and they will disappear."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and your years will have no end."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and their descendants will live in your presence.”"
+  }
+]

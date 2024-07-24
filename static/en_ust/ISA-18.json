@@ -1,137 +1,108 @@
-{
-  "chapter": {
-    "children": [
-      {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Terrible things will happen to you people of Ethiopia!"
-          },
-          {
-            "tag": "q2",
-            "text": "In your land there are many boats at the upper part of the Nile River."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Your rulers send ambassadors that sail quickly down the river in papyrus boats."
-          },
-          {
-            "tag": "q1",
-            "text": "Tell your messengers to go quickly!"
-          },
-          {
-            "tag": "q1",
-            "text": "Go to people who are tall and who have smooth skins."
-          },
-          {
-            "tag": "q2",
-            "text": "People everywhere are afraid of those people,"
-          },
-          {
-            "tag": "q1",
-            "text": "because they conquer and destroy other nations;"
-          },
-          {
-            "tag": "q2",
-            "text": "they are people who live in a land that rivers divide."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "You messengers must tell to the people of the world,"
-          },
-          {
-            "tag": "q2",
-            "text": "to all people everywhere,"
-          },
-          {
-            "tag": "q1",
-            "text": "\"Look when the battle flag is lifted on top of the mountain,"
-          },
-          {
-            "tag": "q1",
-            "text": "and listen when the ram's horn blows"
-          },
-          {
-            "tag": "q2",
-            "text": "to signal that the battle is about to begin.\""
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Listen because Yahweh has told me this:"
-          },
-          {
-            "tag": "q2",
-            "text": "\"I will watch quietly from where I live."
-          },
-          {
-            "tag": "q1",
-            "text": "I will watch quietly like the heat that shimmers as it rises on a summer day."
-          },
-          {
-            "tag": "q2",
-            "text": "I will work effectively like the cloud of mist that settles during the heat of harvest."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Before the harvest, the farmer sees the grapevines making blossoms and the flowers growing into grapes, "
-          },
-          {
-            "tag": "q2",
-            "text": "and he knows that the time is right to cut off the new growth and spreading branches that keep the tree from growing strong."
-          },
-          {
-            "tag": "q1",
-            "text": "In the same way I know when the time is right to take action against that nation, and I will send an army to attack it. "
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "All the soldiers in that nation's army will be killed,"
-          },
-          {
-            "tag": "q2",
-            "text": "and their corpses will lie in the fields for vultures to eat their flesh in the summer."
-          },
-          {
-            "tag": "q1",
-            "text": "Then wild animals will chew on their bones all during the winter.\""
-          }
-        ],
-        "auto": true
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "At that time, the people of the nation that rivers divide will take gifts to Yahweh in Jerusalem."
-          },
-          {
-            "tag": "q1",
-            "text": "Those people are tall and have smooth skins; people everywhere are afraid of those people,"
-          },
-          {
-            "tag": "q2",
-            "text": "because they conquer and destroy other nations,"
-          },
-          {
-            "tag": "q1",
-            "text": "will take gifts to Jerusalem, the city where Yahweh, commander of the angel armies, lives."
-          }
-        ],
-        "tag": "p"
-      }
-    ],
-    "num": 18
+[
+  {
+    "t": "q",
+    "v": []
   },
-  "id": "ISA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Isaiah"
-}
+  {
+    "t": "q",
+    "v": "In your land there are many boats at the upper part of the Nile River."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Tell your messengers to go quickly!"
+  },
+  {
+    "t": "q",
+    "v": "Go to people who are tall and who have smooth skins."
+  },
+  {
+    "t": "q",
+    "v": "People everywhere are afraid of those people,"
+  },
+  {
+    "t": "q",
+    "v": "because they conquer and destroy other nations;"
+  },
+  {
+    "t": "q",
+    "v": "they are people who live in a land that rivers divide."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "to all people everywhere,"
+  },
+  {
+    "t": "q",
+    "v": "“Look when the battle flag is lifted on top of the mountain,"
+  },
+  {
+    "t": "q",
+    "v": "and listen when the ram’s horn blows"
+  },
+  {
+    "t": "q",
+    "v": "to signal that the battle is about to begin.”"
+  },
+  {
+    "t": "q",
+    "v": "“I will watch quietly from where I live."
+  },
+  {
+    "t": "q",
+    "v": "I will watch quietly like the heat that shimmers as it rises on a summer day."
+  },
+  {
+    "t": "q",
+    "v": "I will work effectively like the cloud of mist that settles during the heat of harvest."
+  },
+  {
+    "t": "q",
+    "v": "and he knows that the time is right to cut off the new growth and spreading branches that keep the tree from growing strong."
+  },
+  {
+    "t": "q",
+    "v": "In the same way I know when the time is right to take action against that nation, and I will send an army to attack it. "
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and their corpses will lie in the fields for vultures to eat their flesh in the summer."
+  },
+  {
+    "t": "q",
+    "v": "Then wild animals will chew on their bones all during the winter.”"
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 7,
+        "v": "At that time, the people of the nation that rivers divide will take gifts to Yahweh in Jerusalem."
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "Those people are tall and have smooth skins; people everywhere are afraid of those people,"
+  },
+  {
+    "t": "q",
+    "v": "because they conquer and destroy other nations,"
+  },
+  {
+    "t": "q",
+    "v": "will take gifts to Jerusalem, the city where Yahweh, commander of the angel armies, lives."
+  }
+]

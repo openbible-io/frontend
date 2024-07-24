@@ -1,130 +1,345 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "By the rivers of Babylon"
-          },
-          {
-            "tag": "q",
-            "text": "we sat down and wept"
-          },
-          {
-            "tag": "q",
-            "text": "when we thought about Zion."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "On the poplars there"
-          },
-          {
-            "tag": "q",
-            "text": "we hung our harps."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "There our captors required songs from us,"
-          },
-          {
-            "tag": "q",
-            "text": "and those who mocked us required us to be happy, saying,"
-          },
-          {
-            "tag": "q",
-            "text": "“Sing us one of the songs of Zion.”"
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "How could we sing a song about Yahweh"
-          },
-          {
-            "tag": "q",
-            "text": "in a foreign land?"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "If I ignore the memory of you, Jerusalem,"
-          },
-          {
-            "tag": "q",
-            "text": "let my right hand forget her skill."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Let my tongue cling to the roof of my mouth"
-          },
-          {
-            "tag": "q",
-            "text": "if I think about you no more,"
-          },
-          {
-            "tag": "q",
-            "text": "if I do not prefer Jerusalem"
-          },
-          {
-            "tag": "q",
-            "text": "more than my greatest delights."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Call to mind, Yahweh, what the Edomites did"
-          },
-          {
-            "tag": "q",
-            "text": "on the day Jerusalem fell."
-          },
-          {
-            "tag": "q",
-            "text": "They said, “Tear it down, tear it down"
-          },
-          {
-            "tag": "q",
-            "text": "to its foundations.”"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Daughter of Babylon, soon to be destroyed—"
-          },
-          {
-            "tag": "q",
-            "text": "may the person be blessed, whoever pays you back"
-          },
-          {
-            "tag": "q",
-            "text": "for what you have done to us."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "May the person be blessed, whoever takes and dashes your little ones"
-          },
-          {
-            "tag": "q",
-            "text": "against a rock."
-          }
-        ],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "Oh, give thanks to Yahweh; for he is good,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "Oh, give thanks to the God of gods,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Oh, give thanks to the Lord of lords,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Give thanks to him who alone does great wonders,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "to him who by wisdom made the heavens,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Give thanks to him who spread out the earth above the waters,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "to him who made great lights,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Give thank to him who gave the sun to rule by day,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "the moon and stars to rule by night,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Give thanks to him who killed the firstborn of Egypt,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "and brought out Israel from among them,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "with a strong hand and a raised arm,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Give thanks to him who divided the Sea of Reeds,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "and made Israel to pass through the middle of it,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "but overthrew Pharaoh and his army in the Sea of Reeds,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Give thanks to him who led his people through the wilderness,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "to him who killed great kings,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Give thanks to him who killed famous kings,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Sihon king of the Amorites,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "and Og king of Bashan,"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Give thanks to him who gave their land as an inheritance,"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "an inheritance to Israel his servant,"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "to him who called us to mind and helped us in our humiliation,"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "Give thanks to him who has given us victory over our enemies,"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "who gives food to all living beings,"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "Oh, give thanks to the God of heaven,"
       }
-    ],
-    "num": 137
+    ]
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for his covenant faithfulness endures forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for his covenant faithfulness endures forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for his covenant faithfulness endures forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for his covenant faithfulness endures forever—"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for his covenant faithfulness endures forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for his covenant faithfulness endures forever—"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for his covenant faithfulness endures forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for his covenant faithfulness endures forever—"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for his covenant faithfulness endures forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for his covenant faithfulness endures forever—"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for his covenant faithfulness endures forever—"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for his covenant faithfulness endures forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for his covenant faithfulness endures forever—"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for his covenant faithfulness endures forever—"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for his covenant faithfulness endures forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for his covenant faithfulness endures forever—"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for his covenant faithfulness endures forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for his covenant faithfulness endures forever—"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for his covenant faithfulness endures forever—"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for his covenant faithfulness endures forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for his covenant faithfulness endures forever—"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for his covenant faithfulness endures forever—"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for his covenant faithfulness endures forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for his covenant faithfulness endures forever—"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for his covenant faithfulness endures forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for his covenant faithfulness endures forever."
+  }
+]

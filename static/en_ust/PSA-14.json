@@ -1,104 +1,93 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh, how long will you continue to forget about me?"
       },
       {
-        "tag": "d",
-        "text": "A psalm written by David for the choir director"
+        "t": "v",
+        "n": 2,
+        "v": "How long must I endure anguish within myself?"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Only foolish people say to themselves, \"There is no God!\""
-          },
-          {
-            "tag": "q1",
-            "text": "People who say those things only do corrupt deeds;"
-          },
-          {
-            "tag": "q2",
-            "text": "there is not one of them who does what is good."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "From heaven Yahweh looks down at everyone;"
-          },
-          {
-            "tag": "q1",
-            "text": "he looks to see if anyone is very wise,"
-          },
-          {
-            "tag": "q2",
-            "text": "wise enough to desire to know him."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Everyone turns away from Yahweh. They are depraved and do disgusting, filthy things."
-          },
-          {
-            "tag": "q2",
-            "text": "No one does what is good."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Will those evil people never learn what God will do to punish them?"
-          },
-          {
-            "tag": "q1",
-            "text": "They act violently toward Yahweh's people and want to consume them like one who eats food consumes it,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they never pray to Yahweh."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "But some day they will become very terrified"
-          },
-          {
-            "tag": "q2",
-            "text": "because God helps those who act righteously and will punish those who reject him."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Those who do evil may prevent helpless people from doing what they plan to do,"
-          },
-          {
-            "tag": "q2",
-            "text": "but Yahweh protects them."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Out of Zion Yahweh will come and rescue the Israelite people!"
-          },
-          {
-            "tag": "q2",
-            "text": "He will make his people free again and will bring them back to their home."
-          },
-          {
-            "tag": "q2",
-            "text": "On that day all of us Israelite people will rejoice, and we, who are also called the descendants of Jacob, will be happy."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "Yahweh my God, look at me and answer me."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Do not allow my enemies to boast and to say, “We have defeated him!”"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "But I trust that you will faithfully love me;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Yahweh, you have done many good things for me,"
       }
-    ],
-    "num": 14
+    ]
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Will you hide yourself from me forever?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Must I be miserable every day?"
+  },
+  {
+    "t": "q",
+    "v": "How long will my enemies continue to defeat me?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Restore my strength, or I will die."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Do not allow them to defeat me,"
+  },
+  {
+    "t": "q",
+    "v": "with the result that they will rejoice about it!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will rejoice when you rescue me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so I will sing to you."
+  }
+]

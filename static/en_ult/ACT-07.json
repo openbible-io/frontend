@@ -1,355 +1,6407 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Then the high priest said, “ Are these things true?”"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Then Stephen said,"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": ""
       },
       {
-        "children": [
-          {
-            "tag": "w",
-            "text": "Men, brothers, and fathers, listen to me: The God of glory appeared to our father Abraham when he was in Mesopotamia, even before he lived in Haran;",
-            "attributes": {
-              "occurrence": "1",
-              "occurrences": "1"
-            }
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "and he said to him, ‘ Go out from your land and from your relatives, and come into the land that I will show you.’"
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Then he went out from the land of the Chaldeans and lived in Haran; from there, after the death of his father, God brought him into this land, in which you live now."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "But he did not give him an inheritance in it— not even the length of a foot. But he promised to give him the land for a possession, and to his descendants after him— although he did not have a child."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "But God spoke to him like this, that his descendants would be strangers in a foreign land, and that the inhabitants there would make them slaves and treat them badly for four hundred years."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "‘ But I will judge the nation that they serve,’ said God, ‘ and after that they will come out and worship me in this place.’"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Then God gave Abraham the covenant of circumcision, and so Abraham became the father of Isaac and circumcised him on the eighth day; and Isaac became the father of Jacob, and Jacob became the father of the twelve patriarchs."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Because the patriarchs were jealous of Joseph, they sold him into Egypt; but God was with him"
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "and he rescued him from all his afflictions. He gave him favor and wisdom in the presence of Pharaoh, king of Egypt, and he appointed him governor over Egypt and over all his household."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Now there came a famine over all Egypt and Canaan, and great suffering, and our fathers could not find food."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "But when Jacob heard there was grain in Egypt, he sent our fathers on their first trip."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "On their second trip, Joseph made himself known to his brothers, and the family of Joseph became known to Pharaoh."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "Then sending his brothers back, Joseph called for Jacob, his father, and all his relatives, seventy- five souls in all."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "So Jacob went down into Egypt, and he died, he and our fathers."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "They were carried over to Shechem and laid in the tomb that Abraham had bought for a price in silver from the sons of Hamor in Shechem."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Now as the time of the promise approached— the promise that God had made to Abraham— the people increased and multiplied in Egypt,"
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "until when there arose over Egypt another king who did not know Joseph."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "He deceived our people and mistreated our fathers, forcing them to expose their newborn infants so they would not be kept alive."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "At that time Moses was born; and he was beautiful to God. He was nourished for three months in the house of his father."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "When he was placed outside, the daughter of Pharaoh took him and raised him for herself as a son."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Moses was educated in all the wisdom of the Egyptians, and he was mighty in his words and works."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "But when he was about forty years old, it came into his heart to visit his brothers, the sons of Israel."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "Seeing a certain Israelite being mistreated, Moses defended him and avenged the one who was oppressed by striking the Egyptian:"
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "for he thought his brothers would understand that God by his hand was rescuing them, but they did not understand this."
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "On the next day he came to some Israelites who were quarreling, and he urged them to be at peace, saying, ‘ Men, you are brothers. Why is it that you are hurting one another?’"
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "But the one who had wronged his neighbor pushed him away, and said, ‘ Who made you a ruler and a judge over us?"
-          },
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "You do not want to kill me in the same way you killed the Egyptian yesterday, do you?’"
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "Then Moses ran away at this statement, and he became a foreigner in the land of Midian, where he became the father of two sons."
-          },
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "When forty years were past, an angel appeared to him in the wilderness of Mount Sinai, in a flame of fire in a bush."
-          },
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "When Moses saw the fire, he marveled at the sight; and as he approached to look at it, there came a voice of the Lord:"
-          },
-          {
-            "tag": "v",
-            "num": "32",
-            "text": "‘ I am the God of your fathers, the God of Abraham, and of Isaac, and of Jacob.’ Then Moses began to tremble and did not dare to look."
-          },
-          {
-            "tag": "v",
-            "num": "33",
-            "text": "Then the Lord said to him, ‘ Take off the sandals from your feet, for the place on which you are standing is holy ground."
-          },
-          {
-            "tag": "v",
-            "num": "34",
-            "text": "I have certainly seen the suffering of my people who are in Egypt, and I have heard their groans, and I have come down to rescue them; so now come, I will send you to Egypt.’"
-          },
-          {
-            "tag": "v",
-            "num": "35",
-            "text": "This same Moses, whom they rejected, saying, ‘ Who appointed you a ruler and a judge?’— he was the one whom God sent as both a ruler and deliverer— by the hand of the angel who appeared to Moses in the bush."
-          },
-          {
-            "tag": "v",
-            "num": "36",
-            "text": "This Moses led them out of Egypt, after doing miracles and signs in the land of Egypt and at the Sea of Reeds, and in the wilderness during forty years."
-          },
-          {
-            "tag": "v",
-            "num": "37",
-            "text": "It is the same Moses who said to the sons of Israel, ‘ God will raise up a prophet for you from among your brothers, a prophet like me.’"
-          },
-          {
-            "tag": "v",
-            "num": "38",
-            "text": "This is the man who was in the assembly in the wilderness with the angel who was speaking to him on Mount Sinai, and who was with our fathers; he is the man who received living words to give to us."
-          },
-          {
-            "tag": "v",
-            "num": "39",
-            "text": "This is the man to whom our fathers were not willing to be obedient, but instead they pushed him away, and turned back in their hearts to Egypt."
-          },
-          {
-            "tag": "v",
-            "num": "40",
-            "text": "They had said to Aaron, ‘ Make us gods who will lead us. As for this Moses, who brought us out of the land of Egypt, we do not know what has happened to him.’"
-          },
-          {
-            "tag": "v",
-            "num": "41",
-            "text": "So they made a calf in those days and brought a sacrifice to the idol, and rejoiced because of the work of their hands."
-          },
-          {
-            "tag": "v",
-            "num": "42",
-            "text": "But God turned and gave them up to worship the stars in the sky, as it is written in the book of the prophets,"
-          },
-          {
-            "tag": "q",
-            "text": "‘ You did not offer to me slain beasts and sacrifices for forty years in the wilderness, did you, house of Israel?"
-          },
-          {
-            "tag": "v",
-            "num": "43",
-            "text": "You accepted the tabernacle of Molech and the star of your god Rephan, and the images that you made to worship them: and I will carry you away beyond Babylon.’"
-          }
-        ],
-        "tag": "p",
-        "text": "“"
+        "t": "w",
+        "v": "Then"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "44",
-            "text": "The tabernacle of the testimony was with our fathers in the wilderness, just as the one who was speaking to Moses had commanded, to make it like the pattern that he had seen."
-          },
-          {
-            "tag": "v",
-            "num": "45",
-            "text": "This is the tabernacle which our fathers, under Joshua, also received and brought with them when they took possession of the nations. God drove them out from before the face of our fathers until the time of David,"
-          },
-          {
-            "tag": "v",
-            "num": "46",
-            "text": "who found favor in the sight of God, and he asked if he might find a dwelling place for the God of Jacob."
-          },
-          {
-            "tag": "v",
-            "num": "47",
-            "text": "However, Solomon built the house for God."
-          },
-          {
-            "tag": "v",
-            "num": "48",
-            "text": "However, the Most High does not live in houses made with hands, as the prophet says,"
-          },
-          {
-            "tag": "v",
-            "num": "49",
-            "text": "‘ Heaven is my throne, and the earth is the footstool for my feet. What kind of house can you build for me? says the Lord, or what is the place for my rest?"
-          },
-          {
-            "tag": "v",
-            "num": "50",
-            "text": "Did my hand not make all these things?’"
-          }
-        ],
-        "tag": "m"
+        "t": "w",
+        "v": "the"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "51",
-            "text": "You are stiff- necked and uncircumcised in heart and ears. You always resist the Holy Spirit; you also resist just as your fathers resisted."
-          },
-          {
-            "tag": "v",
-            "num": "52",
-            "text": "Which of the prophets did your fathers not persecute? They killed those who told in advance about the coming of the Righteous One, of whom you have now become betrayers and murderers,"
-          },
-          {
-            "tag": "v",
-            "num": "53",
-            "text": "you who received the law delivered by angels, but did not keep it.”"
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "high"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "54",
-            "text": "When hearing these things, the council members were cut to their hearts, and they ground their teeth at Stephen."
-          },
-          {
-            "tag": "v",
-            "num": "55",
-            "text": "But he, being full of the Holy Spirit, looked up intently into heaven and saw the glory of God; and he saw Jesus standing at the right hand of God."
-          },
-          {
-            "tag": "v",
-            "num": "56",
-            "text": "Stephen said, “ Look, I see the heavens opened, and the Son of Man standing at the right hand of God.”"
-          },
-          {
-            "tag": "v",
-            "num": "57",
-            "text": "At this the council members covered their ears, and shouting out with a loud voice, altogether they rushed at him."
-          },
-          {
-            "tag": "v",
-            "num": "58",
-            "text": "Then dragging him out of the city, they stoned him. The witnesses laid down their outer clothing at the feet of a young man named Saul."
-          },
-          {
-            "tag": "v",
-            "num": "59",
-            "text": "As they were stoning Stephen, he was calling out and saying, “ Lord Jesus, receive my spirit.”"
-          },
-          {
-            "tag": "v",
-            "num": "60",
-            "text": "But having fallen down on his knees, he called out with a loud voice, “ Lord, do not hold this sin against them.” When he had said this, he fell asleep."
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "priest"
+      },
+      {
+        "t": "w",
+        "v": "said"
+      },
+      {
+        "t": "w",
+        "v": "Are"
+      },
+      {
+        "t": "w",
+        "v": "these"
+      },
+      {
+        "t": "w",
+        "v": "things"
+      },
+      {
+        "t": "w",
+        "v": "true"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Then"
+      },
+      {
+        "t": "w",
+        "v": "Stephen"
+      },
+      {
+        "t": "w",
+        "v": "said"
       }
-    ],
-    "num": 7
+    ]
   },
-  "id": "ACT EN_ULT en_English_ltr Thu Jun 13 2019 11:21:10 GMT-0400 (EDT) tc",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Acts",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Acts"
-    }
-  ]
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "w",
+        "v": "Men"
+      },
+      {
+        "t": "w",
+        "v": "brothers"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "fathers"
+      },
+      {
+        "t": "w",
+        "v": "listen"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "me"
+      },
+      {
+        "t": "w",
+        "v": "The"
+      },
+      {
+        "t": "w",
+        "v": "God"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "glory"
+      },
+      {
+        "t": "w",
+        "v": "appeared"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "our"
+      },
+      {
+        "t": "w",
+        "v": "father"
+      },
+      {
+        "t": "w",
+        "v": "Abraham"
+      },
+      {
+        "t": "w",
+        "v": "when"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "Mesopotamia"
+      },
+      {
+        "t": "w",
+        "v": "even"
+      },
+      {
+        "t": "w",
+        "v": "before"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "lived"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "Haran"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "said"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "Go"
+      },
+      {
+        "t": "w",
+        "v": "out"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "your"
+      },
+      {
+        "t": "w",
+        "v": "land"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "your"
+      },
+      {
+        "t": "w",
+        "v": "relatives"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "come"
+      },
+      {
+        "t": "w",
+        "v": "into"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "land"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "will"
+      },
+      {
+        "t": "w",
+        "v": "show"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Then"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "went"
+      },
+      {
+        "t": "w",
+        "v": "out"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "land"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Chaldeans"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "lived"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "Haran"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "there"
+      },
+      {
+        "t": "w",
+        "v": "after"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "death"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "father"
+      },
+      {
+        "t": "w",
+        "v": "God"
+      },
+      {
+        "t": "w",
+        "v": "brought"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "into"
+      },
+      {
+        "t": "w",
+        "v": "this"
+      },
+      {
+        "t": "w",
+        "v": "land"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "which"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "live"
+      },
+      {
+        "t": "w",
+        "v": "now"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "But"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "did"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "give"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "an"
+      },
+      {
+        "t": "w",
+        "v": "inheritance"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "even"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "length"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "foot"
+      },
+      {
+        "t": "w",
+        "v": "But"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "promised"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "give"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "land"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "possession"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "descendants"
+      },
+      {
+        "t": "w",
+        "v": "after"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "although"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "did"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "have"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "child"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "But"
+      },
+      {
+        "t": "w",
+        "v": "God"
+      },
+      {
+        "t": "w",
+        "v": "spoke"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "like"
+      },
+      {
+        "t": "w",
+        "v": "this"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "descendants"
+      },
+      {
+        "t": "w",
+        "v": "would"
+      },
+      {
+        "t": "w",
+        "v": "be"
+      },
+      {
+        "t": "w",
+        "v": "strangers"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "foreign"
+      },
+      {
+        "t": "w",
+        "v": "land"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "inhabitants"
+      },
+      {
+        "t": "w",
+        "v": "there"
+      },
+      {
+        "t": "w",
+        "v": "would"
+      },
+      {
+        "t": "w",
+        "v": "make"
+      },
+      {
+        "t": "w",
+        "v": "them"
+      },
+      {
+        "t": "w",
+        "v": "slaves"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "treat"
+      },
+      {
+        "t": "w",
+        "v": "them"
+      },
+      {
+        "t": "w",
+        "v": "badly"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "four"
+      },
+      {
+        "t": "w",
+        "v": "hundred"
+      },
+      {
+        "t": "w",
+        "v": "years"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "‘"
+      },
+      {
+        "t": "w",
+        "v": "But"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "will"
+      },
+      {
+        "t": "w",
+        "v": "judge"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "nation"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "serve"
+      },
+      {
+        "t": "w",
+        "v": "said"
+      },
+      {
+        "t": "w",
+        "v": "God"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "after"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "will"
+      },
+      {
+        "t": "w",
+        "v": "come"
+      },
+      {
+        "t": "w",
+        "v": "out"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "worship"
+      },
+      {
+        "t": "w",
+        "v": "me"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "this"
+      },
+      {
+        "t": "w",
+        "v": "place"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Then"
+      },
+      {
+        "t": "w",
+        "v": "God"
+      },
+      {
+        "t": "w",
+        "v": "gave"
+      },
+      {
+        "t": "w",
+        "v": "Abraham"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "covenant"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "circumcision"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "so"
+      },
+      {
+        "t": "w",
+        "v": "Abraham"
+      },
+      {
+        "t": "w",
+        "v": "became"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "father"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Isaac"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "circumcised"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "on"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "eighth"
+      },
+      {
+        "t": "w",
+        "v": "day"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "Isaac"
+      },
+      {
+        "t": "w",
+        "v": "became"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "father"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Jacob"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "Jacob"
+      },
+      {
+        "t": "w",
+        "v": "became"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "father"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "twelve"
+      },
+      {
+        "t": "w",
+        "v": "patriarchs"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Because"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "patriarchs"
+      },
+      {
+        "t": "w",
+        "v": "were"
+      },
+      {
+        "t": "w",
+        "v": "jealous"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Joseph"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "sold"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "into"
+      },
+      {
+        "t": "w",
+        "v": "Egypt"
+      },
+      {
+        "t": "w",
+        "v": "but"
+      },
+      {
+        "t": "w",
+        "v": "God"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "rescued"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "all"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "afflictions"
+      },
+      {
+        "t": "w",
+        "v": "He"
+      },
+      {
+        "t": "w",
+        "v": "gave"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "favor"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "wisdom"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "presence"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Pharaoh"
+      },
+      {
+        "t": "w",
+        "v": "king"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Egypt"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "appointed"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "governor"
+      },
+      {
+        "t": "w",
+        "v": "over"
+      },
+      {
+        "t": "w",
+        "v": "Egypt"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "over"
+      },
+      {
+        "t": "w",
+        "v": "all"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "household"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Now"
+      },
+      {
+        "t": "w",
+        "v": "there"
+      },
+      {
+        "t": "w",
+        "v": "came"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "famine"
+      },
+      {
+        "t": "w",
+        "v": "over"
+      },
+      {
+        "t": "w",
+        "v": "all"
+      },
+      {
+        "t": "w",
+        "v": "Egypt"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "Canaan"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "great"
+      },
+      {
+        "t": "w",
+        "v": "suffering"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "our"
+      },
+      {
+        "t": "w",
+        "v": "fathers"
+      },
+      {
+        "t": "w",
+        "v": "could"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "find"
+      },
+      {
+        "t": "w",
+        "v": "food"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "But"
+      },
+      {
+        "t": "w",
+        "v": "when"
+      },
+      {
+        "t": "w",
+        "v": "Jacob"
+      },
+      {
+        "t": "w",
+        "v": "heard"
+      },
+      {
+        "t": "w",
+        "v": "there"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "grain"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "Egypt"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "sent"
+      },
+      {
+        "t": "w",
+        "v": "our"
+      },
+      {
+        "t": "w",
+        "v": "fathers"
+      },
+      {
+        "t": "w",
+        "v": "on"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "first"
+      },
+      {
+        "t": "w",
+        "v": "trip"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "On"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "second"
+      },
+      {
+        "t": "w",
+        "v": "trip"
+      },
+      {
+        "t": "w",
+        "v": "Joseph"
+      },
+      {
+        "t": "w",
+        "v": "made"
+      },
+      {
+        "t": "w",
+        "v": "himself"
+      },
+      {
+        "t": "w",
+        "v": "known"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "brothers"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "family"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Joseph"
+      },
+      {
+        "t": "w",
+        "v": "became"
+      },
+      {
+        "t": "w",
+        "v": "known"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "Pharaoh"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Then"
+      },
+      {
+        "t": "w",
+        "v": "sending"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "brothers"
+      },
+      {
+        "t": "w",
+        "v": "back"
+      },
+      {
+        "t": "w",
+        "v": "Joseph"
+      },
+      {
+        "t": "w",
+        "v": "called"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "Jacob"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "father"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "all"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "relatives"
+      },
+      {
+        "t": "w",
+        "v": "seventy"
+      },
+      {
+        "t": "w",
+        "v": "five"
+      },
+      {
+        "t": "w",
+        "v": "souls"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "all"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "So"
+      },
+      {
+        "t": "w",
+        "v": "Jacob"
+      },
+      {
+        "t": "w",
+        "v": "went"
+      },
+      {
+        "t": "w",
+        "v": "down"
+      },
+      {
+        "t": "w",
+        "v": "into"
+      },
+      {
+        "t": "w",
+        "v": "Egypt"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "died"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "our"
+      },
+      {
+        "t": "w",
+        "v": "fathers"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "They"
+      },
+      {
+        "t": "w",
+        "v": "were"
+      },
+      {
+        "t": "w",
+        "v": "carried"
+      },
+      {
+        "t": "w",
+        "v": "over"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "Shechem"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "laid"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "tomb"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "Abraham"
+      },
+      {
+        "t": "w",
+        "v": "had"
+      },
+      {
+        "t": "w",
+        "v": "bought"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "price"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "silver"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "sons"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Hamor"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "Shechem"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Now"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "time"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "promise"
+      },
+      {
+        "t": "w",
+        "v": "approached"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "promise"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "God"
+      },
+      {
+        "t": "w",
+        "v": "had"
+      },
+      {
+        "t": "w",
+        "v": "made"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "Abraham"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "people"
+      },
+      {
+        "t": "w",
+        "v": "increased"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "multiplied"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "Egypt"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "until"
+      },
+      {
+        "t": "w",
+        "v": "when"
+      },
+      {
+        "t": "w",
+        "v": "there"
+      },
+      {
+        "t": "w",
+        "v": "arose"
+      },
+      {
+        "t": "w",
+        "v": "over"
+      },
+      {
+        "t": "w",
+        "v": "Egypt"
+      },
+      {
+        "t": "w",
+        "v": "another"
+      },
+      {
+        "t": "w",
+        "v": "king"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "did"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "know"
+      },
+      {
+        "t": "w",
+        "v": "Joseph"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "He"
+      },
+      {
+        "t": "w",
+        "v": "deceived"
+      },
+      {
+        "t": "w",
+        "v": "our"
+      },
+      {
+        "t": "w",
+        "v": "people"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "mistreated"
+      },
+      {
+        "t": "w",
+        "v": "our"
+      },
+      {
+        "t": "w",
+        "v": "fathers"
+      },
+      {
+        "t": "w",
+        "v": "forcing"
+      },
+      {
+        "t": "w",
+        "v": "them"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "expose"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "newborn"
+      },
+      {
+        "t": "w",
+        "v": "infants"
+      },
+      {
+        "t": "w",
+        "v": "so"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "would"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "be"
+      },
+      {
+        "t": "w",
+        "v": "kept"
+      },
+      {
+        "t": "w",
+        "v": "alive"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "At"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "time"
+      },
+      {
+        "t": "w",
+        "v": "Moses"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "born"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "beautiful"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "God"
+      },
+      {
+        "t": "w",
+        "v": "He"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "nourished"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "three"
+      },
+      {
+        "t": "w",
+        "v": "months"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "house"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "father"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "When"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "placed"
+      },
+      {
+        "t": "w",
+        "v": "outside"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "daughter"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Pharaoh"
+      },
+      {
+        "t": "w",
+        "v": "took"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "raised"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "herself"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Moses"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "educated"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "all"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "wisdom"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Egyptians"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "mighty"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "words"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "works"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "But"
+      },
+      {
+        "t": "w",
+        "v": "when"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "about"
+      },
+      {
+        "t": "w",
+        "v": "forty"
+      },
+      {
+        "t": "w",
+        "v": "years"
+      },
+      {
+        "t": "w",
+        "v": "old"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "came"
+      },
+      {
+        "t": "w",
+        "v": "into"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "heart"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "visit"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "brothers"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "sons"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Israel"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Seeing"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "certain"
+      },
+      {
+        "t": "w",
+        "v": "Israelite"
+      },
+      {
+        "t": "w",
+        "v": "being"
+      },
+      {
+        "t": "w",
+        "v": "mistreated"
+      },
+      {
+        "t": "w",
+        "v": "Moses"
+      },
+      {
+        "t": "w",
+        "v": "defended"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "avenged"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "one"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "oppressed"
+      },
+      {
+        "t": "w",
+        "v": "by"
+      },
+      {
+        "t": "w",
+        "v": "striking"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Egyptian"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "thought"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "brothers"
+      },
+      {
+        "t": "w",
+        "v": "would"
+      },
+      {
+        "t": "w",
+        "v": "understand"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "God"
+      },
+      {
+        "t": "w",
+        "v": "by"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "hand"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "rescuing"
+      },
+      {
+        "t": "w",
+        "v": "them"
+      },
+      {
+        "t": "w",
+        "v": "but"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "did"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "understand"
+      },
+      {
+        "t": "w",
+        "v": "this"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "On"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "next"
+      },
+      {
+        "t": "w",
+        "v": "day"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "came"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "some"
+      },
+      {
+        "t": "w",
+        "v": "Israelites"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "were"
+      },
+      {
+        "t": "w",
+        "v": "quarreling"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "urged"
+      },
+      {
+        "t": "w",
+        "v": "them"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "be"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "peace"
+      },
+      {
+        "t": "w",
+        "v": "saying"
+      },
+      {
+        "t": "w",
+        "v": "Men"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "are"
+      },
+      {
+        "t": "w",
+        "v": "brothers"
+      },
+      {
+        "t": "w",
+        "v": "Why"
+      },
+      {
+        "t": "w",
+        "v": "is"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "are"
+      },
+      {
+        "t": "w",
+        "v": "hurting"
+      },
+      {
+        "t": "w",
+        "v": "one"
+      },
+      {
+        "t": "w",
+        "v": "another"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "But"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "one"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "had"
+      },
+      {
+        "t": "w",
+        "v": "wronged"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "neighbor"
+      },
+      {
+        "t": "w",
+        "v": "pushed"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "away"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "said"
+      },
+      {
+        "t": "w",
+        "v": "Who"
+      },
+      {
+        "t": "w",
+        "v": "made"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "ruler"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "judge"
+      },
+      {
+        "t": "w",
+        "v": "over"
+      },
+      {
+        "t": "w",
+        "v": "us"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "You"
+      },
+      {
+        "t": "w",
+        "v": "do"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "want"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "kill"
+      },
+      {
+        "t": "w",
+        "v": "me"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "same"
+      },
+      {
+        "t": "w",
+        "v": "way"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "killed"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Egyptian"
+      },
+      {
+        "t": "w",
+        "v": "yesterday"
+      },
+      {
+        "t": "w",
+        "v": "do"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Then"
+      },
+      {
+        "t": "w",
+        "v": "Moses"
+      },
+      {
+        "t": "w",
+        "v": "ran"
+      },
+      {
+        "t": "w",
+        "v": "away"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "this"
+      },
+      {
+        "t": "w",
+        "v": "statement"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "became"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "foreigner"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "land"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Midian"
+      },
+      {
+        "t": "w",
+        "v": "where"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "became"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "father"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "two"
+      },
+      {
+        "t": "w",
+        "v": "sons"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "When"
+      },
+      {
+        "t": "w",
+        "v": "forty"
+      },
+      {
+        "t": "w",
+        "v": "years"
+      },
+      {
+        "t": "w",
+        "v": "were"
+      },
+      {
+        "t": "w",
+        "v": "past"
+      },
+      {
+        "t": "w",
+        "v": "an"
+      },
+      {
+        "t": "w",
+        "v": "angel"
+      },
+      {
+        "t": "w",
+        "v": "appeared"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "wilderness"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Mount"
+      },
+      {
+        "t": "w",
+        "v": "Sinai"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "flame"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "fire"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "bush"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "When"
+      },
+      {
+        "t": "w",
+        "v": "Moses"
+      },
+      {
+        "t": "w",
+        "v": "saw"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "fire"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "marveled"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "sight"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "approached"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "look"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "there"
+      },
+      {
+        "t": "w",
+        "v": "came"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "voice"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Lord"
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "‘"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "am"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "God"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "your"
+      },
+      {
+        "t": "w",
+        "v": "fathers"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "God"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Abraham"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Isaac"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Jacob"
+      },
+      {
+        "t": "w",
+        "v": "Then"
+      },
+      {
+        "t": "w",
+        "v": "Moses"
+      },
+      {
+        "t": "w",
+        "v": "began"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "tremble"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "did"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "dare"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "look"
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Then"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Lord"
+      },
+      {
+        "t": "w",
+        "v": "said"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "Take"
+      },
+      {
+        "t": "w",
+        "v": "off"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "sandals"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "your"
+      },
+      {
+        "t": "w",
+        "v": "feet"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "place"
+      },
+      {
+        "t": "w",
+        "v": "on"
+      },
+      {
+        "t": "w",
+        "v": "which"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "are"
+      },
+      {
+        "t": "w",
+        "v": "standing"
+      },
+      {
+        "t": "w",
+        "v": "is"
+      },
+      {
+        "t": "w",
+        "v": "holy"
+      },
+      {
+        "t": "w",
+        "v": "ground"
+      },
+      {
+        "t": "v",
+        "n": 34,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "have"
+      },
+      {
+        "t": "w",
+        "v": "certainly"
+      },
+      {
+        "t": "w",
+        "v": "seen"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "suffering"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "my"
+      },
+      {
+        "t": "w",
+        "v": "people"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "are"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "Egypt"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "have"
+      },
+      {
+        "t": "w",
+        "v": "heard"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "groans"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "have"
+      },
+      {
+        "t": "w",
+        "v": "come"
+      },
+      {
+        "t": "w",
+        "v": "down"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "rescue"
+      },
+      {
+        "t": "w",
+        "v": "them"
+      },
+      {
+        "t": "w",
+        "v": "so"
+      },
+      {
+        "t": "w",
+        "v": "now"
+      },
+      {
+        "t": "w",
+        "v": "come"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "will"
+      },
+      {
+        "t": "w",
+        "v": "send"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "Egypt"
+      },
+      {
+        "t": "v",
+        "n": 35,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "This"
+      },
+      {
+        "t": "w",
+        "v": "same"
+      },
+      {
+        "t": "w",
+        "v": "Moses"
+      },
+      {
+        "t": "w",
+        "v": "whom"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "rejected"
+      },
+      {
+        "t": "w",
+        "v": "saying"
+      },
+      {
+        "t": "w",
+        "v": "Who"
+      },
+      {
+        "t": "w",
+        "v": "appointed"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "ruler"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "judge"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "one"
+      },
+      {
+        "t": "w",
+        "v": "whom"
+      },
+      {
+        "t": "w",
+        "v": "God"
+      },
+      {
+        "t": "w",
+        "v": "sent"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "both"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "ruler"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "deliverer"
+      },
+      {
+        "t": "w",
+        "v": "by"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "hand"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "angel"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "appeared"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "Moses"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "bush"
+      },
+      {
+        "t": "v",
+        "n": 36,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "This"
+      },
+      {
+        "t": "w",
+        "v": "Moses"
+      },
+      {
+        "t": "w",
+        "v": "led"
+      },
+      {
+        "t": "w",
+        "v": "them"
+      },
+      {
+        "t": "w",
+        "v": "out"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Egypt"
+      },
+      {
+        "t": "w",
+        "v": "after"
+      },
+      {
+        "t": "w",
+        "v": "doing"
+      },
+      {
+        "t": "w",
+        "v": "miracles"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "signs"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "land"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Egypt"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Sea"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Reeds"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "wilderness"
+      },
+      {
+        "t": "w",
+        "v": "during"
+      },
+      {
+        "t": "w",
+        "v": "forty"
+      },
+      {
+        "t": "w",
+        "v": "years"
+      },
+      {
+        "t": "v",
+        "n": 37,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "It"
+      },
+      {
+        "t": "w",
+        "v": "is"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "same"
+      },
+      {
+        "t": "w",
+        "v": "Moses"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "said"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "sons"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Israel"
+      },
+      {
+        "t": "w",
+        "v": "God"
+      },
+      {
+        "t": "w",
+        "v": "will"
+      },
+      {
+        "t": "w",
+        "v": "raise"
+      },
+      {
+        "t": "w",
+        "v": "up"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "prophet"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "among"
+      },
+      {
+        "t": "w",
+        "v": "your"
+      },
+      {
+        "t": "w",
+        "v": "brothers"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "prophet"
+      },
+      {
+        "t": "w",
+        "v": "like"
+      },
+      {
+        "t": "w",
+        "v": "me"
+      },
+      {
+        "t": "v",
+        "n": 38,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "This"
+      },
+      {
+        "t": "w",
+        "v": "is"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "man"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "assembly"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "wilderness"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "angel"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "speaking"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "on"
+      },
+      {
+        "t": "w",
+        "v": "Mount"
+      },
+      {
+        "t": "w",
+        "v": "Sinai"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "our"
+      },
+      {
+        "t": "w",
+        "v": "fathers"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "is"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "man"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "received"
+      },
+      {
+        "t": "w",
+        "v": "living"
+      },
+      {
+        "t": "w",
+        "v": "words"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "give"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "us"
+      },
+      {
+        "t": "v",
+        "n": 39,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "This"
+      },
+      {
+        "t": "w",
+        "v": "is"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "man"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "whom"
+      },
+      {
+        "t": "w",
+        "v": "our"
+      },
+      {
+        "t": "w",
+        "v": "fathers"
+      },
+      {
+        "t": "w",
+        "v": "were"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "willing"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "be"
+      },
+      {
+        "t": "w",
+        "v": "obedient"
+      },
+      {
+        "t": "w",
+        "v": "but"
+      },
+      {
+        "t": "w",
+        "v": "instead"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "pushed"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "away"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "turned"
+      },
+      {
+        "t": "w",
+        "v": "back"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "hearts"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "Egypt"
+      },
+      {
+        "t": "v",
+        "n": 40,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "They"
+      },
+      {
+        "t": "w",
+        "v": "had"
+      },
+      {
+        "t": "w",
+        "v": "said"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "Aaron"
+      },
+      {
+        "t": "w",
+        "v": "Make"
+      },
+      {
+        "t": "w",
+        "v": "us"
+      },
+      {
+        "t": "w",
+        "v": "gods"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "will"
+      },
+      {
+        "t": "w",
+        "v": "lead"
+      },
+      {
+        "t": "w",
+        "v": "us"
+      },
+      {
+        "t": "w",
+        "v": "As"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "this"
+      },
+      {
+        "t": "w",
+        "v": "Moses"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "brought"
+      },
+      {
+        "t": "w",
+        "v": "us"
+      },
+      {
+        "t": "w",
+        "v": "out"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "land"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Egypt"
+      },
+      {
+        "t": "w",
+        "v": "we"
+      },
+      {
+        "t": "w",
+        "v": "do"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "know"
+      },
+      {
+        "t": "w",
+        "v": "what"
+      },
+      {
+        "t": "w",
+        "v": "has"
+      },
+      {
+        "t": "w",
+        "v": "happened"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "v",
+        "n": 41,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "So"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "made"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "calf"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "those"
+      },
+      {
+        "t": "w",
+        "v": "days"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "brought"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "sacrifice"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "idol"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "rejoiced"
+      },
+      {
+        "t": "w",
+        "v": "because"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "work"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "hands"
+      },
+      {
+        "t": "v",
+        "n": 42,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "But"
+      },
+      {
+        "t": "w",
+        "v": "God"
+      },
+      {
+        "t": "w",
+        "v": "turned"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "gave"
+      },
+      {
+        "t": "w",
+        "v": "them"
+      },
+      {
+        "t": "w",
+        "v": "up"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "worship"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "stars"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "sky"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "is"
+      },
+      {
+        "t": "w",
+        "v": "written"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "book"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "prophets"
+      },
+      {
+        "t": "w",
+        "v": "You"
+      },
+      {
+        "t": "w",
+        "v": "did"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "offer"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "me"
+      },
+      {
+        "t": "w",
+        "v": "slain"
+      },
+      {
+        "t": "w",
+        "v": "beasts"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "sacrifices"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "forty"
+      },
+      {
+        "t": "w",
+        "v": "years"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "wilderness"
+      },
+      {
+        "t": "w",
+        "v": "did"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "house"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Israel"
+      },
+      {
+        "t": "v",
+        "n": 43,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "You"
+      },
+      {
+        "t": "w",
+        "v": "accepted"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "tabernacle"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Molech"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "star"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "your"
+      },
+      {
+        "t": "w",
+        "v": "god"
+      },
+      {
+        "t": "w",
+        "v": "Rephan"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "images"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "made"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "worship"
+      },
+      {
+        "t": "w",
+        "v": "them"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "will"
+      },
+      {
+        "t": "w",
+        "v": "carry"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "away"
+      },
+      {
+        "t": "w",
+        "v": "beyond"
+      },
+      {
+        "t": "w",
+        "v": "Babylon"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "‘"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 44,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "The"
+      },
+      {
+        "t": "w",
+        "v": "tabernacle"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "testimony"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "our"
+      },
+      {
+        "t": "w",
+        "v": "fathers"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "wilderness"
+      },
+      {
+        "t": "w",
+        "v": "just"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "one"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "speaking"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "Moses"
+      },
+      {
+        "t": "w",
+        "v": "had"
+      },
+      {
+        "t": "w",
+        "v": "commanded"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "make"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "like"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "pattern"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "had"
+      },
+      {
+        "t": "w",
+        "v": "seen"
+      },
+      {
+        "t": "v",
+        "n": 45,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "This"
+      },
+      {
+        "t": "w",
+        "v": "is"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "tabernacle"
+      },
+      {
+        "t": "w",
+        "v": "which"
+      },
+      {
+        "t": "w",
+        "v": "our"
+      },
+      {
+        "t": "w",
+        "v": "fathers"
+      },
+      {
+        "t": "w",
+        "v": "under"
+      },
+      {
+        "t": "w",
+        "v": "Joshua"
+      },
+      {
+        "t": "w",
+        "v": "also"
+      },
+      {
+        "t": "w",
+        "v": "received"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "brought"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "them"
+      },
+      {
+        "t": "w",
+        "v": "when"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "took"
+      },
+      {
+        "t": "w",
+        "v": "possession"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "nations"
+      },
+      {
+        "t": "w",
+        "v": "God"
+      },
+      {
+        "t": "w",
+        "v": "drove"
+      },
+      {
+        "t": "w",
+        "v": "them"
+      },
+      {
+        "t": "w",
+        "v": "out"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "before"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "face"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "our"
+      },
+      {
+        "t": "w",
+        "v": "fathers"
+      },
+      {
+        "t": "w",
+        "v": "until"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "time"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "David"
+      },
+      {
+        "t": "v",
+        "n": 46,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "found"
+      },
+      {
+        "t": "w",
+        "v": "favor"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "sight"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "God"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "asked"
+      },
+      {
+        "t": "w",
+        "v": "if"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "might"
+      },
+      {
+        "t": "w",
+        "v": "find"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "dwelling"
+      },
+      {
+        "t": "w",
+        "v": "place"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "God"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Jacob"
+      },
+      {
+        "t": "v",
+        "n": 47,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "However"
+      },
+      {
+        "t": "w",
+        "v": "Solomon"
+      },
+      {
+        "t": "w",
+        "v": "built"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "house"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "God"
+      },
+      {
+        "t": "v",
+        "n": 48,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "However"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Most"
+      },
+      {
+        "t": "w",
+        "v": "High"
+      },
+      {
+        "t": "w",
+        "v": "does"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "live"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "houses"
+      },
+      {
+        "t": "w",
+        "v": "made"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "hands"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "prophet"
+      },
+      {
+        "t": "w",
+        "v": "says"
+      },
+      {
+        "t": "v",
+        "n": 49,
+        "v": "‘"
+      },
+      {
+        "t": "w",
+        "v": "Heaven"
+      },
+      {
+        "t": "w",
+        "v": "is"
+      },
+      {
+        "t": "w",
+        "v": "my"
+      },
+      {
+        "t": "w",
+        "v": "throne"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "earth"
+      },
+      {
+        "t": "w",
+        "v": "is"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "footstool"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "my"
+      },
+      {
+        "t": "w",
+        "v": "feet"
+      },
+      {
+        "t": "w",
+        "v": "What"
+      },
+      {
+        "t": "w",
+        "v": "kind"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "house"
+      },
+      {
+        "t": "w",
+        "v": "can"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "build"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "me"
+      },
+      {
+        "t": "w",
+        "v": "says"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Lord"
+      },
+      {
+        "t": "w",
+        "v": "or"
+      },
+      {
+        "t": "w",
+        "v": "what"
+      },
+      {
+        "t": "w",
+        "v": "is"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "place"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "my"
+      },
+      {
+        "t": "w",
+        "v": "rest"
+      },
+      {
+        "t": "v",
+        "n": 50,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Did"
+      },
+      {
+        "t": "w",
+        "v": "my"
+      },
+      {
+        "t": "w",
+        "v": "hand"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "make"
+      },
+      {
+        "t": "w",
+        "v": "all"
+      },
+      {
+        "t": "w",
+        "v": "these"
+      },
+      {
+        "t": "w",
+        "v": "things"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 51,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "You"
+      },
+      {
+        "t": "w",
+        "v": "are"
+      },
+      {
+        "t": "w",
+        "v": "stiff"
+      },
+      {
+        "t": "w",
+        "v": "necked"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "uncircumcised"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "heart"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "ears"
+      },
+      {
+        "t": "w",
+        "v": "You"
+      },
+      {
+        "t": "w",
+        "v": "always"
+      },
+      {
+        "t": "w",
+        "v": "resist"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Holy"
+      },
+      {
+        "t": "w",
+        "v": "Spirit"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "also"
+      },
+      {
+        "t": "w",
+        "v": "resist"
+      },
+      {
+        "t": "w",
+        "v": "just"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "your"
+      },
+      {
+        "t": "w",
+        "v": "fathers"
+      },
+      {
+        "t": "w",
+        "v": "resisted"
+      },
+      {
+        "t": "v",
+        "n": 52,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Which"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "prophets"
+      },
+      {
+        "t": "w",
+        "v": "did"
+      },
+      {
+        "t": "w",
+        "v": "your"
+      },
+      {
+        "t": "w",
+        "v": "fathers"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "persecute"
+      },
+      {
+        "t": "w",
+        "v": "They"
+      },
+      {
+        "t": "w",
+        "v": "killed"
+      },
+      {
+        "t": "w",
+        "v": "those"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "told"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "advance"
+      },
+      {
+        "t": "w",
+        "v": "about"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "coming"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Righteous"
+      },
+      {
+        "t": "w",
+        "v": "One"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "whom"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "have"
+      },
+      {
+        "t": "w",
+        "v": "now"
+      },
+      {
+        "t": "w",
+        "v": "become"
+      },
+      {
+        "t": "w",
+        "v": "betrayers"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "murderers"
+      },
+      {
+        "t": "v",
+        "n": 53,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "received"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "law"
+      },
+      {
+        "t": "w",
+        "v": "delivered"
+      },
+      {
+        "t": "w",
+        "v": "by"
+      },
+      {
+        "t": "w",
+        "v": "angels"
+      },
+      {
+        "t": "w",
+        "v": "but"
+      },
+      {
+        "t": "w",
+        "v": "did"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "keep"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 54,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "When"
+      },
+      {
+        "t": "w",
+        "v": "hearing"
+      },
+      {
+        "t": "w",
+        "v": "these"
+      },
+      {
+        "t": "w",
+        "v": "things"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "council"
+      },
+      {
+        "t": "w",
+        "v": "members"
+      },
+      {
+        "t": "w",
+        "v": "were"
+      },
+      {
+        "t": "w",
+        "v": "cut"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "hearts"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "ground"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "teeth"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "Stephen"
+      },
+      {
+        "t": "v",
+        "n": 55,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "But"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "being"
+      },
+      {
+        "t": "w",
+        "v": "full"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Holy"
+      },
+      {
+        "t": "w",
+        "v": "Spirit"
+      },
+      {
+        "t": "w",
+        "v": "looked"
+      },
+      {
+        "t": "w",
+        "v": "up"
+      },
+      {
+        "t": "w",
+        "v": "intently"
+      },
+      {
+        "t": "w",
+        "v": "into"
+      },
+      {
+        "t": "w",
+        "v": "heaven"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "saw"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "glory"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "God"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "saw"
+      },
+      {
+        "t": "w",
+        "v": "Jesus"
+      },
+      {
+        "t": "w",
+        "v": "standing"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "right"
+      },
+      {
+        "t": "w",
+        "v": "hand"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "God"
+      },
+      {
+        "t": "v",
+        "n": 56,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Stephen"
+      },
+      {
+        "t": "w",
+        "v": "said"
+      },
+      {
+        "t": "w",
+        "v": "Look"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "see"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "heavens"
+      },
+      {
+        "t": "w",
+        "v": "opened"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Man"
+      },
+      {
+        "t": "w",
+        "v": "standing"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "right"
+      },
+      {
+        "t": "w",
+        "v": "hand"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "God"
+      },
+      {
+        "t": "v",
+        "n": 57,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "At"
+      },
+      {
+        "t": "w",
+        "v": "this"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "council"
+      },
+      {
+        "t": "w",
+        "v": "members"
+      },
+      {
+        "t": "w",
+        "v": "covered"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "ears"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "shouting"
+      },
+      {
+        "t": "w",
+        "v": "out"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "loud"
+      },
+      {
+        "t": "w",
+        "v": "voice"
+      },
+      {
+        "t": "w",
+        "v": "altogether"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "rushed"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "v",
+        "n": 58,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Then"
+      },
+      {
+        "t": "w",
+        "v": "dragging"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "out"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "city"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "stoned"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "The"
+      },
+      {
+        "t": "w",
+        "v": "witnesses"
+      },
+      {
+        "t": "w",
+        "v": "laid"
+      },
+      {
+        "t": "w",
+        "v": "down"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "outer"
+      },
+      {
+        "t": "w",
+        "v": "clothing"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "feet"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "young"
+      },
+      {
+        "t": "w",
+        "v": "man"
+      },
+      {
+        "t": "w",
+        "v": "named"
+      },
+      {
+        "t": "w",
+        "v": "Saul"
+      },
+      {
+        "t": "v",
+        "n": 59,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "As"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "were"
+      },
+      {
+        "t": "w",
+        "v": "stoning"
+      },
+      {
+        "t": "w",
+        "v": "Stephen"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "calling"
+      },
+      {
+        "t": "w",
+        "v": "out"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "saying"
+      },
+      {
+        "t": "w",
+        "v": "Lord"
+      },
+      {
+        "t": "w",
+        "v": "Jesus"
+      },
+      {
+        "t": "w",
+        "v": "receive"
+      },
+      {
+        "t": "w",
+        "v": "my"
+      },
+      {
+        "t": "w",
+        "v": "spirit"
+      },
+      {
+        "t": "v",
+        "n": 60,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "But"
+      },
+      {
+        "t": "w",
+        "v": "having"
+      },
+      {
+        "t": "w",
+        "v": "fallen"
+      },
+      {
+        "t": "w",
+        "v": "down"
+      },
+      {
+        "t": "w",
+        "v": "on"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "knees"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "called"
+      },
+      {
+        "t": "w",
+        "v": "out"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "loud"
+      },
+      {
+        "t": "w",
+        "v": "voice"
+      },
+      {
+        "t": "w",
+        "v": "Lord"
+      },
+      {
+        "t": "w",
+        "v": "do"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "hold"
+      },
+      {
+        "t": "w",
+        "v": "this"
+      },
+      {
+        "t": "w",
+        "v": "sin"
+      },
+      {
+        "t": "w",
+        "v": "against"
+      },
+      {
+        "t": "w",
+        "v": "them"
+      },
+      {
+        "t": "w",
+        "v": "When"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "had"
+      },
+      {
+        "t": "w",
+        "v": "said"
+      },
+      {
+        "t": "w",
+        "v": "this"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "fell"
+      },
+      {
+        "t": "w",
+        "v": "asleep"
+      }
+    ]
+  }
+]

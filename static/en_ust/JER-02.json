@@ -1,591 +1,739 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Yahweh gave me another message"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "to proclaim to everyone in Jerusalem. He said that I should tell them this,"
-          },
-          {
-            "tag": "q1",
-            "text": "\"I, Yahweh, remember in your favor that you followed me and trusted in our covenant long ago."
-          },
-          {
-            "tag": "q2",
-            "text": "You tried to please me like a bride tries to please her husband;"
-          },
-          {
-            "tag": "q1",
-            "text": "You loved me,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you followed me through the desert."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "At that time you Israelites were set apart to me;"
-          },
-          {
-            "tag": "q2",
-            "text": "you belonged to me like the first part of the harvests belong to me."
-          },
-          {
-            "tag": "q1",
-            "text": "I promised to punish all those who harmed you, my people,"
-          },
-          {
-            "tag": "q2",
-            "text": "and send disasters on them."
-          },
-          {
-            "tag": "q2",
-            "text": "This is the way it will always be since I, Yahweh, said that it would happen.\""
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Listen to what Yahweh says, descendants of Jacob, all you people of Israel. You must listen to what Yahweh says."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh gave me another message"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "He says,"
-          },
-          {
-            "tag": "q2",
-            "text": "\"What sin did I commit that caused your ancestors to turn far away from me?"
-          },
-          {
-            "tag": "q1",
-            "text": "They worshiped worthless idols,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they themselves became worthless."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "They should have said, "
-          },
-          {
-            "tag": "q2",
-            "text": "'We need Yahweh. He is the one who brought us safely out of Egypt"
-          },
-          {
-            "tag": "q1",
-            "text": "and led us through a desert plain where there were a lot of pits."
-          },
-          {
-            "tag": "q2",
-            "text": "We need Yahweh. He is the one who led us "
-          },
-          {
-            "tag": "q1",
-            "text": "where there was no water and where it was very dangerous,"
-          },
-          {
-            "tag": "q2",
-            "text": "through a land where no one lives or even travels.'"
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "But when I, Yahweh, brought you into a very fertile land,"
-          },
-          {
-            "tag": "q2",
-            "text": "in order that you could enjoy all the fruit and other good things that you would harvest,"
-          },
-          {
-            "tag": "q1",
-            "text": "you caused the land that I promised to give to you to be unfit for me"
-          },
-          {
-            "tag": "q2",
-            "text": "and to become disgusting to me."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Your priests also did not ask"
-          },
-          {
-            "tag": "q2",
-            "text": "if I was still with them."
-          },
-          {
-            "tag": "q1",
-            "text": "Those who teach God's laws are not faithful to me themselves!"
-          },
-          {
-            "tag": "q2",
-            "text": "And your leaders have rebelled against me."
-          },
-          {
-            "tag": "q1",
-            "text": "Your prophets gave you messages from their god Baal,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they worship worthless idols."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "So I, Yahweh, will accuse you in court."
-          },
-          {
-            "tag": "q1",
-            "text": "In future years, I will also bring your children and your grandchildren to trial!"
-          },
-          {
-            "tag": "q1",
-            "text": "That will happen because I, Yahweh, have said that it will happen."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "If you go west to the island of Cyprus,"
-          },
-          {
-            "tag": "q2",
-            "text": "or if you go east to Kedar land,"
-          },
-          {
-            "tag": "q1",
-            "text": "and if you ask people in those places,"
-          },
-          {
-            "tag": "q2",
-            "text": "they will tell you that no people from their countries have ever done the wicked things that you people have done!"
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "No people of any nation have ever abandoned their gods that they thought were glorious"
-          },
-          {
-            "tag": "q2",
-            "text": "and started to worship gods that are not really gods,"
-          },
-          {
-            "tag": "q1",
-            "text": "but you people have abandoned me, your glorious God,"
-          },
-          {
-            "tag": "q2",
-            "text": "and are worshiping gods that are useless."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "It is as though everything in the sky is dismayed about what you have done;"
-          },
-          {
-            "tag": "q2",
-            "text": "it is as though they tremble and are very horrified. I, Yahweh, see and declare this to you."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "You, my people, have done two evil things:"
-          },
-          {
-            "tag": "q1",
-            "text": "you have rejected me, the one who is like a fountain where you can obtain fresh water,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you are worshiping gods that are like pits in the ground"
-          },
-          {
-            "tag": "q2",
-            "text": "that are cracked and which are not able to hold any water."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "You Israelite people, you were certainly not slaves when you were born;"
-          },
-          {
-            "tag": "q2",
-            "text": "so why were you captured by your enemies?"
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "Your enemies roared like lions,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they destroyed your land."
-          },
-          {
-            "tag": "q1",
-            "text": "Now your towns have been burned,"
-          },
-          {
-            "tag": "q2",
-            "text": "and no one lives in them."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Soldiers from Memphis and Tahpenes, cities in Egypt, have defeated you"
-          },
-          {
-            "tag": "q2",
-            "text": "and shaved your heads to show that you are their slaves."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "But it is because you abandoned me, Yahweh your God,"
-          },
-          {
-            "tag": "q2",
-            "text": "that these disasters have happened to you, since I had been leading your to safety."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "So why are you trying to make an alliance with the rulers of Egypt who live near the Shihor?"
-          },
-          {
-            "tag": "q2",
-            "text": "Why are you trying to make an alliance with the rulers of Assyria who live near the Euphrates River?"
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "It is because you have been very wicked that I will punish you."
-          },
-          {
-            "tag": "q2",
-            "text": "It is because you have turned away from me that I will condemn you."
-          },
-          {
-            "tag": "q1",
-            "text": "When I do that, you will realize that bitter and evil things will happen to you because you have forsaken me, Yahweh, your God,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you no longer have an awesome respect for me."
-          },
-          {
-            "tag": "q1",
-            "text": "That will certainly happen because I, the Lord, Yahweh, commander of the angel armies in heaven, have said it."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Long ago, you stopped obeying me and you would not allow me to lead you."
-          },
-          {
-            "tag": "q2",
-            "text": "You refused to worship me, even though I saved you from being slaves."
-          },
-          {
-            "tag": "q1",
-            "text": "Instead, you worship idols that are under trees on the top of every hill."
-          },
-          {
-            "tag": "q2",
-            "text": "You love and worship those idols instead of me just like an unfaithful man loves a prostitute instead of his wife."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "It is as though you were the best grapevine that I could plant, "
-          },
-          {
-            "tag": "q2",
-            "text": "and I planted you so you would grow from the very best seed."
-          },
-          {
-            "tag": "q1",
-            "text": "So how could you change yourself from the best grapevine into becoming like a vine that is disgusting and rotten?"
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Your guilt from your sins is like very bad stains on a cloth,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you cannot get rid of those stains even by using very strong soap."
-          },
-          {
-            "tag": "q1",
-            "text": "This is true because I, Yahweh, have said it."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "You say that you have not sinned."
-          },
-          {
-            "tag": "q1",
-            "text": "You claim to be acceptable to God"
-          },
-          {
-            "tag": "q2",
-            "text": "and that you have not worshiped the images of Baal."
-          },
-          {
-            "tag": "q1",
-            "text": "But think about the disgusting things that you do very eagerly in Hinnom Valley outside Jerusalem."
-          },
-          {
-            "tag": "q2",
-            "text": "You are like desperate female camels running here and there to find male camels to mate with."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "You are like wild female donkeys that live in the desert."
-          },
-          {
-            "tag": "q2",
-            "text": "They sniff the air to find where the male donkeys are,"
-          },
-          {
-            "tag": "q2",
-            "text": "and there is no one who can restrain their lust."
-          },
-          {
-            "tag": "q1",
-            "text": "The male donkeys that want to mate with them only wear themselves out chasing after them; "
-          },
-          {
-            "tag": "q2",
-            "text": "because at mating time they find them easily."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "You constantly run here and there to find idols to worship, with the result that your sandals are worn out,"
-          },
-          {
-            "tag": "q2",
-            "text": "and your throats have become dry."
-          },
-          {
-            "tag": "q1",
-            "text": "I told you to stop doing that but you said that you could not stop,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you said that you loved those foreign gods"
-          },
-          {
-            "tag": "q2",
-            "text": "and had to worship them!"
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "A robber is disgraced when he is caught."
-          },
-          {
-            "tag": "q2",
-            "text": "And all of you, including your kings and priests and prophets, are similarly disgraced."
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "You call a piece of wood that is carved to become a sacred idol, your 'father,'"
-          },
-          {
-            "tag": "q2",
-            "text": "and you call a stone that you have set up, your 'mother.'"
-          },
-          {
-            "tag": "q1",
-            "text": "You have rejected me"
-          },
-          {
-            "tag": "q2",
-            "text": "but when you experience troubles,"
-          },
-          {
-            "tag": "q1",
-            "text": "you call for me to rescue you!"
-          },
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "Why do you not shout to the gods that you made?"
-          },
-          {
-            "tag": "q2",
-            "text": "Why do you not plead with them to rescue you"
-          },
-          {
-            "tag": "q2",
-            "text": "when you experience disasters?"
-          },
-          {
-            "tag": "q1",
-            "text": "For you have as many gods as you have cities and towns in Judah!"
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "You complain that it was wrong for me not to have rescued you,"
-          },
-          {
-            "tag": "q2",
-            "text": "but you have all rebelled against me, Yahweh, the one who is speaking to you right now."
-          },
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "I punished some of you,"
-          },
-          {
-            "tag": "q2",
-            "text": "but you did not learn anything from my doing that."
-          },
-          {
-            "tag": "q1",
-            "text": "Instead you have killed many of the prophets that I sent to you,"
-          },
-          {
-            "tag": "q2",
-            "text": "like fierce lions kill other animals."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "to proclaim to everyone in Jerusalem. He said that I should tell them this,"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "You people of Israel, pay attention to what I say."
-          },
-          {
-            "tag": "q1",
-            "text": "I have certainly never abandoned you in a desert;"
-          },
-          {
-            "tag": "q2",
-            "text": "I have never left you in a very dark land."
-          },
-          {
-            "tag": "q1",
-            "text": "So, why do you, my people, say that you are free from my control"
-          },
-          {
-            "tag": "q2",
-            "text": "and that you will not return to worship me anymore?"
-          },
-          {
-            "tag": "v",
-            "num": "32",
-            "text": "A young woman would certainly never forget to wear her jewelry,"
-          },
-          {
-            "tag": "q2",
-            "text": "and a bride would never forget to wear her wedding dress,"
-          },
-          {
-            "tag": "q1",
-            "text": "but you my people have forgotten me for many years."
-          },
-          {
-            "tag": "v",
-            "num": "33",
-            "text": "You know how to easily find gods from other countries whom you can love."
-          },
-          {
-            "tag": "q2",
-            "text": "You can find them more easily than a prostitute can find men to sleep with. You could teach her about infidelity!"
-          },
-          {
-            "tag": "v",
-            "num": "34",
-            "text": "You also have the blood of poor people on your clothes; the very people you have murdered;"
-          },
-          {
-            "tag": "q2",
-            "text": "people who were innocent! You did not catch them robbing you!"
-          },
-          {
-            "tag": "v",
-            "num": "35",
-            "text": "Yet you say, 'I have done nothing wrong!"
-          },
-          {
-            "tag": "q2",
-            "text": "I am sure that Yahweh will not be angry with me for much longer.'"
-          },
-          {
-            "tag": "q1",
-            "text": "But I will punish you severely"
-          },
-          {
-            "tag": "q2",
-            "text": "for claiming that you have not sinned."
-          },
-          {
-            "tag": "v",
-            "num": "36",
-            "text": "Previously you requested the army of Assyria to help you,"
-          },
-          {
-            "tag": "q2",
-            "text": "but they were not able to help you."
-          },
-          {
-            "tag": "q1",
-            "text": "Now you have requested the army of Egypt to help you,"
-          },
-          {
-            "tag": "q2",
-            "text": "but they will not be able to help you, either."
-          },
-          {
-            "tag": "v",
-            "num": "37",
-            "text": "They will capture you, and you will be their prisoners,"
-          },
-          {
-            "tag": "q2",
-            "text": "very ashamed with your hands on your heads."
-          },
-          {
-            "tag": "q1",
-            "text": "That will happen because Yahweh has rejected those nations that you are relying on,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they will not be able to help you at all.\""
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 3,
+        "v": "At that time you Israelites were set apart to me;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Listen to what Yahweh says, descendants of Jacob, all you people of Israel. You must listen to what Yahweh says."
       }
-    ],
-    "num": 2
+    ]
   },
-  "id": "JER unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Jeremiah"
-}
+  {
+    "t": "q",
+    "v": "“I, Yahweh, remember in your favor that you followed me and trusted in our covenant long ago."
+  },
+  {
+    "t": "q",
+    "v": "You tried to please me like a bride tries to please her husband;"
+  },
+  {
+    "t": "q",
+    "v": "You loved me,"
+  },
+  {
+    "t": "q",
+    "v": "and you followed me through the desert."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you belonged to me like the first part of the harvests belong to me."
+  },
+  {
+    "t": "q",
+    "v": "I promised to punish all those who harmed you, my people,"
+  },
+  {
+    "t": "q",
+    "v": "and send disasters on them."
+  },
+  {
+    "t": "q",
+    "v": "This is the way it will always be since I, Yahweh, said that it would happen.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 5,
+        "v": "He says,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "They should have said,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "But when I, Yahweh, brought you into a very fertile land,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Your priests also did not ask"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "So I, Yahweh, will accuse you in court."
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "If you go west to the island of Cyprus,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "No people of any nation have ever abandoned their gods that they thought were glorious"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "It is as though everything in the sky is dismayed about what you have done;"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "You, my people, have done two evil things:"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "You Israelite people, you were certainly not slaves when you were born;"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Your enemies roared like lions,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Soldiers from Memphis and Tahpenes, cities in Egypt, have defeated you"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "But it is because you abandoned me, Yahweh your God,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "So why are you trying to make an alliance with the rulers of Egypt who live near the Shihor?"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "It is because you have been very wicked that I will punish you."
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Long ago, you stopped obeying me and you would not allow me to lead you."
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "It is as though you were the best grapevine that I could plant,"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Your guilt from your sins is like very bad stains on a cloth,"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "You say that you have not sinned."
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "You are like wild female donkeys that live in the desert."
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "You constantly run here and there to find idols to worship, with the result that your sandals are worn out,"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "A robber is disgraced when he is caught."
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "You call a piece of wood that is carved to become a sacred idol, your ‘father,’"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "Why do you not shout to the gods that you made?"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "You complain that it was wrong for me not to have rescued you,"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "I punished some of you,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "“What sin did I commit that caused your ancestors to turn far away from me?"
+  },
+  {
+    "t": "q",
+    "v": "They worshiped worthless idols,"
+  },
+  {
+    "t": "q",
+    "v": "and they themselves became worthless."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "‘We need Yahweh. He is the one who brought us safely out of Egypt"
+  },
+  {
+    "t": "q",
+    "v": "and led us through a desert plain where there were a lot of pits."
+  },
+  {
+    "t": "q",
+    "v": "We need Yahweh. He is the one who led us "
+  },
+  {
+    "t": "q",
+    "v": "where there was no water and where it was very dangerous,"
+  },
+  {
+    "t": "q",
+    "v": "through a land where no one lives or even travels.’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "in order that you could enjoy all the fruit and other good things that you would harvest,"
+  },
+  {
+    "t": "q",
+    "v": "you caused the land that I promised to give to you to be unfit for me"
+  },
+  {
+    "t": "q",
+    "v": "and to become disgusting to me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "if I was still with them."
+  },
+  {
+    "t": "q",
+    "v": "Those who teach God’s laws are not faithful to me themselves!"
+  },
+  {
+    "t": "q",
+    "v": "And your leaders have rebelled against me."
+  },
+  {
+    "t": "q",
+    "v": "Your prophets gave you messages from their god Baal,"
+  },
+  {
+    "t": "q",
+    "v": "and they worship worthless idols."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "In future years, I will also bring your children and your grandchildren to trial!"
+  },
+  {
+    "t": "q",
+    "v": "That will happen because I, Yahweh, have said that it will happen."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "or if you go east to Kedar land,"
+  },
+  {
+    "t": "q",
+    "v": "and if you ask people in those places,"
+  },
+  {
+    "t": "q",
+    "v": "they will tell you that no people from their countries have ever done the wicked things that you people have done!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and started to worship gods that are not really gods,"
+  },
+  {
+    "t": "q",
+    "v": "but you people have abandoned me, your glorious God,"
+  },
+  {
+    "t": "q",
+    "v": "and are worshiping gods that are useless."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "it is as though they tremble and are very horrified. I, Yahweh, see and declare this to you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you have rejected me, the one who is like a fountain where you can obtain fresh water,"
+  },
+  {
+    "t": "q",
+    "v": "and you are worshiping gods that are like pits in the ground"
+  },
+  {
+    "t": "q",
+    "v": "that are cracked and which are not able to hold any water."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so why were you captured by your enemies?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they destroyed your land."
+  },
+  {
+    "t": "q",
+    "v": "Now your towns have been burned,"
+  },
+  {
+    "t": "q",
+    "v": "and no one lives in them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and shaved your heads to show that you are their slaves."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "that these disasters have happened to you, since I had been leading your to safety."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Why are you trying to make an alliance with the rulers of Assyria who live near the Euphrates River?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "It is because you have turned away from me that I will condemn you."
+  },
+  {
+    "t": "q",
+    "v": "When I do that, you will realize that bitter and evil things will happen to you because you have forsaken me, Yahweh, your God,"
+  },
+  {
+    "t": "q",
+    "v": "and you no longer have an awesome respect for me."
+  },
+  {
+    "t": "q",
+    "v": "That will certainly happen because I, the Lord, Yahweh, commander of the angel armies in heaven, have said it."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "You refused to worship me, even though I saved you from being slaves."
+  },
+  {
+    "t": "q",
+    "v": "Instead, you worship idols that are under trees on the top of every hill."
+  },
+  {
+    "t": "q",
+    "v": "You love and worship those idols instead of me just like an unfaithful man loves a prostitute instead of his wife."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and I planted you so you would grow from the very best seed."
+  },
+  {
+    "t": "q",
+    "v": "So how could you change yourself from the best grapevine into becoming like a vine that is disgusting and rotten?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and you cannot get rid of those stains even by using very strong soap."
+  },
+  {
+    "t": "q",
+    "v": "This is true because I, Yahweh, have said it."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "You claim to be acceptable to God"
+  },
+  {
+    "t": "q",
+    "v": "and that you have not worshiped the images of Baal."
+  },
+  {
+    "t": "q",
+    "v": "But think about the disgusting things that you do very eagerly in Hinnom Valley outside Jerusalem."
+  },
+  {
+    "t": "q",
+    "v": "You are like desperate female camels running here and there to find male camels to mate with."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "They sniff the air to find where the male donkeys are,"
+  },
+  {
+    "t": "q",
+    "v": "and there is no one who can restrain their lust."
+  },
+  {
+    "t": "q",
+    "v": "The male donkeys that want to mate with them only wear themselves out chasing after them; "
+  },
+  {
+    "t": "q",
+    "v": "because at mating time they find them easily."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and your throats have become dry."
+  },
+  {
+    "t": "q",
+    "v": "I told you to stop doing that but you said that you could not stop,"
+  },
+  {
+    "t": "q",
+    "v": "and you said that you loved those foreign gods"
+  },
+  {
+    "t": "q",
+    "v": "and had to worship them!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "And all of you, including your kings and priests and prophets, are similarly disgraced."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and you call a stone that you have set up, your ‘mother.’"
+  },
+  {
+    "t": "q",
+    "v": "You have rejected me"
+  },
+  {
+    "t": "q",
+    "v": "but when you experience troubles,"
+  },
+  {
+    "t": "q",
+    "v": "you call for me to rescue you!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Why do you not plead with them to rescue you"
+  },
+  {
+    "t": "q",
+    "v": "when you experience disasters?"
+  },
+  {
+    "t": "q",
+    "v": "For you have as many gods as you have cities and towns in Judah!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but you have all rebelled against me, Yahweh, the one who is speaking to you right now."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but you did not learn anything from my doing that."
+  },
+  {
+    "t": "q",
+    "v": "Instead you have killed many of the prophets that I sent to you,"
+  },
+  {
+    "t": "q",
+    "v": "like fierce lions kill other animals."
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 31,
+        "v": "You people of Israel, pay attention to what I say."
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "A young woman would certainly never forget to wear her jewelry,"
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "You know how to easily find gods from other countries whom you can love."
+      },
+      {
+        "t": "v",
+        "n": 34,
+        "v": "You also have the blood of poor people on your clothes; the very people you have murdered;"
+      },
+      {
+        "t": "v",
+        "n": 35,
+        "v": "Yet you say, ‘I have done nothing wrong!"
+      },
+      {
+        "t": "v",
+        "n": 36,
+        "v": "Previously you requested the army of Assyria to help you,"
+      },
+      {
+        "t": "v",
+        "n": 37,
+        "v": "They will capture you, and you will be their prisoners,"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "“People know that if a man divorces his wife and then she marries another man,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "“Look up at the barren hilltops."
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "That is why I have not sent you any rain at the times of the year when you needed it."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Now each of you says to me, ‘You are my father!"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "So surely you will not be angry with me forever!’"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "I have certainly never abandoned you in a desert;"
+  },
+  {
+    "t": "q",
+    "v": "I have never left you in a very dark land."
+  },
+  {
+    "t": "q",
+    "v": "So, why do you, my people, say that you are free from my control"
+  },
+  {
+    "t": "q",
+    "v": "and that you will not return to worship me anymore?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and a bride would never forget to wear her wedding dress,"
+  },
+  {
+    "t": "q",
+    "v": "but you my people have forgotten me for many years."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "You can find them more easily than a prostitute can find men to sleep with. You could teach her about infidelity!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "people who were innocent! You did not catch them robbing you!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I am sure that Yahweh will not be angry with me for much longer.’"
+  },
+  {
+    "t": "q",
+    "v": "But I will punish you severely"
+  },
+  {
+    "t": "q",
+    "v": "for claiming that you have not sinned."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but they were not able to help you."
+  },
+  {
+    "t": "q",
+    "v": "Now you have requested the army of Egypt to help you,"
+  },
+  {
+    "t": "q",
+    "v": "but they will not be able to help you, either."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "very ashamed with your hands on your heads."
+  },
+  {
+    "t": "q",
+    "v": "That will happen because Yahweh has rejected those nations that you are relying on,"
+  },
+  {
+    "t": "q",
+    "v": "and they will not be able to help you at all.”"
+  }
+]

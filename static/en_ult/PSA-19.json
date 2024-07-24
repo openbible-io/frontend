@@ -1,176 +1,489 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "I love you, Yahweh, my strength."
       },
       {
-        "tag": "d",
-        "text": "For the chief musician. A psalm of David."
+        "t": "v",
+        "n": 2,
+        "v": "Yahweh is my rock, my fortress, the one who brings me to safety; he is my God, my rock; I take refuge in him."
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "The heavens declare the glory of God,"
-          },
-          {
-            "tag": "q",
-            "text": "and the skies make his handiwork known!"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Day after day speech pours out;"
-          },
-          {
-            "tag": "q",
-            "text": "night after night it reveals knowledge."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "There is no speech or spoken words;"
-          },
-          {
-            "tag": "q",
-            "text": "their voice is not heard."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Yet their words go out over all the earth,"
-          },
-          {
-            "tag": "q",
-            "text": "and their speech to the end of the world."
-          },
-          {
-            "tag": "q",
-            "text": "He has pitched a tent for the sun among them."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "The sun is like a bridegroom coming out of his chamber"
-          },
-          {
-            "tag": "q",
-            "text": "and like a strong man who rejoices when he runs his race."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "The sun rises from the one horizon"
-          },
-          {
-            "tag": "q",
-            "text": "and crosses the sky to the other;"
-          },
-          {
-            "tag": "q",
-            "text": "nothing escapes its heat."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "The law of Yahweh is perfect, restoring the soul;"
-          },
-          {
-            "tag": "q",
-            "text": "the testimony of Yahweh is reliable, making the simple wise."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "The instructions of Yahweh are right, making the heart glad;"
-          },
-          {
-            "tag": "q",
-            "text": "the commandment of Yahweh is pure, bringing light to the eyes."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "The fear of Yahweh is pure, enduring forever;"
-          },
-          {
-            "tag": "q",
-            "text": "the righteous decrees of Yahweh are true and altogether right!"
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "They are of greater value than gold, even more than much fine gold;"
-          },
-          {
-            "tag": "q",
-            "text": "they are sweeter than honey and the dripping honey from the honeycomb."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Yes, by them your servant is warned;"
-          },
-          {
-            "tag": "q",
-            "text": "in obeying them there is great reward."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Who can discern all his own errors?"
-          },
-          {
-            "tag": "q",
-            "text": "Cleanse me from hidden faults."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Keep your servant also from arrogant sins;"
-          },
-          {
-            "tag": "q",
-            "text": "let them not rule over me."
-          },
-          {
-            "tag": "q",
-            "text": "Then I will be perfect,"
-          },
-          {
-            "tag": "q",
-            "text": "and I will be innocent from many transgressions."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "May the words of my mouth and the thoughts of my heart"
-          },
-          {
-            "tag": "q",
-            "text": "be acceptable in your sight,"
-          },
-          {
-            "tag": "q",
-            "text": "Yahweh, my rock and my redeemer."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "I will call on Yahweh who is worthy to be praised, and I will be saved from my enemies."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "The cords of death surrounded me, and the rushing waters of worthlessness overwhelmed me."
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "The cords of Sheol surrounded me; the snares of death trapped me."
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "In my distress I called to Yahweh; I called for help to my God. He heard my voice from his temple;"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Then the earth shook and trembled; the foundations of the mountains also trembled"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Smoke went up from out of his nostrils, and blazing fire came out of his mouth. Coals were ignited by it."
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "He opened the heavens and came down, and thick darkness was under his feet."
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "He rode on a cherub and flew; he glided on the wings of the wind."
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "He made darkness a tent around him, heavy rainclouds in the skies."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Hailstones and coals of fire fell from the lightning before him."
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Yahweh thundered in the heavens! The voice of the Most High shouted."
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "He shot his arrows and scattered his enemies; many lightning bolts dispersed them."
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Then the water channels appeared;"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "He reached down from above; he took hold of me! He pulled me out of the surging water."
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "He rescued me from my strong enemy, from those who hated me, for they were too strong for me."
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "They came against me on the day of my distress but Yahweh was my support!"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "He set me free in a wide open place; he saved me because he was pleased with me."
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Yahweh has rewarded me because of my righteousness; he has restored me because my hands were clean."
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "For I have kept the ways of Yahweh and have not wickedly turned away from my God."
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "For all his righteous decrees have been before me; as for his statutes, I have not turned away from them."
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "I have also been innocent before him, and I have kept myself from sin."
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "Therefore Yahweh has restored me because of my righteousness, because my hands were clean before his eyes."
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "To the one who is faithful, you show yourself to be faithful;"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "To anyone who is pure, you show yourself pure; but you are clever toward anyone who is twisted."
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "For you save afflicted people, but you bring down those with proud, uplifted eyes!"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "For you give light to my lamp; Yahweh my God lights up my darkness."
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "For by you I can run over a barricade; by my God I can leap over a wall."
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "As for God—his way is perfect! The word of Yahweh is pure!"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "For who is God except Yahweh? Who is a rock except our God?"
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "It is God who puts strength on me like a belt, who places the blameless person on his path."
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "He makes my feet swift like a deer and places me on the heights!"
+      },
+      {
+        "t": "v",
+        "n": 34,
+        "v": "He trains my hands for war and my arms to bend a bow of bronze."
+      },
+      {
+        "t": "v",
+        "n": 35,
+        "v": "You have given me the shield of your salvation. Your right hand has supported me, and your favor has made me great."
+      },
+      {
+        "t": "v",
+        "n": 36,
+        "v": "You have made a wide place for my feet beneath me so that my feet have not slipped."
+      },
+      {
+        "t": "v",
+        "n": 37,
+        "v": "I pursued my enemies and caught them; I did not turn back until they were destroyed."
+      },
+      {
+        "t": "v",
+        "n": 38,
+        "v": "I smashed them so that they were unable to rise; they have fallen under my feet."
+      },
+      {
+        "t": "v",
+        "n": 39,
+        "v": "For you put strength on me like a belt for battle; you put under me those who rise up against me."
+      },
+      {
+        "t": "v",
+        "n": 40,
+        "v": "You gave me the back of my enemies’ necks; I annihilated those who hated me."
+      },
+      {
+        "t": "v",
+        "n": 41,
+        "v": "They called for help, but no one saved them; they called out to Yahweh, but he did not answer them."
+      },
+      {
+        "t": "v",
+        "n": 42,
+        "v": "I beat them into fine pieces like dust before the wind; I threw them out like mud in the streets."
+      },
+      {
+        "t": "v",
+        "n": 43,
+        "v": "You rescued me from the disputes of people. You have made me the head over nations. People that I have not known serve me."
+      },
+      {
+        "t": "v",
+        "n": 44,
+        "v": "As soon as they heard of me, they obeyed me; foreigners were forced to bow to me."
+      },
+      {
+        "t": "v",
+        "n": 45,
+        "v": "The foreigners came trembling out of their strongholds."
+      },
+      {
+        "t": "v",
+        "n": 46,
+        "v": "Yahweh lives; may my rock be praised. May the God of my salvation be exalted."
+      },
+      {
+        "t": "v",
+        "n": 47,
+        "v": "He is the God who executes vengeance for me, who subdues the nations under me."
+      },
+      {
+        "t": "v",
+        "n": 48,
+        "v": "I am set free from my enemies! Indeed, you lifted me above the ones who rose against me! You rescued me from violent men."
+      },
+      {
+        "t": "v",
+        "n": 49,
+        "v": "Therefore I will give thanks to you, Yahweh, among the nations; I will sing praises to your name!"
+      },
+      {
+        "t": "v",
+        "n": 50,
+        "v": "God gives great victory to his king, and he shows his covenant loyalty to his anointed one, to David and to his descendants forever."
       }
-    ],
-    "num": 19
+    ]
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "He is my shield, the horn of my salvation, and my stronghold."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "my call for help went into his presence; it went into his ears."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and were shaken because God was angry."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the foundations of the world were laid bare "
+  },
+  {
+    "t": "q",
+    "v": "at your rebuke, Yahweh,"
+  },
+  {
+    "t": "q",
+    "v": "at the blast of the breath of your nostrils."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "to a man who is blameless, you show yourself to be blameless."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "He is a shield to everyone who takes refuge in him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  }
+]

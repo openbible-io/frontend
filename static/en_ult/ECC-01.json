@@ -1,223 +1,237 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "tag": "toc1",
-        "text": "The Book of Ecclesiastes"
+        "t": "v",
+        "n": 1,
+        "v": "These are the words of the Teacher, the descendant of David and king in Jerusalem."
       },
       {
-        "tag": "toc2",
-        "text": "Ecclesiastes"
+        "t": "v",
+        "n": 2,
+        "v": "The Teacher says this."
       },
       {
-        "tag": "toc3",
-        "text": "Ecc"
+        "t": "v",
+        "n": 3,
+        "v": "What profit does mankind gain from all the work that they labor at under the sun?"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "These are the words of the Teacher, the descendant of David and king in Jerusalem."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "The Teacher says this."
-          },
-          {
-            "tag": "q1",
-            "text": "“Like a vapor of mist,"
-          },
-          {
-            "tag": "q2",
-            "text": "like a breeze in the wind,"
-          },
-          {
-            "tag": "q1",
-            "text": "everything vanishes, leaving many questions."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "What profit does mankind gain from all the work that they labor at under the sun?"
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "One generation goes,"
-          },
-          {
-            "tag": "q2",
-            "text": "and another generation comes,"
-          },
-          {
-            "tag": "q1",
-            "text": "but the earth remains forever."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "The sun rises,"
-          },
-          {
-            "tag": "q2",
-            "text": "and it goes down"
-          },
-          {
-            "tag": "q1",
-            "text": "and hurries back to the place where it rises again."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "The wind blows south"
-          },
-          {
-            "tag": "q2",
-            "text": "and circles around to the north,"
-          },
-          {
-            "tag": "q1",
-            "text": "always going around along its pathway"
-          },
-          {
-            "tag": "q2",
-            "text": "and coming back again."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "All the rivers flow into the sea,"
-          },
-          {
-            "tag": "q2",
-            "text": "but the sea is never full."
-          },
-          {
-            "tag": "q1",
-            "text": "To the place where the rivers go,"
-          },
-          {
-            "tag": "q2",
-            "text": "there they go again."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Everything becomes wearisome,"
-          },
-          {
-            "tag": "q2",
-            "text": "and no one can explain it."
-          },
-          {
-            "tag": "q1",
-            "text": "The eye is not satisfied by what it sees,"
-          },
-          {
-            "tag": "q2",
-            "text": "nor is the ear fulfilled by what it hears."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Whatever has been is what will be,"
-          },
-          {
-            "tag": "q2",
-            "text": "and whatever has been done is what will be done."
-          },
-          {
-            "tag": "q1",
-            "text": "There is nothing new under the sun."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Is there anything about which it may be said,"
-          },
-          {
-            "tag": "q2",
-            "text": "‘Look, this is new’?"
-          },
-          {
-            "tag": "q1",
-            "text": "Whatever exists has already existed for a long time,"
-          },
-          {
-            "tag": "q2",
-            "text": "during ages which came long before us."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "No one seems to remember the things that happened in ancient times,"
-          },
-          {
-            "tag": "q2",
-            "text": "and the things that happened much later"
-          },
-          {
-            "tag": "q2",
-            "text": "and that will happen in the future"
-          },
-          {
-            "tag": "q1",
-            "text": "will not likely be remembered either.”"
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "I am the Teacher, and I have been king over Israel in Jerusalem."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "I applied my mind to study and to search out by wisdom everything that is done under heaven. That search is a burdensome task that God has given to the children of mankind to be busy with."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "I have seen all the deeds that are done under the sun, and look, they all amount to vapor and chasing the wind."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "The twisted cannot be straightened!"
-          },
-          {
-            "tag": "q1",
-            "text": "The missing cannot be counted!"
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "I have spoken to my heart saying, “Look, I have acquired greater wisdom than all who were before me in Jerusalem. My mind has seen great wisdom and knowledge.”"
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "So I applied my heart to know wisdom and also madness and folly. I came to understand that this also was an attempt to shepherd the wind."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "For in the abundance of wisdom there is much frustration, and he who increases knowledge increases sorrow."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 4,
+        "v": "One generation goes,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "The sun rises,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "The wind blows south"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "All the rivers flow into the sea,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Everything becomes wearisome,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Whatever has been is what will be,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Is there anything about which it may be said,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "No one seems to remember the things that happened in ancient times,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "I am the Teacher, and I have been king over Israel in Jerusalem."
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "I applied my mind to study and to search out by wisdom everything that is done under heaven. That search is a burdensome task that God has given to the children of mankind to be busy with."
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "I have seen all the deeds that are done under the sun, and look, they all amount to vapor and chasing the wind."
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "The twisted cannot be straightened!"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "I have spoken to my heart saying, “Look, I have acquired greater wisdom than all who were before me in Jerusalem. My mind has seen great wisdom and knowledge.”"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "So I applied my heart to know wisdom and also madness and folly. I came to understand that this also was an attempt to shepherd the wind."
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "For in the abundance of wisdom there is much frustration, and he who increases knowledge increases sorrow."
       }
-    ],
-    "num": 1
+    ]
   },
-  "id": "ECC unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Ecclesiastes",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Ecclesiastes "
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": "“Like a vapor of mist,"
+  },
+  {
+    "t": "q",
+    "v": "like a breeze in the wind,"
+  },
+  {
+    "t": "q",
+    "v": "everything vanishes, leaving many questions."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and another generation comes,"
+  },
+  {
+    "t": "q",
+    "v": "but the earth remains forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and it goes down"
+  },
+  {
+    "t": "q",
+    "v": "and hurries back to the place where it rises again."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and circles around to the north,"
+  },
+  {
+    "t": "q",
+    "v": "always going around along its pathway"
+  },
+  {
+    "t": "q",
+    "v": "and coming back again."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but the sea is never full."
+  },
+  {
+    "t": "q",
+    "v": "To the place where the rivers go,"
+  },
+  {
+    "t": "q",
+    "v": "there they go again."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and no one can explain it."
+  },
+  {
+    "t": "q",
+    "v": "The eye is not satisfied by what it sees,"
+  },
+  {
+    "t": "q",
+    "v": "nor is the ear fulfilled by what it hears."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and whatever has been done is what will be done."
+  },
+  {
+    "t": "q",
+    "v": "There is nothing new under the sun."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "‘Look, this is new’?"
+  },
+  {
+    "t": "q",
+    "v": "Whatever exists has already existed for a long time,"
+  },
+  {
+    "t": "q",
+    "v": "during ages which came long before us."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and the things that happened much later"
+  },
+  {
+    "t": "q",
+    "v": "and that will happen in the future"
+  },
+  {
+    "t": "q",
+    "v": "will not likely be remembered either.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "The missing cannot be counted!"
+  }
+]

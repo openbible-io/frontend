@@ -1,111 +1,1769 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "A call went out to the men of Ephraim; they passed through Zaphon and said to Jephthah, \"Why did you pass through to fight against the people of Ammon and did not call us to go with you? We will burn your house down over you.\""
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Jephthah said to them, \"I and my people were in a great conflict with the people of Ammon. When I called you, you did not rescue me from them."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "When I saw that you did not rescue me, I put my life in my own hand and passed through against the people of Ammon, and Yahweh gave me victory. Why have you come to fight against me today?\""
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Jephthah gathered together all the men of Gilead and he fought against Ephraim. The men of Gilead attacked the men of Ephraim because they said, \"You Gileadites are fugitives in Ephraim—in Ephraim and Manasseh.\""
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "The Gileadites captured the fords of the Jordan leading to Ephraim. When any of the survivors of Ephraim said, \"Let me go over the river,\" the men of Gilead would say to him, \"Are you an Ephraimite?\" If he said, \"No,\""
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "then they would say to him, \"Say: Shibboleth,\" and if he said \"Sibboleth\" (for he could not pronounce the word correctly), the Gileadites would seize him and kill him at the fords of the Jordan. Forty-two thousand Ephraimites were killed at that time."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": ""
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Jephthah served as a judge over Israel for six years. Then Jephthah the Gileadite died and was buried in one of the cities of Gilead."
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "Now"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "After him, Ibzan of Bethlehem served as a judge over Israel."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "He had thirty sons. He gave away thirty daughters in marriage, and he brought in thirty daughters of other men for his sons, from the outside. He judged Israel for seven years."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Ibzan died and was buried at Bethlehem."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "After him Elon the Zebulunite served as judge over Israel. He judged Israel for ten years."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Elon the Zebulunite died and was buried in Aijalon in the land of Zebulun."
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "the"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "After him, Abdon son of Hillel the Pirathonite served as a judge over Israel."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "He had forty sons and thirty grandsons. They rode on seventy donkeys, and he judged Israel for eight years."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "Abdon son of Hillel the Pirathonite died and was buried in Pirathon in the land of Ephraim in the hill country of the Amalekites."
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "men"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Ephraim"
+      },
+      {
+        "t": "w",
+        "v": "were"
+      },
+      {
+        "t": "w",
+        "v": "summoned"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "passed"
+      },
+      {
+        "t": "w",
+        "v": "northward"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "said"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "Jephthah"
+      },
+      {
+        "t": "w",
+        "v": "Why"
+      },
+      {
+        "t": "w",
+        "v": "did"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "pass"
+      },
+      {
+        "t": "w",
+        "v": "through"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "order"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "fight"
+      },
+      {
+        "t": "w",
+        "v": "against"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "sons"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Ammon"
+      },
+      {
+        "t": "w",
+        "v": "but"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "did"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "call"
+      },
+      {
+        "t": "w",
+        "v": "us"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "go"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "We"
+      },
+      {
+        "t": "w",
+        "v": "will"
+      },
+      {
+        "t": "w",
+        "v": "burn"
+      },
+      {
+        "t": "w",
+        "v": "your"
+      },
+      {
+        "t": "w",
+        "v": "house"
+      },
+      {
+        "t": "w",
+        "v": "down"
+      },
+      {
+        "t": "w",
+        "v": "over"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "fire"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Jephthah"
+      },
+      {
+        "t": "w",
+        "v": "said"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "them"
+      },
+      {
+        "t": "w",
+        "v": "A"
+      },
+      {
+        "t": "w",
+        "v": "man"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "exceedingly"
+      },
+      {
+        "t": "w",
+        "v": "great"
+      },
+      {
+        "t": "w",
+        "v": "dispute"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "have"
+      },
+      {
+        "t": "w",
+        "v": "been"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "my"
+      },
+      {
+        "t": "w",
+        "v": "people"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "sons"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Ammon"
+      },
+      {
+        "t": "w",
+        "v": "When"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "summoned"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "did"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "rescue"
+      },
+      {
+        "t": "w",
+        "v": "me"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "hand"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "When"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "saw"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "were"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "coming"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "assist"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "put"
+      },
+      {
+        "t": "w",
+        "v": "my"
+      },
+      {
+        "t": "w",
+        "v": "life"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "my"
+      },
+      {
+        "t": "w",
+        "v": "own"
+      },
+      {
+        "t": "w",
+        "v": "hand"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "passed"
+      },
+      {
+        "t": "w",
+        "v": "through"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "sons"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Ammon"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "Yahweh"
+      },
+      {
+        "t": "w",
+        "v": "gave"
+      },
+      {
+        "t": "w",
+        "v": "them"
+      },
+      {
+        "t": "w",
+        "v": "over"
+      },
+      {
+        "t": "w",
+        "v": "into"
+      },
+      {
+        "t": "w",
+        "v": "my"
+      },
+      {
+        "t": "w",
+        "v": "hand"
+      },
+      {
+        "t": "w",
+        "v": "Now"
+      },
+      {
+        "t": "w",
+        "v": "why"
+      },
+      {
+        "t": "w",
+        "v": "have"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "come"
+      },
+      {
+        "t": "w",
+        "v": "up"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "me"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "fight"
+      },
+      {
+        "t": "w",
+        "v": "against"
+      },
+      {
+        "t": "w",
+        "v": "me"
+      },
+      {
+        "t": "w",
+        "v": "this"
+      },
+      {
+        "t": "w",
+        "v": "day"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Then"
+      },
+      {
+        "t": "w",
+        "v": "Jephthah"
+      },
+      {
+        "t": "w",
+        "v": "assembled"
+      },
+      {
+        "t": "w",
+        "v": "all"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "men"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Gilead"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "fought"
+      },
+      {
+        "t": "w",
+        "v": "Ephraim"
+      },
+      {
+        "t": "w",
+        "v": "The"
+      },
+      {
+        "t": "w",
+        "v": "men"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Gilead"
+      },
+      {
+        "t": "w",
+        "v": "struck"
+      },
+      {
+        "t": "w",
+        "v": "Ephraim"
+      },
+      {
+        "t": "w",
+        "v": "because"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "had"
+      },
+      {
+        "t": "w",
+        "v": "said"
+      },
+      {
+        "t": "w",
+        "v": "Fugitives"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Ephraim"
+      },
+      {
+        "t": "w",
+        "v": "are"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "O"
+      },
+      {
+        "t": "w",
+        "v": "people"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Gilead"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "midst"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Ephraim"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "midst"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Manasseh"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Gilead"
+      },
+      {
+        "t": "w",
+        "v": "captured"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "crossing"
+      },
+      {
+        "t": "w",
+        "v": "places"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Jordan"
+      },
+      {
+        "t": "w",
+        "v": "along"
+      },
+      {
+        "t": "w",
+        "v": "Ephraim"
+      },
+      {
+        "t": "w",
+        "v": "It"
+      },
+      {
+        "t": "w",
+        "v": "happened"
+      },
+      {
+        "t": "w",
+        "v": "when"
+      },
+      {
+        "t": "w",
+        "v": "any"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "survivors"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Ephraim"
+      },
+      {
+        "t": "w",
+        "v": "would"
+      },
+      {
+        "t": "w",
+        "v": "say"
+      },
+      {
+        "t": "w",
+        "v": "May"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "cross"
+      },
+      {
+        "t": "w",
+        "v": "over"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "men"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Gilead"
+      },
+      {
+        "t": "w",
+        "v": "would"
+      },
+      {
+        "t": "w",
+        "v": "say"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "Are"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "an"
+      },
+      {
+        "t": "w",
+        "v": "Ephraimite"
+      },
+      {
+        "t": "w",
+        "v": "If"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "said"
+      },
+      {
+        "t": "w",
+        "v": "No"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "then"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "would"
+      },
+      {
+        "t": "w",
+        "v": "say"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "Please"
+      },
+      {
+        "t": "w",
+        "v": "say"
+      },
+      {
+        "t": "w",
+        "v": "Shibboleth"
+      },
+      {
+        "t": "w",
+        "v": "But"
+      },
+      {
+        "t": "w",
+        "v": "if"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "said"
+      },
+      {
+        "t": "w",
+        "v": "Sibboleth"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "prepared"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "pronounce"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "correctly"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "would"
+      },
+      {
+        "t": "w",
+        "v": "seize"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "would"
+      },
+      {
+        "t": "w",
+        "v": "slaughter"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "crossing"
+      },
+      {
+        "t": "w",
+        "v": "places"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Jordan"
+      },
+      {
+        "t": "w",
+        "v": "Forty"
+      },
+      {
+        "t": "w",
+        "v": "two"
+      },
+      {
+        "t": "w",
+        "v": "thousand"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "Ephraim"
+      },
+      {
+        "t": "w",
+        "v": "fell"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "time"
       }
-    ],
-    "num": 12
+    ]
   },
-  "id": "JDG unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Judges",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Judges "
-    }
-  ]
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 7,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Jephthah"
+      },
+      {
+        "t": "w",
+        "v": "judged"
+      },
+      {
+        "t": "w",
+        "v": "Israel"
+      },
+      {
+        "t": "w",
+        "v": "six"
+      },
+      {
+        "t": "w",
+        "v": "years"
+      },
+      {
+        "t": "w",
+        "v": "Then"
+      },
+      {
+        "t": "w",
+        "v": "Jephthah"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Gileadite"
+      },
+      {
+        "t": "w",
+        "v": "died"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "buried"
+      },
+      {
+        "t": "w",
+        "v": "among"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "cities"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Gilead"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 8,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Then"
+      },
+      {
+        "t": "w",
+        "v": "after"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "Ibzan"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Bethlehem"
+      },
+      {
+        "t": "w",
+        "v": "judged"
+      },
+      {
+        "t": "w",
+        "v": "Israel"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Now"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "had"
+      },
+      {
+        "t": "w",
+        "v": "thirty"
+      },
+      {
+        "t": "w",
+        "v": "sons"
+      },
+      {
+        "t": "w",
+        "v": "He"
+      },
+      {
+        "t": "w",
+        "v": "sent"
+      },
+      {
+        "t": "w",
+        "v": "away"
+      },
+      {
+        "t": "w",
+        "v": "thirty"
+      },
+      {
+        "t": "w",
+        "v": "daughters"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "outside"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "brought"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "thirty"
+      },
+      {
+        "t": "w",
+        "v": "daughters"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "sons"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "outside"
+      },
+      {
+        "t": "w",
+        "v": "He"
+      },
+      {
+        "t": "w",
+        "v": "judged"
+      },
+      {
+        "t": "w",
+        "v": "Israel"
+      },
+      {
+        "t": "w",
+        "v": "seven"
+      },
+      {
+        "t": "w",
+        "v": "years"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Then"
+      },
+      {
+        "t": "w",
+        "v": "Ibzan"
+      },
+      {
+        "t": "w",
+        "v": "died"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "buried"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "Bethlehem"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "After"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "Elon"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Zebulunite"
+      },
+      {
+        "t": "w",
+        "v": "judged"
+      },
+      {
+        "t": "w",
+        "v": "Israel"
+      },
+      {
+        "t": "w",
+        "v": "He"
+      },
+      {
+        "t": "w",
+        "v": "judged"
+      },
+      {
+        "t": "w",
+        "v": "Israel"
+      },
+      {
+        "t": "w",
+        "v": "ten"
+      },
+      {
+        "t": "w",
+        "v": "years"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Then"
+      },
+      {
+        "t": "w",
+        "v": "Elon"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Zebulunite"
+      },
+      {
+        "t": "w",
+        "v": "died"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "buried"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "Aijalon"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "land"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Zebulun"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 13,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "After"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "Abdon"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Hillel"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Pirathonite"
+      },
+      {
+        "t": "w",
+        "v": "judged"
+      },
+      {
+        "t": "w",
+        "v": "Israel"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Now"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "had"
+      },
+      {
+        "t": "w",
+        "v": "forty"
+      },
+      {
+        "t": "w",
+        "v": "sons"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "thirty"
+      },
+      {
+        "t": "w",
+        "v": "sons"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "sons"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "rode"
+      },
+      {
+        "t": "w",
+        "v": "on"
+      },
+      {
+        "t": "w",
+        "v": "seventy"
+      },
+      {
+        "t": "w",
+        "v": "young"
+      },
+      {
+        "t": "w",
+        "v": "male"
+      },
+      {
+        "t": "w",
+        "v": "donkeys"
+      },
+      {
+        "t": "w",
+        "v": "He"
+      },
+      {
+        "t": "w",
+        "v": "judged"
+      },
+      {
+        "t": "w",
+        "v": "Israel"
+      },
+      {
+        "t": "w",
+        "v": "eight"
+      },
+      {
+        "t": "w",
+        "v": "years"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Then"
+      },
+      {
+        "t": "w",
+        "v": "Abdon"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Hillel"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Pirathonite"
+      },
+      {
+        "t": "w",
+        "v": "died"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "buried"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "Pirathon"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "land"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Ephraim"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "hill"
+      },
+      {
+        "t": "w",
+        "v": "country"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Amalekite"
+      }
+    ]
+  }
+]

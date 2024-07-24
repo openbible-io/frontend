@@ -1,76 +1,1567 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "In the vision I saw another mighty angel come down out of heaven. A cloud surrounded him. There was a rainbow over his head. His face shone like the sun. His legs looked like columns of fire."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "He had in his hand a small scroll that was open. He set his right foot on the ocean and his left foot on the land."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "He shouted something with a loud voice, a voice like the roar of a lion. When he shouted, it thundered seven times; in the thunder were words that I could understand."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "I was about to write the words of the seven thunders, but a voice from heaven said to me, \" Keep secret what the thunders said! Do not write it down!\""
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Then the angel whom I had seen standing on the ocean and the land raised his right hand toward heaven,"
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "and he asked the one who lives forever— the one who created heaven and everything that is in it, who created the earth and everything that is on it, and who created the ocean and everything that is in it— to say that what he was going to say was true. The angel said that God would no longer delay in doing what he had planned to do."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "He said that when the time came for the seventh angel to blow his trumpet, God' s secret plan would be finished, just as he had said long ago to his servants, the prophets."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": ""
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "The one whom I had heard speak from heaven spoke to me again. He said, \" Go and take the open scroll from the hand of the angel who is standing on the ocean and on the land.\""
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "So I went to the angel and asked him to give me the little scroll. He said to me, \" Take it and eat it. In your mouth it will taste sweet like honey, but it will make your stomach bitter.\""
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "I took the little scroll from the angel' s hand and ate it. In my mouth it tasted sweet like honey, but then it made my stomach bitter."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Then someone said to me, \" You must speak God' s messages again about many nations, people groups, speakers of many languages, and many kings.\""
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "In"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "vision"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "saw"
+      },
+      {
+        "t": "w",
+        "v": "another"
+      },
+      {
+        "t": "w",
+        "v": "mighty"
+      },
+      {
+        "t": "w",
+        "v": "angel"
+      },
+      {
+        "t": "w",
+        "v": "come"
+      },
+      {
+        "t": "w",
+        "v": "down"
+      },
+      {
+        "t": "w",
+        "v": "out"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "heaven"
+      },
+      {
+        "t": "w",
+        "v": "A"
+      },
+      {
+        "t": "w",
+        "v": "cloud"
+      },
+      {
+        "t": "w",
+        "v": "surrounded"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "There"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "rainbow"
+      },
+      {
+        "t": "w",
+        "v": "over"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "head"
+      },
+      {
+        "t": "w",
+        "v": "His"
+      },
+      {
+        "t": "w",
+        "v": "face"
+      },
+      {
+        "t": "w",
+        "v": "shone"
+      },
+      {
+        "t": "w",
+        "v": "like"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "sun"
+      },
+      {
+        "t": "w",
+        "v": "His"
+      },
+      {
+        "t": "w",
+        "v": "legs"
+      },
+      {
+        "t": "w",
+        "v": "looked"
+      },
+      {
+        "t": "w",
+        "v": "like"
+      },
+      {
+        "t": "w",
+        "v": "columns"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "fire"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "He"
+      },
+      {
+        "t": "w",
+        "v": "had"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "hand"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "small"
+      },
+      {
+        "t": "w",
+        "v": "scroll"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "open"
+      },
+      {
+        "t": "w",
+        "v": "He"
+      },
+      {
+        "t": "w",
+        "v": "set"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "right"
+      },
+      {
+        "t": "w",
+        "v": "foot"
+      },
+      {
+        "t": "w",
+        "v": "on"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "ocean"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "left"
+      },
+      {
+        "t": "w",
+        "v": "foot"
+      },
+      {
+        "t": "w",
+        "v": "on"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "land"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "He"
+      },
+      {
+        "t": "w",
+        "v": "shouted"
+      },
+      {
+        "t": "w",
+        "v": "something"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "loud"
+      },
+      {
+        "t": "w",
+        "v": "voice"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "voice"
+      },
+      {
+        "t": "w",
+        "v": "like"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "roar"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "lion"
+      },
+      {
+        "t": "w",
+        "v": "When"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "shouted"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "thundered"
+      },
+      {
+        "t": "w",
+        "v": "seven"
+      },
+      {
+        "t": "w",
+        "v": "times"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "thunder"
+      },
+      {
+        "t": "w",
+        "v": "were"
+      },
+      {
+        "t": "w",
+        "v": "words"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "could"
+      },
+      {
+        "t": "w",
+        "v": "understand"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "about"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "write"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "words"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "seven"
+      },
+      {
+        "t": "w",
+        "v": "thunders"
+      },
+      {
+        "t": "w",
+        "v": "but"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "voice"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "heaven"
+      },
+      {
+        "t": "w",
+        "v": "said"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "me"
+      },
+      {
+        "t": "w",
+        "v": "Keep"
+      },
+      {
+        "t": "w",
+        "v": "secret"
+      },
+      {
+        "t": "w",
+        "v": "what"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "thunders"
+      },
+      {
+        "t": "w",
+        "v": "said"
+      },
+      {
+        "t": "w",
+        "v": "Do"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "write"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "down"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Then"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "angel"
+      },
+      {
+        "t": "w",
+        "v": "whom"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "had"
+      },
+      {
+        "t": "w",
+        "v": "seen"
+      },
+      {
+        "t": "w",
+        "v": "standing"
+      },
+      {
+        "t": "w",
+        "v": "on"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "ocean"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "land"
+      },
+      {
+        "t": "w",
+        "v": "raised"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "right"
+      },
+      {
+        "t": "w",
+        "v": "hand"
+      },
+      {
+        "t": "w",
+        "v": "toward"
+      },
+      {
+        "t": "w",
+        "v": "heaven"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "asked"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "one"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "lives"
+      },
+      {
+        "t": "w",
+        "v": "forever"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "one"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "created"
+      },
+      {
+        "t": "w",
+        "v": "heaven"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "everything"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "is"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "created"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "earth"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "everything"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "is"
+      },
+      {
+        "t": "w",
+        "v": "on"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "created"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "ocean"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "everything"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "is"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "say"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "what"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "going"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "say"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "true"
+      },
+      {
+        "t": "w",
+        "v": "The"
+      },
+      {
+        "t": "w",
+        "v": "angel"
+      },
+      {
+        "t": "w",
+        "v": "said"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "God"
+      },
+      {
+        "t": "w",
+        "v": "would"
+      },
+      {
+        "t": "w",
+        "v": "no"
+      },
+      {
+        "t": "w",
+        "v": "longer"
+      },
+      {
+        "t": "w",
+        "v": "delay"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "doing"
+      },
+      {
+        "t": "w",
+        "v": "what"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "had"
+      },
+      {
+        "t": "w",
+        "v": "planned"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "do"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "He"
+      },
+      {
+        "t": "w",
+        "v": "said"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "when"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "time"
+      },
+      {
+        "t": "w",
+        "v": "came"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "seventh"
+      },
+      {
+        "t": "w",
+        "v": "angel"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "blow"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "trumpet"
+      },
+      {
+        "t": "w",
+        "v": "God"
+      },
+      {
+        "t": "w",
+        "v": "s"
+      },
+      {
+        "t": "w",
+        "v": "secret"
+      },
+      {
+        "t": "w",
+        "v": "plan"
+      },
+      {
+        "t": "w",
+        "v": "would"
+      },
+      {
+        "t": "w",
+        "v": "be"
+      },
+      {
+        "t": "w",
+        "v": "finished"
+      },
+      {
+        "t": "w",
+        "v": "just"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "had"
+      },
+      {
+        "t": "w",
+        "v": "said"
+      },
+      {
+        "t": "w",
+        "v": "long"
+      },
+      {
+        "t": "w",
+        "v": "ago"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "servants"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "prophets"
       }
-    ],
-    "num": 10
+    ]
   },
-  "id": "REV EN_UST en_English_ltr unfoldingWord Simplified Text Fri May 24 2019 13:45:16 GMT-0400 (EDT) tc",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Revelation"
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 8,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "The"
+      },
+      {
+        "t": "w",
+        "v": "one"
+      },
+      {
+        "t": "w",
+        "v": "whom"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "had"
+      },
+      {
+        "t": "w",
+        "v": "heard"
+      },
+      {
+        "t": "w",
+        "v": "speak"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "heaven"
+      },
+      {
+        "t": "w",
+        "v": "spoke"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "me"
+      },
+      {
+        "t": "w",
+        "v": "again"
+      },
+      {
+        "t": "w",
+        "v": "He"
+      },
+      {
+        "t": "w",
+        "v": "said"
+      },
+      {
+        "t": "w",
+        "v": "Go"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "take"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "open"
+      },
+      {
+        "t": "w",
+        "v": "scroll"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "hand"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "angel"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "is"
+      },
+      {
+        "t": "w",
+        "v": "standing"
+      },
+      {
+        "t": "w",
+        "v": "on"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "ocean"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "on"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "land"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "So"
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "went"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "angel"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "asked"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "give"
+      },
+      {
+        "t": "w",
+        "v": "me"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "little"
+      },
+      {
+        "t": "w",
+        "v": "scroll"
+      },
+      {
+        "t": "w",
+        "v": "He"
+      },
+      {
+        "t": "w",
+        "v": "said"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "me"
+      },
+      {
+        "t": "w",
+        "v": "Take"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "eat"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "In"
+      },
+      {
+        "t": "w",
+        "v": "your"
+      },
+      {
+        "t": "w",
+        "v": "mouth"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "will"
+      },
+      {
+        "t": "w",
+        "v": "taste"
+      },
+      {
+        "t": "w",
+        "v": "sweet"
+      },
+      {
+        "t": "w",
+        "v": "like"
+      },
+      {
+        "t": "w",
+        "v": "honey"
+      },
+      {
+        "t": "w",
+        "v": "but"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "will"
+      },
+      {
+        "t": "w",
+        "v": "make"
+      },
+      {
+        "t": "w",
+        "v": "your"
+      },
+      {
+        "t": "w",
+        "v": "stomach"
+      },
+      {
+        "t": "w",
+        "v": "bitter"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "took"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "little"
+      },
+      {
+        "t": "w",
+        "v": "scroll"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "angel"
+      },
+      {
+        "t": "w",
+        "v": "s"
+      },
+      {
+        "t": "w",
+        "v": "hand"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "ate"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "In"
+      },
+      {
+        "t": "w",
+        "v": "my"
+      },
+      {
+        "t": "w",
+        "v": "mouth"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "tasted"
+      },
+      {
+        "t": "w",
+        "v": "sweet"
+      },
+      {
+        "t": "w",
+        "v": "like"
+      },
+      {
+        "t": "w",
+        "v": "honey"
+      },
+      {
+        "t": "w",
+        "v": "but"
+      },
+      {
+        "t": "w",
+        "v": "then"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "made"
+      },
+      {
+        "t": "w",
+        "v": "my"
+      },
+      {
+        "t": "w",
+        "v": "stomach"
+      },
+      {
+        "t": "w",
+        "v": "bitter"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Then"
+      },
+      {
+        "t": "w",
+        "v": "someone"
+      },
+      {
+        "t": "w",
+        "v": "said"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "me"
+      },
+      {
+        "t": "w",
+        "v": "You"
+      },
+      {
+        "t": "w",
+        "v": "must"
+      },
+      {
+        "t": "w",
+        "v": "speak"
+      },
+      {
+        "t": "w",
+        "v": "God"
+      },
+      {
+        "t": "w",
+        "v": "s"
+      },
+      {
+        "t": "w",
+        "v": "messages"
+      },
+      {
+        "t": "w",
+        "v": "again"
+      },
+      {
+        "t": "w",
+        "v": "about"
+      },
+      {
+        "t": "w",
+        "v": "many"
+      },
+      {
+        "t": "w",
+        "v": "nations"
+      },
+      {
+        "t": "w",
+        "v": "people"
+      },
+      {
+        "t": "w",
+        "v": "groups"
+      },
+      {
+        "t": "w",
+        "v": "speakers"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "many"
+      },
+      {
+        "t": "w",
+        "v": "languages"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "many"
+      },
+      {
+        "t": "w",
+        "v": "kings"
+      }
+    ]
+  }
+]

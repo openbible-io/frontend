@@ -1,206 +1,3780 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Then Eliashib the high priest rose up with his brother priests, and they built the Sheep Gate. They consecrated it and set its doors in place. They consecrated it as far as the Tower of the Hundred and as far as the Tower of Hananel."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Next to him the men of Jericho worked, and next to them Zaccur son of Imri worked."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "The sons of Hassenaah built the Fish Gate. They made beams for it, and set its doors, its bolts, and its bars."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Meremoth repaired the next section. He is the son of Uriah son of Hakkoz. Next to them Meshullam repaired. He is the son of Berechiah son of Meshezabel. Next to them Zadok repaired. He is the son of Baana."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Next to them the Tekoites repaired, but their leaders refused to do the work ordered by their supervisors."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": ""
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Joiada son of Paseah and Meshullam son of Besodeiah repaired the Old Gate. They made beams for it, and set its doors, its bolts, and its bars."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Next to them Melatiah the Gibeonite and Jadon the Meronothite, who were men from Gibeon and Mizpah, made repairs on the portion where the governor of the Province Beyond the River lived."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Next to him Uzziel son of Harhaiah, one of the goldsmiths, repaired, and next to him was Hananiah, a maker of perfumes. They rebuilt Jerusalem as far as the Broad Wall."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Next to them Rephaiah son of Hur repaired. He was the ruler of half the district of Jerusalem."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Next to them Jedaiah son of Harumaph repaired next to his house. Next to him Hattush son of Hashabneiah repaired."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Malkijah son of Harim and Hasshub son of Pahath-Moab repaired another section along with the Tower of the Ovens."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Next to them Shallum son of Hallohesh, the ruler of half the district of Jerusalem, repaired, along with his daughters."
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "Then"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Hanun and the inhabitants of Zanoah repaired the Valley Gate. They rebuilt it and set its doors, its bolts, and its bars. They repaired a thousand cubits as far as the Dung Gate."
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "Eliashib"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "Malkijah son of Recab, the ruler of the district of Beth Hakkerem, repaired the Dung Gate. He built it and set its doors, its bolts, and its bars."
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "the"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "Shallun son of Kol-Hozeh, the ruler of the district of Mizpah, rebuilt the Fountain Gate. He built it, and put a cover on it and set its doors, its bolts, and its bars. He also rebuilt the wall of the Pool of Siloam by the king's garden, as far as the stairs leading down from the city of David."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Nehemiah son of Azbuk, the ruler of half the district of Beth Zur, repaired to the place across from the tombs of David, to the man-made pool, and to the house of the mighty men."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "After him the Levites repaired, including Rehum son of Bani and next to him, Hashabiah, the ruler of half the district of Keilah, for his district."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "After him their countrymen repaired, including Binnui son of Henadad, the ruler of half the district of Keilah."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "Next to him, Ezer son of Jeshua, the ruler of Mizpah, repaired another section that faced the ascent to the armory at the corner of the wall."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "After him Baruch son of Zabbai devotedly repaired another section, from the corner of the wall to the door of the house of Eliashib the high priest."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "After him Meremoth son of Uriah son of Hakkoz repaired another section, from the door of the house of Eliashib to the end of the house of Eliashib."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Next to him the priests, the men from the area around Jerusalem, repaired."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "After them Benjamin and Hasshub repaired opposite their own house. After them Azariah son of Maaseiah son of Ananiah repaired next to his own house."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "After him Binnui son of Henadad repaired another section, from the house of Azariah to the corner of the wall."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "Palal son of Uzai repaired over against the corner of the wall and the tower that extends upward from the upper house of the king at the courtyard of the guard. After him Pedaiah son of Parosh repaired."
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "Now the temple servants living in Ophel repaired to the point opposite the Water Gate on the east and the projecting tower."
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "After him the Tekoites repaired another section that was opposite the great projecting tower as far as the wall of Ophel."
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "high"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "The priests repaired above the Horse Gate, each opposite his own house."
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "After them Zadok son of Immer repaired the section opposite his own house. Then after him Shemaiah son of Shecaniah, the keeper of the east gate, repaired."
-          },
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "After him Hananiah son of Shelemiah, and Hanun the sixth son of Zalaph, repaired another section. After him Meshullam son of Berechiah repaired opposite his living chambers."
-          },
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "After him Malkijah, one of the goldsmiths, repaired to the house of the temple servants and the merchants that was opposite the Appointment Gate and the upper living chambers on the corner."
-          },
-          {
-            "tag": "v",
-            "num": "32",
-            "text": "The goldsmiths and the merchants repaired between the upper chamber of the corner and the Sheep Gate."
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "priest"
+      },
+      {
+        "t": "w",
+        "v": "rose"
+      },
+      {
+        "t": "w",
+        "v": "up"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "brothers"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "priests"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "built"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Sheep"
+      },
+      {
+        "t": "w",
+        "v": "Gate"
+      },
+      {
+        "t": "w",
+        "v": "They"
+      },
+      {
+        "t": "w",
+        "v": "themselves"
+      },
+      {
+        "t": "w",
+        "v": "dedicated"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "installed"
+      },
+      {
+        "t": "w",
+        "v": "its"
+      },
+      {
+        "t": "w",
+        "v": "doors"
+      },
+      {
+        "t": "w",
+        "v": "even"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "far"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Tower"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Hundred"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "dedicated"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "far"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Tower"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Hananel"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "And"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "side"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "men"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Jericho"
+      },
+      {
+        "t": "w",
+        "v": "worked"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "side"
+      },
+      {
+        "t": "w",
+        "v": "Zaccur"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Imri"
+      },
+      {
+        "t": "w",
+        "v": "worked"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "And"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "sons"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Hassenaah"
+      },
+      {
+        "t": "w",
+        "v": "built"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Fish"
+      },
+      {
+        "t": "w",
+        "v": "Gate"
+      },
+      {
+        "t": "w",
+        "v": "They"
+      },
+      {
+        "t": "w",
+        "v": "themselves"
+      },
+      {
+        "t": "w",
+        "v": "made"
+      },
+      {
+        "t": "w",
+        "v": "its"
+      },
+      {
+        "t": "w",
+        "v": "beams"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "installed"
+      },
+      {
+        "t": "w",
+        "v": "its"
+      },
+      {
+        "t": "w",
+        "v": "doors"
+      },
+      {
+        "t": "w",
+        "v": "its"
+      },
+      {
+        "t": "w",
+        "v": "bolts"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "its"
+      },
+      {
+        "t": "w",
+        "v": "bars"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "And"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "side"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "Meremoth"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Uriah"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Hakkoz"
+      },
+      {
+        "t": "w",
+        "v": "And"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "side"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "Meshullam"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Berechiah"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Meshezabel"
+      },
+      {
+        "t": "w",
+        "v": "And"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "side"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "Zadok"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Baana"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "And"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "side"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Tekoites"
+      },
+      {
+        "t": "w",
+        "v": "but"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "nobles"
+      },
+      {
+        "t": "w",
+        "v": "did"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "bring"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "necks"
+      },
+      {
+        "t": "w",
+        "v": "under"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "service"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "supervisors"
       }
-    ],
-    "num": 3
+    ]
   },
-  "id": "NEH unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Nehemiah",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Nehemiah"
-    }
-  ]
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 6,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "And"
+      },
+      {
+        "t": "w",
+        "v": "Joiada"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Paseah"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "Meshullam"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Besodeiah"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Old"
+      },
+      {
+        "t": "w",
+        "v": "Gate"
+      },
+      {
+        "t": "w",
+        "v": "They"
+      },
+      {
+        "t": "w",
+        "v": "themselves"
+      },
+      {
+        "t": "w",
+        "v": "made"
+      },
+      {
+        "t": "w",
+        "v": "its"
+      },
+      {
+        "t": "w",
+        "v": "beams"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "installed"
+      },
+      {
+        "t": "w",
+        "v": "its"
+      },
+      {
+        "t": "w",
+        "v": "doors"
+      },
+      {
+        "t": "w",
+        "v": "its"
+      },
+      {
+        "t": "w",
+        "v": "bolts"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "its"
+      },
+      {
+        "t": "w",
+        "v": "bars"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "And"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "side"
+      },
+      {
+        "t": "w",
+        "v": "Melatiah"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Gibeonite"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "Jadon"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Meronothite"
+      },
+      {
+        "t": "w",
+        "v": "men"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "Gibeon"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "Mizpah"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "seat"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "governor"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Beyond"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "River"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "And"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "side"
+      },
+      {
+        "t": "w",
+        "v": "Uzziel"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Harhaiah"
+      },
+      {
+        "t": "w",
+        "v": "one"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "goldsmiths"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "side"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "Hananiah"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "perfumers"
+      },
+      {
+        "t": "w",
+        "v": "And"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "restored"
+      },
+      {
+        "t": "w",
+        "v": "Jerusalem"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "far"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Broad"
+      },
+      {
+        "t": "w",
+        "v": "Wall"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "And"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "side"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "Rephaiah"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Hur"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "ruler"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "half"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "district"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Jerusalem"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "And"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "side"
+      },
+      {
+        "t": "w",
+        "v": "Jedaiah"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Harumaph"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "right"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "front"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "house"
+      },
+      {
+        "t": "w",
+        "v": "And"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "side"
+      },
+      {
+        "t": "w",
+        "v": "Hattush"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Hashabneiah"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Malkijah"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Harim"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "Hasshub"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Pahath"
+      },
+      {
+        "t": "w",
+        "v": "Moab"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "another"
+      },
+      {
+        "t": "w",
+        "v": "measured"
+      },
+      {
+        "t": "w",
+        "v": "section"
+      },
+      {
+        "t": "w",
+        "v": "along"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Tower"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Ovens"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "And"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "side"
+      },
+      {
+        "t": "w",
+        "v": "Shallum"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Hallohesh"
+      },
+      {
+        "t": "w",
+        "v": "ruler"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "half"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "district"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Jerusalem"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "along"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "daughters"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 13,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Hanun"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "inhabitants"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Zanoah"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Valley"
+      },
+      {
+        "t": "w",
+        "v": "Gate"
+      },
+      {
+        "t": "w",
+        "v": "They"
+      },
+      {
+        "t": "w",
+        "v": "themselves"
+      },
+      {
+        "t": "w",
+        "v": "rebuilt"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "installed"
+      },
+      {
+        "t": "w",
+        "v": "its"
+      },
+      {
+        "t": "w",
+        "v": "doors"
+      },
+      {
+        "t": "w",
+        "v": "its"
+      },
+      {
+        "t": "w",
+        "v": "bolts"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "its"
+      },
+      {
+        "t": "w",
+        "v": "bars"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "thousand"
+      },
+      {
+        "t": "w",
+        "v": "cubits"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "wall"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "far"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Dung"
+      },
+      {
+        "t": "w",
+        "v": "Gate"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 14,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "And"
+      },
+      {
+        "t": "w",
+        "v": "Malkijah"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Recab"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "ruler"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "district"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Beth"
+      },
+      {
+        "t": "w",
+        "v": "Hakkerem"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Dung"
+      },
+      {
+        "t": "w",
+        "v": "Gate"
+      },
+      {
+        "t": "w",
+        "v": "He"
+      },
+      {
+        "t": "w",
+        "v": "built"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "himself"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "installed"
+      },
+      {
+        "t": "w",
+        "v": "its"
+      },
+      {
+        "t": "w",
+        "v": "doors"
+      },
+      {
+        "t": "w",
+        "v": "its"
+      },
+      {
+        "t": "w",
+        "v": "bolts"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "its"
+      },
+      {
+        "t": "w",
+        "v": "bars"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 15,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "And"
+      },
+      {
+        "t": "w",
+        "v": "Shallun"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Kol"
+      },
+      {
+        "t": "w",
+        "v": "Hozeh"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "ruler"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "district"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Mizpah"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Fountain"
+      },
+      {
+        "t": "w",
+        "v": "Gate"
+      },
+      {
+        "t": "w",
+        "v": "He"
+      },
+      {
+        "t": "w",
+        "v": "built"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "himself"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "built"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "cover"
+      },
+      {
+        "t": "w",
+        "v": "on"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "installed"
+      },
+      {
+        "t": "w",
+        "v": "its"
+      },
+      {
+        "t": "w",
+        "v": "doors"
+      },
+      {
+        "t": "w",
+        "v": "its"
+      },
+      {
+        "t": "w",
+        "v": "bolts"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "its"
+      },
+      {
+        "t": "w",
+        "v": "bars"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "wall"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Pool"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Siloam"
+      },
+      {
+        "t": "w",
+        "v": "by"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "garden"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "king"
+      },
+      {
+        "t": "w",
+        "v": "even"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "far"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "stairs"
+      },
+      {
+        "t": "w",
+        "v": "descending"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "city"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "David"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "After"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "Nehemiah"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Azbuk"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "ruler"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "half"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "district"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Beth"
+      },
+      {
+        "t": "w",
+        "v": "Zur"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "far"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "front"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "tombs"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "David"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "far"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "man"
+      },
+      {
+        "t": "w",
+        "v": "made"
+      },
+      {
+        "t": "w",
+        "v": "pool"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "far"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "house"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "valiant"
+      },
+      {
+        "t": "w",
+        "v": "warriors"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "After"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Levites"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "Rehum"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Bani"
+      },
+      {
+        "t": "w",
+        "v": "on"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "side"
+      },
+      {
+        "t": "w",
+        "v": "Hashabiah"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "ruler"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "half"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "district"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Keilah"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "district"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "after"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "brothers"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "Binnui"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Henadad"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "ruler"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "half"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "district"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Keilah"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "And"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "side"
+      },
+      {
+        "t": "w",
+        "v": "Ezer"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Jeshua"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "ruler"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Mizpah"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "another"
+      },
+      {
+        "t": "w",
+        "v": "measured"
+      },
+      {
+        "t": "w",
+        "v": "section"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "front"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "ascent"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "armory"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "support"
+      },
+      {
+        "t": "w",
+        "v": "post"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "After"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "Baruch"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Zabbai"
+      },
+      {
+        "t": "w",
+        "v": "furiously"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "another"
+      },
+      {
+        "t": "w",
+        "v": "measured"
+      },
+      {
+        "t": "w",
+        "v": "section"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "support"
+      },
+      {
+        "t": "w",
+        "v": "post"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "far"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "door"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "house"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Eliashib"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "high"
+      },
+      {
+        "t": "w",
+        "v": "priest"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "After"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "Meremoth"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Uriah"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Hakkoz"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "another"
+      },
+      {
+        "t": "w",
+        "v": "measured"
+      },
+      {
+        "t": "w",
+        "v": "section"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "door"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "house"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Eliashib"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "far"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "end"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "house"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Eliashib"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "And"
+      },
+      {
+        "t": "w",
+        "v": "after"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "priests"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "people"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "valley"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "After"
+      },
+      {
+        "t": "w",
+        "v": "them"
+      },
+      {
+        "t": "w",
+        "v": "Benjamin"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "Hasshub"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "front"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "house"
+      },
+      {
+        "t": "w",
+        "v": "After"
+      },
+      {
+        "t": "w",
+        "v": "them"
+      },
+      {
+        "t": "w",
+        "v": "Azariah"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Maaseiah"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Ananiah"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "next"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "house"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "After"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "Binnui"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Henadad"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "another"
+      },
+      {
+        "t": "w",
+        "v": "measured"
+      },
+      {
+        "t": "w",
+        "v": "section"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "house"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Azariah"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "far"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "support"
+      },
+      {
+        "t": "w",
+        "v": "post"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "far"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "corner"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Palal"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Uzai"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "front"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "support"
+      },
+      {
+        "t": "w",
+        "v": "post"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "tower"
+      },
+      {
+        "t": "w",
+        "v": "extending"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "upper"
+      },
+      {
+        "t": "w",
+        "v": "house"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "king"
+      },
+      {
+        "t": "w",
+        "v": "which"
+      },
+      {
+        "t": "w",
+        "v": "is"
+      },
+      {
+        "t": "w",
+        "v": "adjacent"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "courtyard"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "guardhouse"
+      },
+      {
+        "t": "w",
+        "v": "After"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "Pedaiah"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Parosh"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "And"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "sacred"
+      },
+      {
+        "t": "w",
+        "v": "servants"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "were"
+      },
+      {
+        "t": "w",
+        "v": "living"
+      },
+      {
+        "t": "w",
+        "v": "on"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Ophel"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "far"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "front"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Gate"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Waters"
+      },
+      {
+        "t": "w",
+        "v": "on"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "east"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "projecting"
+      },
+      {
+        "t": "w",
+        "v": "tower"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "After"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Tekoites"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "another"
+      },
+      {
+        "t": "w",
+        "v": "measured"
+      },
+      {
+        "t": "w",
+        "v": "section"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "front"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "tower"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "great"
+      },
+      {
+        "t": "w",
+        "v": "projecting"
+      },
+      {
+        "t": "w",
+        "v": "one"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "far"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "wall"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Ophel"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 28,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "From"
+      },
+      {
+        "t": "w",
+        "v": "above"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Gate"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Horses"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "priests"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "each"
+      },
+      {
+        "t": "w",
+        "v": "man"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "front"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "house"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "After"
+      },
+      {
+        "t": "w",
+        "v": "them"
+      },
+      {
+        "t": "w",
+        "v": "Zadok"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Immer"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "front"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "house"
+      },
+      {
+        "t": "w",
+        "v": "And"
+      },
+      {
+        "t": "w",
+        "v": "after"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "Shemaiah"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Shecaniah"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "keeper"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "east"
+      },
+      {
+        "t": "w",
+        "v": "gate"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "After"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "Hananiah"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Shelemiah"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "Hanun"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "sixth"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Zalaph"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "another"
+      },
+      {
+        "t": "w",
+        "v": "measured"
+      },
+      {
+        "t": "w",
+        "v": "section"
+      },
+      {
+        "t": "w",
+        "v": "After"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "Meshullam"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Berechiah"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "front"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "quarters"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "After"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "w",
+        "v": "Malkijah"
+      },
+      {
+        "t": "w",
+        "v": "son"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "goldsmiths"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "far"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "house"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "sacred"
+      },
+      {
+        "t": "w",
+        "v": "servants"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "merchants"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "front"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Gate"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Supervision"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "far"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "upper"
+      },
+      {
+        "t": "w",
+        "v": "quarters"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "corner"
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "And"
+      },
+      {
+        "t": "w",
+        "v": "between"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "upper"
+      },
+      {
+        "t": "w",
+        "v": "chamber"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "corner"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Sheep"
+      },
+      {
+        "t": "w",
+        "v": "Gate"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "refiners"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "merchants"
+      },
+      {
+        "t": "w",
+        "v": "repaired"
+      }
+    ]
+  }
+]

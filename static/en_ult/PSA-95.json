@@ -1,128 +1,306 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Oh come, let us sing to Yahweh;"
-          },
-          {
-            "tag": "q",
-            "text": "let us sing joyfully to the rock of our salvation."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Let us enter his presence with thanksgiving;"
-          },
-          {
-            "tag": "q",
-            "text": "let us sing to him with psalms of praise."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "For Yahweh is a great God"
-          },
-          {
-            "tag": "q",
-            "text": "and a great King superior to all gods."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "In his hand are the depths of the earth;"
-          },
-          {
-            "tag": "q",
-            "text": "the heights of the mountains are his."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "The sea is his, for he made it,"
-          },
-          {
-            "tag": "q",
-            "text": "and his hands formed the dry land."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Oh come, let us worship and bow down;"
-          },
-          {
-            "tag": "q",
-            "text": "let us kneel before Yahweh, our Creator:"
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "For he is our God,"
-          },
-          {
-            "tag": "q",
-            "text": "and we are the people of his pasture and the sheep of his hand."
-          },
-          {
-            "tag": "q",
-            "text": "Today—oh, that you would hear his voice!"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "“Do not harden your heart, as at Meribah,"
-          },
-          {
-            "tag": "q",
-            "text": "or as on the day of Massah in the wilderness,"
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "where your forefathers tested me"
-          },
-          {
-            "tag": "q",
-            "text": "and tried me, though they had seen my deeds."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "For forty years I was angry with that generation"
-          },
-          {
-            "tag": "q",
-            "text": "and said, ‘This is a people whose hearts wander astray;"
-          },
-          {
-            "tag": "q",
-            "text": "they have not known my ways.’"
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Therefore I vowed in my anger"
-          },
-          {
-            "tag": "q",
-            "text": "that they would never enter into my resting place.”"
-          }
-        ],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh, God who avenges,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "Rise up, judge of the earth,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "How long will the wicked, Yahweh,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "They pour out their arrogant words;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "They crush your people, Yahweh;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "They kill the widow and foreigner who lives in their country,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "They say, “Yahweh will not see,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Understand, you stupid people!"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "He who made the ear, does he not hear?"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "He who disciplines the nations, does he not correct?"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Yahweh knows the thoughts of men,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Blessed is the one whom you instruct, Yahweh,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "You give him rest in times of trouble"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "For Yahweh will not forsake his people"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "For judgment will again be righteous;"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Who will rise up to defend me against the evildoers?"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Unless Yahweh had been my help,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "When I said, “My foot is slipping,”"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "When cares within me are many, your consolations make me happy."
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Can a throne of destruction be allied with you,"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "They conspire together to take the life of the righteous"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "But Yahweh has been my high tower,"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "He will bring on them their own iniquity"
       }
-    ],
-    "num": 95
+    ]
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "God who avenges, shine over us."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "give to the proud what they deserve."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "how long will the wicked rejoice?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "all those who do evil boast."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they afflict the nation that belongs to you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they murder the fatherless."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the God of Jacob does not take notice of it.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "You fools, when will you ever learn?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "He who formed the eye, does he not see?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "He is the one who gives knowledge to man."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "that they are vapor."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the one whom you teach from your law."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "until a pit is dug for the wicked."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "or abandon his inheritance."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and all the upright in heart will follow it."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Who will stand up for me against the wicked?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I would soon be lying down in the place of silence."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Your covenant faithfulness, Yahweh, held me up."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "one who creates injustice by statute?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they condemn the innocent to death."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and my God has been the rock of my refuge."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and will cut them off in their own wickedness."
+  },
+  {
+    "t": "q",
+    "v": "Yahweh our God will cut them off."
+  }
+]

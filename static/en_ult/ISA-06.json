@@ -1,150 +1,152 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "In the year that king Uzziah died, I saw the Lord sitting on a throne; he was high and elevated, and the hem of his robe filled the temple."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Above him were the seraphim; each one had six wings; with two each covered his face, and with two he covered his feet, and with two he flew."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Each one called to another and said,"
-          },
-          {
-            "tag": "q1",
-            "text": "“Holy, holy, holy, is Yahweh of hosts! The whole earth is full of his glory.”"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "In the year that king Uzziah died, I saw the Lord sitting on a throne; he was high and elevated, and the hem of his robe filled the temple."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "The foundations of the thresholds shook at the voices of those who were crying out, and the house was filled with smoke."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "Above him were the seraphim; each one had six wings; with two each covered his face, and with two he covered his feet, and with two he flew."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Then I said,"
-          },
-          {
-            "tag": "q1",
-            "text": "“Woe is me! For I am doomed because I am a man of unclean lips,"
-          },
-          {
-            "tag": "q1",
-            "text": "and I live among a people of unclean lips,"
-          },
-          {
-            "tag": "q1",
-            "text": "because my eyes have seen the King, Yahweh, Yahweh of hosts!”"
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Then one of the seraphim flew to me; he had a glowing coal in his hand, that he had taken with the tongs from off the altar."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "He touched my mouth with it and said,"
-          },
-          {
-            "tag": "q1",
-            "text": "“See, this has touched your lips; your guilt has been taken away, and your sin atoned for.”"
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "I heard the voice of the Lord say, “Whom shall I send; who will go for us?” Then I said, “Here I am; send me.”"
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "He said, “Go and tell this people,"
-          },
-          {
-            "tag": "q1",
-            "text": "‘Listen, but do not understand; see, but do not perceive.’"
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Make the heart of this people insensitive, and their ears dull, and blind their eyes."
-          },
-          {
-            "tag": "q1",
-            "text": "Otherwise they might see with their eyes, hear with their ears, and understand with their heart, and then turn and be healed.”"
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Then I said, “Lord, how long?” He answered,"
-          },
-          {
-            "tag": "q1",
-            "text": "“Until cities crash into ruins and are without inhabitants,"
-          },
-          {
-            "tag": "q1",
-            "text": "and the houses are without people, and the land falls into a desolate waste,"
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "and until Yahweh has sent the people far away, and the solitude of the land is great."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Even if a tenth of the people remain in it, it will again be destroyed;"
-          },
-          {
-            "tag": "q1",
-            "text": "as a terebinth or an oak is cut down and whose trunk remains,"
-          },
-          {
-            "tag": "q1",
-            "text": "the holy seed is in its stump.”"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 3,
+        "v": "Each one called to another and said,"
       }
-    ],
-    "num": 6
+    ]
   },
-  "id": "ISA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Isaiah",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Isaiah"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": "“Holy, holy, holy, is Yahweh of hosts! The whole earth is full of his glory.”"
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 4,
+        "v": "The foundations of the thresholds shook at the voices of those who were crying out, and the house was filled with smoke."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Then I said,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "“Woe is me! For I am doomed because I am a man of unclean lips,"
+  },
+  {
+    "t": "q",
+    "v": "and I live among a people of unclean lips,"
+  },
+  {
+    "t": "q",
+    "v": "because my eyes have seen the King, Yahweh, Yahweh of hosts!”"
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Then one of the seraphim flew to me; he had a glowing coal in his hand, that he had taken with the tongs from off the altar."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "He touched my mouth with it and said,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "“See, this has touched your lips; your guilt has been taken away, and your sin atoned for.”"
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 8,
+        "v": "I heard the voice of the Lord say, “Whom shall I send; who will go for us?” Then I said, “Here I am; send me.”"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "He said, “Go and tell this people,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Make the heart of this people insensitive, and their ears dull, and blind their eyes."
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Then I said, “Lord, how long?” He answered,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "and until Yahweh has sent the people far away, and the solitude of the land is great."
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Even if a tenth of the people remain in it, it will again be destroyed;"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "‘Listen, but do not understand; see, but do not perceive.’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Otherwise they might see with their eyes, hear with their ears, and understand with their heart, and then turn and be healed.”"
+  },
+  {
+    "t": "q",
+    "v": "“Until cities crash into ruins and are without inhabitants,"
+  },
+  {
+    "t": "q",
+    "v": "and the houses are without people, and the land falls into a desolate waste,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "as a terebinth or an oak is cut down and whose trunk remains,"
+  },
+  {
+    "t": "q",
+    "v": "the holy seed is in its stump.”"
+  }
+]

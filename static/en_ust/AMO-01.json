@@ -1,297 +1,304 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "tag": "toc1",
-        "text": "The Book of Amos"
-      },
-      {
-        "tag": "toc2",
-        "text": "Amos"
-      },
-      {
-        "tag": "toc3",
-        "text": "Amo"
-      },
-      {
-        "tag": "mt1",
-        "text": "Amos"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "This is the message that Yahweh gave to Amos, a shepherd near the town of Tekoa south of Jerusalem. He received this message about Israel in a vision two years before the big earthquake. It was when Uzziah was the king of Judah and Jeroboam son of King Jehoash, was the king of Israel."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "This is what Amos said:"
-          },
-          {
-            "tag": "q1",
-            "text": "\"Yahweh will shout very loudly;"
-          },
-          {
-            "tag": "q2",
-            "text": "when he speaks from Mount Zion in Jerusalem, his voice will sound like thunder."
-          },
-          {
-            "tag": "q1",
-            "text": "When that happens, the pastures where you shepherds take care of your sheep will dry up,"
-          },
-          {
-            "tag": "q2",
-            "text": "and the grass on top of Mount Carmel will wither"
-          },
-          {
-            "tag": "q2",
-            "text": "because Yahweh will order the rain not to fall.\""
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "This is also what Yahweh said to me:"
-          },
-          {
-            "tag": "q1",
-            "text": "\"I will punish the people of Damascus, the capital of Aram, because of the many sins that they have committed;"
-          },
-          {
-            "tag": "q2",
-            "text": "I will not change my mind about punishing them,"
-          },
-          {
-            "tag": "q1",
-            "text": "because of the cruel things that they did to the people of the region of Gilead."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "I will cause a fire to burn the palace that King Hazael built and lived in,"
-          },
-          {
-            "tag": "q2",
-            "text": "the fortress where his son King Ben Hadad also lived."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "I will cause the gates of Damascus to be broken down;"
-          },
-          {
-            "tag": "q2",
-            "text": "I will get rid of the king of Biqat Aven"
-          },
-          {
-            "tag": "q1",
-            "text": "and the man who rules in Beth Eden."
-          },
-          {
-            "tag": "q2",
-            "text": "The people of Aram will be captured and taken to the region of Kir.\""
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Yahweh also said this to me:"
-          },
-          {
-            "tag": "q1",
-            "text": "\"I will punish the people of the cities of Philistia;"
-          },
-          {
-            "tag": "q2",
-            "text": "I will punish the people of Gaza because of the many sins that they have committed;"
-          },
-          {
-            "tag": "q2",
-            "text": "I will not change my mind about punishing them,"
-          },
-          {
-            "tag": "q1",
-            "text": "because they captured large groups of people and took them to Edom"
-          },
-          {
-            "tag": "q2",
-            "text": "and sold them to become the slaves of the people there."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "I will cause a fire to completely burn the walls of Gaza"
-          },
-          {
-            "tag": "q2",
-            "text": "and also destroy its fortresses."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "I will get rid of the king of the city of Ashdod"
-          },
-          {
-            "tag": "q2",
-            "text": "and the king who rules in the city of Ashkelon."
-          },
-          {
-            "tag": "q1",
-            "text": "I will also strike the people of the city of Ekron,"
-          },
-          {
-            "tag": "q2",
-            "text": "and all the people of Philistia who are still alive will be killed.\""
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Yahweh also said this to me:"
-          },
-          {
-            "tag": "q1",
-            "text": "\"I will punish the people of the city of Tyre because of the many sins that their people have committed;"
-          },
-          {
-            "tag": "q2",
-            "text": "I will not change my mind about punishing them"
-          },
-          {
-            "tag": "q1",
-            "text": "because they also captured large groups of our people and took them to Edom,"
-          },
-          {
-            "tag": "q2",
-            "text": "disregarding the treaty of friendship that they had made with your rulers."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "So I will cause a fire to completely burn the walls of Tyre"
-          },
-          {
-            "tag": "q2",
-            "text": "and also destroy its fortresses.\""
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Yahweh also said this to me:"
-          },
-          {
-            "tag": "q1",
-            "text": "\"I will punish the people of Edom because of the many sins that their people have committed;"
-          },
-          {
-            "tag": "q2",
-            "text": "I will not change my mind about punishing them,"
-          },
-          {
-            "tag": "q1",
-            "text": "because they pursued the people of Israel, who descended from Esau's brother Jacob, and killed them with swords;"
-          },
-          {
-            "tag": "q2",
-            "text": "they did not act mercifully toward them at all."
-          },
-          {
-            "tag": "q1",
-            "text": "They were extremely angry with the people of Israel,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they continue to be angry with them."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "I will cause a fire to burn the district of Teman in Edom"
-          },
-          {
-            "tag": "q2",
-            "text": "and completely burn the fortresses of Bozrah, the biggest city in Edom.\""
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Yahweh also said this to me:"
-          },
-          {
-            "tag": "q1",
-            "text": "\"I will punish the people of Ammon because of the many sins that they have committed;"
-          },
-          {
-            "tag": "q2",
-            "text": "I will not change my mind about punishing them,"
-          },
-          {
-            "tag": "q1",
-            "text": "because their soldiers even ripped open the bellies of pregnant women"
-          },
-          {
-            "tag": "q2",
-            "text": "when their army attacked the region of Gilead to gain more territory."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "I will cause a fire to completely burn the walls of the city of Rabbah"
-          },
-          {
-            "tag": "q2",
-            "text": "and to completely burn its fortresses."
-          },
-          {
-            "tag": "q1",
-            "text": "During that battle, their enemies will shout loudly"
-          },
-          {
-            "tag": "q2",
-            "text": "and the fighting will be like a great storm."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "After the battle, the king of Ammon and his officials will go into exile.\""
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "This is the message that Yahweh gave to Amos, a shepherd near the town of Tekoa south of Jerusalem. He received this message about Israel in a vision two years before the big earthquake. It was when Uzziah was the king of Judah and Jeroboam son of King Jehoash, was the king of Israel."
       }
-    ],
-    "num": 1
+    ]
   },
-  "id": "AMO unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Amos"
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 2,
+        "v": "This is what Amos said:"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "“Yahweh will shout very loudly;"
+  },
+  {
+    "t": "q",
+    "v": "when he speaks from Mount Zion in Jerusalem, his voice will sound like thunder."
+  },
+  {
+    "t": "q",
+    "v": "When that happens, the pastures where you shepherds take care of your sheep will dry up,"
+  },
+  {
+    "t": "q",
+    "v": "and the grass on top of Mount Carmel will wither"
+  },
+  {
+    "t": "q",
+    "v": "because Yahweh will order the rain not to fall.”"
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 3,
+        "v": "This is also what Yahweh said to me:"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "I will cause a fire to burn the palace that King Hazael built and lived in,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "I will cause the gates of Damascus to be broken down;"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "“I will punish the people of Damascus, the capital of Aram, because of the many sins that they have committed;"
+  },
+  {
+    "t": "q",
+    "v": "I will not change my mind about punishing them,"
+  },
+  {
+    "t": "q",
+    "v": "because of the cruel things that they did to the people of the region of Gilead."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the fortress where his son King Ben Hadad also lived."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will get rid of the king of Biqat Aven"
+  },
+  {
+    "t": "q",
+    "v": "and the man who rules in Beth Eden."
+  },
+  {
+    "t": "q",
+    "v": "The people of Aram will be captured and taken to the region of Kir.”"
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Yahweh also said this to me:"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "I will cause a fire to completely burn the walls of Gaza"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "I will get rid of the king of the city of Ashdod"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "“I will punish the people of the cities of Philistia;"
+  },
+  {
+    "t": "q",
+    "v": "I will punish the people of Gaza because of the many sins that they have committed;"
+  },
+  {
+    "t": "q",
+    "v": "I will not change my mind about punishing them,"
+  },
+  {
+    "t": "q",
+    "v": "because they captured large groups of people and took them to Edom"
+  },
+  {
+    "t": "q",
+    "v": "and sold them to become the slaves of the people there."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and also destroy its fortresses."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and the king who rules in the city of Ashkelon."
+  },
+  {
+    "t": "q",
+    "v": "I will also strike the people of the city of Ekron,"
+  },
+  {
+    "t": "q",
+    "v": "and all the people of Philistia who are still alive will be killed.”"
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Yahweh also said this to me:"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "So I will cause a fire to completely burn the walls of Tyre"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "“I will punish the people of the city of Tyre because of the many sins that their people have committed;"
+  },
+  {
+    "t": "q",
+    "v": "I will not change my mind about punishing them"
+  },
+  {
+    "t": "q",
+    "v": "because they also captured large groups of our people and took them to Edom,"
+  },
+  {
+    "t": "q",
+    "v": "disregarding the treaty of friendship that they had made with your rulers."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and also destroy its fortresses.”"
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Yahweh also said this to me:"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "I will cause a fire to burn the district of Teman in Edom"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "“I will punish the people of Edom because of the many sins that their people have committed;"
+  },
+  {
+    "t": "q",
+    "v": "I will not change my mind about punishing them,"
+  },
+  {
+    "t": "q",
+    "v": "because they pursued the people of Israel, who descended from Esau’s brother Jacob, and killed them with swords;"
+  },
+  {
+    "t": "q",
+    "v": "they did not act mercifully toward them at all."
+  },
+  {
+    "t": "q",
+    "v": "They were extremely angry with the people of Israel,"
+  },
+  {
+    "t": "q",
+    "v": "and they continue to be angry with them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and completely burn the fortresses of Bozrah, the biggest city in Edom.”"
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Yahweh also said this to me:"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "I will cause a fire to completely burn the walls of the city of Rabbah"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "After the battle, the king of Ammon and his officials will go into exile.”"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "“I will punish the people of Ammon because of the many sins that they have committed;"
+  },
+  {
+    "t": "q",
+    "v": "I will not change my mind about punishing them,"
+  },
+  {
+    "t": "q",
+    "v": "because their soldiers even ripped open the bellies of pregnant women"
+  },
+  {
+    "t": "q",
+    "v": "when their army attacked the region of Gilead to gain more territory."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and to completely burn its fortresses."
+  },
+  {
+    "t": "q",
+    "v": "During that battle, their enemies will shout loudly"
+  },
+  {
+    "t": "q",
+    "v": "and the fighting will be like a great storm."
+  },
+  {
+    "t": "q",
+    "v": []
+  }
+]

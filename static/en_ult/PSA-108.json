@@ -1,155 +1,350 @@
-{
-  "chapter": {
-    "children": [
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "tag": "d",
-        "text": "A song, a psalm of David."
-      },
-      {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "My heart is fixed, God;"
-          },
-          {
-            "tag": "q",
-            "text": "I will sing, yes, I will sing praises also with my honored heart."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Wake up, lute and harp;"
-          },
-          {
-            "tag": "q",
-            "text": "I will wake up the dawn."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "I will give thanks to you, Yahweh, among the peoples;"
-          },
-          {
-            "tag": "q",
-            "text": "I will sing praises to you among the nations."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "For your covenant faithfulness is great above the heavens;"
-          },
-          {
-            "tag": "q",
-            "text": "and your trustworthiness reaches to the skies."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Be exalted, God, above the heavens,"
-          },
-          {
-            "tag": "q",
-            "text": "and may your glory be exalted over all the earth."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "So that those you love may be rescued,"
-          },
-          {
-            "tag": "q",
-            "text": "rescue us with your right hand and answer me."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "God has spoken in his holiness; “I will rejoice;"
-          },
-          {
-            "tag": "q",
-            "text": "I will divide Shechem and apportion out the Valley of Succoth."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Gilead is mine, and Manasseh is mine;"
-          },
-          {
-            "tag": "q",
-            "text": "Ephraim also is my helmet;"
-          },
-          {
-            "tag": "q",
-            "text": "Judah is my scepter."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Moab is my washbasin;"
-          },
-          {
-            "tag": "q",
-            "text": "over Edom I will throw my shoe;"
-          },
-          {
-            "tag": "q",
-            "text": "I will shout in triumph because of Philistia."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Who will bring me into the strong city?"
-          },
-          {
-            "tag": "q",
-            "text": "Who will lead me to Edom?”"
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "God, have you not rejected us?"
-          },
-          {
-            "tag": "q",
-            "text": "You do not go into battle with our army."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Give us help against the enemy,"
-          },
-          {
-            "tag": "q",
-            "text": "for man’s help is futile."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "We will triumph with God’s help;"
-          },
-          {
-            "tag": "q",
-            "text": "he will trample down our enemies."
-          }
-        ],
-        "auto": true
-      }
-    ],
-    "num": 108
+[
+  {
+    "t": "q",
+    "v": []
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": "and his covenant faithfulness endures forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "those he has rescued from the hand of the enemy."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "from the east and from the west,"
+  },
+  {
+    "t": "q",
+    "v": "from the north and from the south."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and found no city in which to live."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they fainted from exhaustion."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and he rescued them out of their distress."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so that they would go to a city to live in."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and for the amazing things he has done for humanity!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and the desires of those who are hungry he fills up with good things."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "prisoners in affliction and chains."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and rejected the instruction of the Most High."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they stumbled and there was no one to help them up."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and he brought them out of their distress."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and broke their bonds."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and for the amazing things he has done for humanity!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and cut through the bars of iron."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and afflicted because of their sins."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they came close to the gates of death."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and he brought them out of their distress."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and he rescued them from their destruction."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and for the amazing things he has done for humanity!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and proclaim his deeds in singing."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and do business overseas."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and his wonders on the seas."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "that stirs up the seas."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Their lives melted away in distress."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and were at their wits’ end."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and he brought them out of their distress."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and the waves were stilled."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and he brought them to their desired harbor."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and for the amazing things he has done for humanity!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and praise him in the council of the elders."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "springs of water into dry land,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because of the wickedness of its people."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and dry land into springs of water."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they build a city to live in."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and to bring in an abundant harvest."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "He does not let their cattle decrease in number."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "by painful distress and suffering."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and causes them to wander in the wilderness, where there are no roads."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and cares for his families like a flock."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and all wickedness shuts its mouth."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and meditate on Yahweh’s acts of covenant faithfulness."
+  }
+]

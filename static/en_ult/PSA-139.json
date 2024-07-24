@@ -1,258 +1,123 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "I will give you thanks with my whole heart;"
       },
       {
-        "tag": "d",
-        "text": "For the chief musician. A psalm of David."
+        "t": "v",
+        "n": 2,
+        "v": "I will bow down toward your holy temple"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Yahweh, you have examined me, and you know me."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "You know when I sit down and when I get up;"
-          },
-          {
-            "tag": "q",
-            "text": "you understand my thoughts from far away."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "You observe my path and my lying down;"
-          },
-          {
-            "tag": "q",
-            "text": "you are familiar with all my ways."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "For before there is a word on my tongue,"
-          },
-          {
-            "tag": "q",
-            "text": "you know it completely, Yahweh."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Behind me and before me you surround me"
-          },
-          {
-            "tag": "q",
-            "text": "and place your hand upon me."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Such knowledge is too much for me;"
-          },
-          {
-            "tag": "q",
-            "text": "it is too high, and I cannot reach it."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Where can I go from your Spirit?"
-          },
-          {
-            "tag": "q",
-            "text": "Where can I flee from your presence?"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "If I ascend up to the heavens, you are there;"
-          },
-          {
-            "tag": "q",
-            "text": "if I make my bed in Sheol, behold, you are there."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "If I fly away on the wings of the morning"
-          },
-          {
-            "tag": "q",
-            "text": "and go to live in the uttermost parts across the sea,"
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "even there your hand will lead me,"
-          },
-          {
-            "tag": "q",
-            "text": "your right hand will hold on to me."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "If I said, “Surely the darkness will cover me,"
-          },
-          {
-            "tag": "q",
-            "text": "and the light will become night around me,”"
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "even the darkness would not be dark to you."
-          },
-          {
-            "tag": "q",
-            "text": "The night would shine like the day,"
-          },
-          {
-            "tag": "q",
-            "text": "for the darkness and the light are both alike to you."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "You formed my inner parts;"
-          },
-          {
-            "tag": "q",
-            "text": "you formed me in my mother’s womb."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "I will praise you,"
-          },
-          {
-            "tag": "q",
-            "text": "for I am wonderfully made."
-          },
-          {
-            "tag": "q",
-            "text": "My soul knows this very well."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "My bones were not hidden from you"
-          },
-          {
-            "tag": "q",
-            "text": "when I was made in private,"
-          },
-          {
-            "tag": "q",
-            "text": "when I was intricately made in the depths of the earth."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "You saw me inside the womb;"
-          },
-          {
-            "tag": "q",
-            "text": "all the days assigned to me were recorded"
-          },
-          {
-            "tag": "q",
-            "text": "in your book even before the first one happened."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "How precious are your thoughts to me, God!"
-          },
-          {
-            "tag": "q",
-            "text": "How vast is their sum!"
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "If I tried to count them, they would be more in number than the sand."
-          },
-          {
-            "tag": "q",
-            "text": "When I awake, I am still with you."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "If only you would kill the wicked, God;"
-          },
-          {
-            "tag": "q",
-            "text": "get away from me, you violent men."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "They rebel against you and act deceitfully;"
-          },
-          {
-            "tag": "q",
-            "text": "your enemies tell lies."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "Do I not hate those, Yahweh, who hate you?"
-          },
-          {
-            "tag": "q",
-            "text": "Do I not despise those who rise up against you?"
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "I hate them completely;"
-          },
-          {
-            "tag": "q",
-            "text": "they have become my enemies."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "Examine me, God, and know my heart;"
-          },
-          {
-            "tag": "q",
-            "text": "test me and know my thoughts."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "See if there is any wicked way in me,"
-          },
-          {
-            "tag": "q",
-            "text": "and lead me in the everlasting way."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "On the day that I called you, you answered me;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "All the kings of the earth will give you thanks, Yahweh,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Indeed, they will sing of the deeds of Yahweh,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "For though Yahweh is high, yet he cares for the lowly,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Though I walk in the middle of danger, you will preserve my life;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Yahweh is with me to the end;"
       }
-    ],
-    "num": 139
+    ]
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "before the gods I will sing praises to you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and give thanks to your name for your covenant faithfulness and for your trustworthiness."
+  },
+  {
+    "t": "q",
+    "v": "You have made your word and your name more important than anything else."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you made me bold and strengthened my soul."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for they will hear the words from your mouth."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for great is the glory of Yahweh."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but the proud he knows from far off."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you will reach out with your hand against the anger of my enemies,"
+  },
+  {
+    "t": "q",
+    "v": "and your right hand will save me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "your covenant faithfulness, Yahweh, endures forever."
+  },
+  {
+    "t": "q",
+    "v": "Do not forsake the ones whom your hands have made."
+  }
+]

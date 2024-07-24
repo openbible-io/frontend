@@ -1,189 +1,282 @@
-{
-  "chapter": {
-    "children": [
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "tag": "d",
-        "text": "A psalm written by Asaph for the choir director"
-      },
-      {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Sing songs to praise God, who enables us to be strong when we fight our enemies;"
-          },
-          {
-            "tag": "q1",
-            "text": "shout joyfully to God, whom we descendants of Jacob worship!"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Start playing the music, and beat the tambourines;"
-          },
-          {
-            "tag": "q2",
-            "text": "play nice music on the harps and lyres."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Blow the trumpets during the festival to celebrate each new moon,"
-          },
-          {
-            "tag": "q2",
-            "text": "each time the moon is full, and during our other festivals."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Do that because that is a decree for us Israelite people;"
-          },
-          {
-            "tag": "q2",
-            "text": "it is a command that God made for the descendants of Jacob."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "He made it a law under at the time when God led the descendants of Joseph out of the land of Egypt. "
-          },
-          {
-            "tag": "q1",
-            "text": "I heard a voice I did not recognize, and it said:"
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "\"After the rulers of Egypt forced you Israelites to work as slaves,"
-          },
-          {
-            "tag": "q1",
-            "text": "I took those heavy burdens off your backs,"
-          },
-          {
-            "tag": "q2",
-            "text": "and I enabled you to lay down those heavy baskets of bricks that you were carrying."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "When you were greatly distressed, you called out to me, and I rescued you;"
-          },
-          {
-            "tag": "q2",
-            "text": "I answered you out of a thundercloud."
-          },
-          {
-            "tag": "q2",
-            "text": "Later I tested whether you would trust me to give you water when you were in the desert at Meribah."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "You who are my people, listen while I warn you!"
-          },
-          {
-            "tag": "q1",
-            "text": "I wish that you Israelite people would pay attention to what I say to you!"
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "You must not have any idols of other gods among you;"
-          },
-          {
-            "tag": "q2",
-            "text": "you must never bow to worship any of them!"
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "I am Yahweh, your God;"
-          },
-          {
-            "tag": "q2",
-            "text": "It was not any of those gods who brought you out of Egypt;"
-          },
-          {
-            "tag": "q1",
-            "text": "I am the one who did it!"
-          },
-          {
-            "tag": "q2",
-            "text": "So request what you want me to do for you, and I will do it."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "But my people would not listen to me;"
-          },
-          {
-            "tag": "q2",
-            "text": "they would not obey me."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "So because they were very stubborn,"
-          },
-          {
-            "tag": "q2",
-            "text": "I allowed them to do whatever they wanted to do."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "I wish that my people would listen to me,"
-          },
-          {
-            "tag": "q1",
-            "text": "that the Israelite people would behave as I want them to do."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "If they did that, I would quickly defeat their enemies;"
-          },
-          {
-            "tag": "q2",
-            "text": "I would strike dead those who are oppressing them."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "Then all those who hate me would cringe before me,"
-          },
-          {
-            "tag": "q2",
-            "text": "and then I would punish them forever."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "But I would give you Israelites very good wheat,"
-          },
-          {
-            "tag": "q2",
-            "text": "and I would fill your stomachs with wild honey.\""
-          }
-        ],
-        "auto": true
-      }
-    ],
-    "num": 81
+[
+  {
+    "t": "m",
+    "v": []
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh, you who lead us as a shepherd leads his flock of sheep,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "Show yourself to the people of the tribes of Ephraim and Benjamin and Manasseh!"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "God, cause our nation to be strong like it was before;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Yahweh, commander of the angel armies,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "It is as though the only food and drink that you have given us is a cup full of our tears!"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "You have allowed the people groups that surround us to argue with each other to decide which part of our land each of them will take;"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "God, Commander of the angel armies,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Our ancestors were like a grapevine that you brought out of Egypt;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "As people clear ground to plant a grapevine,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "As huge grapevines cover the hills with their shade"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "your people ruled all of Canaan, from the Mediterranean Sea in the west to the Euphrates River in the east."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "So why have you abandoned us"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "wild pigs can trample the vines,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "You who are the commander of the angel armies, turn to us!"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "who are like the young vine that you planted and caused to grow!"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Our enemies have torn down and burned everything in our land;"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "But strengthen us people whom you have chosen,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "When you do that, we will never turn away from you again;"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Yahweh, commander of the angel armies, restore us;"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you who sit on your throne in the Very Holy Place in the temple, above the figures of winged creatures,"
+  },
+  {
+    "t": "q",
+    "v": "come and do powerful things for us Israelite people."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Show us that you are powerful"
+  },
+  {
+    "t": "q",
+    "v": "and come and rescue us!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "act kindly toward us so that we may be saved from our enemies!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "how long will you be angry with us, your people, when we pray to you?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they laugh at us."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "make our nation strong as it was before!"
+  },
+  {
+    "t": "q",
+    "v": "Act kindly toward us so that we may be saved!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you drove out the other people groups from this land,"
+  },
+  {
+    "t": "q",
+    "v": "and you put your people in their land."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you cleared out the people who were living in this land for us to live in it."
+  },
+  {
+    "t": "q",
+    "v": "As the roots of a grapevine go deep down into the ground and spread,"
+  },
+  {
+    "t": "q",
+    "v": "you enabled our ancestors to prosper and start living in towns all over this land."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and as their branches are taller than big cedar trees,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and allowed our enemies to tear down our walls?"
+  },
+  {
+    "t": "q",
+    "v": "You are like someone who tears down the fences around his vineyard,"
+  },
+  {
+    "t": "q",
+    "v": "so that all the people who pass by can steal the grapes;"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and wild animals can also eat the grapes."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Look down from heaven and see what is happening to us!"
+  },
+  {
+    "t": "q",
+    "v": "Come and rescue us who are like your grapevine,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "look at them angrily and get rid of them!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "us Israelite people, whom you previously caused to be very strong."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "revive us, and then we will praise you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "act kindly toward us and rescue us from our enemies!"
+  }
+]

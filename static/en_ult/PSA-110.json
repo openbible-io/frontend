@@ -1,105 +1,418 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "God whom I praise, do not be silent,"
       },
       {
-        "tag": "d",
-        "text": "A psalm of David."
+        "t": "v",
+        "n": 2,
+        "v": "For the wicked and deceitful attack me;"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Yahweh says to my master, “Sit at my right hand"
-          },
-          {
-            "tag": "q",
-            "text": "until I make your enemies your footstool.”"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Yahweh will hold out the scepter of your strength from Zion;"
-          },
-          {
-            "tag": "q",
-            "text": "rule among your enemies."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Your people will follow you in holy garments"
-          },
-          {
-            "tag": "q",
-            "text": "of their own free will on the day of your power;"
-          },
-          {
-            "tag": "q",
-            "text": "from the womb of the dawn your youth will be to you like the dew."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Yahweh has sworn, and will not change:"
-          },
-          {
-            "tag": "q",
-            "text": "“You are a priest forever,"
-          },
-          {
-            "tag": "q",
-            "text": "after the manner of Melchizedek.”"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "The Lord is at your right hand."
-          },
-          {
-            "tag": "q",
-            "text": "He will kill kings on the day of his anger."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "He will judge the nations;"
-          },
-          {
-            "tag": "q",
-            "text": "he will fill the battlegrounds with dead bodies;"
-          },
-          {
-            "tag": "q",
-            "text": "he will kill the leaders in many countries."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "He will drink of the brook along the road,"
-          },
-          {
-            "tag": "q",
-            "text": "and then he will lift his head up high after victory."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "They surround me and say hateful things,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "In return for my love they accuse me,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "They repay me evil for good,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Appoint a wicked man over such an enemy as these people;"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "When he is judged, may he be found guilty;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "May his days be few;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "May his children be fatherless,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "May his children wander about and beg,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "May the creditor take all he owns;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "May no one extend any kindness to him;"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "May his children be cut off;"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "May his ancestors’ sins be mentioned to Yahweh;"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "May their guilt always be before Yahweh;"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "May Yahweh do this because this man never bothered to show any covenant faithfulness,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "He loved cursing; may it come back upon him."
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "He clothed himself with cursing as his garment,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "May his curses be to him like the clothes he wears to cover himself,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "May this be the reward of my accusers from Yahweh,"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Yahweh my Lord, deal kindly with me for your name’s sake."
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "For I am oppressed and needy,"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "I am fading away like the shadow of the evening;"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "My knees are weak from fasting;"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "I am disdained by my accusers;"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "Help me, Yahweh my God;"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "May they know that this is your doing,"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "Though they curse me, please bless me;"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "May my adversaries be clothed with shame;"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "With my mouth I give great thanks to Yahweh;"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "For he will stand at the right hand of the one who is needy,"
       }
-    ],
-    "num": 110
+    ]
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they speak lies against me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they attack me without cause."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but I pray for them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they hate my love."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "appoint an accuser to stand at his right hand."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "may his prayer be considered sinful."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "may another take his office."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and may his wife be a widow."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "asking for handouts as they leave their ruined home."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "may strangers plunder what he earns."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "may no one have pity on his fatherless children."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "may their name be blotted out in the next generation."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and may the sin of his mother not be forgotten."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "may Yahweh cut off their memory from the earth."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but instead harassed the oppressed, the needy,"
+  },
+  {
+    "t": "q",
+    "v": "and the disheartened to death."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "He hated blessing; may no blessing come to him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and his curse came into his inner being like water,"
+  },
+  {
+    "t": "q",
+    "v": "like oil into his bones."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "like the belt he always wears."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "of those who say evil things about me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Because your covenant faithfulness is good, save me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and my heart is wounded within me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I am shaken off like a locust."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I am turning to skin and bones."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "when they see me, they shake their heads."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "save me by your covenant faithfulness."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "that you, Yahweh, have done this."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "when they attack, may they be put to shame,"
+  },
+  {
+    "t": "q",
+    "v": "but may your servant rejoice."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "may they wear their shame like a robe."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will praise him in the midst of a crowd."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "to save him from those who judge him."
+  }
+]

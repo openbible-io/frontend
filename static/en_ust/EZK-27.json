@@ -1,436 +1,507 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Yahweh said this to me:"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "\"Son of man, sing a funeral song about Tyre."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "The city of Tyre is on an island at the edge of the sea, and their merchants traded with people groups who live along many seacoasts. This is what Yahweh the Lord says that you should tell them:"
-          },
-          {
-            "tag": "q1",
-            "text": "You people of Tyre said that your city was very beautiful."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "You controlled what people bought and sold—the people who lived along the sea."
-          },
-          {
-            "tag": "q2",
-            "text": "Those who built your city made it very beautiful."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "You and your city were like a huge ship"
-          },
-          {
-            "tag": "q2",
-            "text": "that you built from fir trees on Mount Hermon."
-          },
-          {
-            "tag": "q1",
-            "text": "Then you took cedar wood from Lebanon to make a mast for the ship."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "You carved oars from oak trees from the region of Bashan."
-          },
-          {
-            "tag": "q1",
-            "text": "You made the deck from cypress wood from the island of Cyprus,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you covered the decks with ivory."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "You made the sails from fine embroidered linen from Egypt;"
-          },
-          {
-            "tag": "q2",
-            "text": "those sails were like flags that people could see far away."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Men from the cities of Sidon and Arvad pulled your oars;"
-          },
-          {
-            "tag": "q2",
-            "text": "the men who steered the ship were experienced sailors from Tyre."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Experienced craftsmen from Gebal were on board. They caulked the seams of your ships."
-          },
-          {
-            "tag": "q2",
-            "text": "Sailors from many countries came in their ships to buy and sell goods with you."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Men who came from the far away lands of Persia, Lud, and Put were soldiers in your army."
-          },
-          {
-            "tag": "q1",
-            "text": "They hung their shields and helmets on the walls of your city;"
-          },
-          {
-            "tag": "q2",
-            "text": "this caused many people to admire your city."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Men from the cities of Arvad and Helek were watchmen on your city walls;"
-          },
-          {
-            "tag": "q2",
-            "text": "men from the city of Gammad were in your towers."
-          },
-          {
-            "tag": "q1",
-            "text": "They also hung their shields on your walls;"
-          },
-          {
-            "tag": "q2",
-            "text": "they also made your city very beautiful."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh said this to me:"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Because of the many things that you had to trade, men from Tarshish sent merchants who brought silver, iron, tin, and lead to trade for things that you had."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "“Son of man, sing a funeral song about Tyre."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Merchants from the regions of Greece, Tubal, and Meshech brought slaves and things made from bronze to trade for things that you had."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 3,
+        "v": "The city of Tyre is on an island at the edge of the sea, and their merchants traded with people groups who live along many seacoasts. This is what Yahweh the Lord says that you should tell them:"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "Men from Beth Togarmah brought work horses, war horses, and mules to trade for things that you had."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 4,
+        "v": "You controlled what people bought and sold—the people who lived along the sea."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "Merchants came to you from the island of Rhodes."
-          },
-          {
-            "tag": "q1",
-            "text": "People from many nations by the sea traded with you;"
-          },
-          {
-            "tag": "q2",
-            "text": "they brought ivory and valuable black ebony wood to trade for things that you had."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 5,
+        "v": "You and your city were like a huge ship"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Because you had very many things to trade, people from the land of Aram brought to you valuable turquoise stones, purple cloth, embroidered cloth, fine linen cloth, and jewelry made from coral and rubies to you."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 6,
+        "v": "You carved oars from oak trees from the region of Bashan."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Men from Judah and Israel brought wheat from the city of Minnith in Ammon, and cakes, honey, olive oil, and ointment to trade for your things."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 7,
+        "v": "You made the sails from fine embroidered linen from Egypt;"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "Because you had very many things to sell, men from the city of Damascus brought wine from the town of Helbon and white wool from the area of Zahar to trade for many things that you had."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 8,
+        "v": "Men from the cities of Sidon and Arvad pulled your oars;"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "Men from the tribe of Dan and Greek men from the area of Izal brought things made of iron, cassia spice, and fragrant calamus seeds to trade for things that you had."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 9,
+        "v": "Experienced craftsmen from Gebal were on board. They caulked the seams of your ships."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Merchants came from Dedan in southern Edom bringing saddle blankets to trade for things that you had."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 10,
+        "v": "Men who came from the far away lands of Persia, Lud, and Put were soldiers in your army."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "Men from Arabia and all the rulers of the region of Kedar sent merchants to trade lambs and rams and male goats for things that you had."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Merchants from Sheba and Raamah in Arabia brought many kinds of very good spices and jewels and gold to exchange for things that you had."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "Men came from Haran, Kanneh, Eden, Sheba, Ashur and Kilmad in Mesopotamia with their goods."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "They brought beautiful things to trade with you: Blue cloth, embroidered cloth, and rugs of many colors that were rolled up and tied with ropes."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "Cargo ships from Tarshish carried all those things that you sold;"
-          },
-          {
-            "tag": "q2",
-            "text": "the warehouses on your island were full of all those things and brought you great honor."
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "The men who row your ships took the ships full of cargo out onto the large seas."
-          },
-          {
-            "tag": "q2",
-            "text": "But now the strong east wind has wrecked those ships."
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "Everything in the ships has been lost—"
-          },
-          {
-            "tag": "q2",
-            "text": "all the valuable cargo and many of the sailors and ship pilots,"
-          },
-          {
-            "tag": "q1",
-            "text": "the ship workers and merchants and soldiers."
-          },
-          {
-            "tag": "q1",
-            "text": "On the day that the ships were wrecked,"
-          },
-          {
-            "tag": "q2",
-            "text": "all their crews sank to the bottom of the sea."
-          },
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "The people in cities along the coast trembled"
-          },
-          {
-            "tag": "q2",
-            "text": "when they heard your ship pilots cry out."
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "All the men who pulled the oars will leave the ships;"
-          },
-          {
-            "tag": "q2",
-            "text": "the sailors and pilots will come to the shore and stand on the beach."
-          },
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "They will cry aloud because of what has happened to you,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they weep bitterly."
-          },
-          {
-            "tag": "q1",
-            "text": "They will throw earth on their heads"
-          },
-          {
-            "tag": "q2",
-            "text": "and roll around in ashes."
-          },
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "They shave their heads to show that they are very sad because of what has happened to you,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they put on rough sackcloth to mourn."
-          },
-          {
-            "tag": "q1",
-            "text": "They weep for you very bitterly"
-          },
-          {
-            "tag": "q2",
-            "text": "and mourn for you."
-          },
-          {
-            "tag": "v",
-            "num": "32",
-            "text": "While they wail and mourn because of what has happened to you"
-          },
-          {
-            "tag": "q2",
-            "text": "they sing this sad funeral song:"
-          },
-          {
-            "tag": "q1",
-            "text": "'There was certainly never a city like Tyre,"
-          },
-          {
-            "tag": "q2",
-            "text": "which now is silent,"
-          },
-          {
-            "tag": "q2",
-            "text": "covered by the waves of the sea.'"
-          },
-          {
-            "tag": "v",
-            "num": "33",
-            "text": "The goods that your merchants traded"
-          },
-          {
-            "tag": "q2",
-            "text": "were things that pleased the people of many countries."
-          },
-          {
-            "tag": "q1",
-            "text": "Kings in very distant places became rich"
-          },
-          {
-            "tag": "q2",
-            "text": "from the money they made by buying and selling with you."
-          },
-          {
-            "tag": "v",
-            "num": "34",
-            "text": "But now your city is like a ship wrecked in the sea;"
-          },
-          {
-            "tag": "q2",
-            "text": "and everything in it is broken, and it is now at the bottom of the sea."
-          },
-          {
-            "tag": "q1",
-            "text": "All of your cargo and your sailors have sunk to the bottom of the sea."
-          },
-          {
-            "tag": "v",
-            "num": "35",
-            "text": "All the people who live along the seacoast are appalled"
-          },
-          {
-            "tag": "q2",
-            "text": "because of what has happened to you."
-          },
-          {
-            "tag": "q1",
-            "text": "Their kings are very horrified;"
-          },
-          {
-            "tag": "q2",
-            "text": "they shake with fear as they watch."
-          },
-          {
-            "tag": "v",
-            "num": "36",
-            "text": "The merchants of the other nations shake their heads"
-          },
-          {
-            "tag": "q2",
-            "text": "because it is difficult for them to believe what has happened;"
-          },
-          {
-            "tag": "q1",
-            "text": "now your city has disappeared,"
-          },
-          {
-            "tag": "q2",
-            "text": "and it will not exist anymore.\""
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 11,
+        "v": "Men from the cities of Arvad and Helek were watchmen on your city walls;"
       }
-    ],
-    "num": 27
+    ]
   },
-  "id": "EZK unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Ezekiel"
-}
+  {
+    "t": "q",
+    "v": "You people of Tyre said that your city was very beautiful."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Those who built your city made it very beautiful."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "that you built from fir trees on Mount Hermon."
+  },
+  {
+    "t": "q",
+    "v": "Then you took cedar wood from Lebanon to make a mast for the ship."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "You made the deck from cypress wood from the island of Cyprus,"
+  },
+  {
+    "t": "q",
+    "v": "and you covered the decks with ivory."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "those sails were like flags that people could see far away."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the men who steered the ship were experienced sailors from Tyre."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Sailors from many countries came in their ships to buy and sell goods with you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "They hung their shields and helmets on the walls of your city;"
+  },
+  {
+    "t": "q",
+    "v": "this caused many people to admire your city."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "men from the city of Gammad were in your towers."
+  },
+  {
+    "t": "q",
+    "v": "They also hung their shields on your walls;"
+  },
+  {
+    "t": "q",
+    "v": "they also made your city very beautiful."
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Because of the many things that you had to trade, men from Tarshish sent merchants who brought silver, iron, tin, and lead to trade for things that you had."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Merchants from the regions of Greece, Tubal, and Meshech brought slaves and things made from bronze to trade for things that you had."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 14,
+        "v": "Men from Beth Togarmah brought work horses, war horses, and mules to trade for things that you had."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Merchants came to you from the island of Rhodes."
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "People from many nations by the sea traded with you;"
+  },
+  {
+    "t": "q",
+    "v": "they brought ivory and valuable black ebony wood to trade for things that you had."
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Because you had very many things to trade, people from the land of Aram brought to you valuable turquoise stones, purple cloth, embroidered cloth, fine linen cloth, and jewelry made from coral and rubies to you."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Men from Judah and Israel brought wheat from the city of Minnith in Ammon, and cakes, honey, olive oil, and ointment to trade for your things."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Because you had very many things to sell, men from the city of Damascus brought wine from the town of Helbon and white wool from the area of Zahar to trade for many things that you had."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Men from the tribe of Dan and Greek men from the area of Izal brought things made of iron, cassia spice, and fragrant calamus seeds to trade for things that you had."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Merchants came from Dedan in southern Edom bringing saddle blankets to trade for things that you had."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Men from Arabia and all the rulers of the region of Kedar sent merchants to trade lambs and rams and male goats for things that you had."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Merchants from Sheba and Raamah in Arabia brought many kinds of very good spices and jewels and gold to exchange for things that you had."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 23,
+        "v": "Men came from Haran, Kanneh, Eden, Sheba, Ashur and Kilmad in Mesopotamia with their goods."
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "They brought beautiful things to trade with you: Blue cloth, embroidered cloth, and rugs of many colors that were rolled up and tied with ropes."
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "Cargo ships from Tarshish carried all those things that you sold;"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "The men who row your ships took the ships full of cargo out onto the large seas."
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "Everything in the ships has been lost—"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "The people in cities along the coast trembled"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "All the men who pulled the oars will leave the ships;"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "They will cry aloud because of what has happened to you,"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "They shave their heads to show that they are very sad because of what has happened to you,"
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "While they wail and mourn because of what has happened to you"
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "The goods that your merchants traded"
+      },
+      {
+        "t": "v",
+        "n": 34,
+        "v": "But now your city is like a ship wrecked in the sea;"
+      },
+      {
+        "t": "v",
+        "n": 35,
+        "v": "All the people who live along the seacoast are appalled"
+      },
+      {
+        "t": "v",
+        "n": 36,
+        "v": "The merchants of the other nations shake their heads"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the warehouses on your island were full of all those things and brought you great honor."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "But now the strong east wind has wrecked those ships."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "all the valuable cargo and many of the sailors and ship pilots,"
+  },
+  {
+    "t": "q",
+    "v": "the ship workers and merchants and soldiers."
+  },
+  {
+    "t": "q",
+    "v": "On the day that the ships were wrecked,"
+  },
+  {
+    "t": "q",
+    "v": "all their crews sank to the bottom of the sea."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "when they heard your ship pilots cry out."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the sailors and pilots will come to the shore and stand on the beach."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they weep bitterly."
+  },
+  {
+    "t": "q",
+    "v": "They will throw earth on their heads"
+  },
+  {
+    "t": "q",
+    "v": "and roll around in ashes."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they put on rough sackcloth to mourn."
+  },
+  {
+    "t": "q",
+    "v": "They weep for you very bitterly"
+  },
+  {
+    "t": "q",
+    "v": "and mourn for you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they sing this sad funeral song:"
+  },
+  {
+    "t": "q",
+    "v": "‘There was certainly never a city like Tyre,"
+  },
+  {
+    "t": "q",
+    "v": "which now is silent,"
+  },
+  {
+    "t": "q",
+    "v": "covered by the waves of the sea.’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "were things that pleased the people of many countries."
+  },
+  {
+    "t": "q",
+    "v": "Kings in very distant places became rich"
+  },
+  {
+    "t": "q",
+    "v": "from the money they made by buying and selling with you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and everything in it is broken, and it is now at the bottom of the sea."
+  },
+  {
+    "t": "q",
+    "v": "All of your cargo and your sailors have sunk to the bottom of the sea."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because of what has happened to you."
+  },
+  {
+    "t": "q",
+    "v": "Their kings are very horrified;"
+  },
+  {
+    "t": "q",
+    "v": "they shake with fear as they watch."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because it is difficult for them to believe what has happened;"
+  },
+  {
+    "t": "q",
+    "v": "now your city has disappeared,"
+  },
+  {
+    "t": "q",
+    "v": "and it will not exist anymore.”"
+  }
+]

@@ -1,226 +1,288 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "The word that came to Jeremiah from Yahweh, saying,"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "“This is what Yahweh, God of Israel, says, ‘Write in a scroll all the words that I have spoken to you."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "For look, days are coming—this is Yahweh’s declaration—when I will restore the fortunes of my people, Israel and Judah. I, Yahweh, have said it. For I will bring them back to the land that I gave their ancestors, and they will possess it.’”"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "The word that came to Jeremiah from Yahweh, saying,"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "These are the words that Yahweh declared concerning Israel and Judah,"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "“For Yahweh says this,"
-          },
-          {
-            "tag": "q",
-            "text": "‘We have heard a trembling voice of dread and not of peace."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Ask and see if a man bears a child."
-          },
-          {
-            "tag": "q",
-            "text": "Why do I see every young man with his hand on his loins like a woman bearing a child?"
-          },
-          {
-            "tag": "q",
-            "text": "Why have all their faces become pale?"
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Woe! For that day will be great, with none like it."
-          },
-          {
-            "tag": "q",
-            "text": "It will be a time of anxiety for Jacob, but he will be rescued from it."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "For it will be in that day—this is the declaration of Yahweh of hosts—that I will break the yoke off your neck, and I will shatter your chains, so foreigners will no longer enslave you."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "But they will worship Yahweh their God and serve David their king, whom I will make king over them."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "So you, my servant Jacob, do not fear—this is Yahweh’s declaration—and do not be dismayed, Israel."
-          },
-          {
-            "tag": "q",
-            "text": "For see, I am about to bring you back from far away, and your descendants from the land of captivity."
-          },
-          {
-            "tag": "q",
-            "text": "Jacob will return and be at peace; he will be secure, and there will be no more terror."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "For I am with you—this is Yahweh’s declaration—to save you. Then I will bring a complete end"
-          },
-          {
-            "tag": "q",
-            "text": "to all the nations where I have scattered you. But I will certainly not put an end to you,"
-          },
-          {
-            "tag": "q",
-            "text": "though I discipline you justly and will certainly not leave you unpunished.’"
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "For Yahweh says this, ‘Your injury is incurable; your wound is infected."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "There is no one to plead your case; there is no remedy for your wound to heal you."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "All of your lovers have forgotten you. They will not look for you,"
-          },
-          {
-            "tag": "q",
-            "text": "for I have wounded you with the wound of an enemy and the discipline of a cruel master"
-          },
-          {
-            "tag": "q",
-            "text": "because of your many iniquities and your innumerable sins."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "Why do you call for help for your injury? Your pain is incurable."
-          },
-          {
-            "tag": "q",
-            "text": "Because of your many iniquities, your innumerable sins, I have done these things to you."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "So everyone who consumes you will be consumed, and all of your adversaries will go into captivity."
-          },
-          {
-            "tag": "q",
-            "text": "For the ones who have plundered you will become plunder, and I will make all of the ones despoiling you a spoil."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "For I will bring healing on you; I will heal you of your wounds—this is Yahweh’s declaration—"
-          },
-          {
-            "tag": "q",
-            "text": "I will do this because they called you: Outcast. No one cares for this Zion.’”"
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "Yahweh says this, “See, I am about to bring back the fortunes of Jacob’s tents and have compassion on his homes."
-          },
-          {
-            "tag": "q",
-            "text": "Then a city will be built on the heap of ruins, and a stronghold will exist again where it used to be."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "Then a song of praise and a sound of merriment will go out from them,"
-          },
-          {
-            "tag": "q",
-            "text": "for I will increase them and not diminish them; I will honor them so they will not be humbled."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Then their people will be like before, and their assembly will be established before me"
-          },
-          {
-            "tag": "q",
-            "text": "when I punish all the ones who are now tormenting them."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "Their leader will come from among them. He will emerge from their midst"
-          },
-          {
-            "tag": "q",
-            "text": "when I draw him near and when he approaches me."
-          },
-          {
-            "tag": "q",
-            "text": "If I do not do this, who would dare come close to me?—this is Yahweh’s declaration."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Then you will be my people, and I will be your God."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "See, the tempest of Yahweh, his fury, has gone out. It is a continual tempest."
-          },
-          {
-            "tag": "q",
-            "text": "It will whirl on the heads of the wicked people."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "Yahweh’s wrath will not return until it has carried out and brought into being his heart’s intentions."
-          },
-          {
-            "tag": "q",
-            "text": "In the final days, you will understand it.”"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "“This is what Yahweh, God of Israel, says, ‘Write in a scroll all the words that I have spoken to you."
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "For look, days are coming—this is Yahweh’s declaration—when I will restore the fortunes of my people, Israel and Judah. I, Yahweh, have said it. For I will bring them back to the land that I gave their ancestors, and they will possess it.’”"
       }
-    ],
-    "num": 30
+    ]
   },
-  "id": "JER unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Jeremiah",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Jeremiah"
-    }
-  ]
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 4,
+        "v": "These are the words that Yahweh declared concerning Israel and Judah,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "“For Yahweh says this,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Ask and see if a man bears a child."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Woe! For that day will be great, with none like it."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "For it will be in that day—this is the declaration of Yahweh of hosts—that I will break the yoke off your neck, and I will shatter your chains, so foreigners will no longer enslave you."
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "But they will worship Yahweh their God and serve David their king, whom I will make king over them."
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "So you, my servant Jacob, do not fear—this is Yahweh’s declaration—and do not be dismayed, Israel."
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "For I am with you—this is Yahweh’s declaration—to save you. Then I will bring a complete end"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "For Yahweh says this, ‘Your injury is incurable; your wound is infected."
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "There is no one to plead your case; there is no remedy for your wound to heal you."
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "All of your lovers have forgotten you. They will not look for you,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Why do you call for help for your injury? Your pain is incurable."
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "So everyone who consumes you will be consumed, and all of your adversaries will go into captivity."
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "For I will bring healing on you; I will heal you of your wounds—this is Yahweh’s declaration—"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Yahweh says this, “See, I am about to bring back the fortunes of Jacob’s tents and have compassion on his homes."
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Then a song of praise and a sound of merriment will go out from them,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Then their people will be like before, and their assembly will be established before me"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Their leader will come from among them. He will emerge from their midst"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Then you will be my people, and I will be your God."
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "See, the tempest of Yahweh, his fury, has gone out. It is a continual tempest."
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "Yahweh’s wrath will not return until it has carried out and brought into being his heart’s intentions."
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "‘We have heard a trembling voice of dread and not of peace."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Why do I see every young man with his hand on his loins like a woman bearing a child?"
+  },
+  {
+    "t": "q",
+    "v": "Why have all their faces become pale?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "It will be a time of anxiety for Jacob, but he will be rescued from it."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "For see, I am about to bring you back from far away, and your descendants from the land of captivity."
+  },
+  {
+    "t": "q",
+    "v": "Jacob will return and be at peace; he will be secure, and there will be no more terror."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "to all the nations where I have scattered you. But I will certainly not put an end to you,"
+  },
+  {
+    "t": "q",
+    "v": "though I discipline you justly and will certainly not leave you unpunished.’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for I have wounded you with the wound of an enemy and the discipline of a cruel master"
+  },
+  {
+    "t": "q",
+    "v": "because of your many iniquities and your innumerable sins."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Because of your many iniquities, your innumerable sins, I have done these things to you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "For the ones who have plundered you will become plunder, and I will make all of the ones despoiling you a spoil."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will do this because they called you: Outcast. No one cares for this Zion.’”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Then a city will be built on the heap of ruins, and a stronghold will exist again where it used to be."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for I will increase them and not diminish them; I will honor them so they will not be humbled."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "when I punish all the ones who are now tormenting them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "when I draw him near and when he approaches me."
+  },
+  {
+    "t": "q",
+    "v": "If I do not do this, who would dare come close to me?—this is Yahweh’s declaration."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "It will whirl on the heads of the wicked people."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "In the final days, you will understand it.”"
+  }
+]

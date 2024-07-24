@@ -1,380 +1,184 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh, the man you made king is glad because you have caused him to be strong."
       },
       {
-        "tag": "d",
-        "text": "A psalm written by David for the choir director, to be sung to the tune 'Doe of the Dawn'"
+        "t": "v",
+        "n": 2,
+        "v": "You have given him everything he most desired,"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "My God, my God, why have you abandoned me?"
-          },
-          {
-            "tag": "q2",
-            "text": "Why do you stay so far from me,"
-          },
-          {
-            "tag": "q2",
-            "text": "and why do you not listent to me?"
-          },
-          {
-            "tag": "q1",
-            "text": "Why do you not hear me when I am suffering and groaning?"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "My God, every day I call to you during the daytime, but you do not answer me."
-          },
-          {
-            "tag": "q2",
-            "text": "I call to you during the night; I am not silent at all."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "But you are holy."
-          },
-          {
-            "tag": "q2",
-            "text": "You sit on your throne as king, and we the people of Israel praise you."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Our ancestors trusted in you."
-          },
-          {
-            "tag": "q1",
-            "text": "Because they trusted in you, you rescued them."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "When they called out to you for help, you saved them."
-          },
-          {
-            "tag": "q2",
-            "text": "They trusted in you, and they were not disappointed."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "But you have not rescued me!"
-          },
-          {
-            "tag": "q2",
-            "text": "People despise me and consider that I am not a man;"
-          },
-          {
-            "tag": "q2",
-            "text": "they think that I am a worm!"
-          },
-          {
-            "tag": "q1",
-            "text": "Everyone scorns me and despises me."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Everyone who sees me makes fun of me."
-          },
-          {
-            "tag": "q2",
-            "text": "They sneer at me and insult me by shaking their heads at me as though I were an evil man."
-          },
-          {
-            "tag": "q1",
-            "text": "They say,"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "\"He trusts in Yahweh,"
-          },
-          {
-            "tag": "q2",
-            "text": "so Yahweh should save him!"
-          },
-          {
-            "tag": "q1",
-            "text": "He says that Yahweh is very pleased with him;"
-          },
-          {
-            "tag": "q2",
-            "text": "if that is so, Yahweh should rescue him!\""
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "You, God, have been with me since I was in my mother's womb,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you taught me to trust you when I was at my mother's breasts."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "It was as though you had adopted me right when I was born."
-          },
-          {
-            "tag": "q2",
-            "text": "You have been my God ever since I was born."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "So do not stay far from me now"
-          },
-          {
-            "tag": "q2",
-            "text": "because enemies who will cause me much trouble are near me,"
-          },
-          {
-            "tag": "q2",
-            "text": "and there is no one else who can help me."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "My enemies surround me like a herd of wild bulls."
-          },
-          {
-            "tag": "q2",
-            "text": "Fierce people, like those strong bulls that graze on the hills in the region of Bashan, surround me."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "They are like roaring lions that are attacking the animals that they want to eat;"
-          },
-          {
-            "tag": "q2",
-            "text": "they rush toward me to kill me;"
-          },
-          {
-            "tag": "q1",
-            "text": "they are like lions that have their mouths open, ready to chew their victims to pieces."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "I am completely exhausted,"
-          },
-          {
-            "tag": "q2",
-            "text": "and all my bones are out of their joints."
-          },
-          {
-            "tag": "q1",
-            "text": "I no longer expect that God will save me;"
-          },
-          {
-            "tag": "q2",
-            "text": "I am completely discouraged."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "My strength is all dried up"
-          },
-          {
-            "tag": "q2",
-            "text": "like a broken piece of a clay jar that has dried in the sun."
-          },
-          {
-            "tag": "q2",
-            "text": "I am so thirsty that my tongue sticks to the roof of my mouth."
-          },
-          {
-            "tag": "q2",
-            "text": "God, I think that you are about to let my body die and become dust!"
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "My enemies are like wild dogs that surround me."
-          },
-          {
-            "tag": "q2",
-            "text": "A group of evil men has encircled me, ready to attack me."
-          },
-          {
-            "tag": "q2",
-            "text": "They have pierced through my hands and my feet."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "I am so weak and thin that I can count all my bones."
-          },
-          {
-            "tag": "q2",
-            "text": "My enemies stare at me and gloat about what has happened to me."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "They looked at the clothes that I was wearing"
-          },
-          {
-            "tag": "q2",
-            "text": "and gambled to determine which piece each of them would get."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "Yahweh, be concerned for me!"
-          },
-          {
-            "tag": "q2",
-            "text": "You who are my source of strength,"
-          },
-          {
-            "tag": "q1",
-            "text": "come quickly and help me!"
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Rescue me from those who want to kill me with their swords."
-          },
-          {
-            "tag": "q2",
-            "text": "Save my life from the power of those who are like wild dogs."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "Snatch me away from my enemies who are like lions with jaws open and ready to chew me up!"
-          },
-          {
-            "tag": "q2",
-            "text": "Grab me away from those men who are like wild oxen that attack other animals with their horns!"
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "If you save me from them, I will declare to my fellow Israelites how great you are."
-          },
-          {
-            "tag": "q2",
-            "text": "I will praise you among the group of your people gathered together to worship you."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "You people who have an awesome respect for Yahweh, praise him!"
-          },
-          {
-            "tag": "q2",
-            "text": "All you who are descended from Jacob, honor Yahweh!"
-          },
-          {
-            "tag": "q2",
-            "text": "All you Israelite people, revere him!"
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "He does not despise or ignore those who are suffering;"
-          },
-          {
-            "tag": "q2",
-            "text": "he does not hide his face from them."
-          },
-          {
-            "tag": "q1",
-            "text": "He has listened to them when they cried out to him for help."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "Yahweh, in the great gathering of your people, I will praise you for what you have done."
-          },
-          {
-            "tag": "q2",
-            "text": "In the presence of those who have an awesome respect for you, I will offer the sacrifices that I promised."
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "The poor people whom I have invited to the meal will eat as much as they want."
-          },
-          {
-            "tag": "q2",
-            "text": "All who come to worship Yahweh will praise him."
-          },
-          {
-            "tag": "q2",
-            "text": "I pray that God will enable you all to live a long and happy life!"
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "I pray that people in all nations, even in the remote areas, will think about Yahweh and turn to him,"
-          },
-          {
-            "tag": "q2",
-            "text": "and that people from all the clans in the world will bow down before him."
-          },
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "For Yahweh is the king!"
-          },
-          {
-            "tag": "q2",
-            "text": "He rules all the nations."
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "All the rich people on the earth will celebrate and bow before him."
-          },
-          {
-            "tag": "q2",
-            "text": "Some day they will die, for they cannot avoid it,"
-          },
-          {
-            "tag": "q2",
-            "text": "but they will prostrate themselves on the ground in his presence."
-          },
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "People in the future generations will also serve Yahweh."
-          },
-          {
-            "tag": "q2",
-            "text": "They will tell their children about what Yahweh has done."
-          },
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "People who are not yet born, who will live in future years, will learn how Yahweh rescued his people."
-          },
-          {
-            "tag": "q2",
-            "text": "People will tell them, \"Yahweh did it!\""
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "You have done so many wonderful things for him."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "He asked you to let him live for a long time,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "His power as king is very great because you have allowed him to win victories over his enemies."
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "You will bless him forever,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Yahweh, you are God Almighty,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "You will enable him to kill all his enemies,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "When you appear, you will throw them into a fiery furnace."
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "You will remove their children from this earth;"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "They wanted to harm you,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "You will cause them to run away"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Yahweh, show us that you are very strong!"
       }
-    ],
-    "num": 22
+    ]
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "He rejoices because you have enabled him to defeat his enemies."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and you have not refused to do what he requested you to do."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "You placed a gold crown on his head."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and you have enabled him to live for a long time."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and you have caused him to be joyful in your presence."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and the king trusts in you."
+  },
+  {
+    "t": "q",
+    "v": "Because you faithfully love him,"
+  },
+  {
+    "t": "q",
+    "v": "disastrous things will never happen to him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "all those who hate him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Because you are angry with them, you will swallow them up;"
+  },
+  {
+    "t": "q",
+    "v": "the fire will burn them up."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "their descendants will all disappear."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but what they plan will never succeed."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "by shooting arrows at them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "When you do that, we will sing and praise you because you are very powerful."
+  }
+]

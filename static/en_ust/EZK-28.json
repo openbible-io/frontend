@@ -1,395 +1,446 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Then Yahweh gave me another message. He said:"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "\"Son of man, give to the king of Tyre this message from me, Yahweh the Lord:"
-          },
-          {
-            "tag": "q1",
-            "text": "'You have very proudly claimed that you are a god,"
-          },
-          {
-            "tag": "q2",
-            "text": "and that you are untouchable, since you sit on a throne in a city on an island in the sea!"
-          },
-          {
-            "tag": "q1",
-            "text": "You boast that you are a god,"
-          },
-          {
-            "tag": "q2",
-            "text": "but you are in reality only a man, not a god."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "You think that you are wiser than Daniel was,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you think that you can understand every secret."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Because you were wise and shrewd in business, you have become very rich;"
-          },
-          {
-            "tag": "q2",
-            "text": "you have acquired much gold and silver for your treasuries."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Yes, it is true that by buying and selling wisely, you have become very rich;"
-          },
-          {
-            "tag": "q2",
-            "text": "and because you are rich, you have become very proud."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "Then Yahweh gave me another message. He said:"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Therefore, Yahweh the Lord says that"
-          },
-          {
-            "tag": "q1",
-            "text": "because you think that you are as wise as a god,"
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "he will bring a foreign army to attack your country,"
-          },
-          {
-            "tag": "q2",
-            "text": "an army that causes other nations to be terrified."
-          },
-          {
-            "tag": "q1",
-            "text": "They will pull out their swords to strike you,"
-          },
-          {
-            "tag": "q2",
-            "text": "you who think that you have marvelous wisdom,"
-          },
-          {
-            "tag": "q1",
-            "text": "and they will ruin all your beautiful things and make them ugly."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "They will bring you down to your grave;"
-          },
-          {
-            "tag": "q1",
-            "text": "you will die violently"
-          },
-          {
-            "tag": "q2",
-            "text": "like those who died in the sea."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Then you will certainly not tell those who are killing you"
-          },
-          {
-            "tag": "q2",
-            "text": "that you are a god,"
-          },
-          {
-            "tag": "q1",
-            "text": "because they will know that you are not a god;"
-          },
-          {
-            "tag": "q2",
-            "text": "you are only a man."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "You will die like other people die, those who are unacceptable to God,"
-          },
-          {
-            "tag": "q2",
-            "text": "those whom foreigners kill. That will surely happen because Yahweh has said it.'\""
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "“Son of man, give to the king of Tyre this message from me, Yahweh the Lord:"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Yahweh also gave me this message:"
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "\"Son of man, sing a sad song about the king of Tyre. Tell him that Yahweh the Lord says this to him:"
-          },
-          {
-            "tag": "q1",
-            "text": "'You were completely perfect,"
-          },
-          {
-            "tag": "q2",
-            "text": "extremely wise and handsome."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "You had a wonderful life, because you were in my beautiful garden in Eden."
-          },
-          {
-            "tag": "q2",
-            "text": "Your clothes were decorated with many kinds of very valuable stones—"
-          },
-          {
-            "tag": "q1",
-            "text": "ruby, topaz, emerald, chrysolite, onyx, jasper, sapphire, turquoise, and beryl stones."
-          },
-          {
-            "tag": "q2",
-            "text": "Those stones were set in gold mountings"
-          },
-          {
-            "tag": "q2",
-            "text": "which I prepared for you on the day that I created you."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "I appointed you to be a strong angel to guard the people."
-          },
-          {
-            "tag": "q1",
-            "text": "I placed you on my holy mountain,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you walked among fiery stones."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "You were completely good in all that you did"
-          },
-          {
-            "tag": "q2",
-            "text": "from the day that you were created,"
-          },
-          {
-            "tag": "q2",
-            "text": "until you started to do wicked things."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Then you became busy buying and selling things,"
-          },
-          {
-            "tag": "q2",
-            "text": "you started to act violently,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you sinned."
-          },
-          {
-            "tag": "q1",
-            "text": "So I disgraced you."
-          },
-          {
-            "tag": "q2",
-            "text": "You, the angel who was supposed to guard the people—I forced you to leave my own mountain;"
-          },
-          {
-            "tag": "q2",
-            "text": "I forced you to leave those fiery stones."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "You were extremely proud"
-          },
-          {
-            "tag": "q2",
-            "text": "because you were very handsome."
-          },
-          {
-            "tag": "q1",
-            "text": "Because you loved beautiful things,"
-          },
-          {
-            "tag": "q2",
-            "text": "you did things that wise people do not do."
-          },
-          {
-            "tag": "q1",
-            "text": "So I threw you to the ground,"
-          },
-          {
-            "tag": "q2",
-            "text": "and allowed other kings who saw you to laugh at you."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "By committing many sins"
-          },
-          {
-            "tag": "q2",
-            "text": "and by buying and selling things dishonestly,"
-          },
-          {
-            "tag": "q2",
-            "text": "you caused the places where people worshiped me to become unacceptable to me."
-          },
-          {
-            "tag": "q1",
-            "text": "So I will make a fire that will burn your city down."
-          },
-          {
-            "tag": "q2",
-            "text": "Your city will be burned completely,"
-          },
-          {
-            "tag": "q1",
-            "text": "and the people who watch it will see"
-          },
-          {
-            "tag": "q2",
-            "text": "that what is left of the city will only be ashes."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "All the people who knew what your city was like previously"
-          },
-          {
-            "tag": "q2",
-            "text": "will be appalled."
-          },
-          {
-            "tag": "q1",
-            "text": "Now your city will disappear,"
-          },
-          {
-            "tag": "q2",
-            "text": "and it will not exist anymore.'\""
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 3,
+        "v": "You think that you are wiser than Daniel was,"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Then Yahweh gave me another message. He said,"
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "\"Son of man, turn toward the city of Sidon, and announce the terrible things that will happen to it."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Give the people of Sidon this message from Yahweh the Lord. Tell them:"
-          },
-          {
-            "tag": "q1",
-            "text": "'I am your enemy, you people of Sidon."
-          },
-          {
-            "tag": "q2",
-            "text": "By what I do to you,"
-          },
-          {
-            "tag": "q1",
-            "text": "I will show you how great I am,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you will know that it is Yahweh who punishes you and judges you with justice."
-          },
-          {
-            "tag": "q2",
-            "text": "You will know that I am different from you, and that I will be honored by what I do to you!"
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "I will send a plague on you,"
-          },
-          {
-            "tag": "q2",
-            "text": "and I will send enemies to come and kill you in your streets."
-          },
-          {
-            "tag": "q1",
-            "text": "They will attack you from every direction,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they will slaughter your people inside the walls of your city."
-          },
-          {
-            "tag": "q1",
-            "text": "Then everyone will know that I, Yahweh, have the power to do what I say that I will do.'"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 4,
+        "v": "Because you were wise and shrewd in business, you have become very rich;"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "No longer will people who live near the people of Israel hurt them as painful briers and sharp thorns hurt people. And then the Israelites will know that I, Yahweh, have the power to do what I say that I will do.\""
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "And this is also what Yahweh the Lord says: \"I will gather them from distant countries where I have scattered them. And the other people groups will see that I am set apart and honored, when the house of Israel makes their homes in the land I gave my servant Jacob!"
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "My people will live safely in Israel; they will build houses and plant vineyards. And when I punish the nearby people groups that despised them, my people will know that it is I, Yahweh their God, who has done this.\""
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 5,
+        "v": "Yes, it is true that by buying and selling wisely, you have become very rich;"
       }
-    ],
-    "num": 28
+    ]
   },
-  "id": "EZK unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Ezekiel"
-}
+  {
+    "t": "q",
+    "v": "‘You have very proudly claimed that you are a god,"
+  },
+  {
+    "t": "q",
+    "v": "and that you are untouchable, since you sit on a throne in a city on an island in the sea!"
+  },
+  {
+    "t": "q",
+    "v": "You boast that you are a god,"
+  },
+  {
+    "t": "q",
+    "v": "but you are in reality only a man, not a god."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and you think that you can understand every secret."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you have acquired much gold and silver for your treasuries."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and because you are rich, you have become very proud."
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Therefore, Yahweh the Lord says that"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "he will bring a foreign army to attack your country,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "They will bring you down to your grave;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Then you will certainly not tell those who are killing you"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "You will die like other people die, those who are unacceptable to God,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "because you think that you are as wise as a god,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "an army that causes other nations to be terrified."
+  },
+  {
+    "t": "q",
+    "v": "They will pull out their swords to strike you,"
+  },
+  {
+    "t": "q",
+    "v": "you who think that you have marvelous wisdom,"
+  },
+  {
+    "t": "q",
+    "v": "and they will ruin all your beautiful things and make them ugly."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you will die violently"
+  },
+  {
+    "t": "q",
+    "v": "like those who died in the sea."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "that you are a god,"
+  },
+  {
+    "t": "q",
+    "v": "because they will know that you are not a god;"
+  },
+  {
+    "t": "q",
+    "v": "you are only a man."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "those whom foreigners kill. That will surely happen because Yahweh has said it.’”"
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Yahweh also gave me this message:"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "“Son of man, sing a sad song about the king of Tyre. Tell him that Yahweh the Lord says this to him:"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "You had a wonderful life, because you were in my beautiful garden in Eden."
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "I appointed you to be a strong angel to guard the people."
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "You were completely good in all that you did"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Then you became busy buying and selling things,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "You were extremely proud"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "By committing many sins"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "All the people who knew what your city was like previously"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "‘You were completely perfect,"
+  },
+  {
+    "t": "q",
+    "v": "extremely wise and handsome."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Your clothes were decorated with many kinds of very valuable stones—"
+  },
+  {
+    "t": "q",
+    "v": "ruby, topaz, emerald, chrysolite, onyx, jasper, sapphire, turquoise, and beryl stones."
+  },
+  {
+    "t": "q",
+    "v": "Those stones were set in gold mountings"
+  },
+  {
+    "t": "q",
+    "v": "which I prepared for you on the day that I created you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I placed you on my holy mountain,"
+  },
+  {
+    "t": "q",
+    "v": "and you walked among fiery stones."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "from the day that you were created,"
+  },
+  {
+    "t": "q",
+    "v": "until you started to do wicked things."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you started to act violently,"
+  },
+  {
+    "t": "q",
+    "v": "and you sinned."
+  },
+  {
+    "t": "q",
+    "v": "So I disgraced you."
+  },
+  {
+    "t": "q",
+    "v": "You, the angel who was supposed to guard the people—I forced you to leave my own mountain;"
+  },
+  {
+    "t": "q",
+    "v": "I forced you to leave those fiery stones."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because you were very handsome."
+  },
+  {
+    "t": "q",
+    "v": "Because you loved beautiful things,"
+  },
+  {
+    "t": "q",
+    "v": "you did things that wise people do not do."
+  },
+  {
+    "t": "q",
+    "v": "So I threw you to the ground,"
+  },
+  {
+    "t": "q",
+    "v": "and allowed other kings who saw you to laugh at you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and by buying and selling things dishonestly,"
+  },
+  {
+    "t": "q",
+    "v": "you caused the places where people worshiped me to become unacceptable to me."
+  },
+  {
+    "t": "q",
+    "v": "So I will make a fire that will burn your city down."
+  },
+  {
+    "t": "q",
+    "v": "Your city will be burned completely,"
+  },
+  {
+    "t": "q",
+    "v": "and the people who watch it will see"
+  },
+  {
+    "t": "q",
+    "v": "that what is left of the city will only be ashes."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "will be appalled."
+  },
+  {
+    "t": "q",
+    "v": "Now your city will disappear,"
+  },
+  {
+    "t": "q",
+    "v": "and it will not exist anymore.’”"
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Then Yahweh gave me another message. He said,"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "“Son of man, turn toward the city of Sidon, and announce the terrible things that will happen to it."
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Give the people of Sidon this message from Yahweh the Lord. Tell them:"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "I will send a plague on you,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "‘I am your enemy, you people of Sidon."
+  },
+  {
+    "t": "q",
+    "v": "By what I do to you,"
+  },
+  {
+    "t": "q",
+    "v": "I will show you how great I am,"
+  },
+  {
+    "t": "q",
+    "v": "and you will know that it is Yahweh who punishes you and judges you with justice."
+  },
+  {
+    "t": "q",
+    "v": "You will know that I am different from you, and that I will be honored by what I do to you!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and I will send enemies to come and kill you in your streets."
+  },
+  {
+    "t": "q",
+    "v": "They will attack you from every direction,"
+  },
+  {
+    "t": "q",
+    "v": "and they will slaughter your people inside the walls of your city."
+  },
+  {
+    "t": "q",
+    "v": "Then everyone will know that I, Yahweh, have the power to do what I say that I will do.’"
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 24,
+        "v": "No longer will people who live near the people of Israel hurt them as painful briers and sharp thorns hurt people. And then the Israelites will know that I, Yahweh, have the power to do what I say that I will do.”"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 25,
+        "v": "And this is also what Yahweh the Lord says: “I will gather them from distant countries where I have scattered them. And the other people groups will see that I am set apart and honored, when the house of Israel makes their homes in the land I gave my servant Jacob!"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "My people will live safely in Israel; they will build houses and plant vineyards. And when I punish the nearby people groups that despised them, my people will know that it is I, Yahweh their God, who has done this.”"
+      }
+    ]
+  }
+]

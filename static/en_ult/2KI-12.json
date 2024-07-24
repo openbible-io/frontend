@@ -1,162 +1,132 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "In the seventh year of Jehu, the reign of Joash began; he reigned for forty years in Jerusalem. His mother’s name was Zibiah, of Beersheba."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Joash did what was right in the eyes of Yahweh all the time, because Jehoiada the priest was instructing him."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "But the high places were not taken away. The people still sacrificed and burned incense on the high places."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "In the seventh year of Jehu, the reign of Joash began; he reigned for forty years in Jerusalem. His mother’s name was Zibiah, of Beersheba."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Joash said to the priests, “All the money that is brought in as sacred offerings into the house of Yahweh, that money for which each person is assessed—whether it is the money collected in the census, or the money received from personal vows, or the money brought in by people motivated by Yahweh in their hearts to give—"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "the priests should receive the money from one of their treasurers and repair whatever damage is found in the temple.”"
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "But by the twenty-third year of King Joash, the priests had not repaired anything in the temple."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Then King Joash called for Jehoiada the priest and for the other priests; he said to them, “Why have you not repaired anything in the temple? Now take no more money from your taxpayers, but take what has been collected for repairs of the temple and give it to those who can make the repairs.”"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "So the priests consented to take no more money from the people and not repair the temple themselves."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "Joash did what was right in the eyes of Yahweh all the time, because Jehoiada the priest was instructing him."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Instead, Jehoiada the priest took a chest, bored a hole in its lid, and set it beside the altar, on the right side as one comes into the house of Yahweh. The priests who were guarding the temple entrance put into it all the money that was brought to the house of Yahweh."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Whenever they saw that there was much money in the chest, the king’s scribe and the high priest would come and put the money in bags and then count it, the money found in the temple of Yahweh."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "They gave the money that was weighed out into the hands of men who took care of the temple of Yahweh. They paid it out to the carpenters and the builders who worked on the temple of Yahweh,"
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "and to the masons and the stonecutters, for buying timber and cutting stone to repair the temple of Yahweh, and for all that was needed to be paid to repair it."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "But the money that was brought into the house of Yahweh did not pay to make for it any silver cups, lamp trimmers, basins, trumpets, or any gold or silver furnishing."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "They gave this money to those who did the work of repairing the house of Yahweh."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "In addition, they did not require the money paid for repairs to be accounted for by the men who received it and paid it to the workmen, because these men were honest."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "But the money for the guilt offerings and the money for the sin offerings was not brought into the temple of Yahweh, because it belonged to the priests."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Then Hazael king of Aram attacked and fought against Gath, and took it. Hazael then turned to attack Jerusalem."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "Joash king of Judah took all the things that Jehoshaphat and Jehoram and Ahaziah, his fathers, kings of Judah, had set apart, and what he had set apart, and all the gold that was found in the storerooms of the houses of Yahweh and of the king and he sent them to Hazael king of Aram. Then Hazael went away from Jerusalem."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "As for the other matters concerning Joash, all that he did, are they not written in the book of the events of the kings of Judah?"
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "His servants arose and plotted together; they attacked Joash in Beth Millo, on the way that goes down to Silla."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "Jozabad "
-          },
-          {
-            "tag": "f",
-            "text": "+ "
-          },
-          {
-            "tag": "ft",
-            "text": "Some ancient manuscripts have "
-          },
-          {
-            "tag": "fqa",
-            "text": "Jozacar ."
-          },
-          {
-            "tag": "f",
-            "text": "* son of Shimeath, and Jehozabad son of Shomer, his servants, attacked him, and he died. They buried Joash with his ancestors in the city of David, and Amaziah, his son, became king in his place."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 3,
+        "v": "But the high places were not taken away. The people still sacrificed and burned incense on the high places."
       }
-    ],
-    "num": 12
+    ]
   },
-  "id": "KI unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Kings",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Second Kings "
-    }
-  ]
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Joash said to the priests, “All the money that is brought in as sacred offerings into the house of Yahweh, that money for which each person is assessed—whether it is the money collected in the census, or the money received from personal vows, or the money brought in by people motivated by Yahweh in their hearts to give—"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "the priests should receive the money from one of their treasurers and repair whatever damage is found in the temple.”"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "But by the twenty-third year of King Joash, the priests had not repaired anything in the temple."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Then King Joash called for Jehoiada the priest and for the other priests; he said to them, “Why have you not repaired anything in the temple? Now take no more money from your taxpayers, but take what has been collected for repairs of the temple and give it to those who can make the repairs.”"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "So the priests consented to take no more money from the people and not repair the temple themselves."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Instead, Jehoiada the priest took a chest, bored a hole in its lid, and set it beside the altar, on the right side as one comes into the house of Yahweh. The priests who were guarding the temple entrance put into it all the money that was brought to the house of Yahweh."
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Whenever they saw that there was much money in the chest, the king’s scribe and the high priest would come and put the money in bags and then count it, the money found in the temple of Yahweh."
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "They gave the money that was weighed out into the hands of men who took care of the temple of Yahweh. They paid it out to the carpenters and the builders who worked on the temple of Yahweh,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "and to the masons and the stonecutters, for buying timber and cutting stone to repair the temple of Yahweh, and for all that was needed to be paid to repair it."
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "But the money that was brought into the house of Yahweh did not pay to make for it any silver cups, lamp trimmers, basins, trumpets, or any gold or silver furnishing."
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "They gave this money to those who did the work of repairing the house of Yahweh."
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "In addition, they did not require the money paid for repairs to be accounted for by the men who received it and paid it to the workmen, because these men were honest."
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "But the money for the guilt offerings and the money for the sin offerings was not brought into the temple of Yahweh, because it belonged to the priests."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Then Hazael king of Aram attacked and fought against Gath, and took it. Hazael then turned to attack Jerusalem."
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Joash king of Judah took all the things that Jehoshaphat and Jehoram and Ahaziah, his fathers, kings of Judah, had set apart, and what he had set apart, and all the gold that was found in the storerooms of the houses of Yahweh and of the king and he sent them to Hazael king of Aram. Then Hazael went away from Jerusalem."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 19,
+        "v": "As for the other matters concerning Joash, all that he did, are they not written in the book of the events of the kings of Judah?"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "His servants arose and plotted together; they attacked Joash in Beth Millo, on the way that goes down to Silla."
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Jozabad"
+      }
+    ]
+  }
+]

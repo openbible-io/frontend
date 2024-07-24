@@ -1,244 +1,379 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "God truly is good to us Israelite people,"
       },
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 2,
+        "v": "As for me, I almost stopped trusting in God;"
       },
       {
-        "tag": "d",
-        "text": "A psalm written by Asaph"
+        "t": "v",
+        "n": 3,
+        "v": "because I saw those who proudly said that they did not need God, and I wanted to be like them."
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "God, why have you abandoned us?"
-          },
-          {
-            "tag": "q2",
-            "text": "Will you keep rejecting us forever?"
-          },
-          {
-            "tag": "q1",
-            "text": "Why are you angry with us"
-          },
-          {
-            "tag": "q2",
-            "text": "since we are like sheep in your pasture and you are like our shepherd?"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Do not forget your people whom you chose long ago,"
-          },
-          {
-            "tag": "q2",
-            "text": "the people whom you freed from being slaves in Egypt and caused to become your tribe."
-          },
-          {
-            "tag": "q1",
-            "text": "Do not forget Jerusalem, which is your home on this earth."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Walk along and see where everything has been totally ruined;"
-          },
-          {
-            "tag": "q2",
-            "text": "our enemies have destroyed everything in the sacred temple."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Your enemies shouted triumphantly in this sacred place;"
-          },
-          {
-            "tag": "q1",
-            "text": "they erected their banners to show they had defeated us."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "They cut down all the engraved objects in the temple as woodsmen cut down trees."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Then they smashed all the carved wood with their axes and hammers."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Then they burned your temple to the ground;"
-          },
-          {
-            "tag": "q2",
-            "text": "they caused that place where you were worshiped to be unfit for people to worship in."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "They said to themselves, \"We will destroy the Israelites completely,\""
-          },
-          {
-            "tag": "q2",
-            "text": "and they also burned down all the other places where we gathered to worship you."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "All our sacred symbols are gone;"
-          },
-          {
-            "tag": "q2",
-            "text": "there are no prophets now,"
-          },
-          {
-            "tag": "q2",
-            "text": "and no one knows how long this situation will continue."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "God, how long will our enemies make fun of you?"
-          },
-          {
-            "tag": "q1",
-            "text": "Will they insult you?"
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Why do you refuse to help us?"
-          },
-          {
-            "tag": "q2",
-            "text": "Why do you keep your hand inside your cloak instead of using it to destroy our enemies?"
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "God, you have been our king during all the years since we came out of Egypt,"
-          },
-          {
-            "tag": "q1",
-            "text": "and you have enabled us to defeat our enemies in the land of Israel."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "By your power you caused the sea to divide;"
-          },
-          {
-            "tag": "q2",
-            "text": "it was as though you had smashed the heads of the rulers of Egypt who were like huge sea dragons."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "It was as though you crushed the head of the king of Egypt"
-          },
-          {
-            "tag": "q2",
-            "text": "and gave his body to the animals in the desert to eat."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "You caused springs and streams to flow,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you also dried up rivers that had never dried up previously."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "You created the days and the nights,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you put the sun and the moon in their places."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "You determined where the oceans end and the land begins,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you created the summer season and the winter season."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "Yahweh, do not forget that your enemies laugh at you"
-          },
-          {
-            "tag": "q1",
-            "text": "and that it is foolish people who despise you."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "Do not abandon your helpless people into the hands of their cruel enemies;"
-          },
-          {
-            "tag": "q1",
-            "text": "do not forget your suffering people."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Continue thinking about the covenant that you made with us;"
-          },
-          {
-            "tag": "q2",
-            "text": "remember that there are violent people in every dark place on the earth."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "Do not allow your oppressed people to be disgraced;"
-          },
-          {
-            "tag": "q2",
-            "text": "help those poor and needy people in order that they will again praise you."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "God, arise and defend yourself by defending your people!"
-          },
-          {
-            "tag": "q1",
-            "text": "Do not forget that foolish people laugh at you all during the day!"
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "Do not forget that your enemies shout angrily at you;"
-          },
-          {
-            "tag": "q2",
-            "text": "the uproar that they make while they oppose you never stops."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 4,
+        "v": "Those people do not suffer from sickness;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "They do not have the troubles that other people have;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "So they are proud, as proud as a woman with a beautiful necklace."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "From their inner beings pour out evil deeds,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "They scoff at other people, and they talk about doing evil things to them;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "They say evil things about God, who is in heaven,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "The result is that people pay attention to them"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Wicked people say to themselves, “God will certainly not know what we have done;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "That is what wicked people are like;"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "So, God, I think it is useless that I have always done what you want me to"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "During each day I have problems,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "But if I had said these things out loud in front of others,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "When I tried to think completely about these things,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "But when I went to your temple, you spoke to me,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Now I know that you will surely put them in dangerous places"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "They will be destroyed instantly;"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "They will disappear as quickly as a dream disappears when a person awakes in the morning;"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "When I felt sad in my inner being"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "I was stupid and ignorant,"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "But I am always close to you,"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "You guide me by teaching me,"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "You are in heaven, and I belong to you;"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "My body and my mind may become very weak,"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "Those who remain far from you will be destroyed;"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "But as for me, it is wonderful to be near to God"
       }
-    ],
-    "num": 74
+    ]
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "to those who, with all their inner being, want to do all that he desires."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I was almost guilty of committing a great sin against him"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I saw that they became wealthy even though they were wicked."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they are always strong and healthy."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they do not have problems as others do."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "They are as proud of their violent actions as some people are proud of their beautiful robes."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and in their inner beings they are always thinking about more evil things to do."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they are proud while they plan to oppress others."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they talk boastfully about things that they have done here on the earth."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and listen to everything they say."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "people say that he is greater than any other god, but he cannot find out.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they never worry about anything, and they are always becoming richer."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and that I have not committed sins."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and every morning you punish me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I would have been sinning against your people."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "it was too hard for me to understand them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and I understood what will happen to the wicked people after they die."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "where they will fall down and die."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they will die in terrible ways."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Lord, when you arise, you will cause them to disappear."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and my feelings were hurt,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and I behaved like an animal toward you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and you hold my hand."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and at the end of my life, you will receive me and honor me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "there is nothing on this earth that I desire more than that."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but, God, you continue to enable me to be strong;"
+  },
+  {
+    "t": "q",
+    "v": "I belong to you forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you will get rid of those who abandon you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and to have Yahweh protect me"
+  },
+  {
+    "t": "q",
+    "v": "and to proclaim to others all that he has done for me."
+  }
+]

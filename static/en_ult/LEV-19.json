@@ -1,351 +1,331 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Yahweh spoke to Moses, saying,"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "“Speak to all the assembly of the people of Israel and say to them, ‘You must be holy, for I Yahweh your God am holy."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Everyone must respect his mother and his father, and you must keep my Sabbaths. I am Yahweh your God."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Do not turn to worthless idols, nor make for yourselves gods out of metal. I am Yahweh your God."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh spoke to Moses, saying,"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "When you offer a sacrifice of fellowship offerings to Yahweh, you must offer it that you may be accepted."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "It must be eaten the same day you offer it, or on the next day. If anything remains until the third day, it must be burned up with fire."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "If it is eaten at all on the third day, it is unclean meat; it must not be accepted,"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "and everyone who eats it must carry his own guilt because he has defiled what is holy to Yahweh, and that person must be cut off from his people."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "“Speak to all the assembly of the people of Israel and say to them, ‘You must be holy, for I Yahweh your God am holy."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "When you reap the harvest of your land, you must not completely reap the corners of your field, neither will you gather all the produce of your harvest."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "You must not gather every grape from your vineyard, nor gather the grapes that have fallen on the ground in your vineyard. You must leave them for the poor and for the foreigner. I am Yahweh your God."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 3,
+        "v": "Everyone must respect his mother and his father, and you must keep my Sabbaths. I am Yahweh your God."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Do not steal."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [],
-        "tag": "p",
-        "text": "Do not lie."
-      },
-      {
-        "children": [],
-        "tag": "p",
-        "text": "Do not deceive each other."
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Do not swear by my name falsely and profane the name of your God. I am Yahweh."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Do not oppress your neighbor or rob him. The wages of a hired servant must not stay with you all night until the morning."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "Do not curse the deaf or put a stumbling block before the blind. Instead, you must fear your God. I am Yahweh."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "Do not cause judgment to be false. You must not show favoritism to someone because he is poor, and you must not show favoritism to someone because he is important. Instead, judge your neighbor righteously."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Do not walk around spreading slander among your people, but seek to protect your neighbor’s life. I am Yahweh."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Do not hate your brother in your heart. You must honestly rebuke your neighbor so as not to share in sin because of him."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "Do not take vengeance or hold any grudge against any of your people, but instead love your neighbor as yourself. I am Yahweh."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "You must keep my commands."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [],
-        "tag": "p",
-        "text": "Do not try to breed your animals with different kinds of other animals."
-      },
-      {
-        "children": [],
-        "tag": "p",
-        "text": "Do not mix two different kinds of seeds when planting your field."
-      },
-      {
-        "children": [],
-        "tag": "p",
-        "text": "Do not wear clothing made of two kinds of material mixed together."
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Whoever lies with a slave girl who is promised to a husband, but who has not been ransomed or given her freedom, must be punished. They must not be put to death because she was not free."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "A man must bring his guilt offering to Yahweh to the entrance to the tent of meeting—a ram as a guilt offering."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Then the priest will make atonement for him with the ram for the guilt offering before Yahweh, for the sin that he has committed. Then the sin which he has committed will be forgiven."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "When you come into the land and have planted all kinds of trees for food, then you must regard the fruit they produce as forbidden to be eaten. The fruit must be forbidden to you for three years. It must not be eaten."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "But in the fourth year all the fruit will be holy, an offering of praise to Yahweh."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "In the fifth you may eat the fruit, having waited so that the trees might produce more. I am Yahweh your God."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "Do not eat any meat with blood still in it."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [],
-        "tag": "p",
-        "text": "Do not consult spirits about the future, and do not seek to control others by supernatural powers."
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "You will not round off the corners of the hair on the sides of your head or shave off the edge of your beard."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "Do not cut your body for the dead or put tattoo marks on your body. I am Yahweh."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "Do not disgrace your daughter by making her a prostitute, or the nation will fall to prostitution and the land will become full of wickedness."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "You must keep my Sabbaths and honor the sanctuary of my tabernacle. I am Yahweh."
-          }
-        ],
-        "tag": "m"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "Do not turn to those who talk with the dead or with spirits. Do not seek them out, or they will defile you. I am Yahweh your God."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "32",
-            "text": "You must rise before the gray-headed person and honor the presence of an old man. You must fear your God. I am Yahweh."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "33",
-            "text": "If a foreigner lives among you in your land, you must not do him any wrong."
-          },
-          {
-            "tag": "v",
-            "num": "34",
-            "text": "The foreigner who lives with you must be to you like the native-born Israelite who lives among you, and you must love him as yourself, because you were foreigners in the land of Egypt. I am Yahweh your God."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "35",
-            "text": "Do not use false measures when measuring length, weight, or quantity."
-          },
-          {
-            "tag": "v",
-            "num": "36",
-            "text": "You must use just scales, just weights, a just ephah, and a just hin. I am Yahweh your God, who brought you out of the land of Egypt."
-          },
-          {
-            "tag": "v",
-            "num": "37",
-            "text": "You must obey all my decrees and all my laws, and do them. I am Yahweh.’”"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 4,
+        "v": "Do not turn to worthless idols, nor make for yourselves gods out of metal. I am Yahweh your God."
       }
-    ],
-    "num": 19
+    ]
   },
-  "id": "LEV unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Leviticus",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Leviticus "
-    }
-  ]
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 5,
+        "v": "When you offer a sacrifice of fellowship offerings to Yahweh, you must offer it that you may be accepted."
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "It must be eaten the same day you offer it, or on the next day. If anything remains until the third day, it must be burned up with fire."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "If it is eaten at all on the third day, it is unclean meat; it must not be accepted,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "and everyone who eats it must carry his own guilt because he has defiled what is holy to Yahweh, and that person must be cut off from his people."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 9,
+        "v": "When you reap the harvest of your land, you must not completely reap the corners of your field, neither will you gather all the produce of your harvest."
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "You must not gather every grape from your vineyard, nor gather the grapes that have fallen on the ground in your vineyard. You must leave them for the poor and for the foreigner. I am Yahweh your God."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Do not steal."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": []
+  },
+  {
+    "t": "p",
+    "v": []
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Do not swear by my name falsely and profane the name of your God. I am Yahweh."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Do not oppress your neighbor or rob him. The wages of a hired servant must not stay with you all night until the morning."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 14,
+        "v": "Do not curse the deaf or put a stumbling block before the blind. Instead, you must fear your God. I am Yahweh."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Do not cause judgment to be false. You must not show favoritism to someone because he is poor, and you must not show favoritism to someone because he is important. Instead, judge your neighbor righteously."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Do not walk around spreading slander among your people, but seek to protect your neighbor’s life. I am Yahweh."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Do not hate your brother in your heart. You must honestly rebuke your neighbor so as not to share in sin because of him."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Do not take vengeance or hold any grudge against any of your people, but instead love your neighbor as yourself. I am Yahweh."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 19,
+        "v": "You must keep my commands."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": []
+  },
+  {
+    "t": "p",
+    "v": []
+  },
+  {
+    "t": "p",
+    "v": []
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Whoever lies with a slave girl who is promised to a husband, but who has not been ransomed or given her freedom, must be punished. They must not be put to death because she was not free."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 21,
+        "v": "A man must bring his guilt offering to Yahweh to the entrance to the tent of meeting—a ram as a guilt offering."
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Then the priest will make atonement for him with the ram for the guilt offering before Yahweh, for the sin that he has committed. Then the sin which he has committed will be forgiven."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 23,
+        "v": "When you come into the land and have planted all kinds of trees for food, then you must regard the fruit they produce as forbidden to be eaten. The fruit must be forbidden to you for three years. It must not be eaten."
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "But in the fourth year all the fruit will be holy, an offering of praise to Yahweh."
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "In the fifth you may eat the fruit, having waited so that the trees might produce more. I am Yahweh your God."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 26,
+        "v": "Do not eat any meat with blood still in it."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": []
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 27,
+        "v": "You will not round off the corners of the hair on the sides of your head or shave off the edge of your beard."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 28,
+        "v": "Do not cut your body for the dead or put tattoo marks on your body. I am Yahweh."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 29,
+        "v": "Do not disgrace your daughter by making her a prostitute, or the nation will fall to prostitution and the land will become full of wickedness."
+      }
+    ]
+  },
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 30,
+        "v": "You must keep my Sabbaths and honor the sanctuary of my tabernacle. I am Yahweh."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 31,
+        "v": "Do not turn to those who talk with the dead or with spirits. Do not seek them out, or they will defile you. I am Yahweh your God."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 32,
+        "v": "You must rise before the gray-headed person and honor the presence of an old man. You must fear your God. I am Yahweh."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 33,
+        "v": "If a foreigner lives among you in your land, you must not do him any wrong."
+      },
+      {
+        "t": "v",
+        "n": 34,
+        "v": "The foreigner who lives with you must be to you like the native-born Israelite who lives among you, and you must love him as yourself, because you were foreigners in the land of Egypt. I am Yahweh your God."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 35,
+        "v": "Do not use false measures when measuring length, weight, or quantity."
+      },
+      {
+        "t": "v",
+        "n": 36,
+        "v": "You must use just scales, just weights, a just ephah, and a just hin. I am Yahweh your God, who brought you out of the land of Egypt."
+      },
+      {
+        "t": "v",
+        "n": 37,
+        "v": "You must obey all my decrees and all my laws, and do them. I am Yahweh.’”"
+      }
+    ]
+  }
+]

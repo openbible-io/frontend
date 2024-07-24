@@ -1,233 +1,128 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh our Lord, people all over the world know that you are very great!"
       },
       {
-        "tag": "d",
-        "text": "A psalm written by David for the choir director, to be sung using the tune 'The death of my son'"
+        "t": "v",
+        "n": 2,
+        "v": "You have taught little children and infants to praise you;"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Yahweh, I will praise you with all of my inner being."
-          },
-          {
-            "tag": "q2",
-            "text": "I will tell others about all the wonderful things that you have done."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "I will sing to celebrate what you, who are much greater than all other gods, have done."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "When my enemies realize that you are very powerful,"
-          },
-          {
-            "tag": "q2",
-            "text": "they stumble, and then they are killed."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "You sit on your throne to judge people,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you have judged fairly concerning me."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "You rebuked the people of other nations,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you have gotten rid of the wicked people;"
-          },
-          {
-            "tag": "q2",
-            "text": "you have erased their names forever."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Our enemies have disappeared;"
-          },
-          {
-            "tag": "q2",
-            "text": "you destroyed their cities,"
-          },
-          {
-            "tag": "q2",
-            "text": "and people do not even remember them anymore."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "But Yahweh rules forever."
-          },
-          {
-            "tag": "q2",
-            "text": "He judges people while he sits on his throne."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "He will judge all the people in the world justly;"
-          },
-          {
-            "tag": "q2",
-            "text": "he will be fair when he judges the people of every nation."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Yahweh will be a refuge for those who are oppressed;"
-          },
-          {
-            "tag": "q2",
-            "text": "he will be like a shelter for them when they have trouble."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Those who know Yahweh trust in him;"
-          },
-          {
-            "tag": "q2",
-            "text": "he never abandons those who come to him for help."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Yahweh rules on Mount Zion;"
-          },
-          {
-            "tag": "q2",
-            "text": "praise him and sing to him."
-          },
-          {
-            "tag": "q1",
-            "text": "Tell the people of all the nations the marvelous things that he has done."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "He does not forget to punish those who have murdered others;"
-          },
-          {
-            "tag": "q2",
-            "text": "he will punish them,"
-          },
-          {
-            "tag": "q2",
-            "text": "and he will not ignore people who are crying because they are suffering."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Yahweh, act mercifully toward me!"
-          },
-          {
-            "tag": "q1",
-            "text": "Look at the ways that my enemies have injured me."
-          },
-          {
-            "tag": "q2",
-            "text": "Do not allow me to die because of these injuries."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "I want to live in order that I can praise you at the gates of Jerusalem"
-          },
-          {
-            "tag": "q2",
-            "text": "and to rejoice because you rescued me."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "It is as though the wicked people of many nations have dug a pit for me to fall into,"
-          },
-          {
-            "tag": "q2",
-            "text": "but they have fallen into that same pit."
-          },
-          {
-            "tag": "q1",
-            "text": "It is as though they have spread out a net to catch me,"
-          },
-          {
-            "tag": "q2",
-            "text": "but their feet have been caught in that same net."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Because of what you have done, people know that you make justice happen;"
-          },
-          {
-            "tag": "q2",
-            "text": "you allow wicked people to be trapped by the same evil things that they themselves do."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Wicked people will all die and be buried in their graves;"
-          },
-          {
-            "tag": "q2",
-            "text": "their spirits will go to be with all those who have forgotten about you."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "But you will not forget those who are needy;"
-          },
-          {
-            "tag": "q2",
-            "text": "what they confidently expect will never be in vain."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "Yahweh, do not allow our enemies to conquer us"
-          },
-          {
-            "tag": "q",
-            "text": "just because they are strong;"
-          },
-          {
-            "tag": "q",
-            "text": "You see what the people do and you bring justice to them all."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Yahweh, teach them that they must be afraid of you and honor you."
-          },
-          {
-            "tag": "q2",
-            "text": "Cause them to know that they are only human beings."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "I look up at the sky at night"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "It is amazing to me that you think about people,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "You made the angels in heaven to be only a little more important than we are;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "You put us in charge of everything that you made;"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "the sheep and the cattle,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "the birds, the fish,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Yahweh our Lord,"
       }
-    ],
-    "num": 9
+    ]
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "We see your greatness every time we look toward the heavens!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they cause your enemies and those who try to get revenge on you to be silent."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and see the things that you have made—"
+  },
+  {
+    "t": "q",
+    "v": "the moon and the stars that you have set in place."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "that you are concerned about us humans!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you caused us to be like kings!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you gave us authority over all things—"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and even the wild animals,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and everything else that swims in the seas."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "people all over the world know that you are very great!"
+  }
+]

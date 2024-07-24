@@ -1,232 +1,293 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "Rejoice in Yahweh, you righteous;"
       },
       {
-        "tag": "d",
-        "text": "A psalm of David; when he pretended to be insane before Abimelech, who drove him out."
+        "t": "v",
+        "n": 2,
+        "v": "Give thanks to Yahweh with the harp;"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "I will praise Yahweh at all times,"
-          },
-          {
-            "tag": "q",
-            "text": "his praise will always be in my mouth."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "I will praise Yahweh!"
-          },
-          {
-            "tag": "q",
-            "text": "May the oppressed hear and rejoice."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Praise Yahweh with me,"
-          },
-          {
-            "tag": "q",
-            "text": "let us lift up his name together."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "I sought Yahweh and he answered me,"
-          },
-          {
-            "tag": "q",
-            "text": "and he gave me victory over all my fears."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Those who look to him are radiant,"
-          },
-          {
-            "tag": "q",
-            "text": "and their faces are not ashamed."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "This oppressed man cried and Yahweh heard him"
-          },
-          {
-            "tag": "q",
-            "text": "and saved him from all his troubles."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "The angel of Yahweh camps around those who fear him"
-          },
-          {
-            "tag": "q",
-            "text": "and rescues them."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Taste and see that Yahweh is good."
-          },
-          {
-            "tag": "q",
-            "text": "Blessed is the man who takes refuge in him."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Fear Yahweh, you his holy people."
-          },
-          {
-            "tag": "q",
-            "text": "There is no lack for those who fear him."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "The young lions sometimes lack food and suffer hunger,"
-          },
-          {
-            "tag": "q",
-            "text": "but those who seek Yahweh will not lack anything good."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Come, sons, listen to me."
-          },
-          {
-            "tag": "q",
-            "text": "I will teach you the fear of Yahweh."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "What man is there who desires life"
-          },
-          {
-            "tag": "q",
-            "text": "and loves many days,"
-          },
-          {
-            "tag": "q",
-            "text": "that he may see good?"
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Then keep your tongue from evil"
-          },
-          {
-            "tag": "q",
-            "text": "and keep your lips from speaking lies."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "Turn away from evil and do good."
-          },
-          {
-            "tag": "q",
-            "text": "Seek peace and go after it."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "The eyes of Yahweh are on the righteous"
-          },
-          {
-            "tag": "q",
-            "text": "and his ears are directed toward their cry."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "The face of Yahweh is against those who do evil,"
-          },
-          {
-            "tag": "q",
-            "text": "to cut off the memory of them from the earth."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "The righteous cry out and Yahweh hears"
-          },
-          {
-            "tag": "q",
-            "text": "and he rescues them from all their troubles."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "Yahweh is close to the brokenhearted,"
-          },
-          {
-            "tag": "q",
-            "text": "and he saves those who are crushed in spirit."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "Many are the troubles of the righteous,"
-          },
-          {
-            "tag": "q",
-            "text": "but Yahweh delivers them out of them all."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "He keeps all his bones,"
-          },
-          {
-            "tag": "q",
-            "text": "not one of them will be broken."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "Evil will kill the wicked."
-          },
-          {
-            "tag": "q",
-            "text": "Those who hate the righteous will be condemned."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Yahweh rescues the lives of his servants."
-          },
-          {
-            "tag": "q",
-            "text": "None of those who take refuge in him will be condemned."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "Sing to him a new song;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "For Yahweh’s word is upright,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "He loves righteousness and justice."
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "By the word of Yahweh the heavens were made,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "He gathers the waters of the sea together like a heap;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Let the whole earth fear Yahweh;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "For he spoke, and it was done;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Yahweh frustrates the alliances of nations;"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "The plans of Yahweh stand forever,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Blessed is the nation whose God is Yahweh,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Yahweh looks from heaven;"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "From the place where he lives,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "He who shapes the hearts of them all"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "No king is saved by a vast army;"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "A horse is a false hope for victory;"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "See, Yahweh’s eye is on those who fear him,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "to deliver their lives from death"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "We wait for Yahweh;"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Our hearts rejoice in him,"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Let your covenant faithfulness, Yahweh, be with us"
       }
-    ],
-    "num": 34
+    ]
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "praise is appropriate for the upright."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "sing praises to him with the harp of ten strings."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "play skillfully and sing with joy."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and everything he does is fair."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "The earth is full of Yahweh’s covenant faithfulness."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and all the stars were made by the breath of his mouth."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he puts the oceans in storehouses."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "let all the inhabitants of the world stand in awe of him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he commanded, and it stood in place."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he overrules the plans of the peoples."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the plans of his heart for all generations."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the people whom he has chosen as his own inheritance."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he sees all the people."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he looks down on all who live on the earth."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "observes all their deeds."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "a warrior is not saved by his great strength."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "in spite of his great strength, he cannot rescue."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "on those who hope in his covenant faithfulness"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and to keep them alive in times of famine."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he is our help and our shield."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for we trust in his holy name."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "as we put our hope in you."
+  }
+]

@@ -1,82 +1,115 @@
-{
-  "chapter": {
-    "children": [
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "tag": "d",
-        "text": "A psalm written for people going up to the temple to worship."
-      },
-      {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Those who trust in Yahweh are like Mount Zion,"
-          },
-          {
-            "tag": "q2",
-            "text": "which cannot be shaken or moved out of its place."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "As the hills that surround Jerusalem protect it,"
-          },
-          {
-            "tag": "q2",
-            "text": "so Yahweh protects us, his people,"
-          },
-          {
-            "tag": "q2",
-            "text": "and he will protect us forever."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Wicked people should not be allowed to rule over the land where righteous people live."
-          },
-          {
-            "tag": "q2",
-            "text": "If they did that, those righteous people would think of doing wrong themselves."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Yahweh, do good things to those who do good things to others"
-          },
-          {
-            "tag": "q2",
-            "text": "and to those who sincerely obey your commands."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "But when you punish the Israelites who no longer obey you,"
-          },
-          {
-            "tag": "q2",
-            "text": "you will punish them the same as you punish all the other evildoers."
-          },
-          {
-            "tag": "q1",
-            "text": "I wish that things may go well for people in Israel!"
-          }
-        ],
-        "auto": true
-      }
-    ],
-    "num": 125
+[
+  {
+    "t": "m",
+    "v": []
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 1,
+        "v": "You Israelite people, answer this question:"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "When our enemies attacked us,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "we would have all been killed"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "They would have been like a flood of water sweeping us away;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "and we would all have drowned in the flood."
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "But we praise Yahweh"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "We have escaped from our enemies as a bird escapes from the trap that hunters have set;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Yahweh is the one who helps us;"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "What would have happened to us if Yahweh had not been helping us?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "if Yahweh had not been fighting for us,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because they were very angry with us!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "it would have been as though the water had covered us,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because he has not allowed our enemies to destroy us."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "it is as though the trap that our enemies set for us was broken"
+  },
+  {
+    "t": "q",
+    "v": "and we have escaped from it!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he is the one who made heaven and the earth."
+  }
+]

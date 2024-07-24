@@ -1,57 +1,62 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "Behold, how good and how pleasant it is"
       },
       {
-        "tag": "d",
-        "text": "A song of ascents."
+        "t": "v",
+        "n": 2,
+        "v": "It is like fine oil on the head"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Come, bless Yahweh, all you servants of Yahweh,"
-          },
-          {
-            "tag": "q",
-            "text": "you who serve during the night in Yahweh’s house."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Lift up your hands to the holy place"
-          },
-          {
-            "tag": "q",
-            "text": "and bless Yahweh."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "May Yahweh bless you from Zion,"
-          },
-          {
-            "tag": "q",
-            "text": "he who made heaven and earth."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "It is like the dew of Hermon"
       }
-    ],
-    "num": 134
+    ]
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for brothers to live together!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "pouring down on the beard—"
+  },
+  {
+    "t": "q",
+    "v": "Aaron’s beard,"
+  },
+  {
+    "t": "q",
+    "v": "and then it pours down on the collar of his robes."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "which falls on the mountains of Zion."
+  },
+  {
+    "t": "q",
+    "v": "For there Yahweh commanded the blessing—"
+  },
+  {
+    "t": "q",
+    "v": "life forevermore."
+  }
+]

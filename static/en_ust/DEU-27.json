@@ -1,217 +1,256 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Moses, along with the other Israelite leaders, said this to the people: \"Obey all the commandments that I am giving to you today."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Soon you will cross the Jordan River and enter the land that Yahweh, your God, promised to give to you. There, set up some large stones and cover them with plaster."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Write on those stones all these laws and teachings, when you enter that very fertile land that Yahweh, the God whom our ancestors worshiped, promised to give to you."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "When you have crossed the Jordan River, set up some large stones on Mount Ebal, just as I told you, and cover them with plaster."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "And build a stone altar there to offer sacrifices to Yahweh, but do not do any work on those stones with iron tools."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "The altar that you make to burn sacrifices to Yahweh our God must be made with uncut stones."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "And there you must sacrifice offerings to restore fellowship with Yahweh, and you must eat your share of those offerings and rejoice in the presence of Yahweh."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "And, when you write these laws on those stones, you must write them very clearly.\""
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "Moses, along with the other Israelite leaders, said this to the people: “Obey all the commandments that I am giving to you today."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Then Moses, along with the priests, said to all the Israelite people, \"You Israelite people, be quiet and listen to what I am saying. Today you have become the people who belong to Yahweh, our God."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "So you must do what he tells you, and obey all the rules and regulations that I am giving to you today.\""
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "Soon you will cross the Jordan River and enter the land that Yahweh, your God, promised to give to you. There, set up some large stones and cover them with plaster."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "On that same day Moses said to the Israelite people,"
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "\"After you have crossed over the Jordan River, the tribes of Simeon, Levi, Judah, Issachar, Joseph, and Benjamin must stand on Mount Gerizim and request Yahweh to bless the people."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "And the tribes of Reuben, Gad, Asher, Zebulun, Dan, and Naphtali must stand on Mount Ebal and listen to the things that Yahweh will do when he curses the people."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 3,
+        "v": "Write on those stones all these laws and teachings, when you enter that very fertile land that Yahweh, the God whom our ancestors worshiped, promised to give to you."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "The descendants of Levi must shout these words loudly:"
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "'Yahweh will curse anyone who carves a figure from wood or stone or casts a figure from metal, and secretly sets it up and worships it."
-          },
-          {
-            "tag": "q2",
-            "text": "Yahweh considers that those things are detestable.'"
-          },
-          {
-            "tag": "q2",
-            "text": "And all the people must reply, 'Amen.'"
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "'Yahweh will curse anyone who dishonors his father or his mother.'"
-          },
-          {
-            "tag": "q2",
-            "text": "And all the people must reply, 'Amen.'"
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "'Yahweh will curse anyone who removes someone else's markers of property boundaries.'"
-          },
-          {
-            "tag": "q2",
-            "text": "And all the people must reply, 'Amen.'"
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "'Yahweh will curse anyone who leads a blind person to go in the wrong direction.'"
-          },
-          {
-            "tag": "q2",
-            "text": "And all the people must reply, 'Amen.'"
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "'Yahweh will curse anyone who deprives foreigners or orphans or widow of the things that the laws state must be done for them.'"
-          },
-          {
-            "tag": "q2",
-            "text": "And all the people must reply, 'Amen.'"
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "'Yahweh will curse anyone who shows no respect for his father"
-          },
-          {
-            "tag": "q2",
-            "text": "by sleeping with any of his father's wives.'"
-          },
-          {
-            "tag": "q2",
-            "text": "And all the people must reply, 'Amen.'"
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "'Yahweh will curse anyone who sleeps with any animal.'"
-          },
-          {
-            "tag": "q2",
-            "text": "And all the people must reply, 'Amen.'"
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "'Yahweh will curse anyone who sleeps with his sister or with his half-sister.'"
-          },
-          {
-            "tag": "q2",
-            "text": "And all the people must reply, 'Amen.'"
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "'Yahweh will curse anyone who sleeps with his mother-in-law.'"
-          },
-          {
-            "tag": "q2",
-            "text": "And all the people must reply, 'Amen.'"
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "'Yahweh will curse anyone who secretly murders someone else.'"
-          },
-          {
-            "tag": "q2",
-            "text": "And all the people must reply, 'Amen.'"
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "'Yahweh will curse anyone who, because someone else has given him a bribe, murders someone who is innocent.'"
-          },
-          {
-            "tag": "q2",
-            "text": "And all the people must reply, 'Amen.'"
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "'Yahweh will curse anyone who by disobeying these laws refuses to declare that those laws are good.'"
-          },
-          {
-            "tag": "q2",
-            "text": "And all the people must reply, 'Amen.'\""
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 4,
+        "v": "When you have crossed the Jordan River, set up some large stones on Mount Ebal, just as I told you, and cover them with plaster."
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "And build a stone altar there to offer sacrifices to Yahweh, but do not do any work on those stones with iron tools."
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "The altar that you make to burn sacrifices to Yahweh our God must be made with uncut stones."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "And there you must sacrifice offerings to restore fellowship with Yahweh, and you must eat your share of those offerings and rejoice in the presence of Yahweh."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "And, when you write these laws on those stones, you must write them very clearly.”"
       }
-    ],
-    "num": 27
+    ]
   },
-  "id": "DEU unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Deuteronomy"
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Then Moses, along with the priests, said to all the Israelite people, “You Israelite people, be quiet and listen to what I am saying. Today you have become the people who belong to Yahweh, our God."
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "So you must do what he tells you, and obey all the rules and regulations that I am giving to you today.”"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 11,
+        "v": "On that same day Moses said to the Israelite people,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "“After you have crossed over the Jordan River, the tribes of Simeon, Levi, Judah, Issachar, Joseph, and Benjamin must stand on Mount Gerizim and request Yahweh to bless the people."
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "And the tribes of Reuben, Gad, Asher, Zebulun, Dan, and Naphtali must stand on Mount Ebal and listen to the things that Yahweh will do when he curses the people."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 14,
+        "v": "The descendants of Levi must shout these words loudly:"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "‘Yahweh will curse anyone who carves a figure from wood or stone or casts a figure from metal, and secretly sets it up and worships it."
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "‘Yahweh will curse anyone who dishonors his father or his mother.’"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "‘Yahweh will curse anyone who removes someone else’s markers of property boundaries.’"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "‘Yahweh will curse anyone who leads a blind person to go in the wrong direction.’"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "‘Yahweh will curse anyone who deprives foreigners or orphans or widow of the things that the laws state must be done for them.’"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "‘Yahweh will curse anyone who shows no respect for his father"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "‘Yahweh will curse anyone who sleeps with any animal.’"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "‘Yahweh will curse anyone who sleeps with his sister or with his half-sister.’"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "‘Yahweh will curse anyone who sleeps with his mother-in-law.’"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "‘Yahweh will curse anyone who secretly murders someone else.’"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "‘Yahweh will curse anyone who, because someone else has given him a bribe, murders someone who is innocent.’"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "‘Yahweh will curse anyone who by disobeying these laws refuses to declare that those laws are good.’"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Yahweh considers that those things are detestable.’"
+  },
+  {
+    "t": "q",
+    "v": "And all the people must reply, ‘Amen.’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "And all the people must reply, ‘Amen.’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "And all the people must reply, ‘Amen.’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "And all the people must reply, ‘Amen.’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "And all the people must reply, ‘Amen.’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "by sleeping with any of his father’s wives.’"
+  },
+  {
+    "t": "q",
+    "v": "And all the people must reply, ‘Amen.’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "And all the people must reply, ‘Amen.’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "And all the people must reply, ‘Amen.’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "And all the people must reply, ‘Amen.’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "And all the people must reply, ‘Amen.’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "And all the people must reply, ‘Amen.’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "And all the people must reply, ‘Amen.’”"
+  }
+]

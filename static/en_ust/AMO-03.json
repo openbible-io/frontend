@@ -1,258 +1,358 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "\"You people of Israel, I brought all your ancestors out of Egypt;"
-          },
-          {
-            "tag": "q2",
-            "text": "so listen to what I am saying about you."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "From all the people groups on the earth,"
-          },
-          {
-            "tag": "q2",
-            "text": "I chose and took care of only you."
-          },
-          {
-            "tag": "q1",
-            "text": "That is the reason that I will punish you"
-          },
-          {
-            "tag": "q2",
-            "text": "for the sins that you have committed.\""
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Two people certainly cannot walk together"
-          },
-          {
-            "tag": "q2",
-            "text": "if they have not already agreed what place they will start walking from."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "A lion in a forest certainly does not roar"
-          },
-          {
-            "tag": "q2",
-            "text": "if it has not killed another animal."
-          },
-          {
-            "tag": "q1",
-            "text": "It does not growl in its den"
-          },
-          {
-            "tag": "q2",
-            "text": "if it is not eating the flesh of an animal that it has caught."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "No one can catch a bird"
-          },
-          {
-            "tag": "q2",
-            "text": "if he does not set a trap for it."
-          },
-          {
-            "tag": "q1",
-            "text": "A trap does not spring shut"
-          },
-          {
-            "tag": "q2",
-            "text": "when some animal has not sprung the trap."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Similarly, all the people in a city certainly become afraid"
-          },
-          {
-            "tag": "q2",
-            "text": "when they hear someone blowing a trumpet"
-          },
-          {
-            "tag": "q2",
-            "text": "to signal that enemies are attacking."
-          },
-          {
-            "tag": "q1",
-            "text": "And when a city experiences disaster,"
-          },
-          {
-            "tag": "q2",
-            "text": "Yahweh is the one who has caused it."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Whatever Yahweh plans to do,"
-          },
-          {
-            "tag": "q2",
-            "text": "he tells his prophets about it."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Everyone certainly becomes terrified when they hear a lion roar;"
-          },
-          {
-            "tag": "q2",
-            "text": "Yahweh the Lord has given messages to prophets,"
-          },
-          {
-            "tag": "q1",
-            "text": "they certainly must proclaim those messages,"
-          },
-          {
-            "tag": "q2",
-            "text": "even though they terrify people."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Proclaim to the people who guard the strongholds in Ashdod,"
-          },
-          {
-            "tag": "q2",
-            "text": "and to those who protect the fortresses in the land of Egypt, and say this,"
-          },
-          {
-            "tag": "q1",
-            "text": "\"Come together on the hills of Samaria,"
-          },
-          {
-            "tag": "q2",
-            "text": "and see how much the people in that city are frightened,"
-          },
-          {
-            "tag": "q2",
-            "text": "and see the way the people are suffering because of what they are doing to each other!\""
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Yahweh says that the people there do not know how to do things that are right."
-          },
-          {
-            "tag": "q2",
-            "text": "Their homes are filled with valuable things that they have stolen or taken violently from others."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "“You people of Israel, I brought all your ancestors out of Egypt;"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "So Yahweh our God says that soon their enemies will come"
-          },
-          {
-            "tag": "q2",
-            "text": "and tear down their defenses"
-          },
-          {
-            "tag": "q2",
-            "text": "and take away those valuable things."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "From all the people groups on the earth,"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Yahweh has declared this:"
-          },
-          {
-            "tag": "q1",
-            "text": "\"When a lion attacks a sheep,"
-          },
-          {
-            "tag": "q2",
-            "text": "sometimes a shepherd is able to snatch from the lion's mouth"
-          },
-          {
-            "tag": "q2",
-            "text": "only two legs or an ear of the sheep."
-          },
-          {
-            "tag": "q1",
-            "text": "Similarly, only a few people from Samaria will escape,"
-          },
-          {
-            "tag": "q2",
-            "text": "just as if someone could save only a part of a couch or a bed from a fire in the house.\"U"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 3,
+        "v": "Two people certainly cannot walk together"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Yahweh, commander of the angel armies, says this:"
-          },
-          {
-            "tag": "q2",
-            "text": "\"Proclaim this message about the descendants of Jacob:"
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "When I, Yahweh, punish the people of Israel"
-          },
-          {
-            "tag": "q2",
-            "text": "because of the sins that they have committed,"
-          },
-          {
-            "tag": "q1",
-            "text": "I will cause the altars at the town of Bethel to be destroyed;"
-          },
-          {
-            "tag": "q2",
-            "text": "even the projections at the corners of the altars will be cut off and fall to the ground."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "I will cause the houses that they live in during the winter to be torn down;"
-          },
-          {
-            "tag": "q2",
-            "text": "and the houses they live in during the summer, they will also be torn down."
-          },
-          {
-            "tag": "q2",
-            "text": "Beautiful big houses and houses that are decorated with ivory will be destroyed."
-          },
-          {
-            "tag": "q1",
-            "text": "That will surely happen because I, Yahweh, have said it!\""
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 4,
+        "v": "A lion in a forest certainly does not roar"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "No one can catch a bird"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Similarly, all the people in a city certainly become afraid"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Whatever Yahweh plans to do,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Everyone certainly becomes terrified when they hear a lion roar;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Proclaim to the people who guard the strongholds in Ashdod,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Yahweh says that the people there do not know how to do things that are right."
       }
-    ],
-    "num": 3
+    ]
   },
-  "id": "AMO unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Amos"
-}
+  {
+    "t": "q",
+    "v": "so listen to what I am saying about you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I chose and took care of only you."
+  },
+  {
+    "t": "q",
+    "v": "That is the reason that I will punish you"
+  },
+  {
+    "t": "q",
+    "v": "for the sins that you have committed.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "if they have not already agreed what place they will start walking from."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "if it has not killed another animal."
+  },
+  {
+    "t": "q",
+    "v": "It does not growl in its den"
+  },
+  {
+    "t": "q",
+    "v": "if it is not eating the flesh of an animal that it has caught."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "if he does not set a trap for it."
+  },
+  {
+    "t": "q",
+    "v": "A trap does not spring shut"
+  },
+  {
+    "t": "q",
+    "v": "when some animal has not sprung the trap."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "when they hear someone blowing a trumpet"
+  },
+  {
+    "t": "q",
+    "v": "to signal that enemies are attacking."
+  },
+  {
+    "t": "q",
+    "v": "And when a city experiences disaster,"
+  },
+  {
+    "t": "q",
+    "v": "Yahweh is the one who has caused it."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he tells his prophets about it."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Yahweh the Lord has given messages to prophets,"
+  },
+  {
+    "t": "q",
+    "v": "they certainly must proclaim those messages,"
+  },
+  {
+    "t": "q",
+    "v": "even though they terrify people."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and to those who protect the fortresses in the land of Egypt, and say this,"
+  },
+  {
+    "t": "q",
+    "v": "“Come together on the hills of Samaria,"
+  },
+  {
+    "t": "q",
+    "v": "and see how much the people in that city are frightened,"
+  },
+  {
+    "t": "q",
+    "v": "and see the way the people are suffering because of what they are doing to each other!”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Their homes are filled with valuable things that they have stolen or taken violently from others."
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 11,
+        "v": "So Yahweh our God says that soon their enemies will come"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "and tear down their defenses"
+  },
+  {
+    "t": "q",
+    "v": "and take away those valuable things."
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Yahweh has declared this:"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "“When a lion attacks a sheep,"
+  },
+  {
+    "t": "q",
+    "v": "sometimes a shepherd is able to snatch from the lion’s mouth"
+  },
+  {
+    "t": "q",
+    "v": "only two legs or an ear of the sheep."
+  },
+  {
+    "t": "q",
+    "v": "Similarly, only a few people from Samaria will escape,"
+  },
+  {
+    "t": "q",
+    "v": "just as if someone could save only a part of a couch or a bed from a fire in the house.”U"
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Yahweh, commander of the angel armies, says this:"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "When I, Yahweh, punish the people of Israel"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "I will cause the houses that they live in during the winter to be torn down;"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "You wealthy women of Samaria who have grown fat like the fat cows of the region of Bashan."
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "But Yahweh our God has said this:"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Your enemies will drag you out"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Go ahead: go to the hilltop places of idol worship that are at Bethel and Gilgal, where many people worship me;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Bring offerings of bread to thank me,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "I am the one who caused there to be no food in any of your cities and towns,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "When it was still three months before the time of harvesting crops,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Your people would stagger from one town to another town to find water,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Many times I struck your crops with disease and mildew."
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "I caused you to experience plagues"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "I got rid of many of you,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "So now, you people of Israel, I am going to punish you."
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "I created the mountains,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "“Proclaim this message about the descendants of Jacob:"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because of the sins that they have committed,"
+  },
+  {
+    "t": "q",
+    "v": "I will cause the altars at the town of Bethel to be destroyed;"
+  },
+  {
+    "t": "q",
+    "v": "even the projections at the corners of the altars will be cut off and fall to the ground."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and the houses they live in during the summer, they will also be torn down."
+  },
+  {
+    "t": "q",
+    "v": "Beautiful big houses and houses that are decorated with ivory will be destroyed."
+  },
+  {
+    "t": "q",
+    "v": "That will surely happen because I, Yahweh, have said it!”"
+  }
+]

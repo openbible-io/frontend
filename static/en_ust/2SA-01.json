@@ -1,287 +1,296 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "tag": "toc1",
-        "text": "The Second Book of Samuel"
+        "t": "v",
+        "n": 1,
+        "v": "After Saul died, David and the men who were with him returned to the town of Ziklag after defeating the descendants of Amalek. They stayed in Ziklag for two days."
       },
       {
-        "tag": "toc2",
-        "text": "Second Samuel"
-      },
-      {
-        "tag": "toc3",
-        "num": "2",
-        "text": "Sa"
-      },
-      {
-        "tag": "mt1",
-        "num": "2",
-        "text": "Samuel"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "After Saul died, David and the men who were with him returned to the town of Ziklag after defeating the descendants of Amalek. They stayed in Ziklag for two days."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "On the third day, a man unexpectedly arrived there who had been in Saul's army. He had torn his clothes and put dust on his head to show that he was grieving. He came to David and prostrated himself on the ground in front of David to show respect for him."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "David asked him, \"Where have you come from?\" The man replied, \"From the Israelite army.\""
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "David asked him, \"What happened? Tell me about the battle!\" The man replied, \"Our soldiers ran away. Many of them were killed. And Saul and his son Jonathan are dead.\""
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "David said to the young man, \"How do you know that Saul and Jonathan are dead?\""
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "The young man replied, \"I was on Mount Gilboa where the fighting was. I saw Saul; he was leaning on his spear. The enemy chariots and their drivers were coming very close to him."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Saul turned around and saw me, and he called out to me. I answered him and said, 'What do you want me to do?'"
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "He replied, 'Who are you?' I replied, 'I am a descendant of Amalek.'"
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Then he said to me, 'Come over here and kill me. I am in very much pain.'"
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "So I went to him and killed him, because I saw that he was wounded very badly and would not continue to live. I took the crown from his head and his armband, which I have brought to you, my master.\""
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Then David took hold of his clothing and he tore it apart, and all the men who were with him tore their clothes apart as well."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "They tore their clothing because they were very sad and they refused to eat anything until evening because they remembered that Saul and his son Jonathan had died, and that so many of the people of Yahweh had died, and they were sad because of the great dangers the descendants of Israel had gone through, and because so many of them died in battle."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "But David asked the young man who had told him about the battle, \"Where are you from?\" He replied, \"My father is a descendant of Amalek, but we live in Israel.\""
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "David asked him, \"Why were you not afraid that you would be punished if you killed Saul, whom Yahweh made king?"
-          },
-          {
-            "tag": "v",
-            "num": "15-16",
-            "text": "You yourself said, 'I killed the man whom Yahweh appointed to be the king.' So you have made yourself guilty; you deserve to die!\" Then David summoned one of his soldiers and said to him, \"Kill him!\" So the soldier killed him."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Then David composed this sad song about Saul and Jonathan,"
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "and he ordered the men with him to teach it to the people of Judah. The song is called \"The Bow,\" and it has been written down in the Book of Jashar:"
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "\"You Israelite people, your glorious leaders have been killed on the mountains!"
-          },
-          {
-            "tag": "q2",
-            "text": "It is very sad that these mighty men have died!"
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Do not tell it to our enemies in the region of Philistia."
-          },
-          {
-            "tag": "q1",
-            "text": "Do not tell the people who live in the city of Gath."
-          },
-          {
-            "tag": "q2",
-            "text": "Do not proclaim it in the streets of the city of Ashkelon, or their women would celebrate."
-          },
-          {
-            "tag": "q2",
-            "text": "Do not allow those pagan women to rejoice."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "I hope there will be no rain or dew ever again on the mountains of Gilboa"
-          },
-          {
-            "tag": "q1",
-            "text": "and that no grain will grow in the fields there,"
-          },
-          {
-            "tag": "q2",
-            "text": "because it was there that the shield of Saul, the mighty king, fell to the ground."
-          },
-          {
-            "tag": "q1",
-            "text": "Now there is no one to rub olive oil on Saul's shield."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Jonathan's arrows were his servants who always pierced his enemies and drew their blood."
-          },
-          {
-            "tag": "q2",
-            "text": "and Saul's sword was his servant who always struck his enemies."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "Saul and Jonathan were loved; they pleased many people."
-          },
-          {
-            "tag": "q2",
-            "text": "They were together while they lived and when they died."
-          },
-          {
-            "tag": "q1",
-            "text": "In battle they were swifter than eagles and stronger than lions."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "You women in Israel, weep about Saul."
-          },
-          {
-            "tag": "q1",
-            "text": "He provided beautiful scarlet clothes for you"
-          },
-          {
-            "tag": "q2",
-            "text": "and gave you gold ornaments to put on."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "It is very sad that my brother Jonathan has died"
-          },
-          {
-            "tag": "q2",
-            "text": "He was a mighty soldiers, and his enemies killed him on the mountain."
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "Jonathan, my dear friend, I grieve for you."
-          },
-          {
-            "tag": "q2",
-            "text": "You were very dear to me."
-          },
-          {
-            "tag": "q1",
-            "text": "You loved me in a wonderful manner."
-          },
-          {
-            "tag": "q2",
-            "text": "It was even better than the way that a woman loves her husband and her children."
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "It is very sad that these mighty men have died,"
-          },
-          {
-            "tag": "q2",
-            "text": "and that their weapons are now no more!"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "On the third day, a man unexpectedly arrived there who had been in Saul’s army. He had torn his clothes and put dust on his head to show that he was grieving. He came to David and prostrated himself on the ground in front of David to show respect for him."
       }
-    ],
-    "num": 1
+    ]
   },
-  "id": "SA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Samuel"
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 3,
+        "v": "David asked him, “Where have you come from?” The man replied, “From the Israelite army.”"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 4,
+        "v": "David asked him, “What happened? Tell me about the battle!” The man replied, “Our soldiers ran away. Many of them were killed. And Saul and his son Jonathan are dead.”"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 5,
+        "v": "David said to the young man, “How do you know that Saul and Jonathan are dead?”"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 6,
+        "v": "The young man replied, “I was on Mount Gilboa where the fighting was. I saw Saul; he was leaning on his spear. The enemy chariots and their drivers were coming very close to him."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Saul turned around and saw me, and he called out to me. I answered him and said, ‘What do you want me to do?’"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 8,
+        "v": "He replied, ‘Who are you?’ I replied, ‘I am a descendant of Amalek.’"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Then he said to me, ‘Come over here and kill me. I am in very much pain.’"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 10,
+        "v": "So I went to him and killed him, because I saw that he was wounded very badly and would not continue to live. I took the crown from his head and his armband, which I have brought to you, my master.”"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Then David took hold of his clothing and he tore it apart, and all the men who were with him tore their clothes apart as well."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "They tore their clothing because they were very sad and they refused to eat anything until evening because they remembered that Saul and his son Jonathan had died, and that so many of the people of Yahweh had died, and they were sad because of the great dangers the descendants of Israel had gone through, and because so many of them died in battle."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 13,
+        "v": "But David asked the young man who had told him about the battle, “Where are you from?” He replied, “My father is a descendant of Amalek, but we live in Israel.”"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 14,
+        "v": "David asked him, “Why were you not afraid that you would be punished if you killed Saul, whom Yahweh made king?"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "You yourself said, ‘I killed the man whom Yahweh appointed to be the king.’ So you have made yourself guilty; you deserve to die!” Then David summoned one of his soldiers and said to him, “Kill him!” So the soldier killed him."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Then David composed this sad song about Saul and Jonathan,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "and he ordered the men with him to teach it to the people of Judah. The song is called “The Bow,” and it has been written down in the Book of Jashar:"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "“You Israelite people, your glorious leaders have been killed on the mountains!"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Do not tell it to our enemies in the region of Philistia."
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "I hope there will be no rain or dew ever again on the mountains of Gilboa"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Jonathan’s arrows were his servants who always pierced his enemies and drew their blood."
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "Saul and Jonathan were loved; they pleased many people."
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "You women in Israel, weep about Saul."
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "It is very sad that my brother Jonathan has died"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "Jonathan, my dear friend, I grieve for you."
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "It is very sad that these mighty men have died,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "It is very sad that these mighty men have died!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Do not tell the people who live in the city of Gath."
+  },
+  {
+    "t": "q",
+    "v": "Do not proclaim it in the streets of the city of Ashkelon, or their women would celebrate."
+  },
+  {
+    "t": "q",
+    "v": "Do not allow those pagan women to rejoice."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and that no grain will grow in the fields there,"
+  },
+  {
+    "t": "q",
+    "v": "because it was there that the shield of Saul, the mighty king, fell to the ground."
+  },
+  {
+    "t": "q",
+    "v": "Now there is no one to rub olive oil on Saul’s shield."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and Saul’s sword was his servant who always struck his enemies."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "They were together while they lived and when they died."
+  },
+  {
+    "t": "q",
+    "v": "In battle they were swifter than eagles and stronger than lions."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "He provided beautiful scarlet clothes for you"
+  },
+  {
+    "t": "q",
+    "v": "and gave you gold ornaments to put on."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "He was a mighty soldiers, and his enemies killed him on the mountain."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "You were very dear to me."
+  },
+  {
+    "t": "q",
+    "v": "You loved me in a wonderful manner."
+  },
+  {
+    "t": "q",
+    "v": "It was even better than the way that a woman loves her husband and her children."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and that their weapons are now no more!"
+  }
+]

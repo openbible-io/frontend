@@ -1,126 +1,179 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh is the king!"
       },
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 2,
+        "v": "There are very dark clouds around him;"
       },
       {
-        "tag": "d",
-        "text": "A psalm."
+        "t": "v",
+        "n": 3,
+        "v": "He sends fire in front of him,"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Sing to Yahweh a new song"
-          },
-          {
-            "tag": "q1",
-            "text": "because he has done wonderful things!"
-          },
-          {
-            "tag": "q1",
-            "text": "By his power he has defeated his enemies."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Yahweh has declared to people that he has defeated his enemies;"
-          },
-          {
-            "tag": "q2",
-            "text": "he has revealed that he has punished his enemies,"
-          },
-          {
-            "tag": "q2",
-            "text": "and people in all the world have seen that he has done it."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "As he promised to us Israelite people,"
-          },
-          {
-            "tag": "q2",
-            "text": "he has faithfully loved us and been loyal to us."
-          },
-          {
-            "tag": "q1",
-            "text": "People who live in very remote places in all the earth"
-          },
-          {
-            "tag": "q2",
-            "text": "have seen that our God has defeated his enemies."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "All you people everywhere should sing joyfully to Yahweh;"
-          },
-          {
-            "tag": "q1",
-            "text": "praise him while you sing and shout joyfully!"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Praise Yahweh while you play the lyres,"
-          },
-          {
-            "tag": "q2",
-            "text": "playing delightful music."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Some of you should blow trumpets and other horns"
-          },
-          {
-            "tag": "q2",
-            "text": "while others shout joyfully to Yahweh, our king."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "The oceans and all the creatures that are in the oceans should roar to praise Yahweh."
-          },
-          {
-            "tag": "q1",
-            "text": "Everyone on the earth should sing!"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "It should seem as though the rivers were clapping their hands to praise Yahweh"
-          },
-          {
-            "tag": "q2",
-            "text": "and that the hills were singing together joyfully in front of Yahweh"
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "because he will come to judge everyone on the earth!"
-          },
-          {
-            "tag": "q2",
-            "text": "He will judge all the people groups in the world justly and fairly."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 4,
+        "v": "All around the world he sends lightning to flash;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "The mountains melt like wax in front of Yahweh,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "The angels in heaven proclaim that he acts righteously,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Everyone who worships idols should be ashamed;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "The people of Jerusalem heard that God is just, and they rejoiced;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Yahweh is the supreme King over all the earth;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Yahweh loves those who hate what people do that is evil;"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "He makes the righteous people truly live;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "You righteous people, rejoice about what Yahweh has done,"
       }
-    ],
-    "num": 98
+    ]
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I want everyone on the earth to be glad"
+  },
+  {
+    "t": "q",
+    "v": "and the people who live on the islands in the oceans to also rejoice about that!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he rules completely, justly, and fairly."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and he completely burns all his enemies in that fire."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "people on the earth see it, and it causes them to be afraid and to tremble."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "in front of the one who is the Lord, who rules over all the earth."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and all the people groups see his glory."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "all those who are proud of their false gods should realize that their gods are useless."
+  },
+  {
+    "t": "q",
+    "v": "All those gods will bow down to worship Yahweh."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "people in the other cities in Judah also rejoiced"
+  },
+  {
+    "t": "q",
+    "v": "because Yahweh judges and punishes wicked people."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he has very great power, and none of the other gods has any power."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he protects the lives of his people,"
+  },
+  {
+    "t": "q",
+    "v": "and he rescues them when the wicked people try to harm them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he causes those who are righteous in their inner beings to rejoice."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and thank him, our holy God!"
+  }
+]

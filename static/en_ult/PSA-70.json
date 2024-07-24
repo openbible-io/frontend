@@ -1,95 +1,487 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "Save me, God;"
       },
       {
-        "tag": "d",
-        "text": "For the chief musician. A psalm of David; to bring to remembrance."
+        "t": "v",
+        "n": 2,
+        "v": "I sink in deep mire, where there is no place to stand;"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Save me, God!"
-          },
-          {
-            "tag": "q",
-            "text": "Yahweh, come quickly and help me."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Let those who try to take my life"
-          },
-          {
-            "tag": "q",
-            "text": "be ashamed and humiliated;"
-          },
-          {
-            "tag": "q",
-            "text": "let them be turned back and brought to dishonor,"
-          },
-          {
-            "tag": "q",
-            "text": "those who take pleasure in my pain."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Let them be turned back because of their shame,"
-          },
-          {
-            "tag": "q",
-            "text": "those who say, “Aha, aha.”"
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Let all those who seek you rejoice and be glad in you;"
-          },
-          {
-            "tag": "q",
-            "text": "let those who love your salvation always say,"
-          },
-          {
-            "tag": "q",
-            "text": "“May God be praised.”"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "But I am poor and needy;"
-          },
-          {
-            "tag": "q",
-            "text": "hurry to me, God;"
-          },
-          {
-            "tag": "q",
-            "text": "you are my help and you rescue me."
-          },
-          {
-            "tag": "q",
-            "text": "Yahweh, do not delay."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "I am weary with my crying; my throat is dry;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Those who hate me without a cause are more than the hairs on my head;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "God, you know my foolishness,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Let not those who hope in you be put to shame because of me, Lord Yahweh of hosts;"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "For your sake I have borne rebuke;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "I have become a stranger to my brothers,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "For the zeal of your house has eaten me up,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "When I wept and did not eat food,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "When I made sackcloth my clothing,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Those who sit in the city gate talk about me;"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "But as for me, my prayer is to you, Yahweh, at a time that you will accept;"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "Pull me out of the mire, and do not let me sink;"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Do not let the floods of water overwhelm me,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Answer me, Yahweh, for your covenant faithfulness is good;"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Do not hide your face from your servant,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Come to me and redeem me."
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "You know my rebuke, my shame, and my dishonor;"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Rebuke has broken my heart; I am full of heaviness;"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "They gave me poison for my food;"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Let their table before them become a snare;"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "Let their eyes be darkened so that they cannot see;"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "Pour out your indignation on them,"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "Let their place be a desolation;"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "For they persecuted the one you struck down."
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "Accuse them of having committed iniquity after iniquity;"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "Let them be blotted out of the Book of Life"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "But I am poor and sorrowful;"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "I will praise the name of God with a song"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "That will please Yahweh better than an ox"
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "The meek have seen it and are glad;"
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "For Yahweh hears the needy"
+      },
+      {
+        "t": "v",
+        "n": 34,
+        "v": "Let heaven and earth praise him,"
+      },
+      {
+        "t": "v",
+        "n": 35,
+        "v": "For God will save Zion and will rebuild the cities of Judah;"
+      },
+      {
+        "t": "v",
+        "n": 36,
+        "v": "His servants’ descendants will inherit it;"
       }
-    ],
-    "num": 70
+    ]
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for the waters have put my life in danger."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I have come into deep waters, where the floods flow over me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "my eyes fail while I wait for my God."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "those who would cut me off, being my enemies for wrong reasons, are mighty;"
+  },
+  {
+    "t": "q",
+    "v": "what I did not steal, I have to give back."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and my sins are not hidden from you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "let not those who seek you be brought to dishonor because of me, God of Israel."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "shame has covered my face."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "an alien to my mother’s children."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and the rebukes of those who rebuke you have fallen on me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they insulted me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I became the object of a proverb to them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I am a song of drunkards."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "answer me in the trustworthiness of your salvation."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "let me be taken away from those who hate me and rescued out of the deep waters."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "neither let the deep swallow me up."
+  },
+  {
+    "t": "q",
+    "v": "Do not let the pit shut its mouth on me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because your mercies for me are many, turn to me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for I am in distress; answer me quickly."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Because of my enemies, ransom me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "my adversaries are all before you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I looked for someone to take pity, but there was none;"
+  },
+  {
+    "t": "q",
+    "v": "I looked for comforters, but I found none."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "in my thirst they gave me vinegar to drink."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "when they think they are in safety, let it become a trap."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and always make their loins shake."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and let the fierceness of your anger overtake them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "let no one live in their tents."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "They repeated the account of the pain of those you have wounded."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "do not let them come into your righteous victory."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and not be written down along with the righteous."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "let your salvation, God, set me up on high."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and will exalt him with thanksgiving."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "or a bull that has horns and hooves."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you who seek after God, let your hearts live."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and does not despise his prisoners."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the seas and everything that moves in them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the people will live there and have it as a possession."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and those who love his name will live there."
+  }
+]

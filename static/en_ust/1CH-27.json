@@ -1,258 +1,312 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "This is a list of the Israelite men who served the king in the army. Some were leaders of families, some were commanders of one hundred men, some were commanders of one thousand men, and some were other officers. There were twenty-four thousand men in each group. Each group served one month of each year."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Jashobeam, son of Zabdiel, was in charge of the group that served during the first month of each year."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "He was a descendant of Perez, and he was the commander of all the army officers during the first month of each year."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Dodai, from the clan of Ahohi, was the commander of the group that served during the following."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Benaiah, son of Jehoiada the high priest, was the commander of the group that served during the following month."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "He was the one who was a mighty warrior among David's thirty greatest soldiers, and he was their leader. His son Ammizabad was his assistant."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Asahel, Joab's younger brother, was the commander of the group that served during the following month. Asahel's son Zebadiah became the commander after Asahel was killed."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "The commander for the following month was Shamhuth, a descendant of Izrah."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "The commander for the following month was Ira son of Ikkesh from the city of Tekoa."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "The commander for the following month was Helez, a member of the clan of Pelon from the tribe of Ephraim."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "The commander for the following month was Sibbekai, a descendant of Zerah from the city of Hushah."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "The commander for the following month was Abiezer from the city of Anathoth in the tribe of Benjamin."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "The commander for the following month was Maharai, a descendant of Zerah from the city of Netophath."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "The commander for the following month was Benaiah from the city of Pirathon in the tribe of Ephraim."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "The commander for the last month of each year was Heldai, a descendant of Othniel from the city of Netophath."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "This is a list of the Israelite men who served the king in the army. Some were leaders of families, some were commanders of one hundred men, some were commanders of one thousand men, and some were other officers. There were twenty-four thousand men in each group. Each group served one month of each year."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "This is a list of the administrators of the twelve tribes of Israel:"
-          },
-          {
-            "tag": "q",
-            "text": "Eliezer, son of Zicri, was the administrator of the tribe of Reuben."
-          },
-          {
-            "tag": "q",
-            "text": "Shephatiah, son of Maacah, was the administrator of the tribe of Simeon."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Hashabiah, theson of Kemuel, was the administrator of the tribe of Levi."
-          },
-          {
-            "tag": "q",
-            "text": "Zadok was the administrator of the tribe of Aaron."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "Elihu, David's older brother, was the administrator of the tribe of Judah."
-          },
-          {
-            "tag": "q",
-            "text": "Omri, son of Michael, was the administrator of the tribe of Issachar."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "Ishmaiah, son of Obadiah, was the administrator of the tribe of Zebulun."
-          },
-          {
-            "tag": "q",
-            "text": "Jerimoth, son of Azriel, was the administrator of the tribe of Naphtali."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Hoshea, son of Azaziah, was the administrator of the tribe of Ephraim."
-          },
-          {
-            "tag": "q",
-            "text": "Joel, son of Pedaiah, was the administrator of the tribe of the western half of the tribe of Manasseh."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "Iddo, son of Zechariah, was the administrator of the eastern half of the tribe of Manasseh, in the region of Gilead."
-          },
-          {
-            "tag": "q",
-            "text": "Jaasiel, son of Abner, was the administrator of the tribe of Benjamin."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Azarel, son of Jeroham, was the administrator of the tribe of Dan."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "Jashobeam, son of Zabdiel, was in charge of the group that served during the first month of each year."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "David did not tell Joab to count the men who were less then twenty years old, because Yahweh had promised many years previously that there would be as many people in Israel as there are stars in the sky."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "Joab and his helpers started to count the men of Israel, but they did not finish counting them because Joab knew that Yahweh was angry about their being counted. Yahweh punished the people of Israel because of this counting, and as a result the total number of Israelite men able to serve in the army was not written on the scroll about King David's rule."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "Azmaveth, son of Adiel, was in charge of the king's storehouses."
-          },
-          {
-            "tag": "li",
-            "text": "Jonathan, son of Uzziah, was in charge of the storehouses in other towns and villages in Israel, and also in charge of the watchtowers."
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "Ezri son of Kelub was in charge of the workers who farmed the land that belonged to the king."
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "Shimei from the city of Ramath was in charge of the king's vineyards."
-          },
-          {
-            "tag": "li",
-            "text": "Zabdi from the city of Shepham was in charge of storing the wine from the grapes produced in vineyards."
-          },
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "Baal-Hanan from the city of Geder was in charge of storing the olive oil."
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "Shitrai from the Plain of Sharon was in charge of the herds of cattle that grazed there."
-          },
-          {
-            "tag": "li",
-            "text": "Shaphat son of Adlai was in charge of the cattle in the valleys."
-          },
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "Obil, a descendant of Ishmael, was in charge of the camels."
-          },
-          {
-            "tag": "li",
-            "text": "Jehdeiah from the city of Meronoth was in charge of the donkeys."
-          },
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "Jaziz, a descendant of Hagar, was in charge of the king's flocks of sheep."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 3,
+        "v": "He was a descendant of Perez, and he was the commander of all the army officers during the first month of each year."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "32",
-            "text": "David's uncle Jonathan was a wise counselor for him."
-          },
-          {
-            "tag": "li",
-            "text": "Jehiel, son of Hacmoni, taught the king's sons."
-          },
-          {
-            "tag": "v",
-            "num": "33",
-            "text": "Ahithophel was the king's official counselor."
-          },
-          {
-            "tag": "v",
-            "num": "34",
-            "text": "Hushai from the Ark people group was the king's special friend."
-          },
-          {
-            "tag": "q",
-            "text": "Benaiah's son Jehoiada became the king's advisor after Ahithophel died, and later Abiathar became his advisor."
-          },
-          {
-            "tag": "li",
-            "text": "Joab was the chief commander of the army."
-          }
-        ],
-        "tag": "p",
-        "text": "All of those officials were in charge of the things that belonged to King David."
+        "t": "v",
+        "n": 4,
+        "v": "Dodai, from the clan of Ahohi, was the commander of the group that served during the following."
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Benaiah, son of Jehoiada the high priest, was the commander of the group that served during the following month."
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "He was the one who was a mighty warrior among David’s thirty greatest soldiers, and he was their leader. His son Ammizabad was his assistant."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Asahel, Joab’s younger brother, was the commander of the group that served during the following month. Asahel’s son Zebadiah became the commander after Asahel was killed."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "The commander for the following month was Shamhuth, a descendant of Izrah."
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "The commander for the following month was Ira son of Ikkesh from the city of Tekoa."
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "The commander for the following month was Helez, a member of the clan of Pelon from the tribe of Ephraim."
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "The commander for the following month was Sibbekai, a descendant of Zerah from the city of Hushah."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "The commander for the following month was Abiezer from the city of Anathoth in the tribe of Benjamin."
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "The commander for the following month was Maharai, a descendant of Zerah from the city of Netophath."
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "The commander for the following month was Benaiah from the city of Pirathon in the tribe of Ephraim."
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "The commander for the last month of each year was Heldai, a descendant of Othniel from the city of Netophath."
       }
-    ],
-    "num": 27
+    ]
   },
-  "id": "CH unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Chronicles"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 16,
+        "v": "This is a list of the administrators of the twelve tribes of Israel:"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Hashabiah, theson of Kemuel, was the administrator of the tribe of Levi."
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Elihu, David’s older brother, was the administrator of the tribe of Judah."
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Ishmaiah, son of Obadiah, was the administrator of the tribe of Zebulun."
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Hoshea, son of Azaziah, was the administrator of the tribe of Ephraim."
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Iddo, son of Zechariah, was the administrator of the eastern half of the tribe of Manasseh, in the region of Gilead."
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Azarel, son of Jeroham, was the administrator of the tribe of Dan."
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "Eliezer, son of Zicri, was the administrator of the tribe of Reuben."
+  },
+  {
+    "t": "q",
+    "v": "Shephatiah, son of Maacah, was the administrator of the tribe of Simeon."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Zadok was the administrator of the tribe of Aaron."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Omri, son of Michael, was the administrator of the tribe of Issachar."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Jerimoth, son of Azriel, was the administrator of the tribe of Naphtali."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Joel, son of Pedaiah, was the administrator of the tribe of the western half of the tribe of Manasseh."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Jaasiel, son of Abner, was the administrator of the tribe of Benjamin."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 23,
+        "v": "David did not tell Joab to count the men who were less then twenty years old, because Yahweh had promised many years previously that there would be as many people in Israel as there are stars in the sky."
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "Joab and his helpers started to count the men of Israel, but they did not finish counting them because Joab knew that Yahweh was angry about their being counted. Yahweh punished the people of Israel because of this counting, and as a result the total number of Israelite men able to serve in the army was not written on the scroll about King David’s rule."
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "Azmaveth, son of Adiel, was in charge of the king’s storehouses."
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "Ezri son of Kelub was in charge of the workers who farmed the land that belonged to the king."
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "Shimei from the city of Ramath was in charge of the king’s vineyards."
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "Baal-Hanan from the city of Geder was in charge of storing the olive oil."
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "Shitrai from the Plain of Sharon was in charge of the herds of cattle that grazed there."
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "Obil, a descendant of Ishmael, was in charge of the camels."
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "Jaziz, a descendant of Hagar, was in charge of the king’s flocks of sheep."
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 32,
+        "v": "David’s uncle Jonathan was a wise counselor for him."
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "Ahithophel was the king’s official counselor."
+      },
+      {
+        "t": "v",
+        "n": 34,
+        "v": "Hushai from the Ark people group was the king’s special friend."
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Benaiah’s son Jehoiada became the king’s advisor after Ahithophel died, and later Abiathar became his advisor."
+  }
+]

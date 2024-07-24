@@ -1,157 +1,337 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Then Job replied and said this:"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "\"Today I am again complaining bitterly to God;"
-          },
-          {
-            "tag": "q2",
-            "text": "I continue to groan, but I suffer even more."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "I wish that I knew where I could meet with him"
-          },
-          {
-            "tag": "q2",
-            "text": "so that I could go to the place where he lives."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "If I could do that, I would tell him why I know that I am innocent;"
-          },
-          {
-            "tag": "q2",
-            "text": "I would tell him many reasons for that."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Then I would find out and understand what he would reply to me."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Would he use his great power to argue with me?"
-          },
-          {
-            "tag": "q2",
-            "text": "No, he would listen to me carefully."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "I am an honest man, so I would be able to discuss things with him fairly,"
-          },
-          {
-            "tag": "q2",
-            "text": "and then he would declare that I am innocent, and he would not trouble me again."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "However, I have gone to the east, and he is not there;"
-          },
-          {
-            "tag": "q2",
-            "text": "I have gone to the west, but I have not found him there."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "I have gone north and I have gone south,"
-          },
-          {
-            "tag": "q2",
-            "text": "but I have not seen him anywhere for he keeps himself from me."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "He knows how I have conducted my life;"
-          },
-          {
-            "tag": "q2",
-            "text": "when he has finished testing me, he will see that I am as pure as gold whose impurities have all been burned out."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "I have faithfully walked on the road that he showed me;"
-          },
-          {
-            "tag": "q2",
-            "text": "I have not turned away from obeying him."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "I have always obeyed what he commanded;"
-          },
-          {
-            "tag": "q2",
-            "text": "I have hidden away in my inner being the words that he has spoken."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "He never changes. There is no one who can stop him from doing what he desires."
-          },
-          {
-            "tag": "q2",
-            "text": "Whatever he wants to do, he does."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "He will finish doing the things that he has planned for me,"
-          },
-          {
-            "tag": "q2",
-            "text": "and I am sure that he has thought about doing many things for me."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "So I am terrified when I am in front of him;"
-          },
-          {
-            "tag": "q2",
-            "text": "when I think about what he can do, I am very afraid."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Almighty God has made me very afraid."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "The thick darkness in front of me has not make me silent,"
-          },
-          {
-            "tag": "q2",
-            "text": "even that terrible darkness that covers my face has not kept me from speaking.\""
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "Then Job replied and said this:"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "“Today I am again complaining bitterly to God;"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "I wish that I knew where I could meet with him"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "If I could do that, I would tell him why I know that I am innocent;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Then I would find out and understand what he would reply to me."
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Would he use his great power to argue with me?"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "I am an honest man, so I would be able to discuss things with him fairly,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "However, I have gone to the east, and he is not there;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "I have gone north and I have gone south,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "He knows how I have conducted my life;"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "I have faithfully walked on the road that he showed me;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "I have always obeyed what he commanded;"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "He never changes. There is no one who can stop him from doing what he desires."
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "He will finish doing the things that he has planned for me,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "So I am terrified when I am in front of him;"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Almighty God has made me very afraid."
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "The thick darkness in front of me has not make me silent,"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "“Why does Almighty God not set a time when he will judge evil people?"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "Some evil people remove the boundary markers of other people’s land, in order to take their land;"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Some take away the donkeys that belong to orphans,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Some shove poor people off the road,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "The result is that poor people have to search for food in the desert plain"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "The poor people harvest leftover grain in other people’s fields,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "During the night they have nothing to cover their bodies,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "When it rains in the mountains, they become very wet,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Some evil men snatch poor, fatherless infants away from their mothers;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "But the poor people walk around with no clothes on;"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Poor people are hired by these wicked people to make olive oil for them;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "In the cities, people who are wounded and dying cry out to God for help,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Some wicked people avoid the light because they do evil things in the dark;"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "Murderers steal things during the night,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Those who want to commit adultery wait for evening to come;"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "It is during the night that robbers break into houses to steal things,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "All of those people want to do their evil deeds at night, not in the morning when it is light,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "However, those wicked people will disappear very quickly,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Just as the snow melts away when it is hot and there is no rain,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Not even their mothers will remember them;"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "The wicked mistreat women who have been unable to give birth to children who would have grown up to take care of them;"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "But God, by his power, gets rid of mighty people."
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "God allows them to think that they are secure and safe,"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "They prosper for a little while,"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "If this is not true, is there anyone who will show that I am a liar"
       }
-    ],
-    "num": 23
+    ]
   },
-  "id": "JOB unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Job"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I continue to groan, but I suffer even more."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so that I could go to the place where he lives."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I would tell him many reasons for that."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "No, he would listen to me carefully."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and then he would declare that I am innocent, and he would not trouble me again."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I have gone to the west, but I have not found him there."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but I have not seen him anywhere for he keeps himself from me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "when he has finished testing me, he will see that I am as pure as gold whose impurities have all been burned out."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I have not turned away from obeying him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I have hidden away in my inner being the words that he has spoken."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Whatever he wants to do, he does."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and I am sure that he has thought about doing many things for me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "when I think about what he can do, I am very afraid."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "even that terrible darkness that covers my face has not kept me from speaking.”"
+  }
+]

@@ -1,324 +1,373 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "tag": "toc1",
-        "text": "The Book of Obadiah"
-      },
-      {
-        "tag": "toc2",
-        "text": "Obadiah"
-      },
-      {
-        "tag": "toc3",
-        "text": "Oba"
-      },
-      {
-        "tag": "mt1",
-        "text": "Obadiah"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "This is a message that Yahweh our God gave to me, Obadiah, about the Edom people group."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "q1",
-            "text": "\"I, Yahweh, have sent a messenger to other nations,"
-          },
-          {
-            "tag": "q2",
-            "text": "telling them to prepare to go and attack Edom.\""
-          }
-        ],
-        "tag": "p",
-        "text": "Yahweh our God has told me this about the people of Edom:"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "And Yahweh says this to the people of Edom:"
-          },
-          {
-            "tag": "q1",
-            "text": "\"I will soon cause you to become the weakest and most despised nation on the earth."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Your capital city is high in the rocky cliffs,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you are very proud;"
-          },
-          {
-            "tag": "q1",
-            "text": "you think that you are safe because no army can attack you,"
-          },
-          {
-            "tag": "q2",
-            "text": "but you have deceived yourselves."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "And I tell you that even if you had wings and could fly higher than eagles fly,"
-          },
-          {
-            "tag": "q2",
-            "text": "and if you could make your homes among the stars,"
-          },
-          {
-            "tag": "q2",
-            "text": "I would bring you crashing down from there."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "When thieves break into someone's house during the night,"
-          },
-          {
-            "tag": "q2",
-            "text": "they certainly steal only the things that they want."
-          },
-          {
-            "tag": "q1",
-            "text": "And people who pick grapes always leave a few grapes on the vines."
-          },
-          {
-            "tag": "q2",
-            "text": "But your country will be completely destroyed!"
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Everything that is valuable will be taken away."
-          },
-          {
-            "tag": "q2",
-            "text": "Your enemies will find and take away even the valuable things that you have hidden."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "All your allies will turn against you,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they will force you to leave your country."
-          },
-          {
-            "tag": "q1",
-            "text": "Those with whom you have peace now will trick you and defeat you."
-          },
-          {
-            "tag": "q2",
-            "text": "Those who eat meals with you now are planning to trap you,"
-          },
-          {
-            "tag": "q1",
-            "text": "and then they will say to you, 'You are not as clever as you thought you were!'"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "I, Yahweh, declare that at the time that I destroy Edom,"
-          },
-          {
-            "tag": "q2",
-            "text": "I will punish the men who live in those cliffs who thought that they were wise."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "The soldiers from Teman town will become terrified;"
-          },
-          {
-            "tag": "q2",
-            "text": "all you people who are descendants of Esau will be wiped out.\""
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "\"You acted cruelly to your relatives who are descendants of Jacob, the twin brother of your ancestor Esau."
-          },
-          {
-            "tag": "q2",
-            "text": "So now you will be disgraced, and you will be destroyed forever."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Foreigners entered the gates of Jerusalem"
-          },
-          {
-            "tag": "q2",
-            "text": "and cast lots to share out among themselves the valuable things they found;"
-          },
-          {
-            "tag": "q1",
-            "text": "but you were as bad as those foreigners,"
-          },
-          {
-            "tag": "q2",
-            "text": "because you just stood there and did not help the Israelites."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "You should not have gloated about the disaster that the Israelites were experiencing."
-          },
-          {
-            "tag": "q2",
-            "text": "You should not have been happy when their towns were ruined."
-          },
-          {
-            "tag": "q1",
-            "text": "You should not have made fun of them when they were suffering."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "They are my people,"
-          },
-          {
-            "tag": "q2",
-            "text": "so you should not have entered their city gates when they were experiencing those disasters"
-          },
-          {
-            "tag": "q1",
-            "text": "and you should not have laughed at them."
-          },
-          {
-            "tag": "q2",
-            "text": "And you should not have taken away their valuable possessions."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "You should not have stood at crossroads"
-          },
-          {
-            "tag": "q2",
-            "text": "to catch those who were trying to escape."
-          },
-          {
-            "tag": "q1",
-            "text": "You should not have captured them and put them into the hands of their enemies"
-          },
-          {
-            "tag": "q2",
-            "text": "when they were experiencing those disasters.\""
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "\"There will soon be the time when I, Yahweh, will judge and punish all the nations."
-          },
-          {
-            "tag": "q2",
-            "text": "And you people of Edom will experience the same disasters that you caused others to experience."
-          },
-          {
-            "tag": "q1",
-            "text": "The same evil things that you have done to others will happen to you."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "It is as though you drank a cup of very bitter liquid on Zion, my sacred hill."
-          },
-          {
-            "tag": "q2",
-            "text": "But I will punish all the other nations just as severely,"
-          },
-          {
-            "tag": "q1",
-            "text": "and cause them to disappear completely."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "But some people in Jerusalem will escape,"
-          },
-          {
-            "tag": "q2",
-            "text": "and Jerusalem will become a very holy place."
-          },
-          {
-            "tag": "q1",
-            "text": "Then the descendants of Jacob will conquer and possess again the land that truly belongs to them."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "The descendants of Jacob and his son Joseph will be like a fire,"
-          },
-          {
-            "tag": "q2",
-            "text": "and the people of Edom will be like stubble that will be completely burned in that fire."
-          },
-          {
-            "tag": "q2",
-            "text": "Not one person will remain alive."
-          },
-          {
-            "tag": "q1",
-            "text": "That will surely happen because I, Yahweh, have said it.\""
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "The Israelites who live in the southern Judean wilderness are the ones who will capture Edom."
-          },
-          {
-            "tag": "q2",
-            "text": "And those who live in the western foothills will capture the region of Phoenicia and the areas of Ephraim and Samaria."
-          },
-          {
-            "tag": "q1",
-            "text": "And people of the tribe of Benjamin will conquer the region of Gilead."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "The great number of the people of Israel who were captured and taken away, they will return to the land, "
-          },
-          {
-            "tag": "q2",
-            "text": "and they will capture the land that was ruled by the people of Canaan, and they will take possession of the land as far north as Zarephath."
-          },
-          {
-            "tag": "q1",
-            "text": "Those people of Israel who were captured and taken away from Jerusalem, and who live in Sepharad, they will take possession of the cities in the Negev, which is the southern Judean wilderness. "
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "The army of Jerusalem will attack Edom and conquer it,"
-          },
-          {
-            "tag": "q2",
-            "text": "and Yahweh will be their king."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "This is a message that Yahweh our God gave to me, Obadiah, about the Edom people group."
       }
-    ],
-    "num": 1
+    ]
   },
-  "id": "OBA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Obadiah"
-}
+  {
+    "t": "p",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "“I, Yahweh, have sent a messenger to other nations,"
+  },
+  {
+    "t": "q",
+    "v": "telling them to prepare to go and attack Edom.”"
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 2,
+        "v": "And Yahweh says this to the people of Edom:"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Your capital city is high in the rocky cliffs,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "And I tell you that even if you had wings and could fly higher than eagles fly,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "When thieves break into someone’s house during the night,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Everything that is valuable will be taken away."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "All your allies will turn against you,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "I, Yahweh, declare that at the time that I destroy Edom,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "The soldiers from Teman town will become terrified;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "“You acted cruelly to your relatives who are descendants of Jacob, the twin brother of your ancestor Esau."
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Foreigners entered the gates of Jerusalem"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "You should not have gloated about the disaster that the Israelites were experiencing."
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "They are my people,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "You should not have stood at crossroads"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "“There will soon be the time when I, Yahweh, will judge and punish all the nations."
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "It is as though you drank a cup of very bitter liquid on Zion, my sacred hill."
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "But some people in Jerusalem will escape,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "The descendants of Jacob and his son Joseph will be like a fire,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "The Israelites who live in the southern Judean wilderness are the ones who will capture Edom."
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "The great number of the people of Israel who were captured and taken away, they will return to the land,"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "The army of Jerusalem will attack Edom and conquer it,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "“I will soon cause you to become the weakest and most despised nation on the earth."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and you are very proud;"
+  },
+  {
+    "t": "q",
+    "v": "you think that you are safe because no army can attack you,"
+  },
+  {
+    "t": "q",
+    "v": "but you have deceived yourselves."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and if you could make your homes among the stars,"
+  },
+  {
+    "t": "q",
+    "v": "I would bring you crashing down from there."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they certainly steal only the things that they want."
+  },
+  {
+    "t": "q",
+    "v": "And people who pick grapes always leave a few grapes on the vines."
+  },
+  {
+    "t": "q",
+    "v": "But your country will be completely destroyed!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Your enemies will find and take away even the valuable things that you have hidden."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they will force you to leave your country."
+  },
+  {
+    "t": "q",
+    "v": "Those with whom you have peace now will trick you and defeat you."
+  },
+  {
+    "t": "q",
+    "v": "Those who eat meals with you now are planning to trap you,"
+  },
+  {
+    "t": "q",
+    "v": "and then they will say to you, ‘You are not as clever as you thought you were!’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will punish the men who live in those cliffs who thought that they were wise."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "all you people who are descendants of Esau will be wiped out.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "So now you will be disgraced, and you will be destroyed forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and cast lots to share out among themselves the valuable things they found;"
+  },
+  {
+    "t": "q",
+    "v": "but you were as bad as those foreigners,"
+  },
+  {
+    "t": "q",
+    "v": "because you just stood there and did not help the Israelites."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "You should not have been happy when their towns were ruined."
+  },
+  {
+    "t": "q",
+    "v": "You should not have made fun of them when they were suffering."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so you should not have entered their city gates when they were experiencing those disasters"
+  },
+  {
+    "t": "q",
+    "v": "and you should not have laughed at them."
+  },
+  {
+    "t": "q",
+    "v": "And you should not have taken away their valuable possessions."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "to catch those who were trying to escape."
+  },
+  {
+    "t": "q",
+    "v": "You should not have captured them and put them into the hands of their enemies"
+  },
+  {
+    "t": "q",
+    "v": "when they were experiencing those disasters.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "And you people of Edom will experience the same disasters that you caused others to experience."
+  },
+  {
+    "t": "q",
+    "v": "The same evil things that you have done to others will happen to you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "But I will punish all the other nations just as severely,"
+  },
+  {
+    "t": "q",
+    "v": "and cause them to disappear completely."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and Jerusalem will become a very holy place."
+  },
+  {
+    "t": "q",
+    "v": "Then the descendants of Jacob will conquer and possess again the land that truly belongs to them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and the people of Edom will be like stubble that will be completely burned in that fire."
+  },
+  {
+    "t": "q",
+    "v": "Not one person will remain alive."
+  },
+  {
+    "t": "q",
+    "v": "That will surely happen because I, Yahweh, have said it.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "And those who live in the western foothills will capture the region of Phoenicia and the areas of Ephraim and Samaria."
+  },
+  {
+    "t": "q",
+    "v": "And people of the tribe of Benjamin will conquer the region of Gilead."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they will capture the land that was ruled by the people of Canaan, and they will take possession of the land as far north as Zarephath."
+  },
+  {
+    "t": "q",
+    "v": "Those people of Israel who were captured and taken away from Jerusalem, and who live in Sepharad, they will take possession of the cities in the Negev, which is the southern Judean wilderness. "
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and Yahweh will be their king."
+  }
+]

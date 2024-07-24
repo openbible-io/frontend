@@ -1,116 +1,102 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "So Abram went up from Egypt and went into the Negev, he, his wife, and all that he had. Lot also went with them."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Now Abram was very rich in animals, in silver, and in gold."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "He continued on his journey from the Negev to Bethel, to the place where his tent had been before, between Bethel and Ai."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "He went to the place where the altar was that he had built previously. Here he called on the name of Yahweh."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Now Lot, who was traveling with Abram, also had flocks, herds, and tents."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "The land was not able to support them both living close together, because their possessions were very many, so that they could not stay together."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Also, there was a dispute between the herdsmen of Abram’s animals and the herdsmen of Lot’s animals. The Canaanites and the Perizzites were living in the land at that time."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "So Abram said to Lot, “Let there be no strife between you and me, and between your herdsmen and my herdsmen; after all, we are family."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Is not the whole land before you? Go ahead and separate yourself from me. If you go to the left, then I will go to the right. Or if you go to the right, then I will go to the left.”"
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "So Lot looked around, and saw that the whole plain of the Jordan was well watered everywhere all the way to Zoar, like the garden of Yahweh, like the land of Egypt. This was before Yahweh destroyed Sodom and Gomorrah."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "So Lot chose for himself all the plain of the Jordan and traveled east, and the relatives separated from each other."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Abram lived in the land of Canaan, and Lot lived among the cities of the plain. He set up his tents as far away as Sodom."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Now the men of Sodom were very wicked sinners against Yahweh."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "So Abram went up from Egypt and went into the Negev, he, his wife, and all that he had. Lot also went with them."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "Yahweh said to Abram after Lot had departed from him, “Look from the place where you are standing to the north, south, east, and west."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "All this land which you see, I will give to you and to your descendants forever."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "I will make your descendants as abundant as the dust of the earth, so that if a man could count the dust of the earth, then your descendants could also be counted."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Arise, walk through the length and breadth of the land, for I will give it to you.”"
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "So Abram picked up his tent, and came and lived by the oaks of Mamre, which are in Hebron, and there built an altar to Yahweh."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "Now Abram was very rich in animals, in silver, and in gold."
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "He continued on his journey from the Negev to Bethel, to the place where his tent had been before, between Bethel and Ai."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "He went to the place where the altar was that he had built previously. Here he called on the name of Yahweh."
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Now Lot, who was traveling with Abram, also had flocks, herds, and tents."
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "The land was not able to support them both living close together, because their possessions were very many, so that they could not stay together."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Also, there was a dispute between the herdsmen of Abram’s animals and the herdsmen of Lot’s animals. The Canaanites and the Perizzites were living in the land at that time."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "So Abram said to Lot, “Let there be no strife between you and me, and between your herdsmen and my herdsmen; after all, we are family."
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Is not the whole land before you? Go ahead and separate yourself from me. If you go to the left, then I will go to the right. Or if you go to the right, then I will go to the left.”"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "So Lot looked around, and saw that the whole plain of the Jordan was well watered everywhere all the way to Zoar, like the garden of Yahweh, like the land of Egypt. This was before Yahweh destroyed Sodom and Gomorrah."
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "So Lot chose for himself all the plain of the Jordan and traveled east, and the relatives separated from each other."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Abram lived in the land of Canaan, and Lot lived among the cities of the plain. He set up his tents as far away as Sodom."
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Now the men of Sodom were very wicked sinners against Yahweh."
       }
-    ],
-    "num": 13
+    ]
   },
-  "id": "GEN unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Genesis",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Genesis "
-    }
-  ]
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 14,
+        "v": "Yahweh said to Abram after Lot had departed from him, “Look from the place where you are standing to the north, south, east, and west."
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "All this land which you see, I will give to you and to your descendants forever."
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "I will make your descendants as abundant as the dust of the earth, so that if a man could count the dust of the earth, then your descendants could also be counted."
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Arise, walk through the length and breadth of the land, for I will give it to you.”"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "So Abram picked up his tent, and came and lived by the oaks of Mamre, which are in Hebron, and there built an altar to Yahweh."
+      }
+    ]
+  }
+]

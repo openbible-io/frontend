@@ -1,114 +1,152 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "By the rivers of Babylon"
       },
       {
-        "tag": "d",
-        "text": "A psalm of David."
+        "t": "v",
+        "n": 2,
+        "v": "On the poplars there"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "I will give you thanks with my whole heart;"
-          },
-          {
-            "tag": "q",
-            "text": "before the gods I will sing praises to you."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "I will bow down toward your holy temple"
-          },
-          {
-            "tag": "q",
-            "text": "and give thanks to your name for your covenant faithfulness and for your trustworthiness."
-          },
-          {
-            "tag": "q",
-            "text": "You have made your word and your name more important than anything else."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "On the day that I called you, you answered me;"
-          },
-          {
-            "tag": "q",
-            "text": "you made me bold and strengthened my soul."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "All the kings of the earth will give you thanks, Yahweh,"
-          },
-          {
-            "tag": "q",
-            "text": "for they will hear the words from your mouth."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Indeed, they will sing of the deeds of Yahweh,"
-          },
-          {
-            "tag": "q",
-            "text": "for great is the glory of Yahweh."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "For though Yahweh is high, yet he cares for the lowly,"
-          },
-          {
-            "tag": "q",
-            "text": "but the proud he knows from far off."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Though I walk in the middle of danger, you will preserve my life;"
-          },
-          {
-            "tag": "q",
-            "text": "you will reach out with your hand against the anger of my enemies,"
-          },
-          {
-            "tag": "q",
-            "text": "and your right hand will save me."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Yahweh is with me to the end;"
-          },
-          {
-            "tag": "q",
-            "text": "your covenant faithfulness, Yahweh, endures forever."
-          },
-          {
-            "tag": "q",
-            "text": "Do not forsake the ones whom your hands have made."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "There our captors required songs from us,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "How could we sing a song about Yahweh"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "If I ignore the memory of you, Jerusalem,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Let my tongue cling to the roof of my mouth"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Call to mind, Yahweh, what the Edomites did"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Daughter of Babylon, soon to be destroyed—"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "May the person be blessed, whoever takes and dashes your little ones"
       }
-    ],
-    "num": 138
+    ]
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "we sat down and wept"
+  },
+  {
+    "t": "q",
+    "v": "when we thought about Zion."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "we hung our harps."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and those who mocked us required us to be happy, saying,"
+  },
+  {
+    "t": "q",
+    "v": "“Sing us one of the songs of Zion.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "in a foreign land?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "let my right hand forget her skill."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "if I think about you no more,"
+  },
+  {
+    "t": "q",
+    "v": "if I do not prefer Jerusalem"
+  },
+  {
+    "t": "q",
+    "v": "more than my greatest delights."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "on the day Jerusalem fell."
+  },
+  {
+    "t": "q",
+    "v": "They said, “Tear it down, tear it down"
+  },
+  {
+    "t": "q",
+    "v": "to its foundations.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "may the person be blessed, whoever pays you back"
+  },
+  {
+    "t": "q",
+    "v": "for what you have done to us."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "against a rock."
+  }
+]

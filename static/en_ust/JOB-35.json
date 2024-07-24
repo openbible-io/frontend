@@ -1,172 +1,223 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Then Elihu also said this:"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "\"Job, do you really think that you have done nothing wrong?"
-          },
-          {
-            "tag": "q1",
-            "text": "You say, 'God knows that I am innocent,'"
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "and you also say, 'What good have I received for not sinning?"
-          },
-          {
-            "tag": "q2",
-            "text": "What benefit have I received that I would not have had, even if I had sinned?'"
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Well, I will answer you,"
-          },
-          {
-            "tag": "q2",
-            "text": "and I will answer your three friends, too."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Job, look up at the sky;"
-          },
-          {
-            "tag": "q2",
-            "text": "look at the clouds that are high above you"
-          },
-          {
-            "tag": "q2",
-            "text": "and realize that God is far above everything, entirely out of your reach."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "If you have sinned, that cannot harm God at all."
-          },
-          {
-            "tag": "q2",
-            "text": "Even if you do wrong things many, many times, that certainly does not hurt him."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "In the same way, if you are righteous, does that help God?"
-          },
-          {
-            "tag": "q2",
-            "text": "No, nothing you do can help him."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "It is other people who can suffer because of the wicked things that you do;"
-          },
-          {
-            "tag": "q2",
-            "text": "In the same way, you might help others if you do good things for them."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "People cry out because of the many things that others do to make them suffer;"
-          },
-          {
-            "tag": "q2",
-            "text": "they call for help because of the things that powerful people do to them."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "But no one calls out to God"
-          },
-          {
-            "tag": "q2",
-            "text": "and says, 'Why does God, my creator, not help me?"
-          },
-          {
-            "tag": "q2",
-            "text": "He should enable me to sing joyful songs, instead of very sad songs, during the night."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "He should be able to teach us more than he teaches the wild animals;"
-          },
-          {
-            "tag": "q2",
-            "text": "he should enable us to become wiser than all the birds are!'"
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "People cry out for help,"
-          },
-          {
-            "tag": "q2",
-            "text": "but God does not answer them"
-          },
-          {
-            "tag": "q2",
-            "text": "because those who cry out are proud and evil people."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "It is useless for them to cry out"
-          },
-          {
-            "tag": "q2",
-            "text": "because God, the Almighty One, does not pay any attention to what they say."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "So when you complain that you cannot see God,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you tell him that you are waiting for him to decide whether or not you have done wrong,"
-          },
-          {
-            "tag": "q2",
-            "text": "he will not listen to you, either!"
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "Furthermore, you say that because he does not pay attention when people commit sins,"
-          },
-          {
-            "tag": "q2",
-            "text": "he does not become angry and punish them."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "My friends, you see that Job has said things that are completely useless,"
-          },
-          {
-            "tag": "q2",
-            "text": "that he says many things without knowing what in the world he is talking about.\""
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "Then Elihu also said this:"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "“Job, do you really think that you have done nothing wrong?"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "and you also say, ‘What good have I received for not sinning?"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Well, I will answer you,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Job, look up at the sky;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "If you have sinned, that cannot harm God at all."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "In the same way, if you are righteous, does that help God?"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "It is other people who can suffer because of the wicked things that you do;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "People cry out because of the many things that others do to make them suffer;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "But no one calls out to God"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "He should be able to teach us more than he teaches the wild animals;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "People cry out for help,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "It is useless for them to cry out"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "So when you complain that you cannot see God,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Furthermore, you say that because he does not pay attention when people commit sins,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "My friends, you see that Job has said things that are completely useless,"
       }
-    ],
-    "num": 35
+    ]
   },
-  "id": "JOB unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Job"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "You say, ‘God knows that I am innocent,’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "What benefit have I received that I would not have had, even if I had sinned?’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and I will answer your three friends, too."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "look at the clouds that are high above you"
+  },
+  {
+    "t": "q",
+    "v": "and realize that God is far above everything, entirely out of your reach."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Even if you do wrong things many, many times, that certainly does not hurt him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "No, nothing you do can help him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "In the same way, you might help others if you do good things for them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they call for help because of the things that powerful people do to them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and says, ‘Why does God, my creator, not help me?"
+  },
+  {
+    "t": "q",
+    "v": "He should enable me to sing joyful songs, instead of very sad songs, during the night."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he should enable us to become wiser than all the birds are!’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but God does not answer them"
+  },
+  {
+    "t": "q",
+    "v": "because those who cry out are proud and evil people."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because God, the Almighty One, does not pay any attention to what they say."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and you tell him that you are waiting for him to decide whether or not you have done wrong,"
+  },
+  {
+    "t": "q",
+    "v": "he will not listen to you, either!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he does not become angry and punish them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "that he says many things without knowing what in the world he is talking about.”"
+  }
+]

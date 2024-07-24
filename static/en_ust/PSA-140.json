@@ -1,146 +1,343 @@
-{
-  "chapter": {
-    "children": [
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "tag": "d",
-        "text": "A psalm written by David."
-      },
-      {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Yahweh, rescue me from being attacked by evil men;"
-          },
-          {
-            "tag": "q2",
-            "text": "even more, keep me safe from being attacked by violent people."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "They are always planning to do evil things,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they are always encouraging people to start quarrels."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "By what they say, they injure people as poisonous snakes do."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Yahweh, protect me from the power of wicked people."
-          },
-          {
-            "tag": "q2",
-            "text": "Keep me safe from violent men who plan to ruin me."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "It is as though proud people have set a trap for me;"
-          },
-          {
-            "tag": "q2",
-            "text": "it is as though they have spread their nets to catch me;"
-          },
-          {
-            "tag": "q2",
-            "text": "it is as though they have put these things along the road to catch me."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "I say to you, \"Yahweh, you are my God."
-          },
-          {
-            "tag": "q2",
-            "text": "Listen to me while I cry out to you to help me.\""
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Yahweh, my Lord, you are the one who strongly defends me;"
-          },
-          {
-            "tag": "q2",
-            "text": "you have protected me during battles as though you had put a helmet on my head."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Yahweh, do not give to wicked people the things that they desire,"
-          },
-          {
-            "tag": "q2",
-            "text": "and do not allow them to do the evil things that they plan to do."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Do not allow my enemies to become proud;"
-          },
-          {
-            "tag": "q2",
-            "text": "cause the evil things that they say they will do to me to happen to them instead."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Cause burning coals to fall on their heads!"
-          },
-          {
-            "tag": "q2",
-            "text": "Cause them to be thrown into deep pits from which they cannot climb out!"
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Do not allow those who slander others to succeed;"
-          },
-          {
-            "tag": "q2",
-            "text": "cause evil things to happen to violent men and destroy them!"
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Yahweh, I know that you will defend those who are oppressed,"
-          },
-          {
-            "tag": "q2",
-            "text": "and that you will do what is just."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Righteous people will surely thank you,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they will live in your presence."
-          }
-        ],
-        "auto": true
-      }
-    ],
-    "num": 140
+[
+  {
+    "t": "m",
+    "v": []
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh, you have examined what is in my inner being,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "You know when I sit down and when I stand up."
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "From the time that I rise in the morning until I lie down to sleep at night,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Yahweh, even before I say anything,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "You protect me on all sides;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "I am not able to understand that you know everything about me."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Where could I go to escape from your Spirit?"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "If I go up to heaven, you will be there."
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "If the sun could carry me across the sky,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "you would be there also to lead me by your hand,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "I could wish for the darkness to hide me,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "But even if that happened, you would still see me."
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "You created all the parts of my body;"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "I praise you because you made my body very awesomely and wonderfully."
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "When my body was being formed,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "You saw me before I was born."
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "God, what you think about me is very valuable."
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "If I could count them, I would see that they are more than the grains of sand at the seashore."
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "God, I wish that you would kill the wicked people!"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "They say wicked things about you;"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Yahweh, I certainly hate those who hate you!"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "I hate them completely,"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "God, search my inner being;"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "Find out whether there is anything evil in my inner being,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and you know everything about me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Even though you are far away from me,"
+  },
+  {
+    "t": "q",
+    "v": "you know what I am thinking."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you know everything that I do."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you know everything that I am going to say!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you put your hand on me to protect me with your power."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "That is too hard for me to really understand."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Where could I go to get away from you?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "If I lie down in the place where the dead people are, you will be there."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "if I flew west and made a place to live on an island in the ocean,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and you would help me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "or I could wish for the light around me to become darkness."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "For you the night is as bright as the daytime,"
+  },
+  {
+    "t": "q",
+    "v": "because daylight and darkness are no different to you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you put the parts of my body together when I was still in my mother’s womb."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Everything that you do is amazing!"
+  },
+  {
+    "t": "q",
+    "v": "I certainly know that very well."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "while it was being put together where no one else could see it,"
+  },
+  {
+    "t": "q",
+    "v": "you saw it!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "You wrote in your book the number of days that you had decided that I would live."
+  },
+  {
+    "t": "q",
+    "v": "You did that before any of those days had even started!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "There are a huge amount of things that you think about."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "When I awake, I am still with you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I wish that violent men would all leave me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they slander your name."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I despise those who rebel against you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and I consider that they are my enemies."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "find out what I am thinking!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and lead me along the road that leads to my being with you forever."
+  }
+]

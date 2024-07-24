@@ -1,123 +1,207 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh, listen to me while I pray!"
       },
       {
-        "tag": "d",
-        "text": "A psalm written by David for the choir leader, to be accompanied by people playing stringed instruments"
+        "t": "v",
+        "n": 2,
+        "v": "You are my king and my God."
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Yahweh, do not correct me when you are angry with me;"
-          },
-          {
-            "tag": "q2",
-            "text": "do not punish me when you are upset."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Yahweh, act kindly toward me and heal me because I have become weak."
-          },
-          {
-            "tag": "q2",
-            "text": "My body shakes because I am experiencing so much sorrow."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Yahweh, I am greatly troubled in my inner being."
-          },
-          {
-            "tag": "q2",
-            "text": "How long must I endure this?"
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Yahweh, please come and rescue me."
-          },
-          {
-            "tag": "q2",
-            "text": "Save me because you always keep the promises of your covenant."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "I will not be able to praise you after I die;"
-          },
-          {
-            "tag": "q2",
-            "text": "no one in the place where the dead are praise you."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "I am exhausted because of my pain."
-          },
-          {
-            "tag": "q2",
-            "text": "I cry all night long so that my bed and my pillow are drenched by my tears."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Because I cry so much, I cannot see well."
-          },
-          {
-            "tag": "q2",
-            "text": "My eyes have become weak because I constantly cry in fear of my enemies."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "You people who do evil things, get away from me,"
-          },
-          {
-            "tag": "q2",
-            "text": "because Yahweh heard me when I was crying!"
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Yahweh heard me when I called out for him to help me,"
-          },
-          {
-            "tag": "q2",
-            "text": "and he will answer my prayer."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "When that happens, all my enemies will be ashamed;"
-          },
-          {
-            "tag": "q2",
-            "text": "they will be the ones who are terrified."
-          },
-          {
-            "tag": "q1",
-            "text": "They will turn away from me and suddenly leave me"
-          },
-          {
-            "tag": "q2",
-            "text": "because they will be disgraced."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "You listen to me when I pray to you each morning,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "You are not a god who is pleased with wicked people;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "You do not allow those who are proud to come to you to worship you."
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "You get rid of liars,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Yahweh, because you greatly and faithfully love me,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Yahweh, because you act righteously toward me,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "My enemies never say what is true;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "O God, declare that they are guilty and punish them."
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "But cause that all those who go to you to be protected will rejoice;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Yahweh, you always bless those who act righteously;"
       }
-    ],
-    "num": 6
+    ]
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Pay attention to me when I am groaning because I am suffering very much."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "When I call to you to request you to help me, listen to me"
+  },
+  {
+    "t": "q",
+    "v": "because you are the one to whom I pray."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and I wait for you to reply."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you will never welcome those who do what is evil."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "You hate all those who do evil things."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and you despise those who murder others and those who deceive others."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I come into your temple."
+  },
+  {
+    "t": "q",
+    "v": "I have an awesome respect for you"
+  },
+  {
+    "t": "q",
+    "v": "and I will bow down to worship you at your sacred temple."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "show me what is right for me to do."
+  },
+  {
+    "t": "q",
+    "v": "Because I have many enemies,"
+  },
+  {
+    "t": "q",
+    "v": "show me clearly how to live in the right way."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "in their inner beings they want to destroy others."
+  },
+  {
+    "t": "q",
+    "v": "They speak threats of violence and death."
+  },
+  {
+    "t": "q",
+    "v": "They use their tongues to say good things to please people."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Cause them to experience the same disasters that they plan to cause to happen to others."
+  },
+  {
+    "t": "q",
+    "v": "Get rid of them because they have committed many sins,"
+  },
+  {
+    "t": "q",
+    "v": "and they have rebelled against you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "cause them to sing joyfully to you forever."
+  },
+  {
+    "t": "q",
+    "v": "Protect those who love you;"
+  },
+  {
+    "t": "q",
+    "v": "they are truly happy because of what you do for them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you protect them as a soldier protects himself with his shield."
+  }
+]

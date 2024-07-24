@@ -1,323 +1,385 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "tag": "toc1",
-        "text": "The Book of Lamentations"
+        "t": "v",
+        "n": 1,
+        "v": "The city that once was full of people is now sitting all alone."
       },
       {
-        "tag": "toc2",
-        "text": "Lamentations"
+        "t": "v",
+        "n": 2,
+        "v": "She weeps and wails in the night, and her tears cover her cheeks."
       },
       {
-        "tag": "toc3",
-        "text": "Lam"
+        "t": "v",
+        "n": 3,
+        "v": "After poverty and affliction, Judah has gone into exile."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "The city that once was full of people is now sitting all alone."
-          },
-          {
-            "tag": "q",
-            "text": "She has become like a widow, though she was a mighty nation."
-          },
-          {
-            "tag": "q",
-            "text": "She was a princess among the nations, but is now forced into slavery."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "She weeps and wails in the night, and her tears cover her cheeks."
-          },
-          {
-            "tag": "q",
-            "text": "None of her lovers comfort her."
-          },
-          {
-            "tag": "q",
-            "text": "All her friends have betrayed her. They have become her enemies."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "After poverty and affliction, Judah has gone into exile."
-          },
-          {
-            "tag": "q",
-            "text": "She lives among the nations and finds no rest."
-          },
-          {
-            "tag": "q",
-            "text": "All her pursuers overtook her in her desperation."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "The roads of Zion mourn because none come to the appointed feasts."
-          },
-          {
-            "tag": "q",
-            "text": "All her gates are desolate. Her priests groan."
-          },
-          {
-            "tag": "q",
-            "text": "Her virgins are sorrowful and she herself is in complete distress."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Her adversaries have become her master; her enemies prosper."
-          },
-          {
-            "tag": "q",
-            "text": "Yahweh has afflicted her for her many sins."
-          },
-          {
-            "tag": "q",
-            "text": "Her little children go into captivity to her adversary."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Beauty has left the daughter of Zion."
-          },
-          {
-            "tag": "q",
-            "text": "Her princes have become like deer that cannot find pasture,"
-          },
-          {
-            "tag": "q",
-            "text": "and they go without strength before their pursuer."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "In the days of her affliction and her homelessness, Jerusalem will call to mind"
-          },
-          {
-            "tag": "q",
-            "text": "all her precious treasures that she had in former days."
-          },
-          {
-            "tag": "q",
-            "text": "When her people fell into the hand of the adversary, no one helped her."
-          },
-          {
-            "tag": "q",
-            "text": "The adversaries saw her and laughed at her destruction."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Jerusalem sinned greatly, therefore, she has become scorned as something that is filthy."
-          },
-          {
-            "tag": "q",
-            "text": "All who honored her now despise her since they have seen her nakedness."
-          },
-          {
-            "tag": "q",
-            "text": "She groans and tries to turn away."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "She has become unclean beneath her skirts. She did not think about her future."
-          },
-          {
-            "tag": "q",
-            "text": "Her fall was terrible. There was no one to comfort her."
-          },
-          {
-            "tag": "q",
-            "text": "She cried out, “Look at my affliction, Yahweh, for the enemy has become too great!”"
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "The adversary has put his hand on all our precious treasures."
-          },
-          {
-            "tag": "q",
-            "text": "She has seen the nations enter her sanctuary,"
-          },
-          {
-            "tag": "q",
-            "text": "even though you had commanded that they must not enter into your assembly place."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "All her people groan as they search for bread."
-          },
-          {
-            "tag": "q",
-            "text": "They have given their precious treasures for food to restore their lives."
-          },
-          {
-            "tag": "q",
-            "text": "Look, Yahweh, and consider me, for I have become worthless."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Is it nothing to you, all you who pass by?"
-          },
-          {
-            "tag": "q",
-            "text": "Look and see if there is anyone else’s sorrow like the sorrow that is being inflicted on me,"
-          },
-          {
-            "tag": "q",
-            "text": "since Yahweh has tormented me on the day of his fierce anger."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "It is from on high that he has sent fire into my bones, and it has conquered them."
-          },
-          {
-            "tag": "q",
-            "text": "He has spread a net for my feet and turned me back."
-          },
-          {
-            "tag": "q",
-            "text": "He has made me constantly desolate and weak."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "The yoke of my transgressions is bound together by his hand."
-          },
-          {
-            "tag": "q",
-            "text": "They are knit together and placed upon my neck. He has made my strength fail."
-          },
-          {
-            "tag": "q",
-            "text": "The Lord has given me over into their hands, and I am not able to stand."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "The Lord has tossed aside all my mighty men who defended me."
-          },
-          {
-            "tag": "q",
-            "text": "He has called an assembly against me to crush my vigorous men."
-          },
-          {
-            "tag": "q",
-            "text": "The Lord has trampled the virgin daughter of Judah in the winepress."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "For these things I weep, my eyes overflow with tears;"
-          },
-          {
-            "tag": "q",
-            "text": "for a comforter is far from me, one who restores my life."
-          },
-          {
-            "tag": "q",
-            "text": "My children are desolate because the enemy has conquered me."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Zion has spread her hands wide; there is none to comfort her."
-          },
-          {
-            "tag": "q",
-            "text": "Yahweh has commanded that those around Jacob should be his adversaries."
-          },
-          {
-            "tag": "q",
-            "text": "Jerusalem is something unclean to them."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "Yahweh is righteous, for I have rebelled against his commandment."
-          },
-          {
-            "tag": "q",
-            "text": "Hear, all you peoples, and see my sorrow."
-          },
-          {
-            "tag": "q",
-            "text": "My virgins and my vigorous men have gone into captivity."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "I called for my friends, but they were treacherous toward me."
-          },
-          {
-            "tag": "q",
-            "text": "My priests and my elders perished in the city,"
-          },
-          {
-            "tag": "q",
-            "text": "while they sought food to restore their lives."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Look, Yahweh, for I am in distress; my stomach churns,"
-          },
-          {
-            "tag": "q",
-            "text": "my heart is disturbed within me, for I have been very rebellious."
-          },
-          {
-            "tag": "q",
-            "text": "Outside, the sword bereaves a mother, inside the house there is only death."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "They have heard my groaning, but there is no one to comfort me."
-          },
-          {
-            "tag": "q",
-            "text": "All my enemies have heard of my trouble and they are glad that you have done it."
-          },
-          {
-            "tag": "q",
-            "text": "You have brought the day you promised; now let them become like me."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Let all their wickedness come before you."
-          },
-          {
-            "tag": "q",
-            "text": "deal with them as you have dealt with me because of all my transgressions."
-          },
-          {
-            "tag": "q",
-            "text": "My groans are many and my heart is faint."
-          }
-        ],
-        "tag": "m"
+        "t": "v",
+        "n": 4,
+        "v": "The roads of Zion mourn because none come to the appointed feasts."
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Her adversaries have become her master; her enemies prosper."
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Beauty has left the daughter of Zion."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "In the days of her affliction and her homelessness, Jerusalem will call to mind"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Jerusalem sinned greatly, therefore, she has become scorned as something that is filthy."
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "She has become unclean beneath her skirts. She did not think about her future."
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "The adversary has put his hand on all our precious treasures."
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "All her people groan as they search for bread."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Is it nothing to you, all you who pass by?"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "It is from on high that he has sent fire into my bones, and it has conquered them."
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "The yoke of my transgressions is bound together by his hand."
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "The Lord has tossed aside all my mighty men who defended me."
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "For these things I weep, my eyes overflow with tears;"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Zion has spread her hands wide; there is none to comfort her."
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Yahweh is righteous, for I have rebelled against his commandment."
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "I called for my friends, but they were treacherous toward me."
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Look, Yahweh, for I am in distress; my stomach churns,"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "They have heard my groaning, but there is no one to comfort me."
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Let all their wickedness come before you."
       }
-    ],
-    "num": 1
+    ]
   },
-  "id": "LAM unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Lamentations",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Lamentations"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "She has become like a widow, though she was a mighty nation."
+  },
+  {
+    "t": "q",
+    "v": "She was a princess among the nations, but is now forced into slavery."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "None of her lovers comfort her."
+  },
+  {
+    "t": "q",
+    "v": "All her friends have betrayed her. They have become her enemies."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "She lives among the nations and finds no rest."
+  },
+  {
+    "t": "q",
+    "v": "All her pursuers overtook her in her desperation."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "All her gates are desolate. Her priests groan."
+  },
+  {
+    "t": "q",
+    "v": "Her virgins are sorrowful and she herself is in complete distress."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Yahweh has afflicted her for her many sins."
+  },
+  {
+    "t": "q",
+    "v": "Her little children go into captivity to her adversary."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Her princes have become like deer that cannot find pasture,"
+  },
+  {
+    "t": "q",
+    "v": "and they go without strength before their pursuer."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "all her precious treasures that she had in former days."
+  },
+  {
+    "t": "q",
+    "v": "When her people fell into the hand of the adversary, no one helped her."
+  },
+  {
+    "t": "q",
+    "v": "The adversaries saw her and laughed at her destruction."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "All who honored her now despise her since they have seen her nakedness."
+  },
+  {
+    "t": "q",
+    "v": "She groans and tries to turn away."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Her fall was terrible. There was no one to comfort her."
+  },
+  {
+    "t": "q",
+    "v": "She cried out, “Look at my affliction, Yahweh, for the enemy has become too great!”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "She has seen the nations enter her sanctuary,"
+  },
+  {
+    "t": "q",
+    "v": "even though you had commanded that they must not enter into your assembly place."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "They have given their precious treasures for food to restore their lives."
+  },
+  {
+    "t": "q",
+    "v": "Look, Yahweh, and consider me, for I have become worthless."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Look and see if there is anyone else’s sorrow like the sorrow that is being inflicted on me,"
+  },
+  {
+    "t": "q",
+    "v": "since Yahweh has tormented me on the day of his fierce anger."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "He has spread a net for my feet and turned me back."
+  },
+  {
+    "t": "q",
+    "v": "He has made me constantly desolate and weak."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "They are knit together and placed upon my neck. He has made my strength fail."
+  },
+  {
+    "t": "q",
+    "v": "The Lord has given me over into their hands, and I am not able to stand."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "He has called an assembly against me to crush my vigorous men."
+  },
+  {
+    "t": "q",
+    "v": "The Lord has trampled the virgin daughter of Judah in the winepress."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for a comforter is far from me, one who restores my life."
+  },
+  {
+    "t": "q",
+    "v": "My children are desolate because the enemy has conquered me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Yahweh has commanded that those around Jacob should be his adversaries."
+  },
+  {
+    "t": "q",
+    "v": "Jerusalem is something unclean to them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Hear, all you peoples, and see my sorrow."
+  },
+  {
+    "t": "q",
+    "v": "My virgins and my vigorous men have gone into captivity."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "My priests and my elders perished in the city,"
+  },
+  {
+    "t": "q",
+    "v": "while they sought food to restore their lives."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "my heart is disturbed within me, for I have been very rebellious."
+  },
+  {
+    "t": "q",
+    "v": "Outside, the sword bereaves a mother, inside the house there is only death."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "All my enemies have heard of my trouble and they are glad that you have done it."
+  },
+  {
+    "t": "q",
+    "v": "You have brought the day you promised; now let them become like me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "deal with them as you have dealt with me because of all my transgressions."
+  },
+  {
+    "t": "q",
+    "v": "My groans are many and my heart is faint."
+  }
+]

@@ -1,254 +1,336 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Then Job answered and said,"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "“No doubt you are the people;"
-          },
-          {
-            "tag": "q",
-            "text": "wisdom will die with you."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "But I have understanding as well as you;"
-          },
-          {
-            "tag": "q",
-            "text": "I am not inferior to you."
-          },
-          {
-            "tag": "q",
-            "text": "Indeed, who does not know such things as these?"
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "I am something for my neighbor to laugh at—"
-          },
-          {
-            "tag": "q",
-            "text": "I, one who called on God and who was answered by him!"
-          },
-          {
-            "tag": "q",
-            "text": "I, a just and blameless man—I am now something to laugh at."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "In the thought of someone who is at ease, there is contempt for misfortune;"
-          },
-          {
-            "tag": "q",
-            "text": "he thinks in a way that brings more misfortune to those whose foot is slipping."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "The tents of robbers prosper,"
-          },
-          {
-            "tag": "q",
-            "text": "and those who provoke God feel secure;"
-          },
-          {
-            "tag": "q",
-            "text": "their own hands are their gods."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "But now ask the beasts, and they will teach you;"
-          },
-          {
-            "tag": "q",
-            "text": "ask the birds of the heavens, and they will tell you."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Or speak to the earth, and it will teach you;"
-          },
-          {
-            "tag": "q",
-            "text": "the fish of the sea will declare to you."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Which animal among all these does not know"
-          },
-          {
-            "tag": "q",
-            "text": "that the hand of Yahweh has done this?"
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "In his hand is the life of every living thing"
-          },
-          {
-            "tag": "q",
-            "text": "and the breath of all mankind."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Does not the ear test words"
-          },
-          {
-            "tag": "q",
-            "text": "just as the palate tastes its food?"
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "With aged men is wisdom;"
-          },
-          {
-            "tag": "q",
-            "text": "in length of days is understanding. "
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "With God are wisdom and might;"
-          },
-          {
-            "tag": "q",
-            "text": "he has counsel and understanding."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "See, he breaks down, and it cannot be built again;"
-          },
-          {
-            "tag": "q",
-            "text": "if he imprisons someone, there can be no release."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "See, if he withholds the waters, they dry up;"
-          },
-          {
-            "tag": "q",
-            "text": "and if he sends them out, they overwhelm the land."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "With him are strength and wisdom;"
-          },
-          {
-            "tag": "q",
-            "text": "people who are deceived and the deceiver are both in his power."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "He leads counselors away barefoot in sorrow;"
-          },
-          {
-            "tag": "q",
-            "text": "he turns judges into fools."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "He takes off the chain of authority from kings;"
-          },
-          {
-            "tag": "q",
-            "text": "he wraps a cloth about their waists."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "He leads priests away barefoot in sorrow"
-          },
-          {
-            "tag": "q",
-            "text": "and overthrows mighty people."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "He removes the speech of those who had been trusted"
-          },
-          {
-            "tag": "q",
-            "text": "and takes away the understanding of the elders."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "He pours contempt upon princes"
-          },
-          {
-            "tag": "q",
-            "text": "and unfastens the belt of strong people."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "He reveals the deep things of darkness"
-          },
-          {
-            "tag": "q",
-            "text": "and brings deep shadows into the light."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "He makes nations strong, and he also destroys them;"
-          },
-          {
-            "tag": "q",
-            "text": "He enlarges nations, and he also leads them along as prisoners."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "He takes away understanding from the leaders of the people of the earth;"
-          },
-          {
-            "tag": "q",
-            "text": "he causes them to wander in a wilderness where there is no path."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "They grope in the dark without light;"
-          },
-          {
-            "tag": "q",
-            "text": "he makes them stagger like a drunk man."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "Then Job answered and said,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "“No doubt you are the people;"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "But I have understanding as well as you;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "I am something for my neighbor to laugh at—"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "In the thought of someone who is at ease, there is contempt for misfortune;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "The tents of robbers prosper,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "But now ask the beasts, and they will teach you;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Or speak to the earth, and it will teach you;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Which animal among all these does not know"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "In his hand is the life of every living thing"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Does not the ear test words"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "With aged men is wisdom;"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "With God are wisdom and might;"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "See, he breaks down, and it cannot be built again;"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "See, if he withholds the waters, they dry up;"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "With him are strength and wisdom;"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "He leads counselors away barefoot in sorrow;"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "He takes off the chain of authority from kings;"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "He leads priests away barefoot in sorrow"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "He removes the speech of those who had been trusted"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "He pours contempt upon princes"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "He reveals the deep things of darkness"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "He makes nations strong, and he also destroys them;"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "He takes away understanding from the leaders of the people of the earth;"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "They grope in the dark without light;"
       }
-    ],
-    "num": 12
+    ]
   },
-  "id": "JOB unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Job",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Job"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "wisdom will die with you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I am not inferior to you."
+  },
+  {
+    "t": "q",
+    "v": "Indeed, who does not know such things as these?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I, one who called on God and who was answered by him!"
+  },
+  {
+    "t": "q",
+    "v": "I, a just and blameless man—I am now something to laugh at."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he thinks in a way that brings more misfortune to those whose foot is slipping."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and those who provoke God feel secure;"
+  },
+  {
+    "t": "q",
+    "v": "their own hands are their gods."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "ask the birds of the heavens, and they will tell you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the fish of the sea will declare to you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "that the hand of Yahweh has done this?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and the breath of all mankind."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "just as the palate tastes its food?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "in length of days is understanding. "
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he has counsel and understanding."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "if he imprisons someone, there can be no release."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and if he sends them out, they overwhelm the land."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "people who are deceived and the deceiver are both in his power."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he turns judges into fools."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he wraps a cloth about their waists."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and overthrows mighty people."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and takes away the understanding of the elders."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and unfastens the belt of strong people."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and brings deep shadows into the light."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "He enlarges nations, and he also leads them along as prisoners."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he causes them to wander in a wilderness where there is no path."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he makes them stagger like a drunk man."
+  }
+]

@@ -1,128 +1,173 @@
-{
-  "chapter": {
-    "children": [
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "tag": "d",
-        "text": "A psalm that David prayed when he was hiding in a cave."
-      },
-      {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Yahweh, I cry out to you;"
-          },
-          {
-            "tag": "q2",
-            "text": "I plead for you to help me."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "I am bringing to you all my problems;"
-          },
-          {
-            "tag": "q2",
-            "text": "I am telling you all my troubles."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "When I am very discouraged,"
-          },
-          {
-            "tag": "q2",
-            "text": "you know what I should do."
-          },
-          {
-            "tag": "q1",
-            "text": "Wherever I walk, it is as though my enemies have hidden traps for me to fall into."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "I look around,"
-          },
-          {
-            "tag": "q2",
-            "text": "but there is no one who sees me,"
-          },
-          {
-            "tag": "q2",
-            "text": "no one who will protect me,"
-          },
-          {
-            "tag": "q2",
-            "text": "and no one who cares about what happens to me."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "So Yahweh, I cry out to you to help me;"
-          },
-          {
-            "tag": "q2",
-            "text": "you are the one who protects me;"
-          },
-          {
-            "tag": "q1",
-            "text": "you are all that I need while I am alive."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Listen to me while I cry out to you for help"
-          },
-          {
-            "tag": "q2",
-            "text": "because I am very distressed."
-          },
-          {
-            "tag": "q1",
-            "text": "Rescue me"
-          },
-          {
-            "tag": "q2",
-            "text": "because those who make me suffer are very strong;"
-          },
-          {
-            "tag": "q2",
-            "text": "I cannot escape from them."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Free me from my troubles"
-          },
-          {
-            "tag": "q2",
-            "text": "so that I may thank you."
-          },
-          {
-            "tag": "q1",
-            "text": "If you do that, when I am with others who live rightly,"
-          },
-          {
-            "tag": "q2",
-            "text": "I will praise you for having been very good to me."
-          }
-        ],
-        "auto": true
-      }
-    ],
-    "num": 142
+[
+  {
+    "t": "m",
+    "v": []
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh, I call out to you;"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "Accept my prayer as though it were incense being burned as an offering to you."
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Yahweh, do not allow me to say things that are wrong;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Prevent me from wanting to do anything that is wrong"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "It is all right if righteous people strike me or rebuke me"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "When their rulers are thrown down from the top of rocky cliffs,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "They will know one day that their bodies will lie scattered on the ground in the place of the dead,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "But Yahweh God, I continue to request that you help me."
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "It is as though people have set traps for me;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "I wish that wicked people may fall into the traps they have set to catch me"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "please help me quickly!"
+  },
+  {
+    "t": "q",
+    "v": "Listen to me when I am calling to you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Accept me while I lift up my hands to pray to you,"
+  },
+  {
+    "t": "q",
+    "v": "just as you accept sacrifices that are offered to you in the evening."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "guard what I say as a sentry guards a door."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and from joining with wicked men when they want to do evil deeds."
+  },
+  {
+    "t": "q",
+    "v": "Do not even allow me to share in eating delightful food with them!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because they are trying to act kindly toward me to teach me to do what is right;"
+  },
+  {
+    "t": "q",
+    "v": "if they do that, it will be as if someone honored me by anointing my head with olive oil;"
+  },
+  {
+    "t": "q",
+    "v": "but I am always praying that you will punish the wicked because of the wicked deeds that they do."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they will know that what I am saying here is good."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "just as one scatters clods of earth when he plows a field."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I ask you to protect me;"
+  },
+  {
+    "t": "q",
+    "v": "do not allow me to die now!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "protect me from falling into those traps."
+  },
+  {
+    "t": "q",
+    "v": "It is as though they have spread nets to catch me;"
+  },
+  {
+    "t": "q",
+    "v": "keep me from being caught in those nets."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "while I escape from them."
+  }
+]

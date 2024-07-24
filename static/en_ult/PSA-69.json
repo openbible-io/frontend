@@ -1,366 +1,514 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "Let God arise; let his enemies be scattered;"
       },
       {
-        "tag": "d",
-        "text": "For the chief musician; set to Shoshannim. A psalm of David."
+        "t": "v",
+        "n": 2,
+        "v": "As smoke is driven away, so drive them away;"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Save me, God;"
-          },
-          {
-            "tag": "q",
-            "text": "for the waters have put my life in danger."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "I sink in deep mire, where there is no place to stand;"
-          },
-          {
-            "tag": "q",
-            "text": "I have come into deep waters, where the floods flow over me."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "I am weary with my crying; my throat is dry;"
-          },
-          {
-            "tag": "q",
-            "text": "my eyes fail while I wait for my God."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Those who hate me without a cause are more than the hairs on my head;"
-          },
-          {
-            "tag": "q",
-            "text": "those who would cut me off, being my enemies for wrong reasons, are mighty;"
-          },
-          {
-            "tag": "q",
-            "text": "what I did not steal, I have to give back."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "God, you know my foolishness,"
-          },
-          {
-            "tag": "q",
-            "text": "and my sins are not hidden from you."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Let not those who hope in you be put to shame because of me, Lord Yahweh of hosts;"
-          },
-          {
-            "tag": "q",
-            "text": "let not those who seek you be brought to dishonor because of me, God of Israel."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "For your sake I have borne rebuke;"
-          },
-          {
-            "tag": "q",
-            "text": "shame has covered my face."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "I have become a stranger to my brothers,"
-          },
-          {
-            "tag": "q",
-            "text": "an alien to my mother’s children."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "For the zeal of your house has eaten me up,"
-          },
-          {
-            "tag": "q",
-            "text": "and the rebukes of those who rebuke you have fallen on me."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "When I wept and did not eat food,"
-          },
-          {
-            "tag": "q",
-            "text": "they insulted me."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "When I made sackcloth my clothing,"
-          },
-          {
-            "tag": "q",
-            "text": "I became the object of a proverb to them."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Those who sit in the city gate talk about me;"
-          },
-          {
-            "tag": "q",
-            "text": "I am a song of drunkards."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "But as for me, my prayer is to you, Yahweh, at a time that you will accept;"
-          },
-          {
-            "tag": "q",
-            "text": "answer me in the trustworthiness of your salvation."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "Pull me out of the mire, and do not let me sink;"
-          },
-          {
-            "tag": "q",
-            "text": "let me be taken away from those who hate me and rescued out of the deep waters."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "Do not let the floods of water overwhelm me,"
-          },
-          {
-            "tag": "q",
-            "text": "neither let the deep swallow me up."
-          },
-          {
-            "tag": "q",
-            "text": "Do not let the pit shut its mouth on me."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Answer me, Yahweh, for your covenant faithfulness is good;"
-          },
-          {
-            "tag": "q",
-            "text": "because your mercies for me are many, turn to me."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Do not hide your face from your servant,"
-          },
-          {
-            "tag": "q",
-            "text": "for I am in distress; answer me quickly."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "Come to me and redeem me."
-          },
-          {
-            "tag": "q",
-            "text": "Because of my enemies, ransom me."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "You know my rebuke, my shame, and my dishonor;"
-          },
-          {
-            "tag": "q",
-            "text": "my adversaries are all before you."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Rebuke has broken my heart; I am full of heaviness;"
-          },
-          {
-            "tag": "q",
-            "text": "I looked for someone to take pity, but there was none;"
-          },
-          {
-            "tag": "q",
-            "text": "I looked for comforters, but I found none."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "They gave me poison for my food;"
-          },
-          {
-            "tag": "q",
-            "text": "in my thirst they gave me vinegar to drink."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Let their table before them become a snare;"
-          },
-          {
-            "tag": "q",
-            "text": "when they think they are in safety, let it become a trap."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "Let their eyes be darkened so that they cannot see;"
-          },
-          {
-            "tag": "q",
-            "text": "and always make their loins shake."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "Pour out your indignation on them,"
-          },
-          {
-            "tag": "q",
-            "text": "and let the fierceness of your anger overtake them."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "Let their place be a desolation;"
-          },
-          {
-            "tag": "q",
-            "text": "let no one live in their tents."
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "For they persecuted the one you struck down."
-          },
-          {
-            "tag": "q",
-            "text": "They repeated the account of the pain of those you have wounded."
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "Accuse them of having committed iniquity after iniquity;"
-          },
-          {
-            "tag": "q",
-            "text": "do not let them come into your righteous victory."
-          },
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "Let them be blotted out of the Book of Life"
-          },
-          {
-            "tag": "q",
-            "text": "and not be written down along with the righteous."
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "But I am poor and sorrowful;"
-          },
-          {
-            "tag": "q",
-            "text": "let your salvation, God, set me up on high."
-          },
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "I will praise the name of God with a song"
-          },
-          {
-            "tag": "q",
-            "text": "and will exalt him with thanksgiving."
-          },
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "That will please Yahweh better than an ox"
-          },
-          {
-            "tag": "q",
-            "text": "or a bull that has horns and hooves."
-          },
-          {
-            "tag": "v",
-            "num": "32",
-            "text": "The meek have seen it and are glad;"
-          },
-          {
-            "tag": "q",
-            "text": "you who seek after God, let your hearts live."
-          },
-          {
-            "tag": "v",
-            "num": "33",
-            "text": "For Yahweh hears the needy"
-          },
-          {
-            "tag": "q",
-            "text": "and does not despise his prisoners."
-          },
-          {
-            "tag": "v",
-            "num": "34",
-            "text": "Let heaven and earth praise him,"
-          },
-          {
-            "tag": "q",
-            "text": "the seas and everything that moves in them."
-          },
-          {
-            "tag": "v",
-            "num": "35",
-            "text": "For God will save Zion and will rebuild the cities of Judah;"
-          },
-          {
-            "tag": "q",
-            "text": "the people will live there and have it as a possession."
-          },
-          {
-            "tag": "v",
-            "num": "36",
-            "text": "His servants’ descendants will inherit it;"
-          },
-          {
-            "tag": "q",
-            "text": "and those who love his name will live there."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "But let the righteous be glad; let them exult before God;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Sing to God! Sing praises to his name!"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "A father of the fatherless, a judge of the widows,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "God puts the lonely into families;"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "God, when you went out before your people,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "The earth trembled;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "You, God, sent a plentiful rain;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Your people lived in it;"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "The Lord gave the orders,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Kings of armies flee, they flee,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "doves covered with silver"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "The Almighty scattered kings there,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "A mighty mountain is the hill country of Bashan;"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Why do you look in envy, you high hill country,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "The chariots of God are twenty thousand, thousands upon thousands;"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "You have ascended on high; you have led away captives;"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Blessed be the Lord, who daily bears our burdens,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Our God is a God who saves;"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "But God will strike through the heads of his enemies,"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "The Lord said, “I will bring my enemies back from Bashan;"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "so that you may crush your enemies, dipping your foot in blood,"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "They have seen your processions, God,"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "The singers went first, the minstrels followed after,"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "Bless God in the assemblies;"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "There is first Benjamin, the smallest tribe,"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "Your God, Israel, has decreed your strength;"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "Reveal your power to us from your temple at Jerusalem,"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "Shout in battle against the wild beasts in the reeds,"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "Princes will come out of Egypt;"
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "Sing to God, you kingdoms of the earth;"
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "To him who rides on the heaven of heavens, which exist from ancient times;"
+      },
+      {
+        "t": "v",
+        "n": 34,
+        "v": "Ascribe strength to God;"
+      },
+      {
+        "t": "v",
+        "n": 35,
+        "v": "God, you are fearsome in your holy place;"
       }
-    ],
-    "num": 69
+    ]
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "let those also who hate him flee before him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "as wax melts before the fire,"
+  },
+  {
+    "t": "q",
+    "v": "so let the wicked perish in the presence of God."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "may they rejoice and be happy."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Praise the one who rides through the plains of the Jordan River valley!"
+  },
+  {
+    "t": "q",
+    "v": "Yahweh is his name! Rejoice before him!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "is God in the holy place where he lives."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he brings out the prisoners with singing;"
+  },
+  {
+    "t": "q",
+    "v": "but the rebellious live in a parched land."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "when you marched through the wilderness,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the heavens also dropped rain in God’s presence,"
+  },
+  {
+    "t": "q",
+    "v": "in the presence of God when he came to Sinai, in the presence of God, the God of Israel."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you strengthened your inheritance when it was weary."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "You, God, gave from your goodness to the poor."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and those who announced them were a great army."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and the women waiting at home divide the plunder:"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "with wings of yellow gold."
+  },
+  {
+    "t": "q",
+    "v": "When some of you people stayed among the sheepfolds, why did you do this?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "it was as when it snowed on Mount Zalmon."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "a high mountain is the hill country of Bashan."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "at the mountain which God desires for the place he will live?"
+  },
+  {
+    "t": "q",
+    "v": "Indeed, Yahweh will live in it forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the Lord is among them in the holy place, as at Sinai."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you have received gifts from among men,"
+  },
+  {
+    "t": "q",
+    "v": "even from those who fought against you,"
+  },
+  {
+    "t": "q",
+    "v": "so that you, Yahweh God, might live there."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the God who is our salvation."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Yahweh the Lord is the one who is able to rescue us from death."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "through the hairy scalps of those who walk in offenses against him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will bring them back from the depths of the sea"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and so that the tongues of your dogs may have their share from your enemies.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the processions of my God, my King, into the holy place."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and in the middle were the unmarried girls playing tambourines."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "praise Yahweh, you who are from the fountain "
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "then the leaders of Judah and their multitudes,"
+  },
+  {
+    "t": "q",
+    "v": "the leaders of Zebulun and the leaders of Naphtali."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "reveal to us your power, God, as you have revealed it in times past."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "where kings bring gifts to you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "against the peoples, that multitude of bulls and calves."
+  },
+  {
+    "t": "q",
+    "v": "Humiliate them and make them bring you gifts;"
+  },
+  {
+    "t": "q",
+    "v": "scatter the peoples who love to wage war."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Cush will hurry to reach out with her hands to God."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Sing praises to Yahweh."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "see, he lifts up his voice with power."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "his majesty is over Israel,"
+  },
+  {
+    "t": "q",
+    "v": "and his strength is in the skies."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the God of Israel—he gives strength and power to his people."
+  },
+  {
+    "t": "q",
+    "v": "Blessed be God."
+  }
+]

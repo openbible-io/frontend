@@ -1,390 +1,536 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Then Yahweh called to Job out of a fierce storm and said,"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "“Who is this who brings darkness to plans"
-          },
-          {
-            "tag": "q",
-            "text": "by means of words without knowledge?"
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Now gird up your loins like a man"
-          },
-          {
-            "tag": "q",
-            "text": "for I will ask you questions, and you must answer me."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Where were you when I laid the earth’s foundations?"
-          },
-          {
-            "tag": "q",
-            "text": "Tell me, if you have so much understanding."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Who determined its dimensions? Tell me, if you know."
-          },
-          {
-            "tag": "q",
-            "text": "Who stretched the measuring line over it?"
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "On what were its foundations laid?"
-          },
-          {
-            "tag": "q",
-            "text": "Who laid its cornerstone"
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "when the morning stars sang together"
-          },
-          {
-            "tag": "q",
-            "text": "and all the sons of God shouted for joy?"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Who shut up the sea with doors"
-          },
-          {
-            "tag": "q",
-            "text": "when it burst out, as if it had come out of the womb—"
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "when I made clouds its clothing,"
-          },
-          {
-            "tag": "q",
-            "text": "and thick darkness its swaddling bands?"
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "That was when I marked out for the sea my boundary,"
-          },
-          {
-            "tag": "q",
-            "text": "and when I placed its bars and doors,"
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "and when I said to it, ‘You may come this far, but no farther;"
-          },
-          {
-            "tag": "q",
-            "text": "here is where I will put a boundary to the pride of your waves.’"
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Have you given orders to the morning,"
-          },
-          {
-            "tag": "q",
-            "text": "or caused the dawn to know its place,"
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "so that it might take hold of the edges of the earth"
-          },
-          {
-            "tag": "q",
-            "text": "and shake the wicked out of it?"
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "The earth is changed in appearance like clay changes under a seal;"
-          },
-          {
-            "tag": "q",
-            "text": "all things on it stand out clearly like the folds of a piece of clothing."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "From wicked people their ‘light’ is taken away;"
-          },
-          {
-            "tag": "q",
-            "text": "their uplifted arm is broken."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Have you gone to the sources of the waters of the sea?"
-          },
-          {
-            "tag": "q",
-            "text": "Have you walked in the lowest parts of the deep?"
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Have the gates of death been revealed to you?"
-          },
-          {
-            "tag": "q",
-            "text": "Have you seen the gates of the shadow of death?"
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "Have you understood the earth in its expanse?"
-          },
-          {
-            "tag": "q",
-            "text": "Tell me, if you know it all."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "Where is the way to the resting place of light—"
-          },
-          {
-            "tag": "q",
-            "text": "as for darkness, where is its place?"
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Can you lead light and darkness to their places of work?"
-          },
-          {
-            "tag": "q",
-            "text": "Can you find the way back to their houses for them?"
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "Undoubtedly you know, for you were born then;"
-          },
-          {
-            "tag": "q",
-            "text": "the number of your days is so large!"
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Have you entered the storehouses for the snow,"
-          },
-          {
-            "tag": "q",
-            "text": "or have you seen the storehouses for the hail,"
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "these things that I have kept for times of trouble,"
-          },
-          {
-            "tag": "q",
-            "text": "for days of battle and war?"
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "What is the path to where the lightning bolts are distributed"
-          },
-          {
-            "tag": "q",
-            "text": "or to where the winds are scattered from the east over the earth?"
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "Who has created the channels for the floods of rain,"
-          },
-          {
-            "tag": "q",
-            "text": "or who has made a path for the thunder,"
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "to cause it to rain on lands where no person exists,"
-          },
-          {
-            "tag": "q",
-            "text": "and on the wilderness, in which there is no one,"
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "to satisfy the devastated and desolate places,"
-          },
-          {
-            "tag": "q",
-            "text": "and to make the ground sprout with grass?"
-          },
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "Does the rain have a father,"
-          },
-          {
-            "tag": "q",
-            "text": "or, who fathers the drops of dew?"
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "Out of whose womb did the ice come?"
-          },
-          {
-            "tag": "q",
-            "text": "Who bore the white frost out of the sky?"
-          },
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "The waters hide themselves and become like stone;"
-          },
-          {
-            "tag": "q",
-            "text": "the surface of the deep becomes frozen."
-          },
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "Can you fasten chains on the Pleiades,"
-          },
-          {
-            "tag": "q",
-            "text": "or undo the cords of Orion?"
-          },
-          {
-            "tag": "v",
-            "num": "32",
-            "text": "Can you lead the constellations to appear at their proper times?"
-          },
-          {
-            "tag": "q",
-            "text": "Can you guide the Bear with its children?"
-          },
-          {
-            "tag": "v",
-            "num": "33",
-            "text": "Do you know the regulations of the sky?"
-          },
-          {
-            "tag": "q",
-            "text": "Could you set in place the sky’s rule over the earth?"
-          },
-          {
-            "tag": "v",
-            "num": "34",
-            "text": "Can you raise your voice up to the clouds,"
-          },
-          {
-            "tag": "q",
-            "text": "so that an abundance of rainwater may cover you?"
-          },
-          {
-            "tag": "v",
-            "num": "35",
-            "text": "Can you send out bolts of lightning that they may go out,"
-          },
-          {
-            "tag": "q",
-            "text": "that they say to you, ‘Here we are’?"
-          },
-          {
-            "tag": "v",
-            "num": "36",
-            "text": "Who has put wisdom in the clouds"
-          },
-          {
-            "tag": "q",
-            "text": "or has given understanding to the mists?"
-          },
-          {
-            "tag": "v",
-            "num": "37",
-            "text": "Who can number the clouds by his skill?"
-          },
-          {
-            "tag": "q",
-            "text": "Who can pour out the water skins of the sky"
-          },
-          {
-            "tag": "v",
-            "num": "38",
-            "text": "when the dust runs into a hard mass"
-          },
-          {
-            "tag": "q",
-            "text": "and the clods of earth clump tightly together?"
-          },
-          {
-            "tag": "v",
-            "num": "39",
-            "text": "Can you hunt down a victim for a lioness"
-          },
-          {
-            "tag": "q",
-            "text": "or satisfy the appetite of her young lion cubs"
-          },
-          {
-            "tag": "v",
-            "num": "40",
-            "text": "when they are crouching in their dens"
-          },
-          {
-            "tag": "q",
-            "text": "and sheltering in hiding to lie in wait?"
-          },
-          {
-            "tag": "v",
-            "num": "41",
-            "text": "Who provides victims for the ravens"
-          },
-          {
-            "tag": "q",
-            "text": "when their young ones cry out to God"
-          },
-          {
-            "tag": "q",
-            "text": "and stagger about for lack of food?"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "Then Yahweh called to Job out of a fierce storm and said,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "“Who is this who brings darkness to plans"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Now gird up your loins like a man"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Where were you when I laid the earth’s foundations?"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Who determined its dimensions? Tell me, if you know."
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "On what were its foundations laid?"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "when the morning stars sang together"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Who shut up the sea with doors"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "when I made clouds its clothing,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "That was when I marked out for the sea my boundary,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "and when I said to it, ‘You may come this far, but no farther;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Have you given orders to the morning,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "so that it might take hold of the edges of the earth"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "The earth is changed in appearance like clay changes under a seal;"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "From wicked people their ‘light’ is taken away;"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Have you gone to the sources of the waters of the sea?"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Have the gates of death been revealed to you?"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Have you understood the earth in its expanse?"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Where is the way to the resting place of light—"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Can you lead light and darkness to their places of work?"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Undoubtedly you know, for you were born then;"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Have you entered the storehouses for the snow,"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "these things that I have kept for times of trouble,"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "What is the path to where the lightning bolts are distributed"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "Who has created the channels for the floods of rain,"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "to cause it to rain on lands where no person exists,"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "to satisfy the devastated and desolate places,"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "Does the rain have a father,"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "Out of whose womb did the ice come?"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "The waters hide themselves and become like stone;"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "Can you fasten chains on the Pleiades,"
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "Can you lead the constellations to appear at their proper times?"
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "Do you know the regulations of the sky?"
+      },
+      {
+        "t": "v",
+        "n": 34,
+        "v": "Can you raise your voice up to the clouds,"
+      },
+      {
+        "t": "v",
+        "n": 35,
+        "v": "Can you send out bolts of lightning that they may go out,"
+      },
+      {
+        "t": "v",
+        "n": 36,
+        "v": "Who has put wisdom in the clouds"
+      },
+      {
+        "t": "v",
+        "n": 37,
+        "v": "Who can number the clouds by his skill?"
+      },
+      {
+        "t": "v",
+        "n": 38,
+        "v": "when the dust runs into a hard mass"
+      },
+      {
+        "t": "v",
+        "n": 39,
+        "v": "Can you hunt down a victim for a lioness"
+      },
+      {
+        "t": "v",
+        "n": 40,
+        "v": "when they are crouching in their dens"
+      },
+      {
+        "t": "v",
+        "n": 41,
+        "v": "Who provides victims for the ravens"
       }
-    ],
-    "num": 38
+    ]
   },
-  "id": "JOB unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Job",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Job"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "by means of words without knowledge?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for I will ask you questions, and you must answer me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Tell me, if you have so much understanding."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Who stretched the measuring line over it?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Who laid its cornerstone"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and all the sons of God shouted for joy?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "when it burst out, as if it had come out of the womb—"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and thick darkness its swaddling bands?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and when I placed its bars and doors,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "here is where I will put a boundary to the pride of your waves.’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "or caused the dawn to know its place,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and shake the wicked out of it?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "all things on it stand out clearly like the folds of a piece of clothing."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "their uplifted arm is broken."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Have you walked in the lowest parts of the deep?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Have you seen the gates of the shadow of death?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Tell me, if you know it all."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "as for darkness, where is its place?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Can you find the way back to their houses for them?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the number of your days is so large!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "or have you seen the storehouses for the hail,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for days of battle and war?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "or to where the winds are scattered from the east over the earth?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "or who has made a path for the thunder,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and on the wilderness, in which there is no one,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and to make the ground sprout with grass?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "or, who fathers the drops of dew?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Who bore the white frost out of the sky?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the surface of the deep becomes frozen."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "or undo the cords of Orion?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Can you guide the Bear with its children?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Could you set in place the sky’s rule over the earth?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so that an abundance of rainwater may cover you?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "that they say to you, ‘Here we are’?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "or has given understanding to the mists?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Who can pour out the water skins of the sky"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and the clods of earth clump tightly together?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "or satisfy the appetite of her young lion cubs"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and sheltering in hiding to lie in wait?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "when their young ones cry out to God"
+  },
+  {
+    "t": "q",
+    "v": "and stagger about for lack of food?"
+  }
+]

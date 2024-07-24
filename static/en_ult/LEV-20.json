@@ -1,272 +1,242 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Yahweh spoke to Moses, saying,"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "“Say to the people of Israel, ‘Anyone among the people of Israel, or any foreigner who lives in Israel who gives any of his children to Molech, must certainly be put to death. The people in the land must stone him with stones."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "I also will set my face against that man and will cut him off from among his people because he has given his child to Molech, so as to defile my holy place and profane my holy name."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "If the people of the land close their eyes to that man when he gives any of his children to Molech, if they do not put him to death,"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "then I myself will set my face against that man and his clan, and I will cut him off and everyone else who prostitutes himself in order to play the harlot with Molech."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh spoke to Moses, saying,"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "The person who turns to those who talk with the dead, or to those who talk with spirits so as to prostitute themselves with them, I will set my face against that person; I will cut him off from among his people."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Therefore consecrate yourselves and be holy, because I am Yahweh your God."
-          },
-          {
-            "tag": "f",
-            "text": "+ "
-          },
-          {
-            "tag": "ft",
-            "text": "Several modern versions have: "
-          },
-          {
-            "tag": "fqa",
-            "text": "... because I, Yahweh your God, am holy ."
-          },
-          {
-            "tag": "f",
-            "text": "*"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "“Say to the people of Israel, ‘Anyone among the people of Israel, or any foreigner who lives in Israel who gives any of his children to Molech, must certainly be put to death. The people in the land must stone him with stones."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "You must keep my commands and carry them out. I am Yahweh who sets you apart as holy."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 3,
+        "v": "I also will set my face against that man and will cut him off from among his people because he has given his child to Molech, so as to defile my holy place and profane my holy name."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Everyone who curses his father or his mother must surely be put to death. He has cursed his father or his mother, so he is guilty and deserves to die."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 4,
+        "v": "If the people of the land close their eyes to that man when he gives any of his children to Molech, if they do not put him to death,"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "The man who commits adultery with another man’s wife, that is, anyone who commits adultery with his neighbor’s wife—the adulterer and the adulteress must both certainly be put to death."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "If a man lies with his father’s wife, he uncovers his father’s nakedness. Both the son and his father’s wife must certainly be put to death. Their blood is upon them."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "If a man lies with his daughter-in-law, both of them must certainly be put to death. They have committed perversion. They are guilty and deserve to die."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "If a man lies with another man, as with a woman, both of them have done what is detestable. They must surely be put to death. They are guilty and deserve to die."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "If a man marries a woman and also marries her mother, this is wickedness. They must be burned, both he and the women, so that there will be no wickedness among you."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "If a man lies with an animal, he must surely be put to death, and you must kill the animal."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "If a woman approaches any animal and lies with it, you must kill the woman and the animal. They must certainly be put to death. They are guilty and deserve to die."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "If a man takes his sister, a daughter of his father or a daughter of his mother, and he uncovers her nakedness, and she sees his nakedness, it is a shameful thing. They must be cut off in the sight of the children of their people. He has uncovered the nakedness of his sister, and he must carry his guilt."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "If a man lies with a woman during her menstrual period and has uncovered her nakedness, he has uncovered her flow, the fountain of her blood. Both the man and woman must be cut off from among their people."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "You must not uncover the nakedness of your mother’s sister, or your father’s sister, because you would disgrace your close relative. You must carry your own guilt."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "If a man lies with his aunt, he has dishonored his uncle. They will bear responsibility for their sin, and they will die without children."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "If a man marries his brother’s wife while his brother is still living, that is disgraceful. He has dishonored his brother, and I will take away from their children any property they may have inherited from their parents. "
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "You must therefore keep all my statutes and all my decrees; you must obey them so that the land into which I am bringing you to live will not vomit you up."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "You must not walk in the customs of the nations that I will drive out before you, for they have done all these things, and I detest them."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "I said to you, “You will inherit their land; I will give it to you to possess, a land flowing with milk and honey. I am Yahweh your God, who has separated you from the other peoples."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "You must therefore distinguish between the clean animals and the unclean, and between the unclean birds and the clean. You must not defile yourselves with unclean animals or birds or with any creature that crawls along the ground, which I have separated as unclean from you."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "You must be holy, for I, Yahweh, am holy, and I have separated you from the other peoples, for you belong to me."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "A man or a woman who talks with the dead or who talks with spirits must certainly be put to death. The people must stone them with stones. They are guilty and deserve to die.’”"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 5,
+        "v": "then I myself will set my face against that man and his clan, and I will cut him off and everyone else who prostitutes himself in order to play the harlot with Molech."
       }
-    ],
-    "num": 20
+    ]
   },
-  "id": "LEV unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Leviticus",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Leviticus "
-    }
-  ]
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 6,
+        "v": "The person who turns to those who talk with the dead, or to those who talk with spirits so as to prostitute themselves with them, I will set my face against that person; I will cut him off from among his people."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Therefore consecrate yourselves and be holy, because I am Yahweh your God."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 8,
+        "v": "You must keep my commands and carry them out. I am Yahweh who sets you apart as holy."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Everyone who curses his father or his mother must surely be put to death. He has cursed his father or his mother, so he is guilty and deserves to die."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 10,
+        "v": "The man who commits adultery with another man’s wife, that is, anyone who commits adultery with his neighbor’s wife—the adulterer and the adulteress must both certainly be put to death."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 11,
+        "v": "If a man lies with his father’s wife, he uncovers his father’s nakedness. Both the son and his father’s wife must certainly be put to death. Their blood is upon them."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 12,
+        "v": "If a man lies with his daughter-in-law, both of them must certainly be put to death. They have committed perversion. They are guilty and deserve to die."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 13,
+        "v": "If a man lies with another man, as with a woman, both of them have done what is detestable. They must surely be put to death. They are guilty and deserve to die."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 14,
+        "v": "If a man marries a woman and also marries her mother, this is wickedness. They must be burned, both he and the women, so that there will be no wickedness among you."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 15,
+        "v": "If a man lies with an animal, he must surely be put to death, and you must kill the animal."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 16,
+        "v": "If a woman approaches any animal and lies with it, you must kill the woman and the animal. They must certainly be put to death. They are guilty and deserve to die."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 17,
+        "v": "If a man takes his sister, a daughter of his father or a daughter of his mother, and he uncovers her nakedness, and she sees his nakedness, it is a shameful thing. They must be cut off in the sight of the children of their people. He has uncovered the nakedness of his sister, and he must carry his guilt."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 18,
+        "v": "If a man lies with a woman during her menstrual period and has uncovered her nakedness, he has uncovered her flow, the fountain of her blood. Both the man and woman must be cut off from among their people."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 19,
+        "v": "You must not uncover the nakedness of your mother’s sister, or your father’s sister, because you would disgrace your close relative. You must carry your own guilt."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 20,
+        "v": "If a man lies with his aunt, he has dishonored his uncle. They will bear responsibility for their sin, and they will die without children."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 21,
+        "v": "If a man marries his brother’s wife while his brother is still living, that is disgraceful. He has dishonored his brother, and I will take away from their children any property they may have inherited from their parents."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 22,
+        "v": "You must therefore keep all my statutes and all my decrees; you must obey them so that the land into which I am bringing you to live will not vomit you up."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 23,
+        "v": "You must not walk in the customs of the nations that I will drive out before you, for they have done all these things, and I detest them."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 24,
+        "v": "I said to you, “You will inherit their land; I will give it to you to possess, a land flowing with milk and honey. I am Yahweh your God, who has separated you from the other peoples."
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "You must therefore distinguish between the clean animals and the unclean, and between the unclean birds and the clean. You must not defile yourselves with unclean animals or birds or with any creature that crawls along the ground, which I have separated as unclean from you."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 26,
+        "v": "You must be holy, for I, Yahweh, am holy, and I have separated you from the other peoples, for you belong to me."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 27,
+        "v": "A man or a woman who talks with the dead or who talks with spirits must certainly be put to death. The people must stone them with stones. They are guilty and deserve to die.’”"
+      }
+    ]
+  }
+]

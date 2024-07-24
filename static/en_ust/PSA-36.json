@@ -1,145 +1,435 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh, fight against those who fight against me!"
       },
       {
-        "tag": "d",
-        "text": "A psalm written for the choir director by David, a man who served God faithfully"
+        "t": "v",
+        "n": 2,
+        "v": "Be like a shield to protect me"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "A continual desire to sin is in the inner beings of wicked people."
-          },
-          {
-            "tag": "q1",
-            "text": "They consider that they do not need to have an awesome respect for God."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Because they want to believe good things about themselves,"
-          },
-          {
-            "tag": "q2",
-            "text": "they do not think that God knows and hates their sins."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Everything that they say is deceitful and full of lies;"
-          },
-          {
-            "tag": "q2",
-            "text": "they no longer do what is good"
-          },
-          {
-            "tag": "q2",
-            "text": "and are no longer wise."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "While they are lying on their beds, they plan to do things to harm others;"
-          },
-          {
-            "tag": "q2",
-            "text": "they are determined to do things that are not good,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they never refuse to do what is evil."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Yahweh, your faithful love for us reaches as high as the heavens;"
-          },
-          {
-            "tag": "q2",
-            "text": "your faithfulness in doing what you have promised extends up to the clouds."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Your righteous behavior is as permanent as the highest mountains;"
-          },
-          {
-            "tag": "q2",
-            "text": "your acting justly will continue as long as the deepest oceans will continue."
-          },
-          {
-            "tag": "q1",
-            "text": "You take care of people and you take care of animals."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "God, your faithful love for us is very precious."
-          },
-          {
-            "tag": "q1",
-            "text": "You protect us like birds protect their baby birds under their wings ."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "You provide for us plenty of food from the abundant supply that you have;"
-          },
-          {
-            "tag": "q2",
-            "text": "your great gifts flow to us like a river."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "You are the one who causes everything to live;"
-          },
-          {
-            "tag": "q2",
-            "text": "your light is what enables us to know the truth about you."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Continue to faithfully love those who are faithful to you,"
-          },
-          {
-            "tag": "q2",
-            "text": "and protect those who act righteously."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Do not allow proud people to attack me,"
-          },
-          {
-            "tag": "q2",
-            "text": "or allow wicked people to chase me away."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Look where evil people have fallen on the ground, defeated;"
-          },
-          {
-            "tag": "q2",
-            "text": "they were thrown down, and they will never rise again."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "Lift up your spear and throw it at those who pursue me!"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Those who are trying to kill me—make others disgrace and dishonor them."
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Send your angel to pursue them"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Cause the path on which they run to be dark and slippery"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Although I did not do anything wrong to them,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Cause them to suddenly experience disaster!"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Then I will rejoice in what you, Yahweh, have done for me;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "With my whole inner being I will say,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "People who tell lies stand in court"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "In return for my doing good things for them, they do evil things to me,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "When they were ill, I showed that I was sad."
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "I mourned and bowed my head as I prayed"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "But when I had troubles, they were all happy about it."
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "People who respect no one ridiculed me"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Lord, how long will you only watch them doing this?"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Then, when many of your people gather,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Do not allow my enemies, who tell lies about me, defeat me"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "They do not speak peacefully to people;"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "They shout at me in order to accuse me;"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Yahweh, you have seen these things, so do not be silent!"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "Arise, my God, plead my case in court,"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "Yahweh, my God, because you are righteous,"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "Do not allow them to be able to say to themselves,"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "Cause those who rejoice about my misfortunes"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "But cause those who desire that you declare me innocent"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "Then I will proclaim that you act in the right way,"
       }
-    ],
-    "num": 36
+    ]
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Fight with my enemies when they fight me!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and come to help me!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Promise me that you will enable me to defeat my enemies."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Push back and confuse those who are planning to do evil things to me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and to make them disappear like chaff that the wind blows away."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "as your angel pursues them!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they dug a deep pit for me to fall into;"
+  },
+  {
+    "t": "q",
+    "v": "they hid a net in which they would catch me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Cause their own nets to trap them."
+  },
+  {
+    "t": "q",
+    "v": "Cause them to fall into the pits that they have dug for me, and make them die in them!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will be glad that you have rescued me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "“There is no one like Yahweh!"
+  },
+  {
+    "t": "q",
+    "v": "No one else can rescue helpless people from powerful people."
+  },
+  {
+    "t": "q",
+    "v": "No one else can rescue weak and needy people from those who want to rob them.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and accuse me of doing things that I do not know anything about."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "with the result that I feel that I am alone."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I did not eat any food, and I bowed my head as I prayed for them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "as though it were a friend or my mother for whom I was grieving."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "They unexpectedly gathered around to make fun of me."
+  },
+  {
+    "t": "q",
+    "v": "Strangers kept striking me;"
+  },
+  {
+    "t": "q",
+    "v": "they would not stop."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and snarled at me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Rescue me from their attacks;"
+  },
+  {
+    "t": "q",
+    "v": "Save me from being killed by these men who are attacking me"
+  },
+  {
+    "t": "q",
+    "v": "as lions attack other animals!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will praise you,"
+  },
+  {
+    "t": "q",
+    "v": "and I will thank you in front of all of them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and then rejoice about it!"
+  },
+  {
+    "t": "q",
+    "v": "Do not allow those who hate me when there in no reason to hate me"
+  },
+  {
+    "t": "q",
+    "v": "to laugh about how I suffer!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "instead, they look for ways to tell lies about people in our land who do no harm to anyone."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they say, “We saw the wrong things that you did!”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Do not stay far from me!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and successfully defend me!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "prove that I am innocent"
+  },
+  {
+    "t": "q",
+    "v": "so that my enemies will not be able to gloat that I was judged to be guilty."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "“Yes, we have gotten rid of him just like we desired!”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "to be completely confused and disgraced;"
+  },
+  {
+    "t": "q",
+    "v": "cause those who boast that they are much greater than I am"
+  },
+  {
+    "t": "q",
+    "v": "to be disgraced and dishonored!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "to be happy and shout joyfully;"
+  },
+  {
+    "t": "q",
+    "v": "cause them to always say, “Yahweh is great!"
+  },
+  {
+    "t": "q",
+    "v": "He is delighted to cause things to go well for those who serve him.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and I will praise you all the time."
+  }
+]

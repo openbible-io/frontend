@@ -1,426 +1,683 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "tag": "ms",
-        "text": "Book Five"
+        "t": "v",
+        "n": 1,
+        "v": "Praise Yahweh!"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Give thanks to Yahweh because he always does good things for us!"
-          },
-          {
-            "tag": "q2",
-            "text": "His faithful love for us lasts forever, as he has promised us!"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Those whom Yahweh has saved should tell others"
-          },
-          {
-            "tag": "q2",
-            "text": "that he has rescued them from their enemies."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "He has gathered those of you who were exiled to many lands;"
-          },
-          {
-            "tag": "q2",
-            "text": "he has gathered you together from the east and the west,"
-          },
-          {
-            "tag": "q2",
-            "text": "from the north and from the south."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Some of those who returned from those countries wandered in the desert;"
-          },
-          {
-            "tag": "q2",
-            "text": "they were lost and had no homes to live in."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "They were hungry and thirsty,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they even collapsed in exhaustion."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "When they were in trouble, they called out to Yahweh,"
-          },
-          {
-            "tag": "q2",
-            "text": "and he rescued them from being distressed."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "He led them along a straight road where they walked safely"
-          },
-          {
-            "tag": "q2",
-            "text": "to cities in Canaan where they could live."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "They should praise Yahweh for loving them faithfully"
-          },
-          {
-            "tag": "q2",
-            "text": "and for the wonderful things that he does for people."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "He gives thirsty people plenty of water to drink,"
-          },
-          {
-            "tag": "q2",
-            "text": "and he gives hungry people plenty of good things to eat."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Some of them were in very dark prisons;"
-          },
-          {
-            "tag": "q2",
-            "text": "they were prisoners, suffering because of chains fastened to their hands and feet."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "They were in prison because they had rebelled against the message of God;"
-          },
-          {
-            "tag": "q1",
-            "text": "they were there because they had despised the advice given by God,"
-          },
-          {
-            "tag": "q2",
-            "text": "who is greater than all other gods."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "That is why God made them suffer hardships so that they would no longer be proud;"
-          },
-          {
-            "tag": "q2",
-            "text": "when they got into trouble, there was no one who would help them."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "When they were in trouble, they called out to Yahweh,"
-          },
-          {
-            "tag": "q2",
-            "text": "and he rescued them from being distressed."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "He broke the chains that were on their hands and feet"
-          },
-          {
-            "tag": "q2",
-            "text": "and brought them out of those very dark prisons."
-          },
-          {
-            "tag": "v",
-            "num": "15-16",
-            "text": "He broke down the prison gates that were made of bronze;"
-          },
-          {
-            "tag": "q2",
-            "text": "he cut through the prison bars that were made of iron."
-          },
-          {
-            "tag": "q1",
-            "text": "They should praise Yahweh for loving them faithfully"
-          },
-          {
-            "tag": "q2",
-            "text": "and for the wonderful things that he does for people."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Some of them foolishly rebelled against God,"
-          },
-          {
-            "tag": "q2",
-            "text": "so they suffered for their sins."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "They did not want to eat any food,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they almost died."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "When they were in trouble, they called out to Yahweh,"
-          },
-          {
-            "tag": "q2",
-            "text": "and he rescued them from being distressed."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "When he commanded that they be healed, they were healed;"
-          },
-          {
-            "tag": "q2",
-            "text": "he saved them from dying."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "They should praise Yahweh for loving them faithfully"
-          },
-          {
-            "tag": "q2",
-            "text": "and for the wonderful things that he does for people."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "They should give offerings to him to show that they are thankful,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they should sing joyfully about the miracles that he has performed."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "Some of them sailed in ships;"
-          },
-          {
-            "tag": "q2",
-            "text": "they were selling things in cities far away."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "As they were sailing, they also saw the miracles that Yahweh performed,"
-          },
-          {
-            "tag": "q2",
-            "text": "the wonderful things that he did when they were on very deep seas."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "He gave orders to the winds, and they became strong"
-          },
-          {
-            "tag": "q2",
-            "text": "and stirred up high waves."
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "The ships in which they were sailing were tossed high in the air,"
-          },
-          {
-            "tag": "q2",
-            "text": "and then they sank into the troughs between the high waves;"
-          },
-          {
-            "tag": "q1",
-            "text": "then the sailors were terrified at the danger."
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "They stumbled about and staggered like drunken men,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they did not know what to do."
-          },
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "When they were in trouble, they called out to Yahweh,"
-          },
-          {
-            "tag": "q2",
-            "text": "and he rescued them from being distressed."
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "He calmed the storm"
-          },
-          {
-            "tag": "q2",
-            "text": "and he stilled the waves."
-          },
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "They were very glad when it became calm;"
-          },
-          {
-            "tag": "q2",
-            "text": "and Yahweh brought them safely into a harbor as they wished."
-          },
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "They should praise Yahweh for loving them faithfully"
-          },
-          {
-            "tag": "q2",
-            "text": "and for the wonderful things that he does for people."
-          },
-          {
-            "tag": "v",
-            "num": "32",
-            "text": "They should praise him among the Israelite people when they have gathered together,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they should praise him in front of the leaders of the country."
-          },
-          {
-            "tag": "v",
-            "num": "33",
-            "text": "Sometimes Yahweh causes rivers to become dry,"
-          },
-          {
-            "tag": "q2",
-            "text": "with the result that the land becomes a wilderness,"
-          },
-          {
-            "tag": "q2",
-            "text": "and springs of water become dry land."
-          },
-          {
-            "tag": "v",
-            "num": "34",
-            "text": "Sometimes he causes land that has produced lots of crops to become salty wastelands,"
-          },
-          {
-            "tag": "q2",
-            "text": "with the result that they do not produce crops."
-          },
-          {
-            "tag": "q2",
-            "text": "He does that because the people who live there are very wicked."
-          },
-          {
-            "tag": "v",
-            "num": "35",
-            "text": "But sometimes he causes pools of water to appear in deserts,"
-          },
-          {
-            "tag": "q2",
-            "text": "and he causes springs to flow in very dry ground."
-          },
-          {
-            "tag": "v",
-            "num": "36",
-            "text": "He brings hungry people into that land, to live there and to build cities there."
-          },
-          {
-            "tag": "v",
-            "num": "37",
-            "text": "They plant seeds in their fields,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they plant grapevines that produce large crops of grapes."
-          },
-          {
-            "tag": "v",
-            "num": "38",
-            "text": "He blesses the people, and the women give birth to many children,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they have large herds of cattle."
-          },
-          {
-            "tag": "v",
-            "num": "39",
-            "text": "When the number of people became smaller and they were humiliated by their enemies"
-          },
-          {
-            "tag": "q2",
-            "text": "by being oppressed and caused to suffer,"
-          },
-          {
-            "tag": "v",
-            "num": "40",
-            "text": "Yahweh shows contempt for the leaders who oppress them,"
-          },
-          {
-            "tag": "q2",
-            "text": "and makes them to wander in a wilderness where there are no roads."
-          },
-          {
-            "tag": "v",
-            "num": "41",
-            "text": "But he rescues poor people from being in misery"
-          },
-          {
-            "tag": "q2",
-            "text": "and causes their families to increase in number like flocks of sheep."
-          },
-          {
-            "tag": "v",
-            "num": "42",
-            "text": "People who live rightly see God do these things, and they rejoice;"
-          },
-          {
-            "tag": "q2",
-            "text": "wicked people hear about these things, too,"
-          },
-          {
-            "tag": "q2",
-            "text": "but they have nothing to say against Yahweh in reply."
-          },
-          {
-            "tag": "v",
-            "num": "43",
-            "text": "Those who are wise should think carefully about these things;"
-          },
-          {
-            "tag": "q2",
-            "text": "they should consider all the things that Yahweh has done to show that he faithfully loves them."
-          }
-        ],
-        "tag": "m"
+        "t": "v",
+        "n": 2,
+        "v": "Because Yahweh has done many great things,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "How fortunate are those who act fairly,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Yahweh, be kind to me when you help your people;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Allow me to see your people become prosperous again"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "We and our ancestors have sinned;"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "When our ancestors were in Egypt,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "But he rescued them for the sake of his own reputation"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "He rebuked the Sea of Reeds and it became dry,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "In that way he rescued them from the power of their enemies."
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Then their enemies were drowned in the water of the Sea of Reeds;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "When that happened, our ancestors believed that Yahweh had truly done for them what he had promised to do,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "But they soon forgot what he had done for them;"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "They intensely wanted food like they formerly ate in Egypt."
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "So he gave them what they requested,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Later when some of the men became jealous of Moses"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "the ground opened up and swallowed Dathan"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "God sent down from heaven a fire"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Then the Israelite leaders made a gold statue of a calf at Mount Sinai"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Instead of worshiping our glorious God,"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "They forgot about God, who had rescued them by the great miracles that he performed in Egypt."
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "They forgot about the wonderful things that he did for them in Egypt"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "Because of that, God said that he would get rid of the Israelites;"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "Later, our ancestors refused to enter the beautiful land of Canaan"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "They stayed in their tents and grumbled"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "So he solemnly told them"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "that he would scatter their descendants among the people of other nations and groups who did not believe in him,"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "Later the Israelite people started to worship the idol of Baal at Mount Peor,"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "Yahweh became very angry because of what they had done,"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "But Phinehas stood up and punished the ones who had sinned greatly,"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "People have remembered that righteous deed that Phinehas did,"
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "Then at the springs of Meribah our ancestors caused Yahweh to become angry again,"
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "They caused Moses to become very angry,"
+      },
+      {
+        "t": "v",
+        "n": 34,
+        "v": "Our ancestors did not destroy the other people groups"
+      },
+      {
+        "t": "v",
+        "n": 35,
+        "v": "Instead, the men took women from those people groups,"
+      },
+      {
+        "t": "v",
+        "n": 36,
+        "v": "Our ancestors worshiped the idols of those people,"
+      },
+      {
+        "t": "v",
+        "n": 37,
+        "v": "Some of the Israelites sacrificed their sons and daughters to the demons that those idols represented."
+      },
+      {
+        "t": "v",
+        "n": 38,
+        "v": "They killed children who had done nothing wrong,"
+      },
+      {
+        "t": "v",
+        "n": 39,
+        "v": "So by their deeds they made it impossible for God to accept them;"
+      },
+      {
+        "t": "v",
+        "n": 40,
+        "v": "So Yahweh became very angry with his people;"
+      },
+      {
+        "t": "v",
+        "n": 41,
+        "v": "As a result, he allowed people groups who did not believe in him to conquer them,"
+      },
+      {
+        "t": "v",
+        "n": 42,
+        "v": "Their enemies oppressed them"
+      },
+      {
+        "t": "v",
+        "n": 43,
+        "v": "Many times Yahweh rescued his people,"
+      },
+      {
+        "t": "v",
+        "n": 44,
+        "v": "However, Yahweh always heard them when they cried out to him,"
+      },
+      {
+        "t": "v",
+        "n": 45,
+        "v": "For their sake, he thought about the covenant that he had made to bless them;"
+      },
+      {
+        "t": "v",
+        "n": 46,
+        "v": "He caused all those who had taken the Israelites to Babylonia to feel sorry for them."
+      },
+      {
+        "t": "v",
+        "n": 47,
+        "v": "Yahweh our God, rescue us"
+      },
+      {
+        "t": "v",
+        "n": 48,
+        "v": "Praise Yahweh, the God whom we Israelites worship,"
       }
-    ],
-    "num": 107
+    ]
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Praise Yahweh because he everything he does is good;"
+  },
+  {
+    "t": "q",
+    "v": "he faithfully loves us forever as he promised us!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "no one can tell all the great things that Yahweh has done,"
+  },
+  {
+    "t": "q",
+    "v": "and no one can praise him enough."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "those who always do what is right."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "help me when you rescue them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and to see all the people of your nation, Israel, become happy again;"
+  },
+  {
+    "t": "q",
+    "v": "allow me to be happy with them!"
+  },
+  {
+    "t": "q",
+    "v": "I want to praise you along with all those others who belong to you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "we have done what is wicked and evil."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they did not pay attention to the wonderful things that Yahweh did;"
+  },
+  {
+    "t": "q",
+    "v": "they forgot about the many times that he showed that he faithfully loved them."
+  },
+  {
+    "t": "q",
+    "v": "Instead, when they were at the Sea of Reeds,"
+  },
+  {
+    "t": "q",
+    "v": "they rebelled against God, who is greater than any other god."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so that he could show that he is very powerful."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and then while he led our ancestors,"
+  },
+  {
+    "t": "q",
+    "v": "they walked through it as though it were as dry as a desert."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "not one of them was left."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they sang to praise him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they did things without waiting to find out what Yahweh wanted them to do."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "They did evil things to find out whether God would punish them or not."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but he sent a horrible disease upon them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and his older brother Aaron, who was dedicated to serve Yahweh by being a priest,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and also buried Abiram and his family."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "which burned up all the wicked people who supported them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and worshiped it."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they started to worship a statue of an ox that eats grass!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and the amazing things that he did for them at the Sea of Reeds."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but Moses, whom God had chosen to serve him, stood up to persuade God not to do that."
+  },
+  {
+    "t": "q",
+    "v": "As a result, God did not destroy them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because they did not believe that God would do as he promised and would enable them to take the land from the people who were living there."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and would not pay attention to what Yahweh said that they should do."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "that he would cause them to die there in the wilderness,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and that he would allow them to die in those lands."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they ate meat that had been sacrificed to Baal and those other lifeless gods."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so again he sent a terrible disease to attack them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and as a result the plague ended."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and in future years people will remember it."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and as a result Moses had trouble."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and he said things that were foolish."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "as he told them to do."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they started to do the evil things that those people did."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "which resulted in their being destroyed."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and offered them as sacrifices to the idols in Canaan."
+  },
+  {
+    "t": "q",
+    "v": "As a result, the land of Canaan was polluted by those murders."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because they did not faithfully worship only God,"
+  },
+  {
+    "t": "q",
+    "v": "they became like women who sleep with other men instead of sleeping only with their husbands."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he was completely disgusted with them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so those who hated our ancestors started to rule over them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and completely controlled them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but they continued to rebel against him,"
+  },
+  {
+    "t": "q",
+    "v": "and they were finally destroyed because of the sins that they committed."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and he listened to them when they were distressed."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because he never stopped loving them very much,"
+  },
+  {
+    "t": "q",
+    "v": "he changed his mind about punishing them more."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and bring us back to Israel from among those people groups"
+  },
+  {
+    "t": "q",
+    "v": "so that we may thank you"
+  },
+  {
+    "t": "q",
+    "v": "and joyfully praise you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "praise him now and forever!"
+  },
+  {
+    "t": "q",
+    "v": "All the people should agree!"
+  },
+  {
+    "t": "q",
+    "v": "Praise Yahweh!"
+  }
+]

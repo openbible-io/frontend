@@ -1,76 +1,67 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "The voice said to me, \"Son of man, stand up while I speak to you.\""
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "While he spoke to me, God's Spirit entered me and enabled me to stand up. Then I heard him speak to me."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "The voice said to me, “Son of man, stand up while I speak to you.”"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "He said, \"Son of man, I will send you to the Israelite people. They are people who have turned away from me and rebelled against me. Their ancestors rebelled against me, and they themselves are still rebelling against me."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "The people to whom I will send you are very stubborn. But say to them, 'This is what Yahweh the Lord says to you.'"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "And when you tell them my messages, perhaps those rebellious people will heed those messages and perhaps they will not heed them; but they will know that a prophet has been among them!"
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "And you, son of man, you must not be afraid of them or afraid of what they say. Living among them will be like living in the midst of briers or scorpions, but do not be afraid of them. They are rebellious people, but do not allow them to frighten you."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Tell them my message, but do not expect them to pay attention to it, because they are very rebellious."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "But son of man, you must pay attention to what I say. Do not be rebellious like they are. Now open your mouth and eat what I give to you.\""
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Then, as I watched, I saw his hand that was stretched toward me. In his hand was a scroll."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "He unrolled the scroll. On both sides of it were written words that expressed sorrow and mourning and words about trouble."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "While he spoke to me, God’s Spirit entered me and enabled me to stand up. Then I heard him speak to me."
       }
-    ],
-    "num": 2
+    ]
   },
-  "id": "EZK unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Ezekiel"
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 3,
+        "v": "He said, “Son of man, I will send you to the Israelite people. They are people who have turned away from me and rebelled against me. Their ancestors rebelled against me, and they themselves are still rebelling against me."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "The people to whom I will send you are very stubborn. But say to them, ‘This is what Yahweh the Lord says to you.’"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "And when you tell them my messages, perhaps those rebellious people will heed those messages and perhaps they will not heed them; but they will know that a prophet has been among them!"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "And you, son of man, you must not be afraid of them or afraid of what they say. Living among them will be like living in the midst of briers or scorpions, but do not be afraid of them. They are rebellious people, but do not allow them to frighten you."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Tell them my message, but do not expect them to pay attention to it, because they are very rebellious."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "But son of man, you must pay attention to what I say. Do not be rebellious like they are. Now open your mouth and eat what I give to you.”"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Then, as I watched, I saw his hand that was stretched toward me. In his hand was a scroll."
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "He unrolled the scroll. On both sides of it were written words that expressed sorrow and mourning and words about trouble."
+      }
+    ]
+  }
+]

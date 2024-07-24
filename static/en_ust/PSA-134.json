@@ -1,60 +1,62 @@
-{
-  "chapter": {
-    "children": [
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "tag": "d",
-        "text": "A psalm written for people going up to the temple to worship."
-      },
-      {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "All you people who serve Yahweh,"
-          },
-          {
-            "tag": "q2",
-            "text": "who stand up and serve him at night in his temple,"
-          },
-          {
-            "tag": "q1",
-            "text": "come and praise him!"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Lift up your hands to pray to him in the temple"
-          },
-          {
-            "tag": "q2",
-            "text": "and praise him!"
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "I hope that Yahweh, who created heaven and the earth,"
-          },
-          {
-            "tag": "q2",
-            "text": "may bless you from where he lives in the temple on Mount Zion!"
-          }
-        ],
-        "auto": true
-      }
-    ],
-    "num": 134
+[
+  {
+    "t": "m",
+    "v": []
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 1,
+        "v": "It is very good and very pleasant"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "It is as delightful as the precious oil"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Gathering together in peace is as delightful as the dew that falls on Mount Hermon"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for God’s people to gather together in peace."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "that ran down from the high priest Aaron’s head onto his beard when Moses anointed him,"
+  },
+  {
+    "t": "q",
+    "v": "that ran down onto the collar of his robes."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and the dew that falls on Mount Zion."
+  },
+  {
+    "t": "q",
+    "v": "Yahweh has promised to bless his people there in Jerusalem"
+  },
+  {
+    "t": "q",
+    "v": "by making their nation last forever."
+  }
+]

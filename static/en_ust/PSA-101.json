@@ -1,117 +1,88 @@
-{
-  "chapter": {
-    "children": [
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "tag": "d",
-        "text": "A psalm written by David"
-      },
-      {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Yahweh, I will sing to you!"
-          },
-          {
-            "tag": "q1",
-            "text": "I will sing about your faithful and just loyalty to us."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "I promise that while I rule people,"
-          },
-          {
-            "tag": "q2",
-            "text": "I will behave in such a way that no one will be able to criticize me."
-          },
-          {
-            "tag": "q2",
-            "text": "Yahweh, when will you come to help me?"
-          },
-          {
-            "tag": "q1",
-            "text": "I will do things that are right."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "I will not allow anyone who does what is evil to come to me."
-          },
-          {
-            "tag": "q1",
-            "text": "I hate the deeds of those who turn away from you;"
-          },
-          {
-            "tag": "q2",
-            "text": "I will completely avoid those people."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "I will not be dishonest,"
-          },
-          {
-            "tag": "q2",
-            "text": "and I will not have anything to do with evil."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "I will get rid of anyone who secretly slanders someone else,"
-          },
-          {
-            "tag": "q1",
-            "text": "and I will not let anyone near me who is proud and arrogant."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "I will approve of people in this land who are loyal to God,"
-          },
-          {
-            "tag": "q1",
-            "text": "and I will allow them to live with me."
-          },
-          {
-            "tag": "q2",
-            "text": "I will allow to serve me those who behave in such a way that no one can criticize them."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "I will not allow anyone who deceives others to work in my palace,"
-          },
-          {
-            "tag": "q1",
-            "text": "and no one who tells lies will be allowed to continually come to work for me."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Every day I will try to get rid of all the wicked people in this land;"
-          },
-          {
-            "tag": "q1",
-            "text": "I will expel them from this city, which is Yahweh's city."
-          }
-        ],
-        "auto": true
-      }
-    ],
-    "num": 101
+[
+  {
+    "t": "m",
+    "v": []
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 1,
+        "v": "Everyone in the world should shout joyfully to Yahweh!"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "We should worship Yahweh gladly!"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "We should acknowledge that Yahweh is God;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Enter the gates of his temple thanking him;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "because Yahweh always does good things for us."
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "We should come before him singing joyful songs."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "it is he who made us, and so we belong to him."
+  },
+  {
+    "t": "q",
+    "v": "We are the people that he takes care of;"
+  },
+  {
+    "t": "q",
+    "v": "we are like sheep that their shepherd cares for."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "enter the courtyard of the temple singing songs to praise him!"
+  },
+  {
+    "t": "q",
+    "v": "Thank him and praise him"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "He faithfully loves us as he promised us,"
+  },
+  {
+    "t": "q",
+    "v": "and he is faithful."
+  }
+]

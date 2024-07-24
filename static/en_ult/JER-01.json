@@ -1,159 +1,153 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "tag": "toc1",
-        "text": "The Book of Jeremiah"
+        "t": "v",
+        "n": 1,
+        "v": "These are the words of Jeremiah son of Hilkiah, one of the priests at Anathoth in the land of Benjamin."
       },
       {
-        "tag": "toc2",
-        "text": "Jeremiah"
+        "t": "v",
+        "n": 2,
+        "v": "The word of Yahweh came to him in the days of Josiah son of Amon, king of Judah, in the thirteenth year of his reign."
       },
       {
-        "tag": "toc3",
-        "text": "Jer"
+        "t": "v",
+        "n": 3,
+        "v": "It also came in the days of Jehoiakim son of Josiah, king of Judah, until the fifth month of the eleventh year of Zedekiah son of Josiah, king of Judah, when the people of Jerusalem were taken away as prisoners."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "These are the words of Jeremiah son of Hilkiah, one of the priests at Anathoth in the land of Benjamin."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "The word of Yahweh came to him in the days of Josiah son of Amon, king of Judah, in the thirteenth year of his reign."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "It also came in the days of Jehoiakim son of Josiah, king of Judah, until the fifth month of the eleventh year of Zedekiah son of Josiah, king of Judah, when the people of Jerusalem were taken away as prisoners."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "The word of Yahweh came to me, saying,"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "“Before I formed you in the womb, I chose you;"
-          },
-          {
-            "tag": "q",
-            "text": "before you came out from the womb I set you apart; I made you a prophet to the nations.”"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 4,
+        "v": "The word of Yahweh came to me, saying,"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "“Ah, Lord Yahweh!” I said, “I do not know how to speak, for I am too young.”"
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "But Yahweh said to me,"
-          },
-          {
-            "tag": "q",
-            "text": "“Do not say, ‘I am too young.’ You must go everywhere I send you,"
-          },
-          {
-            "tag": "q",
-            "text": "and you must say whatever I command you!"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Do not be afraid of them, for I am with you to rescue you—this is Yahweh’s declaration.”"
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Then Yahweh reached out with his hand, touched my mouth, and said to me, “Now, I have placed my word in your mouth."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "I am appointing you today over nations and over kingdoms,"
-          },
-          {
-            "tag": "q",
-            "text": "to uproot and break down, to destroy and overthrow, to build and plant.”"
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "The word of Yahweh came to me, saying, “What do you see, Jeremiah?” I said, “I see an almond branch.”"
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Yahweh said to me, “You have seen well, for I am watching over my word to carry it out.”"
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "The word of Yahweh came to me a second time, saying, “What do you see?” I said, “I see a heated pot, whose surface is churning, tipping away from the north.”"
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "Yahweh said to me, “Disaster will be opened up out of the north on all who live in this land."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "For I am calling all the tribes of the northern kingdoms, declares Yahweh. They will come, and everyone will set his throne at the entrance of the gates of Jerusalem, against all the walls that surround it, and against all the cities of Judah."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "I will pronounce sentence against them for all their evil in forsaking me, in burning incense to other gods, and in worshiping what they made with their own hands."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Get yourself ready! Stand up and say to them whatever I command you. Do not be shattered before them, or I will shatter you before them!"
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "Behold! Today I have made you a fortified city, an iron pillar, and bronze walls against the whole land—against the kings of Judah, its officials, its priests, and the people of the land."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "They will fight against you, but they will not defeat you, for I will be with you to rescue you—this is Yahweh’s declaration.”"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 5,
+        "v": "“Before I formed you in the womb, I chose you;"
       }
-    ],
-    "num": 1
+    ]
   },
-  "id": "JER unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Jeremiah",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Jeremiah"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "before you came out from the womb I set you apart; I made you a prophet to the nations.”"
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 6,
+        "v": "“Ah, Lord Yahweh!” I said, “I do not know how to speak, for I am too young.”"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "But Yahweh said to me,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Do not be afraid of them, for I am with you to rescue you—this is Yahweh’s declaration.”"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Then Yahweh reached out with his hand, touched my mouth, and said to me, “Now, I have placed my word in your mouth."
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "I am appointing you today over nations and over kingdoms,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "“Do not say, ‘I am too young.’ You must go everywhere I send you,"
+  },
+  {
+    "t": "q",
+    "v": "and you must say whatever I command you!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "to uproot and break down, to destroy and overthrow, to build and plant.”"
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 11,
+        "v": "The word of Yahweh came to me, saying, “What do you see, Jeremiah?” I said, “I see an almond branch.”"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Yahweh said to me, “You have seen well, for I am watching over my word to carry it out.”"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 13,
+        "v": "The word of Yahweh came to me a second time, saying, “What do you see?” I said, “I see a heated pot, whose surface is churning, tipping away from the north.”"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "Yahweh said to me, “Disaster will be opened up out of the north on all who live in this land."
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "For I am calling all the tribes of the northern kingdoms, declares Yahweh. They will come, and everyone will set his throne at the entrance of the gates of Jerusalem, against all the walls that surround it, and against all the cities of Judah."
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "I will pronounce sentence against them for all their evil in forsaking me, in burning incense to other gods, and in worshiping what they made with their own hands."
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Get yourself ready! Stand up and say to them whatever I command you. Do not be shattered before them, or I will shatter you before them!"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Behold! Today I have made you a fortified city, an iron pillar, and bronze walls against the whole land—against the kings of Judah, its officials, its priests, and the people of the land."
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "They will fight against you, but they will not defeat you, for I will be with you to rescue you—this is Yahweh’s declaration.”"
+      }
+    ]
+  }
+]

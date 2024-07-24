@@ -1,95 +1,84 @@
-{
-  "chapter": {
-    "children": [
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "tag": "d",
-        "text": "A psalm written for people going up to the temple to worship."
-      },
-      {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "When Yahweh made Jerusalem prosperous again,"
-          },
-          {
-            "tag": "q1",
-            "text": "it was wonderful;"
-          },
-          {
-            "tag": "q2",
-            "text": "it seemed as though we were dreaming."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "We were extremely happy,"
-          },
-          {
-            "tag": "q1",
-            "text": "and we continued shouting joyfully."
-          },
-          {
-            "tag": "q1",
-            "text": "Then the other people groups said about us,"
-          },
-          {
-            "tag": "q2",
-            "text": "\"Yahweh has done great things for them!\""
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "We said, \"Yes, Yahweh truly has done great things for us,"
-          },
-          {
-            "tag": "q2",
-            "text": "and we are very happy.\""
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Restore us, O Yahweh, like the rains that fill the streams in the southern Judean wilderness."
-          },
-          {
-            "tag": "q2",
-            "text": "Enable our nation to become great again like it was before."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "We cried when we planted seeds because it was hard work preparing the soil that had not been plowed for many years;"
-          },
-          {
-            "tag": "q1",
-            "text": "now we want to shout joyfully because we are gathering a big harvest."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Those who cried as they carried the bags of seeds to the fields will shout joyfully"
-          },
-          {
-            "tag": "q2",
-            "text": "when they bring the crops to their houses at harvest time."
-          }
-        ],
-        "auto": true
-      }
-    ],
-    "num": 126
+[
+  {
+    "t": "m",
+    "v": []
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 1,
+        "v": "Those who trust in Yahweh are like Mount Zion,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "As the hills that surround Jerusalem protect it,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Wicked people should not be allowed to rule over the land where righteous people live."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Yahweh, do good things to those who do good things to others"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "But when you punish the Israelites who no longer obey you,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "which cannot be shaken or moved out of its place."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so Yahweh protects us, his people,"
+  },
+  {
+    "t": "q",
+    "v": "and he will protect us forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "If they did that, those righteous people would think of doing wrong themselves."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and to those who sincerely obey your commands."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you will punish them the same as you punish all the other evildoers."
+  },
+  {
+    "t": "q",
+    "v": "I wish that things may go well for people in Israel!"
+  }
+]

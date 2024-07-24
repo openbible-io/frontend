@@ -1,96 +1,82 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Yahweh spoke to Moses. He said,"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "“Speak to the people of Israel and get staffs from them, one for each ancestral tribe, twelve staffs. Write each man’s name on his staff."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "You must write Aaron’s name on Levi’s staff. There must be one staff for each leader from his ancestors’ tribe."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "You must place the staffs in the tent of meeting in front of the covenant decrees, where I meet with you."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "It will happen that the staff of the man whom I choose will bud. I will cause the complaints from the people of Israel to stop, which they are speaking against you.”"
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "So Moses spoke to the people of Israel. All the tribal leaders gave him staffs, one staff from each leader, selected from each of the ancestral tribes, twelve staffs in all. Aaron’s staff was among them."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Then Moses deposited the staffs before Yahweh in the tent of the covenant decrees."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh spoke to Moses. He said,"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "The next day Moses went into the tent of the covenant decrees and, behold, Aaron’s staff for the tribe of Levi had budded. It grew buds and produced blossoms and ripe almonds!"
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Moses brought out all the staffs from before Yahweh to all the people of Israel, and each man took his staff."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Yahweh said to Moses, “Put Aaron’s staff in front of the covenant decrees. Keep it as a sign of guilt against the people who rebelled so that you may end complaints against me, or they will die.”"
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Moses did just as Yahweh had commanded him."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "“Speak to the people of Israel and get staffs from them, one for each ancestral tribe, twelve staffs. Write each man’s name on his staff."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "The people of Israel spoke to Moses and said, “We will die here. We will all perish!"
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Everyone who comes up, who approaches Yahweh’s tabernacle, will die. Must we all perish?”"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 3,
+        "v": "You must write Aaron’s name on Levi’s staff. There must be one staff for each leader from his ancestors’ tribe."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "You must place the staffs in the tent of meeting in front of the covenant decrees, where I meet with you."
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "It will happen that the staff of the man whom I choose will bud. I will cause the complaints from the people of Israel to stop, which they are speaking against you.”"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "So Moses spoke to the people of Israel. All the tribal leaders gave him staffs, one staff from each leader, selected from each of the ancestral tribes, twelve staffs in all. Aaron’s staff was among them."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Then Moses deposited the staffs before Yahweh in the tent of the covenant decrees."
       }
-    ],
-    "num": 17
+    ]
   },
-  "id": "NUM unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Numbers",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Numbers"
-    }
-  ]
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 8,
+        "v": "The next day Moses went into the tent of the covenant decrees and, behold, Aaron’s staff for the tribe of Levi had budded. It grew buds and produced blossoms and ripe almonds!"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Moses brought out all the staffs from before Yahweh to all the people of Israel, and each man took his staff."
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Yahweh said to Moses, “Put Aaron’s staff in front of the covenant decrees. Keep it as a sign of guilt against the people who rebelled so that you may end complaints against me, or they will die.”"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Moses did just as Yahweh had commanded him."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 12,
+        "v": "The people of Israel spoke to Moses and said, “We will die here. We will all perish!"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Everyone who comes up, who approaches Yahweh’s tabernacle, will die. Must we all perish?”"
+      }
+    ]
+  }
+]

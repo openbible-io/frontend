@@ -1,342 +1,404 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "A good name is better than costly perfume,"
-          },
-          {
-            "tag": "q2",
-            "text": "and the day of death is better than the day of birth."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "It is better to go to a house of mourning"
-          },
-          {
-            "tag": "q2",
-            "text": "than to a house of feasting,"
-          },
-          {
-            "tag": "q1",
-            "text": "for mourning comes to all people at the end of life,"
-          },
-          {
-            "tag": "q2",
-            "text": "so living people must take this to heart."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Grief is better than laughter,"
-          },
-          {
-            "tag": "q2",
-            "text": "for after sadness of face comes gladness of heart."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "The heart of the wise is in the house of mourning,"
-          },
-          {
-            "tag": "q2",
-            "text": "but the heart of fools is in the house of feasting."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "It is better to listen to the rebuke of the wise"
-          },
-          {
-            "tag": "q2",
-            "text": "than to listen to the song of fools."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "For like the crackling of thorns burning under a pot,"
-          },
-          {
-            "tag": "q2",
-            "text": "so also is the laughter of fools."
-          },
-          {
-            "tag": "q1",
-            "text": "This, too, is vapor."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Extortion certainly makes a wise man foolish,"
-          },
-          {
-            "tag": "q2",
-            "text": "and a bribe corrupts the heart."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Better is the end of a matter than the beginning;"
-          },
-          {
-            "tag": "q2",
-            "text": "and the people patient in spirit are better than the proud in spirit."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Do not be quick to anger in your spirit,"
-          },
-          {
-            "tag": "q2",
-            "text": "for anger resides in the hearts of fools."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Do not say, “Why were the days of old better than these?”"
-          },
-          {
-            "tag": "q2",
-            "text": "For it is not because of wisdom that you ask this question."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Wisdom, like an inheritance, is good."
-          },
-          {
-            "tag": "q2",
-            "text": "It benefits those who see the sun."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "For wisdom provides protection as money can provide protection,"
-          },
-          {
-            "tag": "q2",
-            "text": "but the advantage of knowledge is that wisdom gives life to whoever has it."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Consider the deeds of God:"
-          },
-          {
-            "tag": "q1",
-            "text": "Who can straighten out anything he has made crooked?"
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "When times are good, live happily in that good,"
-          },
-          {
-            "tag": "q2",
-            "text": "but when times are bad, consider this:"
-          },
-          {
-            "tag": "q1",
-            "text": "God has allowed both to exist side by side."
-          },
-          {
-            "tag": "q2",
-            "text": "For this reason, no one will find out anything that is coming after him."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "I have seen many things in my meaningless days."
-          },
-          {
-            "tag": "q1",
-            "text": "There are righteous people who perish in spite of their righteousness,"
-          },
-          {
-            "tag": "q1",
-            "text": "and there are wicked people who live a long life in spite of their evil."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Do not be self-righteous,"
-          },
-          {
-            "tag": "q2",
-            "text": "wise in your own eyes."
-          },
-          {
-            "tag": "q1",
-            "text": "Why should you destroy yourself?"
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Do not be too wicked or foolish."
-          },
-          {
-            "tag": "q2",
-            "text": "Why should you die before your time?"
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "It is good that you should take hold of this wisdom,"
-          },
-          {
-            "tag": "q2",
-            "text": "and that you should not let go of righteousness."
-          },
-          {
-            "tag": "q1",
-            "text": "For the person who fears God will meet all his obligations."
-          },
-          {
-            "tag": "f",
-            "text": "+ "
-          },
-          {
-            "tag": "ft",
-            "text": "Instead of "
-          },
-          {
-            "tag": "fqa",
-            "text": "will meet all his obligations , some modern versions have different interpretations of this difficult passage."
-          },
-          {
-            "tag": "f",
-            "text": "*"
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "Wisdom is powerful in the wise man,"
-          },
-          {
-            "tag": "q2",
-            "text": "more than ten rulers in a city."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "There is not a righteous man on earth"
-          },
-          {
-            "tag": "q2",
-            "text": "who does good and never sins."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "Do not listen to every word that is spoken,"
-          },
-          {
-            "tag": "q2",
-            "text": "because you might hear your servant curse you."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Similarly, you know yourself that in your own heart"
-          },
-          {
-            "tag": "q2",
-            "text": "you have often cursed others."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "All this have I proven by wisdom. I said,"
-          },
-          {
-            "tag": "q1",
-            "text": "“I will be wise,”"
-          },
-          {
-            "tag": "q2",
-            "text": "but it was more than I could be."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "Wisdom is far off and very deep."
-          },
-          {
-            "tag": "q2",
-            "text": "Who can find it?"
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "I turned my heart to learn and examine"
-          },
-          {
-            "tag": "q2",
-            "text": "and seek wisdom and the explanations of reality,"
-          },
-          {
-            "tag": "q1",
-            "text": "and to understand that evil is stupid"
-          },
-          {
-            "tag": "q2",
-            "text": "and that folly is madness."
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "I found that more bitter than death is any woman"
-          },
-          {
-            "tag": "q2",
-            "text": "whose heart is full of snares and nets,"
-          },
-          {
-            "tag": "q2",
-            "text": "and whose hands are chains."
-          },
-          {
-            "tag": "q1",
-            "text": "Whoever pleases God will escape from her,"
-          },
-          {
-            "tag": "q2",
-            "text": "but the sinner will be taken by her."
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "“Consider what I have discovered,” says the Teacher. “I have been adding one discovery to another in order to find an explanation of reality."
-          },
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "This is what I am still looking for, but I have not found it. I did find one righteous man among a thousand, but a woman among all those I did not find."
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "I have discovered only this: That God created humanity upright, but they have gone away looking for many difficulties.”"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "A good name is better than costly perfume,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "It is better to go to a house of mourning"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Grief is better than laughter,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "The heart of the wise is in the house of mourning,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "It is better to listen to the rebuke of the wise"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "For like the crackling of thorns burning under a pot,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Extortion certainly makes a wise man foolish,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Better is the end of a matter than the beginning;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Do not be quick to anger in your spirit,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Do not say, “Why were the days of old better than these?”"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Wisdom, like an inheritance, is good."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "For wisdom provides protection as money can provide protection,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Consider the deeds of God:"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "When times are good, live happily in that good,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "I have seen many things in my meaningless days."
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Do not be self-righteous,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Do not be too wicked or foolish."
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "It is good that you should take hold of this wisdom,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Wisdom is powerful in the wise man,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "There is not a righteous man on earth"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Do not listen to every word that is spoken,"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Similarly, you know yourself that in your own heart"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "All this have I proven by wisdom. I said,"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "Wisdom is far off and very deep."
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "I turned my heart to learn and examine"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "I found that more bitter than death is any woman"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "“Consider what I have discovered,” says the Teacher. “I have been adding one discovery to another in order to find an explanation of reality."
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "This is what I am still looking for, but I have not found it. I did find one righteous man among a thousand, but a woman among all those I did not find."
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "I have discovered only this: That God created humanity upright, but they have gone away looking for many difficulties.”"
       }
-    ],
-    "num": 7
+    ]
   },
-  "id": "ECC unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Ecclesiastes",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Ecclesiastes "
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and the day of death is better than the day of birth."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "than to a house of feasting,"
+  },
+  {
+    "t": "q",
+    "v": "for mourning comes to all people at the end of life,"
+  },
+  {
+    "t": "q",
+    "v": "so living people must take this to heart."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for after sadness of face comes gladness of heart."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but the heart of fools is in the house of feasting."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "than to listen to the song of fools."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so also is the laughter of fools."
+  },
+  {
+    "t": "q",
+    "v": "This, too, is vapor."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and a bribe corrupts the heart."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and the people patient in spirit are better than the proud in spirit."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for anger resides in the hearts of fools."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "For it is not because of wisdom that you ask this question."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "It benefits those who see the sun."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but the advantage of knowledge is that wisdom gives life to whoever has it."
+  },
+  {
+    "t": "q",
+    "v": "Who can straighten out anything he has made crooked?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but when times are bad, consider this:"
+  },
+  {
+    "t": "q",
+    "v": "God has allowed both to exist side by side."
+  },
+  {
+    "t": "q",
+    "v": "For this reason, no one will find out anything that is coming after him."
+  },
+  {
+    "t": "q",
+    "v": "There are righteous people who perish in spite of their righteousness,"
+  },
+  {
+    "t": "q",
+    "v": "and there are wicked people who live a long life in spite of their evil."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "wise in your own eyes."
+  },
+  {
+    "t": "q",
+    "v": "Why should you destroy yourself?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Why should you die before your time?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and that you should not let go of righteousness."
+  },
+  {
+    "t": "q",
+    "v": "For the person who fears God will meet all his obligations."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "more than ten rulers in a city."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "who does good and never sins."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because you might hear your servant curse you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you have often cursed others."
+  },
+  {
+    "t": "q",
+    "v": "“I will be wise,”"
+  },
+  {
+    "t": "q",
+    "v": "but it was more than I could be."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Who can find it?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and seek wisdom and the explanations of reality,"
+  },
+  {
+    "t": "q",
+    "v": "and to understand that evil is stupid"
+  },
+  {
+    "t": "q",
+    "v": "and that folly is madness."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "whose heart is full of snares and nets,"
+  },
+  {
+    "t": "q",
+    "v": "and whose hands are chains."
+  },
+  {
+    "t": "q",
+    "v": "Whoever pleases God will escape from her,"
+  },
+  {
+    "t": "q",
+    "v": "but the sinner will be taken by her."
+  }
+]

@@ -1,190 +1,153 @@
-{
-  "chapter": {
-    "children": [
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "tag": "d",
-        "text": "A psalm written by David for the choir director."
-      },
-      {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "God, it is right for us to praise you in Jerusalem"
-          },
-          {
-            "tag": "q1",
-            "text": "and to do what we have promised you that we would do"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "because you answer our prayers."
-          },
-          {
-            "tag": "q1",
-            "text": "People everywhere will come to you"
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Our many sins are like a very heavy burden to us,"
-          },
-          {
-            "tag": "q1",
-            "text": "but you forgive us."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "How fortunate are those whom you have chosen"
-          },
-          {
-            "tag": "q2",
-            "text": "to always be in your temple courtyards."
-          },
-          {
-            "tag": "q1",
-            "text": "We will be satisfied with all the blessings that you will give us because we worship you in your sacred temple."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "God, when we pray to you, you answer us and save us by doing awesome deeds;"
-          },
-          {
-            "tag": "q2",
-            "text": "you are the one who rescues us;"
-          },
-          {
-            "tag": "q1",
-            "text": "people who live in very remote places on the earth, on the other side of the oceans, trust in you."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "You are the one who put the mountains in their places,"
-          },
-          {
-            "tag": "q2",
-            "text": "showing that you are very powerful."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "You are the one who calms the seas when they roar,"
-          },
-          {
-            "tag": "q2",
-            "text": "and stop the waves from pounding on the shore;"
-          },
-          {
-            "tag": "q1",
-            "text": "you also calm people when they cause a lot of trouble."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "People who live in very remote places on the earth"
-          },
-          {
-            "tag": "q2",
-            "text": "are awed by the miracles that you perform;"
-          },
-          {
-            "tag": "q1",
-            "text": "because of what you do,"
-          },
-          {
-            "tag": "q2",
-            "text": "people who live far to the west and far to the east shout joyfully."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "You take care of the soil and send rain,"
-          },
-          {
-            "tag": "q2",
-            "text": "causing many good things to grow;"
-          },
-          {
-            "tag": "q1",
-            "text": "you fill the streams with water"
-          },
-          {
-            "tag": "q2",
-            "text": "and cause grain to grow."
-          },
-          {
-            "tag": "q1",
-            "text": "This is what you have determined would happen."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "You send plenty of rain on the fields that have been plowed,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you fill the furrows with water."
-          },
-          {
-            "tag": "q1",
-            "text": "With showers you soften the hard clods of soil,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you bless the soil by causing young plants to grow."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Because you bless the soil, there are very good crops at harvest season;"
-          },
-          {
-            "tag": "q2",
-            "text": "wherever you have gone, good crops are very abundant."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "The pastures in the wilderness are wet with the morning dew,"
-          },
-          {
-            "tag": "q2",
-            "text": "it is as though the hills are singing joyful songs."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "The meadows are covered with sheep and goats,"
-          },
-          {
-            "tag": "q2",
-            "text": "and the valleys are full of grain;"
-          },
-          {
-            "tag": "q2",
-            "text": "it is as though they also sing and shout joyfully."
-          }
-        ],
-        "auto": true
-      }
-    ],
-    "num": 65
+[
+  {
+    "t": "m",
+    "v": []
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 1,
+        "v": "God, listen to me as I tell you the things about which I am worried."
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "Protect me from what wicked men are planning to do to me;"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "The hostile things they say are like sharp swords;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "They are not afraid of anyone; they lie about people and slander those who have done no wrong."
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "They encourage each other about doing the evil things that they are planning to do;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "because we have planned very well the things that we are going to do.”"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "But it will be as though God will shoot his arrows at them,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Because what they say proves they are guilty, God will get rid of them."
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Then everyone will be afraid to sin because of what might happen to them also;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Righteous people should rejoice because of what Yahweh has done;"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I am afraid of my enemies; please save me from them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "protect me from that group of men who do what is evil."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "their cruel words are like arrows."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "They are like someone who suddenly jumps up from where he is hiding and shoots arrows at his enemies."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they talk with each other about where they can set traps to catch people."
+  },
+  {
+    "t": "q",
+    "v": "They say, “No one will see what we are doing"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "What people can think and plan in their inner beings is truly amazing!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and suddenly they will be wounded."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Everyone who sees what has happened to them will shake their heads to mock them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they will tell others what God has done,"
+  },
+  {
+    "t": "q",
+    "v": "and they themselves will think much about it."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they should go to him to find refuge;"
+  },
+  {
+    "t": "q",
+    "v": "and all those who honor him will praise him."
+  }
+]

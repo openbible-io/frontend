@@ -1,101 +1,115 @@
-{
-  "chapter": {
-    "children": [
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "tag": "d",
-        "text": "A psalm written for people going up to the temple to worship."
-      },
-      {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Yahweh, I have great troubles, so I call out to you."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Yahweh, hear me"
-          },
-          {
-            "tag": "q2",
-            "text": "while I call out to you to have mercy on me!"
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Yahweh, if you kept a record of the sins that we have committed,"
-          },
-          {
-            "tag": "q2",
-            "text": "not one of us would escape from being condemned and punished!"
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "But you forgive us,"
-          },
-          {
-            "tag": "q2",
-            "text": "with the result that we have an awesome respect for you."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Yahweh has said that he would help me;"
-          },
-          {
-            "tag": "q2",
-            "text": "I trust what he said, and I wait eagerly for him to do that."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "I wait for Yahweh to help me"
-          },
-          {
-            "tag": "q2",
-            "text": "more than watchmen wait for the morning to come;"
-          },
-          {
-            "tag": "q2",
-            "text": "yes, I wait more eagerly than they do!"
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "You, my fellow Israelites, confidently expect that Yahweh will bless us."
-          },
-          {
-            "tag": "q2",
-            "text": "He will bless us because he has mercy on us,"
-          },
-          {
-            "tag": "q2",
-            "text": "and he is very willing to save us."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "It is he who will save us Israelite people from being punished for all the sins that we have committed."
-          }
-        ],
-        "auto": true
-      }
-    ],
-    "num": 130
+[
+  {
+    "t": "m",
+    "v": []
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 1,
+        "v": "I say that my enemies have afflicted me ever since I was young."
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "“Our enemies have afflicted us since our nation began,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Our enemies struck us with whips that cut into our backs"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "But Yahweh is righteous,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "I wish that they may all be shamed because we will defeat them—all of Jerusalem’s enemies."
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "I hope that they may be of no value, like grass that grows on the roofs of houses,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "no one wants to cut it and tie it up as bundles and carry it away."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "People who pass by and see men harvesting grain usually greet them by saying to them,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Now I ask you, my fellow Israelites, to repeat those same words:"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but they have not defeated us!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "as a farmer uses a plow to cuts deep furrows into the ground.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and he has freed us from being slaves to wicked people."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "that dries up and does not grow tall;"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "“We wish that Yahweh may bless you!”"
+  },
+  {
+    "t": "q",
+    "v": "But this will not happen to the enemies of Israel."
+  },
+  {
+    "t": "q",
+    "v": "We, acting as Yahweh’s representatives, bless you, our fellow Israelites!"
+  }
+]

@@ -1,227 +1,153 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "q",
-            "text": "A psalm of David."
-          },
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "To you, Yahweh, I lift up my life!"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "My God, I trust in you."
-          },
-          {
-            "tag": "q",
-            "text": "Do not let me be humiliated;"
-          },
-          {
-            "tag": "q",
-            "text": "do not let my enemies rejoice triumphantly over me."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "May no one who hopes in you be disgraced"
-          },
-          {
-            "tag": "q",
-            "text": "may those who act treacherously without cause be ashamed!"
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Make known to me your ways, Yahweh;"
-          },
-          {
-            "tag": "q",
-            "text": "teach me your paths."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Guide me into your truth and teach me,"
-          },
-          {
-            "tag": "q",
-            "text": "for you are the God of my salvation;"
-          },
-          {
-            "tag": "q",
-            "text": "I hope in you all day long."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Call to mind, Yahweh, your acts of compassion and of covenant faithfulness;"
-          },
-          {
-            "tag": "q",
-            "text": "for they have always existed."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Do not think about the sins of my youth or my rebelliousness;"
-          },
-          {
-            "tag": "q",
-            "text": "Call me to mind with covenant faithfulness because of your goodness, Yahweh!"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Yahweh is good and upright;"
-          },
-          {
-            "tag": "q",
-            "text": "therefore he teaches sinners the way."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "He guides the humble in what is right"
-          },
-          {
-            "tag": "q",
-            "text": "and he teaches them his way."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "All the paths of Yahweh are steadfast love and faithfulness"
-          },
-          {
-            "tag": "q",
-            "text": "to those who keep his covenant and his solemn commands."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "For your name’s sake, Yahweh,"
-          },
-          {
-            "tag": "q",
-            "text": "pardon my sin, for it is great."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Who is the man who fears Yahweh?"
-          },
-          {
-            "tag": "q",
-            "text": "The Lord will instruct him in the way that he should choose."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "His life will go along in goodness;"
-          },
-          {
-            "tag": "q",
-            "text": "and his descendants will inherit the land."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "The friendship of Yahweh is for those who honor him,"
-          },
-          {
-            "tag": "q",
-            "text": "and he makes his covenant known to them."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "My eyes are always on Yahweh,"
-          },
-          {
-            "tag": "q",
-            "text": "for he will free my feet from the net."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Turn toward me and have mercy on me;"
-          },
-          {
-            "tag": "q",
-            "text": "for I am alone and afflicted."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "The troubles of my heart are enlarged;"
-          },
-          {
-            "tag": "q",
-            "text": "draw me out from my distress!"
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "See my affliction and my toils;"
-          },
-          {
-            "tag": "q",
-            "text": "forgive all my sins."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "See my enemies, for they are many;"
-          },
-          {
-            "tag": "q",
-            "text": "they hate me with cruel hatred."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Protect my life and rescue me;"
-          },
-          {
-            "tag": "q",
-            "text": "do not let me be humiliated, for I take refuge in you!"
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "May integrity and uprightness preserve me,"
-          },
-          {
-            "tag": "q",
-            "text": "for I hope in you."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Rescue Israel, God,"
-          },
-          {
-            "tag": "q",
-            "text": "from all of his troubles!"
-          }
-        ],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "The earth is Yahweh’s, and its fullness,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "For he has founded it upon the seas"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Who will ascend the mountain of Yahweh?"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "He who has clean hands and a pure heart;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "He will receive a blessing from Yahweh"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Such is the generation of those who seek him,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Lift up your heads, you gates;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Who is this King of glory?"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Lift up your heads, you gates;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Who is this King of glory?"
       }
-    ],
-    "num": 25
+    ]
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the world, and all who live in it."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and established it on the rivers."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Who will stand in his holy place?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "who has not lifted up a falsehood,"
+  },
+  {
+    "t": "q",
+    "v": "and has not sworn an oath in order to deceive."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and righteousness from the God of his salvation."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "those who seek the face of the God of Jacob."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "be lifted up, everlasting doors,"
+  },
+  {
+    "t": "q",
+    "v": "so that the King of glory may come in!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Yahweh, strong and mighty; Yahweh, mighty in battle."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "be lifted up, everlasting doors,"
+  },
+  {
+    "t": "q",
+    "v": "so that the King of glory may come in!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Yahweh of hosts,"
+  },
+  {
+    "t": "q",
+    "v": "he is the King of glory."
+  }
+]

@@ -1,329 +1,780 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "tag": "toc1",
-        "text": "The Song of Songs"
+        "t": "v",
+        "n": 1,
+        "v": "This is King Solomon’s most beautiful song."
       },
       {
-        "tag": "toc2",
-        "text": "Song of Songs"
+        "t": "v",
+        "n": 2,
+        "v": "I wish he would kiss me on my lips,"
       },
       {
-        "tag": "toc3",
-        "text": "Sng"
+        "t": "v",
+        "n": 3,
+        "v": "The fragrance of the perfume on your skin is very sweet."
       },
       {
-        "tag": "mt1",
-        "text": "Song of Songs"
+        "t": "v",
+        "n": 4,
+        "v": "Take me quickly;"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "This is King Solomon's most beautiful song."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 5,
+        "v": "You women of Jerusalem,"
       },
       {
-        "tag": "sp",
-        "text": "The young woman speaking to herself"
+        "t": "v",
+        "n": 6,
+        "v": "But do not stare at me because the sun has made my skin dark."
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "I wish he would kiss me on my lips,"
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 7,
+        "v": "You whom I love, where will you take your flock of sheep today?"
       },
       {
-        "tag": "sp",
-        "text": "The woman speaks to her lover"
+        "t": "v",
+        "n": 8,
+        "v": "You who are the most beautiful of all the women,"
       },
       {
-        "tag": "q2",
-        "text": "because your love for me is more delightful than wine."
+        "t": "v",
+        "n": 9,
+        "v": "You are beautiful, my darling, like one of the young female horses"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "The fragrance of the perfume on your skin is very sweet."
-          },
-          {
-            "tag": "q2",
-            "text": "And your honor is very great and is spreading,"
-          },
-          {
-            "tag": "q2",
-            "text": "like the fragrance of the special oil that you have put on your skin."
-          },
-          {
-            "tag": "q1",
-            "text": "That is why the other young women are attracted to you."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Take me quickly;"
-          },
-          {
-            "tag": "q2",
-            "text": "take me to your home."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 10,
+        "v": "Your earrings are decorations for your cheeks,"
       },
       {
-        "tag": "sp",
-        "text": "The woman speaking to herself"
+        "t": "v",
+        "n": 11,
+        "v": "I will make for you some gold earrings"
       },
       {
-        "tag": "q1",
-        "text": "He is like a king to me;"
+        "t": "v",
+        "n": 12,
+        "v": "While the king was on his couch,"
       },
       {
-        "tag": "q2",
-        "text": "he has brought me into his bedroom."
+        "t": "v",
+        "n": 13,
+        "v": "The man who loves me stays between my breasts during the night like a bag of perfume tied around my neck."
       },
       {
-        "tag": "sp",
-        "text": "The woman speaking to her lover"
+        "t": "v",
+        "n": 14,
+        "v": "He is like a bunch of flowers from the vineyards at En Gedi."
       },
       {
-        "tag": "q1",
-        "text": "I am very happy about you;"
+        "t": "v",
+        "n": 15,
+        "v": "You whom I love, you are beautiful;"
       },
       {
-        "tag": "q2",
-        "text": "my love for you is better than wine."
+        "t": "v",
+        "n": 16,
+        "v": "You who love me, you are very delightful,"
       },
       {
-        "tag": "q2",
-        "text": "It is not surprising that the other young women adore you."
+        "t": "v",
+        "n": 17,
+        "v": "Branches of cedar trees will shade us;"
       },
       {
-        "tag": "sp",
-        "text": "The woman speaking to the other women"
+        "t": "v",
+        "n": 1,
+        "v": "I am like an insignificant flower in the plains,"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "You women of Jerusalem,"
-          },
-          {
-            "tag": "q2",
-            "text": "I am dark but beautiful;"
-          },
-          {
-            "tag": "q1",
-            "text": "my dark skin is like the tents in Kedar,"
-          },
-          {
-            "tag": "q2",
-            "text": "or like the beautiful curtains in Solomon's palace."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "But do not stare at me because the sun has made my skin dark."
-          },
-          {
-            "tag": "q1",
-            "text": "my brothers were angry with me,"
-          },
-          {
-            "tag": "q1",
-            "text": "so they forced me to work out in the sunshine in the vineyards,"
-          },
-          {
-            "tag": "q2",
-            "text": "so I was not able to take good care of my body."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 2,
+        "v": "Among all the other young women,"
       },
       {
-        "tag": "sp",
-        "text": "The woman speaking to her lover"
+        "t": "v",
+        "n": 3,
+        "v": "Among all the other men, this man is the one who loves me; he is like a tree that grows in the forest."
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "You whom I love, where will you take your flock of sheep today?"
-          },
-          {
-            "tag": "q2",
-            "text": "Where will you allow them to rest at noontime?"
-          },
-          {
-            "tag": "q1",
-            "text": "I want to know because it is not right for me to wander around like a prostitute"
-          },
-          {
-            "tag": "q2",
-            "text": "looking for you among the flocks that belong to your friends."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 4,
+        "v": "He led me to the room where I feasted on his love,"
       },
       {
-        "tag": "sp",
-        "text": "Her lover answering her"
+        "t": "v",
+        "n": 5,
+        "v": "Refresh me and strengthen me with your lovemaking."
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "You who are the most beautiful of all the women,"
-          },
-          {
-            "tag": "q2",
-            "text": "if you search for me and do not know where I will take my sheep,"
-          },
-          {
-            "tag": "q1",
-            "text": "follow the tracks of the sheep."
-          },
-          {
-            "tag": "q2",
-            "text": "Then allow your young goats to graze near the shepherds' tents."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "You are beautiful, my darling, like one of the young female horses"
-          },
-          {
-            "tag": "q2",
-            "text": "that pull the chariots belonging to the king of Egypt."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Your earrings are decorations for your cheeks,"
-          },
-          {
-            "tag": "q2",
-            "text": "and there are strings of beads around your neck."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "I will make for you some gold earrings"
-          },
-          {
-            "tag": "q2",
-            "text": "that are decorated with silver."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 6,
+        "v": "I hope he puts his left arm under my head"
       },
       {
-        "tag": "sp",
-        "text": "The woman speaking to herself"
+        "t": "v",
+        "n": 7,
+        "v": "You young women of Jerusalem,"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "While the king was on his couch,"
-          },
-          {
-            "tag": "q2",
-            "text": "the smell of my perfume spread around the room."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "The man who loves me stays between my breasts during the night like a bag of perfume tied around my neck."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "He is like a bunch of flowers from the vineyards at En Gedi."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 8,
+        "v": "I hear the voice of the man who loves me."
       },
       {
-        "tag": "sp",
-        "text": "Her lover speaking to her"
+        "t": "v",
+        "n": 9,
+        "v": "like a deer or a gazelle."
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "You whom I love, you are beautiful;"
-          },
-          {
-            "tag": "q2",
-            "text": "you are very beautiful!"
-          },
-          {
-            "tag": "q1",
-            "text": "Your eyes are as delightful as doves."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 10,
+        "v": "He spoke to me and said,"
       },
       {
-        "tag": "sp",
-        "text": "The woman speaking to her lover"
+        "t": "v",
+        "n": 11,
+        "v": "Look, the winter has ended;"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "You who love me, you are very delightful,"
-          },
-          {
-            "tag": "q2",
-            "text": "you are wonderful!"
-          },
-          {
-            "tag": "q2",
-            "text": "This green grass in the countryside will be like a couch where we can lie down."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Branches of cedar trees will shade us;"
-          },
-          {
-            "tag": "q2",
-            "text": "the fir branches overhead are like a roof for us."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 12,
+        "v": "The flowers are blooming throughout the country."
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "There are young figs on the fig trees,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "You are like a dove hiding in the rocky cliff."
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "There are other men who ruin women as wild dogs ruin vineyards;"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "This man whom I love—I belong to him, and he belongs to me."
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "You whom I love, you must go away before dawn, when the darkness disappears."
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "During the entire night while I lay on my bed,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "So I said to myself,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "The city watchmen saw me"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "As soon as I walked past them,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "You women of Jerusalem,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "What is that I see coming from the wilderness,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "It is Solomon’s litter carried by servants and"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "They all have swords"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "King Solomon commanded his servants to make that litter for him;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "The canopy that covered it was held up by silver posts,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "You women of Jerusalem,"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "My darling, you are beautiful,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "Your teeth are very white,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Your lips are like a scarlet ribbon,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Your long neck is beautiful, like the tower of King David"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Your breasts are as delicate as two young twin deer"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Until dawn tomorrow morning,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "My darling, you are completely beautiful;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "My darling, it is as though you were in Lebanon"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "You who are most dear to me, when I see you,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "My bride, your love for me is delightful!"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "When you kiss me, it is better than when I eat honey."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "You who are most dear to me, you are like a garden that the owner keeps locked"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "You are like an orchard of pomegranate trees"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "saffron and calamus and cinnamon"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "You are like a fountain in a garden,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "I want the north wind and the south wind to come,"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "You who are most dear to me,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "I was asleep, and I had a dream."
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "But I had already taken off my robe;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "The one who loves me put his hand through the opening in the door,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "I got up to open the door for him,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "I opened the door for the man who loves me,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "The city watchmen saw me while they were walking around the city."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "You young women of Jerusalem,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "You who are the fairest among women,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "It is because the man who loves me is handsome and healthy,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "His head is beautiful, like purest gold;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "His eyes as gentle as doves"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "His cheeks are like a garden full of spice trees"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "His arms are like gold rods that have rounded ends,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "His legs are like marble columns"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "His kisses are very sweet;"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "You who are the most beautiful of the women,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "The one who loves me has come to me, I, who am like his garden,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "I belong to the one who loves me, and the one who loves me belongs to me."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "My darling, you are beautiful,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Stop looking at me like that,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Your teeth are very white"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Beneath your veil,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Even if a king had 60 queens and 80 concubines"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "none of them would be like my dove, who is perfect,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Who is this who looks like the dawn,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "I went down to some walnut trees"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "I was as happy as if"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "You who are the perfect one,"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "You, the daughter of a prince,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "Your navel is like a round bowl"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Your breasts are as delicate as two young twin deer."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Your neck is like a tower made of ivory."
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Your head is majestic like Mount Carmel."
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "My love, you are so beautiful and lovely"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "You are stately like a palm tree,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "I said to myself, “I will climb that palm tree"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "I want your kisses to be like very good wine."
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "I belong to the man who loves me,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "You who love me, let us go to the countryside,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "And let us go early to the vineyards"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "The mandrake plants are producing a fragrant odor,"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "I wish that everyone knew that we love each other, just as they all know that I have a brother,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "No one would object if I led you to our mother’s house,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Oh yes! He will put his left arm under my head,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "I want you to promise me, you women of Jerusalem,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Who is that woman who is coming up from the wilderness,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Keep me close to you,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Nothing can stop us from loving each other,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "We have a younger sister,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "If her chest is as flat as a wall,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "My chest was previously flat like a wall,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "King Solomon had a vineyard at Baal Hamon,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "But my body is like my own vineyard,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "You are staying in the gardens,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "You who love me, come to me quickly;"
       }
-    ],
-    "num": 1
+    ]
   },
-  "id": "SNG unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Song of Songs"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because your love for me is more delightful than wine."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "And your honor is very great and is spreading,"
+  },
+  {
+    "t": "q",
+    "v": "like the fragrance of the special oil that you have put on your skin."
+  },
+  {
+    "t": "q",
+    "v": "That is why the other young women are attracted to you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "take me to your home."
+  },
+  {
+    "t": "q",
+    "v": "He is like a king to me;"
+  },
+  {
+    "t": "q",
+    "v": "he has brought me into his bedroom."
+  },
+  {
+    "t": "q",
+    "v": "I am very happy about you;"
+  },
+  {
+    "t": "q",
+    "v": "my love for you is better than wine."
+  },
+  {
+    "t": "q",
+    "v": "It is not surprising that the other young women adore you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I am dark but beautiful;"
+  },
+  {
+    "t": "q",
+    "v": "my dark skin is like the tents in Kedar,"
+  },
+  {
+    "t": "q",
+    "v": "or like the beautiful curtains in Solomon’s palace."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "my brothers were angry with me,"
+  },
+  {
+    "t": "q",
+    "v": "so they forced me to work out in the sunshine in the vineyards,"
+  },
+  {
+    "t": "q",
+    "v": "so I was not able to take good care of my body."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Where will you allow them to rest at noontime?"
+  },
+  {
+    "t": "q",
+    "v": "I want to know because it is not right for me to wander around like a prostitute"
+  },
+  {
+    "t": "q",
+    "v": "looking for you among the flocks that belong to your friends."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "if you search for me and do not know where I will take my sheep,"
+  },
+  {
+    "t": "q",
+    "v": "follow the tracks of the sheep."
+  },
+  {
+    "t": "q",
+    "v": "Then allow your young goats to graze near the shepherds’ tents."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "that pull the chariots belonging to the king of Egypt."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and there are strings of beads around your neck."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "that are decorated with silver."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the smell of my perfume spread around the room."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you are very beautiful!"
+  },
+  {
+    "t": "q",
+    "v": "Your eyes are as delightful as doves."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you are wonderful!"
+  },
+  {
+    "t": "q",
+    "v": "This green grass in the countryside will be like a couch where we can lie down."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the fir branches overhead are like a roof for us."
+  }
+]

@@ -1,233 +1,193 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh is great, and he deserves to be greatly praised in the city where he lives,"
       },
       {
-        "tag": "d",
-        "text": "A psalm written by one of the descendants of Korah for the choir director."
+        "t": "v",
+        "n": 2,
+        "v": "That city on a high hill is beautiful;"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "You people of all people groups, listen!"
-          },
-          {
-            "tag": "q1",
-            "text": "You people all over the world,"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "important people and unimportant people,"
-          },
-          {
-            "tag": "q2",
-            "text": "rich people and poor people,"
-          },
-          {
-            "tag": "q1",
-            "text": "everyone, listen to what I am saying."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "For what I am thinking is very sensible,"
-          },
-          {
-            "tag": "q2",
-            "text": "and what I say will enable you to become wise."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "I think about wise words to tell you,"
-          },
-          {
-            "tag": "q2",
-            "text": "and while I play my harp, I explain what they mean."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "I do not worry when I am in trouble,"
-          },
-          {
-            "tag": "q2",
-            "text": "when I am surrounded by my enemies."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "These are evil men who trust that things will always go well for them because they are wealthy"
-          },
-          {
-            "tag": "q2",
-            "text": "and who boast about being very rich."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "They may be rich, but no one can pay God money"
-          },
-          {
-            "tag": "q2",
-            "text": "so that he can live forever!"
-          },
-          {
-            "tag": "q1",
-            "text": "No one can pay God enough so that God will allow him to continue to live"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "because that cost is too much,"
-          },
-          {
-            "tag": "q2",
-            "text": "and he will never be able to pay enough."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "No one can pay God enough money so that he will live forever"
-          },
-          {
-            "tag": "q2",
-            "text": "and never die and be buried!"
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "We see that foolish and stupid people die,"
-          },
-          {
-            "tag": "q1",
-            "text": "but we see that wise people also die;"
-          },
-          {
-            "tag": "q2",
-            "text": "they all leave their wealth, and others inherit it."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "They once had houses on land that they owned,"
-          },
-          {
-            "tag": "q1",
-            "text": "but now their graves are their homes forever,"
-          },
-          {
-            "tag": "q2",
-            "text": "the place where they will stay for all time!"
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Even if people are great, that cannot prevent them from dying;"
-          },
-          {
-            "tag": "q2",
-            "text": "people all die, the same as the animals do."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "That is what happens to those who foolishly trust in what they have accomplished,"
-          },
-          {
-            "tag": "q2",
-            "text": "to those who are delighted in all that they possess."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "They are certain to die just like sheep"
-          },
-          {
-            "tag": "q2",
-            "text": "when a shepherd leads them away to be slaughtered."
-          },
-          {
-            "tag": "q1",
-            "text": "In the morning the righteous people will rule over them,"
-          },
-          {
-            "tag": "q1",
-            "text": "and then those wealthy people will die and their bodies will quickly decay in their graves;"
-          },
-          {
-            "tag": "q2",
-            "text": "they will be where dead people are, far from their homes."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "But it is certain that God will rescue me so that I am not held fast in the place of the dead;"
-          },
-          {
-            "tag": "q2",
-            "text": "he will take me to himself."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "So do not be dismayed when someone becomes rich"
-          },
-          {
-            "tag": "q2",
-            "text": "and the houses where they live become more and more luxurious;"
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "for when he dies, he will take nothing with him;"
-          },
-          {
-            "tag": "q2",
-            "text": "his wealth will not go with him."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "While a rich person is alive, he congratulates himself,"
-          },
-          {
-            "tag": "q2",
-            "text": "and people praise him for being successful,"
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "but he will die and join his ancestors,"
-          },
-          {
-            "tag": "q2",
-            "text": "who will never see daylight again."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Even if someone is great, that cannot prevent him from dying;"
-          },
-          {
-            "tag": "q2",
-            "text": "he will die, the same as the animals do."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "God is in the strong towers there,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Many kings gathered with their armies to attack our city,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "but when they saw it, they were amazed;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Because they were very afraid, they trembled"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "They shook as ships sailing from Tarshish shake in a strong wind."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "We had heard that this city was glorious,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "God, here in your temple we think about how you love us as you promised to do."
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "People all over the earth will praise you"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "The people who live at Mount Zion should be happy!"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "You Israelite people should walk around Mount Zion"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "notice the walls there and examine their strongest parts"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "Say to your children, “This is the city of our God, the one who lives forever;"
       }
-    ],
-    "num": 49
+    ]
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "which is built on Zion, his sacred hill."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "it is the city where the true God, the great king, lives,"
+  },
+  {
+    "t": "q",
+    "v": "and it causes people all over the world to rejoice when they see it."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and he shows that he protects the people in that city."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they became terrified, and ran away."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "like a woman who is about to give birth to a child."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and now we have seen that it is."
+  },
+  {
+    "t": "q",
+    "v": "It is the city in which Yahweh, commander of the angel armies, lives."
+  },
+  {
+    "t": "q",
+    "v": "It is the city that God will preserve forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because you rule powerfully and justly."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "The people in all the cities of Judah should rejoice"
+  },
+  {
+    "t": "q",
+    "v": "because you judge people fairly."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and count the towers there;"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so that you can tell your children about them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he will guide us during all of our lives.”"
+  }
+]

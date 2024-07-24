@@ -1,169 +1,156 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "You priests, I will say something to warn you."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Yahweh, commander of the angel armies, says this:"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "You priests, I will say something to warn you."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "I will punish your descendants, and it will be as though I had splattered on your faces the dung from the animals that you have sacrificed, and I will make others come and throw you away with that dung."
-          }
-        ],
-        "tag": "pi",
-        "text": "\"Pay attention to what I am saying, and then decide to honor me. If you do not do that, I will curse you, and I will curse the things that I have done for you to help you. And I have already cursed them, because you have not honored me."
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "When that happens, you will know that I warned you like this, in order that you descendants of Levi will obey my covenant with the priests.\""
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "He also says,"
-          }
-        ],
-        "tag": "m",
-        "text": "This is what Yahweh, commander of the angel armies, is saying to you."
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "They taught the people what was true and right; they did not tell lies. They worked for me peacefully and loyally, and they helped many people to stop sinning."
-          }
-        ],
-        "tag": "pi",
-        "text": "\"I made my covenant with your ancestor Levi because I wanted the priests to live prosperously and peacefully. And that is what I enabled them to do. I required that they greatly respect me and honor me, and they did so."
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "What priests say should enable people to continue to learn the truth from generation to generation. They should be certain that the priests will teach them correction, because they must be true messengers from me, Yahweh, commander of the angel armies."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "But, you priests do not act in that way any more. Instead, what you have taught people has caused many of them to sin. You have rejected the covenant that I made with the descendants of Levi long ago."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Therefore I have caused all the people to despise you, and I have caused them to shame you, for you have not obeyed me. Instead, you teach people different things, depending on how important they are.\""
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Now I, Malachi, will warn you about something else. It is certain that we Israelites are a people group only because God has created us as a people group. But we lie to each other and harm each other; in this way we disgrace the covenant that Yahweh made with our ancestors."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "You people of Judah have been unfaithful toward Yahweh. You have done disgusting things in Jerusalem and elsewhere in Israel. You Israelite men have defiled the temple that Yahweh loves. You have done that by marrying foreign women, women who worship idols."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "I wish that Yahweh would drive away from Israel absolutely every man who has done that, along with his descendants—even if they bring offerings to Yahweh, commander of the angel armies."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "This is another thing that you do: You come and weep in front of Yahweh's altar, covering it with your tears. You wail because he no longer pays attention to your offerings."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "You cry out, saying \"Why does Yahweh not like our offerings?\" The answer is that Yahweh heard that each of you men solemnly promised to be faithful to your wives when you were young. But you men have not done what you promised; you have sent them away, the ones with whom you made that covenant, so you could marry foreign women."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "Indeed, Yahweh made you one with your wife, and he gave you some of his spirit. He did this because he wanted you to have children who would honor him. So you must be careful not to let other women attract you. Let none of you be faithless to the woman whom you married when you were young."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Yahweh, the God to whom we Israelites belong, says, \"I hate divorce!\" So if you men divorce your wives, you are overwhelming them by acting cruelly toward them. So be sure that you are not disloyal to your wives. That is what Yahweh, commander of the angel armies, says."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "You have made Yahweh lose his paitence with you by saying all those disgusting things. But you dare to ask, \"How have we made him impatient?\""
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [],
-        "tag": "p",
-        "text": "The answer is that you have said that Yahweh is pleased with all those who do what is evil, that he actually views them as good. And you have also made him impatient by always saying, \"Why does God not act justly toward us?\""
+        "t": "v",
+        "n": 2,
+        "v": "Yahweh, commander of the angel armies, says this:"
       }
-    ],
-    "num": 2
+    ]
   },
-  "id": "MAL unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Malachi"
-}
+  {
+    "t": "pi",
+    "v": [
+      {
+        "t": "v",
+        "n": 3,
+        "v": "I will punish your descendants, and it will be as though I had splattered on your faces the dung from the animals that you have sacrificed, and I will make others come and throw you away with that dung."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 4,
+        "v": "When that happens, you will know that I warned you like this, in order that you descendants of Levi will obey my covenant with the priests.”"
+      }
+    ]
+  },
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 5,
+        "v": "He also says,"
+      }
+    ]
+  },
+  {
+    "t": "pi",
+    "v": [
+      {
+        "t": "v",
+        "n": 6,
+        "v": "They taught the people what was true and right; they did not tell lies. They worked for me peacefully and loyally, and they helped many people to stop sinning."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 7,
+        "v": "What priests say should enable people to continue to learn the truth from generation to generation. They should be certain that the priests will teach them correction, because they must be true messengers from me, Yahweh, commander of the angel armies."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 8,
+        "v": "But, you priests do not act in that way any more. Instead, what you have taught people has caused many of them to sin. You have rejected the covenant that I made with the descendants of Levi long ago."
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Therefore I have caused all the people to despise you, and I have caused them to shame you, for you have not obeyed me. Instead, you teach people different things, depending on how important they are.”"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Now I, Malachi, will warn you about something else. It is certain that we Israelites are a people group only because God has created us as a people group. But we lie to each other and harm each other; in this way we disgrace the covenant that Yahweh made with our ancestors."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 11,
+        "v": "You people of Judah have been unfaithful toward Yahweh. You have done disgusting things in Jerusalem and elsewhere in Israel. You Israelite men have defiled the temple that Yahweh loves. You have done that by marrying foreign women, women who worship idols."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "I wish that Yahweh would drive away from Israel absolutely every man who has done that, along with his descendants—even if they bring offerings to Yahweh, commander of the angel armies."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 13,
+        "v": "This is another thing that you do: You come and weep in front of Yahweh’s altar, covering it with your tears. You wail because he no longer pays attention to your offerings."
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "You cry out, saying “Why does Yahweh not like our offerings?” The answer is that Yahweh heard that each of you men solemnly promised to be faithful to your wives when you were young. But you men have not done what you promised; you have sent them away, the ones with whom you made that covenant, so you could marry foreign women."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Indeed, Yahweh made you one with your wife, and he gave you some of his spirit. He did this because he wanted you to have children who would honor him. So you must be careful not to let other women attract you. Let none of you be faithless to the woman whom you married when you were young."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Yahweh, the God to whom we Israelites belong, says, “I hate divorce!” So if you men divorce your wives, you are overwhelming them by acting cruelly toward them. So be sure that you are not disloyal to your wives. That is what Yahweh, commander of the angel armies, says."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 17,
+        "v": "You have made Yahweh lose his paitence with you by saying all those disgusting things. But you dare to ask, “How have we made him impatient?”"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": []
+  }
+]

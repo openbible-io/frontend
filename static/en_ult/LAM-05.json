@@ -1,215 +1,293 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Remember, Yahweh, what has happened to us;"
-          },
-          {
-            "tag": "q",
-            "text": "look and see our disgrace."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Our inheritance has been turned over to strangers;"
-          },
-          {
-            "tag": "q",
-            "text": "our houses to foreigners."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "We have become orphans, the fatherless,"
-          },
-          {
-            "tag": "q",
-            "text": "and our mothers are like widows."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "We must pay silver for the water we drink,"
-          },
-          {
-            "tag": "q",
-            "text": "and we must pay silver to get our own wood."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Those who are coming after us are close behind us;"
-          },
-          {
-            "tag": "q",
-            "text": "we are weary and we can find no rest."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "We have given ourselves to Egypt and to Assyria"
-          },
-          {
-            "tag": "q",
-            "text": "to get enough food."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Our fathers sinned, and they are no more,"
-          },
-          {
-            "tag": "q",
-            "text": "and we bear their iniquities."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Slaves rule over us,"
-          },
-          {
-            "tag": "q",
-            "text": "and there is no one to deliver us from their hand."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "We get our bread only by risking our lives,"
-          },
-          {
-            "tag": "q",
-            "text": "because of the sword in the wilderness."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Our skin has grown as hot as an oven"
-          },
-          {
-            "tag": "q",
-            "text": "because of the burning heat of hunger."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Women are raped in Zion,"
-          },
-          {
-            "tag": "q",
-            "text": "and virgins in the cities of Judah."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Princes are hung up by their own hands,"
-          },
-          {
-            "tag": "q",
-            "text": "and no honor is shown to the elders."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Young men are forced to grind grain with a millstone,"
-          },
-          {
-            "tag": "q",
-            "text": "and boys stagger under heavy loads of wood."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "The elders have left the city gate,"
-          },
-          {
-            "tag": "q",
-            "text": "and the young men have left their music."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "The joy of our heart has ceased"
-          },
-          {
-            "tag": "q",
-            "text": "and our dancing has turned into mourning."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "The crown has fallen from our head;"
-          },
-          {
-            "tag": "q",
-            "text": "woe to us, for we have sinned!"
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "For this our heart has become sick,"
-          },
-          {
-            "tag": "q",
-            "text": "for these things our eyes grow dim"
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "for Mount Zion lies desolate, with jackals prowling over it."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "But you, Yahweh, reign forever,"
-          },
-          {
-            "tag": "q",
-            "text": "and you will sit upon your throne from generation to generation."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Why do you forget us forever?"
-          },
-          {
-            "tag": "q",
-            "text": "Why do you forsake us for the length of your days?"
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "Restore us to yourself, Yahweh, and we will be restored."
-          },
-          {
-            "tag": "q",
-            "text": "Renew our days as they were long ago—"
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "unless you have utterly rejected us"
-          },
-          {
-            "tag": "q",
-            "text": "and you are angry with us beyond measure."
-          }
-        ],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "Remember, Yahweh, what has happened to us;"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "Our inheritance has been turned over to strangers;"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "We have become orphans, the fatherless,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "We must pay silver for the water we drink,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Those who are coming after us are close behind us;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "We have given ourselves to Egypt and to Assyria"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Our fathers sinned, and they are no more,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Slaves rule over us,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "We get our bread only by risking our lives,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Our skin has grown as hot as an oven"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Women are raped in Zion,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Princes are hung up by their own hands,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Young men are forced to grind grain with a millstone,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "The elders have left the city gate,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "The joy of our heart has ceased"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "The crown has fallen from our head;"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "For this our heart has become sick,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "for Mount Zion lies desolate, with jackals prowling over it."
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "But you, Yahweh, reign forever,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Why do you forget us forever?"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Restore us to yourself, Yahweh, and we will be restored."
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "unless you have utterly rejected us"
       }
-    ],
-    "num": 5
+    ]
   },
-  "id": "LAM unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Lamentations",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Lamentations"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "look and see our disgrace."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "our houses to foreigners."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and our mothers are like widows."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and we must pay silver to get our own wood."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "we are weary and we can find no rest."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "to get enough food."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and we bear their iniquities."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and there is no one to deliver us from their hand."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because of the sword in the wilderness."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because of the burning heat of hunger."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and virgins in the cities of Judah."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and no honor is shown to the elders."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and boys stagger under heavy loads of wood."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and the young men have left their music."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and our dancing has turned into mourning."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "woe to us, for we have sinned!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for these things our eyes grow dim"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and you will sit upon your throne from generation to generation."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Why do you forsake us for the length of your days?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Renew our days as they were long ago—"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and you are angry with us beyond measure."
+  },
+  {
+    "t": "q",
+    "v": []
+  }
+]

@@ -1,429 +1,102 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "May God be merciful to us and bless us"
       },
       {
-        "tag": "d",
-        "text": "For the chief musician; A psalm of David, a song."
+        "t": "v",
+        "n": 2,
+        "v": "so that your ways may be known on earth,"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Let God arise; let his enemies be scattered;"
-          },
-          {
-            "tag": "q",
-            "text": "let those also who hate him flee before him."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "As smoke is driven away, so drive them away;"
-          },
-          {
-            "tag": "q",
-            "text": "as wax melts before the fire,"
-          },
-          {
-            "tag": "q",
-            "text": "so let the wicked perish in the presence of God."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "But let the righteous be glad; let them exult before God;"
-          },
-          {
-            "tag": "q",
-            "text": "may they rejoice and be happy."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Sing to God! Sing praises to his name!"
-          },
-          {
-            "tag": "q",
-            "text": "Praise the one who rides through the plains of the Jordan River valley!"
-          },
-          {
-            "tag": "q",
-            "text": "Yahweh is his name! Rejoice before him!"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "A father of the fatherless, a judge of the widows,"
-          },
-          {
-            "tag": "q",
-            "text": "is God in the holy place where he lives."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "God puts the lonely into families;"
-          },
-          {
-            "tag": "q",
-            "text": "he brings out the prisoners with singing;"
-          },
-          {
-            "tag": "q",
-            "text": "but the rebellious live in a parched land."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "God, when you went out before your people,"
-          },
-          {
-            "tag": "q",
-            "text": "when you marched through the wilderness,"
-          },
-          {
-            "tag": "qs",
-            "text": "Selah"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "The earth trembled;"
-          },
-          {
-            "tag": "q",
-            "text": "the heavens also dropped rain in God’s presence,"
-          },
-          {
-            "tag": "q",
-            "text": "in the presence of God when he came to Sinai, in the presence of God, the God of Israel."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "You, God, sent a plentiful rain;"
-          },
-          {
-            "tag": "q",
-            "text": "you strengthened your inheritance when it was weary."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Your people lived in it;"
-          },
-          {
-            "tag": "q",
-            "text": "You, God, gave from your goodness to the poor."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "The Lord gave the orders,"
-          },
-          {
-            "tag": "q",
-            "text": "and those who announced them were a great army."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Kings of armies flee, they flee,"
-          },
-          {
-            "tag": "q",
-            "text": "and the women waiting at home divide the plunder:"
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "doves covered with silver"
-          },
-          {
-            "tag": "q",
-            "text": "with wings of yellow gold."
-          },
-          {
-            "tag": "q",
-            "text": "When some of you people stayed among the sheepfolds, why did you do this?"
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "The Almighty scattered kings there,"
-          },
-          {
-            "tag": "q",
-            "text": "it was as when it snowed on Mount Zalmon."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "A mighty mountain is the hill country of Bashan;"
-          },
-          {
-            "tag": "q",
-            "text": "a high mountain is the hill country of Bashan."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Why do you look in envy, you high hill country,"
-          },
-          {
-            "tag": "q",
-            "text": "at the mountain which God desires for the place he will live?"
-          },
-          {
-            "tag": "q",
-            "text": "Indeed, Yahweh will live in it forever."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "The chariots of God are twenty thousand, thousands upon thousands;"
-          },
-          {
-            "tag": "q",
-            "text": "the Lord is among them in the holy place, as at Sinai."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "You have ascended on high; you have led away captives;"
-          },
-          {
-            "tag": "q",
-            "text": "you have received gifts from among men,"
-          },
-          {
-            "tag": "q",
-            "text": "even from those who fought against you,"
-          },
-          {
-            "tag": "q",
-            "text": "so that you, Yahweh God, might live there."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "Blessed be the Lord, who daily bears our burdens,"
-          },
-          {
-            "tag": "q",
-            "text": "the God who is our salvation."
-          },
-          {
-            "tag": "qs",
-            "text": "Selah"
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Our God is a God who saves;"
-          },
-          {
-            "tag": "q",
-            "text": "Yahweh the Lord is the one who is able to rescue us from death."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "But God will strike through the heads of his enemies,"
-          },
-          {
-            "tag": "q",
-            "text": "through the hairy scalps of those who walk in offenses against him."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "The Lord said, “I will bring my enemies back from Bashan;"
-          },
-          {
-            "tag": "q",
-            "text": "I will bring them back from the depths of the sea"
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "so that you may crush your enemies, dipping your foot in blood,"
-          },
-          {
-            "tag": "q",
-            "text": "and so that the tongues of your dogs may have their share from your enemies.”"
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "They have seen your processions, God,"
-          },
-          {
-            "tag": "q",
-            "text": "the processions of my God, my King, into the holy place."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "The singers went first, the minstrels followed after,"
-          },
-          {
-            "tag": "q",
-            "text": "and in the middle were the unmarried girls playing tambourines."
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "Bless God in the assemblies;"
-          },
-          {
-            "tag": "q",
-            "text": "praise Yahweh, you who are from the fountain "
-          },
-          {
-            "tag": "f",
-            "text": "+ "
-          },
-          {
-            "tag": "ft",
-            "text": "The Hebrew text can be read either as "
-          },
-          {
-            "tag": "fqa",
-            "text": "from the fountain or,"
-          },
-          {
-            "tag": "fqa",
-            "text": "from the assembly ."
-          },
-          {
-            "tag": "f",
-            "text": "* of Israel."
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "There is first Benjamin, the smallest tribe,"
-          },
-          {
-            "tag": "q",
-            "text": "then the leaders of Judah and their multitudes,"
-          },
-          {
-            "tag": "q",
-            "text": "the leaders of Zebulun and the leaders of Naphtali."
-          },
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "Your God, Israel, has decreed your strength;"
-          },
-          {
-            "tag": "q",
-            "text": "reveal to us your power, God, as you have revealed it in times past."
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "Reveal your power to us from your temple at Jerusalem,"
-          },
-          {
-            "tag": "q",
-            "text": "where kings bring gifts to you."
-          },
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "Shout in battle against the wild beasts in the reeds,"
-          },
-          {
-            "tag": "q",
-            "text": "against the peoples, that multitude of bulls and calves."
-          },
-          {
-            "tag": "q",
-            "text": "Humiliate them and make them bring you gifts;"
-          },
-          {
-            "tag": "q",
-            "text": "scatter the peoples who love to wage war."
-          },
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "Princes will come out of Egypt;"
-          },
-          {
-            "tag": "q",
-            "text": "Cush will hurry to reach out with her hands to God."
-          },
-          {
-            "tag": "v",
-            "num": "32",
-            "text": "Sing to God, you kingdoms of the earth;"
-          },
-          {
-            "tag": "qs",
-            "text": "Selah"
-          },
-          {
-            "tag": "q",
-            "text": "Sing praises to Yahweh."
-          },
-          {
-            "tag": "v",
-            "num": "33",
-            "text": "To him who rides on the heaven of heavens, which exist from ancient times;"
-          },
-          {
-            "tag": "q",
-            "text": "see, he lifts up his voice with power."
-          },
-          {
-            "tag": "v",
-            "num": "34",
-            "text": "Ascribe strength to God;"
-          },
-          {
-            "tag": "q",
-            "text": "his majesty is over Israel,"
-          },
-          {
-            "tag": "q",
-            "text": "and his strength is in the skies."
-          },
-          {
-            "tag": "v",
-            "num": "35",
-            "text": "God, you are fearsome in your holy place;"
-          },
-          {
-            "tag": "q",
-            "text": "the God of Israel—he gives strength and power to his people."
-          },
-          {
-            "tag": "q",
-            "text": "Blessed be God."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "Let the peoples praise you, God;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Oh, let the nations be glad and sing for joy,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Let the peoples praise you, God;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "The earth has yielded its harvest"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "God has blessed us,"
       }
-    ],
-    "num": 68
+    ]
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and cause his face to shine on us"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "your salvation among all nations."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "let all the peoples praise you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for you will judge the peoples with justice"
+  },
+  {
+    "t": "q",
+    "v": "and govern the nations on earth."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "let all the peoples praise you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and God, our God, has blessed us."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and all the ends of the earth honor him."
+  }
+]

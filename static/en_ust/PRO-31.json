@@ -1,299 +1,402 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "These are sayings of King Lemuel—an oracle his mother taught him."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "She says: You are my son; I carried you in my womb;"
-          },
-          {
-            "tag": "q2",
-            "text": "you are the son, I made promises to Yahweh for you."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Do not give your strength to women;"
-          },
-          {
-            "tag": "q2",
-            "text": "and do not tell what your plans are, to the women who destroy kings."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Lemuel, kings should be careful about drinking wine;"
-          },
-          {
-            "tag": "q2",
-            "text": "and a king should never ask, \"Where is the strong drink?\""
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "They could drink but then they might forget that they made a decree of the king,"
-          },
-          {
-            "tag": "q2",
-            "text": "and tear down the rights of those who have been taken advantage of."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Give strong drink to those who are dying"
-          },
-          {
-            "tag": "q2",
-            "text": "and to those who are grieving their loss."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "One who drinks will forget he is poor,"
-          },
-          {
-            "tag": "q2",
-            "text": "and he will not remember his trouble."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Speak for those who cannot speak for themselves,"
-          },
-          {
-            "tag": "q2",
-            "text": "speak for those who are approaching death."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Speak out and render judgment according to what is right;"
-          },
-          {
-            "tag": "q2",
-            "text": "and plead for justice to come in the cases of the poor and the needy."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Who can find a wife who is good at many things?"
-          },
-          {
-            "tag": "q2",
-            "text": "Her value is much more than the jewels she could wear."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Her husband completely trusts her,"
-          },
-          {
-            "tag": "q2",
-            "text": "and because of her, he will never be poor."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "She does good things for him and not evil,"
-          },
-          {
-            "tag": "q2",
-            "text": "all the days of her life."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "She finds wool and flax in the market,"
-          },
-          {
-            "tag": "q2",
-            "text": "and she enjoys spinning it to make yarn and fabric."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "She is like the merchant ships"
-          },
-          {
-            "tag": "q2",
-            "text": "because she brings her food to her home from far away."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "She gets up before dawn to prepare food for her family,"
-          },
-          {
-            "tag": "q2",
-            "text": "and she gives each servant girl her duties for the day."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "She goes out and considers what field she will buy, and she buys it."
-          },
-          {
-            "tag": "q1",
-            "text": "With the money she has made in other ventures,"
-          },
-          {
-            "tag": "q2",
-            "text": "she plants a vineyard."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "She prepares herself with her strength,"
-          },
-          {
-            "tag": "q2",
-            "text": "and her arms are strong, able to do hard work."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "She knows when she is getting a good profit from her business."
-          },
-          {
-            "tag": "q1",
-            "text": "She keeps a lamp burning all night long."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "She holds the spindle,"
-          },
-          {
-            "tag": "q2",
-            "text": "and then she spins the thread that she will use."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "She gives an outstretched hand to help the poor."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "She is not worried about the snow,"
-          },
-          {
-            "tag": "q2",
-            "text": "for everyone in her house have the best winter coats."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "She makes covers for the beds."
-          },
-          {
-            "tag": "q2",
-            "text": "She wears fine purple linen clothes—the color of royalty."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "Her husband is well known at the city gates,"
-          },
-          {
-            "tag": "q2",
-            "text": "and there at the gates he sits with the other leaders of the town."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "She makes linen garments and she sells them."
-          },
-          {
-            "tag": "q2",
-            "text": "She sells sashes to shop owners."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "She is strong in her character and respected,"
-          },
-          {
-            "tag": "q2",
-            "text": "and she laughs at what will happen in the future."
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "When she speaks, she says what is wise,"
-          },
-          {
-            "tag": "q2",
-            "text": "and she lives by the law of kindness."
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "She watches over everything that is done in her household,"
-          },
-          {
-            "tag": "q2",
-            "text": "and nothing in her actions would be anything like laziness."
-          },
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "Her children speak highly of her;"
-          },
-          {
-            "tag": "q2",
-            "text": "her husband also praises her."
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "He says to her, \"There are many women who do admirable things,"
-          },
-          {
-            "tag": "q2",
-            "text": "but you surpass them all!\""
-          },
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "Elegance can deceive"
-          },
-          {
-            "tag": "q2",
-            "text": "and make you think more highly of a person than you should;"
-          },
-          {
-            "tag": "q2",
-            "text": "and beauty has no lasting value."
-          },
-          {
-            "tag": "q2",
-            "text": "But a woman who honors Yahweh will be praised for the person she is."
-          },
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "Give her what she has earned,"
-          },
-          {
-            "tag": "q2",
-            "text": "and her works will praise her among the leaders of the town."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "These are sayings of King Lemuel—an oracle his mother taught him."
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "She says: You are my son; I carried you in my womb;"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Do not give your strength to women;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Lemuel, kings should be careful about drinking wine;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "They could drink but then they might forget that they made a decree of the king,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Give strong drink to those who are dying"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "One who drinks will forget he is poor,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Speak for those who cannot speak for themselves,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Speak out and render judgment according to what is right;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Who can find a wife who is good at many things?"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Her husband completely trusts her,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "She does good things for him and not evil,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "She finds wool and flax in the market,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "She is like the merchant ships"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "She gets up before dawn to prepare food for her family,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "She goes out and considers what field she will buy, and she buys it."
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "She prepares herself with her strength,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "She knows when she is getting a good profit from her business."
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "She holds the spindle,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "She gives an outstretched hand to help the poor."
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "She is not worried about the snow,"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "She makes covers for the beds."
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "Her husband is well known at the city gates,"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "She makes linen garments and she sells them."
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "She is strong in her character and respected,"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "When she speaks, she says what is wise,"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "She watches over everything that is done in her household,"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "Her children speak highly of her;"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "He says to her, “There are many women who do admirable things,"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "Elegance can deceive"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "Give her what she has earned,"
       }
-    ],
-    "num": 31
+    ]
   },
-  "id": "PRO unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Proverbs"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you are the son, I made promises to Yahweh for you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and do not tell what your plans are, to the women who destroy kings."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and a king should never ask, “Where is the strong drink?”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and tear down the rights of those who have been taken advantage of."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and to those who are grieving their loss."
+  },
+  {
+    "t": "q",
+    "v": "and he will not remember his trouble."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "speak for those who are approaching death."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and plead for justice to come in the cases of the poor and the needy."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Her value is much more than the jewels she could wear."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and because of her, he will never be poor."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "all the days of her life."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and she enjoys spinning it to make yarn and fabric."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because she brings her food to her home from far away."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and she gives each servant girl her duties for the day."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "With the money she has made in other ventures,"
+  },
+  {
+    "t": "q",
+    "v": "she plants a vineyard."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and her arms are strong, able to do hard work."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "She keeps a lamp burning all night long."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and then she spins the thread that she will use."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for everyone in her house have the best winter coats."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "She wears fine purple linen clothes—the color of royalty."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and there at the gates he sits with the other leaders of the town."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "She sells sashes to shop owners."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and she laughs at what will happen in the future."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and she lives by the law of kindness."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and nothing in her actions would be anything like laziness."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "her husband also praises her."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but you surpass them all!”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and make you think more highly of a person than you should;"
+  },
+  {
+    "t": "q",
+    "v": "and beauty has no lasting value."
+  },
+  {
+    "t": "q",
+    "v": "But a woman who honors Yahweh will be praised for the person she is."
+  },
+  {
+    "t": "q",
+    "v": "and her works will praise her among the leaders of the town."
+  }
+]

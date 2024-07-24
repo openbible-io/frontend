@@ -1,343 +1,405 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Yahweh will have compassion on Jacob; he will again choose Israel and restore them into their own land. Foreigners will join with them and attach themselves to the house of Jacob."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "The nations will bring them to their own place. Then the house of Israel will take them in the land of Yahweh as male and female servants. They will take captive those who had captured them, and they will rule over their oppressors."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh will have compassion on Jacob; he will again choose Israel and restore them into their own land. Foreigners will join with them and attach themselves to the house of Jacob."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "On the day that Yahweh gives you rest from your suffering and anguish, and from the hard labor which you were required to perform,"
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "you will sing this taunt song against the king of Babylon,"
-          },
-          {
-            "tag": "q1",
-            "text": "“How the oppressor has come to an end, the proud fury ended!"
-          },
-          {
-            "tag": "f",
-            "text": "+ "
-          },
-          {
-            "tag": "ft",
-            "text": "Instead of "
-          },
-          {
-            "tag": "fqa",
-            "text": "the proud fury ended , some versions have"
-          },
-          {
-            "tag": "fqa",
-            "text": "the golden city ended ,"
-          },
-          {
-            "tag": "fqa",
-            "text": "the turmoil ended ,"
-          },
-          {
-            "tag": "fqa",
-            "text": "the hostility ended , or"
-          },
-          {
-            "tag": "fqa",
-            "text": "the arrogance ended ."
-          },
-          {
-            "tag": "f",
-            "text": "*"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Yahweh has broken the staff of the wicked, the scepter of those rulers,"
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "that struck the peoples in wrath with unceasing blows,"
-          },
-          {
-            "tag": "q1",
-            "text": "that ruled the nations in anger, with an attack that was unrestrained."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "The whole earth is at rest and is quiet; they begin celebrating with singing."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Even the cypress trees rejoice over you with the cedars of Lebanon;"
-          },
-          {
-            "tag": "q1",
-            "text": "they say, ‘Since you are laid low, no woodcutter comes up to cut us down.’"
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Sheol below is eager to meet you when you go there."
-          },
-          {
-            "tag": "q1",
-            "text": "It arouses the dead for you, all the kings of the earth,"
-          },
-          {
-            "tag": "q1",
-            "text": "making them rise up from their thrones, all the kings of the nations."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "They all will speak and say to you,"
-          },
-          {
-            "tag": "q1",
-            "text": "‘You have become as weak as us. You have become like us."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Your pomp has been brought down to Sheol with the sound of your string instruments."
-          },
-          {
-            "tag": "q1",
-            "text": "Maggots are spread under you, and worms cover you.’"
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "How you are fallen from heaven, daystar, son of the morning!"
-          },
-          {
-            "tag": "q1",
-            "text": "How you are cut down to the ground, you who conquered the nations!"
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "You had said in your heart, ‘I will ascend into heaven,"
-          },
-          {
-            "tag": "q1",
-            "text": "I will exalt my throne above the stars of God,"
-          },
-          {
-            "tag": "q1",
-            "text": "and I will sit on the mount of assembly, in the far reaches of the north."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "I will ascend above the heights of the clouds; I will make myself like the Most High God.’"
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "Yet you are now brought down to Sheol, to the depths of the pit."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Those who see you will gaze at you and they will pay attention to you. "
-          },
-          {
-            "tag": "q1",
-            "text": "They will say, ‘Is this the man who made the earth tremble, who shook kingdoms,"
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "who made the world like a wilderness, who overthrew its cities and did not let his prisoners go home?’"
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "All the kings of the nations,"
-          },
-          {
-            "tag": "q1",
-            "text": "all of them lie down in honor, each one in his own tomb."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "But you are cast out of your grave like a branch thrown away."
-          },
-          {
-            "tag": "q1",
-            "text": "The dead cover you like a garment, those pierced by the sword, who go down to the stones of the pit."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "You will not join them in burial, because you have destroyed your land "
-          },
-          {
-            "tag": "q1",
-            "text": "and killed your people."
-          },
-          {
-            "tag": "q1",
-            "text": "The offspring of evildoers will never be mentioned again.”"
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "Prepare your slaughter for his children, for the iniquity of their ancestors,"
-          },
-          {
-            "tag": "q1",
-            "text": "so they will not rise up and possess the earth and fill the whole world with cities."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "“I will rise up against them”—this is the declaration of Yahweh of hosts."
-          },
-          {
-            "tag": "q1",
-            "text": "“I will cut off from Babylon name, descendant, and posterity”—this is Yahweh’s declaration."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "“I will also make her into a possession of owls, and into pools of water,"
-          },
-          {
-            "tag": "q1",
-            "text": "and I will sweep her with the broom of destruction”—this is the declaration of Yahweh of hosts."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "Yahweh of hosts has sworn, "
-          },
-          {
-            "tag": "q1",
-            "text": "“Surely, as I have intended, so it will come about; "
-          },
-          {
-            "tag": "q1",
-            "text": "and as I have purposed, so it will be:"
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "I will break the Assyrian in my land, and on my mountains trample him underfoot."
-          },
-          {
-            "tag": "q1",
-            "text": "Then his yoke will be lifted from off them and his burden from off their shoulder.”"
-          },
-          {
-            "tag": "q1",
-            "text": "Then his yoke will be lifted from off them and his burden from off their shoulder.”"
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "This is the plan that is intended for the whole earth, and this is the hand that is raised over all the nations."
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "For Yahweh of hosts has planned this; who will stop him? His hand is raised, and who will turn it back?"
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "In the year that king Ahaz died this declaration came:"
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "Do not rejoice, all you Philistines, that the rod that struck you is broken."
-          },
-          {
-            "tag": "q1",
-            "text": "For out of the serpent’s root will grow out an adder, "
-          },
-          {
-            "tag": "q1",
-            "text": "and his offspring will be a fiery flying serpent."
-          },
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "The firstborn of the poor will graze their sheep in my pastures, "
-          },
-          {
-            "tag": "q1",
-            "text": "and the needy will lie down in safety."
-          },
-          {
-            "tag": "q1",
-            "text": "I will kill your root with famine "
-          },
-          {
-            "tag": "q1",
-            "text": "that will put to death all your survivors."
-          },
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "Howl, gate; cry, city; all of you will melt away, Philistia."
-          },
-          {
-            "tag": "q1",
-            "text": "For out of the north comes a cloud of smoke, "
-          },
-          {
-            "tag": "q1",
-            "text": "and there is no straggler in his ranks."
-          },
-          {
-            "tag": "v",
-            "num": "32",
-            "text": "How will they respond to the messengers of that nation?"
-          },
-          {
-            "tag": "q1",
-            "text": "“Yahweh has founded Zion, and in her the afflicted of his people will find refuge.”"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "The nations will bring them to their own place. Then the house of Israel will take them in the land of Yahweh as male and female servants. They will take captive those who had captured them, and they will rule over their oppressors."
       }
-    ],
-    "num": 14
+    ]
   },
-  "id": "ISA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Isaiah",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Isaiah"
-    }
-  ]
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 3,
+        "v": "On the day that Yahweh gives you rest from your suffering and anguish, and from the hard labor which you were required to perform,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "you will sing this taunt song against the king of Babylon,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Yahweh has broken the staff of the wicked, the scepter of those rulers,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "that struck the peoples in wrath with unceasing blows,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "The whole earth is at rest and is quiet; they begin celebrating with singing."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Even the cypress trees rejoice over you with the cedars of Lebanon;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Sheol below is eager to meet you when you go there."
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "They all will speak and say to you,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Your pomp has been brought down to Sheol with the sound of your string instruments."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "How you are fallen from heaven, daystar, son of the morning!"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "You had said in your heart, ‘I will ascend into heaven,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "I will ascend above the heights of the clouds; I will make myself like the Most High God.’"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Yet you are now brought down to Sheol, to the depths of the pit."
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Those who see you will gaze at you and they will pay attention to you."
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "who made the world like a wilderness, who overthrew its cities and did not let his prisoners go home?’"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "All the kings of the nations,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "But you are cast out of your grave like a branch thrown away."
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "You will not join them in burial, because you have destroyed your land"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Prepare your slaughter for his children, for the iniquity of their ancestors,"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "“I will rise up against them”—this is the declaration of Yahweh of hosts."
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "“I will also make her into a possession of owls, and into pools of water,"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "Yahweh of hosts has sworn,"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "I will break the Assyrian in my land, and on my mountains trample him underfoot."
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "This is the plan that is intended for the whole earth, and this is the hand that is raised over all the nations."
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "For Yahweh of hosts has planned this; who will stop him? His hand is raised, and who will turn it back?"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "“How the oppressor has come to an end, the proud fury ended!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "that ruled the nations in anger, with an attack that was unrestrained."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they say, ‘Since you are laid low, no woodcutter comes up to cut us down.’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "It arouses the dead for you, all the kings of the earth,"
+  },
+  {
+    "t": "q",
+    "v": "making them rise up from their thrones, all the kings of the nations."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "‘You have become as weak as us. You have become like us."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Maggots are spread under you, and worms cover you.’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "How you are cut down to the ground, you who conquered the nations!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will exalt my throne above the stars of God,"
+  },
+  {
+    "t": "q",
+    "v": "and I will sit on the mount of assembly, in the far reaches of the north."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "They will say, ‘Is this the man who made the earth tremble, who shook kingdoms,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "all of them lie down in honor, each one in his own tomb."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "The dead cover you like a garment, those pierced by the sword, who go down to the stones of the pit."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and killed your people."
+  },
+  {
+    "t": "q",
+    "v": "The offspring of evildoers will never be mentioned again.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so they will not rise up and possess the earth and fill the whole world with cities."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "“I will cut off from Babylon name, descendant, and posterity”—this is Yahweh’s declaration."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and I will sweep her with the broom of destruction”—this is the declaration of Yahweh of hosts."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "“Surely, as I have intended, so it will come about; "
+  },
+  {
+    "t": "q",
+    "v": "and as I have purposed, so it will be:"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Then his yoke will be lifted from off them and his burden from off their shoulder.”"
+  },
+  {
+    "t": "q",
+    "v": "Then his yoke will be lifted from off them and his burden from off their shoulder.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 28,
+        "v": "In the year that king Ahaz died this declaration came:"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "Do not rejoice, all you Philistines, that the rod that struck you is broken."
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "The firstborn of the poor will graze their sheep in my pastures,"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "Howl, gate; cry, city; all of you will melt away, Philistia."
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "How will they respond to the messengers of that nation?"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "For out of the serpent’s root will grow out an adder, "
+  },
+  {
+    "t": "q",
+    "v": "and his offspring will be a fiery flying serpent."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and the needy will lie down in safety."
+  },
+  {
+    "t": "q",
+    "v": "I will kill your root with famine "
+  },
+  {
+    "t": "q",
+    "v": "that will put to death all your survivors."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "For out of the north comes a cloud of smoke, "
+  },
+  {
+    "t": "q",
+    "v": "and there is no straggler in his ranks."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "“Yahweh has founded Zion, and in her the afflicted of his people will find refuge.”"
+  }
+]

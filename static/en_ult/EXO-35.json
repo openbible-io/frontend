@@ -1,216 +1,202 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Moses assembled all the community of the Israelites and said to them, “These are the things that Yahweh has commanded you to do."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "On six days work may be done, but for you, the seventh day must be a holy day, a Sabbath day of complete rest, holy to Yahweh. Whoever does any work on that day must be put to death."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "You must not light a fire in any of your homes on the Sabbath day.”"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "Moses assembled all the community of the Israelites and said to them, “These are the things that Yahweh has commanded you to do."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Moses spoke to all the community of the Israelites, saying, “This is the thing that Yahweh commanded."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Take an offering for Yahweh, all of you who have a willing heart. Bring an offering to Yahweh—gold, silver, bronze,"
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "blue, purple, and scarlet wool and fine linen; goats’ hair;"
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "ram skins dyed red and fine leather hides; acacia wood;"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "oil for the sanctuary lamps, spices for the anointing oil and the fragrant incense,"
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "onyx stones and other precious stones to be set for the ephod and breastpiece."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "On six days work may be done, but for you, the seventh day must be a holy day, a Sabbath day of complete rest, holy to Yahweh. Whoever does any work on that day must be put to death."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Every skilled man among you is to come and make everything that Yahweh has commanded—"
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "the tabernacle with its tent, its covering, its clasps, frames, bars, posts, and bases;"
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "also the ark with its poles, the atonement lid, and the curtain to conceal it."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "They brought the table with its poles, all its utensils, and the bread of the presence;"
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "the lampstand for the lights, with its accessories, its lamps, and the oil for the lamps;"
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "the incense altar with its poles, the anointing oil and the fragrant incense; the hanging for the tabernacle entrance;"
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "the altar for burnt offerings with its bronze grate and its poles and utensils; and the large basin with its base."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "They brought the hangings for the courtyard with its posts and bases, and the curtain for the courtyard entrance;"
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "and the tent pegs for the tabernacle and courtyard, together with their ropes."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "They brought the finely-woven garments for serving in the holy place, the holy garments for Aaron the priest and his sons, for them to serve as priests.”"
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Then all the tribes of Israel left and went away from Moses’s presence."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "Everyone whose heart stirred him up and whom his spirit made willing came and brought an offering to Yahweh for the construction of the tabernacle, for all the items of service in it, and for the holy garments."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "They came, both men and women, all who had a willing heart. They brought brooches, earrings, rings, and ornaments, all kinds of gold jewelry. They all presented offerings of gold as a wave offering to Yahweh."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "Everyone who had blue, purple, or scarlet wool, fine linen, goat hair, ram skins dyed red, or fine leather skins brought them."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "Everyone making an offering of silver or bronze brought it as an offering to Yahweh, and everyone who had acacia wood for any use in the work brought it."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "Every skilled woman spun wool with her hands and brought what she had spun—blue, purple, or scarlet wool, or fine linen."
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "All the women whose hearts stirred them up and who had skill spun goats’ hair."
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "The leaders brought onyx stones and other gems to be set into the ephod and the breastpiece;"
-          },
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "they brought spices and oil for the lamps, for the anointing oil, and for the fragrant incense."
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "The Israelites brought a freewill offering to Yahweh; every man and woman whose heart was willing brought materials for all the work that Yahweh had commanded through Moses to be made."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "Moses said to the Israelites, “See, Yahweh has called by name on Bezalel son of Uri son of Hur, from the tribe of Judah."
-          },
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "He has filled Bezalel with his Spirit, to give him wisdom, understanding, and knowledge, for all kinds of craftsmanship,"
-          },
-          {
-            "tag": "v",
-            "num": "32",
-            "text": "to make artistic designs and to work in gold, silver, and bronze;"
-          },
-          {
-            "tag": "v",
-            "num": "33",
-            "text": "also to cut and set stones and to carve wood—to do all kinds of design and craftsmanship."
-          },
-          {
-            "tag": "v",
-            "num": "34",
-            "text": "He has put it in his heart to teach, both he and Oholiab son of Ahisamak, from the tribe of Dan."
-          },
-          {
-            "tag": "v",
-            "num": "35",
-            "text": "He has filled them with skill to do all kinds of work, to work as craftsmen, as engravers, as embroiderers in blue, purple, and scarlet wool and fine linen, and as weavers. They are craftsmen in all sorts of work, and they are artistic designers."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 3,
+        "v": "You must not light a fire in any of your homes on the Sabbath day.”"
       }
-    ],
-    "num": 35
+    ]
   },
-  "id": "EXO unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Exodus",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Exodus "
-    }
-  ]
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Moses spoke to all the community of the Israelites, saying, “This is the thing that Yahweh commanded."
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Take an offering for Yahweh, all of you who have a willing heart. Bring an offering to Yahweh—gold, silver, bronze,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "blue, purple, and scarlet wool and fine linen; goats’ hair;"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "ram skins dyed red and fine leather hides; acacia wood;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "oil for the sanctuary lamps, spices for the anointing oil and the fragrant incense,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "onyx stones and other precious stones to be set for the ephod and breastpiece."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Every skilled man among you is to come and make everything that Yahweh has commanded—"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "the tabernacle with its tent, its covering, its clasps, frames, bars, posts, and bases;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "also the ark with its poles, the atonement lid, and the curtain to conceal it."
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "They brought the table with its poles, all its utensils, and the bread of the presence;"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "the lampstand for the lights, with its accessories, its lamps, and the oil for the lamps;"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "the incense altar with its poles, the anointing oil and the fragrant incense; the hanging for the tabernacle entrance;"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "the altar for burnt offerings with its bronze grate and its poles and utensils; and the large basin with its base."
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "They brought the hangings for the courtyard with its posts and bases, and the curtain for the courtyard entrance;"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "and the tent pegs for the tabernacle and courtyard, together with their ropes."
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "They brought the finely-woven garments for serving in the holy place, the holy garments for Aaron the priest and his sons, for them to serve as priests.”"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Then all the tribes of Israel left and went away from Moses’s presence."
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Everyone whose heart stirred him up and whom his spirit made willing came and brought an offering to Yahweh for the construction of the tabernacle, for all the items of service in it, and for the holy garments."
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "They came, both men and women, all who had a willing heart. They brought brooches, earrings, rings, and ornaments, all kinds of gold jewelry. They all presented offerings of gold as a wave offering to Yahweh."
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "Everyone who had blue, purple, or scarlet wool, fine linen, goat hair, ram skins dyed red, or fine leather skins brought them."
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "Everyone making an offering of silver or bronze brought it as an offering to Yahweh, and everyone who had acacia wood for any use in the work brought it."
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "Every skilled woman spun wool with her hands and brought what she had spun—blue, purple, or scarlet wool, or fine linen."
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "All the women whose hearts stirred them up and who had skill spun goats’ hair."
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "The leaders brought onyx stones and other gems to be set into the ephod and the breastpiece;"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "they brought spices and oil for the lamps, for the anointing oil, and for the fragrant incense."
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "The Israelites brought a freewill offering to Yahweh; every man and woman whose heart was willing brought materials for all the work that Yahweh had commanded through Moses to be made."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 30,
+        "v": "Moses said to the Israelites, “See, Yahweh has called by name on Bezalel son of Uri son of Hur, from the tribe of Judah."
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "He has filled Bezalel with his Spirit, to give him wisdom, understanding, and knowledge, for all kinds of craftsmanship,"
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "to make artistic designs and to work in gold, silver, and bronze;"
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "also to cut and set stones and to carve wood—to do all kinds of design and craftsmanship."
+      },
+      {
+        "t": "v",
+        "n": 34,
+        "v": "He has put it in his heart to teach, both he and Oholiab son of Ahisamak, from the tribe of Dan."
+      },
+      {
+        "t": "v",
+        "n": 35,
+        "v": "He has filled them with skill to do all kinds of work, to work as craftsmen, as engravers, as embroiderers in blue, purple, and scarlet wool and fine linen, and as weavers. They are craftsmen in all sorts of work, and they are artistic designers."
+      }
+    ]
+  }
+]

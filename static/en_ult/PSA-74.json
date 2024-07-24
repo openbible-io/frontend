@@ -1,245 +1,375 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "Surely God is good to Israel,"
       },
       {
-        "tag": "d",
-        "text": "A maschil of Asaph."
+        "t": "v",
+        "n": 2,
+        "v": "But as for me, my feet almost slipped;"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "God, why have you rejected us forever?"
-          },
-          {
-            "tag": "q",
-            "text": "Why does your anger burn against the sheep of your pasture?"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Call to mind your people, whom you purchased in ancient times,"
-          },
-          {
-            "tag": "q",
-            "text": "the tribe whom you have redeemed to be your own heritage,"
-          },
-          {
-            "tag": "q",
-            "text": "and Mount Zion, where you live."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Come look at the complete ruins,"
-          },
-          {
-            "tag": "q",
-            "text": "all the damage that the enemy has done in the holy place."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Your adversaries roared in the middle of your appointed place;"
-          },
-          {
-            "tag": "q",
-            "text": "they set up their battle flags."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "They hacked away with axes"
-          },
-          {
-            "tag": "q",
-            "text": "as in a thick forest."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "They smashed and broke down all the engravings;"
-          },
-          {
-            "tag": "q",
-            "text": "they broke them with axes and hammers."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "They set your sanctuary on fire;"
-          },
-          {
-            "tag": "q",
-            "text": "they desecrated where you live, knocking it to the ground."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "They said in their hearts, “We will destroy them all.”"
-          },
-          {
-            "tag": "q",
-            "text": "They burned up all of your meeting places in the land."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "We do not see any more signs;"
-          },
-          {
-            "tag": "q",
-            "text": "there is no prophet any more,"
-          },
-          {
-            "tag": "q",
-            "text": "and no one among us knows how long this will last."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "How long, God, will the enemy throw insults at you?"
-          },
-          {
-            "tag": "q",
-            "text": "Will the enemy blaspheme your name forever?"
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Why do you hold back your hand, your right hand?"
-          },
-          {
-            "tag": "q",
-            "text": "Take your right hand from your garment and destroy them."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Yet God has been my king from ancient times,"
-          },
-          {
-            "tag": "q",
-            "text": "bringing salvation on the earth."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "You divided the sea by your strength;"
-          },
-          {
-            "tag": "q",
-            "text": "you smashed the heads of the sea monsters in the waters."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "You crushed the heads of leviathan;"
-          },
-          {
-            "tag": "q",
-            "text": "you fed him to those living in the wilderness."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "You broke open springs and streams;"
-          },
-          {
-            "tag": "q",
-            "text": "you dried up flowing rivers."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "The day is yours, and the night is yours also;"
-          },
-          {
-            "tag": "q",
-            "text": "you set the sun and moon in place."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "You have set all the borders of the earth;"
-          },
-          {
-            "tag": "q",
-            "text": "you have made summer and winter."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "Call to mind how the enemy hurled insults at you, Yahweh,"
-          },
-          {
-            "tag": "q",
-            "text": "and that a foolish people has blasphemed your name."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "Do not give the life of your dove to a wild animal."
-          },
-          {
-            "tag": "q",
-            "text": "Do not forget forever the life of your oppressed people."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Remember your covenant,"
-          },
-          {
-            "tag": "q",
-            "text": "for the dark regions of the land are full of places of violence."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "Do not let the oppressed be turned back in shame;"
-          },
-          {
-            "tag": "q",
-            "text": "let the poor and oppressed praise your name."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Arise, God; defend your own honor;"
-          },
-          {
-            "tag": "q",
-            "text": "call to mind how fools insult you all day long."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "Do not forget the voice of your adversaries"
-          },
-          {
-            "tag": "q",
-            "text": "or the uproar of those who continually defy you."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "because I was envious of the arrogant"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "For they have no pain until their death,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "They are free from the burdens of other men;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Pride adorns them like a necklace around their neck;"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Out of such blindness comes sin;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "They mock and speak wickedly;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "They set their mouth against the heavens,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Therefore his people turn to them"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "They say, “How does God know?"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Take notice: these people are wicked;"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Surely it is in vain that I have guarded my heart"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "For all the day long I have been afflicted"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "If I had said, “I will say these things,”"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Though I tried to understand these things,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Then I went into God’s sanctuary"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Surely you put them in slippery places;"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "How they become a wilderness in a moment!"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "They are like a dream after one wakes up;"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "For my heart was grieved,"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "I was ignorant and lacked insight;"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "Yet I am always with you;"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "You will guide me with your advice"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "Whom have I in heaven but you?"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "My flesh and my heart grow weak,"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "Those who are far from you will perish;"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "But as for me, all I need to do is to approach God."
       }
-    ],
-    "num": 74
+    ]
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "to those with a pure heart."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "my feet almost slipped out from under me"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "when I saw the prosperity of the wicked."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but they are strong and well fed."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they are not afflicted like other men."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "violence clothes them like a robe."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "evil thoughts pass through their hearts."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "in their arrogance they threaten oppression."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and their tongues march through the earth."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and abundant waters are drained out."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Is there knowledge with the Most High?”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they are always carefree, becoming richer and richer."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and washed my hands in innocence."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and disciplined every morning."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "then I would have betrayed this generation of your children."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "it was too difficult for me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and came to understand their fate."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you bring them down to ruin."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "They come to an end and are finished in awful terrors."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Lord, when you arise, you will think nothing of those dreams."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and I was deeply wounded."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I was like a senseless animal before you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you hold my right hand."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and afterward receive me to glory."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "There is no one on earth that I desire but you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but God is the strength of my heart forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you will destroy all those who are unfaithful to you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I have made the Lord Yahweh my refuge."
+  },
+  {
+    "t": "q",
+    "v": "I will declare all your deeds."
+  }
+]

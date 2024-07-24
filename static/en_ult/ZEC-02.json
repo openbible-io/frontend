@@ -1,122 +1,144 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Next I lifted up my eyes and saw a man with a measuring line in his hand."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "I said, “Where are you going?” So he said to me, “To measure Jerusalem, to determine its width and length.”"
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Then the angel who had talked with me went away and another angel went out to meet him."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "The second angel said to him, “Run and speak to that young man; say,"
-          },
-          {
-            "tag": "q",
-            "text": "‘Jerusalem will sit in the open country"
-          },
-          {
-            "tag": "q",
-            "text": "because of the multitudes of men and beasts within her."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "For I—this is Yahweh’s declaration—will become for her a wall of fire around her,"
-          },
-          {
-            "tag": "q",
-            "text": "and I will be the glory in her midst."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Up! Up! Flee from the land of the north—this is Yahweh’s declaration—"
-          },
-          {
-            "tag": "q",
-            "text": "for I have scattered you like the four winds of the skies!—This is Yahweh’s declaration."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Up! Escape to Zion, you who live with the daughter of Babylon!’”"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "For after Yahweh of hosts honored me and sent me against the nations that plundered you—"
-          },
-          {
-            "tag": "q",
-            "text": "for whoever touches you, touches the apple of God’s eye!—after Yahweh did this, he said,"
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "“I myself will shake my hand over them, and they will be plunder for their slaves.”"
-          },
-          {
-            "tag": "q",
-            "text": "Then you will know that Yahweh of hosts has sent me."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "“Sing for joy, daughter of Zion,"
-          },
-          {
-            "tag": "q",
-            "text": "for I myself am about to come and encamp among you!—this is Yahweh’s declaration.”"
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Then great nations will join themselves to Yahweh in that day. He says, “Then you will become my people;"
-          },
-          {
-            "tag": "q",
-            "text": "for I will encamp in the midst of you,” and you will know that Yahweh of hosts has sent me to you."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "For Yahweh will inherit Judah as his rightful possession in the holy land"
-          },
-          {
-            "tag": "q",
-            "text": "and will once again choose Jerusalem for himself."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Be silent, all flesh, before Yahweh, for he has been roused from out of his holy place!"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "Next I lifted up my eyes and saw a man with a measuring line in his hand."
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "I said, “Where are you going?” So he said to me, “To measure Jerusalem, to determine its width and length.”"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Then the angel who had talked with me went away and another angel went out to meet him."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "The second angel said to him, “Run and speak to that young man; say,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "For I—this is Yahweh’s declaration—will become for her a wall of fire around her,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Up! Up! Flee from the land of the north—this is Yahweh’s declaration—"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Up! Escape to Zion, you who live with the daughter of Babylon!’”"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "For after Yahweh of hosts honored me and sent me against the nations that plundered you—"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "“I myself will shake my hand over them, and they will be plunder for their slaves.”"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "“Sing for joy, daughter of Zion,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Then great nations will join themselves to Yahweh in that day. He says, “Then you will become my people;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "For Yahweh will inherit Judah as his rightful possession in the holy land"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Be silent, all flesh, before Yahweh, for he has been roused from out of his holy place!"
       }
-    ],
-    "num": 2
+    ]
   },
-  "id": "ZEC unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Zechariah",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Zechariah"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": "‘Jerusalem will sit in the open country"
+  },
+  {
+    "t": "q",
+    "v": "because of the multitudes of men and beasts within her."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and I will be the glory in her midst."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for I have scattered you like the four winds of the skies!—This is Yahweh’s declaration."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for whoever touches you, touches the apple of God’s eye!—after Yahweh did this, he said,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Then you will know that Yahweh of hosts has sent me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for I myself am about to come and encamp among you!—this is Yahweh’s declaration.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for I will encamp in the midst of you,” and you will know that Yahweh of hosts has sent me to you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and will once again choose Jerusalem for himself."
+  },
+  {
+    "t": "q",
+    "v": []
+  }
+]

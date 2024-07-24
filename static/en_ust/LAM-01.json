@@ -1,578 +1,1301 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "tag": "toc1",
-        "text": "The Book of Lamentations"
+        "t": "v",
+        "n": 1,
+        "v": "Jerusalem was once full of people,"
       },
       {
-        "tag": "toc2",
-        "text": "Lamentations"
+        "t": "v",
+        "n": 2,
+        "v": "We in the city weep bitterly all during the nights,"
       },
       {
-        "tag": "toc3",
-        "text": "Lam"
+        "t": "v",
+        "n": 3,
+        "v": "The people of Judah have become poor"
       },
       {
-        "tag": "mt1",
-        "text": "Lamentations"
+        "t": "v",
+        "n": 4,
+        "v": "The roads to Mount Zion are empty"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Jerusalem was once full of people,"
-          },
-          {
-            "tag": "q2",
-            "text": "but now it is completely deserted."
-          },
-          {
-            "tag": "q1",
-            "text": "Once it was a powerful nation,"
-          },
-          {
-            "tag": "q2",
-            "text": "but now it is alone, like a widow."
-          },
-          {
-            "tag": "q1",
-            "text": "Once everyone in the world honored it like a king's daughter,"
-          },
-          {
-            "tag": "q2",
-            "text": "but now it is like a slave."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "We in the city weep bitterly all during the nights,"
-          },
-          {
-            "tag": "q2",
-            "text": "with tears flowing down our cheeks."
-          },
-          {
-            "tag": "q1",
-            "text": "We did not trust Yahweh to help us, and the people groups that we did trust failed to help us;"
-          },
-          {
-            "tag": "q2",
-            "text": "none of those people comfort us now."
-          },
-          {
-            "tag": "q1",
-            "text": "All the people groups that were friends with us have betrayed us;"
-          },
-          {
-            "tag": "q2",
-            "text": "they are all now our enemies."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "The people of Judah have become poor"
-          },
-          {
-            "tag": "q2",
-            "text": "and have suffered greatly."
-          },
-          {
-            "tag": "q1",
-            "text": "Almost all of our people"
-          },
-          {
-            "tag": "q2",
-            "text": "were forced to leave our land."
-          },
-          {
-            "tag": "q1",
-            "text": "We now live in another country"
-          },
-          {
-            "tag": "q2",
-            "text": "and we have no peace."
-          },
-          {
-            "tag": "q1",
-            "text": "When the people Judah were unable to defend ourselves,"
-          },
-          {
-            "tag": "q2",
-            "text": "that was when our enemies captured us."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "The roads to Mount Zion are empty"
-          },
-          {
-            "tag": "q2",
-            "text": "because no one comes here to celebrate the sacred festivals any longer."
-          },
-          {
-            "tag": "q1",
-            "text": "No elders or leaders sit under the city gates to talk any more,"
-          },
-          {
-            "tag": "q2",
-            "text": "and Jerusalem's priests groan in sorrow."
-          },
-          {
-            "tag": "q1",
-            "text": "The young women left in Jerusalem cry"
-          },
-          {
-            "tag": "q2",
-            "text": "because they are suffering greatly."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Our enemies are now masters of our city,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they prosper."
-          },
-          {
-            "tag": "q1",
-            "text": "Yahweh has punished us, the people of Jerusalem,"
-          },
-          {
-            "tag": "q2",
-            "text": "because of all the sins that we have committed."
-          },
-          {
-            "tag": "q1",
-            "text": "Our enemies have taken all our children"
-          },
-          {
-            "tag": "q2",
-            "text": "and made them go to other countries."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Jerusalem was a beautiful city,"
-          },
-          {
-            "tag": "q2",
-            "text": "but it is not beautiful now."
-          },
-          {
-            "tag": "q1",
-            "text": "The leaders of our city are like deer that are starving"
-          },
-          {
-            "tag": "q2",
-            "text": "because they can find no grass to eat."
-          },
-          {
-            "tag": "q1",
-            "text": "They are very weak"
-          },
-          {
-            "tag": "q2",
-            "text": "and cannot run from our enemies."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "We, the people of Jerusalem, are sad and have no more homes to live in;"
-          },
-          {
-            "tag": "q2",
-            "text": "we think about all the splendid things that once filled our city."
-          },
-          {
-            "tag": "q1",
-            "text": "But now our enemies have captured the city,"
-          },
-          {
-            "tag": "q2",
-            "text": "and there is no one to help us."
-          },
-          {
-            "tag": "q1",
-            "text": "Our enemies destroyed our city"
-          },
-          {
-            "tag": "q2",
-            "text": "and laughed while they were doing it."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "We, the people of Jerusalem, have sinned very much;"
-          },
-          {
-            "tag": "q2",
-            "text": "our city has become like a bloody rag between a woman's legs."
-          },
-          {
-            "tag": "q1",
-            "text": "Everyone who previously honored our city now despise it;"
-          },
-          {
-            "tag": "q2",
-            "text": "they are like people who strip a woman bare and then mock her."
-          },
-          {
-            "tag": "q1",
-            "text": "Now we groan in the city;"
-          },
-          {
-            "tag": "q2",
-            "text": "we are like a woman without clothes who tries to cover herself with her hands."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "It is as if our city has become filthy because we have sinned so greatly;"
-          },
-          {
-            "tag": "q2",
-            "text": "we did not think about how God would punish us."
-          },
-          {
-            "tag": "q1",
-            "text": "We did not imagine how we would suffer;"
-          },
-          {
-            "tag": "q2",
-            "text": "there is no one to comfort us."
-          },
-          {
-            "tag": "q1",
-            "text": "We all call out to God, \"Yahweh, look at how we are suffering"
-          },
-          {
-            "tag": "q2",
-            "text": "because our enemies have defeated us!\""
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Our enemies have taken away all our treasures,"
-          },
-          {
-            "tag": "q2",
-            "text": "all the valuable things that we owned."
-          },
-          {
-            "tag": "q1",
-            "text": "People who do not worship you, Yahweh, are going into our sacred temple,"
-          },
-          {
-            "tag": "q2",
-            "text": "where you had said no foreigner must go into the place where your people worship you."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "All the people in the city cry out with pain"
-          },
-          {
-            "tag": "q2",
-            "text": "while they search for food."
-          },
-          {
-            "tag": "q1",
-            "text": "They have given their most valuable things"
-          },
-          {
-            "tag": "q2",
-            "text": "to get food to eat to restore their strength."
-          },
-          {
-            "tag": "q1",
-            "text": "Yahweh, look at me,"
-          },
-          {
-            "tag": "q2",
-            "text": "no one values my life."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "You people who pass by,"
-          },
-          {
-            "tag": "q2",
-            "text": "you do not seem to care at all about what has happened to me."
-          },
-          {
-            "tag": "q1",
-            "text": "Look around and see that there are no other people who are suffering as I do."
-          },
-          {
-            "tag": "q1",
-            "text": "Yahweh has caused me to suffer"
-          },
-          {
-            "tag": "q2",
-            "text": "because he has punished me on the day he was angry with us, his people."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "It is as though he sent a fire from heaven"
-          },
-          {
-            "tag": "q2",
-            "text": "that burned in my bones;"
-          },
-          {
-            "tag": "q1",
-            "text": "it is as though he has placed a trap to entangle my feet,"
-          },
-          {
-            "tag": "q2",
-            "text": "and made me turn back."
-          },
-          {
-            "tag": "q1",
-            "text": "He has abandoned me;"
-          },
-          {
-            "tag": "q2",
-            "text": "I am weak and alone every day, all during the day."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "He turned the sins that I have committed into a heavy load for me to carry;"
-          },
-          {
-            "tag": "q2",
-            "text": "it is as though he tied them around my neck."
-          },
-          {
-            "tag": "q1",
-            "text": "Previously we were strong,"
-          },
-          {
-            "tag": "q2",
-            "text": "but he has caused me to become weak."
-          },
-          {
-            "tag": "q1",
-            "text": "He has allowed my enemies to capture me,"
-          },
-          {
-            "tag": "q2",
-            "text": "and I was not able to do anything to resist them."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "The Lord looked at my mighty soldiers, who kept me safe."
-          },
-          {
-            "tag": "q1",
-            "text": "He summoned a great army"
-          },
-          {
-            "tag": "q2",
-            "text": "to come and crush me to defeat my strong young soldiers."
-          },
-          {
-            "tag": "q1",
-            "text": "The Lord has trampled on the people of Judah"
-          },
-          {
-            "tag": "q2",
-            "text": "as people trample on grapes in a pit to make juice."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "I weep because of all these things."
-          },
-          {
-            "tag": "q2",
-            "text": "My eyes are filled with tears."
-          },
-          {
-            "tag": "q1",
-            "text": "There is no one to comfort me."
-          },
-          {
-            "tag": "q2",
-            "text": "The one who comforts me is far away from me."
-          },
-          {
-            "tag": "q1",
-            "text": "My children have no hope"
-          },
-          {
-            "tag": "q2",
-            "text": "because the enemy has taken us all captive."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "The people who lived in Zion (the city of Jerusalem)"
-          },
-          {
-            "tag": "q2",
-            "text": "have no one to give them comfort."
-          },
-          {
-            "tag": "q1",
-            "text": "Yahweh has given the order that the people in nearby nations"
-          },
-          {
-            "tag": "q2",
-            "text": "will become the enemies of the descendants of our father Jacob (who are also called the Israelites)."
-          },
-          {
-            "tag": "q2",
-            "text": "Jerusalem has become disgusting to them."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "But what Yahweh has done to me is fair,"
-          },
-          {
-            "tag": "q2",
-            "text": "for I had refused to obey what he told me to do."
-          },
-          {
-            "tag": "q1",
-            "text": "You people everywhere, listen to me!"
-          },
-          {
-            "tag": "q2",
-            "text": "Look and see that I am suffering greatly."
-          },
-          {
-            "tag": "q1",
-            "text": "My young daughters and brave sons"
-          },
-          {
-            "tag": "q2",
-            "text": "have been taken away to far off lands."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "I pleaded with our allies, in whom we trusted, to help,"
-          },
-          {
-            "tag": "q2",
-            "text": "but they all refused,"
-          },
-          {
-            "tag": "q2",
-            "text": "they told lies and did not keep their promises."
-          },
-          {
-            "tag": "q1",
-            "text": "My priests and my leaders"
-          },
-          {
-            "tag": "q2",
-            "text": "died within the walls of the city"
-          },
-          {
-            "tag": "q1",
-            "text": "while they searched for food to eat."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Yahweh, see that I am suffering very much!"
-          },
-          {
-            "tag": "q2",
-            "text": "Inside of my body I am in great distress."
-          },
-          {
-            "tag": "q1",
-            "text": "I am sad in the center of my being,"
-          },
-          {
-            "tag": "q2",
-            "text": "because I have rebelled against you"
-          },
-          {
-            "tag": "q2",
-            "text": "and have caused you great sadness!"
-          },
-          {
-            "tag": "q1",
-            "text": "Our enemies kill people in the streets with their swords;"
-          },
-          {
-            "tag": "q2",
-            "text": "and that makes our homes the places where the dead are kept."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "Hear my groaning!"
-          },
-          {
-            "tag": "q2",
-            "text": "but no one came to comfort me."
-          },
-          {
-            "tag": "q1",
-            "text": "All our enemies know what happened to me;"
-          },
-          {
-            "tag": "q2",
-            "text": "they were all happy to hear"
-          },
-          {
-            "tag": "q2",
-            "text": "about what Yahweh has done to his people."
-          },
-          {
-            "tag": "q1",
-            "text": "Please do soon what you have promised,"
-          },
-          {
-            "tag": "q2",
-            "text": "when our enemies will suffer like we have suffered!"
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Yahweh, let those evil deeds come near to you"
-          },
-          {
-            "tag": "q2",
-            "text": "so you may see them all!"
-          },
-          {
-            "tag": "q1",
-            "text": "Punish them as you have punished me"
-          },
-          {
-            "tag": "q2",
-            "text": "for all my sins!"
-          },
-          {
-            "tag": "q1",
-            "text": "I suffer and groan very much,"
-          },
-          {
-            "tag": "q2",
-            "text": "and I faint within my inner self."
-          }
-        ],
-        "tag": "m"
+        "t": "v",
+        "n": 5,
+        "v": "Our enemies are now masters of our city,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Jerusalem was a beautiful city,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "We, the people of Jerusalem, are sad and have no more homes to live in;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "We, the people of Jerusalem, have sinned very much;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "It is as if our city has become filthy because we have sinned so greatly;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Our enemies have taken away all our treasures,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "All the people in the city cry out with pain"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "You people who pass by,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "It is as though he sent a fire from heaven"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "He turned the sins that I have committed into a heavy load for me to carry;"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "The Lord looked at my mighty soldiers, who kept me safe."
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "I weep because of all these things."
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "The people who lived in Zion (the city of Jerusalem)"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "But what Yahweh has done to me is fair,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "I pleaded with our allies, in whom we trusted, to help,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Yahweh, see that I am suffering very much!"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Hear my groaning!"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Yahweh, let those evil deeds come near to you"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "The Lord was extremely angry with us;"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "The Lord destroyed the homes of the people of Judah;"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Because he was extremely angry,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "He has gotten ready to kill us, his people,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "The Lord has become like an enemy"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "He has caused our enemies to smash his temple"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Yahweh has rejected the very altar on which we had sacrificed animals to him;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Yahweh was determined"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "The city gates have collapsed;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "The old men of Jerusalem sit on the ground,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "My eyes are very tired because of my tears;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "They cry out to their mothers,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "You people of Jerusalem,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "The prophets among you claimed that they had seen visions from Yahweh,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "All those who pass by you"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Now all our enemies laugh at you;"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Yahweh has done what he planned;"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "I wish the city walls could speak like the people who"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Get up during every night and cry out;"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Yahweh, look at your people and have mercy on us."
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "The corpses of people of all ages lie in the streets;"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "You summoned my enemies to attack from every direction,"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "I, the one who am writing this, am a man whom Yahweh made to suffer,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "It was as though he caused me to walk in a very dark place"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "He has punished me many times,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "He has caused my skin and my flesh to become old."
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "He has surrounded me with things"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "It is as though he has buried me in a dark place"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "It is as though he has built a prison wall around me,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Although I call out and cry out for him to help me,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "It is as though he has blocked my path with a high stone wall"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "He has waited to attack me"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "It is as though a bear has dragged me off the path and mauled me,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "It is as though he strung his bow and made me the target"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "It is as though he shot his arrows"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "All my relatives laugh at me;"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Yahweh has made me suffer greatly,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "It is as though he has caused me to chew gravel that broke my teeth;"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Things no longer go well for me;"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "I continue to say to myself, “I am not strong enough to bear any more hardships."
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "When I think about how I suffer and how I wander far from home,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "I will never forget this time"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "However, I confidently expect Yahweh to do good things for me again,"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Yahweh never stops faithfully loving us, and he shows his compassion for us forever."
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "Every morning he acts mercifully toward us again."
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "So I sincerely say to myself, “Yahweh gives me what I need!”"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "Yahweh is good to all those who depend on him,"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "So it is good for us to wait quietly"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "And it is good for us to suffer patiently"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "Those who seek him to help them should sit by themselves and not complain,"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "They should lie in the dirt, with their faces on the ground,"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "If someone strikes us on one cheek,"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "The Lord does not abandon his people forever."
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "Sometimes he causes us to suffer,"
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "And he does not take pleasure when he causes people to suffer"
+      },
+      {
+        "t": "v",
+        "n": 34,
+        "v": "If people mistreat and oppress all the prisoners,"
+      },
+      {
+        "t": "v",
+        "n": 35,
+        "v": "or if they rebel against God"
+      },
+      {
+        "t": "v",
+        "n": 36,
+        "v": "or if they cause judges to decide matters unjustly,"
+      },
+      {
+        "t": "v",
+        "n": 37,
+        "v": "No one can make something happen"
+      },
+      {
+        "t": "v",
+        "n": 38,
+        "v": "God in heaven is the one who commands that disasters should happen,"
+      },
+      {
+        "t": "v",
+        "n": 39,
+        "v": "So it is certainly not right for us, who are only people on earth, to complain"
+      },
+      {
+        "t": "v",
+        "n": 40,
+        "v": "Instead, we should think carefully about how we behave;"
+      },
+      {
+        "t": "v",
+        "n": 41,
+        "v": "We should pray with all our inner beings and lift up our arms"
+      },
+      {
+        "t": "v",
+        "n": 42,
+        "v": "“We have sinned and rebelled against you,"
+      },
+      {
+        "t": "v",
+        "n": 43,
+        "v": "You have been very angry and chased after us;"
+      },
+      {
+        "t": "v",
+        "n": 44,
+        "v": "You have hidden yourself away, as if you were in a cloud,"
+      },
+      {
+        "t": "v",
+        "n": 45,
+        "v": "You have made us go among the foreign peoples,"
+      },
+      {
+        "t": "v",
+        "n": 46,
+        "v": "All our enemies have spoken things to insult us."
+      },
+      {
+        "t": "v",
+        "n": 47,
+        "v": "We are constantly afraid that people will trap us,"
+      },
+      {
+        "t": "v",
+        "n": 48,
+        "v": "Many tears flow from my eyes"
+      },
+      {
+        "t": "v",
+        "n": 49,
+        "v": "My tears continually flow;"
+      },
+      {
+        "t": "v",
+        "n": 50,
+        "v": "until Yahweh looks down from heaven and sees us."
+      },
+      {
+        "t": "v",
+        "n": 51,
+        "v": "I am very grieved"
+      },
+      {
+        "t": "v",
+        "n": 52,
+        "v": "My enemies hunted for me"
+      },
+      {
+        "t": "v",
+        "n": 53,
+        "v": "They threw me into a pit to kill me,"
+      },
+      {
+        "t": "v",
+        "n": 54,
+        "v": "The water in the pit rose above my head,"
+      },
+      {
+        "t": "v",
+        "n": 55,
+        "v": "But from the bottom of the pit I cried out to you,"
+      },
+      {
+        "t": "v",
+        "n": 56,
+        "v": "I pleaded with you,"
+      },
+      {
+        "t": "v",
+        "n": 57,
+        "v": "Then you answered me"
+      },
+      {
+        "t": "v",
+        "n": 58,
+        "v": "Yahweh, you argued for me when people wanted to condemn me and execute me;"
+      },
+      {
+        "t": "v",
+        "n": 59,
+        "v": "Now, Yahweh, you have seen the evil things that my enemies have done to me,"
+      },
+      {
+        "t": "v",
+        "n": 60,
+        "v": "You know the evil things"
+      },
+      {
+        "t": "v",
+        "n": 61,
+        "v": "Yahweh, you have heard them insult me;"
+      },
+      {
+        "t": "v",
+        "n": 62,
+        "v": "Every day they whisper and mutter things about me,"
+      },
+      {
+        "t": "v",
+        "n": 63,
+        "v": "Look at them! Whatever they are doing at the moment,"
+      },
+      {
+        "t": "v",
+        "n": 64,
+        "v": "Yahweh, give them what they deserve!"
+      },
+      {
+        "t": "v",
+        "n": 65,
+        "v": "You permit them to do whatever they want,"
+      },
+      {
+        "t": "v",
+        "n": 66,
+        "v": "Because you are angry with them, pursue them and get rid of them,"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "Previously our people were like pure gold,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "The young men of Jerusalem were as valuable as large amounts of gold,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Even the female jackals feed their pups,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "My people’s infants’ tongues cling to the roofs of their mouths"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "People who previously ate fine food"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "The people of Sodom died very suddenly in a disaster."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Our leaders used to be like pure snow or white milk,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Now our leaders’ faces are blacker than soot,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "It is better to die in a battle"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Women who usually acted with love and compassion"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Yahweh has shown to everyone how angry he was with his people!"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "None of the kings on the earth or anyone else"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "But that is what happened;"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "The priests and prophets wander through the streets"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "These people shouted at the priests and prophets, saying,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "It is Yahweh himself who has scattered them;"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "We continued to look for someone to help us before it was too late,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Our enemies were pursuing us,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Those who ran after us were faster than eagles flying in the sky."
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Our king, whom Yahweh had appointed,"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "You people of Edom and Uz,"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "You people of Zion (whose home is in Jerusalem),"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh, think about what has happened to us."
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "Foreigners have seized our property,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Our enemies have killed our fathers,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Now they make us pay for water to drink,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "The enemy runs after us and is very close to us;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "In order to get enough food to remain alive,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Our ancestors sinned, and now they are dead,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Now the people who rule over us are themselves slaves to their own masters in Babylon."
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "We go far to look for food, but we are in danger of dying when we do so,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Our skin has become hot like an oven,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Our enemies have violated the women in Jerusalem,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Our enemies have hanged our leaders,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "They force our young men to grind flour with millstones,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "Our elders no longer sit at the city gates to make important decisions;"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "We are no longer joyful;"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "The wreaths of flowers have fallen off our heads."
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "We are tired and discouraged,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Jerusalem has no one living any more in it,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "But Yahweh, you rule forever!"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "So why have you forgotten us?"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Please enable us to return to you,"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Please do that, or is it really true that you have rejected us forever?"
       }
-    ],
-    "num": 1
+    ]
   },
-  "id": "LAM unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Lamentations"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but now it is completely deserted."
+  },
+  {
+    "t": "q",
+    "v": "Once it was a powerful nation,"
+  },
+  {
+    "t": "q",
+    "v": "but now it is alone, like a widow."
+  },
+  {
+    "t": "q",
+    "v": "Once everyone in the world honored it like a king’s daughter,"
+  },
+  {
+    "t": "q",
+    "v": "but now it is like a slave."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "with tears flowing down our cheeks."
+  },
+  {
+    "t": "q",
+    "v": "We did not trust Yahweh to help us, and the people groups that we did trust failed to help us;"
+  },
+  {
+    "t": "q",
+    "v": "none of those people comfort us now."
+  },
+  {
+    "t": "q",
+    "v": "All the people groups that were friends with us have betrayed us;"
+  },
+  {
+    "t": "q",
+    "v": "they are all now our enemies."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and have suffered greatly."
+  },
+  {
+    "t": "q",
+    "v": "Almost all of our people"
+  },
+  {
+    "t": "q",
+    "v": "were forced to leave our land."
+  },
+  {
+    "t": "q",
+    "v": "We now live in another country"
+  },
+  {
+    "t": "q",
+    "v": "and we have no peace."
+  },
+  {
+    "t": "q",
+    "v": "When the people Judah were unable to defend ourselves,"
+  },
+  {
+    "t": "q",
+    "v": "that was when our enemies captured us."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because no one comes here to celebrate the sacred festivals any longer."
+  },
+  {
+    "t": "q",
+    "v": "No elders or leaders sit under the city gates to talk any more,"
+  },
+  {
+    "t": "q",
+    "v": "and Jerusalem’s priests groan in sorrow."
+  },
+  {
+    "t": "q",
+    "v": "The young women left in Jerusalem cry"
+  },
+  {
+    "t": "q",
+    "v": "because they are suffering greatly."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they prosper."
+  },
+  {
+    "t": "q",
+    "v": "Yahweh has punished us, the people of Jerusalem,"
+  },
+  {
+    "t": "q",
+    "v": "because of all the sins that we have committed."
+  },
+  {
+    "t": "q",
+    "v": "Our enemies have taken all our children"
+  },
+  {
+    "t": "q",
+    "v": "and made them go to other countries."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but it is not beautiful now."
+  },
+  {
+    "t": "q",
+    "v": "The leaders of our city are like deer that are starving"
+  },
+  {
+    "t": "q",
+    "v": "because they can find no grass to eat."
+  },
+  {
+    "t": "q",
+    "v": "They are very weak"
+  },
+  {
+    "t": "q",
+    "v": "and cannot run from our enemies."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "we think about all the splendid things that once filled our city."
+  },
+  {
+    "t": "q",
+    "v": "But now our enemies have captured the city,"
+  },
+  {
+    "t": "q",
+    "v": "and there is no one to help us."
+  },
+  {
+    "t": "q",
+    "v": "Our enemies destroyed our city"
+  },
+  {
+    "t": "q",
+    "v": "and laughed while they were doing it."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "our city has become like a bloody rag between a woman’s legs."
+  },
+  {
+    "t": "q",
+    "v": "Everyone who previously honored our city now despise it;"
+  },
+  {
+    "t": "q",
+    "v": "they are like people who strip a woman bare and then mock her."
+  },
+  {
+    "t": "q",
+    "v": "Now we groan in the city;"
+  },
+  {
+    "t": "q",
+    "v": "we are like a woman without clothes who tries to cover herself with her hands."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "we did not think about how God would punish us."
+  },
+  {
+    "t": "q",
+    "v": "We did not imagine how we would suffer;"
+  },
+  {
+    "t": "q",
+    "v": "there is no one to comfort us."
+  },
+  {
+    "t": "q",
+    "v": "We all call out to God, “Yahweh, look at how we are suffering"
+  },
+  {
+    "t": "q",
+    "v": "because our enemies have defeated us!”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "all the valuable things that we owned."
+  },
+  {
+    "t": "q",
+    "v": "People who do not worship you, Yahweh, are going into our sacred temple,"
+  },
+  {
+    "t": "q",
+    "v": "where you had said no foreigner must go into the place where your people worship you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "while they search for food."
+  },
+  {
+    "t": "q",
+    "v": "They have given their most valuable things"
+  },
+  {
+    "t": "q",
+    "v": "to get food to eat to restore their strength."
+  },
+  {
+    "t": "q",
+    "v": "Yahweh, look at me,"
+  },
+  {
+    "t": "q",
+    "v": "no one values my life."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you do not seem to care at all about what has happened to me."
+  },
+  {
+    "t": "q",
+    "v": "Look around and see that there are no other people who are suffering as I do."
+  },
+  {
+    "t": "q",
+    "v": "Yahweh has caused me to suffer"
+  },
+  {
+    "t": "q",
+    "v": "because he has punished me on the day he was angry with us, his people."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "that burned in my bones;"
+  },
+  {
+    "t": "q",
+    "v": "it is as though he has placed a trap to entangle my feet,"
+  },
+  {
+    "t": "q",
+    "v": "and made me turn back."
+  },
+  {
+    "t": "q",
+    "v": "He has abandoned me;"
+  },
+  {
+    "t": "q",
+    "v": "I am weak and alone every day, all during the day."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "it is as though he tied them around my neck."
+  },
+  {
+    "t": "q",
+    "v": "Previously we were strong,"
+  },
+  {
+    "t": "q",
+    "v": "but he has caused me to become weak."
+  },
+  {
+    "t": "q",
+    "v": "He has allowed my enemies to capture me,"
+  },
+  {
+    "t": "q",
+    "v": "and I was not able to do anything to resist them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "He summoned a great army"
+  },
+  {
+    "t": "q",
+    "v": "to come and crush me to defeat my strong young soldiers."
+  },
+  {
+    "t": "q",
+    "v": "The Lord has trampled on the people of Judah"
+  },
+  {
+    "t": "q",
+    "v": "as people trample on grapes in a pit to make juice."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "My eyes are filled with tears."
+  },
+  {
+    "t": "q",
+    "v": "There is no one to comfort me."
+  },
+  {
+    "t": "q",
+    "v": "The one who comforts me is far away from me."
+  },
+  {
+    "t": "q",
+    "v": "My children have no hope"
+  },
+  {
+    "t": "q",
+    "v": "because the enemy has taken us all captive."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "have no one to give them comfort."
+  },
+  {
+    "t": "q",
+    "v": "Yahweh has given the order that the people in nearby nations"
+  },
+  {
+    "t": "q",
+    "v": "will become the enemies of the descendants of our father Jacob (who are also called the Israelites)."
+  },
+  {
+    "t": "q",
+    "v": "Jerusalem has become disgusting to them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for I had refused to obey what he told me to do."
+  },
+  {
+    "t": "q",
+    "v": "You people everywhere, listen to me!"
+  },
+  {
+    "t": "q",
+    "v": "Look and see that I am suffering greatly."
+  },
+  {
+    "t": "q",
+    "v": "My young daughters and brave sons"
+  },
+  {
+    "t": "q",
+    "v": "have been taken away to far off lands."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but they all refused,"
+  },
+  {
+    "t": "q",
+    "v": "they told lies and did not keep their promises."
+  },
+  {
+    "t": "q",
+    "v": "My priests and my leaders"
+  },
+  {
+    "t": "q",
+    "v": "died within the walls of the city"
+  },
+  {
+    "t": "q",
+    "v": "while they searched for food to eat."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Inside of my body I am in great distress."
+  },
+  {
+    "t": "q",
+    "v": "I am sad in the center of my being,"
+  },
+  {
+    "t": "q",
+    "v": "because I have rebelled against you"
+  },
+  {
+    "t": "q",
+    "v": "and have caused you great sadness!"
+  },
+  {
+    "t": "q",
+    "v": "Our enemies kill people in the streets with their swords;"
+  },
+  {
+    "t": "q",
+    "v": "and that makes our homes the places where the dead are kept."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but no one came to comfort me."
+  },
+  {
+    "t": "q",
+    "v": "All our enemies know what happened to me;"
+  },
+  {
+    "t": "q",
+    "v": "they were all happy to hear"
+  },
+  {
+    "t": "q",
+    "v": "about what Yahweh has done to his people."
+  },
+  {
+    "t": "q",
+    "v": "Please do soon what you have promised,"
+  },
+  {
+    "t": "q",
+    "v": "when our enemies will suffer like we have suffered!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so you may see them all!"
+  },
+  {
+    "t": "q",
+    "v": "Punish them as you have punished me"
+  },
+  {
+    "t": "q",
+    "v": "for all my sins!"
+  },
+  {
+    "t": "q",
+    "v": "I suffer and groan very much,"
+  },
+  {
+    "t": "q",
+    "v": "and I faint within my inner self."
+  }
+]

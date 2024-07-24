@@ -1,101 +1,71 @@
-{
-  "chapter": {
-    "children": [
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "tag": "d",
-        "text": "A psalm written by David for people going up to the temple to worship."
-      },
-      {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "You Israelite people, answer this question:"
-          },
-          {
-            "tag": "q1",
-            "text": "What would have happened to us if Yahweh had not been helping us?"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "When our enemies attacked us,"
-          },
-          {
-            "tag": "q1",
-            "text": "if Yahweh had not been fighting for us,"
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "we would have all been killed"
-          },
-          {
-            "tag": "q2",
-            "text": "because they were very angry with us!"
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "They would have been like a flood of water sweeping us away;"
-          },
-          {
-            "tag": "q1",
-            "text": "it would have been as though the water had covered us,"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "and we would all have drowned in the flood."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "But we praise Yahweh"
-          },
-          {
-            "tag": "q2",
-            "text": "because he has not allowed our enemies to destroy us."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "We have escaped from our enemies as a bird escapes from the trap that hunters have set;"
-          },
-          {
-            "tag": "q1",
-            "text": "it is as though the trap that our enemies set for us was broken"
-          },
-          {
-            "tag": "q2",
-            "text": "and we have escaped from it!"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Yahweh is the one who helps us;"
-          },
-          {
-            "tag": "q2",
-            "text": "he is the one who made heaven and the earth."
-          }
-        ],
-        "auto": true
-      }
-    ],
-    "num": 124
+[
+  {
+    "t": "m",
+    "v": []
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh, I look up toward you,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "As servants ask their masters for what they need"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Yahweh, act very mercifully toward us"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Arrogant people have made fun of us for a long time,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "up to heaven, from where you rule."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and as maids ask their mistresses for what they need,"
+  },
+  {
+    "t": "q",
+    "v": "we ask you, Yahweh our God, for what we need,"
+  },
+  {
+    "t": "q",
+    "v": "until you act mercifully toward us."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because our enemies have acted very contemptuously toward us."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and proud people have oppressed us and have acted as though we were worthless."
+  }
+]

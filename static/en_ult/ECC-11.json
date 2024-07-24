@@ -1,183 +1,193 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Send out your bread on the waters,"
-          },
-          {
-            "tag": "q2",
-            "text": "for you will find it again after many days."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Share it with seven, even eight people,"
-          },
-          {
-            "tag": "q2",
-            "text": "for you do not know what disasters are coming on the earth."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "If the clouds are full of rain,"
-          },
-          {
-            "tag": "q2",
-            "text": "they empty themselves on the earth,"
-          },
-          {
-            "tag": "q1",
-            "text": "and if a tree falls toward the south or toward the north,"
-          },
-          {
-            "tag": "q2",
-            "text": "wherever the tree falls, there it will remain."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Anyone who watches the wind might not plant,"
-          },
-          {
-            "tag": "q2",
-            "text": "and anyone who watches the clouds might not harvest."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "As you do not know the path of the wind,"
-          },
-          {
-            "tag": "q2",
-            "text": "nor how a baby’s bones grow in the pregnant womb,"
-          },
-          {
-            "tag": "f",
-            "text": "+ "
-          },
-          {
-            "tag": "ft",
-            "text": "Some modern versions have "
-          },
-          {
-            "tag": "fqa",
-            "text": "As you do not know the path of the spirit to the baby’s bones in the pregnant womb ."
-          },
-          {
-            "tag": "f",
-            "text": "*"
-          },
-          {
-            "tag": "q1",
-            "text": "so also you cannot comprehend the work of God,"
-          },
-          {
-            "tag": "q2",
-            "text": "who created everything."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "In the morning plant your seed;"
-          },
-          {
-            "tag": "q2",
-            "text": "until the evening, work with your hands as needed,"
-          },
-          {
-            "tag": "q1",
-            "text": "for you know not which will prosper,"
-          },
-          {
-            "tag": "q2",
-            "text": "whether morning or evening, or this or that,"
-          },
-          {
-            "tag": "q2",
-            "text": "or whether they will both alike be good."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Truly the light is sweet,"
-          },
-          {
-            "tag": "q2",
-            "text": "and it is a pleasant thing for the eyes to see the sun."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "If someone lives many years,"
-          },
-          {
-            "tag": "q2",
-            "text": "let him be happy in all of them,"
-          },
-          {
-            "tag": "q1",
-            "text": "but let him think about the coming days of darkness,"
-          },
-          {
-            "tag": "q2",
-            "text": "for they will be many."
-          },
-          {
-            "tag": "q1",
-            "text": "Everything to come is vanishing vapor."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Take joy, young man, in your youth,"
-          },
-          {
-            "tag": "q2",
-            "text": "and let your heart be joyful in the days of your youth."
-          },
-          {
-            "tag": "q1",
-            "text": "Pursue the good desires of your heart,"
-          },
-          {
-            "tag": "q2",
-            "text": "and whatever is within the sight of your eyes."
-          },
-          {
-            "tag": "q1",
-            "text": "However, know that God will bring you into judgment for all these things."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Drive anger away from your heart,"
-          },
-          {
-            "tag": "q2",
-            "text": "and ignore any pain in your body,"
-          },
-          {
-            "tag": "q1",
-            "text": "because youth and its strength are vapor."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "Send out your bread on the waters,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "Share it with seven, even eight people,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "If the clouds are full of rain,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Anyone who watches the wind might not plant,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "As you do not know the path of the wind,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "In the morning plant your seed;"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Truly the light is sweet,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "If someone lives many years,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Take joy, young man, in your youth,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Drive anger away from your heart,"
       }
-    ],
-    "num": 11
+    ]
   },
-  "id": "ECC unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Ecclesiastes",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Ecclesiastes "
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for you will find it again after many days."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for you do not know what disasters are coming on the earth."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they empty themselves on the earth,"
+  },
+  {
+    "t": "q",
+    "v": "and if a tree falls toward the south or toward the north,"
+  },
+  {
+    "t": "q",
+    "v": "wherever the tree falls, there it will remain."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and anyone who watches the clouds might not harvest."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "nor how a baby’s bones grow in the pregnant womb,"
+  },
+  {
+    "t": "q",
+    "v": "so also you cannot comprehend the work of God,"
+  },
+  {
+    "t": "q",
+    "v": "who created everything."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "until the evening, work with your hands as needed,"
+  },
+  {
+    "t": "q",
+    "v": "for you know not which will prosper,"
+  },
+  {
+    "t": "q",
+    "v": "whether morning or evening, or this or that,"
+  },
+  {
+    "t": "q",
+    "v": "or whether they will both alike be good."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and it is a pleasant thing for the eyes to see the sun."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "let him be happy in all of them,"
+  },
+  {
+    "t": "q",
+    "v": "but let him think about the coming days of darkness,"
+  },
+  {
+    "t": "q",
+    "v": "for they will be many."
+  },
+  {
+    "t": "q",
+    "v": "Everything to come is vanishing vapor."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and let your heart be joyful in the days of your youth."
+  },
+  {
+    "t": "q",
+    "v": "Pursue the good desires of your heart,"
+  },
+  {
+    "t": "q",
+    "v": "and whatever is within the sight of your eyes."
+  },
+  {
+    "t": "q",
+    "v": "However, know that God will bring you into judgment for all these things."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and ignore any pain in your body,"
+  },
+  {
+    "t": "q",
+    "v": "because youth and its strength are vapor."
+  }
+]

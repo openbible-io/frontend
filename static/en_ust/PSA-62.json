@@ -1,153 +1,131 @@
-{
-  "chapter": {
-    "children": [
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "tag": "d",
-        "text": "A psalm written by David for Jeduthun, the choir leader"
-      },
-      {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "God is the only one who can give me peace in my inner being,"
-          },
-          {
-            "tag": "q2",
-            "text": "and he is the one who saves me from my enemies."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Only he is like a huge rock on which I can be safe;"
-          },
-          {
-            "tag": "q2",
-            "text": "he is like a fortress high up that my enemies cannot climb."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "When will you, my enemies, stop attacking me?"
-          },
-          {
-            "tag": "q2",
-            "text": "I feel that I am as weak against you as a leaning wall or a broken-down fence."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "My enemies plan to remove me from my important position so that people no longer honor me."
-          },
-          {
-            "tag": "q2",
-            "text": "They delight in telling lies."
-          },
-          {
-            "tag": "q1",
-            "text": "They bless people by what they say,"
-          },
-          {
-            "tag": "q2",
-            "text": "but in their inner beings they curse those people."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "God is the only one who gives me peace in my inner being;"
-          },
-          {
-            "tag": "q2",
-            "text": "he is the one whom I confidently expect to help me."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Only he is like a huge rock on which I can be safe;"
-          },
-          {
-            "tag": "q2",
-            "text": "he is like a shelter; my enemies can never reach me there."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "God is the one who saves me and honors me."
-          },
-          {
-            "tag": "q2",
-            "text": "He is like a huge,"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "You my people, always trust in him."
-          },
-          {
-            "tag": "q2",
-            "text": "Tell him all your troubles"
-          },
-          {
-            "tag": "q2",
-            "text": "because we go to him for safety."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "People who are considered to be unimportant are as unreliable as a breath of air;"
-          },
-          {
-            "tag": "q2",
-            "text": "people who are considered to be important also really amount to nothing."
-          },
-          {
-            "tag": "q1",
-            "text": "If you put them all on a scale, it would be as if they weighed less than a puff of air."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Do not trust in money gained by extorting it from others;"
-          },
-          {
-            "tag": "q2",
-            "text": "do not try to gain anything by robbing others."
-          },
-          {
-            "tag": "q1",
-            "text": "If you become very wealthy, do not trust in your money."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "I have heard God say more than once that he is the one who really has power,"
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "and that he is the one who faithfully loves us, as he promised."
-          },
-          {
-            "tag": "q2",
-            "text": "He rewards every one of us according to the deeds that we do."
-          }
-        ],
-        "auto": true
-      }
-    ],
-    "num": 62
+[
+  {
+    "t": "m",
+    "v": []
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 1,
+        "v": "God, listen to me"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "While I am discouraged and far from my home,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "You have been my refuge;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Allow me to live close to your sacred tent all during my life!"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "God, you heard me when I solemnly promised to give offerings to you;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "I am the king of Israel;"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Allow us to rule forever while you observe us;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "If you do that, I will always sing to praise you"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and answer my prayer."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I am calling out to you."
+  },
+  {
+    "t": "q",
+    "v": "Lead me to a place that will be like a high rock"
+  },
+  {
+    "t": "q",
+    "v": "on top of which I will be safe."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you have been like a strong tower"
+  },
+  {
+    "t": "q",
+    "v": "in which my enemies cannot attack me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Allow me to be safe as a little bird is safe under its mother’s wings."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you have given to me the blessings that belong to those who have an awesome respect for you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "please allow me to live and rule for many years,"
+  },
+  {
+    "t": "q",
+    "v": "and allow my descendants to rule also."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "watch over us while you faithfully love us and do for us what you promised."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "while I offer to you each day the sacrifices that I promised to give to you."
+  }
+]

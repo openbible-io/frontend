@@ -1,111 +1,118 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "At that time, you people of Jerusalem will sing this song:"
-          },
-          {
-            "tag": "q1",
-            "text": "\"Yahweh, we praise you!"
-          },
-          {
-            "tag": "q2",
-            "text": "Previously, you were angry with us,"
-          },
-          {
-            "tag": "q1",
-            "text": "but you are not angry now"
-          },
-          {
-            "tag": "q2",
-            "text": "and you have comforted us."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Amazingly, you have come to save us,"
-          },
-          {
-            "tag": "q2",
-            "text": "so we will trust in you and not be afraid."
-          },
-          {
-            "tag": "q1",
-            "text": "Yahweh our God, you enable us to be strong;"
-          },
-          {
-            "tag": "q2",
-            "text": "you are the one about whom we sing;"
-          },
-          {
-            "tag": "q2",
-            "text": "you have rescued us from our enemies.\""
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "You, his people, will greatly rejoice because he has rescued you,"
-          },
-          {
-            "tag": "q2",
-            "text": "like you enjoy drinking water from a fountain."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "At that time, you people of Jerusalem will sing this song:"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "At that time you will say,"
-          },
-          {
-            "tag": "q1",
-            "text": "\"We should thank Yahweh! We should praise him !"
-          },
-          {
-            "tag": "q2",
-            "text": "We should tell the people of all the people groups what he has done;"
-          },
-          {
-            "tag": "q2",
-            "text": "we should enable them to know that he is very great!"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "We should sing to Yahweh, because he has done wonderful things."
-          },
-          {
-            "tag": "q2",
-            "text": "We should enable everyone in the world to know it!"
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "You people of Jerusalem, shout joyfully to praise Yahweh,"
-          },
-          {
-            "tag": "q2",
-            "text": "because he is the great Holy One whom we Israelite people worship,"
-          },
-          {
-            "tag": "q2",
-            "text": "and he lives among us!\""
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "Amazingly, you have come to save us,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "You, his people, will greatly rejoice because he has rescued you,"
       }
-    ],
-    "num": 12
+    ]
   },
-  "id": "ISA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Isaiah"
-}
+  {
+    "t": "q",
+    "v": "“Yahweh, we praise you!"
+  },
+  {
+    "t": "q",
+    "v": "Previously, you were angry with us,"
+  },
+  {
+    "t": "q",
+    "v": "but you are not angry now"
+  },
+  {
+    "t": "q",
+    "v": "and you have comforted us."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so we will trust in you and not be afraid."
+  },
+  {
+    "t": "q",
+    "v": "Yahweh our God, you enable us to be strong;"
+  },
+  {
+    "t": "q",
+    "v": "you are the one about whom we sing;"
+  },
+  {
+    "t": "q",
+    "v": "you have rescued us from our enemies.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "like you enjoy drinking water from a fountain."
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 4,
+        "v": "At that time you will say,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "We should sing to Yahweh, because he has done wonderful things."
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "You people of Jerusalem, shout joyfully to praise Yahweh,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "“We should thank Yahweh! We should praise him !"
+  },
+  {
+    "t": "q",
+    "v": "We should tell the people of all the people groups what he has done;"
+  },
+  {
+    "t": "q",
+    "v": "we should enable them to know that he is very great!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "We should enable everyone in the world to know it!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because he is the great Holy One whom we Israelite people worship,"
+  },
+  {
+    "t": "q",
+    "v": "and he lives among us!”"
+  }
+]

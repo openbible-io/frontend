@@ -1,206 +1,272 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Then Bildad the Shuhite answered and said,"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "“When will you stop your talk?"
-          },
-          {
-            "tag": "q",
-            "text": "Consider, and afterwards we will speak."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Why are we regarded as beasts, stupid in your sight?"
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "You who tear at yourself in your anger,"
-          },
-          {
-            "tag": "q",
-            "text": "should the earth be forsaken for you"
-          },
-          {
-            "tag": "q",
-            "text": "or should the rocks be removed out of their places?"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Indeed, the light of the wicked person will be put out;"
-          },
-          {
-            "tag": "q",
-            "text": "the spark of his fire will not shine."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "The light will be dark in his tent;"
-          },
-          {
-            "tag": "q",
-            "text": "his lamp above him will be put out."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "The steps of his strength will be made short;"
-          },
-          {
-            "tag": "q",
-            "text": "his own plans will cast him down."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "For he will be thrown into a net by his own feet;"
-          },
-          {
-            "tag": "q",
-            "text": "he will walk into a pitfall."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "A trap will take him by the heel;"
-          },
-          {
-            "tag": "q",
-            "text": "a snare will lay hold on him."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "A noose is hidden for him on the ground;"
-          },
-          {
-            "tag": "q",
-            "text": "and a trap for him in the way."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Terrors will make him afraid on every side;"
-          },
-          {
-            "tag": "q",
-            "text": "they will chase him at his heels."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "His wealth will turn into hunger,"
-          },
-          {
-            "tag": "q",
-            "text": "and calamity will be ready at his side."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "The parts of his body will be devoured;"
-          },
-          {
-            "tag": "q",
-            "text": "indeed, the firstborn of death will devour his parts."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "He is torn from the safety of his tent"
-          },
-          {
-            "tag": "q",
-            "text": "and marched off to the king of terrors."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "People not his own will live in his tent"
-          },
-          {
-            "tag": "q",
-            "text": "after they see that sulfur is scattered within his home."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "His roots will be dried up beneath;"
-          },
-          {
-            "tag": "q",
-            "text": "above will his branch be cut off."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "His memory will perish from the earth;"
-          },
-          {
-            "tag": "q",
-            "text": "he will have no name in the street."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "He will be driven from light into darkness"
-          },
-          {
-            "tag": "q",
-            "text": "and be chased out of this world."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "He will have no son or son’s son among his people,"
-          },
-          {
-            "tag": "q",
-            "text": "nor any remaining kinfolk where he had stayed."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Those who live in the west will be horrified at what happens to him one day;"
-          },
-          {
-            "tag": "q",
-            "text": "those who live in the east will be frightened by it."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "Surely such are the homes of unrighteous people,"
-          },
-          {
-            "tag": "q",
-            "text": "the places of those who do not know God.”"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "Then Bildad the Shuhite answered and said,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "“When will you stop your talk?"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Why are we regarded as beasts, stupid in your sight?"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "You who tear at yourself in your anger,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Indeed, the light of the wicked person will be put out;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "The light will be dark in his tent;"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "The steps of his strength will be made short;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "For he will be thrown into a net by his own feet;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "A trap will take him by the heel;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "A noose is hidden for him on the ground;"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Terrors will make him afraid on every side;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "His wealth will turn into hunger,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "The parts of his body will be devoured;"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "He is torn from the safety of his tent"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "People not his own will live in his tent"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "His roots will be dried up beneath;"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "His memory will perish from the earth;"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "He will be driven from light into darkness"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "He will have no son or son’s son among his people,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Those who live in the west will be horrified at what happens to him one day;"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Surely such are the homes of unrighteous people,"
       }
-    ],
-    "num": 18
+    ]
   },
-  "id": "JOB unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Job",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Job"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Consider, and afterwards we will speak."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "should the earth be forsaken for you"
+  },
+  {
+    "t": "q",
+    "v": "or should the rocks be removed out of their places?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the spark of his fire will not shine."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "his lamp above him will be put out."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "his own plans will cast him down."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he will walk into a pitfall."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "a snare will lay hold on him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and a trap for him in the way."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they will chase him at his heels."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and calamity will be ready at his side."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "indeed, the firstborn of death will devour his parts."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and marched off to the king of terrors."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "after they see that sulfur is scattered within his home."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "above will his branch be cut off."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he will have no name in the street."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and be chased out of this world."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "nor any remaining kinfolk where he had stayed."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "those who live in the east will be frightened by it."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the places of those who do not know God.”"
+  }
+]

@@ -1,254 +1,328 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Man, who is born of woman,"
-          },
-          {
-            "tag": "q",
-            "text": "lives only a few days and is full of trouble."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "He sprouts from the ground like a flower and is cut down;"
-          },
-          {
-            "tag": "q",
-            "text": "he flees like a shadow and does not last."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Do you look at any of these?"
-          },
-          {
-            "tag": "q",
-            "text": "Do you bring me into judgment with you?"
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Who can bring something clean out of something unclean? No one."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Man’s days are determined."
-          },
-          {
-            "tag": "q",
-            "text": "The number of his months is with you;"
-          },
-          {
-            "tag": "q",
-            "text": "you have appointed his limits that he cannot pass."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Look away from him that he may rest,"
-          },
-          {
-            "tag": "q",
-            "text": "so that he may enjoy his day like a hired man if he can do so."
-          }
-        ],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "Man, who is born of woman,"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "There can be hope for a tree;"
-          },
-          {
-            "tag": "q",
-            "text": "if it is cut down, it might sprout again,"
-          },
-          {
-            "tag": "q",
-            "text": "so that its tender stalk does not disappear."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Though its root grows old in the earth,"
-          },
-          {
-            "tag": "q",
-            "text": "and its stump dies in the ground,"
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "yet even if it only smells water, it will bud"
-          },
-          {
-            "tag": "q",
-            "text": "and send out branches like a plant."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "But man dies; he becomes weak;"
-          },
-          {
-            "tag": "q",
-            "text": "indeed, man stops breathing, and then where is he?"
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "As water disappears from a lake,"
-          },
-          {
-            "tag": "q",
-            "text": "and as a river loses water and dries up,"
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "so people lie down and do not rise again."
-          },
-          {
-            "tag": "q",
-            "text": "Until the heavens are no more, they will not awake"
-          },
-          {
-            "tag": "q",
-            "text": "nor be roused out of their sleep."
-          }
-        ],
-        "tag": "m"
+        "t": "v",
+        "n": 2,
+        "v": "He sprouts from the ground like a flower and is cut down;"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Oh, that you would hide me away in Sheol away from troubles,"
-          },
-          {
-            "tag": "q",
-            "text": "and that you would keep me in private until your wrath is over,"
-          },
-          {
-            "tag": "q",
-            "text": "that you would set me a fixed time to stay there and then call me to mind!"
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "If a man dies, will he live again?"
-          },
-          {
-            "tag": "q",
-            "text": "If so, I would wish to wait all my weary time there"
-          },
-          {
-            "tag": "q",
-            "text": "until my release should come."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "You would call, and I would answer you."
-          },
-          {
-            "tag": "q",
-            "text": "You would have a desire for the work of your hands."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "You would number and care for my footsteps;"
-          },
-          {
-            "tag": "q",
-            "text": "you would not keep track of my sin."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "My transgression would be sealed up in a bag;"
-          },
-          {
-            "tag": "q",
-            "text": "you would cover up my iniquity."
-          }
-        ],
-        "tag": "m"
+        "t": "v",
+        "n": 3,
+        "v": "Do you look at any of these?"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "But even mountains fall and come to nothing;"
-          },
-          {
-            "tag": "q",
-            "text": "even rocks are moved out of their place;"
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "the waters wear down the stones;"
-          },
-          {
-            "tag": "q",
-            "text": "their flooding washes away the dust of the earth."
-          },
-          {
-            "tag": "q",
-            "text": "Like this, you destroy the hope of man."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "You always defeat him, and he passes away;"
-          },
-          {
-            "tag": "q",
-            "text": "you change his face and send him away to die."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "If his sons are honored, he does not know it;"
-          },
-          {
-            "tag": "q",
-            "text": "and if they are brought low, he does not see it."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "He feels only the pain of his own body,"
-          },
-          {
-            "tag": "q",
-            "text": "and he mourns for himself."
-          }
-        ],
-        "tag": "m"
+        "t": "v",
+        "n": 4,
+        "v": "Who can bring something clean out of something unclean? No one."
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Man’s days are determined."
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Look away from him that he may rest,"
       }
-    ],
-    "num": 14
+    ]
   },
-  "id": "JOB unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Job",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Job"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "lives only a few days and is full of trouble."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he flees like a shadow and does not last."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Do you bring me into judgment with you?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "The number of his months is with you;"
+  },
+  {
+    "t": "q",
+    "v": "you have appointed his limits that he cannot pass."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so that he may enjoy his day like a hired man if he can do so."
+  },
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 7,
+        "v": "There can be hope for a tree;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Though its root grows old in the earth,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "yet even if it only smells water, it will bud"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "But man dies; he becomes weak;"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "As water disappears from a lake,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "so people lie down and do not rise again."
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "if it is cut down, it might sprout again,"
+  },
+  {
+    "t": "q",
+    "v": "so that its tender stalk does not disappear."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and its stump dies in the ground,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and send out branches like a plant."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "indeed, man stops breathing, and then where is he?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and as a river loses water and dries up,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Until the heavens are no more, they will not awake"
+  },
+  {
+    "t": "q",
+    "v": "nor be roused out of their sleep."
+  },
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Oh, that you would hide me away in Sheol away from troubles,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "If a man dies, will he live again?"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "You would call, and I would answer you."
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "You would number and care for my footsteps;"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "My transgression would be sealed up in a bag;"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and that you would keep me in private until your wrath is over,"
+  },
+  {
+    "t": "q",
+    "v": "that you would set me a fixed time to stay there and then call me to mind!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "If so, I would wish to wait all my weary time there"
+  },
+  {
+    "t": "q",
+    "v": "until my release should come."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "You would have a desire for the work of your hands."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you would not keep track of my sin."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you would cover up my iniquity."
+  },
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 18,
+        "v": "But even mountains fall and come to nothing;"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "the waters wear down the stones;"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "You always defeat him, and he passes away;"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "If his sons are honored, he does not know it;"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "He feels only the pain of his own body,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "even rocks are moved out of their place;"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "their flooding washes away the dust of the earth."
+  },
+  {
+    "t": "q",
+    "v": "Like this, you destroy the hope of man."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you change his face and send him away to die."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and if they are brought low, he does not see it."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and he mourns for himself."
+  }
+]

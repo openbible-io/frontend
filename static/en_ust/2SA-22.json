@@ -1,535 +1,722 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "After Yahweh had rescued David from Saul and his other enemies, David sang a song to Yahweh."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "This is what he sang:"
-          },
-          {
-            "tag": "q1",
-            "text": "\"Yahweh, you are like a huge rock on top of which I can hide."
-          },
-          {
-            "tag": "q2",
-            "text": "You are like a fortress, and you rescue me."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Yahweh, you protect me. You are like a shield,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you are the powerful one who saves me."
-          },
-          {
-            "tag": "q1",
-            "text": "You are like a place where I find refuge."
-          },
-          {
-            "tag": "q2",
-            "text": "You save me from those who act violently toward me."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "I call out to you, Yahweh."
-          },
-          {
-            "tag": "q2",
-            "text": "You deserve to be praised,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you rescue me from my enemies."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "I almost died. It was as if a huge wave had crashed over me,"
-          },
-          {
-            "tag": "q1",
-            "text": "and almost destroyed me like a flood."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "I thought that I would die. It was as though death had wrapped ropes around me,"
-          },
-          {
-            "tag": "q2",
-            "text": "and it was as though I were in a trap where I would surely die."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "But when I was very distressed, I called out to you, Yahweh."
-          },
-          {
-            "tag": "q2",
-            "text": "I cried out to you, my God."
-          },
-          {
-            "tag": "q1",
-            "text": "You heard me from your temple."
-          },
-          {
-            "tag": "q2",
-            "text": "You listened when I called to you to help me."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Then it was as though the earth quaked and shook."
-          },
-          {
-            "tag": "q2",
-            "text": "It was as though the foundations that held up the sky trembled,"
-          },
-          {
-            "tag": "q2",
-            "text": "because you were angry."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "It was as though smoke poured out of your nostrils"
-          },
-          {
-            "tag": "q2",
-            "text": "and burning coals and fire that burns everything came out of your mouth."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "You tore open the skies and came down."
-          },
-          {
-            "tag": "q2",
-            "text": "There was a thick dark cloud under your feet."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "You rode through the sky on a winged creature."
-          },
-          {
-            "tag": "q2",
-            "text": "The wind enabled you to travel swiftly, like a bird."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "The darkness was around you, like a blanket"
-          },
-          {
-            "tag": "q2",
-            "text": "thick clouds that were full of water surrounded you."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Out of the lightning in front of you"
-          },
-          {
-            "tag": "q2",
-            "text": "fire from burning coals flamed."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "Then, Yahweh, you spoke like thunder from the sky."
-          },
-          {
-            "tag": "q2",
-            "text": "It was your voice, God, you who are greater than all other gods, that was heard."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "When you sent flashes of lightning,"
-          },
-          {
-            "tag": "q2",
-            "text": "it was as though you shot your arrows and scattered your enemies."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Then the bottom of the ocean was uncovered."
-          },
-          {
-            "tag": "q2",
-            "text": "The foundations of the world could be seen"
-          },
-          {
-            "tag": "q1",
-            "text": "when you shouted, going into battle against our enemies"
-          },
-          {
-            "tag": "q2",
-            "text": "and angry at them."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Yahweh, you reached down from heaven and lifted me up."
-          },
-          {
-            "tag": "q2",
-            "text": "You pulled me up from the deep water."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "You rescued me from my strong enemies,"
-          },
-          {
-            "tag": "q2",
-            "text": "from those who hated me."
-          },
-          {
-            "tag": "q1",
-            "text": "I could not defeat them because they were very strong."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "They attacked me when I was experiencing troubles,"
-          },
-          {
-            "tag": "q2",
-            "text": "but Yahweh, you protected me."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "You brought me into a place where I was safe."
-          },
-          {
-            "tag": "q2",
-            "text": "You rescued me because you were pleased with me."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "Yahweh, you rewarded me because I do what is right."
-          },
-          {
-            "tag": "q2",
-            "text": "You did good things for me because I was innocent."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Yahweh, I have obeyed your laws."
-          },
-          {
-            "tag": "q2",
-            "text": "I have not stopped worshiping you, my God."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "All of your decrees were in my mind,"
-          },
-          {
-            "tag": "q2",
-            "text": "and I did not stop obeying all your decrees."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "You know that I have not done anything that is evil."
-          },
-          {
-            "tag": "q2",
-            "text": "I have kept myself from doing things for which you would punish me."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "So you have rewarded me in return for my doing what is right,"
-          },
-          {
-            "tag": "q2",
-            "text": "because you know that I am innocent of doing wrong things."
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "Yahweh, you are faithful to those who always trust in you,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you always do what is good to those whose behavior is always good."
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "You act sincerely toward those whose inner beings are pure,"
-          },
-          {
-            "tag": "q2",
-            "text": "but you are hostile to those who are perverse."
-          },
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "You rescue those who are humble,"
-          },
-          {
-            "tag": "q2",
-            "text": "but you watch those who are proud and humiliate them."
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "Yahweh, you are like a lamp"
-          },
-          {
-            "tag": "q2",
-            "text": "that causes it to become light when I am in the darkness."
-          },
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "With your strength I can break through a line of soldiers blocking my way;"
-          },
-          {
-            "tag": "q2",
-            "text": "I can climb over the wall that surrounds their city."
-          },
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "My God whom I worship, everything that you do is perfect."
-          },
-          {
-            "tag": "q2",
-            "text": "You always do what you promise that you will do."
-          },
-          {
-            "tag": "q1",
-            "text": "You are like a shield to all those who request you to protect them."
-          },
-          {
-            "tag": "v",
-            "num": "32",
-            "text": "Yahweh, you are the only one who is God."
-          },
-          {
-            "tag": "q2",
-            "text": "Only you are like a huge rock on top of which which we are protected."
-          },
-          {
-            "tag": "v",
-            "num": "33",
-            "text": "God, you whom I worship are a strong refuge for me."
-          },
-          {
-            "tag": "q2",
-            "text": "You lead anyone who is pure in the way he should go."
-          },
-          {
-            "tag": "v",
-            "num": "34",
-            "text": "When I walk in the mountains,"
-          },
-          {
-            "tag": "q2",
-            "text": "you enable me to walk safely"
-          },
-          {
-            "tag": "q2",
-            "text": "as a deer runs, without stumbling."
-          },
-          {
-            "tag": "v",
-            "num": "35",
-            "text": "You teach me how to fight in a battle"
-          },
-          {
-            "tag": "q2",
-            "text": "in order that I can shoot arrows well from a very strong bow."
-          },
-          {
-            "tag": "v",
-            "num": "36",
-            "text": "It is as though you have given me a shield"
-          },
-          {
-            "tag": "q2",
-            "text": "by which you have saved me,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you have answered my prayers and caused me to become famous."
-          },
-          {
-            "tag": "v",
-            "num": "37",
-            "text": "You have not allowed my enemies to capture me,"
-          },
-          {
-            "tag": "q2",
-            "text": "and I have not fallen down during battle."
-          },
-          {
-            "tag": "v",
-            "num": "38",
-            "text": "I pursued my enemies and defeated them."
-          },
-          {
-            "tag": "q2",
-            "text": "I did not stop fighting them until they were all killed."
-          },
-          {
-            "tag": "v",
-            "num": "39",
-            "text": "I struck them down. I stabbed them with my sword,"
-          },
-          {
-            "tag": "q1",
-            "text": "and they fell down at my feet and did not stand up again."
-          },
-          {
-            "tag": "v",
-            "num": "40",
-            "text": "You have given me strength for fighting battles"
-          },
-          {
-            "tag": "q2",
-            "text": "and caused those who were attacking me to fall down; I trampled on them."
-          },
-          {
-            "tag": "v",
-            "num": "41",
-            "text": "You caused my enemies to turn and run away from me."
-          },
-          {
-            "tag": "q2",
-            "text": "I destroyed those who hated me."
-          },
-          {
-            "tag": "v",
-            "num": "42",
-            "text": "They looked for someone to rescue them, but no one did."
-          },
-          {
-            "tag": "q2",
-            "text": "They cried out to you, Yahweh, for help, but you did not answer them."
-          },
-          {
-            "tag": "v",
-            "num": "43",
-            "text": "I crushed them, and they became like tiny particles of dust."
-          },
-          {
-            "tag": "q2",
-            "text": "I trampled them, and they became like mud in the streets."
-          },
-          {
-            "tag": "v",
-            "num": "44",
-            "text": "You rescued me from those who tried to rebel against me,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you appointed me to rule many nations."
-          },
-          {
-            "tag": "q2",
-            "text": "People whom I did not know previously are now under my authority."
-          },
-          {
-            "tag": "v",
-            "num": "45",
-            "text": "Foreigners humbly bowed down in front of me."
-          },
-          {
-            "tag": "q2",
-            "text": "As soon as they heard about me, they obeyed me."
-          },
-          {
-            "tag": "v",
-            "num": "46",
-            "text": "They became afraid,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they came to me, trembling, from the places where they were hiding."
-          },
-          {
-            "tag": "v",
-            "num": "47",
-            "text": "Yahweh, you are alive! I praise you! You are like a huge rock on top of which I am safe!"
-          },
-          {
-            "tag": "q2",
-            "text": "You are the one who rescues me."
-          },
-          {
-            "tag": "q2",
-            "text": "Everyone should exalt you."
-          },
-          {
-            "tag": "v",
-            "num": "48",
-            "text": "You enable me to conquer my enemies,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you cause people of other nations to be under my authority."
-          },
-          {
-            "tag": "v",
-            "num": "49",
-            "text": "You delivered me from my enemies,"
-          },
-          {
-            "tag": "q1",
-            "text": "and you caused me to be honored more than they were."
-          },
-          {
-            "tag": "q2",
-            "text": "You rescued me from men who always acted violently."
-          },
-          {
-            "tag": "v",
-            "num": "50",
-            "text": "Because of all this, I praise you among many people groups,"
-          },
-          {
-            "tag": "q2",
-            "text": "and I sing to praise you."
-          },
-          {
-            "tag": "v",
-            "num": "51",
-            "text": "You enable me, whom you appointed to be king, to conquer my enemies."
-          },
-          {
-            "tag": "q2",
-            "text": "You faithfully love me, David, and you will love my descendants forever.\""
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "After Yahweh had rescued David from Saul and his other enemies, David sang a song to Yahweh."
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "This is what he sang:"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Yahweh, you protect me. You are like a shield,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "I call out to you, Yahweh."
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "I almost died. It was as if a huge wave had crashed over me,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "I thought that I would die. It was as though death had wrapped ropes around me,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "But when I was very distressed, I called out to you, Yahweh."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Then it was as though the earth quaked and shook."
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "It was as though smoke poured out of your nostrils"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "You tore open the skies and came down."
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "You rode through the sky on a winged creature."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "The darkness was around you, like a blanket"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Out of the lightning in front of you"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "Then, Yahweh, you spoke like thunder from the sky."
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "When you sent flashes of lightning,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Then the bottom of the ocean was uncovered."
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Yahweh, you reached down from heaven and lifted me up."
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "You rescued me from my strong enemies,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "They attacked me when I was experiencing troubles,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "You brought me into a place where I was safe."
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Yahweh, you rewarded me because I do what is right."
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Yahweh, I have obeyed your laws."
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "All of your decrees were in my mind,"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "You know that I have not done anything that is evil."
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "So you have rewarded me in return for my doing what is right,"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "Yahweh, you are faithful to those who always trust in you,"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "You act sincerely toward those whose inner beings are pure,"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "You rescue those who are humble,"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "Yahweh, you are like a lamp"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "With your strength I can break through a line of soldiers blocking my way;"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "My God whom I worship, everything that you do is perfect."
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "Yahweh, you are the only one who is God."
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "God, you whom I worship are a strong refuge for me."
+      },
+      {
+        "t": "v",
+        "n": 34,
+        "v": "When I walk in the mountains,"
+      },
+      {
+        "t": "v",
+        "n": 35,
+        "v": "You teach me how to fight in a battle"
+      },
+      {
+        "t": "v",
+        "n": 36,
+        "v": "It is as though you have given me a shield"
+      },
+      {
+        "t": "v",
+        "n": 37,
+        "v": "You have not allowed my enemies to capture me,"
+      },
+      {
+        "t": "v",
+        "n": 38,
+        "v": "I pursued my enemies and defeated them."
+      },
+      {
+        "t": "v",
+        "n": 39,
+        "v": "I struck them down. I stabbed them with my sword,"
+      },
+      {
+        "t": "v",
+        "n": 40,
+        "v": "You have given me strength for fighting battles"
+      },
+      {
+        "t": "v",
+        "n": 41,
+        "v": "You caused my enemies to turn and run away from me."
+      },
+      {
+        "t": "v",
+        "n": 42,
+        "v": "They looked for someone to rescue them, but no one did."
+      },
+      {
+        "t": "v",
+        "n": 43,
+        "v": "I crushed them, and they became like tiny particles of dust."
+      },
+      {
+        "t": "v",
+        "n": 44,
+        "v": "You rescued me from those who tried to rebel against me,"
+      },
+      {
+        "t": "v",
+        "n": 45,
+        "v": "Foreigners humbly bowed down in front of me."
+      },
+      {
+        "t": "v",
+        "n": 46,
+        "v": "They became afraid,"
+      },
+      {
+        "t": "v",
+        "n": 47,
+        "v": "Yahweh, you are alive! I praise you! You are like a huge rock on top of which I am safe!"
+      },
+      {
+        "t": "v",
+        "n": 48,
+        "v": "You enable me to conquer my enemies,"
+      },
+      {
+        "t": "v",
+        "n": 49,
+        "v": "You delivered me from my enemies,"
+      },
+      {
+        "t": "v",
+        "n": 50,
+        "v": "Because of all this, I praise you among many people groups,"
+      },
+      {
+        "t": "v",
+        "n": 51,
+        "v": "You enable me, whom you appointed to be king, to conquer my enemies."
       }
-    ],
-    "num": 22
+    ]
   },
-  "id": "SA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Samuel"
-}
+  {
+    "t": "q",
+    "v": "“Yahweh, you are like a huge rock on top of which I can hide."
+  },
+  {
+    "t": "q",
+    "v": "You are like a fortress, and you rescue me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and you are the powerful one who saves me."
+  },
+  {
+    "t": "q",
+    "v": "You are like a place where I find refuge."
+  },
+  {
+    "t": "q",
+    "v": "You save me from those who act violently toward me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "You deserve to be praised,"
+  },
+  {
+    "t": "q",
+    "v": "and you rescue me from my enemies."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and almost destroyed me like a flood."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and it was as though I were in a trap where I would surely die."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I cried out to you, my God."
+  },
+  {
+    "t": "q",
+    "v": "You heard me from your temple."
+  },
+  {
+    "t": "q",
+    "v": "You listened when I called to you to help me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "It was as though the foundations that held up the sky trembled,"
+  },
+  {
+    "t": "q",
+    "v": "because you were angry."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and burning coals and fire that burns everything came out of your mouth."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "There was a thick dark cloud under your feet."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "The wind enabled you to travel swiftly, like a bird."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "thick clouds that were full of water surrounded you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "fire from burning coals flamed."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "It was your voice, God, you who are greater than all other gods, that was heard."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "it was as though you shot your arrows and scattered your enemies."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "The foundations of the world could be seen"
+  },
+  {
+    "t": "q",
+    "v": "when you shouted, going into battle against our enemies"
+  },
+  {
+    "t": "q",
+    "v": "and angry at them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "You pulled me up from the deep water."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "from those who hated me."
+  },
+  {
+    "t": "q",
+    "v": "I could not defeat them because they were very strong."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but Yahweh, you protected me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "You rescued me because you were pleased with me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "You did good things for me because I was innocent."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I have not stopped worshiping you, my God."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and I did not stop obeying all your decrees."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I have kept myself from doing things for which you would punish me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because you know that I am innocent of doing wrong things."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and you always do what is good to those whose behavior is always good."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but you are hostile to those who are perverse."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but you watch those who are proud and humiliate them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "that causes it to become light when I am in the darkness."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I can climb over the wall that surrounds their city."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "You always do what you promise that you will do."
+  },
+  {
+    "t": "q",
+    "v": "You are like a shield to all those who request you to protect them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Only you are like a huge rock on top of which which we are protected."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "You lead anyone who is pure in the way he should go."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you enable me to walk safely"
+  },
+  {
+    "t": "q",
+    "v": "as a deer runs, without stumbling."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "in order that I can shoot arrows well from a very strong bow."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "by which you have saved me,"
+  },
+  {
+    "t": "q",
+    "v": "and you have answered my prayers and caused me to become famous."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and I have not fallen down during battle."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I did not stop fighting them until they were all killed."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they fell down at my feet and did not stand up again."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and caused those who were attacking me to fall down; I trampled on them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I destroyed those who hated me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "They cried out to you, Yahweh, for help, but you did not answer them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I trampled them, and they became like mud in the streets."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and you appointed me to rule many nations."
+  },
+  {
+    "t": "q",
+    "v": "People whom I did not know previously are now under my authority."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "As soon as they heard about me, they obeyed me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they came to me, trembling, from the places where they were hiding."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "You are the one who rescues me."
+  },
+  {
+    "t": "q",
+    "v": "Everyone should exalt you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and you cause people of other nations to be under my authority."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and you caused me to be honored more than they were."
+  },
+  {
+    "t": "q",
+    "v": "You rescued me from men who always acted violently."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and I sing to praise you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "You faithfully love me, David, and you will love my descendants forever.”"
+  }
+]

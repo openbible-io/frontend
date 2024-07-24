@@ -1,131 +1,280 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Praise Yahweh."
-          },
-          {
-            "tag": "q",
-            "text": "Praise Yahweh, my soul."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "I give praise to Yahweh with all my life;"
-          },
-          {
-            "tag": "q",
-            "text": "I will sing praises to my God as long as I exist."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Do not put your trust in princes"
-          },
-          {
-            "tag": "q",
-            "text": "or in mankind, in whom there is no salvation."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "When a person’s life’s breath stops, he returns to the ground;"
-          },
-          {
-            "tag": "q",
-            "text": "on that day his plans end."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Blessed is he who has the God of Jacob for his help,"
-          },
-          {
-            "tag": "q",
-            "text": "whose hope is in Yahweh his God."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Yahweh made heaven and earth,"
-          },
-          {
-            "tag": "q",
-            "text": "the sea, and all that is in them;"
-          },
-          {
-            "tag": "q",
-            "text": "he observes trustworthiness forever."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "He executes justice for the oppressed"
-          },
-          {
-            "tag": "q",
-            "text": "and gives food to the hungry."
-          },
-          {
-            "tag": "q",
-            "text": "Yahweh frees the prisoners;"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Yahweh opens the eyes of the blind;"
-          },
-          {
-            "tag": "q",
-            "text": "Yahweh raises up those who are bowed down;"
-          },
-          {
-            "tag": "q",
-            "text": "Yahweh loves the righteous people."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Yahweh protects the foreigners in the land;"
-          },
-          {
-            "tag": "q",
-            "text": "he lifts up the fatherless and widow,"
-          },
-          {
-            "tag": "q",
-            "text": "but he opposes the wicked."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Yahweh will reign forever,"
-          },
-          {
-            "tag": "q",
-            "text": "your God, Zion, for all generations."
-          },
-          {
-            "tag": "q",
-            "text": "Praise Yahweh."
-          }
-        ],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "I will extol you, my God, King;"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "Every day will I bless you;"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Great is Yahweh and greatly to be praised;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "One generation will praise your deeds to the next"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "I will meditate on the majesty of your glory"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "They will speak of the power of your awesome works,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "They will declare your abounding goodness,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Yahweh is gracious and merciful,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Yahweh is good to all;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "All you have made will give thanks to you, Yahweh;"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "They will speak of the glory of your kingdom,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "They will make known to mankind God’s mighty deeds"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Your kingdom is an everlasting kingdom,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "Yahweh supports all who are falling"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "The eyes of all wait for you;"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "You open your hand"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Yahweh is righteous in all his ways"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Yahweh is near to all those who call to him,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "He fulfills the desire of those who honor him;"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Yahweh watches over all those who love him,"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "My mouth will speak out the praise of Yahweh;"
       }
-    ],
-    "num": 146
+    ]
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will bless your name forever and ever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will praise your name forever and ever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "his greatness is unsearchable."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and will proclaim your mighty actions."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and on your marvelous deeds."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and I will declare your greatness."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they will sing about your righteousness."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "slow to anger and abounding in covenant faithfulness."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "his tender mercies are over all his works."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "your faithful ones will bless you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they will tell of your power."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and the glorious splendor of his kingdom."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and your dominion endures throughout all generations."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and raises up all those who are bent over."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you give them their food at the right time."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and satisfy the desire of every living thing."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and faithful in all he does."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "to all who call to him in trustworthiness."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he hears their cry and saves them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but he will destroy all the wicked."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "let all mankind bless his holy name forever and ever."
+  }
+]

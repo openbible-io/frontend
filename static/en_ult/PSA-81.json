@@ -1,190 +1,258 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "Pay attention, Shepherd of Israel,"
       },
       {
-        "tag": "d",
-        "text": "For the chief musician; set to the Gittith style. A psalm of Asaph."
+        "t": "v",
+        "n": 2,
+        "v": "In the sight of Ephraim and Benjamin and Manasseh, stir up your power;"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Sing aloud to God our strength;"
-          },
-          {
-            "tag": "q",
-            "text": "shout out for joy to the God of Jacob."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Sing a song and play the tambourine,"
-          },
-          {
-            "tag": "q",
-            "text": "the pleasant lyre with the harp."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Blow the trumpet on the day of the new moon,"
-          },
-          {
-            "tag": "q",
-            "text": "on the day of the full moon, when our feast day begins."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "For it is a statute for Israel,"
-          },
-          {
-            "tag": "q",
-            "text": "a decree given by the God of Jacob."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "He issued it as a regulation in Joseph"
-          },
-          {
-            "tag": "q",
-            "text": "when he went against the land of Egypt,"
-          },
-          {
-            "tag": "q",
-            "text": "where I heard a voice that I did not recognize:"
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "“I removed the burden from his shoulder;"
-          },
-          {
-            "tag": "q",
-            "text": "his hands were freed from holding the basket."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "In your distress you called out, and I helped you;"
-          },
-          {
-            "tag": "q",
-            "text": "I answered you from a dark thundercloud."
-          },
-          {
-            "tag": "q",
-            "text": "I tested you at the waters of Meribah."
-          },
-          {
-            "tag": "qs",
-            "text": "Selah"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Listen, my people, for I will warn you,"
-          },
-          {
-            "tag": "q",
-            "text": "Israel, if you would only listen to me!"
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "There must be no foreign god among you;"
-          },
-          {
-            "tag": "q",
-            "text": "you must not worship any foreign god."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "I am Yahweh your God,"
-          },
-          {
-            "tag": "q",
-            "text": "who brought you out of the land of Egypt."
-          },
-          {
-            "tag": "q",
-            "text": "Open your mouth wide, and I will fill it."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "But my people did not listen to my words;"
-          },
-          {
-            "tag": "q",
-            "text": "Israel did not obey me."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "So I gave them over to their own stubborn way"
-          },
-          {
-            "tag": "q",
-            "text": "so that they might do what seemed right to them."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Oh, that my people would listen to me;"
-          },
-          {
-            "tag": "q1",
-            "text": "oh, that my people would walk in my paths."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "Then I would quickly subdue their enemies"
-          },
-          {
-            "tag": "q",
-            "text": "and turn my hand against their oppressors."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "May those who hate Yahweh cringe in fear before him!"
-          },
-          {
-            "tag": "q",
-            "text": "May they be humiliated forever."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "I would feed Israel with the finest wheat;"
-          },
-          {
-            "tag": "q",
-            "text": "I would satisfy you with honey out of the rock.”"
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "God, restore us;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Yahweh God of hosts,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "You have fed them with the bread of tears"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "You make us something for our neighbors to argue over,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "God of hosts, restore us;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "You brought a vine out of Egypt;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "You cleared the land for it;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "The mountains were covered with its shade,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "It sent out its branches as far as the sea"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Why have you broken down its walls"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "The boars out of the forest ruin it,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "Turn back, God of hosts;"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "This is the root that your right hand planted,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "It has been burned and cut down;"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "May your hand be on the man of your right hand,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Then we will not turn away from you;"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Yahweh God of hosts, restore us;"
       }
-    ],
-    "num": 81
+    ]
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you who lead Joseph like a flock;"
+  },
+  {
+    "t": "q",
+    "v": "you who sit above the cherubim, shine on us!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "come and save us."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "make your face shine on us, and we will be saved."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "how long will you be angry at your people when they pray?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and given them tears to drink in great quantities."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and our enemies laugh about us among themselves."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "make your face shine on us, and we will be saved."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you drove out nations and transplanted it."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "it took root and filled the land."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the cedars of God by its branches."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and its shoots to the Euphrates River."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so that all who pass by along the road pluck its fruit?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and the beasts of the field feed on it."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "look down from heaven and take notice and take care of this vine."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the shoot that you made to grow."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they perish because of your rebuke."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "on the son of man whom you made strong for yourself."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "revive us, and we will call on your name."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "make your face shine on us, and we will be saved."
+  }
+]

@@ -1,216 +1,316 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Yahweh says to all the people of Judah,"
-          },
-          {
-            "tag": "q1",
-            "text": "\"Do the things that are fair and right,"
-          },
-          {
-            "tag": "q2",
-            "text": "because I will soon come to rescue you; I will soon show everyone that you have been right to trust me."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "I will bless those who faithfully obey my laws about the Sabbath days."
-          },
-          {
-            "tag": "q1",
-            "text": "I will bless those who keep sacred my Sabbath days,"
-          },
-          {
-            "tag": "q2",
-            "text": "and who do not do any work on those days,"
-          },
-          {
-            "tag": "q2",
-            "text": "and who refrain from doing anything that is evil."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Foreigners who have believed in me should not say,"
-          },
-          {
-            "tag": "q2",
-            "text": "'Yahweh will surely not allow me to belong to his people.'"
-          },
-          {
-            "tag": "q1",
-            "text": "And eunuchs should not say,"
-          },
-          {
-            "tag": "q2",
-            "text": "'Because I am deformed and unable to have children, I cannot belong to Yahweh;"
-          },
-          {
-            "tag": "q2",
-            "text": "I am like a tree that has completely withered.'"
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "They should not say that, because I, Yahweh, say this to the eunuchs"
-          },
-          {
-            "tag": "q2",
-            "text": "who obey my laws about the Sabbath,"
-          },
-          {
-            "tag": "q1",
-            "text": "and who choose to do the things that please me,"
-          },
-          {
-            "tag": "q2",
-            "text": "and who obey all the other laws of the covenant that I made with the Israelite people:"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "I will cause people to put inside the walls of my temple a monument to them;"
-          },
-          {
-            "tag": "q2",
-            "text": "because of that monument, they will be honored more than they would have if they had children;"
-          },
-          {
-            "tag": "q1",
-            "text": "they will be honored forever."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "I will also bless those who are not Israelites"
-          },
-          {
-            "tag": "q2",
-            "text": "who join themselves to me,"
-          },
-          {
-            "tag": "q1",
-            "text": "who serve me and worship and love me,"
-          },
-          {
-            "tag": "q2",
-            "text": "who obey my laws about the Sabbath,"
-          },
-          {
-            "tag": "q1",
-            "text": "and who faithfully obey all the other laws of the covenant that I made with the Israelite people."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "I will bring them to my sacred hill in Jerusalem,"
-          },
-          {
-            "tag": "q2",
-            "text": "and cause them to be very joyful in my temple where people pray to me,"
-          },
-          {
-            "tag": "q1",
-            "text": "and I will accept the sacrifices that they burn on my altar and other sacrifices that they offer,"
-          },
-          {
-            "tag": "q2",
-            "text": "because my temple will be a building where people of all nations pray to me."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "I, Yahweh, the Lord, the one who will bring back the people of Israel who have been forced to go to other countries, say this:"
-          },
-          {
-            "tag": "q",
-            "text": "I will bring from other countries many more people to join those Israelites whom I have brought back.\""
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "\"You surrounding nations have armies that are like animals in the forest;"
-          },
-          {
-            "tag": "q2",
-            "text": "come and attack Israel!"
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "The Israelite leaders should be like watchdogs to protect the people,"
-          },
-          {
-            "tag": "q2",
-            "text": "but it is as though they were blind."
-          },
-          {
-            "tag": "q1",
-            "text": "They understand nothing."
-          },
-          {
-            "tag": "q2",
-            "text": "They are all like dogs that cannot bark."
-          },
-          {
-            "tag": "q1",
-            "text": "Good watchdogs bark when strangers approach,"
-          },
-          {
-            "tag": "q2",
-            "text": "but the Israelite leaders do not warn the people that their enemies are coming."
-          },
-          {
-            "tag": "q1",
-            "text": "Instead, they just want to lie down and sleep and dream."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "And they are like greedy dogs;"
-          },
-          {
-            "tag": "q2",
-            "text": "they never get all that they want."
-          },
-          {
-            "tag": "q1",
-            "text": "They are supposed to lead the people, like good shepherds lead their flocks,"
-          },
-          {
-            "tag": "q2",
-            "text": "but they are ignorant,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they each do whatever they want to do."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "They say to each other, 'Come, let us go and get some wine and other alcoholic drinks,"
-          },
-          {
-            "tag": "q2",
-            "text": "and let us become drunk!"
-          },
-          {
-            "tag": "q1",
-            "text": "And tomorrow we will enjoy drinking even more!'\""
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh says to all the people of Judah,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "I will bless those who faithfully obey my laws about the Sabbath days."
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Foreigners who have believed in me should not say,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "They should not say that, because I, Yahweh, say this to the eunuchs"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "I will cause people to put inside the walls of my temple a monument to them;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "I will also bless those who are not Israelites"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "I will bring them to my sacred hill in Jerusalem,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "I, Yahweh, the Lord, the one who will bring back the people of Israel who have been forced to go to other countries, say this:"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "“You surrounding nations have armies that are like animals in the forest;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "The Israelite leaders should be like watchdogs to protect the people,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "And they are like greedy dogs;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "They say to each other, ‘Come, let us go and get some wine and other alcoholic drinks,"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "Righteous people die,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "and now they have peace."
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Yahweh says, “But you who practice sorcery, come here!"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Do you realize whom you are ridiculing,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "You are eager to sleep together under every tall green tree where you worship your gods."
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "You take big smooth stones from the riverbeds"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "You sleep with idols’ prostitutes on every hill and mountain,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "You have put charms behind your doors and doorposts,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "You have given fragrant oil and lots of perfume to kings,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "You became weary because of doing all those things,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Was it because you were afraid of those idols more than you were afraid of me that you lied about what you were doing,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "You think that the things that you have done are right,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "When you cry out for help to your collection of idols,"
       }
-    ],
-    "num": 56
+    ]
   },
-  "id": "ISA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Isaiah"
-}
+  {
+    "t": "q",
+    "v": "“Do the things that are fair and right,"
+  },
+  {
+    "t": "q",
+    "v": "because I will soon come to rescue you; I will soon show everyone that you have been right to trust me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will bless those who keep sacred my Sabbath days,"
+  },
+  {
+    "t": "q",
+    "v": "and who do not do any work on those days,"
+  },
+  {
+    "t": "q",
+    "v": "and who refrain from doing anything that is evil."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "‘Yahweh will surely not allow me to belong to his people.’"
+  },
+  {
+    "t": "q",
+    "v": "And eunuchs should not say,"
+  },
+  {
+    "t": "q",
+    "v": "‘Because I am deformed and unable to have children, I cannot belong to Yahweh;"
+  },
+  {
+    "t": "q",
+    "v": "I am like a tree that has completely withered.’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "who obey my laws about the Sabbath,"
+  },
+  {
+    "t": "q",
+    "v": "and who choose to do the things that please me,"
+  },
+  {
+    "t": "q",
+    "v": "and who obey all the other laws of the covenant that I made with the Israelite people:"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because of that monument, they will be honored more than they would have if they had children;"
+  },
+  {
+    "t": "q",
+    "v": "they will be honored forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "who join themselves to me,"
+  },
+  {
+    "t": "q",
+    "v": "who serve me and worship and love me,"
+  },
+  {
+    "t": "q",
+    "v": "who obey my laws about the Sabbath,"
+  },
+  {
+    "t": "q",
+    "v": "and who faithfully obey all the other laws of the covenant that I made with the Israelite people."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and cause them to be very joyful in my temple where people pray to me,"
+  },
+  {
+    "t": "q",
+    "v": "and I will accept the sacrifices that they burn on my altar and other sacrifices that they offer,"
+  },
+  {
+    "t": "q",
+    "v": "because my temple will be a building where people of all nations pray to me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will bring from other countries many more people to join those Israelites whom I have brought back.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "come and attack Israel!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but it is as though they were blind."
+  },
+  {
+    "t": "q",
+    "v": "They understand nothing."
+  },
+  {
+    "t": "q",
+    "v": "They are all like dogs that cannot bark."
+  },
+  {
+    "t": "q",
+    "v": "Good watchdogs bark when strangers approach,"
+  },
+  {
+    "t": "q",
+    "v": "but the Israelite leaders do not warn the people that their enemies are coming."
+  },
+  {
+    "t": "q",
+    "v": "Instead, they just want to lie down and sleep and dream."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they never get all that they want."
+  },
+  {
+    "t": "q",
+    "v": "They are supposed to lead the people, like good shepherds lead their flocks,"
+  },
+  {
+    "t": "q",
+    "v": "but they are ignorant,"
+  },
+  {
+    "t": "q",
+    "v": "and they each do whatever they want to do."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and let us become drunk!"
+  },
+  {
+    "t": "q",
+    "v": "And tomorrow we will enjoy drinking even more!’”"
+  }
+]

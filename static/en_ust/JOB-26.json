@@ -1,142 +1,185 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Job replied to Bildad:"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "\"I am a very weak and helpless man;"
-          },
-          {
-            "tag": "q2",
-            "text": "you do not really think that you have helped me at all, do you?"
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "You certainly do not think that you have given me good advice, do you?—me, who am not wise at all."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Who helped you to say all those great things?"
-          },
-          {
-            "tag": "q2",
-            "text": "Who inspired you to speak like you did?"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "The spirits of dead people tremble with fear,"
-          },
-          {
-            "tag": "q2",
-            "text": "those who are under the waters "
-          },
-          {
-            "tag": "q1",
-            "text": "and everyone who dwells with them. "
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "God knows all about those who are in the place of the dead;"
-          },
-          {
-            "tag": "q2",
-            "text": "there is nothing down there that prevents God from seeing what is there."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "God stretches out heaven "
-          },
-          {
-            "tag": "q1",
-            "text": "over the empty spaces, "
-          },
-          {
-            "tag": "q2",
-            "text": "and he places the earth in that huge empty space, but it is not resting on anything."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "He fills the thick clouds with water"
-          },
-          {
-            "tag": "q2",
-            "text": "and prevents that water from bursting the clouds."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "He causes clouds to obscure the moon."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "He separates the light from the darkness"
-          },
-          {
-            "tag": "q2",
-            "text": "and puts the horizon to mark the place where the night ends and the daytime begins."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "When he is angry, it is as though he rebuked the pillars that hold up the sky."
-          },
-          {
-            "tag": "q2",
-            "text": "They are shocked, and they tremble."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "By his power he calmed the sea;"
-          },
-          {
-            "tag": "q2",
-            "text": "by his skill he destroyed Rahab, the huge sea monster."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "By his breath he caused the sky to be bright;"
-          },
-          {
-            "tag": "q2",
-            "text": "by his hand he killed the great dragon in the sea as it was fleeing from him."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "But those events show only a small amount of his power;"
-          },
-          {
-            "tag": "q2",
-            "text": "it is as though we were hearing only whispers of his powerful voice."
-          },
-          {
-            "tag": "q2",
-            "text": "When we hear thunder, we say, 'Who can really understand how great his power is?'\""
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "Job replied to Bildad:"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "“I am a very weak and helpless man;"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "You certainly do not think that you have given me good advice, do you?—me, who am not wise at all."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Who helped you to say all those great things?"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "The spirits of dead people tremble with fear,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "God knows all about those who are in the place of the dead;"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "God stretches out heaven"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "He fills the thick clouds with water"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "He causes clouds to obscure the moon."
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "He separates the light from the darkness"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "When he is angry, it is as though he rebuked the pillars that hold up the sky."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "By his power he calmed the sea;"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "By his breath he caused the sky to be bright;"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "But those events show only a small amount of his power;"
       }
-    ],
-    "num": 26
+    ]
   },
-  "id": "JOB unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Job"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you do not really think that you have helped me at all, do you?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Who inspired you to speak like you did?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "those who are under the waters "
+  },
+  {
+    "t": "q",
+    "v": "and everyone who dwells with them. "
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "there is nothing down there that prevents God from seeing what is there."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "over the empty spaces, "
+  },
+  {
+    "t": "q",
+    "v": "and he places the earth in that huge empty space, but it is not resting on anything."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and prevents that water from bursting the clouds."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and puts the horizon to mark the place where the night ends and the daytime begins."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "They are shocked, and they tremble."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "by his skill he destroyed Rahab, the huge sea monster."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "by his hand he killed the great dragon in the sea as it was fleeing from him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "it is as though we were hearing only whispers of his powerful voice."
+  },
+  {
+    "t": "q",
+    "v": "When we hear thunder, we say, ‘Who can really understand how great his power is?’”"
+  }
+]

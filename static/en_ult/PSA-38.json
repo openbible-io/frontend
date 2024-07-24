@@ -1,232 +1,559 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "Do not be irritated because of evildoers;"
       },
       {
-        "tag": "d",
-        "text": "A psalm of David, to bring to remembrance."
+        "t": "v",
+        "n": 2,
+        "v": "For they will soon dry up as the grass"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Yahweh, do not rebuke me in your anger;"
-          },
-          {
-            "tag": "q",
-            "text": "do not punish me in your wrath."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "For your arrows pierce me,"
-          },
-          {
-            "tag": "q",
-            "text": "and your hand presses me down."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "My whole body is sick because of your anger;"
-          },
-          {
-            "tag": "q",
-            "text": "there is no health in my bones because of my sin."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "For my iniquities overwhelm me;"
-          },
-          {
-            "tag": "q",
-            "text": "they are a burden too heavy for me."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "My wounds are infected and smell"
-          },
-          {
-            "tag": "q",
-            "text": "because of my foolish sins."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "I am stooped over and humiliated every day;"
-          },
-          {
-            "tag": "q",
-            "text": "I go about mourning all day long."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "For within me, I am filled with burning;"
-          },
-          {
-            "tag": "q",
-            "text": "there is no health in my flesh."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "I am numb and utterly crushed;"
-          },
-          {
-            "tag": "q",
-            "text": "I groan because of the anguish of my heart."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Lord, you understand my heart’s deepest yearnings,"
-          },
-          {
-            "tag": "q",
-            "text": "and my groanings are not hidden from you."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "My heart pounds, my strength fades,"
-          },
-          {
-            "tag": "q",
-            "text": "and my eyesight dims."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "My friends and companions shun me because of my condition;"
-          },
-          {
-            "tag": "q",
-            "text": "my neighbors stand far off."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Those who seek my life lay snares for me."
-          },
-          {
-            "tag": "q",
-            "text": "They who seek my harm speak destructive words"
-          },
-          {
-            "tag": "q",
-            "text": "and say deceitful words all day long."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "But I, I am like a deaf man and hear nothing;"
-          },
-          {
-            "tag": "q",
-            "text": "I am like a mute man who says nothing."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "I am like a man who does not hear"
-          },
-          {
-            "tag": "q",
-            "text": "and who has no reply."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "Surely I wait for you, Yahweh;"
-          },
-          {
-            "tag": "q",
-            "text": "you will answer, Lord my God."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "I say this so that my enemies will not gloat over me."
-          },
-          {
-            "tag": "q",
-            "text": "If my foot slips, they will do terrible things to me."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "For I am about to stumble,"
-          },
-          {
-            "tag": "q",
-            "text": "and I am in constant pain."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "I confess my guilt;"
-          },
-          {
-            "tag": "q",
-            "text": "I am concerned about my sin."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "But my enemies are numerous;"
-          },
-          {
-            "tag": "q",
-            "text": "those who hate me wrongfully are many."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "They repay me evil for good;"
-          },
-          {
-            "tag": "q",
-            "text": "they hurl accusations at me although I have pursued what is good."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "Do not abandon me, Yahweh;"
-          },
-          {
-            "tag": "q",
-            "text": "my God, do not stay far away from me."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Come quickly to help me,"
-          },
-          {
-            "tag": "q",
-            "text": "Lord, my salvation."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "Trust in Yahweh and do what is good;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Then delight yourself in Yahweh,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Give your ways to Yahweh;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "He will display your justice like the daylight"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Be still before Yahweh and wait patiently for him."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Do not be angry and frustrated."
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Evildoers will be cut off,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "In a little while the evil man will disappear;"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "But the meek will inherit the land"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "The wicked man plots against the righteous"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "The Lord laughs at him,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "The wicked have drawn out their swords and have bent their bows"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Their swords will pierce their own hearts,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Better is the little that the righteous has"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "For the arms of the wicked people will be broken,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Yahweh watches over the blameless day by day,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "They will not be ashamed when times are bad."
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "But evil men will perish."
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "The wicked person borrows but does not repay,"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Those who are blessed by God will inherit the land;"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "It is by Yahweh that a man’s steps are established,"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "Though he stumbles, he will not fall down,"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "I was young and now am old;"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "All the day long he is gracious and lends,"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "Turn away from evil and do what is right;"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "For Yahweh loves justice"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "The righteous will inherit the land"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "The mouth of the righteous person speaks wisdom"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "The law of his God is in his heart;"
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "The wicked person watches the righteous person"
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "Yahweh will not abandon him into the evil person’s hand"
+      },
+      {
+        "t": "v",
+        "n": 34,
+        "v": "Wait for Yahweh and keep his way,"
+      },
+      {
+        "t": "v",
+        "n": 35,
+        "v": "I have seen the wicked and terrifying person"
+      },
+      {
+        "t": "v",
+        "n": 36,
+        "v": "But when I passed by again, he was not there."
+      },
+      {
+        "t": "v",
+        "n": 37,
+        "v": "Observe the man of integrity, and mark the upright;"
+      },
+      {
+        "t": "v",
+        "n": 38,
+        "v": "Sinners will be totally destroyed;"
+      },
+      {
+        "t": "v",
+        "n": 39,
+        "v": "Salvation of the righteous comes from Yahweh;"
+      },
+      {
+        "t": "v",
+        "n": 40,
+        "v": "Yahweh helps them and rescues them."
       }
-    ],
-    "num": 38
+    ]
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "do not be envious of those who act unrighteously."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and wither as the green plants."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "settle in the land and graze in faithfulness."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and he will give you the desires of your heart."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "trust in him, and he will act on your behalf."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and your innocence like the day at noon."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Do not be angry if someone succeeds in what he does,"
+  },
+  {
+    "t": "q",
+    "v": "or when he makes evil plots."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Do not worry. This only makes trouble."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but those who wait for Yahweh will inherit the land."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you will look at his place, but he will be gone."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and will delight in great prosperity."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and he grinds his teeth in rage against him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for he sees that his day is coming."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "to cast down the oppressed and needy,"
+  },
+  {
+    "t": "q",
+    "v": "to kill those who are upright."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and their bows will be broken."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "than the abundance of many wicked people."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but Yahweh supports the righteous people."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and their heritage will be forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "When famine comes, they will have enough to eat."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Yahweh’s enemies will be like the glory of the pastures;"
+  },
+  {
+    "t": "q",
+    "v": "they will be consumed and disappear in the smoke."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but the righteous person is generous and gives."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "those who are cursed by him will be cut off."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the man whose way is commendable in God’s sight."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for Yahweh is holding him with his hand."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I have never seen the righteous person abandoned"
+  },
+  {
+    "t": "q",
+    "v": "or his children begging for bread."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and his children become a blessing."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "then you will be safe forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and does not abandon his faithful ones."
+  },
+  {
+    "t": "q",
+    "v": "They are preserved forever,"
+  },
+  {
+    "t": "q",
+    "v": "but the descendants of the wicked will be cut off."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and live there forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and increases justice."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "his feet will not slip."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and seeks to kill him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "or condemn him when he is judged."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and he will raise you up to possess the land."
+  },
+  {
+    "t": "q",
+    "v": "You will see when the wicked are cut off."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "spread out like a green tree in its native soil."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I looked for him, but he could not be found."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "there is a good future for a man of peace."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the future for the wicked man is cut off."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he protects them in the times of trouble."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "He rescues them from evil men and saves them"
+  },
+  {
+    "t": "q",
+    "v": "because they have taken refuge in him."
+  }
+]

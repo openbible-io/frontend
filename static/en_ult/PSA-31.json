@@ -1,306 +1,119 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "I will exalt you, Yahweh, for you have raised me up and have not allowed my enemies to rejoice over me."
       },
       {
-        "tag": "d",
-        "text": "For the chief musician. A psalm of David."
+        "t": "v",
+        "n": 2,
+        "v": "Yahweh my God, I cried to you for help, and you healed me."
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "In you, Yahweh, I take refuge;"
-          },
-          {
-            "tag": "q",
-            "text": "never let me be humiliated."
-          },
-          {
-            "tag": "q",
-            "text": "Rescue me in your righteousness."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Listen to me; rescue me quickly;"
-          },
-          {
-            "tag": "q",
-            "text": "be my rock of refuge,"
-          },
-          {
-            "tag": "q",
-            "text": "a stronghold to save me."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "For you are my rock and my fortress;"
-          },
-          {
-            "tag": "q",
-            "text": "therefore for your name’s sake, lead and guide me."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Pluck me out of the net that they have hidden for me,"
-          },
-          {
-            "tag": "q",
-            "text": "for you are my refuge."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Into your hands I entrust my spirit;"
-          },
-          {
-            "tag": "q",
-            "text": "you will redeem me, Yahweh, God of trustworthiness."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "I hate those who serve worthless idols,"
-          },
-          {
-            "tag": "q",
-            "text": "but I trust in Yahweh."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "I will be glad and rejoice in your covenant faithfulness,"
-          },
-          {
-            "tag": "q",
-            "text": "for you saw my affliction;"
-          },
-          {
-            "tag": "q",
-            "text": "you knew the distress of my soul."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "You have not given me into the hand of my enemy."
-          },
-          {
-            "tag": "q",
-            "text": "You have set my feet in a wide open place."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Have mercy upon me, Yahweh, for I am in distress;"
-          },
-          {
-            "tag": "q",
-            "text": "my eyes grow weary with grief with my soul and my body."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "For my life is weary with sorrow"
-          },
-          {
-            "tag": "q",
-            "text": "and my years with groaning."
-          },
-          {
-            "tag": "q",
-            "text": "My strength fails because of my sin,"
-          },
-          {
-            "tag": "q",
-            "text": "and my bones are wasting away."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Because of all my enemies, people disdain me;"
-          },
-          {
-            "tag": "q",
-            "text": "my neighbors are appalled at my situation,"
-          },
-          {
-            "tag": "q",
-            "text": "and those who know me are horrified."
-          },
-          {
-            "tag": "q",
-            "text": "Those who see me in the street run from me."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "I am forgotten as a dead man whom no one thinks about."
-          },
-          {
-            "tag": "q",
-            "text": "I am like a broken pot."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "For I have heard the whispering of many,"
-          },
-          {
-            "tag": "q",
-            "text": "terrifying news from every side"
-          },
-          {
-            "tag": "q",
-            "text": "as they plot together against me."
-          },
-          {
-            "tag": "q",
-            "text": "They plot to take away my life."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "But I trust in you, Yahweh;"
-          },
-          {
-            "tag": "q",
-            "text": "I say, “You are my God.”"
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "My times are in your hand."
-          },
-          {
-            "tag": "q",
-            "text": "Rescue me from the hands of my enemies and from those who pursue me."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Make your face shine on your servant;"
-          },
-          {
-            "tag": "q",
-            "text": "save me in your covenant faithfulness."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Do not let me be humiliated, Yahweh; for I call out to you!"
-          },
-          {
-            "tag": "q",
-            "text": "May the wicked be humiliated! May they be silent in Sheol."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "May lying lips be silenced"
-          },
-          {
-            "tag": "q",
-            "text": "that speak against the righteous defiantly"
-          },
-          {
-            "tag": "q",
-            "text": "with arrogance and contempt."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "How great is your goodness"
-          },
-          {
-            "tag": "q",
-            "text": "that you have stored up for those who revere you,"
-          },
-          {
-            "tag": "q",
-            "text": "that you perform for those who take refuge in you"
-          },
-          {
-            "tag": "q",
-            "text": "before all the children of mankind!"
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "In the shelter of your presence, you hide them from the plots of men."
-          },
-          {
-            "tag": "q",
-            "text": "You hide them in a shelter from the violence of tongues."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "Blessed be Yahweh,"
-          },
-          {
-            "tag": "q",
-            "text": "for he showed me his marvelous covenant faithfulness when I was in a besieged city."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Though I said in my haste,"
-          },
-          {
-            "tag": "q",
-            "text": "“I am cut off from your eyes,”"
-          },
-          {
-            "tag": "q",
-            "text": "yet you heard my plea for help"
-          },
-          {
-            "tag": "q",
-            "text": "when I cried to you."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "Love Yahweh, all you faithful ones."
-          },
-          {
-            "tag": "q",
-            "text": "Yahweh protects the faithful,"
-          },
-          {
-            "tag": "q",
-            "text": "but he pays back the arrogant in full."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "Be strong and confident,"
-          },
-          {
-            "tag": "q",
-            "text": "all you who trust in Yahweh for help."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "Yahweh, you have brought up my soul from Sheol; you have kept me alive from going down to the grave."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Sing praises to Yahweh, you his faithful ones! Give thanks when you remember his holiness."
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "For his anger is only for a moment; but his favor is for a lifetime."
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "In confidence I said, “I will never be shaken.”"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Yahweh, by your favor you established me as a strong mountain; but when you hid your face, I was troubled."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "I cried to you, Yahweh, and sought favor from my Lord!"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "What advantage is there in my death, if I go down to the grave? Will the dust praise you? Will it declare your trustworthiness?"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Hear, Yahweh, and have mercy on me! Yahweh, be my helper."
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "You have turned my mourning into dancing; you have removed my sackcloth and clothed me with gladness."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "So now my glory will sing praise to you and not be silent; Yahweh my God, I will give thanks to you forever!"
       }
-    ],
-    "num": 31
+    ]
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Weeping comes for a night, but joy comes in the morning."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  }
+]

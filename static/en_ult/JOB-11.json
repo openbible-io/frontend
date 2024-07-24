@@ -1,205 +1,267 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Then Zophar the Naamathite answered and said,"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "“Should not such a multitude of words be answered?"
-          },
-          {
-            "tag": "q",
-            "text": "Should this man, so full of talk, be believed?"
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Should your boasting make others remain silent?"
-          },
-          {
-            "tag": "q",
-            "text": "When you mock, will no one make you feel ashamed?"
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "For you say to God, ‘My beliefs are pure,"
-          },
-          {
-            "tag": "q",
-            "text": "I am blameless in your eyes.’"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "But, oh, that God would speak"
-          },
-          {
-            "tag": "q",
-            "text": "and open his lips against you;"
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "that he would show you the secrets of wisdom!"
-          },
-          {
-            "tag": "q",
-            "text": "For he is great in understanding."
-          },
-          {
-            "tag": "q",
-            "text": "Know then that God demands from you less than your iniquity deserves."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Can you understand God by searching for him?"
-          },
-          {
-            "tag": "q",
-            "text": "Can you comprehend the Almighty perfectly?"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "The matter is as high as heaven; what can you do?"
-          },
-          {
-            "tag": "q",
-            "text": "It is deeper than Sheol; what can you know?"
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Its measure is longer than the earth,"
-          },
-          {
-            "tag": "q",
-            "text": "and wider than the sea."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "If he passes through and shuts anyone up,"
-          },
-          {
-            "tag": "q",
-            "text": "if he calls anyone to judgment, then who can stop him?"
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "For he knows false people;"
-          },
-          {
-            "tag": "q",
-            "text": "when he sees iniquity, does he not notice it?"
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "But foolish people have no understanding;"
-          },
-          {
-            "tag": "q",
-            "text": "they will get it when a wild donkey gives birth to a man."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "But suppose that you had set your heart right"
-          },
-          {
-            "tag": "q",
-            "text": "and had reached out with your hands toward God;"
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "suppose that iniquity were in your hand, but that then you put it far away from you,"
-          },
-          {
-            "tag": "q",
-            "text": "and did not let unrighteousness live in your tents."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "Then you would certainly lift up your face without a sign of shame;"
-          },
-          {
-            "tag": "q",
-            "text": "indeed, you would be steadfast and would not fear."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "You would forget your misery;"
-          },
-          {
-            "tag": "q",
-            "text": "you would remember it only like waters that have flowed away."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Your life would be brighter than the noonday;"
-          },
-          {
-            "tag": "q",
-            "text": "though there were darkness, it would become like the morning."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "You would be secure because there is hope;"
-          },
-          {
-            "tag": "q",
-            "text": "indeed, you would find safety about you and would take your rest in safety."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "Also you would lie down in rest, and none would make you afraid;"
-          },
-          {
-            "tag": "q",
-            "text": "indeed, many would seek your favor."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "But the eyes of wicked people will fail;"
-          },
-          {
-            "tag": "q",
-            "text": "they will have no way to flee;"
-          },
-          {
-            "tag": "q",
-            "text": "their only hope will be a last gasp of life.”"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "Then Zophar the Naamathite answered and said,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "“Should not such a multitude of words be answered?"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Should your boasting make others remain silent?"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "For you say to God, ‘My beliefs are pure,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "But, oh, that God would speak"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "that he would show you the secrets of wisdom!"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Can you understand God by searching for him?"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "The matter is as high as heaven; what can you do?"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Its measure is longer than the earth,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "If he passes through and shuts anyone up,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "For he knows false people;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "But foolish people have no understanding;"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "But suppose that you had set your heart right"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "suppose that iniquity were in your hand, but that then you put it far away from you,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Then you would certainly lift up your face without a sign of shame;"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "You would forget your misery;"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Your life would be brighter than the noonday;"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "You would be secure because there is hope;"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Also you would lie down in rest, and none would make you afraid;"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "But the eyes of wicked people will fail;"
       }
-    ],
-    "num": 11
+    ]
   },
-  "id": "JOB unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Job",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Job"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Should this man, so full of talk, be believed?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "When you mock, will no one make you feel ashamed?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I am blameless in your eyes.’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and open his lips against you;"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "For he is great in understanding."
+  },
+  {
+    "t": "q",
+    "v": "Know then that God demands from you less than your iniquity deserves."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Can you comprehend the Almighty perfectly?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "It is deeper than Sheol; what can you know?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and wider than the sea."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "if he calls anyone to judgment, then who can stop him?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "when he sees iniquity, does he not notice it?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they will get it when a wild donkey gives birth to a man."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and had reached out with your hands toward God;"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and did not let unrighteousness live in your tents."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "indeed, you would be steadfast and would not fear."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you would remember it only like waters that have flowed away."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "though there were darkness, it would become like the morning."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "indeed, you would find safety about you and would take your rest in safety."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "indeed, many would seek your favor."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they will have no way to flee;"
+  },
+  {
+    "t": "q",
+    "v": "their only hope will be a last gasp of life.”"
+  }
+]

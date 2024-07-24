@@ -1,822 +1,1007 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "tag": "s2",
-        "text": "These are the descendants of Levi."
+        "t": "v",
+        "n": 1,
+        "v": "Levi’s sons were Gershon, Kohath, and Merari."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Levi's sons were Gershon, Kohath, and Merari."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Kohath's sons were Amram, Izhar, Hebron, and Uzziel."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Amram's children were Miriam and her younger brothers Aaron and Moses."
-          },
-          {
-            "tag": "q",
-            "text": "Aaron's sons were Nadab, Abihu, Eleazar, and Ithamar."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Eleazar was the father of Phinehas."
-          },
-          {
-            "tag": "q2",
-            "text": "Phinehas was the father of Abishua."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Abishua was the father of Bukki."
-          },
-          {
-            "tag": "q2",
-            "text": "Bukki was the father of Uzzi."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Uzzi was the father of Zerahiah."
-          },
-          {
-            "tag": "q2",
-            "text": "Zerahiah was the father of Meraioth."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Meraioth was the father of Amariah."
-          },
-          {
-            "tag": "q2",
-            "text": "Amariah was the father of Ahitub."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Ahitub was the father of Zadok."
-          },
-          {
-            "tag": "q2",
-            "text": "Zadok was the father of Ahimaaz."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Ahimaaz was the father of Azariah."
-          },
-          {
-            "tag": "q2",
-            "text": "Azariah was the father of Johanan."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Johanan was the father of Azariah. Azariah was a priest in the temple that Solomon commanded to be built in Jerusalem."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Azariah was the father of Amariah."
-          },
-          {
-            "tag": "q2",
-            "text": "Amariah was the father of Ahitub."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Ahitub was the father of Zadok."
-          },
-          {
-            "tag": "q2",
-            "text": "Zadok was the father of Shallum."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Shallum was the father of Hilkiah."
-          },
-          {
-            "tag": "q2",
-            "text": "Hilkiah was the father of Azariah."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "Azariah was the father of Seraiah."
-          },
-          {
-            "tag": "q2",
-            "text": "Seraiah was the father of Jozadak."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "Jozadak was forced to leave his home when Yahweh sent King Nebuchadnezzar's army to capture many people in Jerusalem and other places in Judah and compel them to go to Babylonia."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Levi's sons were Gershon, Kohath, and Merari."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Gershon's sons were Libni and Shimei."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "Kohath's sons were Amram, Izhar, Hebron, and Uzziel."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "Merari's sons were Mahli and Mushi."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "Kohath’s sons were Amram, Izhar, Hebron, and Uzziel."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Gershon's oldest son was Libni."
-          },
-          {
-            "tag": "q2",
-            "text": "Libni's son was Jahath."
-          },
-          {
-            "tag": "q2",
-            "text": "Jehath's son was Zimmah."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "Zimmah's son was Joah."
-          },
-          {
-            "tag": "q2",
-            "text": "Joah's son was Iddo."
-          },
-          {
-            "tag": "q2",
-            "text": "Iddo's son was Zerah."
-          },
-          {
-            "tag": "q2",
-            "text": "Zerah's son was Jeatherai."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Kohath's other son was Amminadab."
-          },
-          {
-            "tag": "q2",
-            "text": "Amminadab's son was Korah."
-          },
-          {
-            "tag": "q2",
-            "text": "Korah's son was Assir."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "Assir's son was Elkanah."
-          },
-          {
-            "tag": "q2",
-            "text": "Elkanah's son was Ebiasaph."
-          },
-          {
-            "tag": "q2",
-            "text": "Ebiasaph's son was Assir."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "Assir's son was Tahath."
-          },
-          {
-            "tag": "q2",
-            "text": "Tahath's son was Uriel."
-          },
-          {
-            "tag": "q2",
-            "text": "Uriel's son was Uzziah."
-          },
-          {
-            "tag": "q2",
-            "text": "Uzziah's son was Shaul."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "Elkanah's sons were Amasai, Ahimoth,"
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "and a son also named Elkana."
-          },
-          {
-            "tag": "q2",
-            "text": "Elkanah's son was Zophai."
-          },
-          {
-            "tag": "q2",
-            "text": "Zophai's son was Nahath."
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "Nahath's son was Eliab."
-          },
-          {
-            "tag": "q2",
-            "text": "Eliab's son was Jeroham."
-          },
-          {
-            "tag": "q2",
-            "text": "Jeroham's son was Elkanah."
-          },
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "Samuel's oldest son was Joel; his other son was Abijah."
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "Merari's oldest son was Mahli."
-          },
-          {
-            "tag": "q2",
-            "text": "Mahli's son was Libni."
-          },
-          {
-            "tag": "q2",
-            "text": "Libni's son was Shimei."
-          },
-          {
-            "tag": "q2",
-            "text": "Shimei's son was Uzzah."
-          },
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "Uzzah's son was Shimea."
-          },
-          {
-            "tag": "q2",
-            "text": "Shimea's son was Haggiah."
-          },
-          {
-            "tag": "q2",
-            "text": "Haggiah's son was Asaiah."
-          },
-          {
-            "tag": "s2",
-            "text": "These are the temple musicians."
-          }
-        ],
-        "tag": "m",
-        "text": "Here is a list of the descendants of Levi, who became leaders of their clans."
+        "t": "v",
+        "n": 3,
+        "v": "Amram’s children were Miriam and her younger brothers Aaron and Moses."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "After the sacred chest was brought to Jerusalem, King David appointed some of the men who were descendants of Levi to be in charge of the music in the place where the people worshiped Yahweh."
-          },
-          {
-            "tag": "v",
-            "num": "32",
-            "text": "Those musicians first sang and played their instruments in the sacred tent, which was also called the tent of meeting, and they continued to do that until Solomon's workers built the temple of Yahweh in Jerusalem. In all their work, they obeyed the instructions that David had given them."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 4,
+        "v": "Eleazar was the father of Phinehas."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "33",
-            "text": "Here is a list of the musicians and their sons:"
-          },
-          {
-            "tag": "q",
-            "text": "From Kohath's descendants there was Heman, the leader of the singers."
-          },
-          {
-            "tag": "q2",
-            "text": "Heman was the son of Joel."
-          },
-          {
-            "tag": "q2",
-            "text": "Joel was the son of Samuel."
-          },
-          {
-            "tag": "v",
-            "num": "34",
-            "text": "Samuel was the son of Elkanah."
-          },
-          {
-            "tag": "q2",
-            "text": "Elkanah was the son of Jeroham."
-          },
-          {
-            "tag": "q2",
-            "text": "Jeroham was the son of Eliel."
-          },
-          {
-            "tag": "q2",
-            "text": "Eliel was the son of Toah."
-          },
-          {
-            "tag": "v",
-            "num": "35",
-            "text": "Toah was the son of Zuph."
-          },
-          {
-            "tag": "q2",
-            "text": "Zuph was the son of Elkanah."
-          },
-          {
-            "tag": "q2",
-            "text": "Elkanah was the son of Mahath."
-          },
-          {
-            "tag": "q2",
-            "text": "Mahath was the son of Amasai."
-          },
-          {
-            "tag": "v",
-            "num": "36",
-            "text": "Amasai was the son of another man whose name was Elkanah."
-          },
-          {
-            "tag": "q2",
-            "text": "Elkanah was the son of Joel."
-          },
-          {
-            "tag": "q2",
-            "text": "Joel was the son of Azariah."
-          },
-          {
-            "tag": "q2",
-            "text": "Azariah was the son of Zephaniah."
-          },
-          {
-            "tag": "v",
-            "num": "37",
-            "text": "Zephaniah was the son of Tahath."
-          },
-          {
-            "tag": "q2",
-            "text": "Tahath was the son of Assir."
-          },
-          {
-            "tag": "q2",
-            "text": "Assir was the son of Ebiasaph."
-          },
-          {
-            "tag": "q2",
-            "text": "Ebiasaph was the son of Korah."
-          },
-          {
-            "tag": "v",
-            "num": "38",
-            "text": "Korah was the son of Izhar."
-          },
-          {
-            "tag": "q2",
-            "text": "Izhar was the son of Kohath."
-          },
-          {
-            "tag": "q2",
-            "text": "Kohath was the son of Levi."
-          },
-          {
-            "tag": "q2",
-            "text": "Levi was the son of Jacob."
-          },
-          {
-            "tag": "v",
-            "num": "39",
-            "text": "Heman's helper was Asaph. His group stood at the right side of Heman."
-          },
-          {
-            "tag": "q2",
-            "text": "Asaph was the son of Berekiah."
-          },
-          {
-            "tag": "q2",
-            "text": "Berekiah was the son of Shimea."
-          },
-          {
-            "tag": "v",
-            "num": "40",
-            "text": "Shimea was the son of Michael."
-          },
-          {
-            "tag": "q2",
-            "text": "Michael was the son of Baaseiah."
-          },
-          {
-            "tag": "q2",
-            "text": "Baaseiah was the son of Malkijah."
-          },
-          {
-            "tag": "v",
-            "num": "41",
-            "text": "Malkijah was the son of Ethni."
-          },
-          {
-            "tag": "q2",
-            "text": "Ethni was the son of Zerah."
-          },
-          {
-            "tag": "q2",
-            "text": "Zerah was the son of Adaiah."
-          },
-          {
-            "tag": "v",
-            "num": "42",
-            "text": "Adaiah was the son of Ethan."
-          },
-          {
-            "tag": "q2",
-            "text": "Ethan was the son of Zimmah."
-          },
-          {
-            "tag": "q2",
-            "text": "Zimmah was the son of Shimei."
-          },
-          {
-            "tag": "v",
-            "num": "43",
-            "text": "Shimei was the son of Jahath."
-          },
-          {
-            "tag": "q2",
-            "text": "Jahath was the son of Gershon,"
-          },
-          {
-            "tag": "q2",
-            "text": "and Gershon was the son of Levi."
-          },
-          {
-            "tag": "v",
-            "num": "44",
-            "text": "A group of singers from Merari's family helped Heman and Asaph. They stood at the left of Heman. The leader of this group was Ethan son of Kishi."
-          },
-          {
-            "tag": "q2",
-            "text": "Kishi was the son of Abdi."
-          },
-          {
-            "tag": "q2",
-            "text": "Abdi was the son of Malluk."
-          },
-          {
-            "tag": "v",
-            "num": "45",
-            "text": "Malluk was the son of Hashabiah."
-          },
-          {
-            "tag": "q2",
-            "text": "Hashabiah was the son of Uzziah."
-          },
-          {
-            "tag": "q2",
-            "text": "Uzziah was the son of Hilkiah."
-          },
-          {
-            "tag": "v",
-            "num": "46",
-            "text": "Hilkiah was the son of Amzi."
-          },
-          {
-            "tag": "q2",
-            "text": "Amzi was the son of Bani."
-          },
-          {
-            "tag": "q2",
-            "text": "Bani was the son of Shemer."
-          },
-          {
-            "tag": "v",
-            "num": "47",
-            "text": "Shemer was the son of Mahli."
-          },
-          {
-            "tag": "q2",
-            "text": "Mahli was the son of Mushi."
-          },
-          {
-            "tag": "q2",
-            "text": "Mushi was the son of Merari,"
-          },
-          {
-            "tag": "q2",
-            "text": "and Merari was the son of Levi."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 5,
+        "v": "Abishua was the father of Bukki."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "48",
-            "text": "The other descendants of Levi were appointed to do other work in the sacred tent, the place where the people worshiped God."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 6,
+        "v": "Uzzi was the father of Zerahiah."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "49",
-            "text": "Aaron and his descendants were the ones who placed on the altar the sacrifices that were to be burned completely, and they burned incense on another altar. Those sacrifices were in order that Yahweh would no longer be angry with the people of Israel for having sinned. Those men also did other work in the very holy place in the sacred tent, obeying the instructions that Moses, who served God well, had given to them."
-          },
-          {
-            "tag": "v",
-            "num": "50",
-            "text": "These were the descendants of Aaron:"
-          },
-          {
-            "tag": "q2",
-            "text": "Aaron's son was Eleazar."
-          },
-          {
-            "tag": "q2",
-            "text": "Eleazar's son was Phinehas."
-          },
-          {
-            "tag": "q2",
-            "text": "Phinehas's son was Abishua."
-          },
-          {
-            "tag": "v",
-            "num": "51",
-            "text": "Abishua's son was Bukki."
-          },
-          {
-            "tag": "q2",
-            "text": "Bukki's son was Uzzi."
-          },
-          {
-            "tag": "q2",
-            "text": "Uzzi's son was Zerahiah."
-          },
-          {
-            "tag": "v",
-            "num": "52",
-            "text": "Zerahiah's son was Meraioth."
-          },
-          {
-            "tag": "q2",
-            "text": "Meraioth's son was Amariah."
-          },
-          {
-            "tag": "q2",
-            "text": "Amariah's son was Ahitub."
-          },
-          {
-            "tag": "v",
-            "num": "53",
-            "text": "Ahitub's son was Zadok,"
-          },
-          {
-            "tag": "q2",
-            "text": "and Zadok's son was Ahimaaz."
-          },
-          {
-            "tag": "s2",
-            "text": "This is the land for the descendants of Levi."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 7,
+        "v": "Meraioth was the father of Amariah."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "54",
-            "text": "Here is a list of the places where Aaron's descendants lived. Those who were descendants of Kohath were the first group to be allotted cities to live in."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 8,
+        "v": "Ahitub was the father of Zadok."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "55",
-            "text": "They were allotted the city of Hebron in Judah and the pastureland around the city,"
-          },
-          {
-            "tag": "v",
-            "num": "56",
-            "text": "but the fields farther from the city and the villages near the city were given to Caleb's son of Jephunneh."
-          }
-        ],
-        "tag": "pi"
+        "t": "v",
+        "n": 9,
+        "v": "Ahimaaz was the father of Azariah."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "57",
-            "text": "The descendants of Aaron who were descendants of Kohath were allotted Hebron, one of the cities to which people could flee and be protected if they accidentally killed someone. They also were allotted the towns and pastureland near Libnah, Jattir, Eshtemoa,"
-          },
-          {
-            "tag": "v",
-            "num": "58",
-            "text": "Hilen, Debir,"
-          },
-          {
-            "tag": "v",
-            "num": "59",
-            "text": "Ashan, Juttah, and Beth Shemesh."
-          },
-          {
-            "tag": "v",
-            "num": "60",
-            "text": "They were also allotted the cities of Gibeon, Geba, Alemeth, and Anathoth from the tribe of Benjamin."
-          }
-        ],
-        "tag": "pi"
+        "t": "v",
+        "n": 10,
+        "v": "Johanan was the father of Azariah. Azariah was a priest in the temple that Solomon commanded to be built in Jerusalem."
       },
       {
-        "children": [],
-        "tag": "pi",
-        "text": "Altogether, these clans descended from Kohath were allotted thirteen cities."
+        "t": "v",
+        "n": 11,
+        "v": "Azariah was the father of Amariah."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "61",
-            "text": "The other clans descended from Kohath were allotted ten cities from the clans of the tribe of Manasseh that lived west of the Jordan River."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 12,
+        "v": "Ahitub was the father of Zadok."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "62",
-            "text": "The descendants of Gershon were allotted thirteen cities and towns from the tribes of Issachar, Asher, Naphtali, and the part of the tribe of Manasseh that lived in the region of Bashan on the east side of the Jordan River."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 13,
+        "v": "Shallum was the father of Hilkiah."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "63",
-            "text": "The descendants of Merari were allotted twelve cities and towns from the tribes of Reuben, Gad, and Zebulun."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 14,
+        "v": "Azariah was the father of Seraiah."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "64",
-            "text": "The leaders of Israel allotted those towns and the nearby pasturelands to the descendants of Levi."
-          },
-          {
-            "tag": "v",
-            "num": "65",
-            "text": "They also allotted to them the cities and towns from the tribes of Judah, Simeon, and Benjamin that were listed previously."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 15,
+        "v": "Jozadak was forced to leave his home when Yahweh sent King Nebuchadnezzar’s army to capture many people in Jerusalem and other places in Judah and compel them to go to Babylonia."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "66",
-            "text": "Some of the descendants of Kohath were allotted towns from the tribe of Ephraim."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 16,
+        "v": "Levi’s sons were Gershon, Kohath, and Merari."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "67",
-            "text": "They were allotted Shechem, which was one of the cities to which people could flee and be protected if they accidentally killed someone, along with the nearby pastureland in the hills of Ephraim. They were also allotted these towns and pastureland near them: Gezer,"
-          },
-          {
-            "tag": "v",
-            "num": "68",
-            "text": "Jokmeam, Beth Horon,"
-          },
-          {
-            "tag": "v",
-            "num": "69",
-            "text": "Aijalon, and Gath Rimmon."
-          }
-        ],
-        "tag": "pi"
+        "t": "v",
+        "n": 17,
+        "v": "Gershon’s sons were Libni and Shimei."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "70",
-            "text": "The other descendants of Kohath were allotted the cities of Aner and Bileam and the nearby pastureland from the part of the tribe of Manasseh that lives west of the Jordan River."
-          }
-        ],
-        "tag": "pi"
+        "t": "v",
+        "n": 18,
+        "v": "Kohath’s sons were Amram, Izhar, Hebron, and Uzziel."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "71",
-            "text": "The descendants of Gershon, who were part of the tribe of Manasseh, lived east of the Jordan River. They were allotted the cities and towns and pastureland near them: Golan in the regions of Bashan and Ashtaroth."
-          },
-          {
-            "tag": "v",
-            "num": "72",
-            "text": "From the tribe of Issachar they were allotted cities and towns and pastureland near Kedesh, Daberath,"
-          },
-          {
-            "tag": "v",
-            "num": "73",
-            "text": "Ramoth, and Anem."
-          },
-          {
-            "tag": "v",
-            "num": "74",
-            "text": "From the tribe of Asher they were allotted cities and towns and pastureland near Mashal, Abdon,"
-          },
-          {
-            "tag": "v",
-            "num": "75",
-            "text": "Hukok, and Rehob."
-          },
-          {
-            "tag": "v",
-            "num": "76",
-            "text": "From the tribe of Naphtali they were allotted cities and towns and pastureland near Kedesh in the region of Galilee, and the cities of Hammon and Kiriathaim."
-          },
-          {
-            "tag": "v",
-            "num": "77",
-            "text": "The other descendants of Levi, those descended from Merari, were allotted towns and pasturelands from the tribe of Zebulun near Jokneam, Kartah, Rimmono, and Tabor."
-          },
-          {
-            "tag": "v",
-            "num": "78-79",
-            "text": "From the tribe of Reuben they were allotted cities and towns and pastureland near Bezer in the wilderness, Jahzah, Kedemoth, and Mephaath. The tribe of Reuben lived east of the Jordan River, across from Jericho."
-          },
-          {
-            "tag": "v",
-            "num": "80",
-            "text": "From the tribe of Gad, they were allotted cities and towns and pastureland near Ramoth in the region of Gilead, Mahanaim,"
-          },
-          {
-            "tag": "v",
-            "num": "81",
-            "text": "Heshbon, and Jazer."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 19,
+        "v": "Merari’s sons were Mahli and Mushi."
       }
-    ],
-    "num": 6
+    ]
   },
-  "id": "CH unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Chronicles"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Aaron’s sons were Nadab, Abihu, Eleazar, and Ithamar."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Phinehas was the father of Abishua."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Bukki was the father of Uzzi."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Zerahiah was the father of Meraioth."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Amariah was the father of Ahitub."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Zadok was the father of Ahimaaz."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Azariah was the father of Johanan."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Amariah was the father of Ahitub."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Zadok was the father of Shallum."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Hilkiah was the father of Azariah."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Seraiah was the father of Jozadak."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Gershon’s oldest son was Libni."
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Zimmah’s son was Joah."
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Kohath’s other son was Amminadab."
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "Assir’s son was Elkanah."
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "Assir’s son was Tahath."
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "Elkanah’s sons were Amasai, Ahimoth,"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "and a son also named Elkana."
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "Nahath’s son was Eliab."
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "Samuel’s oldest son was Joel; his other son was Abijah."
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "Merari’s oldest son was Mahli."
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "Uzzah’s son was Shimea."
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Libni’s son was Jahath."
+  },
+  {
+    "t": "q",
+    "v": "Jehath’s son was Zimmah."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Joah’s son was Iddo."
+  },
+  {
+    "t": "q",
+    "v": "Iddo’s son was Zerah."
+  },
+  {
+    "t": "q",
+    "v": "Zerah’s son was Jeatherai."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Amminadab’s son was Korah."
+  },
+  {
+    "t": "q",
+    "v": "Korah’s son was Assir."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Elkanah’s son was Ebiasaph."
+  },
+  {
+    "t": "q",
+    "v": "Ebiasaph’s son was Assir."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Tahath’s son was Uriel."
+  },
+  {
+    "t": "q",
+    "v": "Uriel’s son was Uzziah."
+  },
+  {
+    "t": "q",
+    "v": "Uzziah’s son was Shaul."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Elkanah’s son was Zophai."
+  },
+  {
+    "t": "q",
+    "v": "Zophai’s son was Nahath."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Eliab’s son was Jeroham."
+  },
+  {
+    "t": "q",
+    "v": "Jeroham’s son was Elkanah."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Mahli’s son was Libni."
+  },
+  {
+    "t": "q",
+    "v": "Libni’s son was Shimei."
+  },
+  {
+    "t": "q",
+    "v": "Shimei’s son was Uzzah."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Shimea’s son was Haggiah."
+  },
+  {
+    "t": "q",
+    "v": "Haggiah’s son was Asaiah."
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 31,
+        "v": "After the sacred chest was brought to Jerusalem, King David appointed some of the men who were descendants of Levi to be in charge of the music in the place where the people worshiped Yahweh."
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "Those musicians first sang and played their instruments in the sacred tent, which was also called the tent of meeting, and they continued to do that until Solomon’s workers built the temple of Yahweh in Jerusalem. In all their work, they obeyed the instructions that David had given them."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 33,
+        "v": "Here is a list of the musicians and their sons:"
+      },
+      {
+        "t": "v",
+        "n": 34,
+        "v": "Samuel was the son of Elkanah."
+      },
+      {
+        "t": "v",
+        "n": 35,
+        "v": "Toah was the son of Zuph."
+      },
+      {
+        "t": "v",
+        "n": 36,
+        "v": "Amasai was the son of another man whose name was Elkanah."
+      },
+      {
+        "t": "v",
+        "n": 37,
+        "v": "Zephaniah was the son of Tahath."
+      },
+      {
+        "t": "v",
+        "n": 38,
+        "v": "Korah was the son of Izhar."
+      },
+      {
+        "t": "v",
+        "n": 39,
+        "v": "Heman’s helper was Asaph. His group stood at the right side of Heman."
+      },
+      {
+        "t": "v",
+        "n": 40,
+        "v": "Shimea was the son of Michael."
+      },
+      {
+        "t": "v",
+        "n": 41,
+        "v": "Malkijah was the son of Ethni."
+      },
+      {
+        "t": "v",
+        "n": 42,
+        "v": "Adaiah was the son of Ethan."
+      },
+      {
+        "t": "v",
+        "n": 43,
+        "v": "Shimei was the son of Jahath."
+      },
+      {
+        "t": "v",
+        "n": 44,
+        "v": "A group of singers from Merari’s family helped Heman and Asaph. They stood at the left of Heman. The leader of this group was Ethan son of Kishi."
+      },
+      {
+        "t": "v",
+        "n": 45,
+        "v": "Malluk was the son of Hashabiah."
+      },
+      {
+        "t": "v",
+        "n": 46,
+        "v": "Hilkiah was the son of Amzi."
+      },
+      {
+        "t": "v",
+        "n": 47,
+        "v": "Shemer was the son of Mahli."
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "From Kohath’s descendants there was Heman, the leader of the singers."
+  },
+  {
+    "t": "q",
+    "v": "Heman was the son of Joel."
+  },
+  {
+    "t": "q",
+    "v": "Joel was the son of Samuel."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Elkanah was the son of Jeroham."
+  },
+  {
+    "t": "q",
+    "v": "Jeroham was the son of Eliel."
+  },
+  {
+    "t": "q",
+    "v": "Eliel was the son of Toah."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Zuph was the son of Elkanah."
+  },
+  {
+    "t": "q",
+    "v": "Elkanah was the son of Mahath."
+  },
+  {
+    "t": "q",
+    "v": "Mahath was the son of Amasai."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Elkanah was the son of Joel."
+  },
+  {
+    "t": "q",
+    "v": "Joel was the son of Azariah."
+  },
+  {
+    "t": "q",
+    "v": "Azariah was the son of Zephaniah."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Tahath was the son of Assir."
+  },
+  {
+    "t": "q",
+    "v": "Assir was the son of Ebiasaph."
+  },
+  {
+    "t": "q",
+    "v": "Ebiasaph was the son of Korah."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Izhar was the son of Kohath."
+  },
+  {
+    "t": "q",
+    "v": "Kohath was the son of Levi."
+  },
+  {
+    "t": "q",
+    "v": "Levi was the son of Jacob."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Asaph was the son of Berekiah."
+  },
+  {
+    "t": "q",
+    "v": "Berekiah was the son of Shimea."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Michael was the son of Baaseiah."
+  },
+  {
+    "t": "q",
+    "v": "Baaseiah was the son of Malkijah."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Ethni was the son of Zerah."
+  },
+  {
+    "t": "q",
+    "v": "Zerah was the son of Adaiah."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Ethan was the son of Zimmah."
+  },
+  {
+    "t": "q",
+    "v": "Zimmah was the son of Shimei."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Jahath was the son of Gershon,"
+  },
+  {
+    "t": "q",
+    "v": "and Gershon was the son of Levi."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Kishi was the son of Abdi."
+  },
+  {
+    "t": "q",
+    "v": "Abdi was the son of Malluk."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Hashabiah was the son of Uzziah."
+  },
+  {
+    "t": "q",
+    "v": "Uzziah was the son of Hilkiah."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Amzi was the son of Bani."
+  },
+  {
+    "t": "q",
+    "v": "Bani was the son of Shemer."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Mahli was the son of Mushi."
+  },
+  {
+    "t": "q",
+    "v": "Mushi was the son of Merari,"
+  },
+  {
+    "t": "q",
+    "v": "and Merari was the son of Levi."
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 48,
+        "v": "The other descendants of Levi were appointed to do other work in the sacred tent, the place where the people worshiped God."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 49,
+        "v": "Aaron and his descendants were the ones who placed on the altar the sacrifices that were to be burned completely, and they burned incense on another altar. Those sacrifices were in order that Yahweh would no longer be angry with the people of Israel for having sinned. Those men also did other work in the very holy place in the sacred tent, obeying the instructions that Moses, who served God well, had given to them."
+      },
+      {
+        "t": "v",
+        "n": 50,
+        "v": "These were the descendants of Aaron:"
+      },
+      {
+        "t": "v",
+        "n": 51,
+        "v": "Abishua’s son was Bukki."
+      },
+      {
+        "t": "v",
+        "n": 52,
+        "v": "Zerahiah’s son was Meraioth."
+      },
+      {
+        "t": "v",
+        "n": 53,
+        "v": "Ahitub’s son was Zadok,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Aaron’s son was Eleazar."
+  },
+  {
+    "t": "q",
+    "v": "Eleazar’s son was Phinehas."
+  },
+  {
+    "t": "q",
+    "v": "Phinehas’s son was Abishua."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Bukki’s son was Uzzi."
+  },
+  {
+    "t": "q",
+    "v": "Uzzi’s son was Zerahiah."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Meraioth’s son was Amariah."
+  },
+  {
+    "t": "q",
+    "v": "Amariah’s son was Ahitub."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and Zadok’s son was Ahimaaz."
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 54,
+        "v": "Here is a list of the places where Aaron’s descendants lived. Those who were descendants of Kohath were the first group to be allotted cities to live in."
+      }
+    ]
+  },
+  {
+    "t": "pi",
+    "v": [
+      {
+        "t": "v",
+        "n": 55,
+        "v": "They were allotted the city of Hebron in Judah and the pastureland around the city,"
+      },
+      {
+        "t": "v",
+        "n": 56,
+        "v": "but the fields farther from the city and the villages near the city were given to Caleb’s son of Jephunneh."
+      }
+    ]
+  },
+  {
+    "t": "pi",
+    "v": [
+      {
+        "t": "v",
+        "n": 57,
+        "v": "The descendants of Aaron who were descendants of Kohath were allotted Hebron, one of the cities to which people could flee and be protected if they accidentally killed someone. They also were allotted the towns and pastureland near Libnah, Jattir, Eshtemoa,"
+      },
+      {
+        "t": "v",
+        "n": 58,
+        "v": "Hilen, Debir,"
+      },
+      {
+        "t": "v",
+        "n": 59,
+        "v": "Ashan, Juttah, and Beth Shemesh."
+      },
+      {
+        "t": "v",
+        "n": 60,
+        "v": "They were also allotted the cities of Gibeon, Geba, Alemeth, and Anathoth from the tribe of Benjamin."
+      }
+    ]
+  },
+  {
+    "t": "pi",
+    "v": []
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 61,
+        "v": "The other clans descended from Kohath were allotted ten cities from the clans of the tribe of Manasseh that lived west of the Jordan River."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 62,
+        "v": "The descendants of Gershon were allotted thirteen cities and towns from the tribes of Issachar, Asher, Naphtali, and the part of the tribe of Manasseh that lived in the region of Bashan on the east side of the Jordan River."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 63,
+        "v": "The descendants of Merari were allotted twelve cities and towns from the tribes of Reuben, Gad, and Zebulun."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 64,
+        "v": "The leaders of Israel allotted those towns and the nearby pasturelands to the descendants of Levi."
+      },
+      {
+        "t": "v",
+        "n": 65,
+        "v": "They also allotted to them the cities and towns from the tribes of Judah, Simeon, and Benjamin that were listed previously."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 66,
+        "v": "Some of the descendants of Kohath were allotted towns from the tribe of Ephraim."
+      }
+    ]
+  },
+  {
+    "t": "pi",
+    "v": [
+      {
+        "t": "v",
+        "n": 67,
+        "v": "They were allotted Shechem, which was one of the cities to which people could flee and be protected if they accidentally killed someone, along with the nearby pastureland in the hills of Ephraim. They were also allotted these towns and pastureland near them: Gezer,"
+      },
+      {
+        "t": "v",
+        "n": 68,
+        "v": "Jokmeam, Beth Horon,"
+      },
+      {
+        "t": "v",
+        "n": 69,
+        "v": "Aijalon, and Gath Rimmon."
+      }
+    ]
+  },
+  {
+    "t": "pi",
+    "v": [
+      {
+        "t": "v",
+        "n": 70,
+        "v": "The other descendants of Kohath were allotted the cities of Aner and Bileam and the nearby pastureland from the part of the tribe of Manasseh that lives west of the Jordan River."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 71,
+        "v": "The descendants of Gershon, who were part of the tribe of Manasseh, lived east of the Jordan River. They were allotted the cities and towns and pastureland near them: Golan in the regions of Bashan and Ashtaroth."
+      },
+      {
+        "t": "v",
+        "n": 72,
+        "v": "From the tribe of Issachar they were allotted cities and towns and pastureland near Kedesh, Daberath,"
+      },
+      {
+        "t": "v",
+        "n": 73,
+        "v": "Ramoth, and Anem."
+      },
+      {
+        "t": "v",
+        "n": 74,
+        "v": "From the tribe of Asher they were allotted cities and towns and pastureland near Mashal, Abdon,"
+      },
+      {
+        "t": "v",
+        "n": 75,
+        "v": "Hukok, and Rehob."
+      },
+      {
+        "t": "v",
+        "n": 76,
+        "v": "From the tribe of Naphtali they were allotted cities and towns and pastureland near Kedesh in the region of Galilee, and the cities of Hammon and Kiriathaim."
+      },
+      {
+        "t": "v",
+        "n": 77,
+        "v": "The other descendants of Levi, those descended from Merari, were allotted towns and pasturelands from the tribe of Zebulun near Jokneam, Kartah, Rimmono, and Tabor."
+      },
+      {
+        "t": "v",
+        "n": 78,
+        "v": "From the tribe of Reuben they were allotted cities and towns and pastureland near Bezer in the wilderness, Jahzah, Kedemoth, and Mephaath. The tribe of Reuben lived east of the Jordan River, across from Jericho."
+      },
+      {
+        "t": "v",
+        "n": 80,
+        "v": "From the tribe of Gad, they were allotted cities and towns and pastureland near Ramoth in the region of Gilead, Mahanaim,"
+      },
+      {
+        "t": "v",
+        "n": 81,
+        "v": "Heshbon, and Jazer."
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  }
+]

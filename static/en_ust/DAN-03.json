@@ -1,231 +1,221 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "King Nebuchadnezzar made a golden statue. It was twenty-seven meters tall and three meters wide. He set it up in the plain of Dura in the province of Babylon."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Then he sent messages to all the provincial governors, the regional governors, and the local governors, the counselors, the treasurers, the judges, the magistrates, and all the high officials of the provinces. He told them to come to celebrate the new statue that he had set up to honor the god that it represented."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "When they all arrived, they were all standing in front of that statue."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "King Nebuchadnezzar made a golden statue. It was twenty-seven meters tall and three meters wide. He set it up in the plain of Dura in the province of Babylon."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "A person on the royal staff shouted out the king's new law to everyone, \"You people who come from many countries and who speak many languages, listen to what the king has commanded!"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "When you hear the sound of the horns, flutes, zithers, lyres, harps, and other flutes, and all the music they will play, you must lie down on the ground and honor the golden statue that King Nebuchadnezzar has put up."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Anyone who refuses to do that will be thrown into a blazing fire.\""
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "Then he sent messages to all the provincial governors, the regional governors, and the local governors, the counselors, the treasurers, the judges, the magistrates, and all the high officials of the provinces. He told them to come to celebrate the new statue that he had set up to honor the god that it represented."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "So all those people who had gathered from the many people and nations, who were speaking various languages, when they heard the instruments play, they laid themselves down on the ground and gave their worship and said words of praise to the statue."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "But some Chaldeans went to the king."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "They reported to him, \"O king, may you never die!"
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "You decreed that every person who hears the sound of those instruments should lie down on the ground and honor the golden statue."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "You also decreed that anyone refusing to do that would be thrown into a blazing fire."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "There are some men from Judah that you appointed to be officials in the province of Babylon who have paid no attention to your decree. Their names are Shadrach, Meshach, and Abednego. They have refused to worship your gods and the golden statue that you have set up.\""
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "When he heard this, Nebuchadnezzar became very angry. He commanded his soldiers to bring in Shadrach, Meshach, and Abednego. So they brought them to the king."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "Nebuchadnezzar said to them, \"Have you decided that you will not worship my gods or the golden statue that I have set up?"
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "I will give you one more chance. If you bow down to worship the statue that I have set up when you hear the sounds of the musical instruments, fine. But if you refuse, you will be thrown into a blazing fire. Then who is the god who can rescue you from my power?\""
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Shadrach, Meshach, and Abednego replied, \"Nebuchadnezzar, we do not need to defend our actions to you in this matter."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "If we are thrown into a fire, the God we worship is able to rescue us. He has the power to rescue us from you."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "But even if he does not rescue us, we will not worship your gods, and we will never honor the statue you have set up.\""
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "Then Nebuchadnezzar became extremely angry. His face showed great rage against Shadrach, Meshach, and Abednego. He gave orders that the fire should be made seven times hotter than usual."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "After that was done, he ordered some of his strongest soldiers to tie up Shadrach, Meshach and Abednego, and then to throw them into the blazing fire."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "When the soldiers tied them up and threw them into the furnace, Shadrach, Meshach, and Abednego were wearing their robes, their tunics, their turbans, and their other clothes."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Because the king's orders were given when he was so angry and were to be followed without any delay, and because the fire was so hot, the flames leaped out of the blaze and killed the soldiers that took Shadrach, Meshach and Abednego up into the fire."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "So Shadrach, Meshach, and Abednego, tied up, fell into the burning flames of the fire."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "But as Nebuchadnezzar was watching, he was shocked. He jumped up and shouted to his advisors, \"Did we tie up three men and throw them into the flames?\""
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [],
-        "tag": "p",
-        "text": "They replied, \"Yes, O king, we did.\""
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "Nebuchadnezzar shouted, \"Look! I see four men in the fire! They are not tied with ropes and they are walking around and the flames are not hurting them! The fourth man is shining like a son of the gods!\""
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "Nebuchadnezzar came closer to the edge of the blazing fire and shouted, \"Shadrach, Meshach, and Abednego, you who worship the Most High God, come out of there! Come here!\" So they came out and away from the fire."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "Then all the king's officials saw them when they came out of the fire. The flames had not harmed them. Not even the hair on their heads was singed, and none of their clothing was scorched. There was not even any smell of smoke on them."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "Then Nebuchadnezzar said, \"We must all praise the God of Shadrach, Meshach, and Abednego! He sent one of his messengers to rescue these three men who worship him and trust in him. They ignored the king's command and refused to worship any other god but their own God, even if it cost them their lives."
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "Therefore I am now making this decree: 'If any people from any nation, or those who speak any language, say anything against the God who is worshiped by Shadrach, Meshach, and Abednego, they will be torn to pieces and their houses will be torn down and made into piles of garbage. This decree is made because there is no other god who can rescue people like this!'\""
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "Then the king gave Shadrach, Meshach, and Abednego positions of greater importance within the province of Babylon."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 3,
+        "v": "When they all arrived, they were all standing in front of that statue."
       }
-    ],
-    "num": 3
+    ]
   },
-  "id": "DAN unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Daniel"
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 4,
+        "v": "A person on the royal staff shouted out the king’s new law to everyone, “You people who come from many countries and who speak many languages, listen to what the king has commanded!"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "When you hear the sound of the horns, flutes, zithers, lyres, harps, and other flutes, and all the music they will play, you must lie down on the ground and honor the golden statue that King Nebuchadnezzar has put up."
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Anyone who refuses to do that will be thrown into a blazing fire.”"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 7,
+        "v": "So all those people who had gathered from the many people and nations, who were speaking various languages, when they heard the instruments play, they laid themselves down on the ground and gave their worship and said words of praise to the statue."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 8,
+        "v": "But some Chaldeans went to the king."
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "They reported to him, “O king, may you never die!"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "You decreed that every person who hears the sound of those instruments should lie down on the ground and honor the golden statue."
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "You also decreed that anyone refusing to do that would be thrown into a blazing fire."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "There are some men from Judah that you appointed to be officials in the province of Babylon who have paid no attention to your decree. Their names are Shadrach, Meshach, and Abednego. They have refused to worship your gods and the golden statue that you have set up.”"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 13,
+        "v": "When he heard this, Nebuchadnezzar became very angry. He commanded his soldiers to bring in Shadrach, Meshach, and Abednego. So they brought them to the king."
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "Nebuchadnezzar said to them, “Have you decided that you will not worship my gods or the golden statue that I have set up?"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "I will give you one more chance. If you bow down to worship the statue that I have set up when you hear the sounds of the musical instruments, fine. But if you refuse, you will be thrown into a blazing fire. Then who is the god who can rescue you from my power?”"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Shadrach, Meshach, and Abednego replied, “Nebuchadnezzar, we do not need to defend our actions to you in this matter."
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "If we are thrown into a fire, the God we worship is able to rescue us. He has the power to rescue us from you."
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "But even if he does not rescue us, we will not worship your gods, and we will never honor the statue you have set up.”"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Then Nebuchadnezzar became extremely angry. His face showed great rage against Shadrach, Meshach, and Abednego. He gave orders that the fire should be made seven times hotter than usual."
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "After that was done, he ordered some of his strongest soldiers to tie up Shadrach, Meshach and Abednego, and then to throw them into the blazing fire."
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "When the soldiers tied them up and threw them into the furnace, Shadrach, Meshach, and Abednego were wearing their robes, their tunics, their turbans, and their other clothes."
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Because the king’s orders were given when he was so angry and were to be followed without any delay, and because the fire was so hot, the flames leaped out of the blaze and killed the soldiers that took Shadrach, Meshach and Abednego up into the fire."
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "So Shadrach, Meshach, and Abednego, tied up, fell into the burning flames of the fire."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 24,
+        "v": "But as Nebuchadnezzar was watching, he was shocked. He jumped up and shouted to his advisors, “Did we tie up three men and throw them into the flames?”"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": []
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 25,
+        "v": "Nebuchadnezzar shouted, “Look! I see four men in the fire! They are not tied with ropes and they are walking around and the flames are not hurting them! The fourth man is shining like a son of the gods!”"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 26,
+        "v": "Nebuchadnezzar came closer to the edge of the blazing fire and shouted, “Shadrach, Meshach, and Abednego, you who worship the Most High God, come out of there! Come here!” So they came out and away from the fire."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 27,
+        "v": "Then all the king’s officials saw them when they came out of the fire. The flames had not harmed them. Not even the hair on their heads was singed, and none of their clothing was scorched. There was not even any smell of smoke on them."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 28,
+        "v": "Then Nebuchadnezzar said, “We must all praise the God of Shadrach, Meshach, and Abednego! He sent one of his messengers to rescue these three men who worship him and trust in him. They ignored the king’s command and refused to worship any other god but their own God, even if it cost them their lives."
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "Therefore I am now making this decree: ‘If any people from any nation, or those who speak any language, say anything against the God who is worshiped by Shadrach, Meshach, and Abednego, they will be torn to pieces and their houses will be torn down and made into piles of garbage. This decree is made because there is no other god who can rescue people like this!’”"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 30,
+        "v": "Then the king gave Shadrach, Meshach, and Abednego positions of greater importance within the province of Babylon."
+      }
+    ]
+  }
+]

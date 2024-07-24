@@ -1,211 +1,197 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "These were the descendants of the sons of Noah, that is, Shem, Ham, and Japheth. Sons were born to them after the flood."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "The sons of Japheth were Gomer, Magog, Madai, Javan, Tubal, Meshech, and Tiras."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "The sons of Gomer were Ashkenaz, Riphath, and Togarmah."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "The sons of Javan were Elishah, Tarshish, Kittim, and Dodanim."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "From these the coastland peoples separated and went into their lands, every one with its own language, according to their clans, by their nations."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "The sons of Ham were Cush, Mizraim, Put, and Canaan."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "The sons of Cush were Seba, Havilah, Sabtah, Raamah, and Sabteka. The sons of Raamah were Sheba and Dedan."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Cush became the father of Nimrod, who was the first conqueror on the earth."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "He was a mighty hunter before Yahweh. That is why it is said, “Like Nimrod, a mighty hunter before Yahweh.”"
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "The first centers of his kingdom were Babel, Erech, Akkad, and Kalneh, in the land of Shinar."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Out of that land he went to Assyria and built Nineveh, Rehoboth Ir, Calah,"
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "and Resen, which was between Nineveh and Calah. It was a large city."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Mizraim became the father of the Ludites, the Anamites, the Lehabites, the Naphtuhites,"
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "the Pathrusites, the Kasluhites (from whom the Philistines came), and the Caphtorites."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "Canaan became the father of Sidon, his firstborn, and of Heth,"
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "also of the Jebusites, the Amorites, the Girgashites,"
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "the Hivites, the Arkites, the Sinites,"
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "the Arvadites, the Zemarites, and the Hamathites. Afterward the clans of the Canaanites spread out."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "The border of the Canaanites was from Sidon, in the direction of Gerar, as far as Gaza, and as one goes toward Sodom, Gomorrah, Admah, and Zeboyim, as far as Lasha."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "These were the sons of Ham, by their clans, by their languages, in their lands, and in their nations."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "Sons also were born to Shem, the older brother of Japheth. Shem was also the ancestor of all the people of Eber."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "The sons of Shem were Elam, Ashur, Arphaxad, Lud, and Aram."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "The sons of Aram were Uz, Hul, Gether, and Meshech."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "Arphaxad became the father of Shelah, and Shelah became the father of Eber."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "Eber had two sons. The name of the one was Peleg, for in his days the earth was divided. His brother’s name was Joktan."
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "Joktan became the father of Almodad, Sheleph, Hazarmaveth, Jerah,"
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "Hadoram, Uzal, Diklah,"
-          },
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "Obal, Abimael, Sheba,"
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "Ophir, Havilah, and Jobab. All these were the sons of Joktan."
-          },
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "Their territory was from Mesha, all the way to Sephar, the mountain of the east."
-          },
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "These were the sons of Shem, according to their clans and their languages, in their lands, according to their nations."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "32",
-            "text": "These were the clans of the sons of Noah, according to their genealogies, by their nations. From these the nations separated and went over the earth after the flood."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "These were the descendants of the sons of Noah, that is, Shem, Ham, and Japheth. Sons were born to them after the flood."
       }
-    ],
-    "num": 10
+    ]
   },
-  "id": "GEN unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Genesis",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Genesis "
-    }
-  ]
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 2,
+        "v": "The sons of Japheth were Gomer, Magog, Madai, Javan, Tubal, Meshech, and Tiras."
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "The sons of Gomer were Ashkenaz, Riphath, and Togarmah."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "The sons of Javan were Elishah, Tarshish, Kittim, and Dodanim."
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "From these the coastland peoples separated and went into their lands, every one with its own language, according to their clans, by their nations."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 6,
+        "v": "The sons of Ham were Cush, Mizraim, Put, and Canaan."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "The sons of Cush were Seba, Havilah, Sabtah, Raamah, and Sabteka. The sons of Raamah were Sheba and Dedan."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Cush became the father of Nimrod, who was the first conqueror on the earth."
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "He was a mighty hunter before Yahweh. That is why it is said, “Like Nimrod, a mighty hunter before Yahweh.”"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "The first centers of his kingdom were Babel, Erech, Akkad, and Kalneh, in the land of Shinar."
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Out of that land he went to Assyria and built Nineveh, Rehoboth Ir, Calah,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "and Resen, which was between Nineveh and Calah. It was a large city."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Mizraim became the father of the Ludites, the Anamites, the Lehabites, the Naphtuhites,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "the Pathrusites, the Kasluhites (from whom the Philistines came), and the Caphtorites."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Canaan became the father of Sidon, his firstborn, and of Heth,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "also of the Jebusites, the Amorites, the Girgashites,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "the Hivites, the Arkites, the Sinites,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "the Arvadites, the Zemarites, and the Hamathites. Afterward the clans of the Canaanites spread out."
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "The border of the Canaanites was from Sidon, in the direction of Gerar, as far as Gaza, and as one goes toward Sodom, Gomorrah, Admah, and Zeboyim, as far as Lasha."
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "These were the sons of Ham, by their clans, by their languages, in their lands, and in their nations."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Sons also were born to Shem, the older brother of Japheth. Shem was also the ancestor of all the people of Eber."
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "The sons of Shem were Elam, Ashur, Arphaxad, Lud, and Aram."
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "The sons of Aram were Uz, Hul, Gether, and Meshech."
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "Arphaxad became the father of Shelah, and Shelah became the father of Eber."
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "Eber had two sons. The name of the one was Peleg, for in his days the earth was divided. His brother’s name was Joktan."
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "Joktan became the father of Almodad, Sheleph, Hazarmaveth, Jerah,"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "Hadoram, Uzal, Diklah,"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "Obal, Abimael, Sheba,"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "Ophir, Havilah, and Jobab. All these were the sons of Joktan."
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "Their territory was from Mesha, all the way to Sephar, the mountain of the east."
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "These were the sons of Shem, according to their clans and their languages, in their lands, according to their nations."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 32,
+        "v": "These were the clans of the sons of Noah, according to their genealogies, by their nations. From these the nations separated and went over the earth after the flood."
+      }
+    ]
+  }
+]

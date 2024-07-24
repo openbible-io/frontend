@@ -49,7 +49,7 @@ export class Reader extends Component {
 					)}
 				</select>
 				<br />
-				{this.state.data && renderChildren(this.state.data.chapter.children)}
+				{renderChildren(this.state.data)}
 			</article>
 		);
 	}

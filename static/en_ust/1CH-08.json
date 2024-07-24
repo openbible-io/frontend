@@ -1,205 +1,267 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "tag": "s2",
-        "text": "These are the descendants of Benjamin."
+        "t": "v",
+        "n": 1,
+        "v": "Benjamin had five sons: Bela, Ashbel, Aharah,"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Benjamin had five sons: Bela, Ashbel, Aharah,"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Nohah, and Rapha."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Bela's sons were Addar, Gera, Abihud,"
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Abishua, Naaman, Ahoah,"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Gera, Shephuphan, and Huram."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "One of Gera's sons was Ehud. The descendants of Ehud were leaders of their clans who lived in the city of Geba, but they were forced to move to the city of Manahath."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Ehud's sons were Naaman, Ahijah, and Gera."
-          },
-          {
-            "tag": "q2",
-            "text": "Gera was the one who led them when they moved to Manahath. Gera was the father of Uzza and Ahihud."
-          },
-          {
-            "tag": "v",
-            "num": "8-11",
-            "text": "Another descendant of Benjamin was Shaharaim. He and his wife Hushim had two sons, Abitub and Elpaal. In the region of Moab, Shaharaim divorced Hushim and his other wife Baara. Then he married a woman whose name was Hodesh, and they had seven sons: Jobab, Zibia, Mesha, Malkam, Jeuz, Sakia, and Mirmah. They were all leaders of their clans."
-          },
-          {
-            "tag": "v",
-            "num": "12-13",
-            "text": "Elpaal's sons were Eber, Misham, Shemed, Beriah, and Shema. Shemed built the cities of Ono and Lod and their nearby villages. Beriah and Shema were leaders of their clans, who lived in the city of Aijalon. They forced the people who lived in the city of Gath to leave their city."
-          },
-          {
-            "tag": "v",
-            "num": "14-16",
-            "text": "Beriah's sons were Ahio, Shashak, Jeremoth, Zebadiah, Arad, Eder, Michael, Ishpah, and Joha."
-          },
-          {
-            "tag": "v",
-            "num": "17-18",
-            "text": "Other descendants of Elpaal were also named Zebadiah, Meshullam, Hizki, Heber,"
-          },
-          {
-            "tag": "q",
-            "text": "Ishmerai, Izliah, and Jobab."
-          },
-          {
-            "tag": "v",
-            "num": "19-21",
-            "text": "Another descendant of Benjamin was Shimei. Shimei's descendants included Jakim, Zicri, Zabdi, Elienai, Zillethai, Eliel, Adaiah, Beraiah, and Shimrath."
-          },
-          {
-            "tag": "v",
-            "num": "22-25",
-            "text": "Shashak's sons were Ishpan, Eber, Eliel,"
-          },
-          {
-            "tag": "v",
-            "num": "26-27",
-            "text": "Another descendant of Benjamin was Jeroham, whose sons were Shamsherai, Shehariah, Athaliah, Jaareshiah, Elijah, and Zicri."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "Nohah, and Rapha."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "In the records of these clans it is written that all those men were leaders of their clans, and they lived in Jerusalem."
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "Another descendant of Benjamin was Jeiel. He lived in the city of Gibeon, and he was the leader of those who lived there. His wife was Maakah."
-          },
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "His oldest son was Abdon. His other sons were Zur, Kish, Baal, Ner, Nadab,"
-          },
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "Gedor, Ahio, Zeker, and Mikloth."
-          },
-          {
-            "tag": "v",
-            "num": "32",
-            "text": "Mikloth was the father of Shimeah. All these sons of Jeiel also lived near their relatives in Jerusalem."
-          },
-          {
-            "tag": "v",
-            "num": "33",
-            "text": "Ner was the father of Kish, and Kish was the father of King Saul."
-          },
-          {
-            "tag": "q",
-            "text": "Saul was the father of Jonathan, Malki-Shua, Abinadab, and Esh-Baal."
-          },
-          {
-            "tag": "v",
-            "num": "34",
-            "text": "Jonathan's son was Merib-Baal."
-          },
-          {
-            "tag": "q",
-            "text": "Merib-Baal was the father of Micah."
-          },
-          {
-            "tag": "v",
-            "num": "35",
-            "text": "Micah's sons were Pithon, Melek, Tarea, and Ahaz."
-          },
-          {
-            "tag": "v",
-            "num": "36",
-            "text": "Ahaz was the father of Jehoaddah."
-          },
-          {
-            "tag": "q",
-            "text": "Jehoaddah was the father of Alemeth, Azmaveth, and Zimri."
-          },
-          {
-            "tag": "q",
-            "text": "Zimri was the father of Moza."
-          },
-          {
-            "tag": "v",
-            "num": "37",
-            "text": "Moza was the father of Binea."
-          },
-          {
-            "tag": "q",
-            "text": "The son of Binea was Raphah."
-          },
-          {
-            "tag": "q",
-            "text": "The son of Raphah was Eleasah."
-          },
-          {
-            "tag": "q",
-            "text": "The son of Eleasah was Azel."
-          },
-          {
-            "tag": "v",
-            "num": "38",
-            "text": "Azel had six sons: Azrikam, Bokeru, Ishmael, Sheariah, Obadiah, and Hanan."
-          },
-          {
-            "tag": "v",
-            "num": "39",
-            "text": "Azel's younger brother was Eshek."
-          },
-          {
-            "tag": "q",
-            "text": "Eshek's oldest son was Ulam. His other sons were Jeush and Eliphelet."
-          },
-          {
-            "tag": "v",
-            "num": "40",
-            "text": "Ulam's sons were brave warriors and good archers. Altogether they had 150 sons and grandsons."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 3,
+        "v": "Bela’s sons were Addar, Gera, Abihud,"
       },
       {
-        "children": [],
-        "tag": "m",
-        "text": "All these were the descendants of Benjamin."
+        "t": "v",
+        "n": 4,
+        "v": "Abishua, Naaman, Ahoah,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Gera, Shephuphan, and Huram."
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "One of Gera’s sons was Ehud. The descendants of Ehud were leaders of their clans who lived in the city of Geba, but they were forced to move to the city of Manahath."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Ehud’s sons were Naaman, Ahijah, and Gera."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Another descendant of Benjamin was Shaharaim. He and his wife Hushim had two sons, Abitub and Elpaal. In the region of Moab, Shaharaim divorced Hushim and his other wife Baara. Then he married a woman whose name was Hodesh, and they had seven sons: Jobab, Zibia, Mesha, Malkam, Jeuz, Sakia, and Mirmah. They were all leaders of their clans."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Elpaal’s sons were Eber, Misham, Shemed, Beriah, and Shema. Shemed built the cities of Ono and Lod and their nearby villages. Beriah and Shema were leaders of their clans, who lived in the city of Aijalon. They forced the people who lived in the city of Gath to leave their city."
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "Beriah’s sons were Ahio, Shashak, Jeremoth, Zebadiah, Arad, Eder, Michael, Ishpah, and Joha."
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Other descendants of Elpaal were also named Zebadiah, Meshullam, Hizki, Heber,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Another descendant of Benjamin was Shimei. Shimei’s descendants included Jakim, Zicri, Zabdi, Elienai, Zillethai, Eliel, Adaiah, Beraiah, and Shimrath."
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Shashak’s sons were Ishpan, Eber, Eliel,"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "Another descendant of Benjamin was Jeroham, whose sons were Shamsherai, Shehariah, Athaliah, Jaareshiah, Elijah, and Zicri."
       }
-    ],
-    "num": 8
+    ]
   },
-  "id": "CH unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Chronicles"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Gera was the one who led them when they moved to Manahath. Gera was the father of Uzza and Ahihud."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Ishmerai, Izliah, and Jobab."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 28,
+        "v": "In the records of these clans it is written that all those men were leaders of their clans, and they lived in Jerusalem."
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "Another descendant of Benjamin was Jeiel. He lived in the city of Gibeon, and he was the leader of those who lived there. His wife was Maakah."
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "His oldest son was Abdon. His other sons were Zur, Kish, Baal, Ner, Nadab,"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "Gedor, Ahio, Zeker, and Mikloth."
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "Mikloth was the father of Shimeah. All these sons of Jeiel also lived near their relatives in Jerusalem."
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "Ner was the father of Kish, and Kish was the father of King Saul."
+      },
+      {
+        "t": "v",
+        "n": 34,
+        "v": "Jonathan’s son was Merib-Baal."
+      },
+      {
+        "t": "v",
+        "n": 35,
+        "v": "Micah’s sons were Pithon, Melek, Tarea, and Ahaz."
+      },
+      {
+        "t": "v",
+        "n": 36,
+        "v": "Ahaz was the father of Jehoaddah."
+      },
+      {
+        "t": "v",
+        "n": 37,
+        "v": "Moza was the father of Binea."
+      },
+      {
+        "t": "v",
+        "n": 38,
+        "v": "Azel had six sons: Azrikam, Bokeru, Ishmael, Sheariah, Obadiah, and Hanan."
+      },
+      {
+        "t": "v",
+        "n": 39,
+        "v": "Azel’s younger brother was Eshek."
+      },
+      {
+        "t": "v",
+        "n": 40,
+        "v": "Ulam’s sons were brave warriors and good archers. Altogether they had 150 sons and grandsons."
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Saul was the father of Jonathan, Malki-Shua, Abinadab, and Esh-Baal."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Merib-Baal was the father of Micah."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Jehoaddah was the father of Alemeth, Azmaveth, and Zimri."
+  },
+  {
+    "t": "q",
+    "v": "Zimri was the father of Moza."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "The son of Binea was Raphah."
+  },
+  {
+    "t": "q",
+    "v": "The son of Raphah was Eleasah."
+  },
+  {
+    "t": "q",
+    "v": "The son of Eleasah was Azel."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Eshek’s oldest son was Ulam. His other sons were Jeush and Eliphelet."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "m",
+    "v": []
+  }
+]

@@ -1,130 +1,115 @@
-{
-  "chapter": {
-    "children": [
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "tag": "d",
-        "text": "A psalm written by David for people going up to the temple to worship."
-      },
-      {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "I was glad when people said to me,"
-          },
-          {
-            "tag": "q2",
-            "text": "\"We should go to the temple of Yahweh in Jerusalem!\""
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Now we are here,"
-          },
-          {
-            "tag": "q2",
-            "text": "standing inside the gates of Jerusalem."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "We can see that Jerusalem was a carefully built city."
-          },
-          {
-            "tag": "q2",
-            "text": "Every part of the city was built to fit together"
-          },
-          {
-            "tag": "q2",
-            "text": "within the city as a whole. "
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "We people of the tribes of Israel"
-          },
-          {
-            "tag": "q2",
-            "text": "who belong to Yahweh can now go up there,"
-          },
-          {
-            "tag": "q2",
-            "text": "as Yahweh commanded that we should do,"
-          },
-          {
-            "tag": "q2",
-            "text": "so we can thank him."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "There are the thrones,"
-          },
-          {
-            "tag": "q2",
-            "text": "the thrones that the kings of Israel sat"
-          },
-          {
-            "tag": "q2",
-            "text": "when they ruled Israel. "
-          },
-          {
-            "tag": "q2",
-            "text": "These are the thrones of the descendants of King David."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Pray that there will be peace in Jerusalem!"
-          },
-          {
-            "tag": "q1",
-            "text": "\"I pray that those who love Jerusalem will succeed in life."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "I pray that there may be peace inside the walls of the city"
-          },
-          {
-            "tag": "q2",
-            "text": "and that people who are inside the palaces may be safe.\""
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "For the sake of my relatives and friends,"
-          },
-          {
-            "tag": "q2",
-            "text": "\"I pray that people will live peacefully inside Jerusalem.\""
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "And because I love the temple of Yahweh our God,"
-          },
-          {
-            "tag": "q2",
-            "text": "\"I pray that things will go well for the people who live in Jerusalem.\""
-          }
-        ],
-        "auto": true
-      }
-    ],
-    "num": 122
+[
+  {
+    "t": "m",
+    "v": []
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 1,
+        "v": "When we travel toward Jerusalem,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "My answer is that Yahweh is the one who helps me;"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "He will not allow us to fall;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "The one who protects us Israelite people"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Yahweh watches over us;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "He will not allow the sun to harm us during the day,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Yahweh will protect us from being harmed in any manner;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "He will protect us from the time that we leave our houses in the morning until we return in the evening;"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I look up toward the hills and I ask myself, “Who will help me?”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he is the one who made heaven and the earth."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "God, who protects us, will not fall asleep."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "never gets sleepy or sleeps."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he is like the shade that protects us from the sun."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and he will not allow the moon to harm us during the night."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he will keep us safe."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he will protect us now and he will protect us forever."
+  }
+]

@@ -1,81 +1,67 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Then Yahweh said to Moses, “There is still one more plague that I will bring on Pharaoh and Egypt. After that, he will let you go from here. When he finally lets you go, he will drive you away completely."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Instruct the people that every man and woman is to ask of his or her neighbor for articles of silver and articles of gold.”"
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Now Yahweh had made the Egyptians eager to please the Israelites. Moreover, the man Moses was very impressive in the sight of Pharaoh’s servants and the people of Egypt."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "Then Yahweh said to Moses, “There is still one more plague that I will bring on Pharaoh and Egypt. After that, he will let you go from here. When he finally lets you go, he will drive you away completely."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Moses said, “Yahweh says this: ‘About midnight I will go throughout Egypt."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "All the firstborn in the land of Egypt will die, from the firstborn of Pharaoh, who sits on his throne, to the firstborn of the slave girl who is behind the handmill grinding it, and to all the firstborn of the cattle."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Then there will be a great wailing throughout all the land of Egypt, such as has never been nor ever will be again."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "But not even a dog will bark against any of the people of Israel, against either man or beast. In this way you will know that I am treating the Egyptians and the Israelites differently.’"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "All these servants of yours, Pharaoh, will come down to me and bow down to me. They will say, ‘Go, you and all the people who follow you!’ After that I will go out.” Then he went out from Pharaoh in great anger."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "Instruct the people that every man and woman is to ask of his or her neighbor for articles of silver and articles of gold.”"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Yahweh said to Moses, “Pharaoh will not listen to you. This is so that I will do many amazing things in the land of Egypt.”"
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Moses and Aaron did all these wonders before Pharaoh. But Yahweh hardened Pharaoh’s heart, and Pharaoh did not let the people of Israel go out of his land."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 3,
+        "v": "Now Yahweh had made the Egyptians eager to please the Israelites. Moreover, the man Moses was very impressive in the sight of Pharaoh’s servants and the people of Egypt."
       }
-    ],
-    "num": 11
+    ]
   },
-  "id": "EXO unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Exodus",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Exodus "
-    }
-  ]
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Moses said, “Yahweh says this: ‘About midnight I will go throughout Egypt."
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "All the firstborn in the land of Egypt will die, from the firstborn of Pharaoh, who sits on his throne, to the firstborn of the slave girl who is behind the handmill grinding it, and to all the firstborn of the cattle."
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Then there will be a great wailing throughout all the land of Egypt, such as has never been nor ever will be again."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "But not even a dog will bark against any of the people of Israel, against either man or beast. In this way you will know that I am treating the Egyptians and the Israelites differently.’"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "All these servants of yours, Pharaoh, will come down to me and bow down to me. They will say, ‘Go, you and all the people who follow you!’ After that I will go out.” Then he went out from Pharaoh in great anger."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Yahweh said to Moses, “Pharaoh will not listen to you. This is so that I will do many amazing things in the land of Egypt.”"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Moses and Aaron did all these wonders before Pharaoh. But Yahweh hardened Pharaoh’s heart, and Pharaoh did not let the people of Israel go out of his land."
+      }
+    ]
+  }
+]

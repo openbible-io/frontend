@@ -1,199 +1,225 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "My spirit is consumed, and my days are over;"
-          },
-          {
-            "tag": "q",
-            "text": "the grave is ready for me."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Surely there are mockers with me;"
-          },
-          {
-            "tag": "q",
-            "text": "my eye must always see their provocation."
-          }
-        ],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "My spirit is consumed, and my days are over;"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Give now a pledge, be a guarantee for me with yourself;"
-          },
-          {
-            "tag": "q",
-            "text": "who else is there who will help me?"
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "For you, God, have kept their hearts from understanding;"
-          },
-          {
-            "tag": "q",
-            "text": "therefore, you will not exalt them over me."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "He who denounces his friends for a reward,"
-          },
-          {
-            "tag": "q",
-            "text": "the eyes of his children will fail."
-          }
-        ],
-        "tag": "m"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "But he has made me a byword of the people;"
-          },
-          {
-            "tag": "q",
-            "text": "they spit in my face."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "My eye is also dim because of sorrow;"
-          },
-          {
-            "tag": "q",
-            "text": "all my body parts are as thin as shadows."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Upright men will be stunned by this;"
-          },
-          {
-            "tag": "q",
-            "text": "the innocent man will stir himself up against godless men."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "The righteous man will keep to his way;"
-          },
-          {
-            "tag": "q",
-            "text": "he who has clean hands will grow stronger and stronger."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "But as for you all, come on now;"
-          },
-          {
-            "tag": "q",
-            "text": "I will not find a wise man among you."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "My days are past; my plans are shattered,"
-          },
-          {
-            "tag": "q",
-            "text": "and so are the desires of my heart. "
-          },
-          {
-            "tag": "f",
-            "text": "+ "
-          },
-          {
-            "tag": "ft",
-            "text": "Some modern versions have "
-          },
-          {
-            "tag": "fqa",
-            "text": "My days are past, as are my plans. The wishes of my heart are finished or"
-          },
-          {
-            "tag": "fqa",
-            "text": "... the strings of my heart have been broken . Others have"
-          },
-          {
-            "tag": "fqa",
-            "text": "My days are past; my plans are over, as are the wishes of my heart "
-          },
-          {
-            "tag": "f",
-            "text": "*"
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "These people, these mockers, change the night into day;"
-          },
-          {
-            "tag": "q",
-            "text": "light is near to darkness."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "If the only home I hope for is Sheol;"
-          },
-          {
-            "tag": "q",
-            "text": "and if I have spread my couch in the darkness;"
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "and if I have said to the pit, ‘You are my father,’"
-          },
-          {
-            "tag": "q",
-            "text": "and to the worm, ‘You are my mother or my sister,’"
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "where then is my hope?"
-          },
-          {
-            "tag": "q",
-            "text": "As for my hope, who can see any?"
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Will hope go down with me to the gates of Sheol"
-          },
-          {
-            "tag": "q",
-            "text": "when we descend to the dust?”"
-          }
-        ],
-        "tag": "m"
+        "t": "v",
+        "n": 2,
+        "v": "Surely there are mockers with me;"
       }
-    ],
-    "num": 17
+    ]
   },
-  "id": "JOB unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Job",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Job"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the grave is ready for me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "my eye must always see their provocation."
+  },
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Give now a pledge, be a guarantee for me with yourself;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "For you, God, have kept their hearts from understanding;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "He who denounces his friends for a reward,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "who else is there who will help me?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "therefore, you will not exalt them over me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the eyes of his children will fail."
+  },
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 6,
+        "v": "But he has made me a byword of the people;"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "My eye is also dim because of sorrow;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Upright men will be stunned by this;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "The righteous man will keep to his way;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "But as for you all, come on now;"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "My days are past; my plans are shattered,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "These people, these mockers, change the night into day;"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "If the only home I hope for is Sheol;"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "and if I have said to the pit, ‘You are my father,’"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "where then is my hope?"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Will hope go down with me to the gates of Sheol"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they spit in my face."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "all my body parts are as thin as shadows."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the innocent man will stir himself up against godless men."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he who has clean hands will grow stronger and stronger."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will not find a wise man among you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and so are the desires of my heart. "
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "light is near to darkness."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and if I have spread my couch in the darkness;"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and to the worm, ‘You are my mother or my sister,’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "As for my hope, who can see any?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "when we descend to the dust?”"
+  }
+]

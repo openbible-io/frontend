@@ -1,94 +1,154 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "Ascribe to Yahweh, you sons of God,"
       },
       {
-        "tag": "d",
-        "text": "A psalm; a song at the dedication of the temple. A psalm of David."
+        "t": "v",
+        "n": 2,
+        "v": "Ascribe to Yahweh the glory his name deserves."
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "I will exalt you, Yahweh, for you have raised me up and have not allowed my enemies to rejoice over me."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Yahweh my God, I cried to you for help, and you healed me."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Yahweh, you have brought up my soul from Sheol; you have kept me alive from going down to the grave."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Sing praises to Yahweh, you his faithful ones! Give thanks when you remember his holiness."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "For his anger is only for a moment; but his favor is for a lifetime."
-          },
-          {
-            "tag": "q",
-            "text": "Weeping comes for a night, but joy comes in the morning."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "In confidence I said, “I will never be shaken.”"
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Yahweh, by your favor you established me as a strong mountain; but when you hid your face, I was troubled."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "I cried to you, Yahweh, and sought favor from my Lord!"
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "What advantage is there in my death, if I go down to the grave? Will the dust praise you? Will it declare your trustworthiness?"
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Hear, Yahweh, and have mercy on me! Yahweh, be my helper."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "You have turned my mourning into dancing; you have removed my sackcloth and clothed me with gladness."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "So now my glory will sing praise to you and not be silent; Yahweh my God, I will give thanks to you forever!"
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "The voice of Yahweh is heard over the waters;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "The voice of Yahweh is powerful;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "The voice of Yahweh breaks the cedars;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "He makes Lebanon skip like a calf"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "The voice of Yahweh sends out flames of fire."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "The voice of Yahweh shakes the wilderness;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "The voice of Yahweh causes the oaks to twist"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Yahweh sits as king over the flood;"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Yahweh gives strength to his people;"
       }
-    ],
-    "num": 30
+    ]
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "ascribe to Yahweh glory and strength!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Bow down to Yahweh in the splendor of holiness!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the God of glory thunders,"
+  },
+  {
+    "t": "q",
+    "v": "Yahweh thunders over many waters."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the voice of Yahweh is majestic."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Yahweh breaks in pieces the cedars of Lebanon."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and Sirion like a young ox."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Yahweh shakes the wilderness of Kadesh."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and strips the forests bare."
+  },
+  {
+    "t": "q",
+    "v": "Everyone in his temple says, “Glory!”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Yahweh sits as king forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Yahweh blesses his people with peace."
+  }
+]

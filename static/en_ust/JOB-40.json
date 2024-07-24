@@ -1,242 +1,487 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Then Yahweh said to Job,"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "\"Do you still want to argue with me, the Almighty One?"
-          },
-          {
-            "tag": "q2",
-            "text": "Since you criticize me, you should be able to answer my questions!\""
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "Then Yahweh said to Job,"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Then Job replied to Yahweh,"
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "\"Now I realize that I am completely worthless. So how could I answer those questions?"
-          },
-          {
-            "tag": "q2",
-            "text": "I will put my hand over my mouth and not say anything."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "I have already said more than I should have said,"
-          },
-          {
-            "tag": "q2",
-            "text": "so now I will say nothing more.\""
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Then Yahweh again spoke to Job from inside a powerful storm. He said,"
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "\"I want to ask you some questions,"
-          },
-          {
-            "tag": "q2",
-            "text": "so act like a man and"
-          },
-          {
-            "tag": "q2",
-            "text": "get ready to answer my questions."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Are you going to accuse me and say that I am unjust?"
-          },
-          {
-            "tag": "q2",
-            "text": "Are you going to say that what I have done is wrong, in order that you can say that what you have done is right?"
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Do you have the same amount of power as I do?"
-          },
-          {
-            "tag": "q2",
-            "text": "Can your voice sound as loud as thunder, as mine can?"
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "If you can do that, then put on the robes"
-          },
-          {
-            "tag": "q2",
-            "text": "that show that you are glorious and are greatly honored!"
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Show that you are very angry;"
-          },
-          {
-            "tag": "q2",
-            "text": "show that you have the right to humble people who are very proud!"
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Humble those proud people just by looking at them angrily!"
-          },
-          {
-            "tag": "q2",
-            "text": "Crush wicked people quickly!"
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Bury them in the ground!"
-          },
-          {
-            "tag": "q2",
-            "text": "Send them to the place where dead people are,"
-          },
-          {
-            "tag": "q2",
-            "text": "where they will not be able to get out!"
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "If you do that, I will congratulate you"
-          },
-          {
-            "tag": "q2",
-            "text": "and say that truly you can save yourself by your own ability."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "Think also about hippopotamuses."
-          },
-          {
-            "tag": "q2",
-            "text": "I made you, and I made them also."
-          },
-          {
-            "tag": "q2",
-            "text": "They eat grass, like oxen do."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Their legs are very strong,"
-          },
-          {
-            "tag": "q2",
-            "text": "and the muscles of their bellies are very powerful."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Their tails are stiff like the branches of a cedar tree."
-          },
-          {
-            "tag": "q2",
-            "text": "The muscles of their thighs are close together."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "Their thigh bones are like tubes made of bronze,"
-          },
-          {
-            "tag": "q2",
-            "text": "and the bones of their legs are like bars made of iron."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "Hippopotamuses are among the strongest of the animals that I made,"
-          },
-          {
-            "tag": "q2",
-            "text": "and I, who created them, am the only one who can kill them."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "On the hills grows food for them to eat"
-          },
-          {
-            "tag": "q2",
-            "text": "while many other wild animals play nearby."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "They lie down in the water under the lotus plants;"
-          },
-          {
-            "tag": "q2",
-            "text": "they hide in tall reeds in the swamps."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "The hippopotamuses find shade under the lotus plants,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they are surrounded by willow trees growing in the streams."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "They are not disturbed by raging, flooding rivers;"
-          },
-          {
-            "tag": "q2",
-            "text": "they are not even disturbed when rivers like the Jordan River rush over them."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "No one can catch them with hooks"
-          },
-          {
-            "tag": "q2",
-            "text": "or by piercing their noses with the teeth of a trap!"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "“Do you still want to argue with me, the Almighty One?"
       }
-    ],
-    "num": 40
+    ]
   },
-  "id": "JOB unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Job"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Since you criticize me, you should be able to answer my questions!”"
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Then Job replied to Yahweh,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "“Now I realize that I am completely worthless. So how could I answer those questions?"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "I have already said more than I should have said,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will put my hand over my mouth and not say anything."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so now I will say nothing more.”"
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Then Yahweh again spoke to Job from inside a powerful storm. He said,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "“I want to ask you some questions,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Are you going to accuse me and say that I am unjust?"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Do you have the same amount of power as I do?"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "If you can do that, then put on the robes"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Show that you are very angry;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Humble those proud people just by looking at them angrily!"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Bury them in the ground!"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "If you do that, I will congratulate you"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Think also about hippopotamuses."
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Their legs are very strong,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Their tails are stiff like the branches of a cedar tree."
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Their thigh bones are like tubes made of bronze,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Hippopotamuses are among the strongest of the animals that I made,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "On the hills grows food for them to eat"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "They lie down in the water under the lotus plants;"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "The hippopotamuses find shade under the lotus plants,"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "They are not disturbed by raging, flooding rivers;"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "No one can catch them with hooks"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "“Think also about crocodiles."
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "Can you put ropes through their noses to control them"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Will they plead with you to act mercifully toward them"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Will they make an agreement with you to work for you,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Can you make them into pets like you do birds?"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Will men who partner in selling fish try to sell them in the market?"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Can you pierce crocodiles through their hides by throwing fishing spears at them?"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "If you grab one of them with your hands, it will give you a battle that you will never forget,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "It is useless to even hope to subdue them."
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "No one dares to make a crocodile angry."
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Also, everything on the earth is mine."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "I will tell you about how strong crocodiles’ legs are"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Can anyone strip off their hides?"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "Can anyone pry open their jaws, which have terrible teeth in them?"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "They have rows of scales on their back"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "The scales are very close together;"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "The scales are joined very closely to each other,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "When crocodiles sneeze, the tiny drops of water that come out of their noses sparkle in the sunlight."
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "It is as though sparks of fire poured out of their mouths."
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Smoke pours out of their nostrils"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Their breath can cause coals to blaze"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Their necks are very strong;"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "The folds in their flesh are very close together"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "They are fearless"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "When they rise up, they cause even very strong people to be terrified."
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "People cannot injure them with swords;"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "They certainly are not afraid of weapons made of straw or rotten wood,"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "Shooting arrows at them does not cause them to run away."
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "They are not afraid of clubs anymore than they would be afraid of men throwing bits of straw at them,"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "Their bellies are covered with scales that are as sharp as broken pieces of pottery."
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "They stir up the water and cause it to foam"
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "As they go through the water, their wakes glisten."
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "There are no creatures on earth that I have created as fearless as crocodiles."
+      },
+      {
+        "t": "v",
+        "n": 34,
+        "v": "They are the proudest of all the creatures;"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so act like a man and"
+  },
+  {
+    "t": "q",
+    "v": "get ready to answer my questions."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Are you going to say that what I have done is wrong, in order that you can say that what you have done is right?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Can your voice sound as loud as thunder, as mine can?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "that show that you are glorious and are greatly honored!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "show that you have the right to humble people who are very proud!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Crush wicked people quickly!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Send them to the place where dead people are,"
+  },
+  {
+    "t": "q",
+    "v": "where they will not be able to get out!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and say that truly you can save yourself by your own ability."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I made you, and I made them also."
+  },
+  {
+    "t": "q",
+    "v": "They eat grass, like oxen do."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and the muscles of their bellies are very powerful."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "The muscles of their thighs are close together."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and the bones of their legs are like bars made of iron."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and I, who created them, am the only one who can kill them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "while many other wild animals play nearby."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they hide in tall reeds in the swamps."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they are surrounded by willow trees growing in the streams."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they are not even disturbed when rivers like the Jordan River rush over them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "or by piercing their noses with the teeth of a trap!"
+  }
+]

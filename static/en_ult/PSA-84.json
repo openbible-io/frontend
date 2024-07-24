@@ -1,178 +1,237 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "God, do not be silent!"
       },
       {
-        "tag": "d",
-        "text": "For the chief musician; set to the Gittith style. A psalm of the sons of Korah."
+        "t": "v",
+        "n": 2,
+        "v": "Look, your enemies are making a commotion,"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "How lovely is the place where you live,"
-          },
-          {
-            "tag": "q",
-            "text": "Yahweh of hosts!"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "I long for the courts of Yahweh, my desire for it has made me exhausted."
-          },
-          {
-            "tag": "q",
-            "text": "My heart and all of my being call out to the living God."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Even the sparrow has found her a house"
-          },
-          {
-            "tag": "q",
-            "text": "and the swallow a nest for herself where she may lay her young"
-          },
-          {
-            "tag": "q",
-            "text": "near your altars, Yahweh of hosts,"
-          },
-          {
-            "tag": "q",
-            "text": "my King, and my God."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Blessed are they who live in your house;"
-          },
-          {
-            "tag": "q",
-            "text": "they praise you continually."
-          },
-          {
-            "tag": "qs",
-            "text": "Selah"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Blessed is the man whose strength is in you,"
-          },
-          {
-            "tag": "q",
-            "text": "in whose heart are the highways up to Zion."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Passing through the Valley of Tears, they find springs of water to drink."
-          },
-          {
-            "tag": "q",
-            "text": "The early rains cover it with blessings."
-          },
-          {
-            "tag": "f",
-            "text": "+ "
-          },
-          {
-            "tag": "ft",
-            "text": "Some versions have "
-          },
-          {
-            "tag": "fqa",
-            "text": "with pools of water ."
-          },
-          {
-            "tag": "f",
-            "text": "*"
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "They go from strength to strength;"
-          },
-          {
-            "tag": "q",
-            "text": "every one of them appears before God in Zion."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Yahweh God of hosts, hear my prayer;"
-          },
-          {
-            "tag": "q",
-            "text": "God of Jacob, listen to what I am saying!"
-          },
-          {
-            "tag": "qs",
-            "text": "Selah"
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "God, watch over our shield;"
-          },
-          {
-            "tag": "q",
-            "text": "show concern for your anointed."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "For one day in your courts is better than a thousand elsewhere."
-          },
-          {
-            "tag": "q",
-            "text": "I would rather be a doorkeeper in the house of my God,"
-          },
-          {
-            "tag": "q",
-            "text": "than to live within the tents of the wicked."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "For Yahweh God is our sun and shield;"
-          },
-          {
-            "tag": "q",
-            "text": "Yahweh will give grace and glory;"
-          },
-          {
-            "tag": "q",
-            "text": "he does not withhold any good thing from those who walk in integrity."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Yahweh of hosts,"
-          },
-          {
-            "tag": "q",
-            "text": "blessed is the man who trusts in you."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "They conspire against your people"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "They have said, “Come, and let us destroy them as a nation."
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "They schemed together with one strategy;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "the tents of Edom and the Ishmaelites,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Gebal, Ammon, Amalek;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Assyria also has joined with them;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Do to them as you did to Midian,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "They perished at Endor"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Make their nobles like Oreb and Zeeb,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "They said, “Let us take for ourselves"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "My God, make them like the whirling dust,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "like the fire that burns the forest,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Chase them with your strong wind,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Fill their faces with shame"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "May they be put to shame and be terrified forever;"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Then they will know that you alone, Yahweh,"
       }
-    ],
-    "num": 84
+    ]
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Do not ignore us and remain unmoved, God."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and those who hate you have raised their heads."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and plan together against your protected ones."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Then the name of Israel will no longer be remembered.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they made an alliance against you—"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "of Moab and the Hagrites,"
+  },
+  {
+    "t": "q",
+    "v": "and also Philistia and the inhabitants of Tyre."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they have become an arm for the descendants of Lot."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "as you did to Sisera and to Jabin at the Kishon River."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and became like manure for the earth."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and all their princes like Zebah and Zalmunna."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the pastures of God.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "like chaff before the wind,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and like the flame that sets the mountains on fire."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and terrify them with your windstorm."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so that they might seek your name, Yahweh."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "may they perish in disgrace."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "are the Most High over all the earth."
+  }
+]

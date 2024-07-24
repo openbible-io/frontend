@@ -1,292 +1,80 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "Bring me justice, God, and plead my cause against a nation that is not faithful."
       },
       {
-        "tag": "d",
-        "text": "For the chief musician. A psalm of the sons of Korah. A maschil."
+        "t": "v",
+        "n": 2,
+        "v": "For you are the God of my strength. Why have you rejected me?"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "We have heard with our ears, God,"
-          },
-          {
-            "tag": "q",
-            "text": "our fathers have told us"
-          },
-          {
-            "tag": "q",
-            "text": "what work you did in their days,"
-          },
-          {
-            "tag": "q",
-            "text": "in the days of old."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "You drove out the nations with your hand,"
-          },
-          {
-            "tag": "q",
-            "text": "but you planted our people;"
-          },
-          {
-            "tag": "q",
-            "text": "you afflicted the peoples,"
-          },
-          {
-            "tag": "q",
-            "text": "but you spread our people out in the land."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "For they did not obtain the land for their possession by their own sword,"
-          },
-          {
-            "tag": "q",
-            "text": "neither did their own arm save them;"
-          },
-          {
-            "tag": "q",
-            "text": "but your right hand, your arm, and the light of your face,"
-          },
-          {
-            "tag": "q",
-            "text": "because you were favorable to them."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "God, You are my King;"
-          },
-          {
-            "tag": "q",
-            "text": "command victory for Jacob."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Through you we will push down our adversaries;"
-          },
-          {
-            "tag": "q",
-            "text": "through your name we will tread them under, those who rise up against us."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "For I will not trust in my bow,"
-          },
-          {
-            "tag": "q",
-            "text": "neither will my sword save me."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "But you have saved us from our adversaries,"
-          },
-          {
-            "tag": "q",
-            "text": "and have put to shame those who hate us."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "In God we have made our boast all the day long,"
-          },
-          {
-            "tag": "q",
-            "text": "and we will give thanks to your name forever."
-          },
-          {
-            "tag": "qs",
-            "text": "Selah"
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "But now you have thrown us off and brought us dishonor,"
-          },
-          {
-            "tag": "q",
-            "text": "and you do not go out with our armies."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "You make us turn back from the adversary;"
-          },
-          {
-            "tag": "q",
-            "text": "and those who hate us take spoil for themselves."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "You have made us like sheep to be slaughtered"
-          },
-          {
-            "tag": "q",
-            "text": "and have scattered us among the nations."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "You sell your people for nothing;"
-          },
-          {
-            "tag": "q",
-            "text": "you have not increased your wealth by doing so."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "You make us a rebuke to our neighbors,"
-          },
-          {
-            "tag": "q",
-            "text": "scoffed and mocked by those around us."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "You make us an insult among the nations,"
-          },
-          {
-            "tag": "q",
-            "text": "a shaking of the head among the peoples."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "All the day long my dishonor is before me,"
-          },
-          {
-            "tag": "q",
-            "text": "and the shame of my face has covered me"
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "because of the voice of him who rebukes and insults,"
-          },
-          {
-            "tag": "q",
-            "text": "because of the enemy and the avenger."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "All this has come on us; yet we have not forgotten you"
-          },
-          {
-            "tag": "q",
-            "text": "or dealt falsely with your covenant."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "Our heart has not turned back;"
-          },
-          {
-            "tag": "q",
-            "text": "our steps have not gone from your way."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "Yet you have severely broken us in the place of jackals"
-          },
-          {
-            "tag": "q",
-            "text": "and covered us with the shadow of death."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "If we have forgotten the name of our God"
-          },
-          {
-            "tag": "q",
-            "text": "or spread out our hands to a strange god,"
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "would not God search this out?"
-          },
-          {
-            "tag": "q",
-            "text": "For he knows the secrets of the heart."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Indeed, for your sake we are being killed all day long;"
-          },
-          {
-            "tag": "q",
-            "text": "we are considered to be sheep for the slaughter."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "Awake, why do you sleep, Lord?"
-          },
-          {
-            "tag": "q",
-            "text": "Arise, do not throw us off permanently."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "Why do you hide your face"
-          },
-          {
-            "tag": "q",
-            "text": "and forget our affliction and our oppression?"
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "For we have sunk down into the dust;"
-          },
-          {
-            "tag": "q",
-            "text": "our bodies cling to the earth."
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "Rise up for our help"
-          },
-          {
-            "tag": "q",
-            "text": "and redeem us for the sake of your covenant faithfulness."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "Oh, send out your light and your truth, let them lead me."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Then I will go to the altar of God,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Why are you bowed down, my soul?"
       }
-    ],
-    "num": 44
+    ]
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Why do I go about in mourning because of the oppression of the enemy?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Let them bring me to your holy hill"
+  },
+  {
+    "t": "q",
+    "v": "and to your dwelling."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "to God my exceeding joy."
+  },
+  {
+    "t": "q",
+    "v": "I will praise you with the harp, God, my God."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Why are you upset within me?"
+  },
+  {
+    "t": "q",
+    "v": "Hope in God, for again I will praise him who is my salvation and my God."
+  }
+]

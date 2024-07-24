@@ -1,238 +1,205 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "Great is Yahweh and greatly to be praised,"
       },
       {
-        "tag": "d",
-        "text": "For the chief musician. A psalm of the sons of Korah."
+        "t": "v",
+        "n": 2,
+        "v": "Beautiful in elevation, the joy of the whole earth,"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Hear this, all you peoples;"
-          },
-          {
-            "tag": "q",
-            "text": "give ear, all you inhabitants of the world,"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "both low and high,"
-          },
-          {
-            "tag": "q",
-            "text": "rich and poor together."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "My mouth will speak wisdom"
-          },
-          {
-            "tag": "q",
-            "text": "and the meditation of my heart will be of understanding."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "I will incline my ear to a parable;"
-          },
-          {
-            "tag": "q",
-            "text": "I will begin my parable with the harp."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Why should I fear the days of evil,"
-          },
-          {
-            "tag": "q",
-            "text": "when iniquity surrounds me at my heels?"
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Why should I fear those who trust in their wealth"
-          },
-          {
-            "tag": "q",
-            "text": "and boast about the amount of their riches?"
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "It is certain that no one can redeem his brother"
-          },
-          {
-            "tag": "q",
-            "text": "or give God a ransom for him,"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "For the redemption of one’s life is costly,"
-          },
-          {
-            "tag": "q",
-            "text": "and no one can pay what we owe."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "No one can live forever"
-          },
-          {
-            "tag": "q",
-            "text": "so that his body should not decay."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "For he will see decay. Wise men die;"
-          },
-          {
-            "tag": "q",
-            "text": "the fool and the brute alike perish"
-          },
-          {
-            "tag": "q",
-            "text": "and leave their wealth to others."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Their inner thought is that their families will continue forever,"
-          },
-          {
-            "tag": "q",
-            "text": "and the places where they live, to all generations;"
-          },
-          {
-            "tag": "q",
-            "text": "they call their lands after their own names."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "But man, having wealth, does not remain alive;"
-          },
-          {
-            "tag": "q",
-            "text": "he is like the beasts that perish."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "This, their way, is their folly;"
-          },
-          {
-            "tag": "q",
-            "text": "yet after them, men approve of their sayings."
-          },
-          {
-            "tag": "qs",
-            "text": "Selah"
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "Like sheep they are appointed for Sheol,"
-          },
-          {
-            "tag": "q",
-            "text": "and death will be their shepherd."
-          },
-          {
-            "tag": "q",
-            "text": "The upright will rule over them in the morning,"
-          },
-          {
-            "tag": "q",
-            "text": "and their bodies will be consumed in Sheol,"
-          },
-          {
-            "tag": "q",
-            "text": "with no place for them to live."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "But God will redeem my life from the power of Sheol;"
-          },
-          {
-            "tag": "q",
-            "text": "he will receive me."
-          },
-          {
-            "tag": "qs",
-            "text": "Selah"
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Do not be afraid when one becomes rich,"
-          },
-          {
-            "tag": "q",
-            "text": "and the glory of his house increases."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "For when he dies he will take nothing away;"
-          },
-          {
-            "tag": "q",
-            "text": "his glory will not go down after him."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "He blessed his soul while he lived—"
-          },
-          {
-            "tag": "q",
-            "text": "and men praise you when you live for yourself—"
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "he will go to the generation of his fathers"
-          },
-          {
-            "tag": "q",
-            "text": "and they will never see the light again."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "One who has wealth but no understanding"
-          },
-          {
-            "tag": "q",
-            "text": "is like the beasts, which perish."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "God has made himself known in her palaces as a refuge."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "For, see, the kings assembled themselves;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "They saw it, then they were amazed;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Trembling took hold of them there,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "With the east wind"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "As we have heard, so have we seen"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "We have thought about your covenant faithfulness, God,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "As your name is, God,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Let Mount Zion be glad,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Walk around Mount Zion, go round about her;"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "notice well her walls,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "For this God is our God forever and ever;"
       }
-    ],
-    "num": 49
+    ]
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "in the city of our God on his holy mountain."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "is Mount Zion, on the sides of the north,"
+  },
+  {
+    "t": "q",
+    "v": "the city of the great King."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they passed by together."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they were dismayed, and they hurried away."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "pain as when a woman is in labor."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you break the ships of Tarshish."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "in the city of Yahweh of hosts, in the city of our God;"
+  },
+  {
+    "t": "q",
+    "v": "God will establish it forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "in the middle of your temple."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so is your praise to the ends of the earth;"
+  },
+  {
+    "t": "q",
+    "v": "your right hand is full of righteousness."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "let the daughters of Judah rejoice"
+  },
+  {
+    "t": "q",
+    "v": "because of your righteous decrees."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "count her towers,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and look at her palaces"
+  },
+  {
+    "t": "q",
+    "v": "so that you may tell it to the next generation."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he will be our guide to death."
+  }
+]

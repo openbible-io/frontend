@@ -1,151 +1,180 @@
-{
-  "chapter": {
-    "children": [
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "tag": "d",
-        "text": "A psalm written by David."
-      },
-      {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Yahweh, I call out to you;"
-          },
-          {
-            "tag": "q2",
-            "text": "please help me quickly!"
-          },
-          {
-            "tag": "q1",
-            "text": "Listen to me when I am calling to you."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Accept my prayer as though it were incense being burned as an offering to you."
-          },
-          {
-            "tag": "q2",
-            "text": "Accept me while I lift up my hands to pray to you,"
-          },
-          {
-            "tag": "q2",
-            "text": "just as you accept sacrifices that are offered to you in the evening."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Yahweh, do not allow me to say things that are wrong;"
-          },
-          {
-            "tag": "q2",
-            "text": "guard what I say as a sentry guards a door."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Prevent me from wanting to do anything that is wrong"
-          },
-          {
-            "tag": "q2",
-            "text": "and from joining with wicked men when they want to do evil deeds."
-          },
-          {
-            "tag": "q1",
-            "text": "Do not even allow me to share in eating delightful food with them!"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "It is all right if righteous people strike me or rebuke me"
-          },
-          {
-            "tag": "q2",
-            "text": "because they are trying to act kindly toward me to teach me to do what is right;"
-          },
-          {
-            "tag": "q1",
-            "text": "if they do that, it will be as if someone honored me by anointing my head with olive oil;"
-          },
-          {
-            "tag": "q2",
-            "text": "but I am always praying that you will punish the wicked because of the wicked deeds that they do."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "When their rulers are thrown down from the top of rocky cliffs,"
-          },
-          {
-            "tag": "q2",
-            "text": "they will know that what I am saying here is good."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "They will know one day that their bodies will lie scattered on the ground in the place of the dead,"
-          },
-          {
-            "tag": "q2",
-            "text": "just as one scatters clods of earth when he plows a field."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "But Yahweh God, I continue to request that you help me."
-          },
-          {
-            "tag": "q2",
-            "text": "I ask you to protect me;"
-          },
-          {
-            "tag": "q2",
-            "text": "do not allow me to die now!"
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "It is as though people have set traps for me;"
-          },
-          {
-            "tag": "q2",
-            "text": "protect me from falling into those traps."
-          },
-          {
-            "tag": "q2",
-            "text": "It is as though they have spread nets to catch me;"
-          },
-          {
-            "tag": "q2",
-            "text": "keep me from being caught in those nets."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "I wish that wicked people may fall into the traps they have set to catch me"
-          },
-          {
-            "tag": "q2",
-            "text": "while I escape from them."
-          }
-        ],
-        "auto": true
-      }
-    ],
-    "num": 141
+[
+  {
+    "t": "m",
+    "v": []
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh, rescue me from being attacked by evil men;"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "They are always planning to do evil things,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "By what they say, they injure people as poisonous snakes do."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Yahweh, protect me from the power of wicked people."
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "It is as though proud people have set a trap for me;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "I say to you, “Yahweh, you are my God."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Yahweh, my Lord, you are the one who strongly defends me;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Yahweh, do not give to wicked people the things that they desire,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Do not allow my enemies to become proud;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Cause burning coals to fall on their heads!"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Do not allow those who slander others to succeed;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Yahweh, I know that you will defend those who are oppressed,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Righteous people will surely thank you,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "even more, keep me safe from being attacked by violent people."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they are always encouraging people to start quarrels."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Keep me safe from violent men who plan to ruin me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "it is as though they have spread their nets to catch me;"
+  },
+  {
+    "t": "q",
+    "v": "it is as though they have put these things along the road to catch me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Listen to me while I cry out to you to help me.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you have protected me during battles as though you had put a helmet on my head."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and do not allow them to do the evil things that they plan to do."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "cause the evil things that they say they will do to me to happen to them instead."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Cause them to be thrown into deep pits from which they cannot climb out!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "cause evil things to happen to violent men and destroy them!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and that you will do what is just."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they will live in your presence."
+  }
+]

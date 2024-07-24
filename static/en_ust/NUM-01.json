@@ -1,263 +1,2230 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "tag": "toc1",
-        "text": "The Book of Numbers"
+        "t": "v",
+        "n": 1,
+        "v": ""
       },
       {
-        "tag": "toc2",
-        "text": "Numbers"
+        "t": "w",
+        "v": "In"
       },
       {
-        "tag": "toc3",
-        "text": "Num"
+        "t": "w",
+        "v": "the"
       },
       {
-        "tag": "mt1",
-        "text": "Numbers"
+        "t": "w",
+        "v": "second"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "In the second month of the year after the Israelite people had left Egypt, Yahweh spoke to Moses while he was in the sacred tent, in the wilderness of Sinai. Yahweh said to him,"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "\"Count how many Israelite men, from each family in Israel, and count them by name."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "You and Aaron must count the men who are at least twenty years old, those who can serve as soldiers in the army. Write down the number of the men, along with the names of their clans and families."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "I have chosen one man from each of the tribes to help you to do this. Each one must be a leader of his clan."
-          },
-          {
-            "tag": "v",
-            "num": "5-6",
-            "text": "Their names are:"
-          },
-          {
-            "tag": "q1",
-            "text": "Elizur son of Shedeur, from the tribe of Reuben;"
-          },
-          {
-            "tag": "q",
-            "text": "Shelumiel son of Zurishaddai, from the tribe of Simeon;"
-          },
-          {
-            "tag": "v",
-            "num": "7-9",
-            "text": "Nahshon son of Amminadab, from the tribe of Judah;"
-          },
-          {
-            "tag": "q1",
-            "text": "Nethanel son of Zuar, from the tribe of Issachar;"
-          },
-          {
-            "tag": "q1",
-            "text": "Eliab son of Helon, from the tribe of Zebulun;"
-          },
-          {
-            "tag": "v",
-            "num": "10-11",
-            "text": "Elishama son of Ammihud, from the tribe of Joseph's son Ephraim;"
-          },
-          {
-            "tag": "q1",
-            "text": "Gamaliel son of Pedahzur, from the tribe of Joseph's son Manasseh;"
-          },
-          {
-            "tag": "q1",
-            "text": "Abidan son of Gideoni, from the tribe of Benjamin;"
-          },
-          {
-            "tag": "v",
-            "num": "12-15",
-            "text": "Ahiezer son of Ammishaddai, from the tribe of Dan;"
-          },
-          {
-            "tag": "q",
-            "text": "Pagiel son of Ocran, from the tribe of Asher;"
-          },
-          {
-            "tag": "q",
-            "text": "Eliasaph son of Deuel, from the tribe of Gad;"
-          },
-          {
-            "tag": "q",
-            "text": "Ahira son of Enan, from the tribe of Naphtali.\""
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "month"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "These were the men whom Yahweh chose from the people. They were leaders of their tribes. They were the chief men of the clans of the Israelite people."
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "of"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Aaron and Moses summoned all these leaders,"
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "and they gathered all of the people on that same day. They listed the names of all the men who were at least 20 years old, and with their names they wrote the names of their clans and their family groups"
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "just as Moses had commanded. They wrote the names while the Israelites were there in the wilderness of Sinai."
-          },
-          {
-            "tag": "v",
-            "num": "20-21",
-            "text": "There were 46,500 men from the tribe of Reuben (who was Jacob's oldest son) who were at least twenty years old and were able to fight in battles. They were listed by their names, their clans, and their family groups."
-          },
-          {
-            "tag": "v",
-            "num": "22-23",
-            "text": "There were 59,300 men from the tribe of Simeon who were at least twenty years old and were able to fight in battles. They were listed by their names, their clans, and their family groups."
-          },
-          {
-            "tag": "v",
-            "num": "24-25",
-            "text": "There were 45,650 men from the tribe of Gad who were at least twenty years old and were able to fight in battles. They were listed by their names, their clans, and their family groups."
-          },
-          {
-            "tag": "v",
-            "num": "26-27",
-            "text": "There were 74,600 men from the tribe of Judah who were at least twenty years old and were able to fight in battles. They were listed by their names, their clans, and their family groups."
-          },
-          {
-            "tag": "v",
-            "num": "28-29",
-            "text": "There were 54,400 men from the tribe of Issachar who were at least twenty years old and were able to fight in battles. They were listed by their names, their clans, and their family groups."
-          },
-          {
-            "tag": "v",
-            "num": "30-31",
-            "text": "There were 57,400 men from the tribe of Zebulun who were at least twenty years old and were able to fight in battles. They were listed by their names, their clans, and their family groups."
-          },
-          {
-            "tag": "v",
-            "num": "32-33",
-            "text": "There were 40,500 men from the tribe of Ephraim who were at least twenty years old and were able to fight in battles. They were listed by their names, their clans, and their family groups."
-          },
-          {
-            "tag": "v",
-            "num": "34-35",
-            "text": "There were 32,200 men from the tribe of Manasseh who were at least twenty years old and were able to fight in battles. They were listed by their names, their clans, and their family groups."
-          },
-          {
-            "tag": "v",
-            "num": "36-37",
-            "text": "There were 35,400 men from the tribe of Benjamin who were at least twenty years old and were able to fight in battles. They were listed by their names, their clans, and their family groups."
-          },
-          {
-            "tag": "v",
-            "num": "38-39",
-            "text": "There were 62,700 men from the tribe of Dan who were at least twenty years old and were able to fight in battles. They were listed by their names, their clans, and their family groups."
-          },
-          {
-            "tag": "v",
-            "num": "40-41",
-            "text": "There were 41,500 men from the tribe of Asher who were at least twenty years old and were able to fight in battles. They were listed by their names, their clans, and their family groups."
-          },
-          {
-            "tag": "v",
-            "num": "42-43",
-            "text": "There were 53,400 men from the tribe of Naphtali who were at least twenty years old and were able to fight in battles. They were listed by their names, their clans, and their family groups."
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "the"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "44-45",
-            "text": "That was the number of men from each tribe that Aaron and Moses and the twelve leaders of the tribes of Israel listed, along with the names of their clans."
-          },
-          {
-            "tag": "v",
-            "num": "46",
-            "text": "The total was 603,550 men."
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "year"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "47",
-            "text": "But this number did not include the names of the men of the tribe of Levi,"
-          },
-          {
-            "tag": "v",
-            "num": "48",
-            "text": "because Yahweh had said to Moses,"
-          },
-          {
-            "tag": "v",
-            "num": "49",
-            "text": "\"When you count the men of the tribes of Israel, do not count the men in the tribe of Levi."
-          },
-          {
-            "tag": "v",
-            "num": "50",
-            "text": "Appoint the male descendants of Levi to take care of the sacred tent and the chest inside it that contains the tablets on which are written the Ten Commandments. They must also take care of the other things that are inside the tent. When you travel, they are the ones who must carry the sacred tent and all the things that are inside it, and they must take care of it and set up their tents around it."
-          },
-          {
-            "tag": "v",
-            "num": "51",
-            "text": "Whenever it is time for all of you to move to another location, the descendants of Levi are the ones who must dismantle the sacred tent. And when it is time to stop traveling, they are the ones who must set it up again. Any other person who goes near the sacred tent to do this work must be executed."
-          },
-          {
-            "tag": "v",
-            "num": "52",
-            "text": "The people of each Israelite tribe must set up their tents in their own area, and they must set up a flag that represents their tribe."
-          },
-          {
-            "tag": "v",
-            "num": "53",
-            "text": "But the male descendants of Levi must set up their tents around the sacred tent in order to protect the other Israelite people from being punished by Yahweh for coming close to the sacred tent. The descendants of Levi are the ones who must stand around the sacred tent to guard it.\""
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "after"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "54",
-            "text": "So the Israelite people did everything just like Yahweh had commanded Moses."
-          }
-        ],
-        "tag": "p"
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Israelite"
+      },
+      {
+        "t": "w",
+        "v": "people"
+      },
+      {
+        "t": "w",
+        "v": "had"
+      },
+      {
+        "t": "w",
+        "v": "left"
+      },
+      {
+        "t": "w",
+        "v": "Egypt"
+      },
+      {
+        "t": "w",
+        "v": "Yahweh"
+      },
+      {
+        "t": "w",
+        "v": "spoke"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "Moses"
+      },
+      {
+        "t": "w",
+        "v": "while"
+      },
+      {
+        "t": "w",
+        "v": "he"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "sacred"
+      },
+      {
+        "t": "w",
+        "v": "tent"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "wilderness"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Sinai"
+      },
+      {
+        "t": "w",
+        "v": "Yahweh"
+      },
+      {
+        "t": "w",
+        "v": "said"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "him"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "“"
+      },
+      {
+        "t": "w",
+        "v": "Count"
+      },
+      {
+        "t": "w",
+        "v": "how"
+      },
+      {
+        "t": "w",
+        "v": "many"
+      },
+      {
+        "t": "w",
+        "v": "Israelite"
+      },
+      {
+        "t": "w",
+        "v": "men"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "each"
+      },
+      {
+        "t": "w",
+        "v": "family"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "Israel"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "count"
+      },
+      {
+        "t": "w",
+        "v": "them"
+      },
+      {
+        "t": "w",
+        "v": "by"
+      },
+      {
+        "t": "w",
+        "v": "name"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "You"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "Aaron"
+      },
+      {
+        "t": "w",
+        "v": "must"
+      },
+      {
+        "t": "w",
+        "v": "count"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "men"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "are"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "least"
+      },
+      {
+        "t": "w",
+        "v": "twenty"
+      },
+      {
+        "t": "w",
+        "v": "years"
+      },
+      {
+        "t": "w",
+        "v": "old"
+      },
+      {
+        "t": "w",
+        "v": "those"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "can"
+      },
+      {
+        "t": "w",
+        "v": "serve"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "soldiers"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "army"
+      },
+      {
+        "t": "w",
+        "v": "Write"
+      },
+      {
+        "t": "w",
+        "v": "down"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "number"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "men"
+      },
+      {
+        "t": "w",
+        "v": "along"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "names"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "clans"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "families"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "I"
+      },
+      {
+        "t": "w",
+        "v": "have"
+      },
+      {
+        "t": "w",
+        "v": "chosen"
+      },
+      {
+        "t": "w",
+        "v": "one"
+      },
+      {
+        "t": "w",
+        "v": "man"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "each"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "tribes"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "help"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "do"
+      },
+      {
+        "t": "w",
+        "v": "this"
+      },
+      {
+        "t": "w",
+        "v": "Each"
+      },
+      {
+        "t": "w",
+        "v": "one"
+      },
+      {
+        "t": "w",
+        "v": "must"
+      },
+      {
+        "t": "w",
+        "v": "be"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "leader"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "his"
+      },
+      {
+        "t": "w",
+        "v": "clan"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Their names are:"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Nahshon son of Amminadab, from the tribe of Judah;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Elishama son of Ammihud, from the tribe of Joseph’s son Ephraim;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Ahiezer son of Ammishaddai, from the tribe of Dan;"
       }
-    ],
-    "num": 1
+    ]
   },
-  "id": "NUM unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Numbers"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Elizur son of Shedeur, from the tribe of Reuben;"
+  },
+  {
+    "t": "q",
+    "v": "Shelumiel son of Zurishaddai, from the tribe of Simeon;"
+  },
+  {
+    "t": "q",
+    "v": "Nethanel son of Zuar, from the tribe of Issachar;"
+  },
+  {
+    "t": "q",
+    "v": "Eliab son of Helon, from the tribe of Zebulun;"
+  },
+  {
+    "t": "q",
+    "v": "Gamaliel son of Pedahzur, from the tribe of Joseph’s son Manasseh;"
+  },
+  {
+    "t": "q",
+    "v": "Abidan son of Gideoni, from the tribe of Benjamin;"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Pagiel son of Ocran, from the tribe of Asher;"
+  },
+  {
+    "t": "q",
+    "v": "Eliasaph son of Deuel, from the tribe of Gad;"
+  },
+  {
+    "t": "q",
+    "v": "Ahira son of Enan, from the tribe of Naphtali.”"
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 16,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "These"
+      },
+      {
+        "t": "w",
+        "v": "were"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "men"
+      },
+      {
+        "t": "w",
+        "v": "whom"
+      },
+      {
+        "t": "w",
+        "v": "Yahweh"
+      },
+      {
+        "t": "w",
+        "v": "chose"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "people"
+      },
+      {
+        "t": "w",
+        "v": "They"
+      },
+      {
+        "t": "w",
+        "v": "were"
+      },
+      {
+        "t": "w",
+        "v": "leaders"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "tribes"
+      },
+      {
+        "t": "w",
+        "v": "They"
+      },
+      {
+        "t": "w",
+        "v": "were"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "chief"
+      },
+      {
+        "t": "w",
+        "v": "men"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "clans"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Israelite"
+      },
+      {
+        "t": "w",
+        "v": "people"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 17,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Aaron"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "Moses"
+      },
+      {
+        "t": "w",
+        "v": "summoned"
+      },
+      {
+        "t": "w",
+        "v": "all"
+      },
+      {
+        "t": "w",
+        "v": "these"
+      },
+      {
+        "t": "w",
+        "v": "leaders"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "gathered"
+      },
+      {
+        "t": "w",
+        "v": "all"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "people"
+      },
+      {
+        "t": "w",
+        "v": "on"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "same"
+      },
+      {
+        "t": "w",
+        "v": "day"
+      },
+      {
+        "t": "w",
+        "v": "They"
+      },
+      {
+        "t": "w",
+        "v": "listed"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "names"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "all"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "men"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "were"
+      },
+      {
+        "t": "w",
+        "v": "at"
+      },
+      {
+        "t": "w",
+        "v": "least"
+      },
+      {
+        "t": "w",
+        "v": "20"
+      },
+      {
+        "t": "w",
+        "v": "years"
+      },
+      {
+        "t": "w",
+        "v": "old"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "with"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "names"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "wrote"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "names"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "clans"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "family"
+      },
+      {
+        "t": "w",
+        "v": "groups"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "just"
+      },
+      {
+        "t": "w",
+        "v": "as"
+      },
+      {
+        "t": "w",
+        "v": "Moses"
+      },
+      {
+        "t": "w",
+        "v": "had"
+      },
+      {
+        "t": "w",
+        "v": "commanded"
+      },
+      {
+        "t": "w",
+        "v": "They"
+      },
+      {
+        "t": "w",
+        "v": "wrote"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "names"
+      },
+      {
+        "t": "w",
+        "v": "while"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Israelites"
+      },
+      {
+        "t": "w",
+        "v": "were"
+      },
+      {
+        "t": "w",
+        "v": "there"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "wilderness"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Sinai"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "There were 46,500 men from the tribe of Reuben (who was Jacob’s oldest son) who were at least twenty years old and were able to fight in battles. They were listed by their names, their clans, and their family groups."
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "There were 59,300 men from the tribe of Simeon who were at least twenty years old and were able to fight in battles. They were listed by their names, their clans, and their family groups."
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "There were 45,650 men from the tribe of Gad who were at least twenty years old and were able to fight in battles. They were listed by their names, their clans, and their family groups."
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "There were 74,600 men from the tribe of Judah who were at least twenty years old and were able to fight in battles. They were listed by their names, their clans, and their family groups."
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "There were 54,400 men from the tribe of Issachar who were at least twenty years old and were able to fight in battles. They were listed by their names, their clans, and their family groups."
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "There were 57,400 men from the tribe of Zebulun who were at least twenty years old and were able to fight in battles. They were listed by their names, their clans, and their family groups."
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "There were 40,500 men from the tribe of Ephraim who were at least twenty years old and were able to fight in battles. They were listed by their names, their clans, and their family groups."
+      },
+      {
+        "t": "v",
+        "n": 34,
+        "v": "There were 32,200 men from the tribe of Manasseh who were at least twenty years old and were able to fight in battles. They were listed by their names, their clans, and their family groups."
+      },
+      {
+        "t": "v",
+        "n": 36,
+        "v": "There were 35,400 men from the tribe of Benjamin who were at least twenty years old and were able to fight in battles. They were listed by their names, their clans, and their family groups."
+      },
+      {
+        "t": "v",
+        "n": 38,
+        "v": "There were 62,700 men from the tribe of Dan who were at least twenty years old and were able to fight in battles. They were listed by their names, their clans, and their family groups."
+      },
+      {
+        "t": "v",
+        "n": 40,
+        "v": "There were 41,500 men from the tribe of Asher who were at least twenty years old and were able to fight in battles. They were listed by their names, their clans, and their family groups."
+      },
+      {
+        "t": "v",
+        "n": 42,
+        "v": "There were 53,400 men from the tribe of Naphtali who were at least twenty years old and were able to fight in battles. They were listed by their names, their clans, and their family groups."
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 44,
+        "v": "That was the number of men from each tribe that Aaron and Moses and the twelve leaders of the tribes of Israel listed, along with the names of their clans."
+      },
+      {
+        "t": "v",
+        "n": 46,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "The"
+      },
+      {
+        "t": "w",
+        "v": "total"
+      },
+      {
+        "t": "w",
+        "v": "was"
+      },
+      {
+        "t": "w",
+        "v": "603"
+      },
+      {
+        "t": "w",
+        "v": "550"
+      },
+      {
+        "t": "w",
+        "v": "men"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 47,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "But"
+      },
+      {
+        "t": "w",
+        "v": "this"
+      },
+      {
+        "t": "w",
+        "v": "number"
+      },
+      {
+        "t": "w",
+        "v": "did"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "include"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "names"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "men"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "tribe"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Levi"
+      },
+      {
+        "t": "v",
+        "n": 48,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "because"
+      },
+      {
+        "t": "w",
+        "v": "Yahweh"
+      },
+      {
+        "t": "w",
+        "v": "had"
+      },
+      {
+        "t": "w",
+        "v": "said"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "Moses"
+      },
+      {
+        "t": "v",
+        "n": 49,
+        "v": "“"
+      },
+      {
+        "t": "w",
+        "v": "When"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "count"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "men"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "tribes"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Israel"
+      },
+      {
+        "t": "w",
+        "v": "do"
+      },
+      {
+        "t": "w",
+        "v": "not"
+      },
+      {
+        "t": "w",
+        "v": "count"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "men"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "tribe"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Levi"
+      },
+      {
+        "t": "v",
+        "n": 50,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Appoint"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "male"
+      },
+      {
+        "t": "w",
+        "v": "descendants"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Levi"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "take"
+      },
+      {
+        "t": "w",
+        "v": "care"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "sacred"
+      },
+      {
+        "t": "w",
+        "v": "tent"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "chest"
+      },
+      {
+        "t": "w",
+        "v": "inside"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "contains"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "tablets"
+      },
+      {
+        "t": "w",
+        "v": "on"
+      },
+      {
+        "t": "w",
+        "v": "which"
+      },
+      {
+        "t": "w",
+        "v": "are"
+      },
+      {
+        "t": "w",
+        "v": "written"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Ten"
+      },
+      {
+        "t": "w",
+        "v": "Commandments"
+      },
+      {
+        "t": "w",
+        "v": "They"
+      },
+      {
+        "t": "w",
+        "v": "must"
+      },
+      {
+        "t": "w",
+        "v": "also"
+      },
+      {
+        "t": "w",
+        "v": "take"
+      },
+      {
+        "t": "w",
+        "v": "care"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "other"
+      },
+      {
+        "t": "w",
+        "v": "things"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "are"
+      },
+      {
+        "t": "w",
+        "v": "inside"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "tent"
+      },
+      {
+        "t": "w",
+        "v": "When"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "travel"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "are"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "ones"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "must"
+      },
+      {
+        "t": "w",
+        "v": "carry"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "sacred"
+      },
+      {
+        "t": "w",
+        "v": "tent"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "all"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "things"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "are"
+      },
+      {
+        "t": "w",
+        "v": "inside"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "must"
+      },
+      {
+        "t": "w",
+        "v": "take"
+      },
+      {
+        "t": "w",
+        "v": "care"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "set"
+      },
+      {
+        "t": "w",
+        "v": "up"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "tents"
+      },
+      {
+        "t": "w",
+        "v": "around"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "v",
+        "n": 51,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "Whenever"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "is"
+      },
+      {
+        "t": "w",
+        "v": "time"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "all"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "you"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "move"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "another"
+      },
+      {
+        "t": "w",
+        "v": "location"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "descendants"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Levi"
+      },
+      {
+        "t": "w",
+        "v": "are"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "ones"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "must"
+      },
+      {
+        "t": "w",
+        "v": "dismantle"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "sacred"
+      },
+      {
+        "t": "w",
+        "v": "tent"
+      },
+      {
+        "t": "w",
+        "v": "And"
+      },
+      {
+        "t": "w",
+        "v": "when"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "is"
+      },
+      {
+        "t": "w",
+        "v": "time"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "stop"
+      },
+      {
+        "t": "w",
+        "v": "traveling"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "are"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "ones"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "must"
+      },
+      {
+        "t": "w",
+        "v": "set"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      },
+      {
+        "t": "w",
+        "v": "up"
+      },
+      {
+        "t": "w",
+        "v": "again"
+      },
+      {
+        "t": "w",
+        "v": "Any"
+      },
+      {
+        "t": "w",
+        "v": "other"
+      },
+      {
+        "t": "w",
+        "v": "person"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "goes"
+      },
+      {
+        "t": "w",
+        "v": "near"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "sacred"
+      },
+      {
+        "t": "w",
+        "v": "tent"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "do"
+      },
+      {
+        "t": "w",
+        "v": "this"
+      },
+      {
+        "t": "w",
+        "v": "work"
+      },
+      {
+        "t": "w",
+        "v": "must"
+      },
+      {
+        "t": "w",
+        "v": "be"
+      },
+      {
+        "t": "w",
+        "v": "executed"
+      },
+      {
+        "t": "v",
+        "n": 52,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "The"
+      },
+      {
+        "t": "w",
+        "v": "people"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "each"
+      },
+      {
+        "t": "w",
+        "v": "Israelite"
+      },
+      {
+        "t": "w",
+        "v": "tribe"
+      },
+      {
+        "t": "w",
+        "v": "must"
+      },
+      {
+        "t": "w",
+        "v": "set"
+      },
+      {
+        "t": "w",
+        "v": "up"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "tents"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "own"
+      },
+      {
+        "t": "w",
+        "v": "area"
+      },
+      {
+        "t": "w",
+        "v": "and"
+      },
+      {
+        "t": "w",
+        "v": "they"
+      },
+      {
+        "t": "w",
+        "v": "must"
+      },
+      {
+        "t": "w",
+        "v": "set"
+      },
+      {
+        "t": "w",
+        "v": "up"
+      },
+      {
+        "t": "w",
+        "v": "a"
+      },
+      {
+        "t": "w",
+        "v": "flag"
+      },
+      {
+        "t": "w",
+        "v": "that"
+      },
+      {
+        "t": "w",
+        "v": "represents"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "tribe"
+      },
+      {
+        "t": "v",
+        "n": 53,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "But"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "male"
+      },
+      {
+        "t": "w",
+        "v": "descendants"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Levi"
+      },
+      {
+        "t": "w",
+        "v": "must"
+      },
+      {
+        "t": "w",
+        "v": "set"
+      },
+      {
+        "t": "w",
+        "v": "up"
+      },
+      {
+        "t": "w",
+        "v": "their"
+      },
+      {
+        "t": "w",
+        "v": "tents"
+      },
+      {
+        "t": "w",
+        "v": "around"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "sacred"
+      },
+      {
+        "t": "w",
+        "v": "tent"
+      },
+      {
+        "t": "w",
+        "v": "in"
+      },
+      {
+        "t": "w",
+        "v": "order"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "protect"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "other"
+      },
+      {
+        "t": "w",
+        "v": "Israelite"
+      },
+      {
+        "t": "w",
+        "v": "people"
+      },
+      {
+        "t": "w",
+        "v": "from"
+      },
+      {
+        "t": "w",
+        "v": "being"
+      },
+      {
+        "t": "w",
+        "v": "punished"
+      },
+      {
+        "t": "w",
+        "v": "by"
+      },
+      {
+        "t": "w",
+        "v": "Yahweh"
+      },
+      {
+        "t": "w",
+        "v": "for"
+      },
+      {
+        "t": "w",
+        "v": "coming"
+      },
+      {
+        "t": "w",
+        "v": "close"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "sacred"
+      },
+      {
+        "t": "w",
+        "v": "tent"
+      },
+      {
+        "t": "w",
+        "v": "The"
+      },
+      {
+        "t": "w",
+        "v": "descendants"
+      },
+      {
+        "t": "w",
+        "v": "of"
+      },
+      {
+        "t": "w",
+        "v": "Levi"
+      },
+      {
+        "t": "w",
+        "v": "are"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "ones"
+      },
+      {
+        "t": "w",
+        "v": "who"
+      },
+      {
+        "t": "w",
+        "v": "must"
+      },
+      {
+        "t": "w",
+        "v": "stand"
+      },
+      {
+        "t": "w",
+        "v": "around"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "sacred"
+      },
+      {
+        "t": "w",
+        "v": "tent"
+      },
+      {
+        "t": "w",
+        "v": "to"
+      },
+      {
+        "t": "w",
+        "v": "guard"
+      },
+      {
+        "t": "w",
+        "v": "it"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 54,
+        "v": ""
+      },
+      {
+        "t": "w",
+        "v": "So"
+      },
+      {
+        "t": "w",
+        "v": "the"
+      },
+      {
+        "t": "w",
+        "v": "Israelite"
+      },
+      {
+        "t": "w",
+        "v": "people"
+      },
+      {
+        "t": "w",
+        "v": "did"
+      },
+      {
+        "t": "w",
+        "v": "everything"
+      },
+      {
+        "t": "w",
+        "v": "just"
+      },
+      {
+        "t": "w",
+        "v": "like"
+      },
+      {
+        "t": "w",
+        "v": "Yahweh"
+      },
+      {
+        "t": "w",
+        "v": "had"
+      },
+      {
+        "t": "w",
+        "v": "commanded"
+      },
+      {
+        "t": "w",
+        "v": "Moses"
+      }
+    ]
+  }
+]

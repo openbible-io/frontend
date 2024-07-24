@@ -1,285 +1,102 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "Save me, God, by your name,"
       },
       {
-        "tag": "d",
-        "text": "For the chief musician; on stringed instruments. A maschil of David."
+        "t": "v",
+        "n": 2,
+        "v": "Hear my prayer, God;"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Give ear to my prayer, God;"
-          },
-          {
-            "tag": "q",
-            "text": "and do not hide yourself from my plea."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Pay attention to me and answer me;"
-          },
-          {
-            "tag": "q",
-            "text": "I have no rest in my troubles"
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "because of the voice of my enemies,"
-          },
-          {
-            "tag": "q",
-            "text": "because of the oppression of the wicked;"
-          },
-          {
-            "tag": "q",
-            "text": "for they bring trouble on me"
-          },
-          {
-            "tag": "q",
-            "text": "and persecute me in anger."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "My heart trembles within me,"
-          },
-          {
-            "tag": "q",
-            "text": "and the terrors of death have fallen on me."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Fearfulness and trembling have come on me,"
-          },
-          {
-            "tag": "q",
-            "text": "and horror has overwhelmed me."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "I said, “Oh, if only I had wings like a dove!"
-          },
-          {
-            "tag": "q",
-            "text": "Then would I fly away and be at rest."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "See, then I would wander far away;"
-          },
-          {
-            "tag": "q",
-            "text": "I would stay in the wilderness."
-          },
-          {
-            "tag": "qs",
-            "text": "Selah"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "I would hurry to a shelter"
-          },
-          {
-            "tag": "q",
-            "text": "from the stormy wind and tempest.”"
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Devour them, Lord, confuse their language!"
-          },
-          {
-            "tag": "q",
-            "text": "For I have seen violence and strife in the city."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Day and night they go about on its walls;"
-          },
-          {
-            "tag": "q",
-            "text": "wickedness and trouble are in the middle of it."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Wickedness is in the middle of it;"
-          },
-          {
-            "tag": "q",
-            "text": "oppression and deceit do not leave its streets."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "For it was not an enemy who rebuked me,"
-          },
-          {
-            "tag": "q",
-            "text": "then I could have borne it;"
-          },
-          {
-            "tag": "q",
-            "text": "neither was it he who hated me who raised himself up against me,"
-          },
-          {
-            "tag": "q",
-            "text": "then I would have hidden myself from him."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "But it was you, a man equal to myself,"
-          },
-          {
-            "tag": "q",
-            "text": "my companion and my close friend."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "We had sweet fellowship together;"
-          },
-          {
-            "tag": "q",
-            "text": "we walked in the house of God with the throng."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "Let death come suddenly on them;"
-          },
-          {
-            "tag": "q",
-            "text": "let them go down alive to Sheol,"
-          },
-          {
-            "tag": "q",
-            "text": "for wickedness is where they live, right among them."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "As for me, I will call on God,"
-          },
-          {
-            "tag": "q",
-            "text": "and Yahweh will save me."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "In the evening, morning and at noonday I complain and moan;"
-          },
-          {
-            "tag": "q",
-            "text": "he will hear my voice."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "He will safely rescue my life from the battle that was against me,"
-          },
-          {
-            "tag": "q",
-            "text": "for those who fought against me were many."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "God, the one who rules from eternity,"
-          },
-          {
-            "tag": "q",
-            "text": "will hear them and humiliate them."
-          },
-          {
-            "tag": "qs",
-            "text": "Selah"
-          },
-          {
-            "tag": "q",
-            "text": "They never change,"
-          },
-          {
-            "tag": "q",
-            "text": "and they do not fear God."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "My friend has raised his hands against those who were at peace with him;"
-          },
-          {
-            "tag": "q",
-            "text": "he has not respected the covenant that he had."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "His mouth was smooth as butter,"
-          },
-          {
-            "tag": "q",
-            "text": "but his heart was hostile;"
-          },
-          {
-            "tag": "q",
-            "text": "his words were softer than oil,"
-          },
-          {
-            "tag": "q",
-            "text": "yet they were actually drawn swords."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Place your burdens on Yahweh, and he will sustain you;"
-          },
-          {
-            "tag": "q",
-            "text": "he will never allow a righteous person to totter."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "But you, God, will bring the wicked down into the pit of destruction;"
-          },
-          {
-            "tag": "q",
-            "text": "bloodthirsty and deceitful men will not live even half as long as others,"
-          },
-          {
-            "tag": "q",
-            "text": "but I will trust in you."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "For strangers have risen up against me,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "See, God is my helper;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "He will repay my enemies with evil;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "I will sacrifice to you with a freewill offering;"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "For he has rescued me from every trouble;"
       }
-    ],
-    "num": 55
+    ]
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and judge me in your might."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "give ear to the words of my mouth."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and pitiless men have sought after my life;"
+  },
+  {
+    "t": "q",
+    "v": "they have not set God before them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the Lord is the one who upholds me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "in your faithfulness, destroy them!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will give thanks to your name, Yahweh, for it is good."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "my eye has looked in triumph on my enemies."
+  }
+]

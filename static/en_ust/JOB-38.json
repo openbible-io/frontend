@@ -1,391 +1,680 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Then Yahweh spoke to Job from inside a powerful storm. He said to him,"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "\"Who are you to bring confusion to what I plan to do?"
-          },
-          {
-            "tag": "q2",
-            "text": "You are speaking ignorantly!"
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "I want to ask you some questions,"
-          },
-          {
-            "tag": "q2",
-            "text": "so act like a man and"
-          },
-          {
-            "tag": "q2",
-            "text": "get ready to answer my questions."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Where were you when I started to create the earth?"
-          },
-          {
-            "tag": "q2",
-            "text": "Since you know so much, tell me where you were at that time."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "If it was not I who decided how large the earth would be, then who decided?"
-          },
-          {
-            "tag": "q2",
-            "text": "Do you know who stretched a line around the earth to measure it?"
-          },
-          {
-            "tag": "q2",
-            "text": "Since you think that you know so much, you should surely know that!"
-          },
-          {
-            "tag": "v",
-            "num": "6-7",
-            "text": "What supports the pillars on which the earth rests?"
-          },
-          {
-            "tag": "q1",
-            "text": "When the stars that shine early in the morning sang together,"
-          },
-          {
-            "tag": "q2",
-            "text": "and someone put in place the stone that causes the earth to stay in its place,"
-          },
-          {
-            "tag": "q2",
-            "text": "and all the angels shouted joyfully when they saw that happen,"
-          },
-          {
-            "tag": "q1",
-            "text": "who laid that cornerstone?"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "When the seas poured out from under the earth,"
-          },
-          {
-            "tag": "q2",
-            "text": "who prevented the water from flooding over the land?"
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "It was I, not you, who caused clouds to come over the seas"
-          },
-          {
-            "tag": "q2",
-            "text": "and caused it to become very dark under those clouds."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "I set limits for the seas,"
-          },
-          {
-            "tag": "q2",
-            "text": "and I put barriers so that the water would not come over the land."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "I pointed to the shore and said to the water,"
-          },
-          {
-            "tag": "q2",
-            "text": "'I permit you to come up to here, but I do not permit you to come any farther."
-          },
-          {
-            "tag": "q2",
-            "text": "Your powerful waves must stop here!'"
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Job, have you ever commanded the morning to begin?"
-          },
-          {
-            "tag": "q2",
-            "text": "Have you ever told the sun to start rising and begin a new day?"
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Have you ever told the dawn to spread out over the whole earth"
-          },
-          {
-            "tag": "q2",
-            "text": "with the result that wicked people run away from the light?"
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "When it becomes light after the dawn,"
-          },
-          {
-            "tag": "q2",
-            "text": "the hills and the valleys become clear like a seal gives an image to the clay under it, or like the folds in a cloth."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "When it becomes daylight, the wicked do not have the darkness that they like;"
-          },
-          {
-            "tag": "q2",
-            "text": "in the daylight they no longer are able to hurt anyone."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Job, have you traveled to the springs in the bottom of the ocean from which the water in the seas comes?"
-          },
-          {
-            "tag": "q2",
-            "text": "Have you investigated the very bottom of the oceans?"
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Has someone shown you the gates to the place where dead people are,"
-          },
-          {
-            "tag": "q2",
-            "text": "the gates to the place where it is very dark among those who are dead?"
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "Do you know how big the earth is?"
-          },
-          {
-            "tag": "q2",
-            "text": "Tell me, if you know all these things!"
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "Where is the road to the place where light comes from?"
-          },
-          {
-            "tag": "q2",
-            "text": "Can you tell me where darkness lives?"
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Can you take the light and the darkness to the places where they must do their work every day?"
-          },
-          {
-            "tag": "q2",
-            "text": "Do you know where the road is that goes back to their homes?"
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "I am sure that you know these things"
-          },
-          {
-            "tag": "q2",
-            "text": "because you were born before the time when all things were created;"
-          },
-          {
-            "tag": "q2",
-            "text": "you must be very old!"
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Have you entered the place where I store the snow"
-          },
-          {
-            "tag": "q2",
-            "text": "and the place where I keep the hail?"
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "I store the snow and the hail in order that I can use them when people are fighting on earth,"
-          },
-          {
-            "tag": "q2",
-            "text": "in times when they are fighting wars."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "Where is the road to the place from which I cause the lightning to flash?"
-          },
-          {
-            "tag": "q2",
-            "text": "Where is the place from where the east wind begins to blow over all the earth?"
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "Who created the channels in which the rain comes down from the sky?"
-          },
-          {
-            "tag": "q2",
-            "text": "Who makes the roads for the thunder in the air?"
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "Who causes rain to fall in the desert,"
-          },
-          {
-            "tag": "q2",
-            "text": "in places where no one lives?"
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "Who sends the rain that gives moisture to barren areas, areas where nothing has grown,"
-          },
-          {
-            "tag": "q2",
-            "text": "so that grass begins to grow again?"
-          },
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "Does the rain have a father?"
-          },
-          {
-            "tag": "q2",
-            "text": "Does the dew also have a father?"
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "From whose womb does ice come in the winter?"
-          },
-          {
-            "tag": "q2",
-            "text": "Who gives birth to the frost that comes down from the sky?"
-          },
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "In the winter, the water freezes and becomes as hard as a rock,"
-          },
-          {
-            "tag": "q2",
-            "text": "and the surface of lakes becomes frozen."
-          },
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "Job, can you fasten the chains that hold the stars together in the cluster of the Pleiades stars?"
-          },
-          {
-            "tag": "q2",
-            "text": "Can you unfasten the cords of the stars in Orion?"
-          },
-          {
-            "tag": "v",
-            "num": "32",
-            "text": "Can you tell the stars and planets when they should shine?"
-          },
-          {
-            "tag": "q2",
-            "text": "Can you guide the stars in the groups of the Big Bear and the Little Bear?"
-          },
-          {
-            "tag": "v",
-            "num": "33",
-            "text": "Do you know the laws that the stars must obey?"
-          },
-          {
-            "tag": "q2",
-            "text": "Can you cause those same laws to rule everything here on the earth?"
-          },
-          {
-            "tag": "v",
-            "num": "34",
-            "text": "Can you shout commands up to the clouds and make rain pour down on you?"
-          },
-          {
-            "tag": "v",
-            "num": "35",
-            "text": "Can you cause flashes of lightning to come down and strike where you want them to strike?"
-          },
-          {
-            "tag": "q2",
-            "text": "Do those flashes say to you, 'Where do you want us to strike?'"
-          },
-          {
-            "tag": "v",
-            "num": "36",
-            "text": "Who enables the clouds to know when they should cause rain to fall?"
-          },
-          {
-            "tag": "v",
-            "num": "37",
-            "text": "Who is skilled enough to be able to count the clouds?"
-          },
-          {
-            "tag": "q2",
-            "text": "Who can tilt the containers of water in the sky to cause the rain to fall"
-          },
-          {
-            "tag": "v",
-            "num": "38",
-            "text": "so that the dry ground becomes hard"
-          },
-          {
-            "tag": "q2",
-            "text": "as the dry clods become wet and stick together?"
-          },
-          {
-            "tag": "v",
-            "num": "39-40",
-            "text": "When a lioness and her cubs crouch in their dens or hide in a thicket, waiting for some animal to pass by that they can kill,"
-          },
-          {
-            "tag": "q1",
-            "text": "can you find animals for the lioness to kill"
-          },
-          {
-            "tag": "q2",
-            "text": "so that she and her cubs can eat the meat and not be hungry anymore?"
-          },
-          {
-            "tag": "v",
-            "num": "41",
-            "text": "Who provides dead animals for the raven,"
-          },
-          {
-            "tag": "q2",
-            "text": "when its young are calling out to me for food,"
-          },
-          {
-            "tag": "q2",
-            "text": "when they are so weak because of their lack of food that they stagger around in their nests?"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "Then Yahweh spoke to Job from inside a powerful storm. He said to him,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "“Who are you to bring confusion to what I plan to do?"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "I want to ask you some questions,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Where were you when I started to create the earth?"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "If it was not I who decided how large the earth would be, then who decided?"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "What supports the pillars on which the earth rests?"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "When the seas poured out from under the earth,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "It was I, not you, who caused clouds to come over the seas"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "I set limits for the seas,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "I pointed to the shore and said to the water,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Job, have you ever commanded the morning to begin?"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Have you ever told the dawn to spread out over the whole earth"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "When it becomes light after the dawn,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "When it becomes daylight, the wicked do not have the darkness that they like;"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Job, have you traveled to the springs in the bottom of the ocean from which the water in the seas comes?"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Has someone shown you the gates to the place where dead people are,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Do you know how big the earth is?"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Where is the road to the place where light comes from?"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Can you take the light and the darkness to the places where they must do their work every day?"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "I am sure that you know these things"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Have you entered the place where I store the snow"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "I store the snow and the hail in order that I can use them when people are fighting on earth,"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "Where is the road to the place from which I cause the lightning to flash?"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "Who created the channels in which the rain comes down from the sky?"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "Who causes rain to fall in the desert,"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "Who sends the rain that gives moisture to barren areas, areas where nothing has grown,"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "Does the rain have a father?"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "From whose womb does ice come in the winter?"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "In the winter, the water freezes and becomes as hard as a rock,"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "Job, can you fasten the chains that hold the stars together in the cluster of the Pleiades stars?"
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "Can you tell the stars and planets when they should shine?"
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "Do you know the laws that the stars must obey?"
+      },
+      {
+        "t": "v",
+        "n": 34,
+        "v": "Can you shout commands up to the clouds and make rain pour down on you?"
+      },
+      {
+        "t": "v",
+        "n": 35,
+        "v": "Can you cause flashes of lightning to come down and strike where you want them to strike?"
+      },
+      {
+        "t": "v",
+        "n": 36,
+        "v": "Who enables the clouds to know when they should cause rain to fall?"
+      },
+      {
+        "t": "v",
+        "n": 37,
+        "v": "Who is skilled enough to be able to count the clouds?"
+      },
+      {
+        "t": "v",
+        "n": 38,
+        "v": "so that the dry ground becomes hard"
+      },
+      {
+        "t": "v",
+        "n": 39,
+        "v": "When a lioness and her cubs crouch in their dens or hide in a thicket, waiting for some animal to pass by that they can kill,"
+      },
+      {
+        "t": "v",
+        "n": 41,
+        "v": "Who provides dead animals for the raven,"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "“Job, do you know at what time of the year the female mountain goats give birth?"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "Do you know how many months pass from the time they become pregnant until their calves are born?"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "When they give birth, they crouch down,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "The young calves grow up in the open fields,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Who allows the wild donkeys to go wherever they want away from the cities?"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "I am the one who has freed them and put them in the desert plain,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "They do not like the noise in the cities;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "They go over the hills to find food;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Will a wild ox agree to work for you?"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Can you fasten a rope on it"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Since it is very strong, can you for that reason trust it to work for you?"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Can you rely on it to come back from the field"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Think also about the ostriches. They joyfully flap their wings,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "Ostriches lay their eggs on top of the ground and then walk away,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Ostriches never think about the possibility that some wild animal may step on the eggs and crush them."
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Ostriches act cruelly toward their chicks;"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "That is because I did not allow ostriches to be wise."
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "However, when they get up and begin to run,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Also, think about horses. Job, are you the one who made the horses to be strong?"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Are you the one who enabled them to leap forward like locusts?"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "They paw the ground, rejoicing because they are very strong,"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "It is as if they were laughing at the thought of being afraid. They are not afraid of anything!"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "The quivers containing the riders’ arrows rattle against the horses’ sides,"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "The horses run very quickly, and they speedily cover the ground;"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "They neigh joyfully when they hear someone blowing the trumpet."
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "Think about big birds. Are you the one who enabled hawks to spread their wings"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "Do eagles fly high up into the cliffs to make their nests"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "They live in holes in those cliffs."
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "As they watch carefully from there,"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "After an eagle kills an animal,"
       }
-    ],
-    "num": 38
+    ]
   },
-  "id": "JOB unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Job"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "You are speaking ignorantly!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so act like a man and"
+  },
+  {
+    "t": "q",
+    "v": "get ready to answer my questions."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Since you know so much, tell me where you were at that time."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Do you know who stretched a line around the earth to measure it?"
+  },
+  {
+    "t": "q",
+    "v": "Since you think that you know so much, you should surely know that!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "When the stars that shine early in the morning sang together,"
+  },
+  {
+    "t": "q",
+    "v": "and someone put in place the stone that causes the earth to stay in its place,"
+  },
+  {
+    "t": "q",
+    "v": "and all the angels shouted joyfully when they saw that happen,"
+  },
+  {
+    "t": "q",
+    "v": "who laid that cornerstone?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "who prevented the water from flooding over the land?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and caused it to become very dark under those clouds."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and I put barriers so that the water would not come over the land."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "‘I permit you to come up to here, but I do not permit you to come any farther."
+  },
+  {
+    "t": "q",
+    "v": "Your powerful waves must stop here!’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Have you ever told the sun to start rising and begin a new day?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "with the result that wicked people run away from the light?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the hills and the valleys become clear like a seal gives an image to the clay under it, or like the folds in a cloth."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "in the daylight they no longer are able to hurt anyone."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Have you investigated the very bottom of the oceans?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the gates to the place where it is very dark among those who are dead?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Tell me, if you know all these things!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Can you tell me where darkness lives?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Do you know where the road is that goes back to their homes?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because you were born before the time when all things were created;"
+  },
+  {
+    "t": "q",
+    "v": "you must be very old!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and the place where I keep the hail?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "in times when they are fighting wars."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Where is the place from where the east wind begins to blow over all the earth?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Who makes the roads for the thunder in the air?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "in places where no one lives?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so that grass begins to grow again?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Does the dew also have a father?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Who gives birth to the frost that comes down from the sky?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and the surface of lakes becomes frozen."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Can you unfasten the cords of the stars in Orion?"
+  },
+  {
+    "t": "q",
+    "v": "Can you guide the stars in the groups of the Big Bear and the Little Bear?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Can you cause those same laws to rule everything here on the earth?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Do those flashes say to you, ‘Where do you want us to strike?’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Who can tilt the containers of water in the sky to cause the rain to fall"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "as the dry clods become wet and stick together?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "can you find animals for the lioness to kill"
+  },
+  {
+    "t": "q",
+    "v": "so that she and her cubs can eat the meat and not be hungry anymore?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "when its young are calling out to me for food,"
+  },
+  {
+    "t": "q",
+    "v": "when they are so weak because of their lack of food that they stagger around in their nests?"
+  }
+]

@@ -8,11 +8,18 @@ export class Readers extends Component {
 	state = {
 		readers: [
 			{ book: 'GEN', chapter: 4, width: 0, readerRef: createRef() },
-			{ book: 'MAT', chapter: 3, width: 0, readerRef: createRef() },
+			// { book: 'LUK', chapter: 3, width: 0, readerRef: createRef() },
 		]
 	}
 	preMoveMouseWidths
 	initialPageX = 0
+
+	componentDidMount() {
+		this.state.readers.forEach(reader => {
+			reader.width = reader.readerRef.current.base.offsetWidth
+		})
+		this.setState({ readers: this.state.readers })
+	}
 
 	onMouseMove = (e, index) => {
 		e.preventDefault()
@@ -22,13 +29,6 @@ export class Readers extends Component {
 				reader.width = this.preMoveMouseWidths[i] + offsetX
 			else if (i === index + 1)
 				reader.width = this.preMoveMouseWidths[i] - offsetX
-		})
-		this.setState({ readers: this.state.readers })
-	}
-
-	componentDidMount() {
-		this.state.readers.forEach(reader => {
-			reader.width = reader.readerRef.current.base.offsetWidth
 		})
 		this.setState({ readers: this.state.readers })
 	}

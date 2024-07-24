@@ -1,228 +1,266 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Yahweh said to me,"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "\"Ezekiel, sing a sad funeral song which will be a parable about the leaders of Israel. Say to the Israelite people,"
-          },
-          {
-            "tag": "q1",
-            "text": "'It is as though your mother had been a brave female lion"
-          },
-          {
-            "tag": "q2",
-            "text": "who raised her cubs among other lions."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "She taught one of them to hunt for other animals to kill,"
-          },
-          {
-            "tag": "q2",
-            "text": "and he even learned to kill and eat people."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "When people from other nations heard about him,"
-          },
-          {
-            "tag": "q2",
-            "text": "they trapped him in a pit."
-          },
-          {
-            "tag": "q1",
-            "text": "Then they used hooks"
-          },
-          {
-            "tag": "q2",
-            "text": "to drag him to Egypt."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "His mother waited for him to return,"
-          },
-          {
-            "tag": "q2",
-            "text": "but soon she stopped hoping for that to happen."
-          },
-          {
-            "tag": "q1",
-            "text": "So she raised another cub"
-          },
-          {
-            "tag": "q2",
-            "text": "who also became very fierce."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "He hunted along with other lions for animals to kill,"
-          },
-          {
-            "tag": "q2",
-            "text": "and he even learned to kill and eat people."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "He mistreated his victims' widows,"
-          },
-          {
-            "tag": "q2",
-            "text": "and he destroyed cities."
-          },
-          {
-            "tag": "q1",
-            "text": "When he roared loudly,"
-          },
-          {
-            "tag": "q2",
-            "text": "everyone was terrified and abandoned everything they owned."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "So people of other nations planned to kill him;"
-          },
-          {
-            "tag": "q2",
-            "text": "and men came from many places"
-          },
-          {
-            "tag": "q1",
-            "text": "to spread out a net for him."
-          },
-          {
-            "tag": "q2",
-            "text": "They caught him in it."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "They pulled him with hooks in his flesh and put him into an iron cage,"
-          },
-          {
-            "tag": "q2",
-            "text": "then they took him to the king of Babylon."
-          },
-          {
-            "tag": "q1",
-            "text": "There they locked him up so that the sound of his voice "
-          },
-          {
-            "tag": "q2",
-            "text": "could never be heard echoing on the hills of Israel.'"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh said to me,"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "'It is as though your mother"
-          },
-          {
-            "tag": "q2",
-            "text": "were a grapevine fertilized in blood,"
-          },
-          {
-            "tag": "q2",
-            "text": "and growing up beside a stream."
-          },
-          {
-            "tag": "q1",
-            "text": "There was plenty of water,"
-          },
-          {
-            "tag": "q2",
-            "text": "so it had lots of branches and produced a lot of grapes."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "That grapevine grew and became taller than all the nearby trees;"
-          },
-          {
-            "tag": "q2",
-            "text": "everyone could see that it was very strong and healthy."
-          },
-          {
-            "tag": "q1",
-            "text": "And those branches were good for making scepters that symbolize the power of a king."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "But Yahweh became very angry,"
-          },
-          {
-            "tag": "q2",
-            "text": "so he pulled up the vine by its roots"
-          },
-          {
-            "tag": "q1",
-            "text": "and threw it on the ground,"
-          },
-          {
-            "tag": "q2",
-            "text": "where the very hot winds from the desert dried up all its fruit."
-          },
-          {
-            "tag": "q1",
-            "text": "The strong branches wilted and were burned in a fire."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Now Yahweh has planted that vine in a hot, dry desert."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "A fire started to burn its stem,"
-          },
-          {
-            "tag": "q2",
-            "text": "and then started to burn the branches;"
-          },
-          {
-            "tag": "q1",
-            "text": "it burned all the grapes."
-          },
-          {
-            "tag": "q2",
-            "text": "Now not even one strong branch remains;"
-          },
-          {
-            "tag": "q1",
-            "text": "they will never become scepters for a king.'"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "“Ezekiel, sing a sad funeral song which will be a parable about the leaders of Israel. Say to the Israelite people,"
       },
       {
-        "children": [],
-        "tag": "m",
-        "text": "This funeral song must be sung very sadly.\""
+        "t": "v",
+        "n": 3,
+        "v": "She taught one of them to hunt for other animals to kill,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "When people from other nations heard about him,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "His mother waited for him to return,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "He hunted along with other lions for animals to kill,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "He mistreated his victims’ widows,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "So people of other nations planned to kill him;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "They pulled him with hooks in his flesh and put him into an iron cage,"
       }
-    ],
-    "num": 19
+    ]
   },
-  "id": "EZK unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Ezekiel"
-}
+  {
+    "t": "q",
+    "v": "‘It is as though your mother had been a brave female lion"
+  },
+  {
+    "t": "q",
+    "v": "who raised her cubs among other lions."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and he even learned to kill and eat people."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they trapped him in a pit."
+  },
+  {
+    "t": "q",
+    "v": "Then they used hooks"
+  },
+  {
+    "t": "q",
+    "v": "to drag him to Egypt."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but soon she stopped hoping for that to happen."
+  },
+  {
+    "t": "q",
+    "v": "So she raised another cub"
+  },
+  {
+    "t": "q",
+    "v": "who also became very fierce."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and he even learned to kill and eat people."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and he destroyed cities."
+  },
+  {
+    "t": "q",
+    "v": "When he roared loudly,"
+  },
+  {
+    "t": "q",
+    "v": "everyone was terrified and abandoned everything they owned."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and men came from many places"
+  },
+  {
+    "t": "q",
+    "v": "to spread out a net for him."
+  },
+  {
+    "t": "q",
+    "v": "They caught him in it."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "then they took him to the king of Babylon."
+  },
+  {
+    "t": "q",
+    "v": "There they locked him up so that the sound of his voice "
+  },
+  {
+    "t": "q",
+    "v": "could never be heard echoing on the hills of Israel.’"
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 10,
+        "v": "‘It is as though your mother"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "That grapevine grew and became taller than all the nearby trees;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "But Yahweh became very angry,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Now Yahweh has planted that vine in a hot, dry desert."
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "A fire started to burn its stem,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "were a grapevine fertilized in blood,"
+  },
+  {
+    "t": "q",
+    "v": "and growing up beside a stream."
+  },
+  {
+    "t": "q",
+    "v": "There was plenty of water,"
+  },
+  {
+    "t": "q",
+    "v": "so it had lots of branches and produced a lot of grapes."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "everyone could see that it was very strong and healthy."
+  },
+  {
+    "t": "q",
+    "v": "And those branches were good for making scepters that symbolize the power of a king."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so he pulled up the vine by its roots"
+  },
+  {
+    "t": "q",
+    "v": "and threw it on the ground,"
+  },
+  {
+    "t": "q",
+    "v": "where the very hot winds from the desert dried up all its fruit."
+  },
+  {
+    "t": "q",
+    "v": "The strong branches wilted and were burned in a fire."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and then started to burn the branches;"
+  },
+  {
+    "t": "q",
+    "v": "it burned all the grapes."
+  },
+  {
+    "t": "q",
+    "v": "Now not even one strong branch remains;"
+  },
+  {
+    "t": "q",
+    "v": "they will never become scepters for a king.’"
+  },
+  {
+    "t": "m",
+    "v": []
+  }
+]

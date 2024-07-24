@@ -1,241 +1,359 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh, I have come to you to be safe;"
       },
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 2,
+        "v": "Because you always do what is right, help me and rescue me;"
       },
       {
-        "tag": "d",
-        "text": "A psalm written by Solomon."
+        "t": "v",
+        "n": 3,
+        "v": "Be like a huge rock on top of which I can be safe;"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "O God, enable the king whom you appointed in Israel to rule justly."
-          },
-          {
-            "tag": "q2",
-            "text": "Show him how to judge matters fairly"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "so that he may judge your people fairly"
-          },
-          {
-            "tag": "q2",
-            "text": "and that he may govern your oppressed people justly."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "I desire that all over the country—even on the hills and mountains —"
-          },
-          {
-            "tag": "q2",
-            "text": "people will live peacefully and righteously."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Help your king to defend the poor people"
-          },
-          {
-            "tag": "q2",
-            "text": "and to rescue needy people and to defeat those who oppress them."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "I desire that your king may live as long as the sun shines,"
-          },
-          {
-            "tag": "q2",
-            "text": "as long as the moon shines, forever."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "I desire that his rule may be enjoyed by the people"
-          },
-          {
-            "tag": "q2",
-            "text": "as they enjoy rain on the growing crops,"
-          },
-          {
-            "tag": "q2",
-            "text": "as they enjoy the showers that fall on the land."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "I hope that people may live righteously during the years that he rules"
-          },
-          {
-            "tag": "q2",
-            "text": "and that the people may live peacefully and prosperously as long as the moon shines."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "I hope that the king of Israel may rule the people"
-          },
-          {
-            "tag": "q2",
-            "text": "in all the area from one sea in the east to another in the west"
-          },
-          {
-            "tag": "q2",
-            "text": "and from the Euphrates River to the most remote places on earth."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "I hope that those who live in the wilderness may bow down before him"
-          },
-          {
-            "tag": "q2",
-            "text": "and that his enemies may throw themselves on the ground in submission to our king."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "I hope that the king of the land of Tarshish and the kings of the islands in the sea may pay taxes to the king of Israel."
-          },
-          {
-            "tag": "q2",
-            "text": "I hope that the king of Sheba to the south and the king of Seba to the southwest may bring him gifts."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "I hope that all the other kings in the world may bow before the king of Israel"
-          },
-          {
-            "tag": "q2",
-            "text": "and that people of all nations may serve our king."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "He rescues poor people when they cry out for help,"
-          },
-          {
-            "tag": "q2",
-            "text": "and he helps those who are needy and those who have no one to help them."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "He pities those who are weak and needy;"
-          },
-          {
-            "tag": "q2",
-            "text": "he saves the people's lives."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "Our king rescues people from being oppressed and from being treated cruelly"
-          },
-          {
-            "tag": "q2",
-            "text": "because their lives are precious to our king."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "I hope that our king may live a long time!"
-          },
-          {
-            "tag": "q2",
-            "text": "I hope that he may be given gold from Sheba."
-          },
-          {
-            "tag": "q1",
-            "text": "I desire that people may always pray for our king"
-          },
-          {
-            "tag": "q2",
-            "text": "and praise him all the time, every day."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "I hope that the fields may produce plenty of grain everywhere, even on the tops of the hills in the land where he rules,"
-          },
-          {
-            "tag": "q2",
-            "text": "like the grain that grows on the hills in Lebanon."
-          },
-          {
-            "tag": "q1",
-            "text": "I hope that the cities in Israel will be as full of people"
-          },
-          {
-            "tag": "q2",
-            "text": "as the fields are full of grass."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "I desire that the name of the king may never be forgotten."
-          },
-          {
-            "tag": "q2",
-            "text": "I hope that people may remember him as long as the sun shines."
-          },
-          {
-            "tag": "q1",
-            "text": "I hope that all people will praise Yahweh, the God of Israel,"
-          },
-          {
-            "tag": "q2",
-            "text": "just as he has blessed the king of Israel."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "Praise Yahweh, the God whom we Israelites worship;"
-          },
-          {
-            "tag": "q2",
-            "text": "he is the only one who does wonderful things."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "Praise him forever!"
-          },
-          {
-            "tag": "q2",
-            "text": "I desire that his glory may fill the whole world!"
-          },
-          {
-            "tag": "q2",
-            "text": "Amen! May it be so!"
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "This is the end of the prayers written by David, son of Jesse."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 4,
+        "v": "God, rescue me from wicked people,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Yahweh, my Lord, you are the one whom I confidently expect to help me;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "I have depended on you all my life;"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "The manner in which you have rescued me has been an example to many people"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "I praise you all during the day,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Now when I have become an old man, do not reject me;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "My enemies say that they want to kill me;"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "They say, “God has abandoned him;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "God, do not stay far away from me;"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Cause those who accuse me to be defeated and destroyed;"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "But as for me, I will continually and confidently expect you to do great things for me,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "I will tell people that you do what is right;"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Yahweh, my Lord, I will praise you for your mighty deeds;"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "God, you have taught me many things ever since I was young,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Now, God, when I am old and my hair is gray,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "God, you do many righteous deeds;"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "You have caused us to have many troubles and to suffer much,"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "You will cause me to be greatly honored,"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "I will also praise you while I play my harp;"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "I will shout joyfully while I sing;"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "All during the day I will tell people that you act righteously"
       }
-    ],
-    "num": 72
+    ]
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "never allow me to become ashamed."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "listen to me, and save me!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "be like a strong fortress in which I am safe."
+  },
+  {
+    "t": "q",
+    "v": "You have commanded your angels to rescue me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "from the power of unjust and evil men."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I have trusted in you ever since I was young."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you have taken care of me since the day that I was born,"
+  },
+  {
+    "t": "q",
+    "v": "so I will always praise you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because they realize that you have been my strong defender."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and I proclaim that you are glorious."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "do not abandon me now when I am not strong anymore."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they talk together and plan how they can do that."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so now we can pursue him and seize him"
+  },
+  {
+    "t": "q",
+    "v": "because there is no one who will rescue him.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "hurry to help me!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "cause those who want to harm me to be shamed and disgraced."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and I will praise you more and more."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "all during the day I will tell people how you have saved me,"
+  },
+  {
+    "t": "q",
+    "v": "although what you have done is more than I can fully understand."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will proclaim that only you always act justly."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and I still tell people about your wonderful deeds."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "do not abandon me."
+  },
+  {
+    "t": "q",
+    "v": "Stay with me while I continue to proclaim to my children and grandchildren."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "it is as though they extend up to the sky."
+  },
+  {
+    "t": "q",
+    "v": "You have done great things;"
+  },
+  {
+    "t": "q",
+    "v": "there is no one like you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but you will cause us to become strong again;"
+  },
+  {
+    "t": "q",
+    "v": "when I am almost dead, you will keep us alive."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and you will encourage me again."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will praise you, my God, for faithfully doing what you have promised to do."
+  },
+  {
+    "t": "q",
+    "v": "I will play hymns to praise you, the holy God whom we Israelites worship."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "with my entire inner being I will sing"
+  },
+  {
+    "t": "q",
+    "v": "because you have rescued me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because those who wanted to harm me will have been defeated and disgraced."
+  }
+]

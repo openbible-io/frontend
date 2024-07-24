@@ -1,453 +1,175 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "A continual desire to sin is in the inner beings of wicked people."
       },
       {
-        "tag": "d",
-        "text": "A psalm written by David"
+        "t": "v",
+        "n": 2,
+        "v": "Because they want to believe good things about themselves,"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Do not be bothered by what wicked people do."
-          },
-          {
-            "tag": "q2",
-            "text": "Do not desire to have the things that people who do wrong have"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "because they will soon disappear like grass withers in the hot sun and dries up."
-          },
-          {
-            "tag": "q2",
-            "text": "Just like some green plants come up but die during the hot summer,"
-          },
-          {
-            "tag": "q2",
-            "text": "evil people will soon die also."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Trust in Yahweh and do what is good."
-          },
-          {
-            "tag": "q2",
-            "text": "If you do that, then you will live safely in the land he has given you,"
-          },
-          {
-            "tag": "q2",
-            "text": "and that land will be a place where you can be faithful to God as you live your lives."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Be delighted with all that Yahweh does for you;"
-          },
-          {
-            "tag": "q2",
-            "text": "if you do that, he will give you the things that you desire most."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Commit to Yahweh all the things that you plan to do;"
-          },
-          {
-            "tag": "q2",
-            "text": "trust in him,"
-          },
-          {
-            "tag": "q2",
-            "text": "and he will do whatever is needed to help you."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "He will show as clearly as the sunlight that you are innocent;"
-          },
-          {
-            "tag": "q2",
-            "text": "he will show as clearly as the sun at noontime"
-          },
-          {
-            "tag": "q2",
-            "text": "that all the things that you have decided are just."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Be quiet in Yahweh's presence and wait patiently for him to do what you want him to do."
-          },
-          {
-            "tag": "q2",
-            "text": "Do not be bothered when what evil men do is successful,"
-          },
-          {
-            "tag": "q2",
-            "text": "when they are able to do the wicked things that they plan."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Do not be angry about what wicked people do."
-          },
-          {
-            "tag": "q2",
-            "text": "Do not want to punish them yourself."
-          },
-          {
-            "tag": "q2",
-            "text": "Do not be envious of such people"
-          },
-          {
-            "tag": "q2",
-            "text": "because you will only harm yourself if you try to do that."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Someday Yahweh will get rid of wicked people,"
-          },
-          {
-            "tag": "q2",
-            "text": "but those who trust in him will live safely in the land that he has given to them."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Soon the wicked will disappear."
-          },
-          {
-            "tag": "q2",
-            "text": "You will look for them, but they will be gone."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "But those who are humble will live safely in their land."
-          },
-          {
-            "tag": "q2",
-            "text": "They will happily enjoy living peacefully and having the other good things that Yahweh gives them."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Wicked people plan to harm righteous people;"
-          },
-          {
-            "tag": "q2",
-            "text": "they snarl at them like wild animals."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "But Yahweh laughs at them"
-          },
-          {
-            "tag": "q2",
-            "text": "because he knows that someday he will judge and punish the wicked people."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "Wicked people pull out their swords"
-          },
-          {
-            "tag": "q2",
-            "text": "and they put strings on their bows,"
-          },
-          {
-            "tag": "q1",
-            "text": "ready to kill people who are poor"
-          },
-          {
-            "tag": "q2",
-            "text": "and to slaughter those who live righteously."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "But they will be killed by their own swords,"
-          },
-          {
-            "tag": "q2",
-            "text": "and their bows will be broken."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "It is good to be righteous even if you do not have many possessions,"
-          },
-          {
-            "tag": "q2",
-            "text": "but it is bad to be wicked even if you are very wealthy"
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "because Yahweh will completely remove the strength of wicked people,"
-          },
-          {
-            "tag": "q2",
-            "text": "but he will sustain people who live righteously."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "Day by day Yahweh protects those who have not done any evil things;"
-          },
-          {
-            "tag": "q2",
-            "text": "the things that Yahweh gives them will last forever."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "They will survive when calamities occur;"
-          },
-          {
-            "tag": "q2",
-            "text": "when there are famines, they will still have plenty to eat."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "But wicked people will die;"
-          },
-          {
-            "tag": "q2",
-            "text": "just as the beautiful wild flowers in the fields die under the hot sun and disappear like smoke,"
-          },
-          {
-            "tag": "q2",
-            "text": "Yahweh will cause his enemies to suddenly disappear."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "The wicked people borrow money, but they are not able to repay it;"
-          },
-          {
-            "tag": "q2",
-            "text": "righteous people, in contrast, have enough money to give generously to others."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Those whom Yahweh has blessed will live safely in the land that he has given to them,"
-          },
-          {
-            "tag": "q2",
-            "text": "but he will get rid of those people whom he has cursed."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "Yahweh protects those who do what is pleasing to him,"
-          },
-          {
-            "tag": "q2",
-            "text": "and he will enable them to walk confidently wherever they go;"
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "even if they stumble, they will not fall down"
-          },
-          {
-            "tag": "q2",
-            "text": "because Yahweh holds them by his hand."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "I was young previously, and now I am an old man,"
-          },
-          {
-            "tag": "q2",
-            "text": "but in all those years, I have never seen that righteous people have been abandoned by Yahweh,"
-          },
-          {
-            "tag": "q2",
-            "text": "nor have I seen that their children needed to beg for food."
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "Righteous people are generous and happily lend money to others,"
-          },
-          {
-            "tag": "q2",
-            "text": "and their children are a blessing to them."
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "Turn away from doing evil, and do what is good."
-          },
-          {
-            "tag": "q2",
-            "text": "If you do that, you and your descendants will live in your land forever."
-          },
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "This will happen because Yahweh likes to see people doing what is just,"
-          },
-          {
-            "tag": "q2",
-            "text": "and he will never forsake righteous people."
-          },
-          {
-            "tag": "q1",
-            "text": "He will protect them forever;"
-          },
-          {
-            "tag": "q2",
-            "text": "but he will get rid of the children of wicked people."
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "Righteous people will own the land that Yahweh promised to give to them,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they will live there forever."
-          },
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "Righteous people give wise advice to others,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they encourage other people to live rightly."
-          },
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "They fill their minds with God's laws;"
-          },
-          {
-            "tag": "q2",
-            "text": "they do not stray from walking on God's path."
-          },
-          {
-            "tag": "v",
-            "num": "32",
-            "text": "Those who are evil wait in ambush for righteous people"
-          },
-          {
-            "tag": "q2",
-            "text": "in order to kill them as they walk by."
-          },
-          {
-            "tag": "v",
-            "num": "33",
-            "text": "But Yahweh will not abandon righteous people"
-          },
-          {
-            "tag": "q2",
-            "text": "and let them fall into their enemies' hands."
-          },
-          {
-            "tag": "q1",
-            "text": "He will not allow righteous people to be condemned"
-          },
-          {
-            "tag": "q2",
-            "text": "when someone takes them to a judge to be put on trial."
-          },
-          {
-            "tag": "v",
-            "num": "34",
-            "text": "Be patient and trust that Yahweh will help you,"
-          },
-          {
-            "tag": "q2",
-            "text": "and walk on his paths."
-          },
-          {
-            "tag": "q1",
-            "text": "If you do that, he will honor you by giving you the land that he promised,"
-          },
-          {
-            "tag": "q2",
-            "text": "and when he gets rid of the wicked, you will see it happen."
-          },
-          {
-            "tag": "v",
-            "num": "35",
-            "text": "I have seen that wicked people who act like tyrants sometimes prosper like trees that grow well in fertile soil,"
-          },
-          {
-            "tag": "v",
-            "num": "36",
-            "text": "but when I looked later, they were gone!"
-          },
-          {
-            "tag": "q2",
-            "text": "I searched for them, but Yahweh had caused them to disappear."
-          },
-          {
-            "tag": "v",
-            "num": "37",
-            "text": "Notice the people who have not done evil things, those who act righteously;"
-          },
-          {
-            "tag": "q2",
-            "text": "their descendants will have peace in their inner beings."
-          },
-          {
-            "tag": "v",
-            "num": "38",
-            "text": "But Yahweh will get rid of the wicked;"
-          },
-          {
-            "tag": "q2",
-            "text": "he will also get rid of their descendants."
-          },
-          {
-            "tag": "v",
-            "num": "39",
-            "text": "Yahweh rescues righteous people;"
-          },
-          {
-            "tag": "q2",
-            "text": "in times of trouble he protects them."
-          },
-          {
-            "tag": "v",
-            "num": "40",
-            "text": "Yahweh helps them and saves them;"
-          },
-          {
-            "tag": "q2",
-            "text": "he rescues them from being attacked by wicked people"
-          },
-          {
-            "tag": "q2",
-            "text": "because they go to him to be protected."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "Everything that they say is deceitful and full of lies;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "While they are lying on their beds, they plan to do things to harm others;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Yahweh, your faithful love for us reaches as high as the heavens;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Your righteous behavior is as permanent as the highest mountains;"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "God, your faithful love for us is very precious."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "You provide for us plenty of food from the abundant supply that you have;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "You are the one who causes everything to live;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Continue to faithfully love those who are faithful to you,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Do not allow proud people to attack me,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Look where evil people have fallen on the ground, defeated;"
       }
-    ],
-    "num": 37
+    ]
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "They consider that they do not need to have an awesome respect for God."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they do not think that God knows and hates their sins."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they no longer do what is good"
+  },
+  {
+    "t": "q",
+    "v": "and are no longer wise."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they are determined to do things that are not good,"
+  },
+  {
+    "t": "q",
+    "v": "and they never refuse to do what is evil."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "your faithfulness in doing what you have promised extends up to the clouds."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "your acting justly will continue as long as the deepest oceans will continue."
+  },
+  {
+    "t": "q",
+    "v": "You take care of people and you take care of animals."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "You protect us like birds protect their baby birds under their wings ."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "your great gifts flow to us like a river."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "your light is what enables us to know the truth about you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and protect those who act righteously."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "or allow wicked people to chase me away."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they were thrown down, and they will never rise again."
+  }
+]

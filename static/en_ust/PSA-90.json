@@ -1,202 +1,703 @@
-{
-  "chapter": {
-    "children": [
-      {
-        "tag": "ms",
-        "text": "Book Four"
-      },
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "tag": "d",
-        "text": "A prayer by the prophet Moses"
-      },
-      {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Lord, you have always been like a home for us."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Before you created the mountains,"
-          },
-          {
-            "tag": "q2",
-            "text": "before you formed the earth and everything that is in it,"
-          },
-          {
-            "tag": "q1",
-            "text": "you were eternally God,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you will be God forever."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "When people die, you cause their corpses to become soil again;"
-          },
-          {
-            "tag": "q2",
-            "text": "you change their corpses to become dirt like that from which the first man was created."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "When you consider time,"
-          },
-          {
-            "tag": "q2",
-            "text": "a thousand years are as short as one day that passes;"
-          },
-          {
-            "tag": "q2",
-            "text": "you consider that they are as short as a few hours in the night."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "You cause people to die suddenly;"
-          },
-          {
-            "tag": "q2",
-            "text": "they live only a short time as a dream lasts only a short time."
-          },
-          {
-            "tag": "q2",
-            "text": "They are like grass that grows up."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "In the morning the grass sprouts and grows well,"
-          },
-          {
-            "tag": "q2",
-            "text": "but in the evening it dries up and completely withers."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Similarly, because of the sins that we commit, you become angry with us;"
-          },
-          {
-            "tag": "q2",
-            "text": "you terrify us and then you destroy us."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "It is as though you place our sins in front of you;"
-          },
-          {
-            "tag": "q2",
-            "text": "you spread out even our secret sins where you can see them."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Because you are angry with us, you cause our lives to end;"
-          },
-          {
-            "tag": "q2",
-            "text": "the years that we live pass as quickly as a sigh does."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "People live for only seventy years;"
-          },
-          {
-            "tag": "q2",
-            "text": "if they are strong, some of them live for eighty years."
-          },
-          {
-            "tag": "q1",
-            "text": "But even during good years we have much pain and troubles;"
-          },
-          {
-            "tag": "q2",
-            "text": "our lives soon end, and we die."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "No one has really experienced the powerful things you can do to them when you are angry with them,"
-          },
-          {
-            "tag": "q1",
-            "text": "and people are not afraid that you will punish them because of your being angry with them."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "So teach us to realize that we live for only a short time"
-          },
-          {
-            "tag": "q2",
-            "text": "in order that we may use our time wisely."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Yahweh, how long will you be angry with us?"
-          },
-          {
-            "tag": "q1",
-            "text": "Pity us who serve you."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "Each morning, show us that it is enough for us if you love us faithfully as you have promised you would do."
-          },
-          {
-            "tag": "q2",
-            "text": "Show us this so that we may shout joyfully and be happy all during the years that we live."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "Cause us to be now as happy for as many years as you afflicted us and we experienced troubles."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Enable us to see the great things that you do,"
-          },
-          {
-            "tag": "q2",
-            "text": "and enable our descendants to see your glorious power also."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Lord, our God, give us your blessings"
-          },
-          {
-            "tag": "q2",
-            "text": "and enable us to be successful;"
-          },
-          {
-            "tag": "q2",
-            "text": "yes, cause us to be successful in everything that we do!"
-          }
-        ],
-        "auto": true
-      }
-    ],
-    "num": 90
+[
+  {
+    "t": "m",
+    "v": []
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh, I will sing forever about the ways you faithfully love me;"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "I will tell people that you will faithfully love us forever,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Yahweh said, “I have made an agreement with David, whom I chose to serve me."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "‘I will enable various ones of your descendants to always be kings;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Yahweh, I desire that all those beings who are in heaven will praise you for the wonderful things that you do,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "There is no one in heaven who can be compared with you, Yahweh."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "When your holy angels gather together,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "O Yahweh God, commander of the angel armies, there is no one who is as powerful as you are;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "You rule over the powerful seas;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "You are the one who crushed and killed the great sea monster named Rahab."
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "The heavens are yours, and the earth is yours;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "You created everything from the north to the south."
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "You are very powerful;"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "You rule over people fairly and justly;"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Yahweh, how fortunate are those who worship you with joyful shouts in their festivals,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Every day, throughout the day, they rejoice in what you have done,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "You give us your glorious strength;"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Yahweh, you gave us the one who protects us;"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Long ago you spoke in a vision to one of your servants, saying,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "That man is David, the one who will serve me faithfully,"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "My strength will always be with him;"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "His enemies will never find ways to outwit him,"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "I will crush his enemies in front of him"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "I will always be loyal to him and faithfully love him"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "I will cause his kingdom to include all the land from the Mediterranean Sea to the Euphrates River."
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "He will say to me, ‘You are my Father,"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "I will give him the rights as my firstborn son;"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "I will always be loyal to him,"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "I will establish a line of his descendants that will never end,"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "But if some of his descendants disobey my laws"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "if they disregard my requirements"
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "I will punish them severely"
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "But I will not stop faithfully loving David,"
+      },
+      {
+        "t": "v",
+        "n": 34,
+        "v": "I will not break the agreement that I made with him;"
+      },
+      {
+        "t": "v",
+        "n": 35,
+        "v": "Once I made a solemn promise to David, and that will never change;"
+      },
+      {
+        "t": "v",
+        "n": 36,
+        "v": "I promised that the line of kings descended from him will go on forever;"
+      },
+      {
+        "t": "v",
+        "n": 37,
+        "v": "That line will be as permanent as the moon"
+      },
+      {
+        "t": "v",
+        "n": 38,
+        "v": "But Yahweh, now you have rejected him!"
+      },
+      {
+        "t": "v",
+        "n": 39,
+        "v": "It seems that you have broken the agreement that you made with your servant, David;"
+      },
+      {
+        "t": "v",
+        "n": 40,
+        "v": "You have torn down the walls that protect his city"
+      },
+      {
+        "t": "v",
+        "n": 41,
+        "v": "All those who pass by plunder his possessions;"
+      },
+      {
+        "t": "v",
+        "n": 42,
+        "v": "You have enabled his enemies to defeat him;"
+      },
+      {
+        "t": "v",
+        "n": 43,
+        "v": "You have caused his sword to become useless,"
+      },
+      {
+        "t": "v",
+        "n": 44,
+        "v": "You have caused his splendor to end"
+      },
+      {
+        "t": "v",
+        "n": 45,
+        "v": "You have caused him to become old when he is still young"
+      },
+      {
+        "t": "v",
+        "n": 46,
+        "v": "O Yahweh, how long will this continue?"
+      },
+      {
+        "t": "v",
+        "n": 47,
+        "v": "Do not forget that life is very short;"
+      },
+      {
+        "t": "v",
+        "n": 48,
+        "v": "No one can keep on living and never die;"
+      },
+      {
+        "t": "v",
+        "n": 49,
+        "v": "Yahweh, you promised long ago"
+      },
+      {
+        "t": "v",
+        "n": 50,
+        "v": "Yahweh, do not forget that people insult us!"
+      },
+      {
+        "t": "v",
+        "n": 51,
+        "v": "Yahweh, your enemies insult your chosen king!"
+      },
+      {
+        "t": "v",
+        "n": 52,
+        "v": "I hope that Yahweh will be praised forever!"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "people not yet born will hear that you faithfully do all that you have promised."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and that your being faithful to do what you have promised is as permanent as the sky."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I have made this solemn agreement with him:"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the line of kings descended from you will never end.’”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and that all your holy angels will sing about how you faithfully do what you promise."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "There are no angels in heaven who are equal to you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they declare that you must be revered;"
+  },
+  {
+    "t": "q",
+    "v": "they say that you are more awesome than all the angels that surround your throne!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "your faithfully doing all that you promise is like a cloak that always surrounds you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "when their waves rise up, you calm them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "You defeated and scattered your enemies with your great power."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "everything on the earth is yours because you created it all."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Mount Tabor and Mount Hermon joyfully praise you ."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you are extremely strong."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you are always faithfully loving us and doing what you promised."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "who live knowing that you are always watching over them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they praise you for being very good to them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because you act in our favor, we defeat our enemies."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you, the holy God whom we Israelites worship, he gave us our king."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "“I have crowned a famous soldier;"
+  },
+  {
+    "t": "q",
+    "v": "I chose him from among all the people to be a king."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and I anointed him with sacred olive oil to make him king."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "with my power, I will make him strong."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and wicked people will never defeat him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and get rid of those who hate him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and enable him to defeat his enemies."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "my God, the one who protects and saves me.’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he will be the greatest king on the earth."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and my agreement to bless him will last forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "various ones of his descendants will always be kings."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and do not behave as my commands say that they should,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and do not do the right things that I have told them to do,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and cause them to suffer for doing wrong."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and I will always do what I promised him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will not change even one word that I spoke to him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because I am God, I will never lie to David."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "it will last as long as the sun shines."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "that is always watching everything here on earth.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "You are very angry with the king whom you appointed."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "it seems as though you have thrown his crown into the dust."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and allowed all his forts to become ruins."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "his neighbors laugh at him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you have made them all happy."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and you have not helped him in his battles."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and knocked his throne to the ground."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and caused him to be very shamed."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Will you hide yourself from us forever?"
+  },
+  {
+    "t": "q",
+    "v": "How long will your anger against us burn like a fire?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Do not forget that you have created all of us to die uselessly."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "no one can bring himself back from the place of the dead."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "that you would faithfully love me;"
+  },
+  {
+    "t": "q",
+    "v": "why are you not doing that?"
+  },
+  {
+    "t": "q",
+    "v": "You solemnly promised this to David!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Heathen people curse me!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "They insult him wherever he goes."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Amen! May it be so!"
+  }
+]

@@ -1,384 +1,485 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "They brought in the ark of God and put it in the middle of the tent that David had set up for it. Then they offered burnt offerings and fellowship offerings before God."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "When David had finished sacrificing the burnt offering and the fellowship offerings, he blessed the people in the name of Yahweh."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "He distributed to every Israelite, both to men and women, a loaf of bread, and a piece of meat, and a cake of raisins."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "They brought in the ark of God and put it in the middle of the tent that David had set up for it. Then they offered burnt offerings and fellowship offerings before God."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "David appointed certain Levites to serve before the ark of Yahweh, and to celebrate, thank and praise Yahweh, the God of Israel."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "These Levites were Asaph the leader, and second to him Zechariah, Jaaziel, Shemiramoth, Jehiel, Mattithiah, Eliab, Benaiah, Obed Edom, and Jeiel. These were to play with stringed instruments and with harps. Asaph was to sound the cymbals, sounding loudly."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Benaiah and Jahaziel the priests were to blow the trumpets regularly, before the ark of the covenant of God."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "When David had finished sacrificing the burnt offering and the fellowship offerings, he blessed the people in the name of Yahweh."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Then on that day David first appointed Asaph and his brothers to sing this song of thanksgiving to Yahweh."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Give thanks to Yahweh, call on his name;"
-          },
-          {
-            "tag": "q",
-            "text": "make known his deeds among the nations."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Sing to him, sing praises to him;"
-          },
-          {
-            "tag": "q",
-            "text": "speak of all his marvelous deeds."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Boast in his holy name;"
-          },
-          {
-            "tag": "q",
-            "text": "let the heart of those who seek Yahweh rejoice."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Seek Yahweh and his strength;"
-          },
-          {
-            "tag": "q",
-            "text": "seek his presence continually."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Recall the marvelous things he has done,"
-          },
-          {
-            "tag": "q",
-            "text": "his miracles and the decrees from his mouth,"
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "you descendants of Israel his servant,"
-          },
-          {
-            "tag": "q",
-            "text": "you people of Jacob, his chosen ones."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "He is Yahweh, our God."
-          },
-          {
-            "tag": "q",
-            "text": "His decrees are on all the earth."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "Keep his covenant in mind forever,"
-          },
-          {
-            "tag": "q",
-            "text": "the word that he commanded for a thousand generations."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "He calls to mind the covenant that he made with Abraham,"
-          },
-          {
-            "tag": "q",
-            "text": "and his oath to Isaac."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "This is what he confirmed to Jacob as a statute,"
-          },
-          {
-            "tag": "q",
-            "text": "and to Israel as an everlasting covenant."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "He said, “I will give you the land of Canaan"
-          },
-          {
-            "tag": "q",
-            "text": "as your share of your inheritance.”"
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "When they were only few in number,"
-          },
-          {
-            "tag": "q",
-            "text": "so very few, and they were strangers in the land,"
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "they wandered from nation to nation,"
-          },
-          {
-            "tag": "q",
-            "text": "from one kingdom to another."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "He did not allow anyone to oppress them;"
-          },
-          {
-            "tag": "q",
-            "text": "he punished kings for their sakes."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "he said, “Do not touch my anointed ones,"
-          },
-          {
-            "tag": "q",
-            "text": "and do not harm my prophets.”"
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "Sing to Yahweh, all the earth;"
-          },
-          {
-            "tag": "q",
-            "text": "announce his salvation day after day."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "Declare his glory among the nations,"
-          },
-          {
-            "tag": "q",
-            "text": "his marvelous deeds among all the nations."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "For Yahweh is great and is to be praised greatly,"
-          },
-          {
-            "tag": "q",
-            "text": "and he is to be feared above all other gods."
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "For all the gods of the nations are idols,"
-          },
-          {
-            "tag": "q",
-            "text": "but it is Yahweh who made the heavens."
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "Splendor and majesty are in his presence."
-          },
-          {
-            "tag": "q",
-            "text": "Strength and joy are in his place."
-          },
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "Ascribe to Yahweh, you clans of peoples,"
-          },
-          {
-            "tag": "q",
-            "text": "ascribe to Yahweh glory and strength!"
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "Ascribe to Yahweh the glory his name deserves."
-          },
-          {
-            "tag": "q",
-            "text": "Bring an offering and come before him."
-          },
-          {
-            "tag": "q",
-            "text": "Bow down to Yahweh in the splendor of holiness."
-          },
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "Tremble before him, all the earth."
-          },
-          {
-            "tag": "q",
-            "text": "The world also is established; it cannot be shaken."
-          },
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "Let the heavens be glad, and let the earth rejoice;"
-          },
-          {
-            "tag": "q",
-            "text": "let them say among the nations, “Yahweh reigns.”"
-          },
-          {
-            "tag": "v",
-            "num": "32",
-            "text": "Let the sea roar, and that which fills it shout with joy."
-          },
-          {
-            "tag": "q",
-            "text": "Let the fields be joyful, and all that is in them."
-          },
-          {
-            "tag": "v",
-            "num": "33",
-            "text": "Then let the trees in the forest shout for joy before Yahweh,"
-          },
-          {
-            "tag": "q",
-            "text": "for he is coming to judge the earth."
-          },
-          {
-            "tag": "v",
-            "num": "34",
-            "text": "Give thanks to Yahweh, for he is good,"
-          },
-          {
-            "tag": "q",
-            "text": "for his covenant faithfulness endures forever."
-          },
-          {
-            "tag": "v",
-            "num": "35",
-            "text": "Then say, “Save us, God of our salvation."
-          },
-          {
-            "tag": "q",
-            "text": "Gather us together and rescue us from the other nations,"
-          },
-          {
-            "tag": "q",
-            "text": "so that we may give thanks to your holy name"
-          },
-          {
-            "tag": "q",
-            "text": "and glory in your praises.”"
-          },
-          {
-            "tag": "v",
-            "num": "36",
-            "text": "May Yahweh, the God of Israel, be praised"
-          },
-          {
-            "tag": "q",
-            "text": "from everlasting to everlasting."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [],
-        "tag": "m",
-        "text": "All the people said, “Amen” and praised Yahweh."
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "37",
-            "text": "So David left Asaph and his brothers there before the ark of the covenant of Yahweh, to serve continually before the ark, as every day’s work required."
-          },
-          {
-            "tag": "v",
-            "num": "38",
-            "text": "Obed Edom with those sixty-eight relatives were included. Obed Edom son of Jeduthun, along with Hosah, were to be gatekeepers."
-          },
-          {
-            "tag": "v",
-            "num": "39",
-            "text": "Zadok the priest and his fellow priests were to serve before the tabernacle of Yahweh at the high place in Gibeon."
-          },
-          {
-            "tag": "v",
-            "num": "40",
-            "text": "They were to offer burnt offerings to Yahweh on the altar for burnt offerings continually morning and evening, according to all that is written in the law of Yahweh, which he gave as a command to Israel."
-          },
-          {
-            "tag": "v",
-            "num": "41",
-            "text": "Heman and Jeduthun were with them, together with the rest who were chosen by name, to give thanks to Yahweh, because his covenant faithfulness endures forever."
-          },
-          {
-            "tag": "v",
-            "num": "42",
-            "text": "Heman and Jeduthun were in charge of those who played trumpets, cymbals, and the other instruments for the sacred music. The sons of Jeduthun guarded the gate."
-          },
-          {
-            "tag": "v",
-            "num": "43",
-            "text": "Then all the people returned to their homes, and David returned to bless his own household."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 3,
+        "v": "He distributed to every Israelite, both to men and women, a loaf of bread, and a piece of meat, and a cake of raisins."
       }
-    ],
-    "num": 16
+    ]
   },
-  "id": "CH unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Chronicles",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "First Chronicles "
-    }
-  ]
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 4,
+        "v": "David appointed certain Levites to serve before the ark of Yahweh, and to celebrate, thank and praise Yahweh, the God of Israel."
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "These Levites were Asaph the leader, and second to him Zechariah, Jaaziel, Shemiramoth, Jehiel, Mattithiah, Eliab, Benaiah, Obed Edom, and Jeiel. These were to play with stringed instruments and with harps. Asaph was to sound the cymbals, sounding loudly."
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Benaiah and Jahaziel the priests were to blow the trumpets regularly, before the ark of the covenant of God."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Then on that day David first appointed Asaph and his brothers to sing this song of thanksgiving to Yahweh."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Give thanks to Yahweh, call on his name;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Sing to him, sing praises to him;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Boast in his holy name;"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Seek Yahweh and his strength;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Recall the marvelous things he has done,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "you descendants of Israel his servant,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "He is Yahweh, our God."
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Keep his covenant in mind forever,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "He calls to mind the covenant that he made with Abraham,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "This is what he confirmed to Jacob as a statute,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "He said, “I will give you the land of Canaan"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "When they were only few in number,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "they wandered from nation to nation,"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "He did not allow anyone to oppress them;"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "he said, “Do not touch my anointed ones,"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "Sing to Yahweh, all the earth;"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "Declare his glory among the nations,"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "For Yahweh is great and is to be praised greatly,"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "For all the gods of the nations are idols,"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "Splendor and majesty are in his presence."
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "Ascribe to Yahweh, you clans of peoples,"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "Ascribe to Yahweh the glory his name deserves."
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "Tremble before him, all the earth."
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "Let the heavens be glad, and let the earth rejoice;"
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "Let the sea roar, and that which fills it shout with joy."
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "Then let the trees in the forest shout for joy before Yahweh,"
+      },
+      {
+        "t": "v",
+        "n": 34,
+        "v": "Give thanks to Yahweh, for he is good,"
+      },
+      {
+        "t": "v",
+        "n": 35,
+        "v": "Then say, “Save us, God of our salvation."
+      },
+      {
+        "t": "v",
+        "n": 36,
+        "v": "May Yahweh, the God of Israel, be praised"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "make known his deeds among the nations."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "speak of all his marvelous deeds."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "let the heart of those who seek Yahweh rejoice."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "seek his presence continually."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "his miracles and the decrees from his mouth,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you people of Jacob, his chosen ones."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "His decrees are on all the earth."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the word that he commanded for a thousand generations."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and his oath to Isaac."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and to Israel as an everlasting covenant."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "as your share of your inheritance.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so very few, and they were strangers in the land,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "from one kingdom to another."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he punished kings for their sakes."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and do not harm my prophets.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "announce his salvation day after day."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "his marvelous deeds among all the nations."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and he is to be feared above all other gods."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but it is Yahweh who made the heavens."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Strength and joy are in his place."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "ascribe to Yahweh glory and strength!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Bring an offering and come before him."
+  },
+  {
+    "t": "q",
+    "v": "Bow down to Yahweh in the splendor of holiness."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "The world also is established; it cannot be shaken."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "let them say among the nations, “Yahweh reigns.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Let the fields be joyful, and all that is in them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for he is coming to judge the earth."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for his covenant faithfulness endures forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Gather us together and rescue us from the other nations,"
+  },
+  {
+    "t": "q",
+    "v": "so that we may give thanks to your holy name"
+  },
+  {
+    "t": "q",
+    "v": "and glory in your praises.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "from everlasting to everlasting."
+  },
+  {
+    "t": "m",
+    "v": []
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 37,
+        "v": "So David left Asaph and his brothers there before the ark of the covenant of Yahweh, to serve continually before the ark, as every day’s work required."
+      },
+      {
+        "t": "v",
+        "n": 38,
+        "v": "Obed Edom with those sixty-eight relatives were included. Obed Edom son of Jeduthun, along with Hosah, were to be gatekeepers."
+      },
+      {
+        "t": "v",
+        "n": 39,
+        "v": "Zadok the priest and his fellow priests were to serve before the tabernacle of Yahweh at the high place in Gibeon."
+      },
+      {
+        "t": "v",
+        "n": 40,
+        "v": "They were to offer burnt offerings to Yahweh on the altar for burnt offerings continually morning and evening, according to all that is written in the law of Yahweh, which he gave as a command to Israel."
+      },
+      {
+        "t": "v",
+        "n": 41,
+        "v": "Heman and Jeduthun were with them, together with the rest who were chosen by name, to give thanks to Yahweh, because his covenant faithfulness endures forever."
+      },
+      {
+        "t": "v",
+        "n": 42,
+        "v": "Heman and Jeduthun were in charge of those who played trumpets, cymbals, and the other instruments for the sacred music. The sons of Jeduthun guarded the gate."
+      },
+      {
+        "t": "v",
+        "n": 43,
+        "v": "Then all the people returned to their homes, and David returned to bless his own household."
+      }
+    ]
+  }
+]

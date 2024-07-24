@@ -1,235 +1,385 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Yahweh, why do you keep yourself far away from us?"
-          },
-          {
-            "tag": "q2",
-            "text": "Why do you not pay attention when we have troubles?"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Proud, wicked people, have a terrible desire within them to make poor people suffer."
-          },
-          {
-            "tag": "q2",
-            "text": "God, make them fall into their own traps, so that what they did to others may be done to them!"
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "The wicked person boasts about the evil things he wants to do."
-          },
-          {
-            "tag": "q2",
-            "text": "He desires to own the things that others have, and he does not want them to own more things than he has."
-          },
-          {
-            "tag": "q2",
-            "text": "He boasts about all the things he owns, while he curses you, Yahweh."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "The wicked person is so proud"
-          },
-          {
-            "tag": "q2",
-            "text": "he never looks for God"
-          },
-          {
-            "tag": "q2",
-            "text": "and if he did look for God, he would not find him."
-          },
-          {
-            "tag": "q2",
-            "text": "He is too proud to even think about God."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "But, looking at the life of the wicked man,"
-          },
-          {
-            "tag": "q2",
-            "text": "it seems that everything he does is successful."
-          },
-          {
-            "tag": "q2",
-            "text": "He cannot even understand your commands, God,"
-          },
-          {
-            "tag": "q2",
-            "text": "and then he mocks his enemies."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "In his mind he thinks, \"Nothing bad can happen to me!"
-          },
-          {
-            "tag": "q2",
-            "text": "As long as I live, I will never have troubles.\""
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "When he speaks he always curses and tells lies,"
-          },
-          {
-            "tag": "q2",
-            "text": "and he makes threats against others."
-          },
-          {
-            "tag": "q2",
-            "text": "When he talks, he only speaks about hurting or destroying other people."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "He makes plans to attack the people living in the villages, people who have done nothing wrong."
-          },
-          {
-            "tag": "q2",
-            "text": "He waits in places where he can hide"
-          },
-          {
-            "tag": "q2",
-            "text": "while he keeps looking for more people he can attack,"
-          },
-          {
-            "tag": "q2",
-            "text": "people who cannot defend themselves."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "He waits for his victims like a lion who crouches down,"
-          },
-          {
-            "tag": "q2",
-            "text": "and just like the lion, he hides in the bushes."
-          },
-          {
-            "tag": "q2",
-            "text": "He is like the hunter who spreads out the net"
-          },
-          {
-            "tag": "q2",
-            "text": "so he can catch helpless people and drag them away."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "The helpless people are crushed by the wicked person's plans"
-          },
-          {
-            "tag": "q2",
-            "text": "and all the things he does."
-          },
-          {
-            "tag": "q2",
-            "text": "He is powerful, and when he opposes the helpless people,"
-          },
-          {
-            "tag": "q2",
-            "text": "he always takes away from them whatever he wants."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "The wicked person says, \"God cannot remember what I did."
-          },
-          {
-            "tag": "q2",
-            "text": "His eyes are covered, and he cannot see anything that I have done.\""
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Yahweh, arise! God, strike him down!"
-          },
-          {
-            "tag": "q2",
-            "text": "Do not forget those who are suffering!"
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Why does the most wicked person curse you, God, and turn away from you?"
-          },
-          {
-            "tag": "q2",
-            "text": "Does he think, \"God can never punish me\"?"
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "God, you do see the trouble and the distress that the wicked person causes."
-          },
-          {
-            "tag": "q2",
-            "text": "And you will strike the wicked man and punish him for all that he does."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "God, destroy the power of the person who is wicked and evil!"
-          },
-          {
-            "tag": "q2",
-            "text": "Make him pay for those evil things he did,"
-          },
-          {
-            "tag": "q2",
-            "text": "those things that he thought God would not find out about him."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Yahweh is king forever!"
-          },
-          {
-            "tag": "q2",
-            "text": "He will drive out foreign people from his land."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Yahweh, when the people who suffer cry out to you, you listen."
-          },
-          {
-            "tag": "q2",
-            "text": "You hear them when they pray and you encourage them."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "You defend the orphans and oppressed people"
-          },
-          {
-            "tag": "q2",
-            "text": "when the strong and the wicked work to do them harm."
-          },
-          {
-            "tag": "q2",
-            "text": "And so, no one has to worry or be terrified anymore."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh, I will praise you with all of my inner being."
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "I will sing to celebrate what you, who are much greater than all other gods, have done."
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "When my enemies realize that you are very powerful,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "You sit on your throne to judge people,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "You rebuked the people of other nations,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Our enemies have disappeared;"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "But Yahweh rules forever."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "He will judge all the people in the world justly;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Yahweh will be a refuge for those who are oppressed;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Those who know Yahweh trust in him;"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Yahweh rules on Mount Zion;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "He does not forget to punish those who have murdered others;"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Yahweh, act mercifully toward me!"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "I want to live in order that I can praise you at the gates of Jerusalem"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "It is as though the wicked people of many nations have dug a pit for me to fall into,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Because of what you have done, people know that you make justice happen;"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Wicked people will all die and be buried in their graves;"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "But you will not forget those who are needy;"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Yahweh, do not allow our enemies to conquer us"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Yahweh, teach them that they must be afraid of you and honor you."
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh, why do you keep yourself far away from us?"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "Proud, wicked people, have a terrible desire within them to make poor people suffer."
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "The wicked person boasts about the evil things he wants to do."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "The wicked person is so proud"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "But, looking at the life of the wicked man,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "In his mind he thinks, “Nothing bad can happen to me!"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "When he speaks he always curses and tells lies,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "He makes plans to attack the people living in the villages, people who have done nothing wrong."
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "He waits for his victims like a lion who crouches down,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "The helpless people are crushed by the wicked person’s plans"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "The wicked person says, “God cannot remember what I did."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Yahweh, arise! God, strike him down!"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Why does the most wicked person curse you, God, and turn away from you?"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "God, you do see the trouble and the distress that the wicked person causes."
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "God, destroy the power of the person who is wicked and evil!"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Yahweh is king forever!"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Yahweh, when the people who suffer cry out to you, you listen."
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "You defend the orphans and oppressed people"
       }
-    ],
-    "num": 10
+    ]
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will tell others about all the wonderful things that you have done."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they stumble, and then they are killed."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and you have judged fairly concerning me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and you have gotten rid of the wicked people;"
+  },
+  {
+    "t": "q",
+    "v": "you have erased their names forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you destroyed their cities,"
+  },
+  {
+    "t": "q",
+    "v": "and people do not even remember them anymore."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "He judges people while he sits on his throne."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he will be fair when he judges the people of every nation."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he will be like a shelter for them when they have trouble."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he never abandons those who come to him for help."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "praise him and sing to him."
+  },
+  {
+    "t": "q",
+    "v": "Tell the people of all the nations the marvelous things that he has done."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he will punish them,"
+  },
+  {
+    "t": "q",
+    "v": "and he will not ignore people who are crying because they are suffering."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Look at the ways that my enemies have injured me."
+  },
+  {
+    "t": "q",
+    "v": "Do not allow me to die because of these injuries."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and to rejoice because you rescued me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but they have fallen into that same pit."
+  },
+  {
+    "t": "q",
+    "v": "It is as though they have spread out a net to catch me,"
+  },
+  {
+    "t": "q",
+    "v": "but their feet have been caught in that same net."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you allow wicked people to be trapped by the same evil things that they themselves do."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "their spirits will go to be with all those who have forgotten about you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "what they confidently expect will never be in vain."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "just because they are strong;"
+  },
+  {
+    "t": "q",
+    "v": "You see what the people do and you bring justice to them all."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Cause them to know that they are only human beings."
+  }
+]

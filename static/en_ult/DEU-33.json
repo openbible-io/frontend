@@ -1,523 +1,581 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "This is the blessing with which Moses the man of God blessed the people of Israel before his death."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "He said:"
-          },
-          {
-            "tag": "q",
-            "text": "Yahweh came from Sinai"
-          },
-          {
-            "tag": "q",
-            "text": "and rose from Seir upon them."
-          },
-          {
-            "tag": "q",
-            "text": "He shined out from Mount Paran,"
-          },
-          {
-            "tag": "q",
-            "text": "and he came with ten thousands of holy ones."
-          },
-          {
-            "tag": "q",
-            "text": "In his right hand were flashes of lightning."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Indeed, he loves the peoples;"
-          },
-          {
-            "tag": "q",
-            "text": "all his holy ones are in your hand,"
-          },
-          {
-            "tag": "q",
-            "text": "and they bowed down at your feet;"
-          },
-          {
-            "tag": "q",
-            "text": "they received your words."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Moses commanded us a law,"
-          },
-          {
-            "tag": "q",
-            "text": "an inheritance for the assembly of Jacob."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Then there was a king in Jeshurun,"
-          },
-          {
-            "tag": "q",
-            "text": "when the heads of the people had gathered,"
-          },
-          {
-            "tag": "q",
-            "text": "all the tribes of Israel together."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Let Reuben live and not die,"
-          },
-          {
-            "tag": "q",
-            "text": "but may his men be few."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "This is the blessing with which Moses the man of God blessed the people of Israel before his death."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "This is the blessing for Judah. Moses said:"
-          },
-          {
-            "tag": "q",
-            "text": "Listen, Yahweh, to the voice of Judah,"
-          },
-          {
-            "tag": "q",
-            "text": "and bring him to his people again."
-          },
-          {
-            "tag": "q",
-            "text": "Fight for him;"
-          },
-          {
-            "tag": "q",
-            "text": "be a help against his enemies."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "He said:"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "About Levi, Moses said:"
-          },
-          {
-            "tag": "q",
-            "text": "Your Thummim and your Urim belong to your faithful one,"
-          },
-          {
-            "tag": "q",
-            "text": "the one whom you tested at Massah,"
-          },
-          {
-            "tag": "q",
-            "text": "with whom you struggled at the waters of Meribah."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "The man who said about his father and mother, “I have not seen them.”"
-          },
-          {
-            "tag": "q",
-            "text": "Neither did he acknowledge his brothers,"
-          },
-          {
-            "tag": "q",
-            "text": "nor did he take account of his own children."
-          },
-          {
-            "tag": "q",
-            "text": "For he guarded your word"
-          },
-          {
-            "tag": "q",
-            "text": "and kept your covenant."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "He teaches Jacob your decrees"
-          },
-          {
-            "tag": "q",
-            "text": "and Israel your law."
-          },
-          {
-            "tag": "q",
-            "text": "He will put incense before you"
-          },
-          {
-            "tag": "q",
-            "text": "and whole burnt offerings on your altar."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Bless, Yahweh, his possessions,"
-          },
-          {
-            "tag": "q",
-            "text": "and accept the work of his hands."
-          },
-          {
-            "tag": "q",
-            "text": "Shatter the loins of those who rise up against him,"
-          },
-          {
-            "tag": "q",
-            "text": "and those of the people who hate him, so that they do not rise up again."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 3,
+        "v": "Indeed, he loves the peoples;"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "About Benjamin, Moses said:"
-          },
-          {
-            "tag": "q",
-            "text": "The one loved by Yahweh lives in security beside him;"
-          },
-          {
-            "tag": "q",
-            "text": "Yahweh shields him all the day long,"
-          },
-          {
-            "tag": "q",
-            "text": "and he lives between Yahweh’s arms."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 4,
+        "v": "Moses commanded us a law,"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "About Joseph, Moses said:"
-          },
-          {
-            "tag": "q",
-            "text": "May his land be blessed by Yahweh"
-          },
-          {
-            "tag": "q",
-            "text": "with the precious things of heaven, with the dew,"
-          },
-          {
-            "tag": "q",
-            "text": "and with the deep that lies beneath."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "May his land be blessed with the precious things of the harvest of the sun,"
-          },
-          {
-            "tag": "q",
-            "text": "with the precious things of the produce of the months,"
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "with the finest things of the ancient mountains,"
-          },
-          {
-            "tag": "q",
-            "text": "and with the precious things of the everlasting hills."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "May his land be blessed with the precious things of the earth and its abundance,"
-          },
-          {
-            "tag": "q",
-            "text": "and with the good will of him who was in the bush."
-          },
-          {
-            "tag": "q",
-            "text": "Let the blessing come on the head of Joseph,"
-          },
-          {
-            "tag": "q",
-            "text": "and on the top of the head of him who was prince over his brothers."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "The firstborn of an ox, majestic is he,"
-          },
-          {
-            "tag": "q",
-            "text": "and his horns are the horns of a wild ox."
-          },
-          {
-            "tag": "q",
-            "text": "With them he will push the peoples, all of them, to the ends of the earth."
-          },
-          {
-            "tag": "q",
-            "text": "These are the ten thousands of Ephraim;"
-          },
-          {
-            "tag": "q",
-            "text": "these are the thousands of Manasseh."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 5,
+        "v": "Then there was a king in Jeshurun,"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "About Zebulun, Moses said:"
-          },
-          {
-            "tag": "q",
-            "text": "Rejoice, Zebulun, in your going out,"
-          },
-          {
-            "tag": "q",
-            "text": "and you, Issachar, in your tents."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "They will call the peoples to the mountains."
-          },
-          {
-            "tag": "q",
-            "text": "There will they offer sacrifices of righteousness."
-          },
-          {
-            "tag": "q",
-            "text": "For they will suck the abundance of the seas,"
-          },
-          {
-            "tag": "q",
-            "text": "and from the sand on the seashore."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "About Gad, Moses said:"
-          },
-          {
-            "tag": "q",
-            "text": "Blessed be he who enlarges Gad."
-          },
-          {
-            "tag": "q",
-            "text": "He will live there like a lioness,"
-          },
-          {
-            "tag": "q",
-            "text": "and he will tear off an arm or a head."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "He provided the best part for himself,"
-          },
-          {
-            "tag": "q",
-            "text": "for there was the leader’s portion of land reserved."
-          },
-          {
-            "tag": "q",
-            "text": "He came with the heads of the people."
-          },
-          {
-            "tag": "q",
-            "text": "He carried out the justice of Yahweh"
-          },
-          {
-            "tag": "q",
-            "text": "and his decrees with Israel."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "About Dan, Moses said:"
-          },
-          {
-            "tag": "q",
-            "text": "Dan is a lion cub"
-          },
-          {
-            "tag": "q",
-            "text": "that leaps out from Bashan."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "About Naphtali, Moses said:"
-          },
-          {
-            "tag": "q",
-            "text": "Naphtali, satisfied with favor,"
-          },
-          {
-            "tag": "q",
-            "text": "and full of the blessing of Yahweh,"
-          },
-          {
-            "tag": "q",
-            "text": "take possession of the land to the west and south."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "About Asher, Moses said:"
-          },
-          {
-            "tag": "q",
-            "text": "Blessed be Asher more than the other sons;"
-          },
-          {
-            "tag": "q",
-            "text": "let him be acceptable to his brothers,"
-          },
-          {
-            "tag": "q",
-            "text": "and let him dip his foot in olive oil."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "May your city bars be iron and bronze;"
-          },
-          {
-            "tag": "q",
-            "text": "as long as will be your days, so long will your security be."
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "There is no one like God, Jeshurun—the upright one,"
-          },
-          {
-            "tag": "q",
-            "text": "who rides through the heavens to your help,"
-          },
-          {
-            "tag": "q",
-            "text": "and in his majesty on the clouds."
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "The eternal God is a refuge,"
-          },
-          {
-            "tag": "q",
-            "text": "and underneath are the everlasting arms."
-          },
-          {
-            "tag": "q",
-            "text": "He thrust out the enemy from before you,"
-          },
-          {
-            "tag": "q",
-            "text": "and he said, “Destroy!”"
-          },
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "Israel dwelt in safety."
-          },
-          {
-            "tag": "q",
-            "text": "Jacob’s spring was secure"
-          },
-          {
-            "tag": "q",
-            "text": "in a land of grain and new wine;"
-          },
-          {
-            "tag": "q",
-            "text": "indeed, let his heavens drop dew on him."
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "Your blessings are many, Israel!"
-          },
-          {
-            "tag": "q",
-            "text": "Who is like you, a people saved by Yahweh,"
-          },
-          {
-            "tag": "q",
-            "text": "the shield of your help,"
-          },
-          {
-            "tag": "q",
-            "text": "and the sword of your majesty?"
-          },
-          {
-            "tag": "q",
-            "text": "Your enemies will come trembling to you;"
-          },
-          {
-            "tag": "q",
-            "text": "you will trample down their high places."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 6,
+        "v": "Let Reuben live and not die,"
       }
-    ],
-    "num": 33
+    ]
   },
-  "id": "DEU unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Deuteronomy",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Deuteronomy "
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": "Yahweh came from Sinai"
+  },
+  {
+    "t": "q",
+    "v": "and rose from Seir upon them."
+  },
+  {
+    "t": "q",
+    "v": "He shined out from Mount Paran,"
+  },
+  {
+    "t": "q",
+    "v": "and he came with ten thousands of holy ones."
+  },
+  {
+    "t": "q",
+    "v": "In his right hand were flashes of lightning."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "all his holy ones are in your hand,"
+  },
+  {
+    "t": "q",
+    "v": "and they bowed down at your feet;"
+  },
+  {
+    "t": "q",
+    "v": "they received your words."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "an inheritance for the assembly of Jacob."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "when the heads of the people had gathered,"
+  },
+  {
+    "t": "q",
+    "v": "all the tribes of Israel together."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but may his men be few."
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 7,
+        "v": "This is the blessing for Judah. Moses said:"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "Listen, Yahweh, to the voice of Judah,"
+  },
+  {
+    "t": "q",
+    "v": "and bring him to his people again."
+  },
+  {
+    "t": "q",
+    "v": "Fight for him;"
+  },
+  {
+    "t": "q",
+    "v": "be a help against his enemies."
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 8,
+        "v": "About Levi, Moses said:"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "The man who said about his father and mother, “I have not seen them.”"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "He teaches Jacob your decrees"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Bless, Yahweh, his possessions,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "Your Thummim and your Urim belong to your faithful one,"
+  },
+  {
+    "t": "q",
+    "v": "the one whom you tested at Massah,"
+  },
+  {
+    "t": "q",
+    "v": "with whom you struggled at the waters of Meribah."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Neither did he acknowledge his brothers,"
+  },
+  {
+    "t": "q",
+    "v": "nor did he take account of his own children."
+  },
+  {
+    "t": "q",
+    "v": "For he guarded your word"
+  },
+  {
+    "t": "q",
+    "v": "and kept your covenant."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and Israel your law."
+  },
+  {
+    "t": "q",
+    "v": "He will put incense before you"
+  },
+  {
+    "t": "q",
+    "v": "and whole burnt offerings on your altar."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and accept the work of his hands."
+  },
+  {
+    "t": "q",
+    "v": "Shatter the loins of those who rise up against him,"
+  },
+  {
+    "t": "q",
+    "v": "and those of the people who hate him, so that they do not rise up again."
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 12,
+        "v": "About Benjamin, Moses said:"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "The one loved by Yahweh lives in security beside him;"
+  },
+  {
+    "t": "q",
+    "v": "Yahweh shields him all the day long,"
+  },
+  {
+    "t": "q",
+    "v": "and he lives between Yahweh’s arms."
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 13,
+        "v": "About Joseph, Moses said:"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "May his land be blessed with the precious things of the harvest of the sun,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "with the finest things of the ancient mountains,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "May his land be blessed with the precious things of the earth and its abundance,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "The firstborn of an ox, majestic is he,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "May his land be blessed by Yahweh"
+  },
+  {
+    "t": "q",
+    "v": "with the precious things of heaven, with the dew,"
+  },
+  {
+    "t": "q",
+    "v": "and with the deep that lies beneath."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "with the precious things of the produce of the months,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and with the precious things of the everlasting hills."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and with the good will of him who was in the bush."
+  },
+  {
+    "t": "q",
+    "v": "Let the blessing come on the head of Joseph,"
+  },
+  {
+    "t": "q",
+    "v": "and on the top of the head of him who was prince over his brothers."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and his horns are the horns of a wild ox."
+  },
+  {
+    "t": "q",
+    "v": "With them he will push the peoples, all of them, to the ends of the earth."
+  },
+  {
+    "t": "q",
+    "v": "These are the ten thousands of Ephraim;"
+  },
+  {
+    "t": "q",
+    "v": "these are the thousands of Manasseh."
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 18,
+        "v": "About Zebulun, Moses said:"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "They will call the peoples to the mountains."
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "Rejoice, Zebulun, in your going out,"
+  },
+  {
+    "t": "q",
+    "v": "and you, Issachar, in your tents."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "There will they offer sacrifices of righteousness."
+  },
+  {
+    "t": "q",
+    "v": "For they will suck the abundance of the seas,"
+  },
+  {
+    "t": "q",
+    "v": "and from the sand on the seashore."
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 20,
+        "v": "About Gad, Moses said:"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "He provided the best part for himself,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "Blessed be he who enlarges Gad."
+  },
+  {
+    "t": "q",
+    "v": "He will live there like a lioness,"
+  },
+  {
+    "t": "q",
+    "v": "and he will tear off an arm or a head."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for there was the leader’s portion of land reserved."
+  },
+  {
+    "t": "q",
+    "v": "He came with the heads of the people."
+  },
+  {
+    "t": "q",
+    "v": "He carried out the justice of Yahweh"
+  },
+  {
+    "t": "q",
+    "v": "and his decrees with Israel."
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 22,
+        "v": "About Dan, Moses said:"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "Dan is a lion cub"
+  },
+  {
+    "t": "q",
+    "v": "that leaps out from Bashan."
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 23,
+        "v": "About Naphtali, Moses said:"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "Naphtali, satisfied with favor,"
+  },
+  {
+    "t": "q",
+    "v": "and full of the blessing of Yahweh,"
+  },
+  {
+    "t": "q",
+    "v": "take possession of the land to the west and south."
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 24,
+        "v": "About Asher, Moses said:"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "May your city bars be iron and bronze;"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "There is no one like God, Jeshurun—the upright one,"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "The eternal God is a refuge,"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "Israel dwelt in safety."
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "Your blessings are many, Israel!"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "Blessed be Asher more than the other sons;"
+  },
+  {
+    "t": "q",
+    "v": "let him be acceptable to his brothers,"
+  },
+  {
+    "t": "q",
+    "v": "and let him dip his foot in olive oil."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "as long as will be your days, so long will your security be."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "who rides through the heavens to your help,"
+  },
+  {
+    "t": "q",
+    "v": "and in his majesty on the clouds."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and underneath are the everlasting arms."
+  },
+  {
+    "t": "q",
+    "v": "He thrust out the enemy from before you,"
+  },
+  {
+    "t": "q",
+    "v": "and he said, “Destroy!”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Jacob’s spring was secure"
+  },
+  {
+    "t": "q",
+    "v": "in a land of grain and new wine;"
+  },
+  {
+    "t": "q",
+    "v": "indeed, let his heavens drop dew on him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Who is like you, a people saved by Yahweh,"
+  },
+  {
+    "t": "q",
+    "v": "the shield of your help,"
+  },
+  {
+    "t": "q",
+    "v": "and the sword of your majesty?"
+  },
+  {
+    "t": "q",
+    "v": "Your enemies will come trembling to you;"
+  },
+  {
+    "t": "q",
+    "v": "you will trample down their high places."
+  }
+]

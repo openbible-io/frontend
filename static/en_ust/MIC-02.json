@@ -1,239 +1,262 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "planning to do wicked things."
+  },
+  {
+    "t": "q",
+    "v": "Then you get up at dawn, and you do those things"
+  },
+  {
+    "t": "q",
+    "v": "as soon as you are able to do them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so you seize them;"
+  },
+  {
+    "t": "q",
+    "v": "you also take their houses."
+  },
+  {
+    "t": "q",
+    "v": "You cheat people to get their homes,"
+  },
+  {
+    "t": "q",
+    "v": "taking away the property that belongs to their families."
+  },
+  {
+    "t": "p",
+    "v": [
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Terrible things will happen to you who lie awake at night,"
-          },
-          {
-            "tag": "q2",
-            "text": "planning to do wicked things."
-          },
-          {
-            "tag": "q1",
-            "text": "Then you get up at dawn, and you do those things"
-          },
-          {
-            "tag": "q2",
-            "text": "as soon as you are able to do them."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "You want fields that belong to other people,"
-          },
-          {
-            "tag": "q2",
-            "text": "so you seize them;"
-          },
-          {
-            "tag": "q2",
-            "text": "you also take their houses."
-          },
-          {
-            "tag": "q1",
-            "text": "You cheat people to get their homes,"
-          },
-          {
-            "tag": "q2",
-            "text": "taking away the property that belongs to their families."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "Therefore, this is what Yahweh says:"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Therefore, this is what Yahweh says:"
-          },
-          {
-            "tag": "q1",
-            "text": "\"I will cause you people of Israel to experience disasters,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you will not be able to escape from them."
-          },
-          {
-            "tag": "q1",
-            "text": "You will no longer walk around proudly,"
-          },
-          {
-            "tag": "q2",
-            "text": "because when that happens, it will be a time of much trouble for you."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "At that time, your enemies will make fun of you rich people;"
-          },
-          {
-            "tag": "q2",
-            "text": "they will ridicule you by singing this sad song about you:"
-          },
-          {
-            "tag": "q1",
-            "text": "'We Israelites are completely ruined;"
-          },
-          {
-            "tag": "q2",
-            "text": "Yahweh is taking our land from us,"
-          },
-          {
-            "tag": "q1",
-            "text": "and he will give it to those who capture us.'\""
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "So when it is the time for the land to be given back to you people who belong to Yahweh,"
-          },
-          {
-            "tag": "q2",
-            "text": "there will be no one alive among you rich families to receive back any of that land."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "The people who heard me say that replied to me,"
-          },
-          {
-            "tag": "q2",
-            "text": "\"Do not prophesy such things!"
-          },
-          {
-            "tag": "q2",
-            "text": "Do not say that Yahweh is going to humiliate us by causing us to experience disasters!\""
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "But you people talk like that!"
-          },
-          {
-            "tag": "q2",
-            "text": "You say that Yahweh never gets angry,"
-          },
-          {
-            "tag": "q2",
-            "text": "and that he never really punishes us.\""
-          },
-          {
-            "tag": "q1",
-            "text": "Of course, what I say certainly helps those who live in the right way."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "But Yahweh says,"
-          },
-          {
-            "tag": "q2",
-            "text": "\"Recently my people have been acting toward me like an enemy."
-          },
-          {
-            "tag": "q1",
-            "text": "You rich people refuse to return the coats of those who have borrowed money from you,"
-          },
-          {
-            "tag": "q2",
-            "text": "the coats they gave you to promise that they would repay their debts."
-          },
-          {
-            "tag": "q2",
-            "text": "You take their coats without warning, surprising them as much as soldiers returning from war would be surprised by attacks instead of safety at home."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "You have forced women to leave their nice homes,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you have stolen from their children forever the blessings that I wanted to give them."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "So get up and leave here!"
-          },
-          {
-            "tag": "q2",
-            "text": "This is not a place where you can rest and be safe,"
-          },
-          {
-            "tag": "q1",
-            "text": "because you have defiled it."
-          },
-          {
-            "tag": "q2",
-            "text": "I will make sure it will be completely destroyed."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "You people want a prophet who will lie to you,"
-          },
-          {
-            "tag": "q2",
-            "text": "saying, 'I will preach that you should drink plenty of wine and other alcoholic drinks!'"
-          },
-          {
-            "tag": "q2",
-            "text": "That is the kind of prophet who would please you.\""
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "\"But some day, you descendants of Jacob, I will bring back from exile the Israelite people who have survived."
-          },
-          {
-            "tag": "q1",
-            "text": "I will gather you together"
-          },
-          {
-            "tag": "q2",
-            "text": "like a shepherd gathers his sheep into a pen,"
-          },
-          {
-            "tag": "q2",
-            "text": "and there will be many of you in your land."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Your leader will enable them to leave the countries where they have been exiled;"
-          },
-          {
-            "tag": "q2",
-            "text": "he will lead them out of the gates of their enemies' cities,"
-          },
-          {
-            "tag": "q2",
-            "text": "back to your own country."
-          },
-          {
-            "tag": "q1",
-            "text": "Your king will lead them;"
-          },
-          {
-            "tag": "q2",
-            "text": "it is I, Yahweh, who will be their king!\""
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 4,
+        "v": "At that time, your enemies will make fun of you rich people;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "So when it is the time for the land to be given back to you people who belong to Yahweh,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "The people who heard me say that replied to me,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "But you people talk like that!"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "But Yahweh says,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "You have forced women to leave their nice homes,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "So get up and leave here!"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "You people want a prophet who will lie to you,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "“But some day, you descendants of Jacob, I will bring back from exile the Israelite people who have survived."
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Your leader will enable them to leave the countries where they have been exiled;"
       }
-    ],
-    "num": 2
+    ]
   },
-  "id": "MIC unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Micah"
-}
+  {
+    "t": "q",
+    "v": "“I will cause you people of Israel to experience disasters,"
+  },
+  {
+    "t": "q",
+    "v": "and you will not be able to escape from them."
+  },
+  {
+    "t": "q",
+    "v": "You will no longer walk around proudly,"
+  },
+  {
+    "t": "q",
+    "v": "because when that happens, it will be a time of much trouble for you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they will ridicule you by singing this sad song about you:"
+  },
+  {
+    "t": "q",
+    "v": "‘We Israelites are completely ruined;"
+  },
+  {
+    "t": "q",
+    "v": "Yahweh is taking our land from us,"
+  },
+  {
+    "t": "q",
+    "v": "and he will give it to those who capture us.’”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "there will be no one alive among you rich families to receive back any of that land."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "“Do not prophesy such things!"
+  },
+  {
+    "t": "q",
+    "v": "Do not say that Yahweh is going to humiliate us by causing us to experience disasters!”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "You say that Yahweh never gets angry,"
+  },
+  {
+    "t": "q",
+    "v": "and that he never really punishes us.”"
+  },
+  {
+    "t": "q",
+    "v": "Of course, what I say certainly helps those who live in the right way."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "“Recently my people have been acting toward me like an enemy."
+  },
+  {
+    "t": "q",
+    "v": "You rich people refuse to return the coats of those who have borrowed money from you,"
+  },
+  {
+    "t": "q",
+    "v": "the coats they gave you to promise that they would repay their debts."
+  },
+  {
+    "t": "q",
+    "v": "You take their coats without warning, surprising them as much as soldiers returning from war would be surprised by attacks instead of safety at home."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and you have stolen from their children forever the blessings that I wanted to give them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "This is not a place where you can rest and be safe,"
+  },
+  {
+    "t": "q",
+    "v": "because you have defiled it."
+  },
+  {
+    "t": "q",
+    "v": "I will make sure it will be completely destroyed."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "saying, ‘I will preach that you should drink plenty of wine and other alcoholic drinks!’"
+  },
+  {
+    "t": "q",
+    "v": "That is the kind of prophet who would please you.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will gather you together"
+  },
+  {
+    "t": "q",
+    "v": "like a shepherd gathers his sheep into a pen,"
+  },
+  {
+    "t": "q",
+    "v": "and there will be many of you in your land."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he will lead them out of the gates of their enemies’ cities,"
+  },
+  {
+    "t": "q",
+    "v": "back to your own country."
+  },
+  {
+    "t": "q",
+    "v": "Your king will lead them;"
+  },
+  {
+    "t": "q",
+    "v": "it is I, Yahweh, who will be their king!”"
+  }
+]

@@ -1,222 +1,262 @@
-{
-  "chapter": {
-    "children": [
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "tag": "d",
-        "text": "A psalm written by David to praise God."
-      },
-      {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "My God and King, I will proclaim that you are very great;"
-          },
-          {
-            "tag": "q1",
-            "text": "I will praise you now and forever."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Every day I will praise you;"
-          },
-          {
-            "tag": "q2",
-            "text": "Yes, I will praise you forever."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Yahweh, you are great, and you ought to be praised very much;"
-          },
-          {
-            "tag": "q2",
-            "text": "we cannot fully realize how great you are."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Parents will tell their children the things that you have done;"
-          },
-          {
-            "tag": "q2",
-            "text": "they will tell their children about your mighty deeds."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "I will think about how you are very glorious and majestic,"
-          },
-          {
-            "tag": "q1",
-            "text": "and I will meditate on all your wonderful deeds."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "People will speak about your powerful and awesome deeds,"
-          },
-          {
-            "tag": "q2",
-            "text": "and I will proclaim that you are very great."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "People will remember and proclaim that you are very good to us,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they will sing joyfully that you always act justly."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Yahweh, you act kindly and mercifully toward us;"
-          },
-          {
-            "tag": "q2",
-            "text": "you do not quickly become angry;"
-          },
-          {
-            "tag": "q2",
-            "text": "you faithfully love us very much as you have promised to do."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Yahweh, you are good to everyone,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you act mercifully to everything that you have made."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Yahweh, all the creatures that you made will thank you,"
-          },
-          {
-            "tag": "q2",
-            "text": "and all your people will praise you."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "They will tell others that you rule very gloriously as our king"
-          },
-          {
-            "tag": "q2",
-            "text": "and that you are very powerful."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "They will do that so that everyone will know about your powerful deeds"
-          },
-          {
-            "tag": "q2",
-            "text": "and that you rule over us gloriously."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "You will never stop being king;"
-          },
-          {
-            "tag": "q2",
-            "text": "you will rule throughout all generations."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "Yahweh, you help all those who are discouraged,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you lift up all those who have lost hope."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "All of the creatures that you made expect that you will provide food for them,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you give them food when they need it."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "You give food to all living creatures generously,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you cause them to be satisfied."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Everything that Yahweh does, he does justly;"
-          },
-          {
-            "tag": "q2",
-            "text": "all that he does, he does mercifully."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "Yahweh comes near to all those who call out to him,"
-          },
-          {
-            "tag": "q2",
-            "text": "to those who call to him sincerely."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "To all those who have an awesome respect for him he gives what they need."
-          },
-          {
-            "tag": "q2",
-            "text": "He hears them when they cry out to him and saves them."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Yahweh protects all those who love him,"
-          },
-          {
-            "tag": "q2",
-            "text": "but he will get rid of all the wicked people."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "I will always praise Yahweh;"
-          },
-          {
-            "tag": "q2",
-            "text": "I wish that all people everywhere may praise him forever, for he does everything perfectly."
-          }
-        ],
-        "auto": true
-      }
-    ],
-    "num": 145
+[
+  {
+    "t": "m",
+    "v": []
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 1,
+        "v": "I praise Yahweh, who is like a huge rock on which I am safe!"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "He is the one who protects me as he promised;"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Yahweh, we people are so insignificant! Why do you notice us?"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "The time that we live is as short as a puff of wind;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Yahweh, tear open the sky and come down!"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Cause lightning to flash with the result that your enemies will run away!"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "It is as though my enemies are like a flood around me;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "who always tell lies."
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "God, I will sing a new song to you,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "You enable kings to defeat their enemies;"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "So I ask you to save me from being killed by the swords that those evil people carry."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "I wish that our sons may all grow to full adulthood;"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "I wish that our barns may be full of many different crops."
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "I wish that our cattle may give birth to many calves"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "If good things like that happen to a nation,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "He trains my hands so that I can use them to fight battles;"
+  },
+  {
+    "t": "q",
+    "v": "he trains my fingers so that I can shoot arrows in a war."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he is like a fortress in which I am safe,"
+  },
+  {
+    "t": "q",
+    "v": "he protects me as shields protect soldiers,"
+  },
+  {
+    "t": "q",
+    "v": "and he gives me refuge."
+  },
+  {
+    "t": "q",
+    "v": "He defeats other nations and then puts them under my power."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "It is amazing to me that you pay attention to humans."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "our time to live disappears as a shadow does."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Touch the mountains so that smoke may pour out from them!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Shoot your arrows at them and cause them to run away in panic."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "reach your hand down from heaven"
+  },
+  {
+    "t": "q",
+    "v": "and rescue me from them."
+  },
+  {
+    "t": "q",
+    "v": "They are men from foreign countries"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Even when they swear to tell the truth,"
+  },
+  {
+    "t": "q",
+    "v": "they tell lies."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and I will play my ten-stringed harp while I sing to you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you rescue those who serve you as I did."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Rescue me from the power of those men from foreign countries"
+  },
+  {
+    "t": "q",
+    "v": "who always tell lies."
+  },
+  {
+    "t": "q",
+    "v": "Even when they swear to tell the truth,"
+  },
+  {
+    "t": "q",
+    "v": "they tell lies."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I wish that our daughters may grow up to be as straight and tall"
+  },
+  {
+    "t": "q",
+    "v": "as the pillars that stand in the corners of palaces."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I wish that the sheep in our fields may give birth to tens of thousands of baby lambs."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "without having any miscarriages or deaths when they are born."
+  },
+  {
+    "t": "q",
+    "v": "I wish that there may not be any time when the people in our streets cry out in distress"
+  },
+  {
+    "t": "q",
+    "v": "because foreign armies are invading."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the people will be very fortunate."
+  },
+  {
+    "t": "q",
+    "v": "How fortunate are those who worship Yahweh as God!"
+  }
+]

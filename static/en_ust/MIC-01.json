@@ -1,264 +1,309 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "tag": "toc1",
-        "text": "The Book of Micah"
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh gave Micah, who was from Moresheth in Judah, these messages in visions about Samaria and Jerusalem during the time when Jotham, and then Ahaz, and then Hezekiah were the kings of Judah."
       },
       {
-        "tag": "toc2",
-        "text": "Micah"
+        "t": "v",
+        "n": 2,
+        "v": "You people everywhere on the earth, pay attention to this."
       },
       {
-        "tag": "toc3",
-        "text": "Mic"
+        "t": "v",
+        "n": 3,
+        "v": "He will come down from heaven"
       },
       {
-        "tag": "mt1",
-        "text": "Micah"
+        "t": "v",
+        "n": 4,
+        "v": "It will be as though the mountains will melt under his feet"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Yahweh gave Micah, who was from Moresheth in Judah, these messages in visions about Samaria and Jerusalem during the time when Jotham, and then Ahaz, and then Hezekiah were the kings of Judah."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "You people everywhere on the earth, pay attention to this."
-          },
-          {
-            "tag": "q2",
-            "text": "Yahweh our God is accusing you from his holy temple in heaven."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "He will come down from heaven"
-          },
-          {
-            "tag": "q2",
-            "text": "and walk over the high places where you worship idols."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "It will be as though the mountains will melt under his feet"
-          },
-          {
-            "tag": "q2",
-            "text": "as wax melts in front of a fire,"
-          },
-          {
-            "tag": "q1",
-            "text": "and as water disappears"
-          },
-          {
-            "tag": "q2",
-            "text": "when it rushes down into a valley."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Those things will happen because of the terrible sins that the people of Israel, the descendants of Jacob, have committed."
-          },
-          {
-            "tag": "q2",
-            "text": "But it was the people of the city of Samaria who persuaded all the people of Israel to sin."
-          },
-          {
-            "tag": "q1",
-            "text": "And it was because the people of Jerusalem set up altars to worship their gods"
-          },
-          {
-            "tag": "q2",
-            "text": "that the other people of Judah thought they should also worship idols on the hilltops."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Yahweh says this: \"I will cause Samaria to become a heap of rubble;"
-          },
-          {
-            "tag": "q2",
-            "text": "it will be only a field for planting vineyards."
-          },
-          {
-            "tag": "q1",
-            "text": "I will cause the stones of its buildings to roll down into the valley."
-          },
-          {
-            "tag": "q2",
-            "text": "I will destroy the buildings down to their foundations."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "I will make others smash the idols in Samaria to pieces."
-          },
-          {
-            "tag": "q2",
-            "text": "The gifts given to prostitutes at the temples of their idols will be burned in fire."
-          },
-          {
-            "tag": "q1",
-            "text": "Because people paid prostitutes there,"
-          },
-          {
-            "tag": "q2",
-            "text": "their enemies will take away those idols and sell them to pay prostitutes in other countries."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Because Samaria will be destroyed, I will weep and wail."
-          },
-          {
-            "tag": "q2",
-            "text": "I will walk around barefoot and naked."
-          },
-          {
-            "tag": "q1",
-            "text": "I will howl like a jackal"
-          },
-          {
-            "tag": "q2",
-            "text": "and screech like an owl."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "I will lament because Samaria will be completely destroyed;"
-          },
-          {
-            "tag": "q2",
-            "text": "nothing can save that city."
-          },
-          {
-            "tag": "q1",
-            "text": "But the same thing will happen to Judah."
-          },
-          {
-            "tag": "q2",
-            "text": "It is as though the enemy army had already reached the city gates of Jerusalem,"
-          },
-          {
-            "tag": "q2",
-            "text": "the main city where my people live."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Do not tell that to our enemies in the city of Gath in Philistia!"
-          },
-          {
-            "tag": "q2",
-            "text": "Do not cry, or the people there will find out what is happening."
-          },
-          {
-            "tag": "q1",
-            "text": "Instead, just roll on the ground in Beth Leaphrah."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "You people who live in Shaphir,"
-          },
-          {
-            "tag": "q2",
-            "text": "naked and ashamed, you will be taken to another country."
-          },
-          {
-            "tag": "q1",
-            "text": "You people in Beth Ezel should mourn,"
-          },
-          {
-            "tag": "q2",
-            "text": "because no one from Zaanan will go out to help you."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "The people of Maroth"
-          },
-          {
-            "tag": "q2",
-            "text": "are anxiously waiting for good things to happen to them."
-          },
-          {
-            "tag": "q1",
-            "text": "But I will make terrible things to happen to them,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they will soon happen at the gates of Jerusalem.\""
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "You people in the city of Lachish,"
-          },
-          {
-            "tag": "q2",
-            "text": "hitch your horses to pull the chariots in which you can ride to flee from your enemies."
-          },
-          {
-            "tag": "q1",
-            "text": "The Israelite people rebelled against Yahweh,"
-          },
-          {
-            "tag": "q2",
-            "text": "and you imitated them,"
-          },
-          {
-            "tag": "q1",
-            "text": "and that caused the people of Jerusalem to start sinning, too."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "You people of Judah, send a farewell gift to the people of Moresheth,"
-          },
-          {
-            "tag": "q2",
-            "text": "because their enemies will soon destroy it."
-          },
-          {
-            "tag": "q1",
-            "text": "The kings of Israel will soon find out that the people of the town of Akzib will disappoint them."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "You people of Mareshah,"
-          },
-          {
-            "tag": "q2",
-            "text": "Yahweh will soon send someone to conquer your town."
-          },
-          {
-            "tag": "q1",
-            "text": "It will be necessary for the great leaders of Israel to go and hide in the cave near Adullam."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "You people of Judah, shave your heads and go into mourning,"
-          },
-          {
-            "tag": "q2",
-            "text": "because the children whom you love will soon go into exile."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 5,
+        "v": "Those things will happen because of the terrible sins that the people of Israel, the descendants of Jacob, have committed."
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Yahweh says this: “I will cause Samaria to become a heap of rubble;"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "I will make others smash the idols in Samaria to pieces."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Because Samaria will be destroyed, I will weep and wail."
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "I will lament because Samaria will be completely destroyed;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Do not tell that to our enemies in the city of Gath in Philistia!"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "You people who live in Shaphir,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "The people of Maroth"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "You people in the city of Lachish,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "You people of Judah, send a farewell gift to the people of Moresheth,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "You people of Mareshah,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "You people of Judah, shave your heads and go into mourning,"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "Terrible things will happen to you who lie awake at night,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "You want fields that belong to other people,"
       }
-    ],
-    "num": 1
+    ]
   },
-  "id": "MIC unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Micah"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Yahweh our God is accusing you from his holy temple in heaven."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and walk over the high places where you worship idols."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "as wax melts in front of a fire,"
+  },
+  {
+    "t": "q",
+    "v": "and as water disappears"
+  },
+  {
+    "t": "q",
+    "v": "when it rushes down into a valley."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "But it was the people of the city of Samaria who persuaded all the people of Israel to sin."
+  },
+  {
+    "t": "q",
+    "v": "And it was because the people of Jerusalem set up altars to worship their gods"
+  },
+  {
+    "t": "q",
+    "v": "that the other people of Judah thought they should also worship idols on the hilltops."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "it will be only a field for planting vineyards."
+  },
+  {
+    "t": "q",
+    "v": "I will cause the stones of its buildings to roll down into the valley."
+  },
+  {
+    "t": "q",
+    "v": "I will destroy the buildings down to their foundations."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "The gifts given to prostitutes at the temples of their idols will be burned in fire."
+  },
+  {
+    "t": "q",
+    "v": "Because people paid prostitutes there,"
+  },
+  {
+    "t": "q",
+    "v": "their enemies will take away those idols and sell them to pay prostitutes in other countries."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will walk around barefoot and naked."
+  },
+  {
+    "t": "q",
+    "v": "I will howl like a jackal"
+  },
+  {
+    "t": "q",
+    "v": "and screech like an owl."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "nothing can save that city."
+  },
+  {
+    "t": "q",
+    "v": "But the same thing will happen to Judah."
+  },
+  {
+    "t": "q",
+    "v": "It is as though the enemy army had already reached the city gates of Jerusalem,"
+  },
+  {
+    "t": "q",
+    "v": "the main city where my people live."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Do not cry, or the people there will find out what is happening."
+  },
+  {
+    "t": "q",
+    "v": "Instead, just roll on the ground in Beth Leaphrah."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "naked and ashamed, you will be taken to another country."
+  },
+  {
+    "t": "q",
+    "v": "You people in Beth Ezel should mourn,"
+  },
+  {
+    "t": "q",
+    "v": "because no one from Zaanan will go out to help you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "are anxiously waiting for good things to happen to them."
+  },
+  {
+    "t": "q",
+    "v": "But I will make terrible things to happen to them,"
+  },
+  {
+    "t": "q",
+    "v": "and they will soon happen at the gates of Jerusalem.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "hitch your horses to pull the chariots in which you can ride to flee from your enemies."
+  },
+  {
+    "t": "q",
+    "v": "The Israelite people rebelled against Yahweh,"
+  },
+  {
+    "t": "q",
+    "v": "and you imitated them,"
+  },
+  {
+    "t": "q",
+    "v": "and that caused the people of Jerusalem to start sinning, too."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because their enemies will soon destroy it."
+  },
+  {
+    "t": "q",
+    "v": "The kings of Israel will soon find out that the people of the town of Akzib will disappoint them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Yahweh will soon send someone to conquer your town."
+  },
+  {
+    "t": "q",
+    "v": "It will be necessary for the great leaders of Israel to go and hide in the cave near Adullam."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because the children whom you love will soon go into exile."
+  }
+]

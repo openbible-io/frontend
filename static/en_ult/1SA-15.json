@@ -1,226 +1,212 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Samuel said to Saul, “Yahweh sent me to anoint you king over his people Israel. Now listen to the words of Yahweh."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "This is what Yahweh of hosts says, ‘I have noted what Amalek did to Israel in opposing them on the way, when they came up from Egypt."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Now go and attack Amalek and completely destroy all that they have. Do not spare them, but kill both man and woman, child and infant, ox and sheep, camel and donkey.’”"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "Samuel said to Saul, “Yahweh sent me to anoint you king over his people Israel. Now listen to the words of Yahweh."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Saul summoned the people and numbered them at the city of Telaim—two hundred thousand men on foot, and ten thousand men of Judah."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Then Saul came to the city of Amalek and waited in the valley."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Then Saul said to the Kenites, “Go, depart, come out from among the Amalekites, so I do not destroy you along with them. For you showed kindness to all the people of Israel, when they came from Egypt.” So the Kenites moved away from the Amalekites."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Then Saul attacked the Amalekites, from Havilah as far as Shur, which is east of Egypt."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Then he took Agag the king of the Amalekites alive; he completely destroyed all the people with the edge of the sword."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "But Saul and the people spared Agag, as well as the best of the sheep, oxen, fattened calves, and the lambs. Everything that was good, they did not destroy. But they completely destroyed anything that was despised and worthless."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "This is what Yahweh of hosts says, ‘I have noted what Amalek did to Israel in opposing them on the way, when they came up from Egypt."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Then the word of Yahweh came to Samuel, saying,"
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "“It grieves me that I have made Saul king, for he has turned back from following me and has not performed my commandments.” Samuel was angry; he cried out to Yahweh all night."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Samuel got up early to meet Saul in the morning. Samuel was told, “Saul came to Carmel and he set up a monument to himself, then turned and proceeded on down to Gilgal.”"
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Then Samuel came to Saul, and Saul said to him, “Blessed are you by Yahweh! I have fulfilled the command of Yahweh.”"
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "Samuel said, “What then is this bleating of sheep in my ears, and the lowing of the oxen that I hear?”"
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "Saul replied, “They have brought them from the Amalekites. For the people spared the best of the sheep and oxen, to sacrifice to Yahweh your God. The rest we have completely destroyed.”"
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Then Samuel said to Saul, “Wait, and I will tell you what Yahweh has said to me tonight.” Saul said to him, “Speak!”"
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Samuel said, “Though you are little in your own sight, were you not made the head of the tribes of Israel? Then Yahweh anointed you king over Israel,"
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "and Yahweh sent you on your way and said, ‘Go and completely destroy the sinners, the Amalekites, and fight against them until they are destroyed.’"
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "Why did you not obey the voice of Yahweh, but instead you seized the booty and did what was evil in the sight of Yahweh?”"
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Then Saul said to Samuel, “I have indeed obeyed the voice of Yahweh, and have gone on the way that Yahweh sent me. I have captured Agag, the king of Amalek, and have completely destroyed the Amalekites."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "But the people took some of the booty—sheep and oxen, the best of the things devoted to destruction, to sacrifice to Yahweh your God in Gilgal.”"
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Samuel replied, “Has Yahweh as much delight in burnt offerings and sacrifices, as in obeying the voice of Yahweh? Obedience is better than sacrifice, and to listen is better than the fat of rams."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "For rebellion is like the sin of divination, and stubbornness is like wickedness and iniquity. Because you have rejected the word of Yahweh, he has also rejected you from being king.”"
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "Then Saul said to Samuel, “I have sinned; for I have broken Yahweh’s commandment and your words, because I was afraid of the people and obeyed their voice."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "Now, please pardon my sin, and return with me so that I may worship Yahweh.”"
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "Samuel said to Saul, “I will not go back with you; for you have rejected the word of Yahweh, and Yahweh has rejected you from being king over Israel.”"
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "As Samuel turned to leave, Saul took hold of the hem of his robe, and it tore."
-          },
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "Samuel said to him, “Yahweh has torn the kingdom of Israel from you today and has given it to a neighbor of yours, one who is better than you."
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "Also, the Strength of Israel will not lie nor change his mind; for he is not a man, that he should change his mind.”"
-          },
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "Then Saul said, “I have sinned. But please honor me now before the elders of my people and before Israel. Turn again with me, that I may worship Yahweh your God.”"
-          },
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "So Samuel turned again after Saul, and Saul worshiped Yahweh."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "32",
-            "text": "Then Samuel said, “Bring Agag the king of the Amalekites here to me.” Agag came to him confined with chains and said, “Surely the bitterness of death has past.”"
-          },
-          {
-            "tag": "v",
-            "num": "33",
-            "text": "Samuel replied, “As your sword has made women childless, so shall your mother be childless among women.” Then Samuel chopped Agag to pieces before Yahweh at Gilgal."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "34",
-            "text": "Samuel went to Ramah, and Saul went up to his house at Gibeah of Saul."
-          },
-          {
-            "tag": "v",
-            "num": "35",
-            "text": "Samuel did not see Saul until the day of his death, for he mourned for Saul. Yahweh was grieved that he had made Saul king over Israel."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 3,
+        "v": "Now go and attack Amalek and completely destroy all that they have. Do not spare them, but kill both man and woman, child and infant, ox and sheep, camel and donkey.’”"
       }
-    ],
-    "num": 15
+    ]
   },
-  "id": "SA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Samuel",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "First Samuel "
-    }
-  ]
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Saul summoned the people and numbered them at the city of Telaim—two hundred thousand men on foot, and ten thousand men of Judah."
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Then Saul came to the city of Amalek and waited in the valley."
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Then Saul said to the Kenites, “Go, depart, come out from among the Amalekites, so I do not destroy you along with them. For you showed kindness to all the people of Israel, when they came from Egypt.” So the Kenites moved away from the Amalekites."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Then Saul attacked the Amalekites, from Havilah as far as Shur, which is east of Egypt."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Then he took Agag the king of the Amalekites alive; he completely destroyed all the people with the edge of the sword."
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "But Saul and the people spared Agag, as well as the best of the sheep, oxen, fattened calves, and the lambs. Everything that was good, they did not destroy. But they completely destroyed anything that was despised and worthless."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Then the word of Yahweh came to Samuel, saying,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "“It grieves me that I have made Saul king, for he has turned back from following me and has not performed my commandments.” Samuel was angry; he cried out to Yahweh all night."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Samuel got up early to meet Saul in the morning. Samuel was told, “Saul came to Carmel and he set up a monument to himself, then turned and proceeded on down to Gilgal.”"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Then Samuel came to Saul, and Saul said to him, “Blessed are you by Yahweh! I have fulfilled the command of Yahweh.”"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "Samuel said, “What then is this bleating of sheep in my ears, and the lowing of the oxen that I hear?”"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Saul replied, “They have brought them from the Amalekites. For the people spared the best of the sheep and oxen, to sacrifice to Yahweh your God. The rest we have completely destroyed.”"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Then Samuel said to Saul, “Wait, and I will tell you what Yahweh has said to me tonight.” Saul said to him, “Speak!”"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Samuel said, “Though you are little in your own sight, were you not made the head of the tribes of Israel? Then Yahweh anointed you king over Israel,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "and Yahweh sent you on your way and said, ‘Go and completely destroy the sinners, the Amalekites, and fight against them until they are destroyed.’"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Why did you not obey the voice of Yahweh, but instead you seized the booty and did what was evil in the sight of Yahweh?”"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Then Saul said to Samuel, “I have indeed obeyed the voice of Yahweh, and have gone on the way that Yahweh sent me. I have captured Agag, the king of Amalek, and have completely destroyed the Amalekites."
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "But the people took some of the booty—sheep and oxen, the best of the things devoted to destruction, to sacrifice to Yahweh your God in Gilgal.”"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Samuel replied, “Has Yahweh as much delight in burnt offerings and sacrifices, as in obeying the voice of Yahweh? Obedience is better than sacrifice, and to listen is better than the fat of rams."
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "For rebellion is like the sin of divination, and stubbornness is like wickedness and iniquity. Because you have rejected the word of Yahweh, he has also rejected you from being king.”"
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 24,
+        "v": "Then Saul said to Samuel, “I have sinned; for I have broken Yahweh’s commandment and your words, because I was afraid of the people and obeyed their voice."
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "Now, please pardon my sin, and return with me so that I may worship Yahweh.”"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "Samuel said to Saul, “I will not go back with you; for you have rejected the word of Yahweh, and Yahweh has rejected you from being king over Israel.”"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "As Samuel turned to leave, Saul took hold of the hem of his robe, and it tore."
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "Samuel said to him, “Yahweh has torn the kingdom of Israel from you today and has given it to a neighbor of yours, one who is better than you."
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "Also, the Strength of Israel will not lie nor change his mind; for he is not a man, that he should change his mind.”"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "Then Saul said, “I have sinned. But please honor me now before the elders of my people and before Israel. Turn again with me, that I may worship Yahweh your God.”"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "So Samuel turned again after Saul, and Saul worshiped Yahweh."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 32,
+        "v": "Then Samuel said, “Bring Agag the king of the Amalekites here to me.” Agag came to him confined with chains and said, “Surely the bitterness of death has past.”"
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "Samuel replied, “As your sword has made women childless, so shall your mother be childless among women.” Then Samuel chopped Agag to pieces before Yahweh at Gilgal."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 34,
+        "v": "Samuel went to Ramah, and Saul went up to his house at Gibeah of Saul."
+      },
+      {
+        "t": "v",
+        "n": 35,
+        "v": "Samuel did not see Saul until the day of his death, for he mourned for Saul. Yahweh was grieved that he had made Saul king over Israel."
+      }
+    ]
+  }
+]

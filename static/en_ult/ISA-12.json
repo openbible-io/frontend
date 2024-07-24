@@ -1,63 +1,69 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "On that day you will say,"
-          },
-          {
-            "tag": "q1",
-            "text": "“I will give thanks to you, Yahweh. For though you were angry with me, your wrath has turned away, and you have comforted me."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "See, God is my salvation; I will trust and will not fear,"
-          },
-          {
-            "tag": "q1",
-            "text": "for Yahweh, yes, Yahweh is my strength and song. He has become my salvation.”"
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "With joy you will draw water from the wells of salvation."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "On that day you will say, “Give thanks to Yahweh and call upon his name;"
-          },
-          {
-            "tag": "q1",
-            "text": "declare his deeds among the peoples, proclaim that his name is exalted."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Sing to Yahweh, for he has done glorious things; let this be known throughout the earth."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Cry aloud and shout for joy, you inhabitants of Zion, for great in your midst is the Holy One of Israel.”"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "On that day you will say,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "See, God is my salvation; I will trust and will not fear,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "With joy you will draw water from the wells of salvation."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "On that day you will say, “Give thanks to Yahweh and call upon his name;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Sing to Yahweh, for he has done glorious things; let this be known throughout the earth."
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Cry aloud and shout for joy, you inhabitants of Zion, for great in your midst is the Holy One of Israel.”"
       }
-    ],
-    "num": 12
+    ]
   },
-  "id": "ISA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Isaiah",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Isaiah"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": "“I will give thanks to you, Yahweh. For though you were angry with me, your wrath has turned away, and you have comforted me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for Yahweh, yes, Yahweh is my strength and song. He has become my salvation.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "declare his deeds among the peoples, proclaim that his name is exalted."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  }
+]

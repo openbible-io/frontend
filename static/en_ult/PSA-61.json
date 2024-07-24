@@ -1,102 +1,175 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "God, you have cast us off; you have broken through our defenses;"
       },
       {
-        "tag": "d",
-        "text": "For the chief musician; on a stringed instrument. A psalm of David."
+        "t": "v",
+        "n": 2,
+        "v": "You have made the land tremble; you have torn it apart;"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Hear my cry, God;"
-          },
-          {
-            "tag": "q",
-            "text": "attend to my prayer."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "From the ends of the earth will I call to you when my heart is faint;"
-          },
-          {
-            "tag": "q",
-            "text": "lead me to the rock that is higher than I."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "For you have been a refuge for me,"
-          },
-          {
-            "tag": "q",
-            "text": "a strong tower from the enemy."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Let me live in your tabernacle forever!"
-          },
-          {
-            "tag": "q",
-            "text": "Let me take refuge under the shelter of your wings."
-          },
-          {
-            "tag": "qs",
-            "text": "Selah"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "For you, God, have heard my vows,"
-          },
-          {
-            "tag": "q",
-            "text": "you have given me the inheritance of those who honor your name."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "You will prolong the king’s life;"
-          },
-          {
-            "tag": "q",
-            "text": "his years will be like many generations."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "He will remain before God forever."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "I will sing praise to your name forever"
-          },
-          {
-            "tag": "q",
-            "text": "so that I may perform my vows every day."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "You have made your people see difficult things;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "For those who honor you,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "So that those you love may be rescued,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "God has spoken in his holiness, “I will rejoice;"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Gilead is mine, and Manasseh is mine;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Moab is my washbasin;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Who will bring me into the strong city?"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "But you, God, have you not rejected us?"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Give us help against the enemy,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "We will triumph with God’s help;"
       }
-    ],
-    "num": 61
+    ]
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you have been angry; restore us again."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "heal its fissures, for it is shaking."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you have made us drink the wine of staggering."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you have set up a banner"
+  },
+  {
+    "t": "q",
+    "v": "to be displayed against those who carry the bow."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "rescue us with your right hand and answer me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will divide Shechem and apportion out the Valley of Succoth."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Ephraim also is my helmet;"
+  },
+  {
+    "t": "q",
+    "v": "Judah is my scepter."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "over Edom I will throw my shoe;"
+  },
+  {
+    "t": "q",
+    "v": "I will shout in triumph because of Philistia.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Who will lead me to Edom?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "You do not go into battle with our army."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for man’s help is futile."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he will trample down our enemies."
+  }
+]

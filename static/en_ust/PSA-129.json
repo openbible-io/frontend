@@ -1,101 +1,97 @@
-{
-  "chapter": {
-    "children": [
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "tag": "d",
-        "text": "A psalm written for people going up to the temple to worship."
-      },
-      {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "I say that my enemies have afflicted me ever since I was young."
-          },
-          {
-            "tag": "q1",
-            "text": "Now I ask you, my fellow Israelites, to repeat those same words:"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "\"Our enemies have afflicted us since our nation began,"
-          },
-          {
-            "tag": "q2",
-            "text": "but they have not defeated us!"
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Our enemies struck us with whips that cut into our backs"
-          },
-          {
-            "tag": "q",
-            "text": "as a farmer uses a plow to cuts deep furrows into the ground.\""
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "But Yahweh is righteous,"
-          },
-          {
-            "tag": "q2",
-            "text": "and he has freed us from being slaves to wicked people."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "I wish that they may all be shamed because we will defeat them—all of Jerusalem's enemies."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "I hope that they may be of no value, like grass that grows on the roofs of houses,"
-          },
-          {
-            "tag": "q2",
-            "text": "that dries up and does not grow tall;"
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "no one wants to cut it and tie it up as bundles and carry it away."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "People who pass by and see men harvesting grain usually greet them by saying to them,"
-          },
-          {
-            "tag": "q2",
-            "text": "\"We wish that Yahweh may bless you!\""
-          },
-          {
-            "tag": "q1",
-            "text": "But this will not happen to the enemies of Israel."
-          },
-          {
-            "tag": "q1",
-            "text": "We, acting as Yahweh's representatives, bless you, our fellow Israelites!"
-          }
-        ],
-        "auto": true
-      }
-    ],
-    "num": 129
+[
+  {
+    "t": "m",
+    "v": []
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 1,
+        "v": "How fortunate are you who have an awesome respect for him"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "You will be able to enjoy the food you provide yourself with;"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Your wife will be like a grapevine that bears many grapes;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Like that, Yahweh will bless every man who has an awesome respect for him."
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "I wish that God in his temple on Mount Zion may help you greatly,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "I wish that you may live many years"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and do what he wants you to do."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you will be fortunate and prosperous."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "she will give birth to many children."
+  },
+  {
+    "t": "q",
+    "v": "Your children who sit around your table;"
+  },
+  {
+    "t": "q",
+    "v": "you will be like a strong olive tree that has many shoots growing up around it."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and that you will see the people of Jerusalem prospering every day that you live!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and that you may have grandchildren and be able to see them."
+  },
+  {
+    "t": "q",
+    "v": "I wish that things may go well for people in Israel!"
+  }
+]

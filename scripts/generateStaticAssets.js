@@ -9,15 +9,14 @@ glob.sync('./texts/**/*.usfm').forEach(file => {
 		.replace('./texts', './static')
 
 	console.log(`Rendering ${file} -> ${toPrefixPath}*`)
-	const json = usfm2json(fs.readFileSync(file, 'utf8'))
+	const chapters = usfm2json(fs.readFileSync(file, 'utf8'))
 
 	const toDir = toPrefixPath.replace(/\/[^\/]+$/, '')
 	if (!fs.existsSync(toDir))
 		fs.mkdirSync(toDir, { recursive: true })
 
-	const { chapters, ...meta } = json
-	chapters.forEach(chapter => {
-		const chapterFile	= `${toPrefixPath}-${(chapter.num + '').padStart(2, '0')}.json`
-		fs.writeFileSync(chapterFile, JSON.stringify({ chapter, ...meta }, null, 2))
+	chapters.forEach((chapter, index) => {
+		const chapterFile	= `${toPrefixPath}-${(index + 1 + '').padStart(2, '0')}.json`
+		fs.writeFileSync(chapterFile, JSON.stringify(chapter, null, 2))
 	})
 })

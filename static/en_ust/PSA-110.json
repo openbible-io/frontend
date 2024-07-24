@@ -1,120 +1,454 @@
-{
-  "chapter": {
-    "children": [
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "tag": "d",
-        "text": "A psalm written by David."
-      },
-      {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Yahweh said to my lord the king,"
-          },
-          {
-            "tag": "q1",
-            "text": "\"Sit here, close to me, in the place of highest honor"
-          },
-          {
-            "tag": "q2",
-            "text": "until I completely defeat your enemies"
-          },
-          {
-            "tag": "q2",
-            "text": "and make them like a stool for your feet!\""
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Yahweh will extend your power as king"
-          },
-          {
-            "tag": "q2",
-            "text": "from Jerusalem to other lands;"
-          },
-          {
-            "tag": "q2",
-            "text": "you will rule over all your enemies."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "On the day that you lead your armies into battle,"
-          },
-          {
-            "tag": "q2",
-            "text": "many of your people will volunteer to join your army."
-          },
-          {
-            "tag": "q1",
-            "text": "Your youthful strength will act for you like the dew that waters the earth early in the morning.\""
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Yahweh has made a solemn promise"
-          },
-          {
-            "tag": "q2",
-            "text": "and he will never change his mind;"
-          },
-          {
-            "tag": "q1",
-            "text": "he has said to the king, \"You will be a priest forever"
-          },
-          {
-            "tag": "q2",
-            "text": "like Melchizedek.\""
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "The Lord stands at your right side;"
-          },
-          {
-            "tag": "q2",
-            "text": "when he becomes angry, he will defeat many kings."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "He will judge and punish the people of many nations;"
-          },
-          {
-            "tag": "q2",
-            "text": "many bodies of the killed enemy soldiers will lie on the ground."
-          },
-          {
-            "tag": "q1",
-            "text": "He will crush kings all over the earth."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "But the king will drink from the stream alongside the road;"
-          },
-          {
-            "tag": "q2",
-            "text": "he will be refreshed after defeating his enemies."
-          }
-        ],
-        "auto": true
-      }
-    ],
-    "num": 110
+[
+  {
+    "t": "m",
+    "v": []
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 1,
+        "v": "God, you are the one whom I praise,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "because wicked people slander me"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "They are constantly saying that they hate me,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "I show them that I love them"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "In return for my doing good things for them and loving them,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "So appoint a wicked judge who will judge my enemy,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "When the trial ends,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Then cause him to die soon;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Cause his children not to have a father anymore,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Cause his children to leave the ruined homes that they have been living in"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Cause all the people to whom he owed money to seize his property;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Make sure that no one acts with any loyalty toward his memory for the sake of your covenant;"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Cause all his children to die,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "Yahweh, remember and do not forgive his ancestors for the evil things that they did,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Think about his sins continually,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "I pray these things because that man, my enemy, never acted toward anyone as your covenant says we must;"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "He liked to curse people."
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "He often cursed other people, also;"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Cause those terrible things to cling to him like his clothes"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Yahweh, I wish that you will punish all my enemies that way,"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "But Yahweh, my God, do good things for me"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "I request you to do this because I am poor and needy"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "I think that my time to remain alive is as short"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "My knees are weak because I have fasted very often,"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "The people who accuse me make fun of me;"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "Yahweh, my God, help me!"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "When you save me,"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "They may curse me, but I ask that you bless me."
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "Cause those who accuse me to be completely disgraced;"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "But I will thank Yahweh very much;"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "I will do that because he defends poor people like me"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so please answer my prayer"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and tell lies about me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they harm me for no reason."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and that I pray for them,"
+  },
+  {
+    "t": "q",
+    "v": "but instead of being kind to me, they say that I have done evil things."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they do evil things to me and hate me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and bring in one of his enemies who will stand up and accuse him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "cause the judge to declare that he is guilty"
+  },
+  {
+    "t": "q",
+    "v": "and cause even his plea for mercy to be considered a sin."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "bring someone else to take over his work."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and cause his wife to become a widow."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and to wander around begging for food."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "cause strangers to take away everything that he worked to acquire."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "make sure that no one pities his children."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so that no one will live to carry on his name."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and do not even forgive the sins that his mother committed."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but cause everyone living to completely forget who he was."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he persecuted poor and needy people"
+  },
+  {
+    "t": "q",
+    "v": "and even killed helpless people."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "So those terrible things that he requested to happen to others—cause them to happen to him!"
+  },
+  {
+    "t": "q",
+    "v": "He did not want to bless others,"
+  },
+  {
+    "t": "q",
+    "v": "so make sure that no one blesses him!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "cause the terrible things that he wanted to happen to others to happen to him and enter his body as water does,"
+  },
+  {
+    "t": "q",
+    "v": "as olive oil soaks into a person’s bones when it is rubbed on his skin."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and be around him like the belt that he wears every day."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "those who say evil things about me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "in order that I may honor you;"
+  },
+  {
+    "t": "q",
+    "v": "rescue me from my enemies"
+  },
+  {
+    "t": "q",
+    "v": "because you faithfully love me as you promised."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and my inner being is full of pain."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "as an evening shadow that will soon disappear."
+  },
+  {
+    "t": "q",
+    "v": "I will be blown away as a locust is blown by the wind."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and my body has become very thin."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "when they see me, they insult me by shaking their heads at me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Because you faithfully love me, rescue me!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "cause my enemies to know that you are the one who has done it!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Cause those who persecute me to be defeated and disgraced,"
+  },
+  {
+    "t": "q",
+    "v": "but cause me to be glad!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "cause other people to see that they are disgraced as easily as they see the clothes that they wear!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will praise him when I am among the crowd of people who are worshiping him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and because he saves us from those who have said that we must die."
+  }
+]

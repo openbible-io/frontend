@@ -1,265 +1,343 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "These are the divisions of the descendants of Aaron the first high priest: Aaron's four sons were Nadab, Abihu, Eleazar, and Ithamar."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "But Nadab and Abihu died before their father died, and they had no children. So their younger brothers Eleazar and Ithamar became the priests."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Zadok, who was a descendant of Eleazar, and Ahimelech, who was a descendant of Ithamar, helped David to separate the family groups into two groups. Each group had certain duties."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "There were more leaders among the descendants of Eleazar than there were among the descendants of Ithamar. So they appointed sixteen leaders from Eleazar's descendants and eight leaders from Ithamar's descendants."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "There were temple officials and priests who were there, including descendants of both Eleazar and Ithamar, to make sure that the work was divided fairly. So they decided what work each group would do by casting lots."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Shemaiah son of Nethanel, who was a descendant of Levi, wrote down the names of the leaders of each group while David and his officials were watching. Zadok, the high priest, and Ahimelech his assistant, and the leaders of the families of the priests and of the families of the other descendants of Levi also watched."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Jehoiarib was the first one whose name was selected by casting lots."
-          },
-          {
-            "tag": "q",
-            "text": "Next Jedaiah was selected."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Next, Harim was selected."
-          },
-          {
-            "tag": "q",
-            "text": "Next, Seorim was selected."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Next, Malkijah was selected."
-          },
-          {
-            "tag": "q",
-            "text": "Next, Mijamin was selected."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "Next, Hakkoz was selected."
-          },
-          {
-            "tag": "q",
-            "text": "Next, Abijah was selected."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Next, Jeshua was selected."
-          },
-          {
-            "tag": "q",
-            "text": "Next, Shecaniah was selected."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Next, Eliashib was selected."
-          },
-          {
-            "tag": "q",
-            "text": "Next, Jakim was selected."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Next, Huppah was selected."
-          },
-          {
-            "tag": "q",
-            "text": "Next, Jeshebeab was selected."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "Next, Bilgah was selected."
-          },
-          {
-            "tag": "q",
-            "text": "Next, Immer was selected."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "Next, Hezir was selected."
-          },
-          {
-            "tag": "q",
-            "text": "Next, Happizzez was selected."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Next, Pethahiah was selected."
-          },
-          {
-            "tag": "q",
-            "text": "Next, Jehezkel was selected."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Next, Jakin was selected."
-          },
-          {
-            "tag": "q",
-            "text": "Next, Gamul was selected."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "Next, Delaiah was selected."
-          },
-          {
-            "tag": "q",
-            "text": "Next, Maaziah was selected."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "Those were the men who were chosen to be the leaders of the groups that would serve in the temple, obeying the regulations that were set down by Aaron, regulations which Yahweh, the God to whom we Israelite people belong, had given to him."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "This is a list of some of the other descendants of Levi:"
-          },
-          {
-            "tag": "q",
-            "text": "From the sons of Amram there was Shubael."
-          },
-          {
-            "tag": "q2",
-            "text": "From the sons of Shubael there was Jehdeiah."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "From Rehabiah son of Eleazar there was Isshiah, his oldest son."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "From the descendants of Kohath's son Izhar there was Shelomoth."
-          },
-          {
-            "tag": "q2",
-            "text": "From the descendants of Shelomoth there was Jahath."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "From the descendants of Kohath's son Hebron there was his oldest son Jeriah and Jeriah's younger brothers Amariah, Jahaziel, and Jekameam."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "From the descendants of Kohath's son Uzziel there was Micah."
-          },
-          {
-            "tag": "q2",
-            "text": "From the descendants of Micah there was Shamir."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "And Micah's younger brother was Isshiah."
-          },
-          {
-            "tag": "q2",
-            "text": "From the descendants of Isshiah was Zechariah."
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "The sons of Merari were Mahli, Mushi, and Jaaziah."
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "From the descendants of Jaaziah there were Beno, Shoham, Zaccur, and Ibri."
-          },
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "Mahli's son Eleazar did not have any sons."
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "From the descendants of Kish there was his son Jerahmeel."
-          },
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "The sons of Mushi were Mahli, Eder, and Jerimoth."
-          }
-        ],
-        "tag": "m"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "The jobs they would do were decided by casting lots like their fellow Israelites the descendants of Aaron, did. They cast lots while King David, Zadok, Ahimelech, and the leaders of he families of the priests and the other descendants of Levi watched. The jobs that were given to the families of each oldest brother and each youngest brother were equal."
-          }
-        ],
-        "tag": "p",
-        "text": "Those were descendants of Levi who were listed according to the leaders of their families."
+        "t": "v",
+        "n": 1,
+        "v": "These are the divisions of the descendants of Aaron the first high priest: Aaron’s four sons were Nadab, Abihu, Eleazar, and Ithamar."
       }
-    ],
-    "num": 24
+    ]
   },
-  "id": "CH unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Chronicles"
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 2,
+        "v": "But Nadab and Abihu died before their father died, and they had no children. So their younger brothers Eleazar and Ithamar became the priests."
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Zadok, who was a descendant of Eleazar, and Ahimelech, who was a descendant of Ithamar, helped David to separate the family groups into two groups. Each group had certain duties."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "There were more leaders among the descendants of Eleazar than there were among the descendants of Ithamar. So they appointed sixteen leaders from Eleazar’s descendants and eight leaders from Ithamar’s descendants."
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "There were temple officials and priests who were there, including descendants of both Eleazar and Ithamar, to make sure that the work was divided fairly. So they decided what work each group would do by casting lots."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Shemaiah son of Nethanel, who was a descendant of Levi, wrote down the names of the leaders of each group while David and his officials were watching. Zadok, the high priest, and Ahimelech his assistant, and the leaders of the families of the priests and of the families of the other descendants of Levi also watched."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Jehoiarib was the first one whose name was selected by casting lots."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Next, Harim was selected."
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Next, Malkijah was selected."
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Next, Hakkoz was selected."
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Next, Jeshua was selected."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Next, Eliashib was selected."
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Next, Huppah was selected."
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "Next, Bilgah was selected."
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Next, Hezir was selected."
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Next, Pethahiah was selected."
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Next, Jakin was selected."
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Next, Delaiah was selected."
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Next Jedaiah was selected."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Next, Seorim was selected."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Next, Mijamin was selected."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Next, Abijah was selected."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Next, Shecaniah was selected."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Next, Jakim was selected."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Next, Jeshebeab was selected."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Next, Immer was selected."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Next, Happizzez was selected."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Next, Jehezkel was selected."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Next, Gamul was selected."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Next, Maaziah was selected."
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Those were the men who were chosen to be the leaders of the groups that would serve in the temple, obeying the regulations that were set down by Aaron, regulations which Yahweh, the God to whom we Israelite people belong, had given to him."
+      }
+    ]
+  },
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 20,
+        "v": "This is a list of some of the other descendants of Levi:"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "From Rehabiah son of Eleazar there was Isshiah, his oldest son."
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "From the descendants of Kohath’s son Izhar there was Shelomoth."
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "From the descendants of Kohath’s son Hebron there was his oldest son Jeriah and Jeriah’s younger brothers Amariah, Jahaziel, and Jekameam."
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "From the descendants of Kohath’s son Uzziel there was Micah."
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "And Micah’s younger brother was Isshiah."
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "The sons of Merari were Mahli, Mushi, and Jaaziah."
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "From the descendants of Jaaziah there were Beno, Shoham, Zaccur, and Ibri."
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "Mahli’s son Eleazar did not have any sons."
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "From the descendants of Kish there was his son Jerahmeel."
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "The sons of Mushi were Mahli, Eder, and Jerimoth."
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": "From the sons of Amram there was Shubael."
+  },
+  {
+    "t": "q",
+    "v": "From the sons of Shubael there was Jehdeiah."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "From the descendants of Shelomoth there was Jahath."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "From the descendants of Micah there was Shamir."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "From the descendants of Isshiah was Zechariah."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 31,
+        "v": "The jobs they would do were decided by casting lots like their fellow Israelites the descendants of Aaron, did. They cast lots while King David, Zadok, Ahimelech, and the leaders of he families of the priests and the other descendants of Levi watched. The jobs that were given to the families of each oldest brother and each youngest brother were equal."
+      }
+    ]
+  }
+]

@@ -1,161 +1,237 @@
-{
-  "chapter": {
-    "children": [
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "tag": "d",
-        "text": "A psalm written by one of the descendants of Korah for the choir director"
-      },
-      {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Yahweh, commander of the angel armies,"
-          },
-          {
-            "tag": "q2",
-            "text": "your temple is very beautiful!"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "I would like to be there;"
-          },
-          {
-            "tag": "q2",
-            "text": "Yahweh, I desire that very much."
-          },
-          {
-            "tag": "q2",
-            "text": "With all my inner being I sing joyfully to you, the all-powerful God."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Even sparrows and swallows have built nests near your temple;"
-          },
-          {
-            "tag": "q2",
-            "text": "they take care of their young babies near the altars where people offer sacrifices to you,"
-          },
-          {
-            "tag": "q2",
-            "text": "Commander of the angel armies, my king and my God."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "How fortunate are those who are always in your temple,"
-          },
-          {
-            "tag": "q2",
-            "text": "constantly singing to praise you."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "How fortunate are those whom you make strong,"
-          },
-          {
-            "tag": "q1",
-            "text": "those who desire very much to make the trip up to Mount Zion."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "While they travel through the dryValley of Tears,"
-          },
-          {
-            "tag": "q1",
-            "text": "you cause it to become a place where there are springs of water,"
-          },
-          {
-            "tag": "q2",
-            "text": "where the rains in the autumn fill the valley with water, a blessing from you."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "As a result, those who travel through there become stronger"
-          },
-          {
-            "tag": "q2",
-            "text": "knowing that they will appear in your presence on Mount Zion."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Yahweh, commander of the angel armies, listen to my prayer;"
-          },
-          {
-            "tag": "q1",
-            "text": "God, whom we descendants of Jacob worship, hear what I am saying!"
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "God, act kindly toward our king, the one who protects us,"
-          },
-          {
-            "tag": "q2",
-            "text": "the one whom you have chosen to rule us."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "For me, spending one day in your temple"
-          },
-          {
-            "tag": "q2",
-            "text": "is better than spending a thousand days somewhere else;"
-          },
-          {
-            "tag": "q1",
-            "text": "standing at the entrance to your temple, ready to go inside,"
-          },
-          {
-            "tag": "q2",
-            "text": "is better than living in the tents where wicked people live."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Yahweh our God is like the sun that shines on us and like a shield that protects us;"
-          },
-          {
-            "tag": "q2",
-            "text": "he acts favorably toward us and honors us."
-          },
-          {
-            "tag": "q1",
-            "text": "Yahweh does not refuse to give any good thing to those who do what is right."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Yahweh, commander of the angel armies,"
-          },
-          {
-            "tag": "q2",
-            "text": "how fortunate are those who trust in you!"
-          }
-        ],
-        "auto": true
-      }
-    ],
-    "num": 84
+[
+  {
+    "t": "m",
+    "v": []
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 1,
+        "v": "God, do not continue to be silent!"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "because your enemies are rioting against you;"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "They are secretly planning to do things to harm us, your people;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "They say, “Come, we must destroy their nation"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "They have agreed on what they want to do to destroy Israel,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Your enemies are the people who live in the tents of Edom—"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "the people of Gebal, and the Ammonites, and the Amalekites,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "The people of Assyria have joined them;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "God, do to those people things as you did to the Midian people group,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "You destroyed them at the town of Endor,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Do to them things like you did to kings Oreb and Zeeb;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "who said, “We will take for ourselves the land that the Israelites say belongs to God!”"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "My God, cause them to disappear quickly like whirling dust,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "As a fire completely burns a forest"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "expel them with your storms"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Cause them to be very ashamed"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Cause them to be forever disgraced because of being defeated,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Cause them to know that you, whose name is Yahweh,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Do not be quiet and say nothing"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "those who hate you are rebelling against you!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they are conspiring together against the people whom you protect."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so that no one will remember that Israel ever existed!”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they have agreed to attack you together."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the Ishmaelites, Moab and the Hagrites, they conspire together with"
+  },
+  {
+    "t": "q",
+    "v": "and the Philistines, and the people of the city of Tyre."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they are strong allies of the Moab and Ammon people groups, who are descendants of Abraham’s nephew Lot."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "as you did to Sisera and Jabin at the river Kishon."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and their corpses lay on the ground and decayed."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "defeat their leaders like you defeated Zebah and Zalmunna,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "like chaff that the wind blows away!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and as flames burn in the mountains,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and cause them to be terrified by your big storms!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so that they will admit that you are very powerful."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and cause them to die while they are still disgraced."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "are the supreme ruler over everything on the earth."
+  }
+]

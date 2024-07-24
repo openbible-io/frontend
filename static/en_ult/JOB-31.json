@@ -1,442 +1,587 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "I have made a covenant with my eyes;"
-          },
-          {
-            "tag": "q",
-            "text": "how then should I look with desire on a virgin?"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "For what is the portion from God above,"
-          },
-          {
-            "tag": "q",
-            "text": "the inheritance from the Almighty on high?"
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "I used to think that calamity is for unrighteous people,"
-          },
-          {
-            "tag": "q",
-            "text": "and that disaster is for doers of wickedness."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Does not God see my ways"
-          },
-          {
-            "tag": "q",
-            "text": "and count all my steps?"
-          }
-        ],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "I have made a covenant with my eyes;"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "If I have walked with falsehood,"
-          },
-          {
-            "tag": "q",
-            "text": "if my foot has hurried to deceit,"
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "let me be weighed in an even balance"
-          },
-          {
-            "tag": "q",
-            "text": "so that God will know my integrity."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "If my step has turned aside from the way,"
-          },
-          {
-            "tag": "q",
-            "text": "if my heart has gone after my eyes,"
-          },
-          {
-            "tag": "q",
-            "text": "if any spot has stuck to my hands,"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "then let me sow, and let another eat,"
-          },
-          {
-            "tag": "q",
-            "text": "and let my crops be uprooted."
-          }
-        ],
-        "tag": "m"
+        "t": "v",
+        "n": 2,
+        "v": "For what is the portion from God above,"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "If my heart has been deceived by a woman,"
-          },
-          {
-            "tag": "q",
-            "text": "if I have lain in wait at my neighbor’s door,"
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "then let my wife grind grain for another,"
-          },
-          {
-            "tag": "q",
-            "text": "and let others bow down on her."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "For that would be a terrible crime;"
-          },
-          {
-            "tag": "q",
-            "text": "indeed, it would be a crime to be punished by judges."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "For that is a fire that consumes as far as Abaddon,"
-          },
-          {
-            "tag": "q",
-            "text": "and it would burn all my harvest to the root."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "If I ignored the plea for justice from my male or female servant"
-          },
-          {
-            "tag": "q",
-            "text": "when they argued with me,"
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "what then would I do when God rises up to accuse me?"
-          },
-          {
-            "tag": "q",
-            "text": "When he comes to judge me, how would I answer him?"
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "Did the one who made me in the womb not make them also?"
-          },
-          {
-            "tag": "q",
-            "text": "Did not the same one mold us all in the womb?"
-          }
-        ],
-        "tag": "m"
+        "t": "v",
+        "n": 3,
+        "v": "I used to think that calamity is for unrighteous people,"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "If I have withheld poor people from their desire,"
-          },
-          {
-            "tag": "q",
-            "text": "or if I have caused the eyes of the widow to grow dim from crying,"
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "or if I have eaten my morsel alone"
-          },
-          {
-            "tag": "q",
-            "text": "and not allowed those without fathers to eat it also—"
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "because from my youth the orphan grew up with me as with a father,"
-          },
-          {
-            "tag": "q",
-            "text": "and I have guided his mother, a widow, from my own mother’s womb."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "If I have seen anyone perish for lack of clothing,"
-          },
-          {
-            "tag": "q",
-            "text": "or if I have seen that a needy man had no clothing;"
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "if his heart has not blessed me"
-          },
-          {
-            "tag": "q",
-            "text": "because he has not been warmed with the wool of my sheep,"
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "if I have lifted up my hand against fatherless people"
-          },
-          {
-            "tag": "q",
-            "text": "because I saw my support in the city gate,"
-          },
-          {
-            "tag": "q",
-            "text": "then bring charges against me!"
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "If I have done these things, then let my shoulder fall from the shoulder blade,"
-          },
-          {
-            "tag": "q",
-            "text": "and let my arm be broken from its joint."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "For I dreaded destruction from God;"
-          },
-          {
-            "tag": "q",
-            "text": "because of his majesty, I was not able to do those things."
-          }
-        ],
-        "tag": "m"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "If I have made gold my hope,"
-          },
-          {
-            "tag": "q",
-            "text": "and if I have said to fine gold, ‘You are what I am confident in’;"
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "if I have rejoiced because my wealth was great,"
-          },
-          {
-            "tag": "q",
-            "text": "because my hand had gotten many possessions,"
-          },
-          {
-            "tag": "q",
-            "text": "then bring charges against me!"
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "If I have seen the sun when it shone,"
-          },
-          {
-            "tag": "q",
-            "text": "or the moon walking in its brightness,"
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "and if my heart has been secretly attracted,"
-          },
-          {
-            "tag": "q",
-            "text": "so that my mouth has kissed my hand in worship of them—"
-          },
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "this also would be a crime to be punished by judges,"
-          },
-          {
-            "tag": "q",
-            "text": "for I would have denied the God who is above."
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "If I have rejoiced at the destruction of anyone who hated me"
-          },
-          {
-            "tag": "q",
-            "text": "or congratulated myself when disaster overtook him,"
-          },
-          {
-            "tag": "q",
-            "text": "then bring charges against me!"
-          },
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "Indeed, I have not even allowed my mouth to sin"
-          },
-          {
-            "tag": "q",
-            "text": "by asking for his life with a curse."
-          },
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "If the men of my tent have never said,"
-          },
-          {
-            "tag": "q",
-            "text": "‘Who can find one who has not been filled with Job’s food?’"
-          },
-          {
-            "tag": "v",
-            "num": "32",
-            "text": "(even the foreigner has never had to stay in the city square,"
-          },
-          {
-            "tag": "q",
-            "text": "because I have always opened my doors to the traveler), "
-          },
-          {
-            "tag": "q",
-            "text": "and if that is not so, then bring charges against me!"
-          },
-          {
-            "tag": "v",
-            "num": "33",
-            "text": "If, like mankind, I have hidden my sins"
-          },
-          {
-            "tag": "q",
-            "text": "by hiding my guilt inside my tunic"
-          },
-          {
-            "tag": "v",
-            "num": "34",
-            "text": "(because I feared the great multitude,"
-          },
-          {
-            "tag": "q",
-            "text": "because the contempt of families terrified me,"
-          },
-          {
-            "tag": "q",
-            "text": "so that I kept silent and would not go outside),"
-          },
-          {
-            "tag": "q",
-            "text": "then bring charges against me!"
-          },
-          {
-            "tag": "v",
-            "num": "35",
-            "text": "Oh, if only I had someone to hear me!"
-          },
-          {
-            "tag": "q",
-            "text": "See, here is my signature; let the Almighty answer me!"
-          },
-          {
-            "tag": "q",
-            "text": "If only I had the indictment that my opponent has written!"
-          },
-          {
-            "tag": "v",
-            "num": "36",
-            "text": "Surely I would carry it openly on my shoulder;"
-          },
-          {
-            "tag": "q",
-            "text": "I would put it on like a crown."
-          },
-          {
-            "tag": "v",
-            "num": "37",
-            "text": "I would declare to him an accounting for my steps;"
-          },
-          {
-            "tag": "q",
-            "text": "as a confident prince I would go up to him."
-          },
-          {
-            "tag": "v",
-            "num": "38",
-            "text": "If my land ever cries out against me,"
-          },
-          {
-            "tag": "q",
-            "text": "and its furrows weep together,"
-          },
-          {
-            "tag": "v",
-            "num": "39",
-            "text": "if I have eaten its harvest without paying for it"
-          },
-          {
-            "tag": "q",
-            "text": "or have caused its owners to lose their lives,"
-          },
-          {
-            "tag": "v",
-            "num": "40",
-            "text": "then let thorns grow instead of wheat"
-          },
-          {
-            "tag": "q",
-            "text": "and weeds instead of barley.”"
-          }
-        ],
-        "tag": "m"
-      },
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "children": [],
-        "tag": "p",
-        "text": "The words of Job are finished."
+        "t": "v",
+        "n": 4,
+        "v": "Does not God see my ways"
       }
-    ],
-    "num": 31
+    ]
   },
-  "id": "JOB unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Job",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Job"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "how then should I look with desire on a virgin?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the inheritance from the Almighty on high?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and that disaster is for doers of wickedness."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and count all my steps?"
+  },
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 5,
+        "v": "If I have walked with falsehood,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "let me be weighed in an even balance"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "If my step has turned aside from the way,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "then let me sow, and let another eat,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "if my foot has hurried to deceit,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so that God will know my integrity."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "if my heart has gone after my eyes,"
+  },
+  {
+    "t": "q",
+    "v": "if any spot has stuck to my hands,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and let my crops be uprooted."
+  },
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 9,
+        "v": "If my heart has been deceived by a woman,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "then let my wife grind grain for another,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "For that would be a terrible crime;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "For that is a fire that consumes as far as Abaddon,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "If I ignored the plea for justice from my male or female servant"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "what then would I do when God rises up to accuse me?"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Did the one who made me in the womb not make them also?"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "if I have lain in wait at my neighbor’s door,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and let others bow down on her."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "indeed, it would be a crime to be punished by judges."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and it would burn all my harvest to the root."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "when they argued with me,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "When he comes to judge me, how would I answer him?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Did not the same one mold us all in the womb?"
+  },
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 16,
+        "v": "If I have withheld poor people from their desire,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "or if I have eaten my morsel alone"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "because from my youth the orphan grew up with me as with a father,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "If I have seen anyone perish for lack of clothing,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "if his heart has not blessed me"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "if I have lifted up my hand against fatherless people"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "If I have done these things, then let my shoulder fall from the shoulder blade,"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "For I dreaded destruction from God;"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "or if I have caused the eyes of the widow to grow dim from crying,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and not allowed those without fathers to eat it also—"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and I have guided his mother, a widow, from my own mother’s womb."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "or if I have seen that a needy man had no clothing;"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because he has not been warmed with the wool of my sheep,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because I saw my support in the city gate,"
+  },
+  {
+    "t": "q",
+    "v": "then bring charges against me!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and let my arm be broken from its joint."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because of his majesty, I was not able to do those things."
+  },
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 24,
+        "v": "If I have made gold my hope,"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "if I have rejoiced because my wealth was great,"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "If I have seen the sun when it shone,"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "and if my heart has been secretly attracted,"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "this also would be a crime to be punished by judges,"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "If I have rejoiced at the destruction of anyone who hated me"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "Indeed, I have not even allowed my mouth to sin"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "If the men of my tent have never said,"
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "(even the foreigner has never had to stay in the city square,"
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "If, like mankind, I have hidden my sins"
+      },
+      {
+        "t": "v",
+        "n": 34,
+        "v": "(because I feared the great multitude,"
+      },
+      {
+        "t": "v",
+        "n": 35,
+        "v": "Oh, if only I had someone to hear me!"
+      },
+      {
+        "t": "v",
+        "n": 36,
+        "v": "Surely I would carry it openly on my shoulder;"
+      },
+      {
+        "t": "v",
+        "n": 37,
+        "v": "I would declare to him an accounting for my steps;"
+      },
+      {
+        "t": "v",
+        "n": 38,
+        "v": "If my land ever cries out against me,"
+      },
+      {
+        "t": "v",
+        "n": 39,
+        "v": "if I have eaten its harvest without paying for it"
+      },
+      {
+        "t": "v",
+        "n": 40,
+        "v": "then let thorns grow instead of wheat"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and if I have said to fine gold, ‘You are what I am confident in’;"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because my hand had gotten many possessions,"
+  },
+  {
+    "t": "q",
+    "v": "then bring charges against me!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "or the moon walking in its brightness,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so that my mouth has kissed my hand in worship of them—"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for I would have denied the God who is above."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "or congratulated myself when disaster overtook him,"
+  },
+  {
+    "t": "q",
+    "v": "then bring charges against me!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "by asking for his life with a curse."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "‘Who can find one who has not been filled with Job’s food?’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because I have always opened my doors to the traveler), "
+  },
+  {
+    "t": "q",
+    "v": "and if that is not so, then bring charges against me!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "by hiding my guilt inside my tunic"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because the contempt of families terrified me,"
+  },
+  {
+    "t": "q",
+    "v": "so that I kept silent and would not go outside),"
+  },
+  {
+    "t": "q",
+    "v": "then bring charges against me!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "See, here is my signature; let the Almighty answer me!"
+  },
+  {
+    "t": "q",
+    "v": "If only I had the indictment that my opponent has written!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I would put it on like a crown."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "as a confident prince I would go up to him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and its furrows weep together,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "or have caused its owners to lose their lives,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and weeds instead of barley.”"
+  },
+  {
+    "t": "m",
+    "v": []
+  },
+  {
+    "t": "p",
+    "v": []
+  }
+]

@@ -1,210 +1,184 @@
-{
-  "chapter": {
-    "children": [
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "tag": "d",
-        "text": "A prayer written by David"
-      },
-      {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Yahweh, listen to what I say and answer me"
-          },
-          {
-            "tag": "q2",
-            "text": "because I am weak and needy."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Prevent me from dying now because I am loyal to you;"
-          },
-          {
-            "tag": "q2",
-            "text": "save me because I serve you and I trust in you, my God."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Lord, act kindly toward me"
-          },
-          {
-            "tag": "q2",
-            "text": "because I cry out to you all during each day."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Lord, cause me to be glad,"
-          },
-          {
-            "tag": "q2",
-            "text": "because I pray to you."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Lord, you are good to us, and you forgive us;"
-          },
-          {
-            "tag": "q1",
-            "text": "you faithfully love very much all those who pray to you."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Yahweh, listen to my prayer;"
-          },
-          {
-            "tag": "q2",
-            "text": "hear me when I cry out to you to help me."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "When I have troubles, I call out to you"
-          },
-          {
-            "tag": "q2",
-            "text": "because you answer me."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Lord, among all the gods whom the heathen nations worship,"
-          },
-          {
-            "tag": "q2",
-            "text": "there is no one like you;"
-          },
-          {
-            "tag": "q1",
-            "text": "not one of them has done the great things that you have done."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Lord, someday people from all the nations that you have established will come and bow down in front of you,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they will praise you."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "You are great, and you do wonderful things;"
-          },
-          {
-            "tag": "q2",
-            "text": "only you are God."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Yahweh, teach me what you want me to do"
-          },
-          {
-            "tag": "q2",
-            "text": "so that I may conduct my life according to what you say, all of which is right."
-          },
-          {
-            "tag": "q1",
-            "text": "Cause me to have an awesome respect for you with all my inner being."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Lord, my God, I will thank you with all my inner being,"
-          },
-          {
-            "tag": "q2",
-            "text": "and I will praise you forever."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "You faithfully love me very much as you have promised;"
-          },
-          {
-            "tag": "q2",
-            "text": "you have prevented me from dying and going to the place where dead people are."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "But God, proud men are trying to attack me;"
-          },
-          {
-            "tag": "q2",
-            "text": "a gang of cruel men are wanting to kill me;"
-          },
-          {
-            "tag": "q2",
-            "text": "they are men who do not have any respect for you."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "But Lord, you always act mercifully and kindly;"
-          },
-          {
-            "tag": "q2",
-            "text": "you do not become angry quickly;"
-          },
-          {
-            "tag": "q2",
-            "text": "you faithfully love us very much"
-          },
-          {
-            "tag": "q2",
-            "text": "and always do for us what you have promised to do."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Look down toward me and act mercifully to me;"
-          },
-          {
-            "tag": "q2",
-            "text": "cause me to be strong and save me,"
-          },
-          {
-            "tag": "q2",
-            "text": "the one who serves you faithfully as my mother did."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Yahweh, do something to show me that you are being good to me"
-          },
-          {
-            "tag": "q2",
-            "text": "so that those who hate me will see that you have encouraged me and helped me;"
-          },
-          {
-            "tag": "q2",
-            "text": "as a result, they will be ashamed."
-          }
-        ],
-        "auto": true
-      }
-    ],
-    "num": 86
+[
+  {
+    "t": "m",
+    "v": []
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh, you have acted kindly toward us people who live in this land;"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "You forgave us, your people, for the sins that we had committed;"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "You stopped being angry with us"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Now, God, the only one who can save us, stop being angry with us"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Will you continue to be angry with us forever?"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Please enable us to prosper again"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Yahweh, by rescuing us from our troubles,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "I want to listen to what Yahweh our God says"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "He is surely ready to save those who have an awesome respect for him,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "When that happens, he will both faithfully love us and faithfully do for us what he promised to do;"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Here on earth, we will be loyal to God,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Yes, Yahweh will do good things for us,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Yahweh always acts righteously;"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you have enabled us Israelite people to become prosperous again."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you pardoned us for all our sins."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and turned away from severely punishing us."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and help us."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so that we, your people, will rejoice about what you have done for us."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "show us that you faithfully love us."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because he promises that he will enable us, his people, to live peacefully"
+  },
+  {
+    "t": "q",
+    "v": "if we do not return to doing foolish things."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so that his glory will remain in our land."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "we will act righteously, and he will give us peace,"
+  },
+  {
+    "t": "q",
+    "v": "which will be like a kiss that he gives us."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and from heaven, God will act justly toward us."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and there will be great harvests in our land."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he acts righteously wherever he goes."
+  }
+]

@@ -1,734 +1,291 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "I will call out with my voice to God;"
       },
       {
-        "tag": "d",
-        "text": "A maschil of Asaph."
+        "t": "v",
+        "n": 2,
+        "v": "In the day of my trouble I sought the Lord;"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Hear my teaching, my people,"
-          },
-          {
-            "tag": "q",
-            "text": "listen to the words of my mouth."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "I will open my mouth in parables;"
-          },
-          {
-            "tag": "q",
-            "text": "I will sing about hidden things about the past."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "These are things that we have heard and learned,"
-          },
-          {
-            "tag": "q",
-            "text": "things that our ancestors have told us."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "We will not keep them from their descendants."
-          },
-          {
-            "tag": "q",
-            "text": "We will tell the next generation about the praiseworthy deeds of Yahweh,"
-          },
-          {
-            "tag": "q",
-            "text": "his strength, and the wonders that he has done."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "For he established covenant decrees in Jacob"
-          },
-          {
-            "tag": "q",
-            "text": "and appointed a law in Israel."
-          },
-          {
-            "tag": "q",
-            "text": "He commanded our ancestors"
-          },
-          {
-            "tag": "q",
-            "text": "that they were to teach them to their children."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "He commanded this so that the generation to come might know his decrees, the children not yet born,"
-          },
-          {
-            "tag": "q",
-            "text": "who should tell them in turn to their own children."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Then they would place their hope in God"
-          },
-          {
-            "tag": "q",
-            "text": "and not forget his deeds"
-          },
-          {
-            "tag": "q",
-            "text": "but keep his commandments."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Then they would not be like their ancestors,"
-          },
-          {
-            "tag": "q",
-            "text": "who were a stubborn and rebellious generation,"
-          },
-          {
-            "tag": "q",
-            "text": "a generation whose hearts were not right,"
-          },
-          {
-            "tag": "q",
-            "text": "and whose spirits were not committed and faithful to God."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "The Ephraimites were armed with bows,"
-          },
-          {
-            "tag": "q",
-            "text": "but they turned back on the day of battle."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "They did not keep the covenant with God,"
-          },
-          {
-            "tag": "q",
-            "text": "and they refused to obey his law."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "They forgot his deeds,"
-          },
-          {
-            "tag": "q",
-            "text": "the wonderful things that he had shown them."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "They forgot the marvelous things he did in the sight of their ancestors"
-          },
-          {
-            "tag": "q",
-            "text": "in the land of Egypt, in the land of Zoan."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "He divided the sea and led them across it;"
-          },
-          {
-            "tag": "q",
-            "text": "he made the waters to stand like walls."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "In the daytime he led them with a cloud"
-          },
-          {
-            "tag": "q",
-            "text": "and all the night with the light of fire."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "He split the rocks in the wilderness,"
-          },
-          {
-            "tag": "q",
-            "text": "and he gave them water abundantly, enough to fill the depths of the sea."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "He made streams flow out of the rock"
-          },
-          {
-            "tag": "q",
-            "text": "and made the water flow like rivers."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Yet they continued to sin against him,"
-          },
-          {
-            "tag": "q",
-            "text": "rebelling against the Most High in the wilderness."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "They challenged God in their hearts"
-          },
-          {
-            "tag": "q",
-            "text": "by asking for food to satisfy their appetites."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "They spoke against God;"
-          },
-          {
-            "tag": "q",
-            "text": "they said, “Can God really lay out a table for us in the wilderness?"
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "See, when he struck the rock, waters gushed out"
-          },
-          {
-            "tag": "q",
-            "text": "and streams overflowed."
-          },
-          {
-            "tag": "q",
-            "text": "But can he give bread also?"
-          },
-          {
-            "tag": "q",
-            "text": "Will he provide meat for his people?”"
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "When Yahweh heard this, he was angry;"
-          },
-          {
-            "tag": "q",
-            "text": "so his fire burned against Jacob,"
-          },
-          {
-            "tag": "q",
-            "text": "and his anger attacked Israel,"
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "because they did not believe in God"
-          },
-          {
-            "tag": "q",
-            "text": "and did not trust in his salvation."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "Yet he commanded the skies above"
-          },
-          {
-            "tag": "q",
-            "text": "and opened the doors of the sky."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "He rained down manna for them to eat,"
-          },
-          {
-            "tag": "q",
-            "text": "and gave them the grain from heaven."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "People ate the bread of angels."
-          },
-          {
-            "tag": "q",
-            "text": "He sent them food in abundance."
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "He caused the east wind to blow in the sky,"
-          },
-          {
-            "tag": "q",
-            "text": "and by his power he guided the south wind."
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "He rained down meat on them like dust,"
-          },
-          {
-            "tag": "q",
-            "text": "birds as numerous as the sands of the sea."
-          },
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "They fell in the middle of their camp,"
-          },
-          {
-            "tag": "q",
-            "text": "all around their tents."
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "So they ate and were full."
-          },
-          {
-            "tag": "q",
-            "text": "He gave them what they craved."
-          },
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "But they had not yet filled up;"
-          },
-          {
-            "tag": "q",
-            "text": "their food was still in their mouths."
-          },
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "Then God’s anger attacked them"
-          },
-          {
-            "tag": "q",
-            "text": "and killed the strongest of them."
-          },
-          {
-            "tag": "q",
-            "text": "He brought down the young men of Israel."
-          },
-          {
-            "tag": "v",
-            "num": "32",
-            "text": "Despite this, they continued to sin"
-          },
-          {
-            "tag": "q",
-            "text": "and did not believe his wonderful deeds."
-          },
-          {
-            "tag": "v",
-            "num": "33",
-            "text": "Therefore God cut short their days;"
-          },
-          {
-            "tag": "q",
-            "text": "their years were filled with terror."
-          },
-          {
-            "tag": "v",
-            "num": "34",
-            "text": "Whenever God afflicted them, they would start to seek him,"
-          },
-          {
-            "tag": "q",
-            "text": "and they would return and look earnestly for him."
-          },
-          {
-            "tag": "v",
-            "num": "35",
-            "text": "They would call to mind that God was their rock"
-          },
-          {
-            "tag": "q",
-            "text": "and that the Most High God was their rescuer."
-          },
-          {
-            "tag": "v",
-            "num": "36",
-            "text": "But they would flatter him with their mouth"
-          },
-          {
-            "tag": "q",
-            "text": "and lie to him with their words."
-          },
-          {
-            "tag": "v",
-            "num": "37",
-            "text": "For their hearts were not firmly fixed on him,"
-          },
-          {
-            "tag": "q",
-            "text": "and they were not faithful to his covenant."
-          },
-          {
-            "tag": "v",
-            "num": "38",
-            "text": "Yet he, being merciful, forgave their iniquity and did not destroy them."
-          },
-          {
-            "tag": "q",
-            "text": "Yes, many times he held back his anger"
-          },
-          {
-            "tag": "q",
-            "text": "and did not stir up all his wrath."
-          },
-          {
-            "tag": "v",
-            "num": "39",
-            "text": "He called to mind that they were made of flesh,"
-          },
-          {
-            "tag": "q",
-            "text": "a wind that passes away and does not return."
-          },
-          {
-            "tag": "v",
-            "num": "40",
-            "text": "How often they rebelled against him in the wilderness"
-          },
-          {
-            "tag": "q",
-            "text": "and grieved him in the barren regions!"
-          },
-          {
-            "tag": "v",
-            "num": "41",
-            "text": "Again and again they challenged God"
-          },
-          {
-            "tag": "q",
-            "text": "and offended the Holy One of Israel."
-          },
-          {
-            "tag": "v",
-            "num": "42",
-            "text": "They did not think about his power,"
-          },
-          {
-            "tag": "q",
-            "text": "how he had rescued them from the enemy"
-          },
-          {
-            "tag": "v",
-            "num": "43",
-            "text": "when he performed his terrifying signs in Egypt"
-          },
-          {
-            "tag": "q",
-            "text": "and his wonders in the region of Zoan."
-          },
-          {
-            "tag": "v",
-            "num": "44",
-            "text": "He turned the Egyptians’ rivers to blood"
-          },
-          {
-            "tag": "q",
-            "text": "so that they could not drink from their streams."
-          },
-          {
-            "tag": "v",
-            "num": "45",
-            "text": "He sent swarms of flies that devoured them"
-          },
-          {
-            "tag": "q",
-            "text": "and frogs that overran their land."
-          },
-          {
-            "tag": "v",
-            "num": "46",
-            "text": "He gave their crops to the grasshopper"
-          },
-          {
-            "tag": "q",
-            "text": "and their labor to the locust."
-          },
-          {
-            "tag": "v",
-            "num": "47",
-            "text": "He destroyed their vines with hail"
-          },
-          {
-            "tag": "q",
-            "text": "and their sycamore trees with more hail."
-          },
-          {
-            "tag": "v",
-            "num": "48",
-            "text": "He rained hail on their cattle"
-          },
-          {
-            "tag": "q",
-            "text": "and hurled lightning bolts at their livestock."
-          },
-          {
-            "tag": "v",
-            "num": "49",
-            "text": "The fierceness of his anger lashed out against them."
-          },
-          {
-            "tag": "q",
-            "text": "He sent wrath, fury, and trouble"
-          },
-          {
-            "tag": "q",
-            "text": "like agents who bring disaster."
-          },
-          {
-            "tag": "v",
-            "num": "50",
-            "text": "He leveled a path for his anger;"
-          },
-          {
-            "tag": "q",
-            "text": "he did not spare them from death"
-          },
-          {
-            "tag": "q",
-            "text": "but gave them over to the plague."
-          },
-          {
-            "tag": "v",
-            "num": "51",
-            "text": "He killed all the firstborn in Egypt,"
-          },
-          {
-            "tag": "q",
-            "text": "the firstborn of their strength in the tents of Ham."
-          },
-          {
-            "tag": "v",
-            "num": "52",
-            "text": "He led his own people out like sheep"
-          },
-          {
-            "tag": "q",
-            "text": "and guided them through the wilderness like a flock."
-          },
-          {
-            "tag": "v",
-            "num": "53",
-            "text": "He led them secure and unafraid,"
-          },
-          {
-            "tag": "q",
-            "text": "but the sea overwhelmed their enemies."
-          },
-          {
-            "tag": "v",
-            "num": "54",
-            "text": "Then he brought them to the border of his holy land,"
-          },
-          {
-            "tag": "q",
-            "text": "to this mountain that his right hand acquired."
-          },
-          {
-            "tag": "v",
-            "num": "55",
-            "text": "He drove out the nations from before them"
-          },
-          {
-            "tag": "q",
-            "text": "and assigned them their inheritance."
-          },
-          {
-            "tag": "q",
-            "text": "He settled the tribes of Israel in their tents."
-          },
-          {
-            "tag": "v",
-            "num": "56",
-            "text": "Yet they challenged and defied the Most High God"
-          },
-          {
-            "tag": "q",
-            "text": "and did not keep his solemn commands."
-          },
-          {
-            "tag": "v",
-            "num": "57",
-            "text": "They were unfaithful and acted treacherously like their fathers;"
-          },
-          {
-            "tag": "q",
-            "text": "they were as undependable as a faulty bow."
-          },
-          {
-            "tag": "v",
-            "num": "58",
-            "text": "For they made him angry with their high places"
-          },
-          {
-            "tag": "q",
-            "text": "and provoked him to jealous anger with their idols."
-          },
-          {
-            "tag": "v",
-            "num": "59",
-            "text": "When God heard this, he was angry"
-          },
-          {
-            "tag": "q",
-            "text": "and completely rejected Israel."
-          },
-          {
-            "tag": "v",
-            "num": "60",
-            "text": "He abandoned the sanctuary of Shiloh,"
-          },
-          {
-            "tag": "q",
-            "text": "the tent where he had lived among people."
-          },
-          {
-            "tag": "v",
-            "num": "61",
-            "text": "He allowed his strength to be captured"
-          },
-          {
-            "tag": "q",
-            "text": "and gave his glory into the enemy’s hand."
-          },
-          {
-            "tag": "v",
-            "num": "62",
-            "text": "He handed his people over to the sword,"
-          },
-          {
-            "tag": "q",
-            "text": "and he was angry with his heritage."
-          },
-          {
-            "tag": "v",
-            "num": "63",
-            "text": "Fire devoured their young men,"
-          },
-          {
-            "tag": "q",
-            "text": "and their young women had no wedding songs."
-          },
-          {
-            "tag": "v",
-            "num": "64",
-            "text": "Their priests fell by the sword,"
-          },
-          {
-            "tag": "q",
-            "text": "and their widows could not weep."
-          },
-          {
-            "tag": "v",
-            "num": "65",
-            "text": "Then the Lord awakened as one from sleep,"
-          },
-          {
-            "tag": "q",
-            "text": "like a warrior who shouts because of wine."
-          },
-          {
-            "tag": "v",
-            "num": "66",
-            "text": "He drove his adversaries back;"
-          },
-          {
-            "tag": "q",
-            "text": "he put them to everlasting shame."
-          },
-          {
-            "tag": "v",
-            "num": "67",
-            "text": "He rejected the tent of Joseph,"
-          },
-          {
-            "tag": "q",
-            "text": "and he did not chose the tribe of Ephraim."
-          },
-          {
-            "tag": "v",
-            "num": "68",
-            "text": "He chose the tribe of Judah"
-          },
-          {
-            "tag": "q",
-            "text": "and Mount Zion that he loved."
-          },
-          {
-            "tag": "v",
-            "num": "69",
-            "text": "He built his sanctuary like the heavens,"
-          },
-          {
-            "tag": "q",
-            "text": "like the earth that he has established forever."
-          },
-          {
-            "tag": "v",
-            "num": "70",
-            "text": "He chose David, his servant,"
-          },
-          {
-            "tag": "q",
-            "text": "and took him from the sheepfolds."
-          },
-          {
-            "tag": "v",
-            "num": "71",
-            "text": "He took him from following the ewes with their young, and he brought him"
-          },
-          {
-            "tag": "q",
-            "text": "to be shepherd of Jacob, his people, and of Israel, his heritage."
-          },
-          {
-            "tag": "v",
-            "num": "72",
-            "text": "David shepherded them with the integrity of his heart,"
-          },
-          {
-            "tag": "q",
-            "text": "and he guided them with the skill of his hands."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "I thought of God as I groaned;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "You held my eyes open;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "I thought about the days of old,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "During the night I called to mind the song I once sang."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Will the Lord reject me forever?"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Was his covenant faithfulness gone forever?"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Had God forgotten to be gracious?"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "I said, “This is my sorrow:"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "But I will call to mind your deeds, Yahweh;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "I will ponder all your deeds"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Your way, God, is holy;"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "You are the God who does wonders;"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "You gave your people victory by your great power—"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "The waters saw you, God;"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "The clouds poured down water;"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Your thunderous voice was heard in the wind;"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Your path went through the sea"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "You led your people like a flock"
       }
-    ],
-    "num": 78
+    ]
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will call with my voice to God, and my God will hear me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "at night I stretched my hands out, and they would not become tired."
+  },
+  {
+    "t": "q",
+    "v": "My soul refused to be comforted."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I thought about him as I grew faint."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I was too troubled to speak."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "about times long past."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I thought carefully"
+  },
+  {
+    "t": "q",
+    "v": "and tried to understand what had happened."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Will he never again show me favor?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Had his promise failed forever?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Had his anger shut off his compassion?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the changing of the right hand of the Most High toward us.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will think about your wonderful deeds of old."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and will reflect on them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "what god compares to our great God?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you have revealed your strength among the peoples."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the descendants of Jacob and Joseph."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the waters saw you, and they were afraid;"
+  },
+  {
+    "t": "q",
+    "v": "the depths trembled."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the cloudy skies gave voice;"
+  },
+  {
+    "t": "q",
+    "v": "your arrows flew about."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the lightning lit up the world;"
+  },
+  {
+    "t": "q",
+    "v": "the earth trembled and shook."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and your way through the surging waters,"
+  },
+  {
+    "t": "q",
+    "v": "but your footprints were not seen."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "by the hand of Moses and Aaron."
+  }
+]

@@ -1,167 +1,167 @@
-{
-  "chapter": {
-    "children": [
-      {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "I will tell you about those who are truly wise,"
-          },
-          {
-            "tag": "q2",
-            "text": "with the result that they can explain why everything happens."
-          },
-          {
-            "tag": "q1",
-            "text": "Being wise enables people to be happy"
-          },
-          {
-            "tag": "q2",
-            "text": "and enables them to smile."
-          }
-        ],
-        "auto": true
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "You solemnly promised God that you would obey what the king commands, so do that."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Do not do anything rashly when it concerns the king. And do not join with those who want to rebel against him, because the king will do what he wants to do."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "We need to obey what the king says more than we need to obey what anyone else says, for no one can say to the king, \"Why are you doing that?\""
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "If you obey what the king commands,"
-          },
-          {
-            "tag": "q2",
-            "text": "he will not harm you."
-          },
-          {
-            "tag": "q1",
-            "text": "So be wise, and know the correct time to do things and the right way to do them."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Although people experience many troubles,"
-          },
-          {
-            "tag": "q2",
-            "text": "there is a right way to do them and a right time to do them."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "No one knows what will happen in the future,"
-          },
-          {
-            "tag": "q2",
-            "text": "so there is no one who can tell him what is going to happen."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "We cannot control our breathing,"
-          },
-          {
-            "tag": "q2",
-            "text": "and we cannot control when we will stop breathing and die."
-          },
-          {
-            "tag": "q1",
-            "text": "Soldiers are not permitted to go home during a battle,"
-          },
-          {
-            "tag": "q2",
-            "text": "and evil people will not be saved by doing what is evil."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "I thought about all those things, and I thought about all the other things that happen on this earth. I saw that sometimes people are able to do severe harm to others."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "I also saw that sometimes after evil people die, they are highly honored at their funerals by the people in the cities where they had done evil deeds. It was difficult to understand why that happens."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "If evil people are not immediately punished, it causes other people to also want to do evil things."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "But even if sinful people commit a hundred crimes, and even if they live for a long time, I know that things will go better for those who honor and revere God."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "I also know that things will not go well go for those who are evil, because they do not honor God. Shadows do not last a long time. Similarly, evil people will not live a long time."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "Another thing that sometimes happens on this earth is that bad things happen to righteous people, and good things happen to evil people. It is difficult to understand why that happens."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "So I decided that I would recommend that people be happy while they are alive, because the best thing that people can do here on this earth is to eat and drink and be happy. Enjoying those things will help people while they do their work, all the days that God has given to them to remain alive here on the earth."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "I thought about being wise and about people who work very hard on this earth, working day and night and not taking time to sleep."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Then I thought about everything that God has done, and I realized that no one can understand everything that happens here on this earth. Truly, people are not able to fully understand everything that God does, even if they try hard to do that. Even if wise people claim that they understand it all, they cannot."
-          }
-        ],
-        "tag": "p"
-      }
-    ],
-    "num": 8
+[
+  {
+    "t": "q",
+    "v": []
   },
-  "id": "ECC unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Ecclesiastes"
-}
+  {
+    "t": "q",
+    "v": "with the result that they can explain why everything happens."
+  },
+  {
+    "t": "q",
+    "v": "Being wise enables people to be happy"
+  },
+  {
+    "t": "q",
+    "v": "and enables them to smile."
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 2,
+        "v": "You solemnly promised God that you would obey what the king commands, so do that."
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Do not do anything rashly when it concerns the king. And do not join with those who want to rebel against him, because the king will do what he wants to do."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "We need to obey what the king says more than we need to obey what anyone else says, for no one can say to the king, “Why are you doing that?”"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "If you obey what the king commands,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Although people experience many troubles,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "No one knows what will happen in the future,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "We cannot control our breathing,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he will not harm you."
+  },
+  {
+    "t": "q",
+    "v": "So be wise, and know the correct time to do things and the right way to do them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "there is a right way to do them and a right time to do them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so there is no one who can tell him what is going to happen."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and we cannot control when we will stop breathing and die."
+  },
+  {
+    "t": "q",
+    "v": "Soldiers are not permitted to go home during a battle,"
+  },
+  {
+    "t": "q",
+    "v": "and evil people will not be saved by doing what is evil."
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 9,
+        "v": "I thought about all those things, and I thought about all the other things that happen on this earth. I saw that sometimes people are able to do severe harm to others."
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "I also saw that sometimes after evil people die, they are highly honored at their funerals by the people in the cities where they had done evil deeds. It was difficult to understand why that happens."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 11,
+        "v": "If evil people are not immediately punished, it causes other people to also want to do evil things."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "But even if sinful people commit a hundred crimes, and even if they live for a long time, I know that things will go better for those who honor and revere God."
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "I also know that things will not go well go for those who are evil, because they do not honor God. Shadows do not last a long time. Similarly, evil people will not live a long time."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 14,
+        "v": "Another thing that sometimes happens on this earth is that bad things happen to righteous people, and good things happen to evil people. It is difficult to understand why that happens."
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "So I decided that I would recommend that people be happy while they are alive, because the best thing that people can do here on this earth is to eat and drink and be happy. Enjoying those things will help people while they do their work, all the days that God has given to them to remain alive here on the earth."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 16,
+        "v": "I thought about being wise and about people who work very hard on this earth, working day and night and not taking time to sleep."
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Then I thought about everything that God has done, and I realized that no one can understand everything that happens here on this earth. Truly, people are not able to fully understand everything that God does, even if they try hard to do that. Even if wise people claim that they understand it all, they cannot."
+      }
+    ]
+  }
+]

@@ -1,226 +1,212 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "This is the record of the descendants of Adam. On the day that God created mankind, he made them in his own likeness."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Male and female he created them. He blessed them and named them mankind when they were created."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "When Adam had lived 130 years, he became the father of a son in his own likeness, after his image, and he called his name Seth."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "After Adam became the father of Seth, he lived eight hundred years. He became the father of more sons and daughters."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Adam lived 930 years, and then he died."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "This is the record of the descendants of Adam. On the day that God created mankind, he made them in his own likeness."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "When Seth had lived 105 years, he became the father of Enosh."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "After he became the father of Enosh, he lived 807 years and became the father of more sons and daughters."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Seth lived 912 years, and then he died."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "Male and female he created them. He blessed them and named them mankind when they were created."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "When Enosh had lived ninety years, he became the father of Kenan."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "After he became the father of Kenan, Enosh lived 815 years. He became the father of more sons and daughters."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "Enosh lived 905 years, and then he died."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 3,
+        "v": "When Adam had lived 130 years, he became the father of a son in his own likeness, after his image, and he called his name Seth."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "When Kenan had lived seventy years, he became the father of Mahalalel."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "After he became the father of Mahalalel, Kenan lived 840 years. He became the father of more sons and daughters."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "Kenan lived 910 years, and then he died."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 4,
+        "v": "After Adam became the father of Seth, he lived eight hundred years. He became the father of more sons and daughters."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "When Mahalalel had lived sixty-five years, he became the father of Jared."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "After he became the father of Jared, Mahalalel lived 830 years. He became the father of more sons and daughters."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Mahalalel lived 895 years, and then he died."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "When Jared had lived 162 years, he became the father of Enoch."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "After he became the father of Enoch, Jared lived eight hundred years. He became the father of more sons and daughters."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Jared lived 962 years, and then he died."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "When Enoch had lived sixty-five years, he became the father of Methuselah."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Enoch walked with God three hundred years after he became the father of Methuselah. He became the father of more sons and daughters."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "Enoch lived 365 years."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "Enoch walked with God, and then he was gone, for God took him."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "When Methuselah had lived 187 years, he became the father of Lamech."
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "After he became the father of Lamech, Methuselah lived 782 years. He became the father of more sons and daughters."
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "Methuselah lived 969 years. Then he died."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "When Lamech had lived 182 years, he became the father of a son."
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "He called his name Noah, saying, “This one will give us rest from our work and from the painful labor of our hands, which we must do because of the ground that Yahweh has cursed.”"
-          },
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "Lamech lived 595 years after he became the father of Noah. He became the father of more sons and daughters."
-          },
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "Lamech lived 777 years. Then he died."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "32",
-            "text": "After Noah had lived five hundred years, he became the father of Shem, Ham, and Japheth."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 5,
+        "v": "Adam lived 930 years, and then he died."
       }
-    ],
-    "num": 5
+    ]
   },
-  "id": "GEN unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Genesis",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Genesis "
-    }
-  ]
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 6,
+        "v": "When Seth had lived 105 years, he became the father of Enosh."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "After he became the father of Enosh, he lived 807 years and became the father of more sons and daughters."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Seth lived 912 years, and then he died."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 9,
+        "v": "When Enosh had lived ninety years, he became the father of Kenan."
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "After he became the father of Kenan, Enosh lived 815 years. He became the father of more sons and daughters."
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Enosh lived 905 years, and then he died."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 12,
+        "v": "When Kenan had lived seventy years, he became the father of Mahalalel."
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "After he became the father of Mahalalel, Kenan lived 840 years. He became the father of more sons and daughters."
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "Kenan lived 910 years, and then he died."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 15,
+        "v": "When Mahalalel had lived sixty-five years, he became the father of Jared."
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "After he became the father of Jared, Mahalalel lived 830 years. He became the father of more sons and daughters."
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Mahalalel lived 895 years, and then he died."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 18,
+        "v": "When Jared had lived 162 years, he became the father of Enoch."
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "After he became the father of Enoch, Jared lived eight hundred years. He became the father of more sons and daughters."
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Jared lived 962 years, and then he died."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 21,
+        "v": "When Enoch had lived sixty-five years, he became the father of Methuselah."
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Enoch walked with God three hundred years after he became the father of Methuselah. He became the father of more sons and daughters."
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "Enoch lived 365 years."
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "Enoch walked with God, and then he was gone, for God took him."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 25,
+        "v": "When Methuselah had lived 187 years, he became the father of Lamech."
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "After he became the father of Lamech, Methuselah lived 782 years. He became the father of more sons and daughters."
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "Methuselah lived 969 years. Then he died."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 28,
+        "v": "When Lamech had lived 182 years, he became the father of a son."
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "He called his name Noah, saying, “This one will give us rest from our work and from the painful labor of our hands, which we must do because of the ground that Yahweh has cursed.”"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "Lamech lived 595 years after he became the father of Noah. He became the father of more sons and daughters."
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "Lamech lived 777 years. Then he died."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 32,
+        "v": "After Noah had lived five hundred years, he became the father of Shem, Ham, and Japheth."
+      }
+    ]
+  }
+]

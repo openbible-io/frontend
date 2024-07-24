@@ -1,235 +1,595 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "Do not be bothered by what wicked people do."
       },
       {
-        "tag": "d",
-        "text": "A psalm written by David, asking God not to forget him"
+        "t": "v",
+        "n": 2,
+        "v": "because they will soon disappear like grass withers in the hot sun and dries up."
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Yahweh, when you are angry with me,"
-          },
-          {
-            "tag": "q2",
-            "text": "do not rebuke me and punish me!"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "Now it is as though you have shot your arrows at me and wounded me;"
-          },
-          {
-            "tag": "q2",
-            "text": "it is as though you have struck me and knocked me down."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Because you have been angry with me,"
-          },
-          {
-            "tag": "q2",
-            "text": "I am suffering great pain."
-          },
-          {
-            "tag": "q1",
-            "text": "Because of my sin,"
-          },
-          {
-            "tag": "q2",
-            "text": "my whole body is diseased."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "All my sins are like a flood that covers my head;"
-          },
-          {
-            "tag": "q2",
-            "text": "they are like a load that is very heavy; I cannot carry them."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Because I have done foolish things,"
-          },
-          {
-            "tag": "q2",
-            "text": "I have sores that have become worse, and they stink."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Sometimes I am bent over, and sometimes I lie prostrate;"
-          },
-          {
-            "tag": "q2",
-            "text": "I mourn all day."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "My body is burning with fever,"
-          },
-          {
-            "tag": "q2",
-            "text": "and I am very ill."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "I am completely exhausted, and I have no strength."
-          },
-          {
-            "tag": "q2",
-            "text": "I am very distressed in my inner being, and I groan with pain."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Yahweh, you know that I desire you to heal me;"
-          },
-          {
-            "tag": "q2",
-            "text": "you hear me while I am groaning."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "My heart pounds heavily, and all my strength is gone."
-          },
-          {
-            "tag": "q2",
-            "text": "I am no longer able to see well."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "My friends and neighbors stay away from me because of my sores;"
-          },
-          {
-            "tag": "q2",
-            "text": "even my own family stays far from me."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Those who want to kill me set traps to catch me;"
-          },
-          {
-            "tag": "q2",
-            "text": "those who want to harm me discuss the ways that they can get rid of me;"
-          },
-          {
-            "tag": "q2",
-            "text": "they plot against me all day."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "Now I act like a deaf man and do not listen to what they say."
-          },
-          {
-            "tag": "q2",
-            "text": "I act like a man who cannot talk, and I say nothing to reply to them."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "I act like a man who does not answer when people talk to him"
-          },
-          {
-            "tag": "q2",
-            "text": "because he cannot hear anything."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "But Yahweh, I trust in you."
-          },
-          {
-            "tag": "q2",
-            "text": "My Lord God, you will answer me."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "I said to you, \"Do not cause me to die so that my enemies will rejoice!"
-          },
-          {
-            "tag": "q2",
-            "text": "If troubles overwhelm me, my enemies will do very bad things to me!\""
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "I say that because I am about to fall down,"
-          },
-          {
-            "tag": "q2",
-            "text": "and I constantly have pain."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "I confess the wrong things that I have done;"
-          },
-          {
-            "tag": "q2",
-            "text": "I am very sorry for the sins that I have committed."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "My enemies are healthy and strong;"
-          },
-          {
-            "tag": "q2",
-            "text": "there are many people who hate me for no reason."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Those who do evil things to me in return for my doing good things to them"
-          },
-          {
-            "tag": "q2",
-            "text": "oppose me because I try to do what is right."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "Yahweh, do not abandon me!"
-          },
-          {
-            "tag": "q2",
-            "text": "My God, do not stay far from me!"
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Lord, you are the one who saves me;"
-          },
-          {
-            "tag": "q2",
-            "text": "Quickly come and help me!"
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "Trust in Yahweh and do what is good."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Be delighted with all that Yahweh does for you;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Commit to Yahweh all the things that you plan to do;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "He will show as clearly as the sunlight that you are innocent;"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Be quiet in Yahweh’s presence and wait patiently for him to do what you want him to do."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Do not be angry about what wicked people do."
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Someday Yahweh will get rid of wicked people,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Soon the wicked will disappear."
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "But those who are humble will live safely in their land."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Wicked people plan to harm righteous people;"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "But Yahweh laughs at them"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "Wicked people pull out their swords"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "But they will be killed by their own swords,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "It is good to be righteous even if you do not have many possessions,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "because Yahweh will completely remove the strength of wicked people,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Day by day Yahweh protects those who have not done any evil things;"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "They will survive when calamities occur;"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "But wicked people will die;"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "The wicked people borrow money, but they are not able to repay it;"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Those whom Yahweh has blessed will live safely in the land that he has given to them,"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "Yahweh protects those who do what is pleasing to him,"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "even if they stumble, they will not fall down"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "I was young previously, and now I am an old man,"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "Righteous people are generous and happily lend money to others,"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "Turn away from doing evil, and do what is good."
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "This will happen because Yahweh likes to see people doing what is just,"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "Righteous people will own the land that Yahweh promised to give to them,"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "Righteous people give wise advice to others,"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "They fill their minds with God’s laws;"
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "Those who are evil wait in ambush for righteous people"
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "But Yahweh will not abandon righteous people"
+      },
+      {
+        "t": "v",
+        "n": 34,
+        "v": "Be patient and trust that Yahweh will help you,"
+      },
+      {
+        "t": "v",
+        "n": 35,
+        "v": "I have seen that wicked people who act like tyrants sometimes prosper like trees that grow well in fertile soil,"
+      },
+      {
+        "t": "v",
+        "n": 36,
+        "v": "but when I looked later, they were gone!"
+      },
+      {
+        "t": "v",
+        "n": 37,
+        "v": "Notice the people who have not done evil things, those who act righteously;"
+      },
+      {
+        "t": "v",
+        "n": 38,
+        "v": "But Yahweh will get rid of the wicked;"
+      },
+      {
+        "t": "v",
+        "n": 39,
+        "v": "Yahweh rescues righteous people;"
+      },
+      {
+        "t": "v",
+        "n": 40,
+        "v": "Yahweh helps them and saves them;"
       }
-    ],
-    "num": 38
+    ]
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Do not desire to have the things that people who do wrong have"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Just like some green plants come up but die during the hot summer,"
+  },
+  {
+    "t": "q",
+    "v": "evil people will soon die also."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "If you do that, then you will live safely in the land he has given you,"
+  },
+  {
+    "t": "q",
+    "v": "and that land will be a place where you can be faithful to God as you live your lives."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "if you do that, he will give you the things that you desire most."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "trust in him,"
+  },
+  {
+    "t": "q",
+    "v": "and he will do whatever is needed to help you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he will show as clearly as the sun at noontime"
+  },
+  {
+    "t": "q",
+    "v": "that all the things that you have decided are just."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Do not be bothered when what evil men do is successful,"
+  },
+  {
+    "t": "q",
+    "v": "when they are able to do the wicked things that they plan."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Do not want to punish them yourself."
+  },
+  {
+    "t": "q",
+    "v": "Do not be envious of such people"
+  },
+  {
+    "t": "q",
+    "v": "because you will only harm yourself if you try to do that."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but those who trust in him will live safely in the land that he has given to them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "You will look for them, but they will be gone."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "They will happily enjoy living peacefully and having the other good things that Yahweh gives them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they snarl at them like wild animals."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because he knows that someday he will judge and punish the wicked people."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they put strings on their bows,"
+  },
+  {
+    "t": "q",
+    "v": "ready to kill people who are poor"
+  },
+  {
+    "t": "q",
+    "v": "and to slaughter those who live righteously."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and their bows will be broken."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but it is bad to be wicked even if you are very wealthy"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but he will sustain people who live righteously."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the things that Yahweh gives them will last forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "when there are famines, they will still have plenty to eat."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "just as the beautiful wild flowers in the fields die under the hot sun and disappear like smoke,"
+  },
+  {
+    "t": "q",
+    "v": "Yahweh will cause his enemies to suddenly disappear."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "righteous people, in contrast, have enough money to give generously to others."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but he will get rid of those people whom he has cursed."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and he will enable them to walk confidently wherever they go;"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because Yahweh holds them by his hand."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but in all those years, I have never seen that righteous people have been abandoned by Yahweh,"
+  },
+  {
+    "t": "q",
+    "v": "nor have I seen that their children needed to beg for food."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and their children are a blessing to them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "If you do that, you and your descendants will live in your land forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and he will never forsake righteous people."
+  },
+  {
+    "t": "q",
+    "v": "He will protect them forever;"
+  },
+  {
+    "t": "q",
+    "v": "but he will get rid of the children of wicked people."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they will live there forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they encourage other people to live rightly."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they do not stray from walking on God’s path."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "in order to kill them as they walk by."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and let them fall into their enemies’ hands."
+  },
+  {
+    "t": "q",
+    "v": "He will not allow righteous people to be condemned"
+  },
+  {
+    "t": "q",
+    "v": "when someone takes them to a judge to be put on trial."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and walk on his paths."
+  },
+  {
+    "t": "q",
+    "v": "If you do that, he will honor you by giving you the land that he promised,"
+  },
+  {
+    "t": "q",
+    "v": "and when he gets rid of the wicked, you will see it happen."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I searched for them, but Yahweh had caused them to disappear."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "their descendants will have peace in their inner beings."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he will also get rid of their descendants."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "in times of trouble he protects them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he rescues them from being attacked by wicked people"
+  },
+  {
+    "t": "q",
+    "v": "because they go to him to be protected."
+  }
+]

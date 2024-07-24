@@ -1,90 +1,231 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "God, declare that I am innocent."
-          },
-          {
-            "tag": "q1",
-            "text": "Defend me when people say things against me—those people who do not honor you!"
-          },
-          {
-            "tag": "q2",
-            "text": "Rescue me from people who deceive me and say things about me that are not true."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "You are God, the one who protects me;"
-          },
-          {
-            "tag": "q2",
-            "text": "why have you abandoned me?"
-          },
-          {
-            "tag": "q1",
-            "text": "It does not seem right that I should always have to be sad"
-          },
-          {
-            "tag": "q2",
-            "text": "because of my enemies acting cruelly toward me."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Speak true words that help me to live."
-          },
-          {
-            "tag": "q1",
-            "text": "Give a command that will allow me to go back to Zion, your sacred hill in Jerusalem,"
-          },
-          {
-            "tag": "q1",
-            "text": "and to your temple where you live."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "When you do that, I will go to your altar"
-          },
-          {
-            "tag": "q2",
-            "text": "to worship you, my God, who causes me to be very joyful."
-          },
-          {
-            "tag": "q2",
-            "text": "There I will praise you, the God whom I worship, and I will play my harp."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "So why am I sad and discouraged?"
-          },
-          {
-            "tag": "q1",
-            "text": "I confidently expect God to bless me,"
-          },
-          {
-            "tag": "q2",
-            "text": "and again I will praise him,"
-          },
-          {
-            "tag": "q2",
-            "text": "my God, the one who saves me."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 1,
+        "v": "O God, I need you very much as a deer needs to drink water from a cool stream."
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "I desire to be with you, the all-powerful God."
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Every day and every night I weep;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "I pray earnestly to God as I remember"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "So now I say to myself, “Why am I in a panic?"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "But now, Yahweh, I was panicking,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "But here, the great sorrow that I feel is like water that you send down;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "I desire that Yahweh will show me each day that he faithfully loves me,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "I say to God, who is like a huge rock on top of which I am safe,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "They are always making fun of me;"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "But I say to myself,"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "God, declare that I am innocent."
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "You are God, the one who protects me;"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Speak true words that help me to live."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "When you do that, I will go to your altar"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "So why am I sad and discouraged?"
       }
-    ],
-    "num": 43
+    ]
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I say to myself, “When will I be able to go back to the temple in Israel"
+  },
+  {
+    "t": "q",
+    "v": "and worship in your presence again?”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the only thing I have to drink is my tears;"
+  },
+  {
+    "t": "q",
+    "v": "and while I do that, my enemies are always asking me,"
+  },
+  {
+    "t": "q",
+    "v": "“Why does your God not help you?”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "when I used to go with the crowd of people to the temple in Jerusalem."
+  },
+  {
+    "t": "q",
+    "v": "I used to lead them as we walked along;"
+  },
+  {
+    "t": "q",
+    "v": "we were all shouting joyfully and singing to thank God for what he had done;"
+  },
+  {
+    "t": "q",
+    "v": "we were a large group who were celebrating."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I confidently expect God to bless me,"
+  },
+  {
+    "t": "q",
+    "v": "and again I will praise him,"
+  },
+  {
+    "t": "q",
+    "v": "my God, the one who saves me.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so I think about you."
+  },
+  {
+    "t": "q",
+    "v": "You are there in Israel where the Jordan River rushes down from the bottom of the peaks of Mount Hermon and from Mount Mizar."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "it is like a waterfall that tumbles down and floods over me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "in order that each night I may sing to him"
+  },
+  {
+    "t": "q",
+    "v": "and pray to him, the God who causes me to live."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "“Why have you forgotten me? You know the hardships that my enemies bring on me.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they keep asking, “Why does your God not help you?”"
+  },
+  {
+    "t": "q",
+    "v": "When they insult me like that,"
+  },
+  {
+    "t": "q",
+    "v": "it is like wounds that shatter my bones."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "“Why am I in a panic?"
+  },
+  {
+    "t": "q",
+    "v": "I will confidently expect God to bless me,"
+  },
+  {
+    "t": "q",
+    "v": "and I will praise him again,"
+  },
+  {
+    "t": "q",
+    "v": "my God, the one who saves me.”"
+  }
+]

@@ -1,386 +1,400 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "tag": "toc1",
-        "text": "The Book of Numbers"
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh spoke to Moses in the tent of meeting in the wilderness of Sinai. This happened on the first day of the second month during the second year after the people of Israel had come out from the land of Egypt. Yahweh said,"
       },
       {
-        "tag": "toc2",
-        "text": "Numbers"
+        "t": "v",
+        "n": 2,
+        "v": "“Conduct a census of all the men of Israel in each clan, in their fathers’ families. Count them by name. Count every male, each man"
       },
       {
-        "tag": "toc3",
-        "text": "Num"
+        "t": "v",
+        "n": 3,
+        "v": "who is twenty years old or older. Count all who can fight as soldiers for Israel. You and Aaron must record the number of men in their armed groups."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Yahweh spoke to Moses in the tent of meeting in the wilderness of Sinai. This happened on the first day of the second month during the second year after the people of Israel had come out from the land of Egypt. Yahweh said,"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "“Conduct a census of all the men of Israel in each clan, in their fathers’ families. Count them by name. Count every male, each man"
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "who is twenty years old or older. Count all who can fight as soldiers for Israel. You and Aaron must record the number of men in their armed groups."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "A man from each tribe, a clan head, must serve with you as his tribe’s leader. Each leader must lead the men who will fight for his tribe."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "These are the names of the leaders who must fight with you:"
-          },
-          {
-            "tag": "q1",
-            "text": "From the tribe of Reuben, Elizur son of Shedeur;"
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "from the tribe of Simeon, Shelumiel son of Zurishaddai;"
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "from the tribe of Judah, Nahshon son of Amminadab;"
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "from the tribe of Issachar, Nethanel son of Zuar;"
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "from the tribe of Zebulun, Eliab son of Helon;"
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "from the tribe of Ephraim son of Joseph, Elishama son of Ammihud;"
-          },
-          {
-            "tag": "q1",
-            "text": "from the tribe of Manasseh, Gamaliel son of Pedahzur;"
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "from the tribe of Benjamin, Abidan son of Gideoni;"
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "from the tribe of Dan, Ahiezer son of Ammishaddai;"
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "from the tribe of Asher, Pagiel son of Okran;"
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "from the tribe of Gad, Eliasaph son of Deuel;"
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "and from the tribe of Naphtali, Ahira son of Enan.”"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 4,
+        "v": "A man from each tribe, a clan head, must serve with you as his tribe’s leader. Each leader must lead the men who will fight for his tribe."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "These were the men appointed from the people. They led their ancestors’ tribes. They were the leaders of the clans in Israel."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "Moses and Aaron took these men, who were recorded by name,"
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "and along with these men they assembled all the men of Israel on the first day of the second month. Then each man twenty years old and older identified his ancestry. He had to name the clans and families descended from his ancestors."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "Then Moses recorded their numbers in the wilderness of Sinai, as Yahweh had commanded him to do."
-          }
-        ],
-        "tag": "m"
+        "t": "v",
+        "n": 5,
+        "v": "These are the names of the leaders who must fight with you:"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "From the descendants of Reuben, Israel’s firstborn, were counted all the names of each and every man twenty years old or older able to go to war, from the records of their ancestor’s clans and families."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "They counted 46,500 men from the tribe of Reuben."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 6,
+        "v": "from the tribe of Simeon, Shelumiel son of Zurishaddai;"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "From the descendants of Simeon were counted all the names of each and every man twenty years old or older able to go to war, from the records of their ancestor’s clans and families."
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "They counted 59,300 men from the tribe of Simeon."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 7,
+        "v": "from the tribe of Judah, Nahshon son of Amminadab;"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "From the descendants of Gad were counted all the names of each and every man twenty years old or older able to go to war, from the records of their ancestor’s clans and families."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "They counted 45,650 men from the tribe of Gad."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 8,
+        "v": "from the tribe of Issachar, Nethanel son of Zuar;"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "From the descendants of Judah were counted all the names of each and every man twenty years old or older able to go to war, from the records of their ancestor’s clans and families."
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "They counted 74,600 men from the tribe of Judah."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 9,
+        "v": "from the tribe of Zebulun, Eliab son of Helon;"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "From the descendants of Issachar were counted all the names of each and every man twenty years old or older able to go to war, from the records of their ancestor’s clans and families."
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "They counted 54,400 men from the tribe of Issachar."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 10,
+        "v": "from the tribe of Ephraim son of Joseph, Elishama son of Ammihud;"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "From the descendants of Zebulun were counted all the names of each and every man twenty years old or older able to go to war, from the records of their ancestor’s clans and families."
-          },
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "They counted 57,400 men from the tribe of Zebulun."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 11,
+        "v": "from the tribe of Benjamin, Abidan son of Gideoni;"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "32",
-            "text": "From the descendants of Ephraim son of Joseph were counted all the names of each and every man twenty years old or older able to go to war, from the records of their ancestor’s clans and families."
-          },
-          {
-            "tag": "v",
-            "num": "33",
-            "text": "They counted 40,500 men from the tribe of Ephraim."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 12,
+        "v": "from the tribe of Dan, Ahiezer son of Ammishaddai;"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "34",
-            "text": "From the descendants of Manasseh son of Joseph were counted all the names of each and every man twenty years old or older able to go to war, from the records of their ancestor’s clans and families."
-          },
-          {
-            "tag": "v",
-            "num": "35",
-            "text": "They counted 32,200 men from the tribe of Manasseh."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 13,
+        "v": "from the tribe of Asher, Pagiel son of Okran;"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "36",
-            "text": "From the descendants of Benjamin were counted all the names of each and every man twenty years old or older able to go to war, from the records of their ancestor’s clans and families."
-          },
-          {
-            "tag": "v",
-            "num": "37",
-            "text": "They counted 35,400 men from the tribe of Benjamin."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 14,
+        "v": "from the tribe of Gad, Eliasaph son of Deuel;"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "38",
-            "text": "From the descendants of Dan were counted all the names of each and every man twenty years old or older able to go to war, from the records of their ancestor’s clans and families."
-          },
-          {
-            "tag": "v",
-            "num": "39",
-            "text": "They counted 62,700 from the tribe of Dan."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "40",
-            "text": "From the descendants of Asher were counted all the names of each and every man twenty years old or older able to go to war, from the records of their ancestor’s clans and families."
-          },
-          {
-            "tag": "v",
-            "num": "41",
-            "text": "They counted 41,500 men from the tribe of Asher."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "42",
-            "text": "From the descendants of Naphtali were counted all the names of each and every man twenty years old or older able to go to war, from the records of their ancestor’s clans and families."
-          },
-          {
-            "tag": "v",
-            "num": "43",
-            "text": "They counted 53,400 from the tribe of Naphtali."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "44",
-            "text": "Moses and Aaron counted all these men, together with the twelve men who were leading the twelve tribes of Israel."
-          },
-          {
-            "tag": "v",
-            "num": "45",
-            "text": "So all the men of Israel from twenty years old and older, all who could fight in war, were counted in each of their families."
-          },
-          {
-            "tag": "v",
-            "num": "46",
-            "text": "They counted 603,550 men."
-          }
-        ],
-        "tag": "p"
-      },
-      {
-        "children": [
-          {
-            "tag": "v",
-            "num": "47",
-            "text": "But the men who were descended from Levi were not counted,"
-          },
-          {
-            "tag": "v",
-            "num": "48",
-            "text": "because Yahweh had said to Moses,"
-          },
-          {
-            "tag": "v",
-            "num": "49",
-            "text": "“You must not count the tribe of Levi or include them in the total of the people of Israel."
-          },
-          {
-            "tag": "v",
-            "num": "50",
-            "text": "Instead, assign the Levites to care for the tabernacle of the covenant decrees, and to care for all the furnishings in the tabernacle and for everything in it. The Levites must carry the tabernacle, and they must carry the tabernacle’s furnishings. They must care for the tabernacle and make their camp around it."
-          },
-          {
-            "tag": "v",
-            "num": "51",
-            "text": "When the tabernacle is to move to another place, the Levites must take it down. When the tabernacle is to be set up, the Levites must set it up. Any stranger who comes near the tabernacle must be killed."
-          },
-          {
-            "tag": "v",
-            "num": "52",
-            "text": "When the people of Israel set up their tents, each man must do so near the banner that belongs to his armed group."
-          },
-          {
-            "tag": "v",
-            "num": "53",
-            "text": "However, the Levites must set up their tents around the tabernacle of the covenant decrees so that my anger does not come upon the people of Israel. The Levites must care for the tabernacle of the covenant decrees.”"
-          },
-          {
-            "tag": "v",
-            "num": "54",
-            "text": "The people of Israel did all these things. They did everything that Yahweh commanded through Moses."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 15,
+        "v": "and from the tribe of Naphtali, Ahira son of Enan.”"
       }
-    ],
-    "num": 1
+    ]
   },
-  "id": "NUM unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Numbers",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Numbers"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": "From the tribe of Reuben, Elizur son of Shedeur;"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "from the tribe of Manasseh, Gamaliel son of Pedahzur;"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 16,
+        "v": "These were the men appointed from the people. They led their ancestors’ tribes. They were the leaders of the clans in Israel."
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Moses and Aaron took these men, who were recorded by name,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "and along with these men they assembled all the men of Israel on the first day of the second month. Then each man twenty years old and older identified his ancestry. He had to name the clans and families descended from his ancestors."
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "Then Moses recorded their numbers in the wilderness of Sinai, as Yahweh had commanded him to do."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 20,
+        "v": "From the descendants of Reuben, Israel’s firstborn, were counted all the names of each and every man twenty years old or older able to go to war, from the records of their ancestor’s clans and families."
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "They counted 46,500 men from the tribe of Reuben."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 22,
+        "v": "From the descendants of Simeon were counted all the names of each and every man twenty years old or older able to go to war, from the records of their ancestor’s clans and families."
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "They counted 59,300 men from the tribe of Simeon."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 24,
+        "v": "From the descendants of Gad were counted all the names of each and every man twenty years old or older able to go to war, from the records of their ancestor’s clans and families."
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "They counted 45,650 men from the tribe of Gad."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 26,
+        "v": "From the descendants of Judah were counted all the names of each and every man twenty years old or older able to go to war, from the records of their ancestor’s clans and families."
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "They counted 74,600 men from the tribe of Judah."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 28,
+        "v": "From the descendants of Issachar were counted all the names of each and every man twenty years old or older able to go to war, from the records of their ancestor’s clans and families."
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "They counted 54,400 men from the tribe of Issachar."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 30,
+        "v": "From the descendants of Zebulun were counted all the names of each and every man twenty years old or older able to go to war, from the records of their ancestor’s clans and families."
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "They counted 57,400 men from the tribe of Zebulun."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 32,
+        "v": "From the descendants of Ephraim son of Joseph were counted all the names of each and every man twenty years old or older able to go to war, from the records of their ancestor’s clans and families."
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "They counted 40,500 men from the tribe of Ephraim."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 34,
+        "v": "From the descendants of Manasseh son of Joseph were counted all the names of each and every man twenty years old or older able to go to war, from the records of their ancestor’s clans and families."
+      },
+      {
+        "t": "v",
+        "n": 35,
+        "v": "They counted 32,200 men from the tribe of Manasseh."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 36,
+        "v": "From the descendants of Benjamin were counted all the names of each and every man twenty years old or older able to go to war, from the records of their ancestor’s clans and families."
+      },
+      {
+        "t": "v",
+        "n": 37,
+        "v": "They counted 35,400 men from the tribe of Benjamin."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 38,
+        "v": "From the descendants of Dan were counted all the names of each and every man twenty years old or older able to go to war, from the records of their ancestor’s clans and families."
+      },
+      {
+        "t": "v",
+        "n": 39,
+        "v": "They counted 62,700 from the tribe of Dan."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 40,
+        "v": "From the descendants of Asher were counted all the names of each and every man twenty years old or older able to go to war, from the records of their ancestor’s clans and families."
+      },
+      {
+        "t": "v",
+        "n": 41,
+        "v": "They counted 41,500 men from the tribe of Asher."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 42,
+        "v": "From the descendants of Naphtali were counted all the names of each and every man twenty years old or older able to go to war, from the records of their ancestor’s clans and families."
+      },
+      {
+        "t": "v",
+        "n": 43,
+        "v": "They counted 53,400 from the tribe of Naphtali."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 44,
+        "v": "Moses and Aaron counted all these men, together with the twelve men who were leading the twelve tribes of Israel."
+      },
+      {
+        "t": "v",
+        "n": 45,
+        "v": "So all the men of Israel from twenty years old and older, all who could fight in war, were counted in each of their families."
+      },
+      {
+        "t": "v",
+        "n": 46,
+        "v": "They counted 603,550 men."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 47,
+        "v": "But the men who were descended from Levi were not counted,"
+      },
+      {
+        "t": "v",
+        "n": 48,
+        "v": "because Yahweh had said to Moses,"
+      },
+      {
+        "t": "v",
+        "n": 49,
+        "v": "“You must not count the tribe of Levi or include them in the total of the people of Israel."
+      },
+      {
+        "t": "v",
+        "n": 50,
+        "v": "Instead, assign the Levites to care for the tabernacle of the covenant decrees, and to care for all the furnishings in the tabernacle and for everything in it. The Levites must carry the tabernacle, and they must carry the tabernacle’s furnishings. They must care for the tabernacle and make their camp around it."
+      },
+      {
+        "t": "v",
+        "n": 51,
+        "v": "When the tabernacle is to move to another place, the Levites must take it down. When the tabernacle is to be set up, the Levites must set it up. Any stranger who comes near the tabernacle must be killed."
+      },
+      {
+        "t": "v",
+        "n": 52,
+        "v": "When the people of Israel set up their tents, each man must do so near the banner that belongs to his armed group."
+      },
+      {
+        "t": "v",
+        "n": 53,
+        "v": "However, the Levites must set up their tents around the tabernacle of the covenant decrees so that my anger does not come upon the people of Israel. The Levites must care for the tabernacle of the covenant decrees.”"
+      },
+      {
+        "t": "v",
+        "n": 54,
+        "v": "The people of Israel did all these things. They did everything that Yahweh commanded through Moses."
+      }
+    ]
+  }
+]

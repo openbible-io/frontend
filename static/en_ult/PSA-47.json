@@ -1,123 +1,154 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "God is our refuge and strength,"
       },
       {
-        "tag": "d",
-        "text": "For the chief musician. A psalm of the sons of Korah."
+        "t": "v",
+        "n": 2,
+        "v": "Therefore we will not fear, though the earth should change,"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Clap your hands, all you peoples;"
-          },
-          {
-            "tag": "q",
-            "text": "shout to God with the sound of triumph."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "For Yahweh Most High is terrifying;"
-          },
-          {
-            "tag": "q",
-            "text": "he is a great King over all the earth."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "He subdues peoples under us"
-          },
-          {
-            "tag": "q",
-            "text": "and nations under our feet."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "He chooses our inheritance for us,"
-          },
-          {
-            "tag": "q",
-            "text": "the glory of Jacob whom he loved."
-          },
-          {
-            "tag": "qs",
-            "text": "Selah"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "God has gone up with a shout,"
-          },
-          {
-            "tag": "q",
-            "text": "Yahweh with the sound of a trumpet."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Sing praises to God, sing praises;"
-          },
-          {
-            "tag": "q",
-            "text": "sing praises to our King, sing praises."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "For God is the King over all the earth;"
-          },
-          {
-            "tag": "q",
-            "text": "sing praises with understanding."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "God reigns over the nations;"
-          },
-          {
-            "tag": "q",
-            "text": "God sits on his holy throne."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "The princes of the peoples have gathered together"
-          },
-          {
-            "tag": "q",
-            "text": "to the people of the God of Abraham;"
-          },
-          {
-            "tag": "q",
-            "text": "for the shields of the earth belong to God;"
-          },
-          {
-            "tag": "q",
-            "text": "he is greatly exalted."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "though its waters roar and rage, and"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "There is a river whose streams make the city of God happy,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "God is in the middle of her; she will not be moved;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "The nations raged and the kingdoms were shaken;"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Yahweh of hosts is with us;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Come, behold the deeds of Yahweh,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "He makes wars cease to the ends of the earth;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Be quiet and know that I am God;"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Yahweh of hosts is with us;"
       }
-    ],
-    "num": 47
+    ]
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "a very present help in trouble."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "though the mountains should be shaken into the heart of the seas,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "though the mountains tremble with their swelling."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the holy place where the Most High dwells."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "God will help her, and he will do so at the dawn of morning."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he lifted up his voice, and the earth melted."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the God of Jacob is our refuge."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the destruction he has caused on earth."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he breaks the bow and cuts the spear into pieces;"
+  },
+  {
+    "t": "q",
+    "v": "he burns up the shields."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will be exalted among the nations; I will be exalted on the earth."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the God of Jacob is our refuge."
+  }
+]

@@ -1,123 +1,209 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "The heavens declare the glory of God,"
       },
       {
-        "tag": "d",
-        "text": "For the chief musician. A psalm of David."
+        "t": "v",
+        "n": 2,
+        "v": "Day after day speech pours out;"
       },
       {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "May Yahweh help you in the day of trouble;"
-          },
-          {
-            "tag": "q",
-            "text": "may the name of the God of Jacob protect you"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "and send help from the holy place"
-          },
-          {
-            "tag": "q",
-            "text": "to support you from Zion."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "May he call to mind all your offerings"
-          },
-          {
-            "tag": "q",
-            "text": "and accept your burnt sacrifice."
-          },
-          {
-            "tag": "qs",
-            "text": "Selah"
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "May he grant you your heart’s desire"
-          },
-          {
-            "tag": "q",
-            "text": "and fulfill all your plans."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Then we will rejoice in your victory,"
-          },
-          {
-            "tag": "q",
-            "text": "and, in the name of our God, we will raise banners."
-          },
-          {
-            "tag": "q",
-            "text": "May Yahweh grant all your petitions."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Now I know that Yahweh will rescue his anointed one;"
-          },
-          {
-            "tag": "q",
-            "text": "he will answer him from his holy heaven"
-          },
-          {
-            "tag": "q",
-            "text": "with the strength of his right hand that can rescue him."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Some trust in chariots and others in horses,"
-          },
-          {
-            "tag": "q",
-            "text": "but we call on Yahweh our God."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "They will be brought down and fall,"
-          },
-          {
-            "tag": "q",
-            "text": "but we will rise and stand upright!"
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Yahweh, rescue the king;"
-          },
-          {
-            "tag": "q",
-            "text": "help us when we call."
-          }
-        ],
-        "auto": true
+        "t": "v",
+        "n": 3,
+        "v": "There is no speech or spoken words;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Yet their words go out over all the earth,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "The sun is like a bridegroom coming out of his chamber"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "The sun rises from the one horizon"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "The law of Yahweh is perfect, restoring the soul;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "The instructions of Yahweh are right, making the heart glad;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "The fear of Yahweh is pure, enduring forever;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "They are of greater value than gold, even more than much fine gold;"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Yes, by them your servant is warned;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Who can discern all his own errors?"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Keep your servant also from arrogant sins;"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "May the words of my mouth and the thoughts of my heart"
       }
-    ],
-    "num": 20
+    ]
   },
-  "id": "PSA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Psalms",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Psalms"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and the skies make his handiwork known!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "night after night it reveals knowledge."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "their voice is not heard."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and their speech to the end of the world."
+  },
+  {
+    "t": "q",
+    "v": "He has pitched a tent for the sun among them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and like a strong man who rejoices when he runs his race."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and crosses the sky to the other;"
+  },
+  {
+    "t": "q",
+    "v": "nothing escapes its heat."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the testimony of Yahweh is reliable, making the simple wise."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the commandment of Yahweh is pure, bringing light to the eyes."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the righteous decrees of Yahweh are true and altogether right!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they are sweeter than honey and the dripping honey from the honeycomb."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "in obeying them there is great reward."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Cleanse me from hidden faults."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "let them not rule over me."
+  },
+  {
+    "t": "q",
+    "v": "Then I will be perfect,"
+  },
+  {
+    "t": "q",
+    "v": "and I will be innocent from many transgressions."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "be acceptable in your sight,"
+  },
+  {
+    "t": "q",
+    "v": "Yahweh, my rock and my redeemer."
+  }
+]

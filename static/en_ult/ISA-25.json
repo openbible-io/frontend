@@ -1,151 +1,185 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Yahweh, you are my God; I will exalt you, I will praise your name;"
-          },
-          {
-            "tag": "q1",
-            "text": "for you have done wonderful things, things planned long ago, in perfect faithfulness."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "For you have made the city a heap, a fortified city, a ruin,"
-          },
-          {
-            "tag": "q1",
-            "text": "and a fortress of strangers into no city."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "Therefore a strong people will glorify you; a city of ruthless nations will fear you."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "For you have been a place of safety for the one who is poor, "
-          },
-          {
-            "tag": "q1",
-            "text": "a shelter for the one who is needy in his distress—"
-          },
-          {
-            "tag": "q1",
-            "text": "a shelter from the storm and a shade from the heat."
-          },
-          {
-            "tag": "q1",
-            "text": "When the breath of the ruthless was like a storm against a wall,"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "and like heat in a dry land,"
-          },
-          {
-            "tag": "q1",
-            "text": "you subdued the noise of foreigners,"
-          },
-          {
-            "tag": "q1",
-            "text": "as the heat is subdued by the shade of a cloud, "
-          },
-          {
-            "tag": "q1",
-            "text": "so the song of the ruthless ones is answered."
-          }
-        ],
-        "tag": "m"
+        "t": "v",
+        "n": 1,
+        "v": "Yahweh, you are my God; I will exalt you, I will praise your name;"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "On this mountain Yahweh of hosts will make for all peoples a feast of fat things,"
-          },
-          {
-            "tag": "q1",
-            "text": "of choice wines, of tender meats, a feast on the lees."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "He will destroy on this mountain the covering over all peoples,"
-          },
-          {
-            "tag": "q1",
-            "text": "the web woven over all the nations."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "He will swallow up death forever,"
-          },
-          {
-            "tag": "q1",
-            "text": "and the Lord Yahweh will wipe away tears from off all faces;"
-          },
-          {
-            "tag": "q1",
-            "text": "the disgrace of his people he will take away from all the earth, for Yahweh has spoken it."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "For you have made the city a heap, a fortified city, a ruin,"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "It will be said on that day, “Look, this is our God; we have waited for him, and he will save us."
-          },
-          {
-            "tag": "q1",
-            "text": "This is Yahweh; we have waited for him, we will be glad and rejoice in his salvation.”"
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "For on this mountain the hand of Yahweh will rest;"
-          },
-          {
-            "tag": "q1",
-            "text": "and Moab will be trampled down in his place, even as straw is trampled down in a pit filled with manure."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "They will spread their hands in the midst of it, as a swimmer spreads his hands to swim."
-          },
-          {
-            "tag": "q1",
-            "text": "But Yahweh will bring down their pride in spite of the skill of their hands."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Your high fortress walls he will bring down to the ground, to the dust."
-          }
-        ],
-        "tag": "m"
+        "t": "v",
+        "n": 3,
+        "v": "Therefore a strong people will glorify you; a city of ruthless nations will fear you."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "For you have been a place of safety for the one who is poor,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "and like heat in a dry land,"
       }
-    ],
-    "num": 25
+    ]
   },
-  "id": "ISA unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Isaiah",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Isaiah"
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "for you have done wonderful things, things planned long ago, in perfect faithfulness."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and a fortress of strangers into no city."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "a shelter for the one who is needy in his distress—"
+  },
+  {
+    "t": "q",
+    "v": "a shelter from the storm and a shade from the heat."
+  },
+  {
+    "t": "q",
+    "v": "When the breath of the ruthless was like a storm against a wall,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you subdued the noise of foreigners,"
+  },
+  {
+    "t": "q",
+    "v": "as the heat is subdued by the shade of a cloud, "
+  },
+  {
+    "t": "q",
+    "v": "so the song of the ruthless ones is answered."
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 6,
+        "v": "On this mountain Yahweh of hosts will make for all peoples a feast of fat things,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "He will destroy on this mountain the covering over all peoples,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "He will swallow up death forever,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "of choice wines, of tender meats, a feast on the lees."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the web woven over all the nations."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and the Lord Yahweh will wipe away tears from off all faces;"
+  },
+  {
+    "t": "q",
+    "v": "the disgrace of his people he will take away from all the earth, for Yahweh has spoken it."
+  },
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 9,
+        "v": "It will be said on that day, “Look, this is our God; we have waited for him, and he will save us."
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "For on this mountain the hand of Yahweh will rest;"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "They will spread their hands in the midst of it, as a swimmer spreads his hands to swim."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Your high fortress walls he will bring down to the ground, to the dust."
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "This is Yahweh; we have waited for him, we will be glad and rejoice in his salvation.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and Moab will be trampled down in his place, even as straw is trampled down in a pit filled with manure."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "But Yahweh will bring down their pride in spite of the skill of their hands."
+  },
+  {
+    "t": "q",
+    "v": []
+  }
+]

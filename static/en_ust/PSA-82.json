@@ -1,105 +1,235 @@
-{
-  "chapter": {
-    "children": [
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "children": [],
-        "tag": "m"
-      },
-      {
-        "tag": "d",
-        "text": "A psalm written by Asaph"
-      },
-      {
-        "tag": "p",
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "God stands in heaven in a meeting of all the spirits whom he has placed in charge of what he created."
-          },
-          {
-            "tag": "q2",
-            "text": "He tells them that he has decided this:"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "\"You must stop judging people unfairly;"
-          },
-          {
-            "tag": "q1",
-            "text": "you must no longer make decisions that favor wicked people!"
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "You must defend people who are poor and orphans;"
-          },
-          {
-            "tag": "q2",
-            "text": "you must act fairly toward those who are needy and those who have no one to help them."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Rescue them from the power of the wicked people!\""
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Those rulers do not know or understand anything!"
-          },
-          {
-            "tag": "q2",
-            "text": "They are very corrupt,"
-          },
-          {
-            "tag": "q2",
-            "text": "and as a result of their corrupt behavior,"
-          },
-          {
-            "tag": "q2",
-            "text": "it is as though the foundation of the world is being shaken!"
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "I previously said to them, \"You think you are gods!"
-          },
-          {
-            "tag": "q1",
-            "text": "It is as though you are all my sons,"
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "but you will die as people do;"
-          },
-          {
-            "tag": "q2",
-            "text": "your lives will end as the lives of all rulers end.\""
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "God, arise and judge everyone on the earth"
-          },
-          {
-            "tag": "q2",
-            "text": "because all the people groups belong to you!"
-          }
-        ],
-        "auto": true
-      }
-    ],
-    "num": 82
+[
+  {
+    "t": "m",
+    "v": []
   },
-  "id": "PSA unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Psalms"
-}
+  {
+    "t": "m",
+    "v": [
+      {
+        "t": "v",
+        "n": 1,
+        "v": "Sing songs to praise God, who enables us to be strong when we fight our enemies;"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "Start playing the music, and beat the tambourines;"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Blow the trumpets during the festival to celebrate each new moon,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Do that because that is a decree for us Israelite people;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "He made it a law under at the time when God led the descendants of Joseph out of the land of Egypt."
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "“After the rulers of Egypt forced you Israelites to work as slaves,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "When you were greatly distressed, you called out to me, and I rescued you;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "You who are my people, listen while I warn you!"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "You must not have any idols of other gods among you;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "I am Yahweh, your God;"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "But my people would not listen to me;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "So because they were very stubborn,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "I wish that my people would listen to me,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "If they did that, I would quickly defeat their enemies;"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Then all those who hate me would cringe before me,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "But I would give you Israelites very good wheat,"
+      }
+    ]
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "shout joyfully to God, whom we descendants of Jacob worship!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "play nice music on the harps and lyres."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "each time the moon is full, and during our other festivals."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "it is a command that God made for the descendants of Jacob."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I heard a voice I did not recognize, and it said:"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I took those heavy burdens off your backs,"
+  },
+  {
+    "t": "q",
+    "v": "and I enabled you to lay down those heavy baskets of bricks that you were carrying."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I answered you out of a thundercloud."
+  },
+  {
+    "t": "q",
+    "v": "Later I tested whether you would trust me to give you water when you were in the desert at Meribah."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I wish that you Israelite people would pay attention to what I say to you!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "you must never bow to worship any of them!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "It was not any of those gods who brought you out of Egypt;"
+  },
+  {
+    "t": "q",
+    "v": "I am the one who did it!"
+  },
+  {
+    "t": "q",
+    "v": "So request what you want me to do for you, and I will do it."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they would not obey me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I allowed them to do whatever they wanted to do."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "that the Israelite people would behave as I want them to do."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I would strike dead those who are oppressing them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and then I would punish them forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and I would fill your stomachs with wild honey.”"
+  }
+]

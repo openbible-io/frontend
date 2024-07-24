@@ -1,86 +1,72 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Moses went up from the plains of Moab to Mount Nebo, to the top of Pisgah, which is opposite Jericho. There Yahweh showed him all the land of Gilead as far as Dan,"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "and all Naphtali, and the land of Ephraim and Manasseh, and all the land of Judah, to the western sea,"
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "and the Negev, and the plain of the Valley of Jericho, the City of Palms, as far as Zoar."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Yahweh said to him, “This is the land that I swore to Abraham, to Isaac, and to Jacob, saying, ‘I will give it to your descendants.’ I have allowed you to look at it with your eyes, but you will not go over there.”"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "So Moses the servant of Yahweh, died there in the land of Moab, as the word of Yahweh promised."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Yahweh buried him in the valley in the land of Moab opposite Beth Peor, but no one knows where his grave is to this day."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "Moses was one hundred twenty years old when he died; his eye was not dim, nor his natural force abated."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "The people of Israel mourned for Moses in the plains of Moab for thirty days, and then the days of mourning for Moses were finished."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "Moses went up from the plains of Moab to Mount Nebo, to the top of Pisgah, which is opposite Jericho. There Yahweh showed him all the land of Gilead as far as Dan,"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Joshua son of Nun was full of the spirit of wisdom, for Moses had laid his hands on him. The people of Israel listened to him and did what Yahweh had commanded Moses."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "There has not arisen a prophet since in Israel like Moses, whom Yahweh knew face to face."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "There has never been any prophet like him in all the signs and wonders that Yahweh sent him to do in the land of Egypt, to Pharaoh, and to all his servants, and to all his land."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "There has never been any prophet like him in all the great, fearsome deeds that Moses did in the sight of all Israel."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "and all Naphtali, and the land of Ephraim and Manasseh, and all the land of Judah, to the western sea,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "and the Negev, and the plain of the Valley of Jericho, the City of Palms, as far as Zoar."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Yahweh said to him, “This is the land that I swore to Abraham, to Isaac, and to Jacob, saying, ‘I will give it to your descendants.’ I have allowed you to look at it with your eyes, but you will not go over there.”"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "So Moses the servant of Yahweh, died there in the land of Moab, as the word of Yahweh promised."
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Yahweh buried him in the valley in the land of Moab opposite Beth Peor, but no one knows where his grave is to this day."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Moses was one hundred twenty years old when he died; his eye was not dim, nor his natural force abated."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "The people of Israel mourned for Moses in the plains of Moab for thirty days, and then the days of mourning for Moses were finished."
       }
-    ],
-    "num": 34
+    ]
   },
-  "id": "DEU unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Deuteronomy",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Deuteronomy "
-    }
-  ]
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Joshua son of Nun was full of the spirit of wisdom, for Moses had laid his hands on him. The people of Israel listened to him and did what Yahweh had commanded Moses."
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "There has not arisen a prophet since in Israel like Moses, whom Yahweh knew face to face."
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "There has never been any prophet like him in all the signs and wonders that Yahweh sent him to do in the land of Egypt, to Pharaoh, and to all his servants, and to all his land."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "There has never been any prophet like him in all the great, fearsome deeds that Moses did in the sight of all Israel."
+      }
+    ]
+  }
+]

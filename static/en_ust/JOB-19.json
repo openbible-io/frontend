@@ -1,289 +1,392 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "Then Job replied:"
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "\"How long will you three torment me"
-          },
-          {
-            "tag": "q2",
-            "text": "and discourage me by calling me wicked?"
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "You have insulted me many times;"
-          },
-          {
-            "tag": "q2",
-            "text": "are you not ashamed for saying these things to me?"
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "Even if it were true that I had done wrong,"
-          },
-          {
-            "tag": "q2",
-            "text": "I have not injured you!"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "If you truly think that you are better than I am,"
-          },
-          {
-            "tag": "q2",
-            "text": "and if you argue that I must be guilty because I am suffering,"
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "you should realize that it is God who has caused me to suffer."
-          },
-          {
-            "tag": "q2",
-            "text": "It is as though he has a net and that he has caught me in it."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "I cry out, 'People are murdering me!',"
-          },
-          {
-            "tag": "q2",
-            "text": "but no one answers me."
-          },
-          {
-            "tag": "q1",
-            "text": "I call out loudly, but there is no one, not even God, who acts fairly toward me."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "It is as though God has blocked my road,"
-          },
-          {
-            "tag": "q2",
-            "text": "and I cannot go anywhere;"
-          },
-          {
-            "tag": "q2",
-            "text": "it is as though he has forced me to try to find the road in the darkness."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "He has taken away my good reputation;"
-          },
-          {
-            "tag": "q2",
-            "text": "it is as though he has removed a crown from my head."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "He batters me from every side, and I will soon die."
-          },
-          {
-            "tag": "q2",
-            "text": "I no longer expect him to do anything good for me."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "He attacks me because he is very angry at me;"
-          },
-          {
-            "tag": "q2",
-            "text": "he considers me to be his enemy."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "It is as though he were sending his army to attack me;"
-          },
-          {
-            "tag": "q2",
-            "text": "they surround my tent"
-          },
-          {
-            "tag": "q2",
-            "text": "and get ready to attack me."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "God has caused my brothers to abandon me,"
-          },
-          {
-            "tag": "q2",
-            "text": "and for all those who know me to act like strangers to me."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "All my relatives and good friends have left me."
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "The people who were guests in my house have forgotten me,"
-          },
-          {
-            "tag": "q2",
-            "text": "and my female servants consider that I am a foreigner whom they do not know."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "When I summon my servants, they do not answer;"
-          },
-          {
-            "tag": "q2",
-            "text": "When I plead with them to come to help me, they do not come."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "My breath smells very bad to my wife so she stays away from me,"
-          },
-          {
-            "tag": "q2",
-            "text": "and my brothers detest me."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "Even young children despise me;"
-          },
-          {
-            "tag": "q2",
-            "text": "when I stand up to talk to them, they laugh at me."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "My dearest friends detest me,"
-          },
-          {
-            "tag": "q2",
-            "text": "and those whom I love very much have turned against me."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "My body is only skin and bones;"
-          },
-          {
-            "tag": "q2",
-            "text": "I am barely alive."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "I plead with you, my three friends, pity me"
-          },
-          {
-            "tag": "q2",
-            "text": "because God has struck me very hard."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "Why do you cause me to suffer, also? Do you think you are God?"
-          },
-          {
-            "tag": "q2",
-            "text": "Why do you never get enough of accusing me of doing wrong?"
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "I wish that someone would take these words of mine"
-          },
-          {
-            "tag": "q2",
-            "text": "and write them permanently in a book in order that people can read them."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "Or else, I wish that someone would carve my words on a rock with a chisel"
-          },
-          {
-            "tag": "q2",
-            "text": "in order that they would last forever."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "But I know that the one who vindicates me in court is alive,"
-          },
-          {
-            "tag": "q2",
-            "text": "and that some day he will stand here on the earth and make the final decision about whether I deserve to be punished."
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "And even after diseases have destroyed my body,"
-          },
-          {
-            "tag": "q2",
-            "text": "still, in my body I will see God."
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "I will see him myself;"
-          },
-          {
-            "tag": "q2",
-            "text": "I will see him with my own eyes!"
-          },
-          {
-            "tag": "q2",
-            "text": "My emotions overwhelm me as I think about that!"
-          },
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "If you three men say, 'This is how we will cause him to suffer!'"
-          },
-          {
-            "tag": "q2",
-            "text": "and you say, 'He is the one who has caused his own troubles,'"
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "you should fear that God will punish you;"
-          },
-          {
-            "tag": "q1",
-            "text": "he punishes those like you with whom he is angry;"
-          },
-          {
-            "tag": "q2",
-            "text": "and when that happens, you will know that there is someone who judges people.\""
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "Then Job replied:"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "“How long will you three torment me"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "You have insulted me many times;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Even if it were true that I had done wrong,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "If you truly think that you are better than I am,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "you should realize that it is God who has caused me to suffer."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "I cry out, ‘People are murdering me!’,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "It is as though God has blocked my road,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "He has taken away my good reputation;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "He batters me from every side, and I will soon die."
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "He attacks me because he is very angry at me;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "It is as though he were sending his army to attack me;"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "God has caused my brothers to abandon me,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "All my relatives and good friends have left me."
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "The people who were guests in my house have forgotten me,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "When I summon my servants, they do not answer;"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "My breath smells very bad to my wife so she stays away from me,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Even young children despise me;"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "My dearest friends detest me,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "My body is only skin and bones;"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "I plead with you, my three friends, pity me"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Why do you cause me to suffer, also? Do you think you are God?"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "I wish that someone would take these words of mine"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "Or else, I wish that someone would carve my words on a rock with a chisel"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "But I know that the one who vindicates me in court is alive,"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "And even after diseases have destroyed my body,"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "I will see him myself;"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "If you three men say, ‘This is how we will cause him to suffer!’"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "you should fear that God will punish you;"
       }
-    ],
-    "num": 19
+    ]
   },
-  "id": "JOB unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Job"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and discourage me by calling me wicked?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "are you not ashamed for saying these things to me?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I have not injured you!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and if you argue that I must be guilty because I am suffering,"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "It is as though he has a net and that he has caught me in it."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but no one answers me."
+  },
+  {
+    "t": "q",
+    "v": "I call out loudly, but there is no one, not even God, who acts fairly toward me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and I cannot go anywhere;"
+  },
+  {
+    "t": "q",
+    "v": "it is as though he has forced me to try to find the road in the darkness."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "it is as though he has removed a crown from my head."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I no longer expect him to do anything good for me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he considers me to be his enemy."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "they surround my tent"
+  },
+  {
+    "t": "q",
+    "v": "and get ready to attack me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and for all those who know me to act like strangers to me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and my female servants consider that I am a foreigner whom they do not know."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "When I plead with them to come to help me, they do not come."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and my brothers detest me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "when I stand up to talk to them, they laugh at me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and those whom I love very much have turned against me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I am barely alive."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "because God has struck me very hard."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Why do you never get enough of accusing me of doing wrong?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and write them permanently in a book in order that people can read them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "in order that they would last forever."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and that some day he will stand here on the earth and make the final decision about whether I deserve to be punished."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "still, in my body I will see God."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will see him with my own eyes!"
+  },
+  {
+    "t": "q",
+    "v": "My emotions overwhelm me as I think about that!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and you say, ‘He is the one who has caused his own troubles,’"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "he punishes those like you with whom he is angry;"
+  },
+  {
+    "t": "q",
+    "v": "and when that happens, you will know that there is someone who judges people.”"
+  }
+]

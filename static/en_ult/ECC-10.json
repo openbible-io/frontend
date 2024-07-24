@@ -1,233 +1,299 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "As dead flies cause perfume to stink,"
-          },
-          {
-            "tag": "q2",
-            "text": "so a little folly can overpower wisdom and honor."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "The heart of a wise person tends to the right,"
-          },
-          {
-            "tag": "q2",
-            "text": "but the heart of a fool tends to the left."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "When a fool walks down a road,"
-          },
-          {
-            "tag": "q2",
-            "text": "his thinking is deficient,"
-          },
-          {
-            "tag": "q3",
-            "text": "proving to everyone he is a fool."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "If the emotions of a ruler rise up against you, do not leave your work."
-          },
-          {
-            "tag": "q2",
-            "text": "Calm can quiet down great outrage."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "There is an evil that I have seen under the sun,"
-          },
-          {
-            "tag": "q2",
-            "text": "a kind of error that comes from a ruler:"
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Fools are given leadership positions,"
-          },
-          {
-            "tag": "q2",
-            "text": "while successful men are given low positions."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "I have seen slaves riding horses,"
-          },
-          {
-            "tag": "q2",
-            "text": "and successful men walking like slaves on the ground."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Anyone who digs a pit"
-          },
-          {
-            "tag": "q2",
-            "text": "can fall into it, and whenever someone breaks down a wall,"
-          },
-          {
-            "tag": "q2",
-            "text": "a snake can bite him."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Whoever cuts out stones"
-          },
-          {
-            "tag": "q2",
-            "text": "can be hurt by them,"
-          },
-          {
-            "tag": "q1",
-            "text": "and the man who chops wood"
-          },
-          {
-            "tag": "q2",
-            "text": "is endangered by it."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "If an iron blade is dull, and a man does not sharpen it, then he must use more strength, but wisdom provides an advantage for success."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "If a snake bites before it is charmed,"
-          },
-          {
-            "tag": "q2",
-            "text": "then there is no advantage for the charmer."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "The words of a wise man’s mouth are gracious,"
-          },
-          {
-            "tag": "q2",
-            "text": "but the lips of a fool consume him."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "As words begin to flow from a fool’s mouth, foolishness comes out,"
-          },
-          {
-            "tag": "q2",
-            "text": "and at the end his mouth flows with wicked madness."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "A fool multiplies words,"
-          },
-          {
-            "tag": "q2",
-            "text": "but no one knows what is coming."
-          },
-          {
-            "tag": "q2",
-            "text": "Who knows what is coming after him?"
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "The toil of fools wearies them,"
-          },
-          {
-            "tag": "q2",
-            "text": "so that they do not even know the road to town."
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Woe to you, land, if your king is a young boy,"
-          },
-          {
-            "tag": "q2",
-            "text": "and if your leaders begin feasting in the morning!"
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "But blessed are you, land, if your king is the son of nobles,"
-          },
-          {
-            "tag": "q2",
-            "text": "and if your leaders eat at the right time,"
-          },
-          {
-            "tag": "q2",
-            "text": "for strength, and not for drunkenness!"
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "Because of laziness the roof sinks in,"
-          },
-          {
-            "tag": "q2",
-            "text": "and because of idle hands the house leaks."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "People prepare food for laughter,"
-          },
-          {
-            "tag": "q2",
-            "text": "wine brings enjoyment to life,"
-          },
-          {
-            "tag": "q3",
-            "text": "and money fills the need for everything."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Do not curse the king, not even in your mind,"
-          },
-          {
-            "tag": "q2",
-            "text": "and do not curse rich people in your bedroom."
-          },
-          {
-            "tag": "q1",
-            "text": "For a bird of the sky might carry your words;"
-          },
-          {
-            "tag": "q2",
-            "text": "whatever has wings can spread the matter."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "As dead flies cause perfume to stink,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "The heart of a wise person tends to the right,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "When a fool walks down a road,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "If the emotions of a ruler rise up against you, do not leave your work."
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "There is an evil that I have seen under the sun,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Fools are given leadership positions,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "I have seen slaves riding horses,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Anyone who digs a pit"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Whoever cuts out stones"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "If an iron blade is dull, and a man does not sharpen it, then he must use more strength, but wisdom provides an advantage for success."
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "If a snake bites before it is charmed,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "The words of a wise man’s mouth are gracious,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "As words begin to flow from a fool’s mouth, foolishness comes out,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "A fool multiplies words,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "The toil of fools wearies them,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Woe to you, land, if your king is a young boy,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "But blessed are you, land, if your king is the son of nobles,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Because of laziness the roof sinks in,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "People prepare food for laughter,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Do not curse the king, not even in your mind,"
       }
-    ],
-    "num": 10
+    ]
   },
-  "id": "ECC unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Ecclesiastes",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Ecclesiastes "
-    }
-  ]
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so a little folly can overpower wisdom and honor."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but the heart of a fool tends to the left."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "his thinking is deficient,"
+  },
+  {
+    "t": "q",
+    "v": "proving to everyone he is a fool."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Calm can quiet down great outrage."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "a kind of error that comes from a ruler:"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "while successful men are given low positions."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and successful men walking like slaves on the ground."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "can fall into it, and whenever someone breaks down a wall,"
+  },
+  {
+    "t": "q",
+    "v": "a snake can bite him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "can be hurt by them,"
+  },
+  {
+    "t": "q",
+    "v": "and the man who chops wood"
+  },
+  {
+    "t": "q",
+    "v": "is endangered by it."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "then there is no advantage for the charmer."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but the lips of a fool consume him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and at the end his mouth flows with wicked madness."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but no one knows what is coming."
+  },
+  {
+    "t": "q",
+    "v": "Who knows what is coming after him?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "so that they do not even know the road to town."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and if your leaders begin feasting in the morning!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and if your leaders eat at the right time,"
+  },
+  {
+    "t": "q",
+    "v": "for strength, and not for drunkenness!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and because of idle hands the house leaks."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "wine brings enjoyment to life,"
+  },
+  {
+    "t": "q",
+    "v": "and money fills the need for everything."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and do not curse rich people in your bedroom."
+  },
+  {
+    "t": "q",
+    "v": "For a bird of the sky might carry your words;"
+  },
+  {
+    "t": "q",
+    "v": "whatever has wings can spread the matter."
+  }
+]

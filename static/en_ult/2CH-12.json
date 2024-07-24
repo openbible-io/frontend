@@ -1,116 +1,102 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "p",
+    "v": [
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "It came about, when Rehoboam’s reign was established and he was strong, that he abandoned the law of Yahweh—and all Israel with him."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "It happened in the fifth year of King Rehoboam, that Shishak, king of Egypt, came up against Jerusalem, because the people had been unfaithful to Yahweh."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "He came with twelve hundred chariots and sixty thousand horsemen. Soldiers without number came with him from Egypt: Libyans, Sukkites, and Cushites."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "He captured the fortified cities that belonged to Judah and came to Jerusalem."
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "Now Shemaiah the prophet came to Rehoboam and to the leaders of Judah who had gathered together to Jerusalem because of Shishak. Shemaiah said to them, “This is what Yahweh says: You have forsaken me, so I have also given you over into Shishak’s hand.”"
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "Then the princes of Israel and the king humbled themselves and said, “Yahweh is righteous.”"
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "When Yahweh saw that they had humbled themselves, the word of Yahweh came to Shemaiah, saying, “They have humbled themselves. I will not ruin them; I will rescue them to some extent, and my anger will not pour out on Jerusalem by means of Shishak’s hand."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "Nevertheless, they will be his servants, so that they may understand what it is to serve me and to serve the rulers of the other countries.”"
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 1,
+        "v": "It came about, when Rehoboam’s reign was established and he was strong, that he abandoned the law of Yahweh—and all Israel with him."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "So Shishak, king of Egypt came up against Jerusalem and took away the treasures in the house of Yahweh, and the treasures in the king’s house. He took everything away; he also took the shields of gold that Solomon had made."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "King Rehoboam made shields of bronze in their place and entrusted them into the hands of the commanders of the guard, who guarded the doors to the king’s house."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "It happened that whenever the king entered the house of Yahweh, the guards would carry them; then they would bring them back into the guardhouse."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "When Rehoboam humbled himself, Yahweh’s anger turned away from him, so as not to destroy him completely; besides, there was still some good to be found in Judah."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 2,
+        "v": "It happened in the fifth year of King Rehoboam, that Shishak, king of Egypt, came up against Jerusalem, because the people had been unfaithful to Yahweh."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "So King Rehoboam made his kingship strong in Jerusalem, and thus he reigned. Rehoboam was forty-one years old when he began to reign, and he reigned for seventeen years in Jerusalem, the city that Yahweh had chosen from all the tribes of Israel so that he might put his name there. His mother’s name was Naamah the Ammonite woman."
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "He did what was evil, because he did not fix his heart to seek Yahweh."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 3,
+        "v": "He came with twelve hundred chariots and sixty thousand horsemen. Soldiers without number came with him from Egypt: Libyans, Sukkites, and Cushites."
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "As for the other matters concerning Rehoboam, first and last, are they not written in the writings of Shemaiah the prophet and of Iddo the seer, which also have records of genealogies and the constant wars between Rehoboam and Jeroboam?"
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "Rehoboam slept with his ancestors and was buried in the city of David; Abijah his son became king in his place."
-          }
-        ],
-        "tag": "p"
+        "t": "v",
+        "n": 4,
+        "v": "He captured the fortified cities that belonged to Judah and came to Jerusalem."
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Now Shemaiah the prophet came to Rehoboam and to the leaders of Judah who had gathered together to Jerusalem because of Shishak. Shemaiah said to them, “This is what Yahweh says: You have forsaken me, so I have also given you over into Shishak’s hand.”"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Then the princes of Israel and the king humbled themselves and said, “Yahweh is righteous.”"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "When Yahweh saw that they had humbled themselves, the word of Yahweh came to Shemaiah, saying, “They have humbled themselves. I will not ruin them; I will rescue them to some extent, and my anger will not pour out on Jerusalem by means of Shishak’s hand."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Nevertheless, they will be his servants, so that they may understand what it is to serve me and to serve the rulers of the other countries.”"
       }
-    ],
-    "num": 12
+    ]
   },
-  "id": "CH unfoldingWord Literal Text",
-  "ide": "UTF-8",
-  "h": "Chronicles",
-  "intro": [
-    {
-      "tag": "mt",
-      "text": "Second Chronicles"
-    }
-  ]
-}
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 9,
+        "v": "So Shishak, king of Egypt came up against Jerusalem and took away the treasures in the house of Yahweh, and the treasures in the king’s house. He took everything away; he also took the shields of gold that Solomon had made."
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "King Rehoboam made shields of bronze in their place and entrusted them into the hands of the commanders of the guard, who guarded the doors to the king’s house."
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "It happened that whenever the king entered the house of Yahweh, the guards would carry them; then they would bring them back into the guardhouse."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "When Rehoboam humbled himself, Yahweh’s anger turned away from him, so as not to destroy him completely; besides, there was still some good to be found in Judah."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 13,
+        "v": "So King Rehoboam made his kingship strong in Jerusalem, and thus he reigned. Rehoboam was forty-one years old when he began to reign, and he reigned for seventeen years in Jerusalem, the city that Yahweh had chosen from all the tribes of Israel so that he might put his name there. His mother’s name was Naamah the Ammonite woman."
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "He did what was evil, because he did not fix his heart to seek Yahweh."
+      }
+    ]
+  },
+  {
+    "t": "p",
+    "v": [
+      {
+        "t": "v",
+        "n": 15,
+        "v": "As for the other matters concerning Rehoboam, first and last, are they not written in the writings of Shemaiah the prophet and of Iddo the seer, which also have records of genealogies and the constant wars between Rehoboam and Jeroboam?"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Rehoboam slept with his ancestors and was buried in the city of David; Abijah his son became king in his place."
+      }
+    ]
+  }
+]

@@ -1,365 +1,1583 @@
-{
-  "chapter": {
-    "children": [
+[
+  {
+    "t": "m",
+    "v": [
       {
-        "tag": "toc1",
-        "text": "The Book of Proverbs"
+        "t": "v",
+        "n": 1,
+        "v": "These are the sayings that compare one example with another, to teach moral lessons and to make people wise, from Solomon the king of Israel, who was son of David."
       },
       {
-        "tag": "toc2",
-        "text": "Proverbs"
+        "t": "v",
+        "n": 2,
+        "v": "The purpose of these sayings is to teach the meaning of wisdom"
       },
       {
-        "tag": "toc3",
-        "text": "Pro"
+        "t": "v",
+        "n": 3,
+        "v": "These sayings offer correction so you may live by wisdom,"
       },
       {
-        "tag": "mt1",
-        "text": "Proverbs"
+        "t": "v",
+        "n": 4,
+        "v": "They give wise teaching to those who have no experience and to instruct those who do not know how to live a moral life,"
       },
       {
-        "children": [
-          {
-            "tag": "v",
-            "num": "1",
-            "text": "These are the sayings that compare one example with another, to teach moral lessons and to make people wise, from Solomon the king of Israel, who was son of David."
-          },
-          {
-            "tag": "v",
-            "num": "2",
-            "text": "The purpose of these sayings is to teach the meaning of wisdom"
-          },
-          {
-            "tag": "q2",
-            "text": "and give examples of moral instruction, so wise teaching can guide you."
-          },
-          {
-            "tag": "v",
-            "num": "3",
-            "text": "These sayings offer correction so you may live by wisdom,"
-          },
-          {
-            "tag": "q2",
-            "text": "by the measures of what is right, what is just, and what is fair."
-          },
-          {
-            "tag": "v",
-            "num": "4",
-            "text": "They give wise teaching to those who have no experience and to instruct those who do not know how to live a moral life,"
-          },
-          {
-            "tag": "q",
-            "text": "and to give the young the knowledge they need and to teach them the understanding they do not have—"
-          },
-          {
-            "tag": "v",
-            "num": "5",
-            "text": "so the wise may listen to these sayings and increase in their learning,"
-          },
-          {
-            "tag": "q2",
-            "text": "and those who already have insight will gain more ways to live according to the lessons of wisdom."
-          },
-          {
-            "tag": "v",
-            "num": "6",
-            "text": "They seek to understand the lessons of the proverbs and the meaning of the parables."
-          },
-          {
-            "tag": "q2",
-            "text": "These are the words of the wise and their difficult riddles."
-          },
-          {
-            "tag": "v",
-            "num": "7",
-            "text": "You must begin your search for knowledge by honoring Yahweh and respecting him,"
-          },
-          {
-            "tag": "q2",
-            "text": "a fool who dishonors himself hates wisdom and fights against the one who corrects him."
-          },
-          {
-            "tag": "v",
-            "num": "8",
-            "text": "My son, listen when your father teaches you"
-          },
-          {
-            "tag": "q2",
-            "text": "and do not disobey the rules your mother set down."
-          },
-          {
-            "tag": "v",
-            "num": "9",
-            "text": "Their teaching is a wreath upon your head,"
-          },
-          {
-            "tag": "q2",
-            "text": "and beautiful necklaces around your neck,"
-          },
-          {
-            "tag": "q2",
-            "text": "they are priceless gifts from your parents."
-          },
-          {
-            "tag": "v",
-            "num": "10",
-            "text": "My son, as sinners try to draw you into their sin with smooth talk and flattery,"
-          },
-          {
-            "tag": "q2",
-            "text": "do not listen to what they say and do not follow them."
-          },
-          {
-            "tag": "v",
-            "num": "11",
-            "text": "They may say, \"Come with us! Join us!"
-          },
-          {
-            "tag": "q2",
-            "text": "We will hide in wait and we will take the life of one who passes by."
-          },
-          {
-            "tag": "q2",
-            "text": "We will hide ourselves and we will rise up and attack a person who has done us no wrong—that will be our sport."
-          },
-          {
-            "tag": "v",
-            "num": "12",
-            "text": "Like the grave has power to take even a healthy person and drag them to the place of the dead, we will take their life from them."
-          },
-          {
-            "tag": "q2",
-            "text": "We will make them like those who fall into the place where there is no hope of escape."
-          },
-          {
-            "tag": "v",
-            "num": "13",
-            "text": "We will find many valuable and expensive items,"
-          },
-          {
-            "tag": "q2",
-            "text": "and we will fill our houses with what we stole from them!"
-          },
-          {
-            "tag": "v",
-            "num": "14",
-            "text": "So, come, be part of our team!"
-          },
-          {
-            "tag": "q2",
-            "text": "We will split into equal shares, and give to each member of our team, from all the things we stole.\""
-          },
-          {
-            "tag": "v",
-            "num": "15",
-            "text": "My son, do not walk that road with them!"
-          },
-          {
-            "tag": "q2",
-            "text": "Do not put your foot down on the same path on which they walk!"
-          },
-          {
-            "tag": "v",
-            "num": "16",
-            "text": "They run to the places where they do terrible things,"
-          },
-          {
-            "tag": "q2",
-            "text": "They hurry so they can commit murder."
-          },
-          {
-            "tag": "v",
-            "num": "17",
-            "text": "It is useless to put out a net to trap a bird"
-          },
-          {
-            "tag": "q",
-            "text": "while the bird is watching you."
-          },
-          {
-            "tag": "v",
-            "num": "18",
-            "text": "These men make plans that turn around and kill them."
-          },
-          {
-            "tag": "q2",
-            "text": "They set a trap and the trap catches them."
-          },
-          {
-            "tag": "v",
-            "num": "19",
-            "text": "These are the ways of all who gain their riches through theft and deceit;"
-          },
-          {
-            "tag": "q2",
-            "text": "the things they stole destroy the lives of the thieves who cling to them."
-          },
-          {
-            "tag": "v",
-            "num": "20",
-            "text": "Wisdom is like a woman who cries out in the streets."
-          },
-          {
-            "tag": "q2",
-            "text": "Wisdom calls out to people in the plazas."
-          },
-          {
-            "tag": "v",
-            "num": "21",
-            "text": "At the intersection of busy streets she cries out"
-          },
-          {
-            "tag": "q2",
-            "text": "and at the entrance of city gates."
-          },
-          {
-            "tag": "v",
-            "num": "22",
-            "text": "She cries, \"How long will you who have not been taught, will you love being enticed to do what will harm you?"
-          },
-          {
-            "tag": "q2",
-            "text": "How long will you who think you know more than the wise, have so much joy in the little you know?"
-          },
-          {
-            "tag": "q2",
-            "text": "How long will you fools refuse to learn?"
-          },
-          {
-            "tag": "v",
-            "num": "23",
-            "text": "If you pay attention to me when I correct you,"
-          },
-          {
-            "tag": "q2",
-            "text": "I will tell you all I am thinking."
-          },
-          {
-            "tag": "q2",
-            "text": "I will help you understand what I am saying to you."
-          },
-          {
-            "tag": "v",
-            "num": "24",
-            "text": "But when I called to you, you refused to listen."
-          },
-          {
-            "tag": "q2",
-            "text": "I beckoned you and stretched out my hands to you,"
-          },
-          {
-            "tag": "q",
-            "text": "but no one paid any attention."
-          },
-          {
-            "tag": "v",
-            "num": "25",
-            "text": "You refused to listen to my advice"
-          },
-          {
-            "tag": "q",
-            "text": "and you did not listen when I corrected you."
-          },
-          {
-            "tag": "v",
-            "num": "26",
-            "text": "I will laugh at you, when you are experiencing troubles,"
-          },
-          {
-            "tag": "q2",
-            "text": "when you are terribly afraid,"
-          },
-          {
-            "tag": "q2",
-            "text": "I will have contempt for you and not compassion."
-          },
-          {
-            "tag": "v",
-            "num": "27",
-            "text": "When troubles strike you like a powerful storm,"
-          },
-          {
-            "tag": "q2",
-            "text": "and disasters hit you like a violent wind,"
-          },
-          {
-            "tag": "q2",
-            "text": "when you experience distress and you go through difficulties,"
-          },
-          {
-            "tag": "q2",
-            "text": "I will have contempt for you."
-          },
-          {
-            "tag": "v",
-            "num": "28",
-            "text": "When people call to me to help them,"
-          },
-          {
-            "tag": "q2",
-            "text": "but I will not answer them."
-          },
-          {
-            "tag": "q2",
-            "text": "They will be desperate for my help, and search everywhere for me,"
-          },
-          {
-            "tag": "q2",
-            "text": "but they will not find me."
-          },
-          {
-            "tag": "v",
-            "num": "29",
-            "text": "They reject what I say and they hate what I know,"
-          },
-          {
-            "tag": "q",
-            "text": "and they made a choice not to show respect to Yahweh."
-          },
-          {
-            "tag": "v",
-            "num": "30",
-            "text": "They would not obey what I told them to do,"
-          },
-          {
-            "tag": "q",
-            "text": "and they did not pay attention when I tried to correct them."
-          },
-          {
-            "tag": "v",
-            "num": "31",
-            "text": "So they will experience the consequences of their actions"
-          },
-          {
-            "tag": "q2",
-            "text": "when they carry out their evil plans."
-          },
-          {
-            "tag": "v",
-            "num": "32",
-            "text": "Those who have not been taught wisdom are foolish."
-          },
-          {
-            "tag": "q2",
-            "text": "Fools choose to make no decision about anything, but be sure of this: Their failure to make a decision will destroy their lives."
-          },
-          {
-            "tag": "v",
-            "num": "33",
-            "text": "But those who pay attention to me will live in peace and safety,"
-          },
-          {
-            "tag": "q2",
-            "text": "and they will rest and not be afraid of any disaster that may come.\""
-          }
-        ],
-        "tag": "m"
+        "t": "v",
+        "n": 5,
+        "v": "so the wise may listen to these sayings and increase in their learning,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "They seek to understand the lessons of the proverbs and the meaning of the parables."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "You must begin your search for knowledge by honoring Yahweh and respecting him,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "My son, listen when your father teaches you"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "Their teaching is a wreath upon your head,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "My son, as sinners try to draw you into their sin with smooth talk and flattery,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "They may say, “Come with us! Join us!"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Like the grave has power to take even a healthy person and drag them to the place of the dead, we will take their life from them."
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "We will find many valuable and expensive items,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "So, come, be part of our team!"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "My son, do not walk that road with them!"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "They run to the places where they do terrible things,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "It is useless to put out a net to trap a bird"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "These men make plans that turn around and kill them."
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "These are the ways of all who gain their riches through theft and deceit;"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "Wisdom is like a woman who cries out in the streets."
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "At the intersection of busy streets she cries out"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "She cries, “How long will you who have not been taught, will you love being enticed to do what will harm you?"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "If you pay attention to me when I correct you,"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "But when I called to you, you refused to listen."
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "You refused to listen to my advice"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "I will laugh at you, when you are experiencing troubles,"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "When troubles strike you like a powerful storm,"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "When people call to me to help them,"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "They reject what I say and they hate what I know,"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "They would not obey what I told them to do,"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "So they will experience the consequences of their actions"
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "Those who have not been taught wisdom are foolish."
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "But those who pay attention to me will live in peace and safety,"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "My son, listen to what I say,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "Pay attention to wisdom"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Call out to Yahweh to get insight,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Search eagerly for wisdom, like you would search for silver—"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "If you do that, you will understand how to give Yahweh the respect he deserves,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Yahweh is the one who gives us wisdom."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "He stores up good advice so he can give it to them who honor him by the way they live their lives."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "He guards justice and works to see it is done,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "You will understand what Yahweh sees is right and what Yahweh determines is just to do,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Wisdom will fill your life;"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "You will learn to tell the difference between right and wrong"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "You will not do what Yahweh forbids you to do,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "They go the wrong way,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "They are glad when they do what is wrong,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "They bend the truth and live by deception"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Wisdom will keep you safe from the adulterous woman,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Those women left the husbands they married when they were young,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Those who enter her house are taken to their death,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "All who go to her to sleep with her have no way to get out of her house,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "You must live your life in the same way that good men are living."
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Those who do what is right will receive the land as a gift from Yahweh,"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Those who do bad things will have no claim to this land,"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "My son, do not forget the lessons I have taught you."
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "because they will help you live a long life, measured in either days or years,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Treat others with tenderness and always speak the truth to them."
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Then you will experience God’s delight in you,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Put all your trust in Yahweh,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "but in every choice and decision, look to Yahweh,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "Do not think you are wise enough to direct your life,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Giving Yahweh reverence will make your body healthy"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "When you gain money, honor Yahweh by giving him the tithe;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "If you honor Yahweh,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "My son, do not hate it when Yahweh corrects you,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "for Yahweh only corrects those he loves,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Those who get wisdom are fortunate;"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "Wisdom gives you a better profit than owning silver,"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Being wise is more precious than jewels"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Wisdom can make you able to live a long life, if you do what she teaches;"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Wisdom is known by how kind she is,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Wisdom is like a tree whose fruit gives life to those who hold on to it,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "By his wisdom Yahweh laid out the earth from the very beginning,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "The deepest part of the oceans broke open according to Yahweh’s design,"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "My son, hold on to good sense in the decisions you make,"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "They will bring life to you,"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "Your good decisions will take you where you are going in safety,"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "When you lie down to sleep, you will not have any fear,"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "Do not let a disaster fill you with terror,"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "Yahweh takes your side to defend you,"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "Give good gifts to those who deserve it,"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "Do not say to your neighbor, “Come back later;"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "Do not make plans to harm anyone you know,"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "If a person has done nothing to you,"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "Do not envy a person who does violence to others,"
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "A lying person is hated by Yahweh for what he does,"
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "Yahweh promises punishment to the families of those who do evil things."
+      },
+      {
+        "t": "v",
+        "n": 34,
+        "v": "Yahweh makes fools of those who treat others with disrespect,"
+      },
+      {
+        "t": "v",
+        "n": 35,
+        "v": "Those who are wise will be honored,"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "Listen, children, listen to what I am teaching you."
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "The lessons I give to you are good teaching, given in order."
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "When I was my father’s boy,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "my father told me, “Put my words deep within you,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Hold on to what is wise and whatever helps you understand,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Do not run away from the lessons which the wise teach you,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "The most important thing you can do is to study the principles of wisdom"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Wisdom is to be loved more than anything that is valuable, and she will raise you to a high position—"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "When you have attained wisdom, it will be like a beautiful wreath of honor on your head;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Hear, my son, listen and understand what I say to you—"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "I directed you in the way you should walk and to use the wisdom you were taught;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "When you live, you do not have anyone to blame; if you live wisely,"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Remember the lessons that discipline taught you,"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "Do not do what wicked people do, nor be with them;"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Stay far from those ways;"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "Evil people cannot rest until they have done something that Yahweh said they must not do."
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "They get their strength, and they are fed by doing what is wrong;"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "The path taken by those who do right grows brighter and brigher, like the rising of the sun at dawn,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "The actions of the wicked are like the darkness—"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "My son, pay attention to what I am saying to you."
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Keep reading them over and over,"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "For my words bring a message of life to those who pay attention to them,"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "Protect your heart with all your strength and guard what you love;"
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "Make it your aim to keep away from you any lying speech,"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "Look straight ahead because you are focused on what is good and right,"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "Take care about where you will go, and take care to be sure that the way is safe;"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "Do not leave the straight road by turning to the left or to the right,"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "My son, learn the lessons I teach you about wisdom."
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "If you do that, you will learn the difference between what is important and what is not,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "The woman who desires to commit adultery speaks with words that are sweet,"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "but in the end, she is so bitter you can taste it,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "She walks down to the place of death;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "She does not want to take the path that will let her live for a long time."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "So now, my sons, pay attention to what I say,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Stay far away from the immoral woman;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "If you go to her you will lose the respect of others,"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "It may be that others will take all the wealth that you have earned,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "And when you are about to die,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "Then you will say, “I hated it when I was punished for doing wrong;"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "I did not obey my teachers"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "I was almost destroyed by bad things that happened to me;"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "Just as you drink water from your own cistern, be faithful to your own wife."
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "You would not waste your own water by pouring it into the street,"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Let both your water and your wife be for you alone to enjoy,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "May your fountain be blessed;"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "She is as graceful as a loving deer and as graceful as a young doe."
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "My son, why should you be caught up in the arms of an adulteress?"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Yahweh sees everything we do; nothing is hidden from him."
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "An evil person’s sinful desires take hold of him;"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "An evil man will die because he could not say, “No” to his desires;"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "My son, if you provide a guarantee for a neighbor who takes out a loan,"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "you laid a trap for yourself by making the promise,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Do this, my son, and deliver yourself from this difficulty:"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Do not sleep,"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "Save yourself,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "You lazy person, learn something from watching the ants."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "The ant has no commander, officer, or ruler telling him what to do,"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "but during the summer it works hard,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "But you lazy person, how long will you continue to sleep ?"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "You sleep a for a little time, and then you say, “A little more sleep, a little more resting in bed,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "Suddenly poverty will take over your life like a thief who steals everything from you."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "A worthless person — a person who does bad to others—he lives by the lies he speaks to others."
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "They tell tales by winking their eyes and they give signals by moving their feet, and they make plans by pointing with their fingers."
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "The one who does bad things lays out plans within himself;"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "His own disaster will overtake him in a second;"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "There are six, even seven, things that Yahweh hates."
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "Yahweh hates the eyes of the proud, the tongue that tells lies,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "a heart that plots and makes plans to do evil things to others,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "the witness who breathes out lies when he gives testimony,"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "My son, obey the command of your father,"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "Keep these lessons and tie them close inside as a part of yourself;"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "When you walk, those lessons will guide you."
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "These commands are like a lamp for you, and what we teach you is like a light to guide you."
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "These lessons keep you from the immoral woman,"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "Do not throw your desires after such a woman, nor should you desire her beauty;"
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "Sleeping with a prostitute may cost you only the price of a loaf of bread,"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "Can you carry hot coals in your pockets and not be burned?"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "Can you walk on burning coals and not scorch your feet?"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "So is anyone who sleeps with another man’s wife—he will suffer for doing that."
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "We do not despise a thief if he steals some food because he is very hungry."
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "But if he steals something and then is caught by others,"
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "But a man who commits adultery is has no good judgment"
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "Wounds and shame will come to him;"
+      },
+      {
+        "t": "v",
+        "n": 34,
+        "v": "Because that woman’s husband will be jealous, he will become furious,"
+      },
+      {
+        "t": "v",
+        "n": 35,
+        "v": "And he will not accept any bribe to stop him."
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "My son, obey the words I say to you;"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "If you obey my commands, you will live."
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Write down my commands and tie them to your fingers to remind youreself of them;"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "Think of wisdom as if it were a woman, one of your own sisters, whom you love;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "If you do this, you will be able to stay away from women whom you must not be with,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Standing in my house, I looked out of a window,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "and I saw some young men who had not yet learned how to live wisely."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "He walked down the street near the house on the corner of the road,"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "It was the time of day when night and darkness were coming near."
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "That was where the woman who was seeking an affair met the young man, and she greeted him."
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "She was loud and wayward, attracting attention."
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "She searched for a man as she walked along the streets one day; on another day she stood in the market place to find a man."
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "When she saw the young man, she firmly took hold of him, and then she kissed him."
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "“Today I have meat in my house, because I made a sacrifice in the temple to promise friendship with Yahweh."
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "and now I have come out here to meet you."
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "I have put on my bed sheets—the finest colored linen fabrics from Egypt."
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "I have sprinkled perfumes on my bed—"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Come! Let us make love all night, until the morning comes."
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "My husband is not at home;"
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "He filled a bag with money and took it with him;"
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "So she she convinced the young man with her persuasive words;"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "He suddenly decided to follow her inside."
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "caught in a trap, where the hunter kills it by shooting an arrow into its inner parts."
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "My sons, listen to me,"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "You must resist her from within you, from deep inside. Do not decide to do what you want and follow her."
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "She has caused many men to be ruined;"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "The road to her house is the road to the grave;"
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "Listen to Wisdom calling; her voice sounds like that of a woman who shouting in the public square."
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "On the top of the hills and where the roads come together,"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Wisdom also stands at the gates at the entrance to the city, and she calls out with a loud voice. Wisdom says:"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "“I am calling out to everyone;"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "You people who have no training, you must be taught how to live;"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Listen to me, because I will explain to you some excellent things."
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "for I speak what is true;"
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "Everything that I say is right;"
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "My words give good advice to the one who understands the meaning of what I say;"
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "Choose what I teach you,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "For I, Wisdom, am more precious than jewels;"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "I, Wisdom, live with Common Sense; we are like two people living in the same house."
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "Everyone who honors Yahweh hates what is evil."
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "I give good advice and I have the best wisdom;"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "When kings are wise, they rule well;"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "By me princes rule, noblemen, and all who govern with justice."
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "I am Wisdom, and I love all who love me;"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "These people will have lasting riches, and they will live right,"
+      },
+      {
+        "t": "v",
+        "n": 19,
+        "v": "What I can give people is more valuable than fine gold and the best silver."
+      },
+      {
+        "t": "v",
+        "n": 20,
+        "v": "I always do what is right and just."
+      },
+      {
+        "t": "v",
+        "n": 21,
+        "v": "I give wealth to those who love me,"
+      },
+      {
+        "t": "v",
+        "n": 22,
+        "v": "Yahweh created me, Wisdom; he made me when he began to create the world;"
+      },
+      {
+        "t": "v",
+        "n": 23,
+        "v": "He made me long ago—at the very first, at the beginning of the earth."
+      },
+      {
+        "t": "v",
+        "n": 24,
+        "v": "I was born before the oceans were created,"
+      },
+      {
+        "t": "v",
+        "n": 25,
+        "v": "I was born before the hills and mountains were set in place."
+      },
+      {
+        "t": "v",
+        "n": 26,
+        "v": "I am Wisdom and I was born before Yahweh made the earth,"
+      },
+      {
+        "t": "v",
+        "n": 27,
+        "v": "I was there when Yahweh put the heavens where they are,"
+      },
+      {
+        "t": "v",
+        "n": 28,
+        "v": "I was there when Yahweh put the clouds above the earth,"
+      },
+      {
+        "t": "v",
+        "n": 29,
+        "v": "I was there when he fixed a boundary for the seas,"
+      },
+      {
+        "t": "v",
+        "n": 30,
+        "v": "I was at Yahweh’s side as his master craftsman;"
+      },
+      {
+        "t": "v",
+        "n": 31,
+        "v": "I was delighted with the whole world he created;"
+      },
+      {
+        "t": "v",
+        "n": 32,
+        "v": "So, you who are my children, listen to me."
+      },
+      {
+        "t": "v",
+        "n": 33,
+        "v": "Listen to what I teach you and you will become wise."
+      },
+      {
+        "t": "v",
+        "n": 34,
+        "v": "How fortunate are those who listen to me,"
+      },
+      {
+        "t": "v",
+        "n": 35,
+        "v": "Those who find me will find life,"
+      },
+      {
+        "t": "v",
+        "n": 36,
+        "v": "But those who do not find me, they hurt themselves."
+      },
+      {
+        "t": "v",
+        "n": 1,
+        "v": "Wisdom builds her own house, just like a woman who has built her home;"
+      },
+      {
+        "t": "v",
+        "n": 2,
+        "v": "She prepared a meal and set her table;"
+      },
+      {
+        "t": "v",
+        "n": 3,
+        "v": "Like a woman who sends out her maids to give the invitations to her guests, Wisdom calls out from the highest place in the city for all to hear, and she says:"
+      },
+      {
+        "t": "v",
+        "n": 4,
+        "v": "“If you are still immature, come here,”"
+      },
+      {
+        "t": "v",
+        "n": 5,
+        "v": "“Come and eat the food that I have prepared,” she says,"
+      },
+      {
+        "t": "v",
+        "n": 6,
+        "v": "Leave your untrained ways behind you, and live,"
+      },
+      {
+        "t": "v",
+        "n": 7,
+        "v": "If you rebuke someone who says insulting things about other people, he will insult you, too."
+      },
+      {
+        "t": "v",
+        "n": 8,
+        "v": "A person who insults others will hate you if you tell him to stop."
+      },
+      {
+        "t": "v",
+        "n": 9,
+        "v": "If you give instruction to a wise person, he will become even more wise."
+      },
+      {
+        "t": "v",
+        "n": 10,
+        "v": "The first step in getting wisdom is to give Yahweh the respect he deserves,"
+      },
+      {
+        "t": "v",
+        "n": 11,
+        "v": "If you become wise, your days will be filled full,"
+      },
+      {
+        "t": "v",
+        "n": 12,
+        "v": "If you become wise, you will gain many benefits from it;"
+      },
+      {
+        "t": "v",
+        "n": 13,
+        "v": "A foolish woman talks loudly;"
+      },
+      {
+        "t": "v",
+        "n": 14,
+        "v": "She sits at the door of her house"
+      },
+      {
+        "t": "v",
+        "n": 15,
+        "v": "and she calls out to the men who are passing by,"
+      },
+      {
+        "t": "v",
+        "n": 16,
+        "v": "“Any of you who have no experience, come here,”"
+      },
+      {
+        "t": "v",
+        "n": 17,
+        "v": "“If you sleep with me, it will as sweet as drinking water that you have stolen,"
+      },
+      {
+        "t": "v",
+        "n": 18,
+        "v": "Any man who accepts her invitation does not know that the dead are in her home,"
       }
-    ],
-    "num": 1
+    ]
   },
-  "id": "PRO unfoldingWord® Simplified Text",
-  "usfm": ".0",
-  "ide": "UTF-8",
-  "h": "Proverbs"
-}
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and give examples of moral instruction, so wise teaching can guide you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "by the measures of what is right, what is just, and what is fair."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and to give the young the knowledge they need and to teach them the understanding they do not have—"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and those who already have insight will gain more ways to live according to the lessons of wisdom."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "These are the words of the wise and their difficult riddles."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "a fool who dishonors himself hates wisdom and fights against the one who corrects him."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and do not disobey the rules your mother set down."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and beautiful necklaces around your neck,"
+  },
+  {
+    "t": "q",
+    "v": "they are priceless gifts from your parents."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "do not listen to what they say and do not follow them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "We will hide in wait and we will take the life of one who passes by."
+  },
+  {
+    "t": "q",
+    "v": "We will hide ourselves and we will rise up and attack a person who has done us no wrong—that will be our sport."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "We will make them like those who fall into the place where there is no hope of escape."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and we will fill our houses with what we stole from them!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "We will split into equal shares, and give to each member of our team, from all the things we stole.”"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Do not put your foot down on the same path on which they walk!"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "They hurry so they can commit murder."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "while the bird is watching you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "They set a trap and the trap catches them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "the things they stole destroy the lives of the thieves who cling to them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Wisdom calls out to people in the plazas."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and at the entrance of city gates."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "How long will you who think you know more than the wise, have so much joy in the little you know?"
+  },
+  {
+    "t": "q",
+    "v": "How long will you fools refuse to learn?"
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I will tell you all I am thinking."
+  },
+  {
+    "t": "q",
+    "v": "I will help you understand what I am saying to you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "I beckoned you and stretched out my hands to you,"
+  },
+  {
+    "t": "q",
+    "v": "but no one paid any attention."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and you did not listen when I corrected you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "when you are terribly afraid,"
+  },
+  {
+    "t": "q",
+    "v": "I will have contempt for you and not compassion."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and disasters hit you like a violent wind,"
+  },
+  {
+    "t": "q",
+    "v": "when you experience distress and you go through difficulties,"
+  },
+  {
+    "t": "q",
+    "v": "I will have contempt for you."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "but I will not answer them."
+  },
+  {
+    "t": "q",
+    "v": "They will be desperate for my help, and search everywhere for me,"
+  },
+  {
+    "t": "q",
+    "v": "but they will not find me."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they made a choice not to show respect to Yahweh."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they did not pay attention when I tried to correct them."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "when they carry out their evil plans."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "Fools choose to make no decision about anything, but be sure of this: Their failure to make a decision will destroy their lives."
+  },
+  {
+    "t": "q",
+    "v": []
+  },
+  {
+    "t": "q",
+    "v": "and they will rest and not be afraid of any disaster that may come.”"
+  }
+]
