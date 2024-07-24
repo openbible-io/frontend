@@ -116,13 +116,11 @@ export function Reader(props: ReaderProps) {
 	}
 
 	async function init(chapter: BibleChapter) {
-		const toLoad = [];
 		let next: BibleChapter | undefined = chapter;
 		for (let i = 0; i < 5 && next; i++) {
-			toLoad.push(loadChapter(next, true));
+			loadChapter(next, true);
 			next = next.next(props.indices, 1);
 		}
-		await Promise.all(toLoad);
 	}
 	const observer = new ResizeObserver(async () => {
 		if (!isOverflown(container)) await init(cur());
@@ -131,10 +129,11 @@ export function Reader(props: ReaderProps) {
 	onCleanup(() => observer.disconnect());
 
 	createEffect(() => {
+		const c = cur();
 		const firstEle = container.firstElementChild;
-		if (firstEle && bibleChapter(firstEle) == cur()) return;
-		init(cur());
-		if (props.onNavChange) props.onNavChange(cur());
+		if (firstEle && BibleChapter.eql(bibleChapter(firstEle), c)) return;
+		init(c);
+		if (props.onNavChange) props.onNavChange(c);
 	});
 
 	return (
@@ -145,6 +144,7 @@ export function Reader(props: ReaderProps) {
 					indices={props.indices}
 					onNavChange={c => {
 						container.innerHTML = '';
+						lastScroll = container.scrollTop;
 						setCur(c);
 					}}
 				/>
