@@ -5,13 +5,9 @@ export const cssVars = [
   '--primary-font-family',
 ]
 
-export const cssValues = []
-
 export function loadLocalCSSVars() {
-  const rootElement = document.documentElement
-  const docStyles = getComputedStyle(rootElement)
+  const rootElement = document.body
   cssVars.forEach(cssVar => {
-    cssValues.push(docStyles.getPropertyValue(cssVar).trim())
     rootElement.style.setProperty(cssVar, localStorage.getItem(`css-${cssVar}`))
   })
 }

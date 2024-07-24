@@ -1,25 +1,29 @@
 import { h, Fragment, Component } from 'preact'
 import { Nav, Reader, Button, Dropdown } from '../components'
 import styles from './settings.css'
-import { cssVars, cssValues, saveLocalCSSVar } from '../utils/cssVars'
+import { cssVars, saveLocalCSSVar } from '../utils/cssVars'
 import readerStyles from '../components/reader/reader.css'
 
 export class Settings extends Component {
   componentWillMount() {
-    const docStyles = getComputedStyle(document.documentElement)
-    const globalCSSVars = cssVars
+    const docStyles = getComputedStyle(document.body)
+    const docCSSVars = cssVars
       .reduce((acc, cur) => {
         acc[cur] = docStyles.getPropertyValue(cur).trim()
         return acc
       }, {})
 
-    this.setState(globalCSSVars)
+    this.setState({ cssVars: docCSSVars })
+  }
+
+  setCSSVar = (cssVar, cssValue) => {
+    document.body.style.setProperty(cssVar, cssValue)
+    this.state.cssVars[cssVar] = cssValue
+    saveLocalCSSVar(cssVar, cssValue)
   }
 
   onInput(cssVar, ev) {
-    document.documentElement.style.setProperty(cssVar, ev.target.value)
-    this.state.cssVar = ev.target.value
-    saveLocalCSSVar(cssVar, this.state.cssVar)
+    this.setCSSVar(cssVar, ev.target.value)
   }
 
   onSubmit = ev => {
@@ -30,13 +34,13 @@ export class Settings extends Component {
 
   onReset = ev => {
     ev.preventDefault()
-    const newState = {}
-    for (let i = 0; i < cssVars.length; i++) {
-      newState[cssVars[i]] = cssValues[i]
-      document.documentElement.style.setProperty(cssVars[i], cssValues[i])
-      saveLocalCSSVar(cssVars[i], cssValues[i])
-    }
-    this.setState(newState)
+    cssVars.forEach(cssVar => {
+      const cssVal = getComputedStyle(document.documentElement)
+        .getPropertyValue(cssVar)
+        .trim()
+      this.setCSSVar(cssVar, cssVal)
+    })
+    this.setState(this.state)
   }
 
   render() {
@@ -44,8 +48,8 @@ export class Settings extends Component {
       <Fragment>
         <Nav />
         <main>
-          <form style={{ flex: 1 }} onSubmit={this.onSubmit} onReset={this.onReset}>
-            {Object.entries(this.state)
+          <form class={styles.form} onSubmit={this.onSubmit} onReset={this.onReset}>
+            {Object.entries(this.state.cssVars)
               .map(entry => (
                 <p key={entry[0]}>
                   <label>{entry[0]}</label>
