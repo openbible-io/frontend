@@ -1,30 +1,38 @@
 import { h, Component, createRef, Fragment } from 'preact'
-import { Reader } from '../reader/reader'
+import { Reader, ReaderProps } from '../reader/reader'
 import styles from './readers.css'
+import { BookNames } from '../../utils'
+
+interface ReaderState extends ReaderProps {
+	width: number;
+	ref: preact.Ref<Reader>;
+}
+
+interface ReadersState {
+	readers: ReaderState[];
+}
 
 /*
  *	Contains many <Reader>s and handles resizing them
  */
-export class Readers extends Component {
+export class Readers extends Component<{}, ReadersState> {
 	state = {
 		readers: [
-			{ book: 'LUK', chapter: 4, readerRef: createRef() },
-			{ book: 'PSA', chapter: 119, readerRef: createRef() },
+			{ text: 'en_ult', width: 50, book: 'LUK' as BookNames, chapter: 4, ref: createRef() },
+			{ text: 'en_ult', width: 50, book: 'PSA' as BookNames, chapter: 119, ref: createRef() },
 		]
-	}
-	preMoveMouseWidths
+	} as ReadersState
+	preMoveMouseWidths: number[] = []
 	initialPageX = 0
 
-	constructor(props) {
-		super(props)
-		this.state.readers.forEach(reader => {
-			reader.width = 1 / this.state.readers.length
-		})
+	componentWillMount() {
+		this.state.readers.forEach(reader =>
+			reader.width = 1 / this.state.readers.length)
 	}
 
-	onMouseMove = (e, index) => {
-		e.preventDefault()
-		const offsetXPercent = (e.pageX - this.initialPageX) / window.innerWidth
+	onMouseMove = (ev: any, index: number) => {
+		ev.preventDefault()
+		const offsetXPercent = (ev.pageX - this.initialPageX) / window.innerWidth
 		this.state.readers.forEach((reader, i) => {
 			if (i === index)
 				reader.width = this.preMoveMouseWidths[i] + offsetXPercent
@@ -34,25 +42,25 @@ export class Readers extends Component {
 		this.setState({ readers: this.state.readers })
 	}
 
-	mouseMoveHandler(e, index) {
-		e.preventDefault()
-		this.initialPageX = e.pageX
+	mouseMoveHandler(ev: any, index: any) {
+		ev.preventDefault()
+		this.initialPageX = ev.pageX
 		this.preMoveMouseWidths = this.state.readers.map(r => r.width)
 		
-		const handler = e => this.onMouseMove(e, index)
+		const handler = (ev: any) => this.onMouseMove(ev, index)
 		document.addEventListener('mousemove', handler)
-		document.addEventListener('mouseup', _e =>
+		document.addEventListener('mouseup', _ev =>
 			document.removeEventListener('mousemove', handler))
 	}
 
-	onAddReader = index => {
+	onAddReader = (index: number) => {
 		const newReader = Object.assign({}, this.state.readers[index])
-		newReader.readerRef = createRef()
+		newReader.ref = createRef()
 		this.state.readers.splice(index, 0, newReader)
 		this.setState({ readers: this.state.readers })
 	}
 
-	onCloseReader = index => {
+	onCloseReader = (index: number) => {
 		this.state.readers.splice(index, 1)
 		this.setState({ readers: this.state.readers })
 	}
@@ -63,12 +71,13 @@ export class Readers extends Component {
 				{this.state.readers.map((reader, index) => (
 					<Fragment key={index}>
 						<Reader
+							text={reader.text}
 							book={reader.book}
 							chapter={reader.chapter}
-							width={`${reader.width * 100}%`}
+							style={{ width: `${reader.width * 100}%` }}
 							onAddReader={() => this.onAddReader(index)}
 							onCloseReader={() => this.onCloseReader(index)}
-							ref={reader.readerRef}
+							ref={reader.ref}
 						/>
 						{index !== this.state.readers.length - 1 &&
 							<div

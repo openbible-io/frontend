@@ -1,7 +1,7 @@
 import { h, Fragment } from 'preact'
 import { Nav } from '../components'
 
-export const About = () => (
+export const About = (_props: { path: String }) => (
 	<Fragment>
 		<Nav />
 		<main>

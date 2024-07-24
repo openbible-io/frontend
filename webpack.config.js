@@ -6,12 +6,13 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const SizePlugin = require('size-plugin')
 const CopyPlugin = require('copy-webpack-plugin')
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
-
+const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
+ 
 module.exports = (_env, argv) => {
 	const isDev = argv.mode === 'development'
 
 	return {
-		entry: './src/app.js',
+		entry: './src/app.tsx',
 		output: {
 			path: path.resolve('dist'),
 			filename: '[name].[contenthash:8].bundle.js'
@@ -20,10 +21,14 @@ module.exports = (_env, argv) => {
 		devServer: {
 			historyApiFallback: true,
 		},
+		resolve: {
+      extensions: [ '.tsx', '.ts', '.js' ],
+    },
 		module: {
 			rules: [
 				{
-					test: /\.js$/,
+					test: /\.tsx?$/,
+					include: path.resolve(__dirname, 'src'),
 					exclude: /node_modules/,
 					use: {
 						loader: 'babel-loader',
@@ -88,6 +93,10 @@ module.exports = (_env, argv) => {
 					// new BundleAnalyzerPlugin(),
 				]
 				: []),
+			new ForkTsCheckerWebpackPlugin({
+				async: false,
+				checkSyntacticErrors: true,
+			}),
 		],
 		optimization: {
 			splitChunks: {

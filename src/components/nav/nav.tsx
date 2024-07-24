@@ -1,20 +1,28 @@
 import { h } from 'preact'
-import { Link } from 'preact-router/match';
+import { Link, LinkProps } from 'preact-router/match';
 import styles from './nav.css'
 import { bugs } from '../../../package.json';
+
+const NavLink = (props: Omit<LinkProps, 'activeClassName'>) => (
+	<Link activeClassName="" {...props} />
+)
 
 export function Nav() {
 	return (
 		<header class={styles.header}>
 			<nav class={styles.navbarGrow}>
 				<ul class={styles.navbar}>
-					<li><Link class={styles.navbarBrand} href="/">Open Bible</Link></li>
-					<li><Link href="/about">About</Link></li>
+					<li>
+						<NavLink class={styles.navbarBrand} href="/">
+							Open Bible
+						</NavLink>
+					</li>
+					<li><NavLink href="/about">About</NavLink></li>
 				</ul>
 			</nav>
 			<div style={{ display: 'flex' }}>
 				<ul class={styles.navbar}>
-					<li><Link href="/settings">Settings</Link></li>
+					<li><NavLink href="/settings">Settings</NavLink></li>
 					<li><a target="_blank" href={bugs.url}>Report an issue</a></li>
 				</ul>
 				<form class={styles.form}>
@@ -22,6 +30,5 @@ export function Nav() {
 				</form>
 			</div>
 		</header>
-
 	)
 }

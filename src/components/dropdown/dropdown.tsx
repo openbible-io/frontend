@@ -3,7 +3,20 @@ import { Button } from '../button/button'
 import { classnames } from '../../utils/classnames'
 import styles from './dropdown.css'
 
-export class Dropdown extends Component {
+interface DropdownProps {
+	onSelect?: (index: number, ev: any) => void;
+	onClick?: (ev: any) => void;
+	style?: string | { [key: string]: string | number };
+	icon?: preact.ComponentChild;
+	selected?: preact.ComponentChild;
+	isRight?: boolean;
+}
+
+interface DropdownState {
+	isOpen: boolean;
+}
+
+export class Dropdown extends Component<DropdownProps, DropdownState> {
 	state = {
 		isOpen: false
 	}
@@ -11,7 +24,7 @@ export class Dropdown extends Component {
 	buttonRef2 = createRef()
 	ulRef = createRef()
 
-	close = ev => {
+	close = (ev?: any) => {
 		if (ev && (ev.target === this.buttonRef.current ||
 				ev.target === this.buttonRef2.current ||
 				this.ulRef.current.contains(ev.target))) {
@@ -23,7 +36,7 @@ export class Dropdown extends Component {
 		document.removeEventListener('mousedown', this.close)
 	}
 
-	toggleOpen() {
+	toggleOpen = (_ev: any) => {
 		const isOpen = this.state.isOpen
 		if (!isOpen) {
 			document.addEventListener('mousedown', this.close)
@@ -31,7 +44,7 @@ export class Dropdown extends Component {
 		this.setState({ isOpen: !isOpen })
 	}
 
-	selectItem = (index, ev) => {
+	selectItem = (index: number, ev: any) => {
 		const bubbleUp = this.props.onSelect
 		if (bubbleUp) {
 			bubbleUp(index, ev)
@@ -47,9 +60,7 @@ export class Dropdown extends Component {
 					ref={this.buttonRef}
 					class={styles.iconButton}
 					style={this.props.style}
-					onClick={this.props.onClick
-						? this.props.onClick
-						: () => this.toggleOpen()}
+					onClick={this.props.onClick || this.toggleOpen}
 				>
 					{this.props.selected || 'Choose item'}
 				</Button>
@@ -58,7 +69,7 @@ export class Dropdown extends Component {
 						variant="secondary"
 						ref={this.buttonRef2}
 						class={styles.iconButton}
-						onClick={() => this.toggleOpen()}
+						onClick={this.toggleOpen}
 					>
 						{this.props.icon}
 					</Button>

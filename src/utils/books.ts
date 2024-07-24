@@ -1,13 +1,46 @@
-export const getChapterPath = (version, book, chapter) => {
+export function getChapterPath(
+  version: string,
+  book: string,
+  chapter: number
+) {
 	return `./static/${version}/${book}-${(chapter + '').padStart(2, '0')}.json`
 }
 
-const cache = {}
+// TODO: types
+const cache = {} as { [key: string]: Paragraph[] }
 
-export const getChapter = (version, book, chapter) => {
-	const path = getChapterPath(version, book, chapter)
-	cache[path] = cache[path] || fetch(path).then(res => res.json()) 
-	return cache[path]
+export interface VerseObject {
+  t: string;
+  c?: string;
+  n?: number;
+  v?: string | VerseObject[];
+  id: number;
+}
+
+export interface Paragraph {
+  t: string;
+  v: VerseObject[]
+  id: number;
+}
+
+export function getChapter(
+  version: string,
+  book: string,
+  chapter: number
+): Promise<Paragraph[]> {
+  const path = getChapterPath(version, book, chapter)
+  if (!cache[path]) {
+    return new Promise((resolve, reject) => {
+      fetch(path)
+        .then(res => res.json())
+        .then(paragraphs => {
+          resolve(paragraphs)
+          cache[path] = paragraphs
+        })
+        .catch(reject)
+    })
+  }
+	return new Promise(resolve => resolve(cache[path]))
 }
 
 export const books = {
@@ -281,3 +314,5 @@ export const texts = {
   'en_ult': 'unfoldingWord® Literal Text',
   'en_ust': 'unfoldingWord® Simplified Text',
 }
+
+export type BookNames = keyof typeof books

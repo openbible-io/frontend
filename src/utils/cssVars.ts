@@ -13,6 +13,6 @@ export function loadLocalCSSVars() {
   })
 }
 
-export function setLocalCSSVar(cssVar, value) {
+export function setLocalCSSVar(cssVar: string, value: string) {
   localStorage.setItem(`css-${cssVar}`, value)
 }

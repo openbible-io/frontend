@@ -10,5 +10,9 @@ module.exports = {
 			pragma: 'h'
 		}],
 		'@babel/plugin-proposal-class-properties',
+		['@babel/plugin-transform-typescript', {
+			isTSX: true,
+			jsxPragma: 'h',
+		}],
 	],
 }

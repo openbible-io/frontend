@@ -1,17 +1,33 @@
 import { h, Component, createRef } from 'preact'
 import { Button } from '../button/button'
 import { Dropdown } from '../dropdown/dropdown'
-import { getChapter, books, texts } from '../../utils'
+import { getChapter, books, texts, BookNames } from '../../utils'
 import { getLocalHighlights, setLocalHighlight } from '../../utils/highlights'
 import { onSelectChange, onCopy, selectedNodes } from './util/select'
-import { renderChildren } from './util/renderer'
+import { renderParagraphs } from './util/renderer'
 import HighlighterIcon from './icons/fa-highlighter.svg'
 import styles from './reader.css'
 import highlightStyles from './highlights.css'
+import { Paragraph } from '../../utils/books'
 
 const highlighterColors = ['red', 'blue', 'gray', 'yellow']
 
-export class Reader extends Component {
+export interface ReaderProps {
+	text: string;
+	book: BookNames;
+	chapter: number;
+	// TODO: how to copy JSXInternal.HTMLAttributes<HTMLElement>.style?: string | {
+	style?: { [key: string]: string | number } | string;
+	onAddReader?: () => void;
+	onCloseReader?: () => void;
+}
+
+interface ReaderState {
+	paragraphs?: Paragraph[];
+	selectedColor: string;
+}
+
+export class Reader extends Component<ReaderProps, ReaderState> {
 	static defaultProps = {
 		book: books.GEN,
 		chapter: 1,
@@ -19,14 +35,15 @@ export class Reader extends Component {
 	}
 
 	state = {
-		data: null,
+		paragraphs: [],
 		selectedColor: highlighterColors[0]
-	}
+	} as ReaderState
+
 	divRef = createRef()
 
-	constructor(props) {
+	constructor(props: ReaderProps) {
 		super(props)
-		this.fetchChapter()
+		this.fetchChapter(props.text, props.book, props.chapter)
 	}
 
 	componentDidUpdate() {
@@ -38,8 +55,8 @@ export class Reader extends Component {
 		let node, highlight
 		while (node = it.nextNode()) {
 			if (node.nodeName === '#text') {
-				const parentNode = node.parentNode
-				const id = parentNode.getAttribute('data-id')
+				const parentNode = node.parentNode as Element
+				const id = parentNode.getAttribute('data-id') as string
 				if (highlights[id]) {
 					highlight = highlights[id]
 				}
@@ -53,31 +70,30 @@ export class Reader extends Component {
 		}
 	}
 
-	fetchChapter = () => {
-		getChapter(this.props.text, this.props.book, this.props.chapter)
-			.then(res => this.setState({ data: res }))
+	fetchChapter(text: string, book: string, chapter: number) {
+		getChapter(text, book, chapter)
+			.then(data => this.setState({ paragraphs: data }))
 	}
 
-	onBookChange = ev => {
-		this.props.book = ev.target.value
-		if (this.props.chapter > books[this.props.book].chapters)
-			this.props.chapter = books[this.props.book].chapters
-		this.fetchChapter()
+	onBookChange = (ev: any) => {
+		const book = ev.target.value as BookNames
+		let chapter = this.props.chapter
+		if (chapter > books[book].chapters)
+			chapter = books[book].chapters
+		this.fetchChapter(this.props.text, book, chapter)
 	}
 
-	onChapterChange = ev => {
-		this.props.chapter = ev.target.value
-		this.fetchChapter()
+	onChapterChange = (ev: any) => {
+		this.fetchChapter(this.props.text, this.props.book, ev.target.value)
 	}
 
-	onTextChange = ev => {
-		this.props.text = ev.target.value
-		this.fetchChapter()
+	onTextChange = (ev: any) => {
+		this.fetchChapter(ev.target.value, this.props.book, this.props.chapter)
 	}
 
 	// Add highlight class
-	highlightNode(node, color) {
-		node.classList.add(highlightStyles[color])
+	highlightNode(node: Node, color: keyof typeof highlightStyles) {
+		(node as Element).classList.add(highlightStyles[color])
 	}
 
 	onHighlight = () => {
@@ -87,27 +103,23 @@ export class Reader extends Component {
 		containedNodes.map(node => this.highlightNode(node, this.state.selectedColor))
 		// Save locally
 		const ids = containedNodes
-			.map(node => node.getAttribute('data-id'))
+			.map(node => (node as Element).getAttribute('data-id'))
 			.filter(Boolean)
-		const fromId = ids[0]
-		const toId = ids[ids.length - 1]
+		const fromId = ids[0] as string
+		const toId = ids[ids.length - 1] as string
 		setLocalHighlight(
 			this.props.book,
 			this.props.chapter,
 			fromId,
 			toId,
 			this.state.selectedColor
-		)
-		document.getSelection().removeAllRanges()
+		);
+		(document.getSelection() as Selection).removeAllRanges()
 	}
  
 	render() {
 		let selectedColor = this.state.selectedColor
 		const style = this.props.style || {}
-		const width = this.props.width
-		if (width) {
-			style.width = width;
-		}
 		return (
 			<article class={styles.article} style={style}>
 				<div class={styles.toolbarContainer}>
@@ -118,9 +130,8 @@ export class Reader extends Component {
 							)}
 						</select>
 						<select name="chapter" value={this.props.chapter} onChange={this.onChapterChange}>
-							{Array.apply(null, { length: books[this.props.book].chapters })
-								.map(Number.call, Number)
-								.map(i =>
+							{new Array(books[this.props.book].chapters)
+								.map((_el: number, i: number) =>
 									<option value={i + 1} key={i}>{i + 1}</option>
 							)}
 						</select>
@@ -135,7 +146,7 @@ export class Reader extends Component {
 							isRight
 							icon="▼"
 							selected={<HighlighterIcon height="12px" style={'fill: #5f6368;'} />}
-							onSelect={index => {
+							onSelect={(index: number) => {
 								selectedColor = highlighterColors[index]
 								this.setState({ selectedColor })
 								this.onHighlight()
@@ -171,9 +182,9 @@ export class Reader extends Component {
 					onKeyUp={onSelectChange}
 					class={styles.reader}
 					onCopy={onCopy}
-					tabindex="0"
+					tabIndex={0}
 				>
-					{renderChildren(this.state.data)}
+					{renderParagraphs(this.state.paragraphs)}
 				</div>
 			</article>
 		)

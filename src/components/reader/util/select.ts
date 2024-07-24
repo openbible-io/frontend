@@ -1,7 +1,7 @@
 import { getLocalSetting } from '../../../utils/settings'
 
 // Handles selecting anywhere in <article> of <Reader>
-export const selectedNodes = []
+export const selectedNodes: Node[] = []
 const copyableTags = ['SPAN']
 const copyStyles = {
 	BODY: [
@@ -21,20 +21,21 @@ const copyStyles = {
 	]
 }
 
-function snapToWords(range) {
+function snapToWords(range: Range) {
 	range.setStart(range.startContainer, 0)
-	if (range.endContainer.length) {
-		range.setEnd(range.endContainer, range.endContainer.length)
+	const length = (range.endContainer as Text).length
+	if (length) {
+		range.setEnd(range.endContainer, length)
 	}
 }
 
 // Select API doesn't yet allow selecting multiple ranges
 // Just traverse selected Range and add a class to tags
-function iterateOverRange(range, rangeFn) {
+function iterateOverRange(range: Range, rangeFn: (node: Node) => void) {
 	const it = document.createNodeIterator(range.commonAncestorContainer)
 	let hitFirstNode = false
-	let node
-	while (node = it.nextNode()) {
+	let node: Node
+	while (node = it.nextNode() as Node) {
 		if (!hitFirstNode && node === range.startContainer) {
 			hitFirstNode = true
 		} else if (!hitFirstNode || !node) {
@@ -49,21 +50,21 @@ function iterateOverRange(range, rangeFn) {
 	}
 }
 
-function getStyles(node) {
-	const nodeStyles = getComputedStyle(node)
+function getStyles(node: Node) {
+	const nodeStyles = getComputedStyle(node as Element)
 
-	return (copyStyles[node.nodeName] || [])
-		.filter(style => nodeStyles[style])
-		.map(style => `${style}: ${nodeStyles[style].replace(/"/g, '')};`)
+	return (copyStyles[node.nodeName as keyof typeof copyStyles] || [])
+		.filter(style => nodeStyles[style as any])
+		.map(style => `${style}: ${nodeStyles[style as any].replace(/"/g, '')};`)
 		.join(' ')
 }
 
 export function onSelectChange() {
-	const selection = window.getSelection()
+	const selection = window.getSelection() as Selection
 	if (selection.rangeCount === 0) {
 		return
 	}
-	const range = selection.getRangeAt(0)
+	const range = selection.getRangeAt(0) as Range
 	if (range.startContainer === range.endContainer &&
 			range.startOffset === range.endOffset) {
 		return
@@ -74,22 +75,22 @@ export function onSelectChange() {
 	
 	iterateOverRange(range, node => {
 		if (node.nodeName === '#text') {
-			selectedNodes.push(node.parentNode)
+			selectedNodes.push(node.parentNode as Node)
 		}
 	})
 }
 
 // TODO
-export function onDoubleClickVerseNumber(ev) {
+export function onDoubleClickVerseNumber(ev: any) {
 	console.log('TODO: select verse', ev)
   ev.preventDefault()
 }
 
-export function onCopy(ev) {
+export function onCopy(ev: any) {
 	if (getLocalSetting('selectVerseNums') === 'default') {
 		return
 	}
-	const range = document.getSelection().getRangeAt(0)
+	const range = (document.getSelection() as Selection).getRangeAt(0)
 	let toCopy = ''
 	let toCopyHTML = `<html>
 <head>
@@ -99,12 +100,12 @@ export function onCopy(ev) {
 	<meta charset="utf-8">`
 	let addedFirstPara = false
 	iterateOverRange(range, node => {
-		const parentNode = node.parentNode
+		const parentNode = node.parentNode as Node
 		if (node.nodeName === '#text'
 				&& copyableTags.includes(parentNode.nodeName)) {
 			toCopy += node.textContent
 			if (!addedFirstPara) {
-				toCopyHTML += `<p style="${getStyles(parentNode.parentNode)}">`
+				toCopyHTML += `<p style="${getStyles(parentNode.parentNode as Node)}">`
 				addedFirstPara = true
 			}
 			toCopyHTML += `<span style="${getStyles(parentNode)}">${node.textContent}</span>`
