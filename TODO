@@ -1,15 +1,42 @@
+study tools
+- [ ] synced scrolling
+	- [ ] versification
+		- https://github.com/Clear-Bible/Biblelib/tree/main/biblelib/versification
+		- https://github.com/ubsicap/versification_json
+- [ ] lexicon
+	- [ ] strongs
+	- [ ] bdb
+	- [ ] theo wordbook of old test
+	- [ ] goodrick/kohlenberger
+- [ ] search
+	- [ ] translations flatten to verse
+- [ ] authors
+- [ ] speaker quotations (https://github.com/Clear-Bible)
+- [ ] syntax trees / morphology
+- [ ] diff
+- [ ] timeline
+- [ ] interlinear
+- [ ] apocrypha
+	- [ ] https://www.nasscal.com/
+
+components
+- [ ] tabs
+
 layout
 - [x] media query for horizontal vs vertical split
-- [ ] tiling
+- [ ] tiling + tabs
 
 reader
 - [x] infiniscroll
 	- [x] book titles
 	- [x] chapter titles
 - [ ] hide {} []
+- [ ] save scroll position
 
 bugs
 - [x] double fetching frt when duplicate tabs
+- [ ] multiple loading chapters
+- [ ] version select
 
 settings
 - [x] fix foreword
@@ -19,11 +46,13 @@ settings
 - [x] media query hide preview
 - [x] clear cookies
 - [ ] drawer instead of page
+- [ ] Dynamic + use:
 
 about
 - [x] version number
 - [x] prerender
 	- [x] too complex: https://github.com/bluwy/create-vite-extra/blob/master/template-ssr-solid
+- [ ] upstream link
 
 styles
 - [x] paragraph indents
@@ -38,12 +67,14 @@ styles
 - [ ] pretty buttons
 	- [ ] clear disabled styles
 - [ ] popover padding + borders
-- [ ] tabs component
 - [ ] dark mode
 	- [x] SVG fill
 - [x] favicon
-- [ ] loading spinner
-	- [ ] fade content in/out
+- [x] loading spinner
+	- [x] fade content in/out
+	- [ ] turning page spinner
+	- [ ] skeleton w/ word count estimate
+		- [ ] 1189 chapters
 
 footnotes
 - [ ] inline strongs
@@ -72,4 +103,6 @@ i18n
 	- [ ] autodetect
 
 print
-- [ ] worth?
+- [ ] 1 vs 2 column
+
+other

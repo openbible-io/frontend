@@ -1,13 +1,13 @@
-import { createSignal, createEffect, For, Switch, Match, batch } from 'solid-js';
-import { BookId, BibleChapter, BibleIndices, BibleIndex, bookNames } from '../../utils';
+import { createSignal, createEffect, For, Switch, Match, batch, createMemo } from 'solid-js';
+import { BookId, VersionBookChapter, BibleInfos, BibleInfo, bookNames, infoAboutUrl, bookChapters } from '../../bibles';
 import { InfoIcon, ThreeDotsVerticalIcon } from '../../icons/index';
-import { Dropdown, InnerHTML } from '../index';
+import { Dropdown, InnerHtml } from '../index';
 import styles from './nav.module.css';
 
 export interface ReaderNavProps {
-	indices: BibleIndices;
-	chapter: BibleChapter;
-	onNavChange: (chapter: BibleChapter) => void;
+	indices: BibleInfos;
+	chapter: VersionBookChapter;
+	onNavChange: (chapter: VersionBookChapter) => void;
 };
 export function ReaderNav(props: ReaderNavProps) {
 	const [version, setVersion] = createSignal(props.chapter.version);
@@ -22,8 +22,8 @@ export function ReaderNav(props: ReaderNavProps) {
 		});
 	});
 
-	const versionInfo = () => props.indices[version()];
-	const books = () => Object.keys(versionInfo().books) as BookId[];
+	const info = createMemo(() => props.indices[version()]);
+	const books = createMemo(() => info().books);
 
 	function onVersionChange(newVersion: string) {
 		let b = book();
@@ -32,19 +32,20 @@ export function ReaderNav(props: ReaderNavProps) {
 			b = (Object.keys(newBooks) as BookId[])[0];
 		}
 		let c = chapter();
-		const newChapters = props.indices[newVersion].chapters(b);
+		const newChapters = bookChapters(books(), b);
 		if (!newChapters.includes(c)) {
 			c = newChapters[0];
 		}
-		props.onNavChange(new BibleChapter(newVersion, b, c));
+		props.onNavChange({ version: newVersion, book: b, chapter: c });
 	}
 
 	function onBookChange(newBook: BookId) {
-		props.onNavChange(BibleChapter.first(props.indices, version(), newBook));
+		const firstChapter = bookChapters(info().books, newBook)[0];
+		props.onNavChange({ version: version(), book: newBook, chapter: firstChapter });
 	}
 
 	function onChapterChange(newChapter: number) {
-		props.onNavChange(new BibleChapter(version(), book(), newChapter));
+		props.onNavChange({ version: version(), book: book(), chapter: newChapter });
 	}
 
 	const nav = (
@@ -61,13 +62,13 @@ export function ReaderNav(props: ReaderNavProps) {
 			<button popoverTarget="version-info">
 				<InfoIcon width="1rem" height="1rem" />
 			</button>
-			<VersionInfo version={version()} info={versionInfo()} />
+			<VersionInfo info={info()} />
 			<select
 				name="book"
 				value={book()}
 				onChange={ev => onBookChange(ev.target.value as BookId)}
 			>
-				<For each={books()}>
+				<For each={Object.keys(info().books) as BookId[]}>
 					{b => <option value={b}>{bookNames[b]}</option>}
 				</For>
 			</select>
@@ -76,7 +77,7 @@ export function ReaderNav(props: ReaderNavProps) {
 				value={chapter()}
 				onChange={ev => onChapterChange(+ev.target.value)}
 			>
-				<For each={versionInfo().chapters(book())}>
+				<For each={bookChapters(books(), book())}>
 					{c => <option value={c}>{c}</option>}
 				</For>
 			</select>
@@ -100,8 +101,7 @@ export function ReaderNav(props: ReaderNavProps) {
 }
 
 interface VersionInfoProps {
-	version: string;
-	info: BibleIndex;
+	info: BibleInfo;
 }
 function VersionInfo(props: VersionInfoProps) {
 	type View = 'info' | 'foreword';
@@ -119,7 +119,7 @@ function VersionInfo(props: VersionInfoProps) {
 					<li>
 						<button
 							onClick={() => setView('foreword')}
-							disabled={!Boolean(props.info.aboutUrl())}
+							disabled={!Boolean(props.info.about)}
 						>
 							Foreword
 						</button>
@@ -142,7 +142,7 @@ function VersionInfo(props: VersionInfoProps) {
 					</div>
 				</Match>
 				<Match when={view() == 'foreword'}>
-					<InnerHTML url={props.info.aboutUrl()!} />
+					<InnerHtml url={infoAboutUrl(props.info)} />
 				</Match>
 			</Switch>
 		</div>

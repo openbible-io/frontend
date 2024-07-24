@@ -1,144 +1,125 @@
-import { createSignal, Show, onCleanup, createEffect } from 'solid-js';
+import { createSignal, onCleanup, createEffect, For, createMemo } from 'solid-js';
+import { InnerHtml } from '../index';
 import { SolidPlusIcon, SolidXIcon } from '../../icons/index';
 import { ReaderNav } from './nav';
-import { BibleIndices, BibleChapter, BookId, bookNames } from '../../utils';
+import { BibleInfos, VersionBookChapter, BookId, BookChapter, Books, bookNames, bcEql, vbcEql, vbcUrl, bookChapters, nextBookChapter } from '../../bibles';
 import styles from './reader.module.css';
 
 const maxLoaded = 50;
 
 export interface ReaderProps {
-	chapter: BibleChapter;
-	indices: BibleIndices;
+	vbc: VersionBookChapter;
+	indices: BibleInfos;
 	onAddReader?: () => void;
 	onCloseReader?: () => void;
-	onNavChange?: (chapter: BibleChapter) => void
+	onNavChange?: (chapter: VersionBookChapter) => void
 	canClose?: boolean;
 	class?: string;
 };
-
 export function Reader(props: ReaderProps) {
-	// source of truth
+	const [vbcs, setVbcs] = createSignal([{
+		vbc: props.vbc,
+		loaded: false,
+	}]);
+	const [prev, setPrev] = createSignal<VersionBookChapter | undefined>(undefined, { equals: vbcEql });
+	const [cur, setCur] = createSignal(props.vbc, { equals: vbcEql });
+	const books = (version: string) => props.indices[version].books;
+
+	createEffect(() => {
+		const vbc = prev();
+		if (!vbc) return;
+		console.log('hello', vbc);
+		setVbcs(existing => [{ vbc, loaded: false }, ...existing]);
+	});
 	const container = (
 		<div
 			tabIndex={0}
 			class={styles.container}
 			onScroll={onScroll}
-			data-version={props.chapter.version}
-		/>
+			data-version={props.vbc.version}
+		>
+			<For each={vbcs()}>
+				{c =>
+					<InnerHtml
+						url={vbcUrl(c.vbc)}
+						amendHtml={html => {
+							let res = [];
+							const firstChapter = bookChapters(books(c.vbc.version), c.vbc.book)[0];
+							if (c.vbc.chapter == firstChapter) {
+								res.push(`<h1 class="${styles.bookTitle}">${bookNames[c.vbc.book]}</h1>`);
+							}
+							res.push(`<h2 class="${styles.chapterNumber}">${c.vbc.chapter}</h1>`);
+							res.push(html)
+							return res.join('');
+						}}
+						onSuccess={() => {
+							c.loaded = true;
+							if (bcEql(c.vbc, cur())) {
+								const toLoad = nextN(c.vbc, books(c.vbc.version), 5)
+									.map(vbc => ({ vbc: { version: cur().version, ...vbc }, loaded: false }));
+								console.log(toLoad);
+								setVbcs(existing => [...existing, ...toLoad]);
+							}
+						}}
+						div={{
+							/* data-* Needed for scroll tracking */
+							'data-book': c.vbc.book,
+							'data-chapter': c.vbc.chapter,
+						}}
+					/>
+				}
+			</For>
+		</div>
 	) as HTMLDivElement;
-	const [next, setNext] = createSignal(props.chapter.next(props.indices, 1), {
-		equals: BibleChapter.eql,
+
+	createEffect(() => {
+		if (props.onNavChange) props.onNavChange(cur());
 	});
-	const [cur, setCur] = createSignal(props.chapter, { equals: BibleChapter.eql });
 
-	async function loadChapter(chapter: BibleChapter, forward: boolean): Promise<boolean> {
-		if (!isLoaded(container, chapter)) {
-			const ele = document.createElement('div');
-			ele.className = styles.reader;
-			ele.setAttribute('data-book', chapter.book);
-			ele.setAttribute('data-chapter', chapter.chapter.toString());
-			ele.setAttribute('data-loading', '');
-			if (forward) {
-				container.appendChild(ele);
-			} else {
-				container.insertBefore(ele, container.firstChild);
-			}
-			ele.innerHTML = '<p>Loading...</p>';
-
-			return chapter.fetchHtml()
-				.then(html => {
-					ele.innerHTML = html;
-					ele.removeAttribute('data-loading');
-					const chapter_title = document.createElement('h2');
-					chapter_title.textContent = `Chapter ${chapter.chapter}`;
-					chapter_title.className = styles.chapterNumber;
-					ele.insertBefore(chapter_title, ele.firstChild);
-					if (chapter.isFirst(props.indices)) {
-						const book_title = document.createElement('h1');
-						book_title.textContent = bookNames[chapter.book];
-						book_title.className = styles.bookTitle;
-						ele.insertBefore(book_title, ele.firstChild);
-					}
-
-					if (container.children.length > maxLoaded) {
-						if (forward) {
-							container.firstChild?.remove();
-						} else {
-							container.lastChild?.remove();
-						}
-					}
-					return true;
-				})
-				.catch(err => {
-					ele.remove();
-					const error = Retry(err, () => loadChapter(chapter, forward));
-					container.appendChild(error);
-					return false
-				});
-		}
-
-		return true;
-	}
-
+	// Scroll tracking (calls setCur)
 	let lastScroll = container.scrollTop;
-	let scrollLoading = false;
 	function onScroll() {
 		const target = container;
 		const scrollBottom = target.scrollTop + target.clientHeight;
-		let ele: HTMLDivElement;
 		for (let i = 0; i < container.children.length; i++) {
-			ele = container.children[container.children.length - i - 1] as HTMLDivElement;
+			const visible = container.children[container.children.length - i - 1] as HTMLDivElement;
 
-			if (ele.offsetTop - 100 <= target.scrollTop) {
-				const chapter = bibleChapter(ele);
-				setCur(chapter);
+			if (visible.offsetTop <= target.scrollTop) {
+				const firstChapter = vbcFrom(visible);
+				if (firstChapter) setCur(firstChapter);
 				break;
 			}
 		}
 
-		if (scrollLoading) return;
-		if (target.scrollHeight - scrollBottom < 300 && target.scrollTop > lastScroll) {
-			const lastChild = container.lastChild as HTMLDivElement;
-			if (lastChild.attributes.getNamedItem('data-loading')) return;
-			const last = bibleChapter(lastChild);
-			const n = last.next(props.indices, 1);
-			if (n) {
-				scrollLoading = true;
-				loadChapter(n, true).then(() => scrollLoading = false);
-				setNext(n.next(props.indices, 1));
-			}
+		const chaps = vbcs();
+		if (target.scrollHeight - scrollBottom < 500 && target.scrollTop > lastScroll) {
+			const last = chaps[chaps.length - 1];
+			if (!last.loaded) return;
+			const next = nextBookChapter(last.vbc, props.indices[props.vbc.version].books, 1);
+			if (!next) return;
+			const vbc: VersionBookChapter = { version: last.vbc.version, ...next };
+			setVbcs(existing => [...existing, { vbc, loaded: false }]);
 		}
 
-		if (target.offsetTop <= 100 && target.scrollTop < lastScroll) {
-			const prev = cur().next(props.indices, -1);
-			if (prev) {
-				scrollLoading = true;
-				loadChapter(prev, false).then(() => scrollLoading = false);
-			}
+		if (target.scrollTop <= 300 && target.scrollTop < lastScroll) {
+			const first = chaps[0];
+			if (!first.loaded) return;
+			const firstChapter = first.vbc;
+			const version = firstChapter.version;
+			const newPrev = nextBookChapter(firstChapter, books(version), -1);
+			if (!newPrev) return;
+			console.log(target.offsetTop);
+			setPrev({ version, ...newPrev });
 		}
 		lastScroll = target.scrollTop;
 	}
-
-	async function init(chapter: BibleChapter) {
-		let next: BibleChapter | undefined = chapter;
-		for (let i = 0; i < 5 && next; i++) {
-			loadChapter(next, true);
-			next = next.next(props.indices, 1);
-		}
-	}
 	const observer = new ResizeObserver(async () => {
-		if (!isOverflown(container)) await init(cur());
+		if (!isOverflown(container)) {
+			// await init(cur());
+		}
 	});
 	observer.observe(container);
 	onCleanup(() => observer.disconnect());
-
-	createEffect(() => {
-		const c = cur();
-		const firstEle = container.firstElementChild;
-		if (firstEle && BibleChapter.eql(bibleChapter(firstEle), c)) return;
-		init(c);
-		if (props.onNavChange) props.onNavChange(c);
-	});
 
 	return (
 		<article class={`${styles.article} ${props.class ?? ''}`}>
@@ -146,10 +127,10 @@ export function Reader(props: ReaderProps) {
 				<ReaderNav
 					chapter={cur()}
 					indices={props.indices}
-					onNavChange={c => {
-						container.innerHTML = '';
-						lastScroll = container.scrollTop;
-						setCur(c);
+					onNavChange={vbc => {
+						lastScroll = 0;
+						setVbcs([{ vbc, loaded: false }]);
+						setCur(vbc);
 					}}
 				/>
 				<div style="flex: 1" />
@@ -170,55 +151,32 @@ export function Reader(props: ReaderProps) {
 				</span>
 			</header>
 			{container}
-			<Show when={next()}>
-				<link
-					rel="prefetch"
-					crossorigin="anonymous"
-					type="fetch"
-					href={next()!.htmlUrl()}
-				/>
-			</Show>
 		</article>
 	);
-}
-
-function bibleChapter(ele: Element): BibleChapter {
-	const container = ele.parentElement as HTMLDivElement;
-	const version = container.attributes.getNamedItem('data-version')!.value;
-	const book = ele.attributes.getNamedItem('data-book')!.value as BookId;
-	const chapter = ele.attributes.getNamedItem('data-chapter')!.value;
-	return new BibleChapter(version, book, +chapter);
-}
-
-export function Retry(err: Error, retry: () => void) {
-	const res = document.createElement('div');
-	const errText = document.createTextNode(err.toString());
-	res.appendChild(errText);
-	const button = document.createElement('button');
-	const buttonText = document.createTextNode('Retry');
-	button.appendChild(buttonText);
-	button.addEventListener('click', () => {
-		res.remove();
-		retry();
-	});
-	res.appendChild(button);
-
-	return res;
 }
 
 function isOverflown(element: HTMLElement) {
   return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;
 }
 
-function isLoaded(container: HTMLDivElement, chapter: BibleChapter): boolean {
-	for (let i = 0; i < container.children.length; i++) {
-		const ele = container.children[i];
-		if (
-		 ele.attributes.getNamedItem('data-book')?.value == chapter.book &&
-		 ele.attributes.getNamedItem('data-chapter')?.value == chapter.chapter.toString()
-		) {
-			return true;
-		};
+function vbcFrom(ele: Element): VersionBookChapter | undefined {
+	const container = ele.parentElement as HTMLDivElement;
+	const version = container.getAttribute('data-version');
+	const book = ele.getAttribute('data-book') as BookId | null;
+	const chapter = ele.getAttribute('data-chapter');
+	if (version && book && chapter) return { version, book, chapter: +chapter };
+}
+
+function nextN(bc: BookChapter, books: Books, n: number): BookChapter[] {
+	const res: BookChapter[] = [];
+	let next: BookChapter | undefined = bc;
+	for (let i = 0; i < n; i++) {
+		next = nextBookChapter(next, books, 1);
+		if (next) {
+			res.push(next);
+		} else {
+			break;
+		}
 	}
-	return false;
+	return res;
 }

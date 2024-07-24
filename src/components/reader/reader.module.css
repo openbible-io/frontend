@@ -29,6 +29,8 @@
 	font-size: var(--reader-font-size);
 	padding-top: var(--reader-padding);
 	padding-right: var(--reader-padding);
+	/* Causes ele.scrollTop to be relative to this instead of document.body */
+	position: relative;
 }
 .reader {
 	word-break: break-word;

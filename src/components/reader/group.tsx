@@ -1,34 +1,29 @@
 import { For, createResource, ResourceReturn, Show } from 'solid-js';
 import { Reader } from '../reader/reader';
-import { useLocalStorage, BibleChapter, BibleIndices, BibleIndex } from '../../utils';
+import { useLocalStorage } from '../../reactivity/index';
+import { BibleInfos, VersionBookChapter, infosUrl, vbcUrl } from '../../bibles';
 import styles from './group.module.css';
 
 export const defaultReaders = [
 	// Single reader in case on small display
-	new BibleChapter('en_ust', 'gen', 1),
-];
+	{ version: 'en_ust', book: 'gen', chapter: 1 },
+] as VersionBookChapter[];
 // Only fetch this once.
-let indexCache: ResourceReturn<BibleIndices> | undefined;
+let indexCache: ResourceReturn<BibleInfos> | undefined;
 
 export function ReaderGroup() {
 	// Source of truth on load.
 	// Then <Reader /> becomes the source of truth and just calls back
 	// to update this.
-	const [readers, setReaders] = useLocalStorage<BibleChapter[]>(
-		'chapters',
-		defaultReaders,
-		{
-			deserializer: json => JSON.parse(json).map((j: BibleChapter) => BibleChapter.fromJson(j))
-		}
-	);
+	const [readers, setReaders] = useLocalStorage('chapters', defaultReaders);
 	if (readers().length == 0) setReaders(defaultReaders);
 
-	indexCache = indexCache || createResource<BibleIndices>(async () =>
-		 fetch(`${import.meta.env['OPENBIBLE_STATIC_URL']}/bibles/index.json`)
-			.then(res => res.json() as Promise<BibleIndices>)
+	indexCache = indexCache || createResource<BibleInfos>(async () =>
+		 fetch(infosUrl)
+			.then(res => res.json() as Promise<BibleInfos>)
 			.then(res => {
-				Object.keys(res).forEach(version => {
-					res[version] = BibleIndex.fromJson(version, res[version]);
+				Object.entries(res).forEach(([version, index]) => {
+					index.version = version;
 				});
 				return res;
 			})
@@ -47,33 +42,33 @@ export function ReaderGroup() {
 		setReaders(newReaders);
 	}
 
-	function onNavChange(index: number, chapter: BibleChapter) {
-		// Be sneaky and do NOT force a rerender while still saving to localstorage.
+	function onNavChange(index: number, vbc: VersionBookChapter) {
+		// No ... to avoid <For> doing unneeded work
 		const newReaders = readers();
-		Object.assign(newReaders[index], chapter);
+		newReaders[index] = vbc;
 		setReaders(newReaders);
 	}
 
 	return (
 		<div class={styles.readerGroup}>
 			<For each={readers()}>
-				{(chapter, index) =>
+				{(vbc, index) =>
 					<Show
 						when={indices()}
 						fallback={
 							<>
 								Fetching indices...
-								{/* Indices is usually larger than this chapter which can prefetch */}
+								{/* Indices is usually larger than this chapter which can be prefetched */}
 								<link
 									rel="prefetch"
 									type="fetch"
 									crossorigin="anonymous"
-									href={chapter.htmlUrl()}
+									href={vbcUrl(vbc)}
 								/>
 							</>
 						}>
 						<Reader
-							chapter={chapter}
+							vbc={vbc}
 							indices={indices()!}
 							onAddReader={() => onAddReader(index())}
 							onCloseReader={() => onCloseReader(index())}

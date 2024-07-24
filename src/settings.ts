@@ -1,5 +1,5 @@
 import { createContext } from 'solid-js';
-import { useUserStyle } from './utils/index';
+import { useUserStyle } from './reactivity/index';
 
 // Kinda a mess, could be cleaned up with a tagged union
 export interface CssVarControl {

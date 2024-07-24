@@ -3,10 +3,9 @@ import { Router, Route, RouteSectionProps } from '@solidjs/router';
 import { Nav } from './components/index';
 import { Home, About, Settings, NotFound } from './pages';
 import { createCssVars, CssVars } from './settings';
-import './app.css';
-import './minireset.css';
+import './main.css';
 
-function App() {
+function Main() {
 	return (
 		<CssVars.Provider value={createCssVars()}>
 			<Router root={Root}>
@@ -30,4 +29,4 @@ function Root(props: RouteSectionProps<unknown>) {
 	);
 }
 
-render(App, document.body);
+render(Main, document.body);

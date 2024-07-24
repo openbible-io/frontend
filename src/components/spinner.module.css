@@ -5,6 +5,8 @@
 	width: 100%;
 	height: 100%;
 	animation: fadein 2s;
+	min-width: 12rem;
+	min-height: 12rem;
 }
 .spinner {
 	border: 16px solid var(--primary-text-color);
