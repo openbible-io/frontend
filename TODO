@@ -1,9 +1,12 @@
 layout
 - [x] media query for horizontal vs vertical split
 - [ ] tiling
-- [ ] infiniscroll
+
+reader
+- [x] infiniscroll
 	- [ ] book titles
 	- [ ] chapter titles
+- [ ] hide {}
 
 bugs
 - [ ] double fetching frt when duplicate tabs
@@ -19,7 +22,8 @@ settings
 
 about
 - [x] version number
-- [ ] prerender
+- [x] prerender
+	- [x] too complex: https://github.com/bluwy/create-vite-extra/blob/master/template-ssr-solid
 
 styles
 - [x] paragraph indents
@@ -38,6 +42,7 @@ styles
 - [ ] dark mode
 	- [ ] SVG fill
 - [x] favicon
+- [ ] loading spinner
 
 footnotes
 - [ ] inline strongs

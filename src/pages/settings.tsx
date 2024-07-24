@@ -1,5 +1,4 @@
 import { For, useContext, JSX, Switch, Match } from 'solid-js';
-import { Reader } from '../components';
 import { cssVars, CssVars, CssVar, CssVarControl } from '../settings';
 import styles from './settings.module.css';
 
@@ -18,7 +17,7 @@ export function Settings() {
 	return (
 		<>
 			<form class={styles.form} onReset={onReset}>
-				<h2>CSS Variables</h2>
+				<h1>Settings</h1>
 				<table>
 					<tbody>
 					<For each={Object.entries(cssVars ?? {})}>
@@ -33,7 +32,6 @@ export function Settings() {
 					Clear localstorage
 				</button>
 			</form>
-			<Reader class={styles.settingsReader} version="en_ust" book="psa" chapter={119} canClose={false} />
 		</>
 	);
 }

@@ -1,5 +1,5 @@
 import { createContext, createResource, ResourceReturn } from 'solid-js';
-import { useUserStyle, BookId } from './utils';
+import { useUserStyle } from './utils/index';
 
 // Kinda a mess, could be cleaned up with a tagged union
 export interface CssVarControl {
@@ -51,19 +51,3 @@ export function createCssVars() {
 }
 
 export const CssVars = createContext<ReturnType<typeof createCssVars>>();
-
-export type Books = {
-	[book in BookId]: number | number[];
-};
-export type BibleIndex = {
-	publisher: string,
-	title: string,
-	date: string,
-	modified: string,
-	license: string
-	authors: string[],
-	books: Books,
-	about?: string,
-};
-export type BibleIndices = { [version: string]: BibleIndex };
-

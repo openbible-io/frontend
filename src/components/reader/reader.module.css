@@ -23,13 +23,14 @@
 			 url('./fonts/libre-baskerville-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
 			 local('Arial'); /* fallback */
 }
-.reader {
+.container {
 	overflow-y: auto;
-	height: 100%;
 	font-family: var(--reader-font-family);
 	font-size: var(--reader-font-size);
 	padding-top: var(--reader-padding);
 	padding-right: var(--reader-padding);
+}
+.reader {
 	word-break: break-word;
 }
 .reader > p:first-of-type::first-letter {
@@ -58,6 +59,9 @@
 }
 .reader > p {
 	text-indent: 1em;
+	margin-bottom: 1rem;
+}
+.reader > :last-child {
 	margin-bottom: 1rem;
 }
 .reader > p:is(:global(.q1), :global(.q2), :global(.q3), :global(.q4), :global(.q5), :global(.q6)) {

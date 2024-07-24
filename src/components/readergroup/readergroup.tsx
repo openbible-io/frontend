@@ -1,18 +1,39 @@
-import { For } from 'solid-js';
-import { Reader, ReaderProps } from '../reader/reader';
-import { useLocalStorage, BookId } from '../../utils';
+import { For, createResource, ResourceReturn, Show } from 'solid-js';
+import { Reader } from '../reader/reader';
+import { useLocalStorage, BibleChapter, BibleIndices, BibleIndex } from '../../utils';
 import styles from './readergroup.module.css';
 
 export const defaultReaders = [
 	// Single reader in case on small display
-	{ version: 'en_ust', book: 'gen' as BookId, chapter: 1 },
+	new BibleChapter('en_ust', 'gen', 1),
 ];
+// Only fetch this once.
+let indexCache: ResourceReturn<BibleIndices> | undefined;
 
 export function ReaderGroup() {
-	// Used only for initial reader loading and saving layout to local storage.
-	// Each reader controls its own state.
-	const [readers, setReaders] = useLocalStorage<ReaderProps[]>('readers', defaultReaders);
+	// Source of truth on load.
+	// Then <Reader /> becomes the source of truth and just calls back
+	// to update this.
+	const [readers, setReaders] = useLocalStorage<BibleChapter[]>(
+		'chapters',
+		defaultReaders,
+		{
+			deserializer: json => JSON.parse(json).map((j: BibleChapter) => BibleChapter.fromJson(j))
+		}
+	);
 	if (readers().length == 0) setReaders(defaultReaders);
+
+	indexCache = indexCache || createResource<BibleIndices>(async () =>
+		 fetch(`${import.meta.env['OPENBIBLE_STATIC_URL']}/bibles/index.json`)
+			.then(res => res.json() as Promise<BibleIndices>)
+			.then(res => {
+				Object.keys(res).forEach(version => {
+					res[version] = BibleIndex.fromJson(version, res[version]);
+				});
+				return res;
+			})
+	);
+	const [indices] = indexCache;
 
 	function onAddReader(index: number) {
 		const newReaders = [...readers()];
@@ -26,30 +47,43 @@ export function ReaderGroup() {
 		setReaders(newReaders);
 	}
 
-	function onReaderChange(index: number, version: string, book: BookId, chapter: number) {
+	function onNavChange(index: number, chapter: BibleChapter) {
+		// Be sneaky and do NOT force a rerender while still saving to localstorage.
 		const newReaders = readers();
-		Object.assign(newReaders[index], { version, book, chapter });
+		Object.assign(newReaders[index], chapter);
 		setReaders(newReaders);
 	}
 
 	return (
 		<div class={styles.readerGroup}>
 			<For each={readers()}>
-				{(reader, index) =>
-					<>
+				{(chapter, index) =>
+					<Show
+						when={indices()}
+						fallback={
+							<>
+								Fetching indices...
+								{/* Indices is usually larger than this chapter which can prefetch */}
+								<link
+									rel="prefetch"
+									type="fetch"
+									crossorigin="anonymous"
+									href={chapter.htmlUrl()}
+								/>
+							</>
+						}>
 						<Reader
-							version={reader.version}
-							book={reader.book}
-							chapter={reader.chapter}
+							chapter={chapter}
+							indices={indices()!}
 							onAddReader={() => onAddReader(index())}
 							onCloseReader={() => onCloseReader(index())}
-							onNavChange={(text, book, chapter) => onReaderChange(index(), text, book, chapter)}
+							onNavChange={c => onNavChange(index(), c)}
 							canClose={readers().length > 1}
 						/>
 						{index() !== readers().length - 1 &&
 							<div class={styles.dragbar} />
 						}
-					</>
+					</Show>
 				}
 			</For>
 		</div>
