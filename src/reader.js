@@ -8,9 +8,12 @@ export class Reader extends Component {
 		text: 'en_ult'
 	}
 
+	state = {
+		book: null
+	}
+
 	constructor(props) {
 		super(props)
-		this.setState({ book: null })
 		getChapter(props.text, props.book, props.chapter)
 			.then(res => this.setState({ book: res }))
 	}
@@ -23,7 +26,8 @@ export class Reader extends Component {
 
 	render() {
 		return (
-			<article>
+			// Rely on flexbox for initial width
+			<article style={this.props.width ? { width: this.props.width } : { flex: 1 }}>
 				<select name="book" value={this.props.book} onChange={this.onBookChange}>
 					{Object.entries(getBooks()).map(([key, val]) =>
 						<option value={val} key={key}>{key}</option>
