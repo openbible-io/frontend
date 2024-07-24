@@ -69,6 +69,7 @@ export function Reader(props: ReaderProps) {
 		return true;
 	}
 
+	let lastScroll = container.scrollTop;
 	function onScroll() {
 		const target = container;
 		const scrollBottom = target.scrollTop + target.clientHeight;
@@ -83,7 +84,7 @@ export function Reader(props: ReaderProps) {
 			}
 		}
 
-		if (target.scrollHeight - scrollBottom < 300) {
+		if (target.scrollHeight - scrollBottom < 300 && target.scrollTop > lastScroll) {
 			const lastChild = container.lastChild as HTMLDivElement;
 			if (lastChild.attributes.getNamedItem('data-loading')) return;
 			const last = bibleChapter(lastChild);
@@ -94,12 +95,13 @@ export function Reader(props: ReaderProps) {
 			}
 		}
 
-		if (target.offsetTop <= 100) {
+		if (target.offsetTop <= 100 && target.scrollTop < lastScroll) {
 			const prev = cur().next(props.indices, -1);
 			if (prev) {
 				loadChapter(prev, false);
 			}
 		}
+		lastScroll = target.scrollTop;
 	}
 
 	async function init(chapter: BibleChapter) {
