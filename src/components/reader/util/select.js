@@ -3,16 +3,18 @@ import styles from './select.css'
 
 // Handles selecting anywhere in <article> of <Reader>
 const selectableTags = ['SPAN']
-const selectableCSSVars = [
+const selectedNodes = []
+const paragraphStyles = [
 	'padding',
 	'margin',
 	'font-family',
 	'font-size',
-	'color',
-	'background-color',
 	'text-indent',
 ]
-const selectedNodes = []
+const spanStyles = [
+	'color',
+	'background-color',
+]
 
 function snapToWords(range) {
 	range.setStart(range.startContainer, 0)
@@ -86,38 +88,52 @@ export function onDoubleClickVerseNumber(ev) {
   ev.preventDefault()
 }
 
+function getStyles(node) {
+	const nodeStyles = getComputedStyle(node)
+	if (node.nodeName === 'P') {
+		return paragraphStyles
+			.map(style => `${style}: ${nodeStyles[style]};`)
+			.join(' ')
+	}
+	else if (node.nodeName === 'SPAN') {
+		return spanStyles
+			.map(style => `${style}: ${nodeStyles[style]};`)
+			.join(' ')
+	}
+
+	return ''
+}
+
 export function onCopy(ev) {
 	if (getLocalSetting('selectVerseNums') === 'default') {
 		return
 	}
 	const range = document.getSelection().getRangeAt(0)
-	const contents = range.cloneContents()
 	let toCopy = ''
+	let toCopyHTML = '<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"></head><body><meta charset="utf-8">'
+	let addedFirstPara = false
 	iterateOverRange(range, node => {
-		if (node.nodeName === '#text' && selectableTags.includes(node.parentNode.nodeName)) {
-			console.log('node', node)
+		const parentNode = node.parentNode
+		if (node.nodeName === '#text'
+				&& selectableTags.includes(parentNode.nodeName)) {
 			toCopy += node.textContent
+			if (!addedFirstPara) {
+				toCopyHTML += `<p style="${getStyles(parentNode.parentNode)}">`
+				addedFirstPara = true
+			}
+			toCopyHTML += `<span style="${getStyles(parentNode)}">${node.textContent}</span>`
 		}
 		else if (node.nodeName === 'P') {
 			toCopy += '\n'
+			toCopyHTML += `</p><p style="${getStyles(node)}">`
+		}
+		else if (node.nodeName === 'SUP') {
+			toCopy += ' '
+			toCopyHTML += ' '
 		}
 	})
-	contents.childNodes.forEach(node => {
-		node.childNodes.forEach(childNode => {
-			if (!selectableTags.includes(childNode.nodeName)) {
-				node.removeChild(childNode)
-			}
-		})
-	})
-	let toCopyHTML = '<html><head><meta http-equiv="content-type" content="text/html; charset=utf-8"></head><body><meta charset="utf-8">'
-	contents.childNodes.forEach(node => {
-		console.log('copy styles', node, getComputedStyle(node))
-		toCopyHTML += node.outerHTML
-	})
-	toCopyHTML += '</body></html>'
+	toCopyHTML += '</p></body></html>'
 	ev.clipboardData.setData('text/html', toCopyHTML)
 	ev.clipboardData.setData('text/plain', toCopy)
-	console.log(toCopyHTML)
-	console.log(toCopy)
 	ev.preventDefault()
 }
