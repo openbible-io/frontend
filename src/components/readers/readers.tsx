@@ -30,12 +30,16 @@ export class Readers extends Component<{}, ReadersState> {
 		const readers = getLocalReaders()
 		if (readers.length > 0) {
 			this.state = { readers }
+		} else {
+			this.state.readers.forEach(reader =>
+				reader.width = 1 / this.state.readers.length)
 		}
 	}
 
-	componentWillMount() {
-		this.state.readers.forEach(reader =>
-			reader.width = 1 / this.state.readers.length)
+	updateReaders() {
+		const readers = this.state.readers
+		setLocalReaders(readers)
+		this.setState({ readers })
 	}
 
 	onMouseMove = (ev: any, index: number) => {
@@ -47,8 +51,7 @@ export class Readers extends Component<{}, ReadersState> {
 			else if (i === index + 1)
 				reader.width = this.preMoveMouseWidths[i] - offsetXPercent
 		})
-		setLocalReaders(this.state.readers)
-		this.setState({ readers: this.state.readers })
+		this.updateReaders()
 	}
 
 	mouseMoveHandler(ev: any, index: any) {
@@ -63,22 +66,25 @@ export class Readers extends Component<{}, ReadersState> {
 	}
 
 	onAddReader = (index: number) => {
-		const newReader = Object.assign({}, this.state.readers[index])
-		this.state.readers.splice(index, 0, newReader)
-		this.setState({ readers: this.state.readers })
+		const readers = this.state.readers
+		const newReader = Object.assign({}, readers[index])
+		readers.splice(index, 0, newReader)
+		this.updateReaders()
 	}
 
 	onCloseReader = (index: number) => {
-		this.state.readers.splice(index, 1)
-		this.setState({ readers: this.state.readers })
+		const readers = this.state.readers
+		const lastWidth = readers[index].width
+		readers.splice(index, 1)
+		readers.forEach(reader => reader.width += lastWidth / readers.length)
+		this.updateReaders()
 	}
 
 	onReaderChange = (reader: ReaderState, text: string, book: BookNames, chapter: number) => {
 		reader.text = text
 		reader.book = book
 		reader.chapter = chapter
-		setLocalReaders(this.state.readers)
-		this.setState({ readers: this.state.readers })
+		this.updateReaders()
 	}
 
 	render() {

@@ -34,8 +34,7 @@ export function Verse(props: VerseProps) {
           onDblClick={onDoubleClickVerseNumber}
           class={classnames(
             styles.sup,
-            color,
-            verse.noted && styles.noted
+            color
           )}
         >
           {verse.n}
