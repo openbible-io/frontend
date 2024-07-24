@@ -2,10 +2,21 @@
 	display: flex;
 	flex-direction: column;
 }
+/* libre-baskerville-regular - latin */
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/libre-baskerville-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('./fonts/libre-baskerville-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('./fonts/libre-baskerville-v7-latin-regular.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
 .reader {
 	overflow-y: auto;
 	min-height: 0;
-  font-family: var(--secondary-font-family);
+	font-family: "Libre Baskerville" "Sentinel A", "Sentinel B", "Gentium Plus", "Ezra", Georgia, Times, serif;
+	padding: 1rem;
 }
 .toolbarContainer {
 	display: flex;

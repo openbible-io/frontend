@@ -71,6 +71,18 @@ module.exports = (_env, argv) => {
 					]
 				},
 				{
+					test: /fonts\/.*\.(woff(2)?|ttf|eot)(\?v=\d+\.\d+\.\d+)?$/,
+					use: [
+						{
+							loader: 'file-loader',
+							options: {
+								name: '[name].[ext]',
+								outputPath: 'fonts/'
+							}
+						}
+					]
+				},
+				{
 					test: /\.svg$/,
 					use: ['preact-svg-loader'],
 				},
@@ -88,10 +100,10 @@ module.exports = (_env, argv) => {
 			new CopyPlugin([{ from: 'static', to: 'static' }]),
 			...(isDev
 				? [
-					new ForkTsCheckerWebpackPlugin({
-						async: false,
-						checkSyntacticErrors: true,
-					}),
+					// new ForkTsCheckerWebpackPlugin({
+					// 	async: false,
+					// 	checkSyntacticErrors: true,
+					// }),
 				]
 				: [
 					new CleanWebpackPlugin(),

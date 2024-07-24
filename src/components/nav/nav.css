@@ -15,12 +15,15 @@
 	margin-left: 3px;
 	margin-right: 3px;
 }
+.navbar > li > a {
+	color: var(--primary-theme-color);
+}
 .navbarGrow {
 	display: flex;
 	flex-grow: 1;
 }
 .navbarBrand {
-	font-size: 1.5rem;
+	font-size: 2rem;
 	color: var(--primary-theme-color);
 	font-weight: 700;
 	margin-right: .5rem;

@@ -19,11 +19,11 @@ export function Nav() {
 							</NavLink>
 						</h1>
 					</li>
-					<li><NavLink href="/about">About</NavLink></li>
 				</ul>
 			</nav>
 			<div style={{ display: 'flex' }}>
 				<ul class={styles.navbar}>
+					<li><NavLink href="/about">About</NavLink></li>
 					<li><NavLink href="/settings">Settings</NavLink></li>
 					<li><a target="_blank" href={bugs.url}>Report an issue</a></li>
 				</ul>
