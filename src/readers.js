@@ -7,9 +7,9 @@ import { Reader } from './reader'
 export class Readers extends Component {
 	state = {
 		readers: [
-			{ book: 'OBA', width: 0, readerRef: createRef() },
-			{ book: 'MIC', width: 0, readerRef: createRef() },
-			{ book: 'JUD', width: 0, readerRef: createRef() },
+			{ book: 'OBA', chapter: 1, width: 0, readerRef: createRef() },
+			{ book: 'MIC', chapter: 1, width: 0, readerRef: createRef() },
+			{ book: 'JUD', chapter: 1, width: 0, readerRef: createRef() },
 		]
 	}
 	preMoveMouseWidths
@@ -49,7 +49,12 @@ export class Readers extends Component {
 			<Fragment>
 				{this.state.readers.map((reader, index) => (
 					<Fragment>
-						<Reader book={reader.book} width={reader.width} ref={reader.readerRef} />
+						<Reader
+							book={reader.book}
+							chapter={reader.chapter}
+							width={reader.width}
+							ref={reader.readerRef}
+						/>
 						{index !== this.state.readers.length - 1 &&
 							<a className="dragbar" onMouseDown={e => this.mouseMoveHandler(e, index)} />}
 					</Fragment>

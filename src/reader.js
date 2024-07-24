@@ -1,9 +1,9 @@
 import { h, Component } from 'preact'
-import { getChapter, getBooks } from './helpers'
+import { getChapter, books } from './helpers'
 
 export class Reader extends Component {
 	static defaultProps = {
-		book: 'GEN',
+		book: books.GEN,
 		chapter: 1,
 		text: 'en_ult'
 	}
@@ -29,8 +29,8 @@ export class Reader extends Component {
 			// Rely on flexbox for initial width
 			<article style={this.props.width ? { width: this.props.width } : { flex: 1 }}>
 				<select name="book" value={this.props.book} onChange={this.onBookChange}>
-					{Object.entries(getBooks()).map(([key, val]) =>
-						<option value={val} key={key}>{key}</option>
+					{Object.entries(books).map(([key, val]) =>
+						<option value={key} key={key}>{val}</option>
 					)}
 				</select>
 				{JSON.stringify(this.state.book)}

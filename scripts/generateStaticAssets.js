@@ -5,6 +5,7 @@ const { usfm2json } = require('usfm2json')
 glob.sync('./texts/**/*.usfm').forEach(file => {
 	const toPrefixPath = file
 		.replace(/\.[^\/.]+$/, '')
+		.replace(/\d+-/, '')
 		.replace('./texts', './static')
 
 	console.log(`Rendering ${file} -> ${toPrefixPath}*`)
