@@ -74,8 +74,12 @@ export function ReaderNav(props: ReaderNavProps) {
 				value={version()}
 				onChange={ev => onVersionChange(ev.target.value)}
 			>
-				<For each={Object.keys(props.indices)}>
-					{v => <option value={v}>{v}</option>}
+				<For each={Object.entries(props.indices)}>
+					{([k, v]) => (
+						<option value={k} title={v.title}>
+							{k.substring(3)}
+						</option>
+					)}
 				</For>
 			</select>
 			<button popoverTarget="version-info">

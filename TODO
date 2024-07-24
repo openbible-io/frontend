@@ -1,5 +1,4 @@
 study tools
-- [ ] audio
 - [ ] synced scrolling
 	- [ ] versification
 		- https://github.com/Clear-Bible/Biblelib/tree/main/biblelib/versification
@@ -32,8 +31,9 @@ reader
 - [x] infiniscroll
 	- [x] book titles
 	- [x] chapter titles
-- [ ] hide {} []
 - [ ] save scroll position
+- [ ] audio
+	- [ ] speed
 
 bugs
 - [x] double fetching frt when duplicate tabs
@@ -54,7 +54,7 @@ about
 - [x] version number
 - [x] prerender
 	- [x] too complex: https://github.com/bluwy/create-vite-extra/blob/master/template-ssr-solid
-- [ ] upstream link
+- [x] upstream link
 
 styles
 - [x] paragraph indents
@@ -101,8 +101,10 @@ SEO
 - [ ] more meta tags
 
 i18n
-- [ ] lang setting in header
+- [ ] https://primitives.solidjs.community/package/i18n
+- [ ] lang setting
 	- [ ] autodetect
+- [ ] sort current lang translations to top
 
 print
 - [ ] 1 vs 2 column
