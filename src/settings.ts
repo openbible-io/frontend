@@ -1,4 +1,4 @@
-import { createContext, createResource, ResourceReturn } from 'solid-js';
+import { createContext } from 'solid-js';
 import { useUserStyle } from './utils/index';
 
 // Kinda a mess, could be cleaned up with a tagged union
@@ -18,6 +18,18 @@ export const cssVars = {
 	'--reader-font-family': {},
 	'--reader-font-size': {},
 	'--global-font-size': {},
+	'--chapter-number-display': {
+		label: 'Show chapter numbers',
+		type: 'checkbox',
+		toString: (v: boolean) => v ? 'flex' : 'none',
+	} as Partial<CssVarControl>,
+	'--chapter-number-hr-display': {
+		label: 'Show chapter number horizontal rule',
+		type: 'checkbox',
+		toString: (v: boolean) => v ? 'block' : 'none',
+	} as Partial<CssVarControl>,
+	'--first-chapter-letter-weight': {},
+	'--first-chapter-letter-size': {},
 	'--h-display': {
 		label: 'Show section headers',
 		type: 'checkbox',
@@ -38,8 +50,6 @@ export const cssVars = {
 		type: 'checkbox',
 		toString: (v: boolean) => v ? 'auto' : 'none',
 	} as Partial<CssVarControl>,
-	'--first-chapter-letter-weight': {},
-	'--first-chapter-letter-size': {},
 };
 export type CssVar = keyof typeof cssVars;
 

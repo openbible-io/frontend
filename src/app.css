@@ -6,7 +6,9 @@ html {
 	--reader-font-size: 24px;
 	--global-font-size: 20px;
 	--reader-padding: 0.8rem;
-	--verse-num-user-select: none;
+	--chapter-number-display: flex; /* none */
+	--chapter-number-hr-display: block; /* none */
+	--verse-num-user-select: none; /* auto */
 	--verse-num-display: none; /* inline */
 	--sr-display: none; /* block */
 	--h-display: none; /* block */

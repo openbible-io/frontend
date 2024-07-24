@@ -1,7 +1,7 @@
 import { createSignal, Show, onCleanup, createEffect } from 'solid-js';
 import { SolidPlusIcon, SolidXIcon } from '../../icons/index';
 import { ReaderNav } from './nav';
-import { BibleIndices, BibleChapter, BookId } from '../../utils';
+import { BibleIndices, BibleChapter, BookId, bookNames } from '../../utils';
 import styles from './reader.module.css';
 
 const maxLoaded = 50;
@@ -49,6 +49,17 @@ export function Reader(props: ReaderProps) {
 				.then(html => {
 					ele.innerHTML = html;
 					ele.removeAttribute('data-loading');
+					const chapter_title = document.createElement('h2');
+					chapter_title.textContent = `Chapter ${chapter.chapter}`;
+					chapter_title.className = styles.chapterNumber;
+					ele.insertBefore(chapter_title, ele.firstChild);
+					if (chapter.isFirst(props.indices)) {
+						const book_title = document.createElement('h1');
+						book_title.textContent = bookNames[chapter.book];
+						book_title.className = styles.bookTitle;
+						ele.insertBefore(book_title, ele.firstChild);
+					}
+
 					if (container.children.length > maxLoaded) {
 						if (forward) {
 							container.firstChild?.remove();

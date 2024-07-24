@@ -134,6 +134,11 @@ export class BibleChapter {
 		return a.version == b.version && a.book == b.book && a.chapter == b.chapter;
 	}
 
+	isFirst(indices: BibleIndices): boolean {
+		const firstChapter = indices[this.version].chapters(this.book)[0];
+		return this.chapter == firstChapter;
+	}
+
 	next(indices: BibleIndices, n: number): BibleChapter | undefined {
 		const index = indices[this.version];
 		if (!index) return;

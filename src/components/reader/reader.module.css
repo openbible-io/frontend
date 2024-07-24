@@ -38,12 +38,40 @@
 	font-weight: var(--first-chapter-letter-weight);
 	line-height: 1;
 }
-.reader > :is(h1, h2, h3, h4, h5, h6),
+.reader > :is(h1, h2, h3, h4, h5, h6):not(.chapterNumber):not(.bookTitle),
 .reader > :global(.sr) {
 	text-align: center;
 	margin-bottom: 1rem;
 	display: var(--h-display);
 }
+.chapterNumber {
+	text-align: center;
+	font-weight: 100;
+	font-size: 0.7em;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 0.5rem;
+	display: var(--chapter-number-display);
+}
+/*https://stackoverflow.com/questions/2812770/add-centered-text-to-the-middle-of-a-horizontal-rule*/
+.chapterNumber::before,
+.chapterNumber::after {
+	content: '';
+	flex: 1;
+	border-bottom: 1px solid;
+	display: var(--chapter-number-hr-display);
+}
+.chapterNumber:not(:empty)::before {
+	margin-right: .25em;
+}
+.chapterNumber:not(:empty)::after {
+	margin-left: .25em;
+}
+.bookTitle {
+	text-align: center;
+	margin-bottom: .4rem;
+}
+
 .reader :global(.sr) {
 	font-size: 1em;
 	display: inherit;
