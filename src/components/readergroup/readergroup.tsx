@@ -47,10 +47,8 @@ export function ReaderGroup() {
 	}
 
 	const onAddReader = (index: number) => {
-		if (index < readers.length - 1) {
-			index++
-		}
-		const nextReader = readers[index]
+		index++
+		const nextReader = readers[Math.min(index, readers.length - 1)]
 		const newReader = { text: 'en_ult', book: 'MAT' as BookNames, chapter: 1, width: nextReader.width / 2 }
 		nextReader.width /= 2
 		readers.splice(index, 0, newReader)

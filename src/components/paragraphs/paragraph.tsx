@@ -4,8 +4,11 @@ import { Paragraphs } from './paragraphs'
 import { Verse } from './verse'
 import styles from './paragraph.css'
 
-function getClass(paragraph: ParagraphType) {
-  if (paragraph.t === 'q' && paragraph.v[0].t === 'v') {
+export function getParagraphClass(paragraph?: ParagraphType) {
+  if (!paragraph) {
+    return ''
+  }
+  else if (paragraph.t === 'q' && paragraph.v[0].t === 'v') {
     return styles.qcol
   }
 
@@ -18,13 +21,15 @@ interface ParagraphProps {
 
 export function Paragraph(props: ParagraphProps) {
   const paragraph = props.paragraph
-  return (
-    <Fragment>
-      {Array.isArray(paragraph.v)
-        ? <p data-id={paragraph.id} class={getClass(paragraph as ParagraphType)}>
-            <Paragraphs paragraphs={paragraph.v} />
-          </p>
-        : <Verse verse={paragraph} />}
-    </Fragment>
-  )
+
+  if (Array.isArray(paragraph.v)) {
+    const className = getParagraphClass(paragraph as ParagraphType)
+    return (
+      <p data-id={paragraph.id} class={className}>
+        <Paragraphs paragraphs={paragraph.v} />
+      </p>
+    )
+  }
+
+  return <Verse verse={paragraph} />
 }

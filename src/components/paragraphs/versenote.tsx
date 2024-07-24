@@ -2,16 +2,16 @@ import { h, Fragment } from 'preact'
 import { useState, useEffect, useRef } from 'preact/hooks'
 import styles from './versenote.css'
 import { NoteContext } from './versenotecontext'
-import { NoteType, VerseType } from '../../utils'
+import { NoteType, VerseType, classnames } from '../../utils'
 import EditIcon from '../../icons/fa-edit.svg'
+import paragraphStyles from '../paragraphs/paragraph.css'
+import { getParagraphClass } from './paragraph'
 
 interface VerseNoteProps {
   verse: VerseType;
 }
 
-let globalId = 0
 export function VerseNote(props: VerseNoteProps) {
-  const id = globalId++
   const textAreaRef = useRef<HTMLTextAreaElement>()
   const note = props.verse.note as NoteType
   const [isFormOpen, setFormOpen] = useState(note.isFormOpen)
@@ -52,6 +52,11 @@ export function VerseNote(props: VerseNoteProps) {
     }
   }
 
+  const marginClass = getParagraphClass(props.verse.parent) === paragraphStyles.q
+    ? styles.inMargin
+    : ''
+
+  console.log(getParagraphClass(props.verse.parent) === paragraphStyles.q)
   return (
     <Fragment>
       <sup
@@ -64,14 +69,12 @@ export function VerseNote(props: VerseNoteProps) {
         <NoteContext.Consumer>
           {({ onNoteSubmit, onNoteRemove }) => (
             <form
-              id={`versenote-${id}`}
               onSubmit={(ev: any) => onSubmit(ev, onNoteSubmit)}
               onReset={(_ev: any) => onNoteRemove(note)}
-              class={styles.form}
+              class={marginClass}
             >
               <div class={styles.textareaContainer}>
                 <textarea
-                  form={`versenote-${id}`}
                   name="note"
                   class={styles.textarea}
                   onInput={onInput}
@@ -87,11 +90,11 @@ export function VerseNote(props: VerseNoteProps) {
         </NoteContext.Consumer>
       )}
       {isNoteOpen && (
-        <div>
+        <div class={classnames(styles.note, marginClass)}>
           {note.note}
-          <sup class={styles.sup} onClick={onOpenForm}>
-            {' '}<EditIcon width="12px" />
-          </sup>
+          <button class={styles.sup} onClick={onOpenForm}>
+            <EditIcon width="12px" />
+          </button>
         </div>
       )}
     </Fragment>

@@ -14,7 +14,7 @@ export function Toolbar() {
 	return (
 		<div class={styles.toolbar} role="toolbar">
 			<button onClick={() => emit('ADD_NOTE')}>
-				<AddCommentIcon height="12px" style="fill: #5f6368;" />
+				<AddCommentIcon height="16px" style="fill: #5f6368;" />
 			</button>
 			{/* <Dropdown
 				isRight

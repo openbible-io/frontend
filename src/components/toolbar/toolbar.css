@@ -2,4 +2,5 @@
 	padding-left: var(--reader-padding);
 	display: flex;
 	flex-wrap: wrap;
+	line-height: 1;
 }

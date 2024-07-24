@@ -38,7 +38,8 @@ export function Reader(props = {
 				const notes = getLocalNotes(props.book, props.chapter)
 				let highlight: Highlight | undefined
 				let note: NoteType | undefined
-				visitParagraphs(paragraphs, verse => {
+				visitParagraphs(paragraphs, (verse, parent) => {
+					verse.parent = parent
 					if (!highlight) {
 						highlight = highlights[verse.id]
 					}

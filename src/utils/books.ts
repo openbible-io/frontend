@@ -24,6 +24,7 @@ export interface VerseType {
   v?: string | VerseType[];
   id: number;
   // Added by frontend
+  parent?: ParagraphType;
   highlight?: string;
   noted?: string | null;
   note?: NoteType;

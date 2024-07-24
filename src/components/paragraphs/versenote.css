@@ -8,6 +8,9 @@
 .textareaContainer {
   margin: .2rem .2rem 0 .2rem;
 }
-.form {
+.note {
   text-indent: 0;
+}
+.inMargin {
+  margin-left: -6rem;
 }
