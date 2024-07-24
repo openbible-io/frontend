@@ -1,8 +1,3 @@
-.sup {
-  padding-left: 0.0625rem;
-  padding-right: 0.25rem;
-  font-size: 0.75rem;
-}
 .p {
   text-indent: var(--primary-text-indent);
 }
@@ -23,6 +18,3 @@
   display: inline-block;
   margin-left: 1.75rem;
 } */
-.d {
-  font-style: italic;
-}

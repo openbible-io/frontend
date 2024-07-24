@@ -1,4 +1,4 @@
-import { getLocalSetting } from '../../../utils/settings'
+import { getLocalSetting } from '../../utils/settings'
 
 // Handles selecting anywhere in <article> of <Reader>
 export const selectedNodes: Node[] = []
@@ -59,16 +59,26 @@ function getStyles(node: Node) {
 		.join(' ')
 }
 
-export function onSelectChange() {
-	const selection = window.getSelection() as Selection
-	if (selection.rangeCount === 0) {
-		return
+export function getRange() {
+	const selection = window.getSelection()
+	if (!selection || selection.rangeCount === 0) {
+		return undefined
 	}
 	const range = selection.getRangeAt(0) as Range
 	if (range.startContainer === range.endContainer &&
 			range.startOffset === range.endOffset) {
+		return undefined
+	}
+
+	return range
+}
+
+export function onSelectChange() {
+	const range = getRange()
+	if (!range) {
 		return
 	}
+
 	snapToWords(range)
 	// Unselect all previously selected nodes
 	selectedNodes.length = 0
@@ -87,10 +97,10 @@ export function onDoubleClickVerseNumber(ev: any) {
 }
 
 export function onCopy(ev: any) {
-	if (getLocalSetting('selectVerseNums') === 'default') {
+	const range = getRange()
+	if (!range || getLocalSetting('selectVerseNums') === 'default') {
 		return
 	}
-	const range = (document.getSelection() as Selection).getRangeAt(0)
 	let toCopy = ''
 	let toCopyHTML = `<html>
 <head>

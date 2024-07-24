@@ -7,19 +7,31 @@ export function getChapterPath(
 }
 
 // TODO: types
-const cache = {} as { [key: string]: Paragraph[] }
+const cache = {} as { [key: string]: ParagraphType[] }
 
-export interface VerseObject {
+export interface NoteType {
+  note: string;
+  // Need these to pass back up on note submit
+  toId: number;
+  fromId: number;
+  isFormOpen: boolean;
+}
+
+export interface VerseType {
   t: string;
   c?: string;
   n?: number;
-  v?: string | VerseObject[];
+  v?: string | VerseType[];
   id: number;
+  // Added by frontend
+  highlight?: string;
+  noted?: string | null;
+  note?: NoteType;
 }
 
-export interface Paragraph {
+export interface ParagraphType {
   t: string;
-  v: VerseObject[]
+  v: VerseType[]
   id: number;
 }
 
@@ -27,7 +39,7 @@ export function getChapter(
   version: string,
   book: string,
   chapter: number
-): Promise<Paragraph[]> {
+): Promise<ParagraphType[]> {
   const path = getChapterPath(version, book, chapter)
   if (!cache[path]) {
     return new Promise((resolve, reject) => {

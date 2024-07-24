@@ -2,13 +2,15 @@ import { h, Component, createRef } from 'preact'
 import { Button } from '../button/button'
 import { Dropdown } from '../dropdown/dropdown'
 import { getChapter, books, texts, BookNames } from '../../utils'
-import { getLocalHighlights, setLocalHighlight } from '../../utils/highlights'
-import { onSelectChange, onCopy, selectedNodes } from './util/select'
-import { renderParagraphs } from './util/renderer'
-import HighlighterIcon from './icons/fa-highlighter.svg'
+import { ParagraphType, VerseType, NoteType } from '../../utils/books'
+import { getLocalHighlights, setLocalHighlight, Highlight } from '../../utils/highlights'
+import { onSelectChange, onCopy, selectedNodes, getRange } from '../paragraphs/select'
+import { NoteContext } from '../paragraphs/notecontext'
+import { Paragraphs } from '../paragraphs/paragraphs'
+import { setLocalNote, getLocalNotes, SavedNote } from '../../utils/notes'
+import HighlighterIcon from '../../icons/fa-highlighter.svg'
+import AddCommentIcon from '../../icons/md-add-comment.svg'
 import styles from './reader.css'
-import highlightStyles from './highlights.css'
-import { Paragraph } from '../../utils/books'
 
 const highlighterColors = ['red', 'blue', 'gray', 'yellow']
 
@@ -23,7 +25,7 @@ export interface ReaderProps {
 }
 
 interface ReaderState {
-	paragraphs?: Paragraph[];
+	paragraphs?: ParagraphType[];
 	selectedColor: string;
 }
 
@@ -41,38 +43,72 @@ export class Reader extends Component<ReaderProps, ReaderState> {
 
 	divRef = createRef()
 
+	visit(
+		verse: ParagraphType | VerseType,
+		visitor: (verse: VerseType) => void
+	) {
+		visitor(verse)
+		if (Array.isArray(verse.v)) {
+			(verse as ParagraphType).v.forEach(v => this.visit(v, visitor))
+		}
+	}
+
+	visitParagraphs(
+		paragraphs: ParagraphType[] | undefined,
+		visitor: (verse: VerseType) => void
+	) {
+		if (!paragraphs) {
+			return
+		}
+		paragraphs.forEach(p => this.visit(p, visitor))
+	}
+
 	constructor(props: ReaderProps) {
 		super(props)
 		this.fetchChapter(props.text, props.book, props.chapter)
-	}
-
-	componentDidUpdate() {
-		const highlights = getLocalHighlights(this.props.book, this.props.chapter)
-		if (Object.keys(highlights).length === 0) {
-			return
-		}
-		const it = document.createNodeIterator(this.divRef.current)
-		let node, highlight
-		while (node = it.nextNode()) {
-			if (node.nodeName === '#text') {
-				const parentNode = node.parentNode as Element
-				const id = parentNode.getAttribute('data-id') as string
-				if (highlights[id]) {
-					highlight = highlights[id]
-				}
-				if (highlight) {
-					this.highlightNode(parentNode, highlight.color)
-					if (id === highlight.toId) {
-						highlight = undefined
+			.then(paragraphs => {
+				const highlights = getLocalHighlights(this.props.book, this.props.chapter)
+				const notes = getLocalNotes(this.props.book, this.props.chapter)
+				let highlight: Highlight | undefined
+				let note: NoteType | undefined
+				this.visitParagraphs(paragraphs, verse => {
+					if (!highlight) {
+						highlight = highlights[verse.id]
 					}
-				}
-			}
-		}
+					else {
+						verse.highlight = highlight.color
+						if (verse.id >= +highlight.toId) {
+							highlight = undefined
+						}
+					}
+
+					const savedNote = notes[verse.id]
+					if (!note && savedNote) {
+						note = {
+							fromId: verse.id,
+							toId: +savedNote.toId,
+							note: savedNote.note,
+							isFormOpen: false,
+						}
+					}
+					if (note) {
+						verse.noted = verse.id + ''
+						if (verse.id >= note.toId) {
+							verse.note = note
+							note = undefined
+						}
+					}
+				})
+				this.setState({ paragraphs })
+			})
 	}
 
 	fetchChapter(text: string, book: string, chapter: number) {
-		getChapter(text, book, chapter)
-			.then(data => this.setState({ paragraphs: data }))
+		return getChapter(text, book, chapter)
+			.then(paragraphs => {
+				this.setState({ paragraphs })
+				return paragraphs
+			})
 	}
 
 	onBookChange = (ev: any) => {
@@ -91,32 +127,93 @@ export class Reader extends Component<ReaderProps, ReaderState> {
 		this.fetchChapter(ev.target.value, this.props.book, this.props.chapter)
 	}
 
-	// Add highlight class
-	highlightNode(node: Node, color: keyof typeof highlightStyles) {
-		(node as Element).classList.add(highlightStyles[color])
-	}
-
-	onHighlight = () => {
+	getSelectedNodes = () => {
+		if (!getRange()) {
+			return
+		}
 		const containedNodes = selectedNodes
 			.filter(node => this.divRef.current.contains(node))
 
-		containedNodes.map(node => this.highlightNode(node, this.state.selectedColor))
-		// Save locally
 		const ids = containedNodes
 			.map(node => (node as Element).getAttribute('data-id'))
 			.filter(Boolean)
-		const fromId = ids[0] as string
-		const toId = ids[ids.length - 1] as string
-		setLocalHighlight(
+		return {
+			containedNodes,
+			fromId: ids[0],
+			toId: ids[ids.length - 1]
+		}
+	}
+
+	onHighlight = () => {
+		const selected = this.getSelectedNodes()
+		if (!selected) {
+			return
+		}
+
+		const paragraphs = this.state.paragraphs
+		if (selected.fromId && selected.toId) {
+			const fromId = +selected.fromId
+			const toId = +selected.toId
+			this.visitParagraphs(paragraphs, verse => {
+				if (verse.id >= fromId && verse.id <= toId) {
+					verse.highlight = this.state.selectedColor
+				}
+			})
+			this.setState({ paragraphs })
+
+			// Save locally
+			setLocalHighlight(
+				this.props.book,
+				this.props.chapter,
+				selected.fromId,
+				selected.toId,
+				this.state.selectedColor
+			)
+			const selection = document.getSelection()
+			if (selection) {
+				selection.removeAllRanges()
+			}
+		}
+	}
+
+	onNoteAdd = () => {
+		const selected = this.getSelectedNodes()
+		if (!selected) {
+			return
+		}
+
+		const paragraphs = this.state.paragraphs
+		if (selected.fromId && selected.toId) {
+			const fromId = +selected.fromId
+			const toId = +selected.toId
+			this.visitParagraphs(paragraphs, v => {
+				if (v.id >= fromId && v.id <= toId) {
+					v.noted = selected.fromId
+				}
+				if (v.id === toId) {
+					v.note = { fromId, toId, note: '', isFormOpen: true }
+				}
+			})
+			this.setState({ paragraphs })
+
+			const selection = document.getSelection()
+			if (selection) {
+				selection.removeAllRanges()
+			}
+		}
+	}
+
+	onNoteSubmit = (note: NoteType) => {
+		setLocalNote(
 			this.props.book,
 			this.props.chapter,
-			fromId,
-			toId,
-			this.state.selectedColor
-		);
-		(document.getSelection() as Selection).removeAllRanges()
+			note.fromId + '',
+			note.toId + '',
+			note.note
+		)
+		this.setState({ paragraphs: this.state.paragraphs })
 	}
- 
+
 	render() {
 		let selectedColor = this.state.selectedColor
 		const style = this.props.style || {}
@@ -130,8 +227,8 @@ export class Reader extends Component<ReaderProps, ReaderState> {
 							)}
 						</select>
 						<select name="chapter" value={this.props.chapter} onChange={this.onChapterChange}>
-							{new Array(books[this.props.book].chapters)
-								.map((_el: number, i: number) =>
+							{Array.apply(null, Array(books[this.props.book].chapters))
+								.map((_el: unknown, i: number) =>
 									<option value={i + 1} key={i}>{i + 1}</option>
 							)}
 						</select>
@@ -142,10 +239,13 @@ export class Reader extends Component<ReaderProps, ReaderState> {
 						</select>
 					</nav>
 					<div class={styles.toolbar}>
+						<Button variant="secondary" onClick={this.onNoteAdd}>
+							<AddCommentIcon height="12px" style="fill: #5f6368;" />
+						</Button>
 						<Dropdown
 							isRight
 							icon="▼"
-							selected={<HighlighterIcon height="12px" style={'fill: #5f6368;'} />}
+							selected={<HighlighterIcon height="12px" style="fill: #5f6368;" />}
 							onSelect={(index: number) => {
 								selectedColor = highlighterColors[index]
 								this.setState({ selectedColor })
@@ -184,7 +284,11 @@ export class Reader extends Component<ReaderProps, ReaderState> {
 					onCopy={onCopy}
 					tabIndex={0}
 				>
-					{renderParagraphs(this.state.paragraphs)}
+					<NoteContext.Provider value={{
+						onNoteSubmit: this.onNoteSubmit
+					}}>
+						<Paragraphs	paragraphs={this.state.paragraphs} />
+					</NoteContext.Provider>
 				</div>
 			</article>
 		)

@@ -47,7 +47,8 @@ textarea {
   margin: 0;
 }
 
-html {
+html,
+textarea {
   box-sizing: border-box;
 }
 
