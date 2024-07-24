@@ -44,6 +44,7 @@
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^5.1.1",
     "css-loader": "^3.3.2",
+    "css-variables-loader": "^2.0.2",
     "file-loader": "^5.0.2",
     "fork-ts-checker-webpack-plugin": "^4.0.0-beta.4",
     "glob": "^7.1.6",

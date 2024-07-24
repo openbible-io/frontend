@@ -5,10 +5,3 @@ export const cssVars = [
   '--primary-theme-color',
   '--primary-font-family',
 ]
-
-export function loadLocalCSSVars() {
-  const rootElement = document.body
-  cssVars.forEach(cssVar => {
-    rootElement.style.setProperty(cssVar, localStorage.getItem(`css-${cssVar}`))
-  })
-}

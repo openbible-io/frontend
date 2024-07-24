@@ -2,40 +2,34 @@ import { h, Fragment } from 'preact'
 import { useEffect, useState } from 'preact/hooks'
 import { Nav, Reader } from '../components'
 import { useLocalStorage, cssVars } from '../utils'
+import cssVariables from '!css-variables-loader!../app.css'
 import styles from './settings.css'
 import readerStyles from '../components/reader/reader.css'
 
 export interface SettingsType {
-  selectVerseNums: string
+  selectVerseNums: string;
+  cssVars: {
+    [cssVar: string]: string;
+  }
 }
 
 export const defaultSettings = {
-  selectVerseNums: 'noSelect'
+  selectVerseNums: 'noSelect',
+  cssVars: cssVariables
 } as SettingsType
 
 export function Settings(_props: { path: String }) {
-  const [cssValues, setCSSValues] = useState({} as { [key: string]: string });
-  const [config, setConfig] = useLocalStorage('settings', defaultSettings);
+  const [config, setConfig] = useLocalStorage('settings2', defaultSettings)
 
-  useEffect(() => {
-    const docStyles = getComputedStyle(document.body)
-    const docCSSVars = cssVars
-      .reduce((acc, cur) => {
-        acc[cur] = docStyles.getPropertyValue(cur).trim()
-        return acc
-      }, {} as { [key: string]: string })
-      setCSSValues(docCSSVars)
-  }, []);
-
-  const onSetCSSVar = (cssVar: string, cssValue: string) => {
+  const setCSSVar = (cssVar: string, cssValue: string) => {
     document.body.style.setProperty(cssVar, cssValue)
-    cssValues[cssVar] = cssValue
-    setCSSValues({ ...cssValues })
+    config.cssVars[cssVar] = cssValue
+    setConfig(Object.assign({}, config))
   }
 
   const onSettingInput = (key: string, val: string) => {
-    config[key as keyof typeof defaultSettings] = val
-    setConfig({ ...config })
+    config[key as 'selectVerseNums'] = val
+    setConfig(Object.assign({}, config))
   }
 
   const onReset = (ev: h.JSX.TargetedEvent<HTMLFormElement, Event>) => {
@@ -44,9 +38,9 @@ export function Settings(_props: { path: String }) {
       const cssVal = getComputedStyle(document.documentElement)
         .getPropertyValue(cssVar)
         .trim()
-      onSetCSSVar(cssVar, cssVal)
+      setCSSVar(cssVar, cssVal)
     })
-    setConfig({ ...defaultSettings })
+    setConfig({ ...config, ...defaultSettings })
   }
 
   const onSubmit = (ev: h.JSX.TargetedEvent<HTMLFormElement, Event>) => {
@@ -61,14 +55,14 @@ export function Settings(_props: { path: String }) {
       <main>
         <form class={styles.form} onSubmit={onSubmit} onReset={onReset}>
           <h2>CSS Variables</h2>
-          {Object.entries(cssValues)
+          {Object.entries(config.cssVars)
             .map(entry => (
               <p key={entry[0]}>
                 <label>{entry[0]}</label>
                 <input
                   type={entry[0].includes('color') ? 'color' : ''}
                   value={entry[1]}
-                  onInput={(ev: any) => onSetCSSVar(entry[0], ev.target.value)}
+                  onInput={(ev: any) => setCSSVar(entry[0], ev.target.value)}
                   />
               </p>
           ))}
