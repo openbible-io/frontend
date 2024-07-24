@@ -2,14 +2,21 @@ import { h } from 'preact'
 import { useState, useRef, useEffect } from 'preact/hooks'
 import { getChapter, books, texts, BookNames, useLocalStorage, subscribe, visitParagraphs } from '../../utils'
 import { ParagraphType, NoteType } from '../../utils/books'
-import { getLocalHighlights, setLocalHighlight, Highlight } from '../../utils/highlights'
+import { Highlight, Highlights } from '../../types/highlights'
 import { onSelectChange, onCopy, selectedNodes, getRange } from '../paragraphs/select'
 import { NoteContext } from '../paragraphs/versenotecontext'
 import { Paragraphs } from '../paragraphs/paragraphs'
-import { setLocalNote, getLocalNotes } from '../../utils/notes'
+import { Notes } from '../../types/notes'
 import styles from './reader.css'
 import { defaultSettings } from '../../pages'
 // import { onAddNote } from '../../actions/onAddNote'
+
+const clearSelection = () => {
+	const selection = document.getSelection()
+	if (selection) {
+		selection.removeAllRanges()
+	}
+}
 
 export interface ReaderProps {
 	text: string;
@@ -28,14 +35,14 @@ export function Reader(props = {
 	text: Object.keys(texts)[0]
 } as ReaderProps) {
 	const [paragraphs, setParagraphs] = useState([] as ParagraphType[])
+	const [highlights, setHighlights] = useLocalStorage(`highlight1-${props.book}-${props.chapter}`, {} as Highlights);
+	const [notes, setNotes] = useLocalStorage(`note1-${props.book}-${props.chapter}`, {} as Notes);
   const [config,] = useLocalStorage('settings', defaultSettings);
 	const divRef = useRef<HTMLDivElement>()
 
 	useEffect(() => {
 		getChapter(props.text, props.book, props.chapter)
 			.then(paragraphs => {
-				const highlights = getLocalHighlights(props.book, props.chapter)
-				const notes = getLocalNotes(props.book, props.chapter)
 				let highlight: Highlight | undefined
 				let note: NoteType | undefined
 				visitParagraphs(paragraphs, (verse, parent) => {
@@ -45,7 +52,7 @@ export function Reader(props = {
 					}
 					if (highlight) {
 						verse.highlight = highlight.color
-						if (verse.id >= +highlight.toId) {
+						if (verse.id >= highlight.toId) {
 							highlight = undefined
 						}
 					}
@@ -54,13 +61,13 @@ export function Reader(props = {
 					if (!note && savedNote) {
 						note = {
 							fromId: verse.id,
-							toId: +savedNote.toId,
+							toId: savedNote.toId,
 							note: savedNote.note,
 							isFormOpen: false,
 						}
 					}
 					if (note) {
-						verse.noted = verse.id + ''
+						verse.noted = verse.id
 						if (verse.id >= note.toId) {
 							verse.note = note
 							note = undefined
@@ -69,6 +76,7 @@ export function Reader(props = {
 				})
 				setParagraphs(paragraphs)
 				subscribe('ADD_NOTE', () => onAddNote(paragraphs))
+				subscribe('ADD_HIGHLIGHT', (color: string) => onAddHighlight(paragraphs, color))
 			})
 	}, [])
 
@@ -109,17 +117,19 @@ export function Reader(props = {
 			.filter(node => divRef.current && divRef.current.contains(node))
 			.map(node => (node as Element).getAttribute('data-id'))
 			.filter(Boolean)
-		return {
-			fromId: ids[0],
-			toId: ids[ids.length - 1]
+		if (ids.length > 0) {
+			return {
+				fromId: +(ids as string[])[0],
+				toId: +(ids as string[])[ids.length - 1]
+			}
 		}
 	}
 
 	const onAddNote = (paragraphs: ParagraphType[]) => {
 		const selected = getSelectedNodes()
 		if (selected && selected.fromId && selected.toId) {
-			const fromId = +selected.fromId
-			const toId = +selected.toId
+			const fromId = selected.fromId
+			const toId = selected.toId
 			visitParagraphs(paragraphs, v => {
 				if (v.id >= fromId && v.id <= toId) {
 					v.noted = selected.fromId
@@ -129,55 +139,42 @@ export function Reader(props = {
 				}
 			})
 
+			clearSelection()
 			setParagraphs(Object.assign([], paragraphs))
 		}
 	}
 
-	// const onHighlight = (color: string) => {
-	// 	const selected = getSelectedNodes()
-	// 	if (!selected) {
-	// 		return
-	// 	}
+	const onAddHighlight = (paragraphs: ParagraphType[], color: string) => {
+		const selected = getSelectedNodes()
+		if (!selected) {
+			return
+		}
 
-	// 	if (selected.fromId && selected.toId) {
-	// 		const fromId = +selected.fromId
-	// 		const toId = +selected.toId
-	// 		visitParagraphs(paragraphs, verse => {
-	// 			if (verse.id >= fromId && verse.id <= toId) {
-	// 				verse.highlight = color
-	// 			}
-	// 		})
-	// 		setParagraphs(Object.assign([], paragraphs))
+		if (selected.fromId && selected.toId) {
+			const fromId = selected.fromId
+			const toId = selected.toId
+			visitParagraphs(paragraphs, verse => {
+				if (verse.id >= fromId && verse.id <= toId) {
+					verse.highlight = color
+				}
+			})
 
-	// 		// Save locally
-	// 		setLocalHighlight(
-	// 			props.book,
-	// 			props.chapter,
-	// 			selected.fromId,
-	// 			selected.toId,
-	// 			color
-	// 		)
-	// 		const selection = document.getSelection()
-	// 		if (selection) {
-	// 			selection.removeAllRanges()
-	// 		}
-	// 	}
-	// }
+			clearSelection()
+			highlights[fromId] = { toId: toId, color }
+			setHighlights(Object.assign({}, highlights))
+			setParagraphs(Object.assign([], paragraphs))
+		}
+	}
 
 	const onNoteSubmit = (note: NoteType) => {
-		setLocalNote(
-			props.book,
-			props.chapter,
-			note.fromId + '',
-			note.toId + '',
-			note.note
-		)
+		notes[note.fromId] = { toId: note.toId, note: note.note }
+		setNotes(Object.assign({}, notes))
 		setParagraphs(Object.assign([], paragraphs))
 	}
 
 	const onNoteRemove = (note: NoteType) => {
-		const fromId = +note.fromId
-		const toId = +note.toId
+		const fromId = note.fromId
+		const toId = note.toId
 		visitParagraphs(paragraphs, v => {
 			if (v.id >= fromId && v.id <= toId) {
 				delete v.noted

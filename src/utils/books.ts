@@ -26,7 +26,7 @@ export interface VerseType {
   // Added by frontend
   parent?: ParagraphType;
   highlight?: string;
-  noted?: string | null;
+  noted?: number | null;
   note?: NoteType;
 }
 

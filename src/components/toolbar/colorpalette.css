@@ -1,0 +1,8 @@
+.table {
+	position: absolute;
+}
+.swatch {
+	cursor: pointer;
+	height: 20px;
+	width: 20px;
+}

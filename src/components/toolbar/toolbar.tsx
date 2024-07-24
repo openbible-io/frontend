@@ -3,74 +3,74 @@ import { useState } from 'preact/hooks'
 import styles from './toolbar.css'
 import { AddCommentIcon, UndoIcon, RedoIcon, FormatBoldIcon, FormatItalicIcon, FormatUnderlinedIcon, TextColorIcon, HighlightColorIcon } from '../../icons'
 import { emit } from '../../utils/eventEmitter'
-
-const colors = ['red', 'blue', 'gray', 'yellow']
-
-const actions = [
-	{
-		icon: UndoIcon,
-		tooltip: 'Undo',
-		onClick: () => {}
-	},
-	{
-		icon: RedoIcon,
-		tooltip: 'Redo',
-		onClick: () => {}
-	},
-	{
-		icon: FormatBoldIcon,
-		tooltip: 'Bold',
-		onClick: () => {}
-	},
-	{
-		icon: FormatItalicIcon,
-		tooltip: 'Italic',
-		onClick: () => {}
-	},
-	{
-		icon: FormatUnderlinedIcon,
-		tooltip: 'Underlined',
-		onClick: () => {}
-	},
-	{
-		icon: TextColorIcon,
-		tooltip: 'Text color',
-		color: colors[0],
-		onClick: () => {}
-	},
-	{
-		icon: HighlightColorIcon,
-		tooltip: 'Highlight color',
-		color: colors[0],
-		onClick: () => {}
-	},
-	{
-		icon: AddCommentIcon,
-		tooltip: 'Add comment',
-		onClick: () => emit('ADD_NOTE')
-	}
-]
+import { ColorPalette } from './colorpalette'
 
 export function Toolbar() {
-	const [selectedColor, setSelectedColor] = useState(colors[0])
+	const [textColor, setTextColor] = useState('rgb(255,0,0)')
+	const [highlightColor, setHighlightColor] = useState('rgb(255,0,0)')
+	const [isTextColorPaletteOpen, setTextColorPaletteOpen] = useState(false)
+	const [isHighlightPaletteOpen, setHighlightPaletteOpen] = useState(false)
 
+	const onToggleTextPaletteOpen = () => {
+		setTextColorPaletteOpen(open => !open)
+		setHighlightPaletteOpen(false)
+	}
+
+	const onToggleHighlightPaletteOpen = () => {
+		setHighlightPaletteOpen(open => !open)
+		setTextColorPaletteOpen(false)
+	}
 
 	return (
 		<div class={styles.toolbar} role="toolbar">
-			{actions.map(action => 
-				<button class={styles.button} onClick={action.onClick}>
-					<action.icon
-						style={{ fill: '#5f6368;',  borderBottom: `4px solid ${action.color}` }}
-					/>
-					<span class={styles.tooltip}>
-						{action.tooltip}
-					</span>
-				</button>
-			)}
+			<button class={styles.button}>
+				<UndoIcon style={{ fill: '#5f6368' }} />
+				<span class={styles.tooltip}>Undo</span>
+			</button>
+			<button class={styles.button}>
+				<RedoIcon style={{ fill: '#5f6368' }} />
+				<span class={styles.tooltip}>Redo</span>
+			</button>
+			<button class={styles.button}>
+				<FormatBoldIcon style={{ fill: '#5f6368' }} />
+				<span class={styles.tooltip}>Bold</span>
+			</button>
+			<button class={styles.button}>
+				<FormatItalicIcon style={{ fill: '#5f6368' }} />
+				<span class={styles.tooltip}>Italic</span>
+			</button>
+			<button class={styles.button}>
+				<FormatUnderlinedIcon style={{ fill: '#5f6368' }} />
+				<span class={styles.tooltip}>Underline</span>
+			</button>
+			<button class={styles.button} onClick={onToggleTextPaletteOpen}>
+				<TextColorIcon style={{ fill: '#5f6368', borderBottom: `4px solid ${textColor}` }} />
+				<span class={styles.tooltip}>Text color</span>
+				{isTextColorPaletteOpen && 
+					<ColorPalette onSelect={(color: string) => {
+						console.log('color', color)
+						setTextColor(color)
+					}} />
+				}
+			</button>
+			<button class={styles.button} onClick={onToggleHighlightPaletteOpen}>
+				<HighlightColorIcon style={{ fill: '#5f6368', borderBottom: `4px solid ${highlightColor}` }} />
+				<span class={styles.tooltip}>Highlight color</span>
+				{isHighlightPaletteOpen && 
+					<ColorPalette onSelect={(color: string) => {
+						setHighlightColor(color)
+						emit('ADD_HIGHLIGHT', color)
+					}} />
+				}
+			</button>
+			<button class={styles.button} onClick={() => emit('ADD_NOTE')}>
+				<AddCommentIcon style={{ fill: '#5f6368' }} />
+				<span class={styles.tooltip}>Add comment</span>
+			</button>
 			{/* <Dropdown
 				isRight
 				icon="▼"
-				selected={<HighlighterIcon height="12px" style="fill: #5f6368;" />}
+				selected={<HighlighterIcon height="12px" style="fill: #5f6368" />}
 				onSelect={(index: number) => {
 					this.setState({ selectedColor: highlighterColors[index] })
 					this.onHighlight(highlighterColors[index])

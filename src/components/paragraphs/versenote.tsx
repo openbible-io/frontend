@@ -56,7 +56,6 @@ export function VerseNote(props: VerseNoteProps) {
     ? styles.inMargin
     : ''
 
-  console.log(getParagraphClass(props.verse.parent) === paragraphStyles.q)
   return (
     <Fragment>
       <sup

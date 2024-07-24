@@ -18,9 +18,13 @@ interface VerseProps {
   verse: VerseType;
 }
 
+const isNoted = (verse: VerseType) => Boolean(verse.noted) || verse.noted === 0
+
 export function Verse(props: VerseProps) {
   const verse = props.verse
-  const color = verse.highlight && highlightStyles[verse.highlight]
+  const style = verse.highlight
+    ? { background: verse.highlight } as { background: string }
+    : {}
   let prependSpace = verse.t === 'w' || verse.t === 't' 
   if (lastVerse && (
         lastVerse.n
@@ -33,18 +37,22 @@ export function Verse(props: VerseProps) {
   const res = (
     <Fragment>
       {prependSpace &&
-        <span class={classnames(
-          lastVerse && lastVerse.highlight && color,
-          lastVerse && lastVerse.noted && verse.noted && styles.noted
-        )}> </span>
+        <span
+          class={classnames(
+            lastVerse && isNoted(lastVerse) && isNoted(verse) && styles.noted
+          )}
+          style={style}
+        >
+          {' '}
+        </span>
       }
       {verse.n &&
         <sup
           onDblClick={onDoubleClickVerseNumber}
           class={classnames(
             styles.sup,
-            color
           )}
+          style={style}
         >
           {verse.n}
         </sup>
@@ -53,9 +61,10 @@ export function Verse(props: VerseProps) {
         <span
           data-id={verse.id}
           class={classnames(
-            styles[verse.t], color,
-            verse.noted && styles.noted
+            styles[verse.t],
+            isNoted(verse) && styles.noted
           )}
+          style={style}
         >
           {verse.v}
         </span>
