@@ -1,6 +1,9 @@
 import { h, Component, createRef, Fragment } from 'preact'
 import { Reader } from './reader'
 
+/*
+	Contains many <Reader> and handles resizing them
+*/
 export class Readers extends Component {
 	state = {
 		readers: [
@@ -9,19 +12,17 @@ export class Readers extends Component {
 			{ book: 'JUD', width: 0, readerRef: createRef() },
 		]
 	}
-	preMouseMoveReaders
+	preMoveMouseWidths
 	initialPageX = 0
 
 	onMouseMove = (e, index) => {
 		e.preventDefault()
 		const offsetX = e.pageX - this.initialPageX
-		console.log(index, this.preMouseMoveReaders[0].width)
 		this.state.readers.forEach((reader, i) => {
-			const preMouseMoveWidth = this.preMouseMoveReaders[i].width
 			if (i === index)
-				reader.width = preMouseMoveWidth + offsetX
+				reader.width = this.preMoveMouseWidths[i] + offsetX
 			else if (i === index + 1)
-				reader.width = preMouseMoveWidth - offsetX
+				reader.width = this.preMoveMouseWidths[i] - offsetX
 		})
 		this.setState({ readers: this.state.readers })
 	}
@@ -35,7 +36,7 @@ export class Readers extends Component {
 
 	mouseMoveHandler(e, index) {
 		this.initialPageX = e.pageX
-		this.preMouseMoveReaders = this.state.readers.map(r => Object.assign({}, r));
+		this.preMoveMouseWidths = this.state.readers.map(r => r.width);
 		
 		const handler = e => this.onMouseMove(e, index)
 		document.addEventListener('mousemove', handler)

@@ -24,7 +24,8 @@
   },
   "homepage": "https://github.com/thesmartwon/openbible#readme",
   "dependencies": {
-    "preact": "10.0.0-beta.3"
+    "preact": "10.0.0-beta.3",
+    "usfm2json": "^0.0.7"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
@@ -44,7 +45,6 @@
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1",
     "url-loader": "^2.0.0",
-    "usfm2json": "^0.0.6",
     "webpack": "^4.33.0",
     "webpack-cli": "^3.3.4",
     "webpack-dev-server": "^3.7.1"
