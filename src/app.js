@@ -1,10 +1,16 @@
 import { h, render, Fragment } from 'preact';
 import { Nav } from './nav.js';
+import { Reader } from './reader.js';
 import './app.sass';
 
 const element = (
 	<Fragment>
-		<Nav />
+		<Nav className="hi" />
+		<main>
+			<Reader book={'EXO'}/>
+			<Reader book={'MAT'}/>
+			<Reader book={'JUD'}/>
+		</main>
 	</Fragment>
 );
 

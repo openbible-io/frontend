@@ -11,9 +11,9 @@ export class Nav extends Component {
 
 	render() {
 		return (
-			<nav class="navbar is-info" role="navigation" aria-label="main navigation">
-				<div class="navbar-brand">
-					<a class="navbar-item" href="/">
+			<nav className="navbar is-info" role="navigation" aria-label="main navigation">
+				<div className="navbar-brand">
+					<a className="navbar-item" href="/">
 						Open Bible
 					</a>
 
@@ -31,44 +31,44 @@ export class Nav extends Component {
 				</div>
 
 				<div className={"navbar-menu" + (this.state.isHamburgerOpen ? " is-active" : "")}>
-					<div class="navbar-start">
-						<a class="navbar-item">
+					<div className="navbar-start">
+						<a className="navbar-item">
 							Study
 						</a>
 
-						<div class="navbar-item has-dropdown is-hoverable">
+						<div className="navbar-item has-dropdown is-hoverable">
 							<a className={"navbar-link" + (this.state.isDocMenuOpen ? " is-arrow-down" : "")} onClick={this.toggleDocMenu}>
 								Documentation
 							</a>
 
 							{this.state.isDocMenuOpen && (
 								<div className="navbar-dropdown">
-									<a class="navbar-item">
+									<a className="navbar-item">
 										Texts
 									</a>
-									<a class="navbar-item">
+									<a className="navbar-item">
 										Contributing
 									</a>
-									<hr class="navbar-divider" />
-									<a class="navbar-item">
+									<hr className="navbar-divider" />
+									<a className="navbar-item">
 										Report an issue
 									</a>
 								</div>
 							)}
 						</div>
 
-						<a class="navbar-item">
+						<a className="navbar-item">
 							About
 						</a>
 					</div>
 
-					<div class="navbar-end">
-						<div class="navbar-item">
-							<div class="buttons">
-								<a class="button is-primary">
+					<div className="navbar-end">
+						<div className="navbar-item">
+							<div className="buttons">
+								<a className="button is-primary">
 									<strong>Sign up</strong>
 								</a>
-								<a class="button is-light">
+								<a className="button is-light">
 									Log in
 								</a>
 							</div>
