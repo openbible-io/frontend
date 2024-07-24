@@ -4,7 +4,6 @@ import { SolidPlusIcon, SolidXIcon } from '../../icons/index';
 import { ReaderNav } from './nav';
 import { BibleInfos, VersionBookChapter, BookChapter, Books, bookNames, vbcEql, vbcUrl, bookChapters, nextBookChapter } from '../../bibles';
 import styles from './reader.module.css';
-import { render } from 'solid-js/web';
 
 const maxLoaded = 15;
 
@@ -37,47 +36,35 @@ export function Reader(props: ReaderProps) {
 
 	const container = (
 		<div tabIndex={0} class={styles.content} onScroll={onScroll}>
-			<For each={vbcs()}>
-				{c =>
-					<InnerHtml
-						url={vbcUrl(c.vbc)}
-						onSuccess={() => c.loaded = true}
-						div={{
-							class: styles.reader,
-							// For css selectors
-							'data-version': c.vbc.version,
-							'data-book': c.vbc.book,
-							'data-chapter': c.vbc.chapter,
-						}}
-						amendHtml={html => {
-							// Gotta put this here or upon loading the scroll position will
-							// not be consistent.
-							// GOOD: <div><Spinner> -> <div>
-							// BAD: <div><div><Spinner> -> <div><div> (div nesting doesn't matter)
-							const tmp = document.createElement('div');
-							const deinit = render(() => <ChapterHeading vbc={c.vbc} indices={props.indices} />, tmp);
-							const res = tmp.innerHTML + html;
-							deinit();
-							return res;
-						}}
-					/>
-				}
-			</For>
-			{/* Scrolling/overflow checking may not always be reliable (screen readers?) */}
+			<div>
+				<For each={vbcs()}>
+					{c =>
+						<>
+							<ChapterHeading vbc={c.vbc} indices={props.indices} />
+							<InnerHtml
+								url={vbcUrl(c.vbc)}
+								onSuccess={() => c.loaded = true}
+								div={{ class: styles.reader }}
+							/>
+						</>
+					}
+				</For>
+			</div>
+			{/* Scrolling/overflow checking may not always be reliable in screen readers */}
 			<Show when={next()}>
 				<div class={styles.loadNext}>
-				<ChapterHeading vbc={next()!} indices={props.indices} />
-				<button
-					onClick={() => setVbcs(old => [...old, { vbc: next()!, loaded: false }].slice(-maxLoaded))}
-				>
-					Load {bookNames[next()!.book]} {next()!.chapter}
-					<link
-						rel="prefetch"
-						type="fetch"
-						crossorigin="anonymous"
-						href={vbcUrl(next()!)}
-					/>
-				</button>
+					<ChapterHeading vbc={next()!} indices={props.indices} />
+					<button
+						onClick={() => setVbcs(old => [...old, { vbc: next()!, loaded: false }].slice(-maxLoaded))}
+					>
+						Load {bookNames[next()!.book]} {next()!.chapter}
+						<link
+							rel="prefetch"
+							type="fetch"
+							crossorigin="anonymous"
+							href={vbcUrl(next()!)}
+						/>
+					</button>
 				</div>
 			</Show>
 		</div>
@@ -86,13 +73,15 @@ export function Reader(props: ReaderProps) {
 	let lastScroll = container.scrollTop;
 	function onScroll() {
 		// Update `cur`
+		const chaps = vbcs();
 		const target = container;
 		const scrollBottom = target.scrollTop + target.clientHeight;
-		for (let i = container.children.length - 1; i >= 0; i--) {
-			const visible = container.children[i] as HTMLDivElement;
+		const chaptersContainer = container.firstElementChild as HTMLDivElement;
+		for (let i = chaptersContainer.children.length - 1; i >= 0; i--) {
+			const visible = chaptersContainer.children[i] as HTMLDivElement;
 
 			if (visible.offsetTop <= target.scrollTop) {
-				const c = vbcs()[i];
+				const c = chaps[i];
 				if (c) {
 					setCur(c.vbc);
 					break;
@@ -101,7 +90,6 @@ export function Reader(props: ReaderProps) {
 		}
 
 		// If near top or bottom load previous/next chapter
-		const chaps = vbcs();
 		if (target.scrollHeight - scrollBottom < 500 && target.scrollTop > lastScroll) {
 			const last = chaps[chaps.length - 1];
 			if (!last.loaded) return;

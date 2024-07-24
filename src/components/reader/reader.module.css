@@ -25,7 +25,7 @@
 			 local('Arial'); /* fallback */
 }
 .content {
-	overflow-y: auto;
+	overflow-y: scroll;
 	font-family: var(--reader-font-family);
 	font-size: var(--reader-font-size);
 	padding-top: var(--reader-padding);
@@ -145,6 +145,3 @@
 	display: inline-block;
 	margin-left: 1.75rem;
 } */
-.reader[data-version="en_bsb"]:not([data-book="psa"]) > br {
-	display: none;
-}
