@@ -1,11 +1,11 @@
 import { h, render, Fragment } from 'preact';
+import { Nav } from './nav.js';
 import './app.sass';
 
 const element = (
 	<Fragment>
-		<h1>hello</h1>
-		<h1>there</h1>
+		<Nav />
 	</Fragment>
 );
 
-render(element, document.getElementById('root'));
+render(element, document.body);

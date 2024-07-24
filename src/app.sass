@@ -1,6 +1,9 @@
 @import "./sass/utilities/_all.sass"
+@import "./sass/base/_all.sass"
 @import "./sass/grid/columns.sass"
+@import "./sass/components/navbar.sass"
+@import "./sass/elements/_all.sass"
 
-h1 
-	color: blue;
-
+.navbar-link:not(.is-arrow-down)::after
+	transform: rotate(135deg)
+	
