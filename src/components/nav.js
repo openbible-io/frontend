@@ -1,81 +1,59 @@
 import { h, Component } from 'preact'
+import { Link } from 'preact-router/match';
+import { classnames } from '../utils'
 import styles from './nav.css'
 
 export class Nav extends Component {
 	state = {
-		isHamburgerOpen: false,
-		isDocMenuOpen: true
+		isBurgerOpen: false,
+		isDocMenuOpen: false
 	}
 
-	toggleHamburger = _event => this.setState({ isHamburgerOpen: !this.state.isHamburgerOpen })
+	toggleHamburger = _event => this.setState({ isHamburgerOpen: !this.state.isBurgerOpen })
 	toggleDocMenu = _event => this.setState({ isDocMenuOpen: !this.state.isDocMenuOpen })
 
 	render() {
 		return (
-			<nav className={styles.navbar} role="navigation" aria-label="main navigation">
-				<div className="navbar-brand">
-					<a className="navbar-item" href="/">
-						Open Bible
-					</a>
+			<nav class={styles.navbar} role="navigation" aria-label="main navigation">
+				<Link class={styles.navbrand} href="/">
+					Open Bible
+				</Link>
 
-					<a
-						role="button"
-						className={"navbar-burger burger" + (this.state.isHamburgerOpen ? " is-active" : "")}
-						aria-label="menu"
-						aria-expanded={this.state.isHamburgerOpen}
-						onClick={this.toggleHamburger}
-					>
-						<span aria-hidden="true"></span>
-						<span aria-hidden="true"></span>
-						<span aria-hidden="true"></span>
-					</a>
-				</div>
+				{/* <a
+					role="button"
+					class={classnames(styles.burger, this.state.isBurgerOpen && styles.burgerActive)}
+					aria-label="menu"
+					aria-expanded={this.state.isBurgerOpen}
+					onClick={this.toggleHamburger}
+				>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+					<span aria-hidden="true"></span>
+				</a> */}
 
-				<div className={"navbar-menu" + (this.state.isHamburgerOpen ? " is-active" : "")}>
-					<div className="navbar-start">
-						<a className="navbar-item">
-							Study
-						</a>
+				<Link href="/study">
+					Study
+				</Link>
 
-						<div className="navbar-item has-dropdown is-hoverable">
-							<a className={"navbar-link" + (this.state.isDocMenuOpen ? " is-active" : "")} onClick={this.toggleDocMenu}>
-								Documentation
+				<div class="navbar-item has-dropdown is-hoverable">
+					<Link onClick={this.toggleDocMenu}>
+						About
+					</Link>
+
+					{this.state.isDocMenuOpen && (
+						<div class="navbar-dropdown">
+							<Link href="/about/texts">
+								Texts
+							</Link>
+							<Link href="/about/contributing">
+								Contributing
+							</Link>
+							<hr class="navbar-divider" />
+							<a target="_blank" href="https://github.com/thesmartwon/openbible/issues/new">
+								Report an issue
 							</a>
-
-							{this.state.isDocMenuOpen && (
-								<div className="navbar-dropdown">
-									<a className="navbar-item">
-										Texts
-									</a>
-									<a className="navbar-item">
-										Contributing
-									</a>
-									<hr className="navbar-divider" />
-									<a className="navbar-item">
-										Report an issue
-									</a>
-								</div>
-							)}
 						</div>
-
-						<a className="navbar-item">
-							About
-						</a>
-					</div>
-
-					{/* Eventually we need to add this functionality
-					<div className="navbar-end">
-						<div className="navbar-item">
-							<div className="buttons">
-								<a className="button is-primary">
-									<strong>Sign up</strong>
-								</a>
-								<a className="button is-light">
-									Log in
-								</a>
-							</div>
-						</div>
-					</div> */}
+					)}
 				</div>
 			</nav>
 		)

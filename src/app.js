@@ -4,11 +4,11 @@ import './app.css'
 
 const element = (
 	<Fragment>
-		<Nav className="hi" />
+		<Nav class="hi" />
 		<main>
 			<Readers />
 		</main>
 	</Fragment>
 )
 
-render(element, document.body)
+render(element, document.getElementById('t'))

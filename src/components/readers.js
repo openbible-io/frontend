@@ -55,7 +55,7 @@ export class Readers extends Component {
 							ref={reader.readerRef}
 						/>
 						{index !== this.state.readers.length - 1 &&
-							<a className="dragbar" onMouseDown={e => this.mouseMoveHandler(e, index)} />}
+							<a class="dragbar" onMouseDown={e => this.mouseMoveHandler(e, index)} />}
 					</Fragment>
 				))}
 			</Fragment>

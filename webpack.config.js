@@ -1,25 +1,33 @@
 const path = require('path')
 const webpack = require('webpack')
-const CopyPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const SizePlugin = require('size-plugin')
+const CopyPlugin = require('copy-webpack-plugin')
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin
 
 module.exports = (_env, argv) => {
+	const isDev = argv.mode === 'development'
+
 	return {
 		entry: './src/app.js',
-		devtool: 'source-map',
 		output: {
 			path: path.resolve('dist'),
 			filename: '[name].[contenthash:8].bundle.js'
 		},
+		devtool: isDev ? 'cheap-module-eval-source-map' : 'source-map',
 		module: {
 			rules: [
 				{
 					test: /\.js$/,
 					exclude: /node_modules/,
 					use: {
-						loader: 'babel-loader'
+						loader: 'babel-loader',
+						options: {
+							cacheDirectory: '.cache',
+							cacheCompression: false
+						}
 					}
 				},
 				{
@@ -28,7 +36,7 @@ module.exports = (_env, argv) => {
 						{
 							loader: MiniCssExtractPlugin.loader,
 							options: {
-								hmr: argv.mode === 'development',
+								hmr: isDev,
 							},
 						},
 						{
@@ -36,9 +44,7 @@ module.exports = (_env, argv) => {
 							options: {
 								modules: {
 									mode: 'local',
-									localIdentName: argv.mode === 'development'
-										? '[path][name]__[local]'
-										: '[hash:base64:5]',
+									localIdentName: isDev ? '[path][name]__[local]' : 'css-[hash:base64:5]',
 								},
 							},
 						}
@@ -55,33 +61,43 @@ module.exports = (_env, argv) => {
 						}
 					]
 				},
+				{
+					test: /\.svg$/,
+					use: ['preact-svg-loader'],
+				},
 			]
 		},
 		plugins: [
-			new CleanWebpackPlugin(),
-			new CopyPlugin([
-				{ from: 'static', to: 'static' },
-			]),
 			new HtmlWebpackPlugin({
 				template: './src/index.html'
 			}),
-			new webpack.HashedModuleIdsPlugin(),
 			new MiniCssExtractPlugin({
 				filename: '[name].[contenthash:6].css',
 				chunkFilename: '[name].[contenthash:6].css',
 			}),
+			new webpack.HashedModuleIdsPlugin(),
+			new CopyPlugin([{ from: 'static', to: 'static' }]),
+			...(!isDev
+				? [
+					new CleanWebpackPlugin(),
+					new SizePlugin(),
+					// new BundleAnalyzerPlugin(),
+				]
+				: []),
 		],
 		optimization: {
-			runtimeChunk: 'single',
 			splitChunks: {
+				minSize: 1500, // MTU
 				cacheGroups: {
-					vendor: {
+					vendors: {
 						test: /[\\/]node_modules[\\/]/,
-						name: 'vendors',
-						chunks: 'all'
-					},
+						chunks: 'all',
+						priority: 1,
+					}
 				},
 			},
+			runtimeChunk: 'single',
 		},
+		stats: 'minimal',
 	};
 }

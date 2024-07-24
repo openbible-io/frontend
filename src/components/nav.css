@@ -1,3 +1,54 @@
 .navbar {
-	background-color: red;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.navbar > a{
+	margin: .2rem;
+}
+.burger {
+	color:#4a4a4a;
+	cursor:pointer;
+	display:block;
+	height:3.25rem;
+	position:relative;
+	width:3.25rem;
+}
+.burger span {
+	background-color:currentColor;
+	height:1px;
+	left:calc(50% - 8px);
+	position:absolute;
+	transform-origin:center;
+	transition-duration:86ms;
+	transition-property:background-color,opacity,transform;
+	transition-timing-function:ease-out;
+	width:16px;
+}
+.burger:hover {
+	background-color:rgba(0,0,0,.05)
+}
+.burger span:nth-child(1) {
+	top:calc(50% - 6px);
+}
+.burger span:nth-child(2) {
+	top:calc(50% - 1px);
+}
+.burger span:nth-child(3) {
+	top:calc(50% + 4px);
+}
+.burgerActive span:nth-child(1) {
+	transform:translateY(5px) rotate(45deg);
+}
+.burgerActive span:nth-child(2) {
+	opacity:0;
+}
+.burgerActive span:nth-child(3) {
+	transform:translateY(-5px) rotate(-45deg);
+}
+.navbrand {
+	font-size: 1.5rem;
+}
+.navitem {
+
 }
