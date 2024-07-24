@@ -2,7 +2,7 @@ import { createSignal, onCleanup, createEffect, For, Show } from 'solid-js';
 import { InnerHtml } from '../index';
 import { SolidPlusIcon, SolidXIcon } from '../../icons/index';
 import { ReaderNav } from './nav';
-import { BibleInfos, VersionBookChapter, BookChapter, Books, bookNames, vbcEql, vbcUrl, bookChapters, nextBookChapter } from '../../bibles';
+import { BibleInfos, VersionBookChapter, BookChapter, Books, bookNames, vbcEql, vbcUrl, bookChapters, nextBookChapter, BookId } from '../../bibles';
 import styles from './reader.module.css';
 
 const maxLoaded = 15;
@@ -75,21 +75,25 @@ export function Reader(props: ReaderProps) {
 		// Update `cur`
 		const chaps = vbcs();
 		const target = container;
-		const scrollBottom = target.scrollTop + target.clientHeight;
-		const chaptersContainer = container.firstElementChild as HTMLDivElement;
-		for (let i = chaptersContainer.children.length - 1; i >= 0; i--) {
-			const visible = chaptersContainer.children[i] as HTMLDivElement;
+		const chapters = container.firstElementChild as HTMLDivElement;
+		for (let i = chapters.children.length - 1; i >= 0 ; i--) {
+			const c = chapters.children[i] as HTMLHeadingElement;
+			const book = c.getAttribute('data-book');
+			const chapter = c.getAttribute('data-chapter');
 
-			if (visible.offsetTop <= target.scrollTop) {
-				const c = chaps[i];
-				if (c) {
-					setCur(c.vbc);
-					break;
-				}
+			if (book && chapter && c.offsetTop <= target.scrollTop) {
+				const vbc: VersionBookChapter = {
+					version: chaps[0].vbc.version,
+					book: book as BookId,
+					chapter: +chapter,
+				};
+				setCur(vbc);
+				break;
 			}
 		}
 
 		// If near top or bottom load previous/next chapter
+		const scrollBottom = target.scrollTop + target.clientHeight;
 		if (target.scrollHeight - scrollBottom < 500 && target.scrollTop > lastScroll) {
 			const last = chaps[chaps.length - 1];
 			if (!last.loaded) return;
@@ -196,7 +200,12 @@ function ChapterHeading(props: ChapterHeadingProps) {
 					{bookNames[props.vbc.book]}
 				</h1>
 			</Show>
-			<h2 class={styles.chapterNumber}>
+			<h2
+				class={styles.chapterNumber}
+				// For scroll spy
+				data-book={props.vbc.book}
+				data-chapter={props.vbc.chapter}
+			>
 				Chapter {props.vbc.chapter}
 			</h2>
 		</>

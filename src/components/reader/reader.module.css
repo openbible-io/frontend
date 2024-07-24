@@ -61,6 +61,7 @@
 	justify-content: center;
 	margin-bottom: 0.5rem;
 	display: var(--chapter-number-display);
+	user-select: none;
 }
 /*https://stackoverflow.com/questions/2812770/add-centered-text-to-the-middle-of-a-horizontal-rule*/
 .chapterNumber::before,
