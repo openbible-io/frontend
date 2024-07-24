@@ -10,6 +10,8 @@
 .toolbarContainer {
 	display: flex;
 	flex-wrap: wrap;
+	/* Safari */
+	flex-shrink: 0;
 }
 .toolbar {
 	display: flex;

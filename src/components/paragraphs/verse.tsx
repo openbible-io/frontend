@@ -8,6 +8,7 @@ import { VerseNote } from './versenote'
 
 let lastVerse: VerseType
 const startPunct = /['"“‘\[\(\-]/
+const endPunct = /['".”’,?!:;\]\)]/
 
 interface VerseProps {
   verse: VerseType;
@@ -16,9 +17,10 @@ interface VerseProps {
 export function Verse(props: VerseProps) {
   const verse = props.verse
   const color = verse.highlight && highlightStyles[verse.highlight]
-  let prependSpace = verse.t === 'w'
+  let prependSpace = verse.t === 'w' || verse.t === 't'
   if (lastVerse && (lastVerse.n
-      || startPunct.test(lastVerse.v as string))) {
+      || startPunct.test(lastVerse.v as string)
+      || endPunct.test(verse.v as string))) {
     prependSpace = false
   }
   const res = (

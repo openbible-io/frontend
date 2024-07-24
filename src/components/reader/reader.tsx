@@ -108,6 +108,7 @@ export class Reader extends Component<ReaderProps, ReaderState> {
 		return getChapter(text, book, chapter)
 			.then(paragraphs => {
 				this.setState({ paragraphs })
+				this.divRef.current.scrollTop = 0
 				return paragraphs
 			})
 	}

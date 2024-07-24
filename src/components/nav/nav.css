@@ -1,8 +1,10 @@
 .header {
-	padding: .5rem;
+	padding: .5rem .5rem 0 .5rem;
 	display: flex;
 	align-items: baseline;
 	flex-wrap: wrap;
+	/* Safari */
+	flex-shrink: 0;
 }
 .navbar {
 	display: flex;
