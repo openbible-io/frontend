@@ -40,7 +40,7 @@ export function Verse(props: VerseProps) {
           {verse.n}
         </sup>
       }
-      {verse.v && 
+      {verse.v &&
         <span
           data-id={verse.id}
           class={classnames(

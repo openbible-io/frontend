@@ -2,7 +2,7 @@ import { getLocalSetting } from '../../utils/settings'
 
 // Handles selecting anywhere in <article> of <Reader>
 export const selectedNodes: Node[] = []
-const copyableTags = ['SPAN']
+const copyableTags = ['SPAN', 'U']
 const copyStyles = {
 	BODY: [
 		'color',
@@ -18,7 +18,8 @@ const copyStyles = {
 	SPAN: [
 		'color',
 		'background-color',
-	]
+		'text-decoration',
+	],
 }
 
 function snapToWords(range: Range) {
@@ -118,7 +119,8 @@ export function onCopy(ev: any) {
 				toCopyHTML += `<p style="${getStyles(parentNode.parentNode as Node)}">`
 				addedFirstPara = true
 			}
-			toCopyHTML += `<span style="${getStyles(parentNode)}">${node.textContent}</span>`
+			const tag = parentNode.nodeName.toLowerCase()
+			toCopyHTML += `<${tag} style="${getStyles(parentNode)}">${node.textContent}</${tag}>`
 		}
 		else if (node.nodeName === 'P') {
 			toCopy += '\n'
