@@ -1,4 +1,4 @@
-import { h, Component } from 'preact';
+import { h, Component } from 'preact'
 import styles from './nav.css'
 
 export class Nav extends Component {
@@ -7,8 +7,8 @@ export class Nav extends Component {
 		isDocMenuOpen: true
 	}
 
-	toggleHamburger = _event => this.setState({ isHamburgerOpen: !this.state.isHamburgerOpen });
-	toggleDocMenu = _event => this.setState({ isDocMenuOpen: !this.state.isDocMenuOpen });
+	toggleHamburger = _event => this.setState({ isHamburgerOpen: !this.state.isHamburgerOpen })
+	toggleDocMenu = _event => this.setState({ isDocMenuOpen: !this.state.isDocMenuOpen })
 
 	render() {
 		return (
@@ -78,6 +78,6 @@ export class Nav extends Component {
 					</div> */}
 				</div>
 			</nav>
-		);
+		)
 	}
 }

@@ -1,5 +1,5 @@
-import { h, render, Fragment } from 'preact';
-import { Nav, Readers } from './components';
+import { h, render, Fragment } from 'preact'
+import { Nav, Readers } from './components'
 import './app.css'
 
 const element = (
@@ -9,6 +9,6 @@ const element = (
 			<Readers />
 		</main>
 	</Fragment>
-);
+)
 
-render(element, document.body);
+render(element, document.body)

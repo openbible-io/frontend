@@ -35,7 +35,7 @@ export class Readers extends Component {
 
 	mouseMoveHandler(e, index) {
 		this.initialPageX = e.pageX
-		this.preMoveMouseWidths = this.state.readers.map(r => r.width);
+		this.preMoveMouseWidths = this.state.readers.map(r => r.width)
 		
 		const handler = e => this.onMouseMove(e, index)
 		document.addEventListener('mousemove', handler)
@@ -59,6 +59,6 @@ export class Readers extends Component {
 					</Fragment>
 				))}
 			</Fragment>
-		);
+		)
 	}
 }

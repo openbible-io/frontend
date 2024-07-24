@@ -7,7 +7,7 @@
     "build": "webpack --mode production",
     "build:static": "node scripts/generateStaticAssets.js",
     "clean": "shx rm -rf static",
-    "serve": "http-server dist",
+    "serve": "node scripts/serve.js",
     "start": "webpack-dev-server --mode development"
   },
   "repository": {
