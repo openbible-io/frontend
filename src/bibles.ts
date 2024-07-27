@@ -148,5 +148,5 @@ export function bcEql(a: BookChapter, b?: BookChapter) {
 }
 
 export function vbcEql(a?: VersionBookChapter, b?: VersionBookChapter) {
-	return a?.chapter == b?.chapter && a?.chapter == b?.chapter && a?.version == b?.version;
+	return a?.book == b?.book && a?.chapter == b?.chapter && a?.version == b?.version;
 }
