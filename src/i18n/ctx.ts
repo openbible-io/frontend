@@ -1,6 +1,6 @@
 import * as i18n from "@solid-primitives/i18n";
 import { index } from './index';
-import en from './en.json';
+import en from './en-US.json';
 
 export type Locale = typeof index[number];
 export type RawDictionary = typeof en;
@@ -14,6 +14,6 @@ export const defaultDict = en;
 export const languages = index;
 
 export function navigatorLang(): Locale {
-	const desired = navigator.language?.split('-')[0];
-	return languages.find(l => l == desired) || 'en';
+	const prefix = navigator.language?.split('-')[0];
+	return languages.find(l => l == navigator.language || l.startsWith(prefix)) || 'en-US';
 }

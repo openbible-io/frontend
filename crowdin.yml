@@ -5,6 +5,6 @@
 "preserve_hierarchy": true
 
 "files": [{
-  "source": "en.json",
-  "translation": "%two_letters_code%.json"
+  "source": "en-US.json",
+  "translation": "%two_letters_code%-%locale%.json"
 }]

@@ -6,7 +6,13 @@ import * as controls from './controls';
 import { fetchTranslator, defaultDict, Locale, navigatorLang } from '../i18n/ctx';
 
 export const values = () => {
-	const languageSignal = useLocalStorage<Locale>('language', navigatorLang());
+	const languageSignal = useLocalStorage<Locale>('language', navigatorLang(), {
+		deserializer: s => {
+			const v = JSON.parse(s);
+			if (languages.includes(v)) return v;
+			return navigatorLang();
+		},
+	});
 	const t = createResource(languageSignal[0], fetchTranslator, {
 		initialValue: i18n.translator(() => defaultDict)
 	}); 
@@ -25,10 +31,6 @@ export const values = () => {
 			font_family: {
 				signal: useUserStyle('--primary-font-family'),
 				Control: controls.String,
-			},
-			font_size: {
-				signal: useUserStyle('--primary-font-size'),
-				Control: controls.length(['px']),
 			},
 			reader_font_family: {
 				signal: useUserStyle('--reader-font-family'),
