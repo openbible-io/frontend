@@ -16,5 +16,4 @@ jobs:
         with:
           upload_sources: true
         env:
-          # Visit https://crowdin.com/settings#api-key to create this token
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
