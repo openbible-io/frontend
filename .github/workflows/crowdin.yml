@@ -1,0 +1,21 @@
+name: Sync to Crowdin
+on:
+  push:
+    branch:
+        - master
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          cache: 'npm'
+      - uses: crowdin/github-action@v2
+        with:
+          upload_sources: true
+        env:
+          # Visit https://crowdin.com/settings#api-key to create this token
+          CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
