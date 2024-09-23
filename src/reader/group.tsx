@@ -61,6 +61,9 @@ export function ReaderGroup() {
 									crossorigin="anonymous"
 									href={vbcUrl(vbc)}
 								/>
+								<button onClick={() => localStorage.clear()}>
+									Clear localStorage
+								</button>
 							</>
 						}>
 						<Reader
