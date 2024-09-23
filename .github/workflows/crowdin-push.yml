@@ -1,9 +1,11 @@
-name: Sync to Crowdin
+name: Push to Crowdin
 on:
   push:
     branch:
         - master
   workflow_dispatch:
+permissions:
+  contents: write
 
 jobs:
   sync:
