@@ -1,31 +1,26 @@
 import { render } from 'solid-js/web';
 import { Router, Route, RouteSectionProps } from '@solidjs/router';
-import { Nav } from './components/index';
-import { Home, About, Settings, NotFound } from './pages';
-import { createCssVars, CssVars } from './settings';
+import { Home } from './pages/home';
+import { NotFound } from './pages/404';
+import { Context, values } from './settings/values';
 import './main.css';
 
 function Main() {
 	return (
-		<CssVars.Provider value={createCssVars()}>
+		<Context.Provider value={values()}>
 			<Router root={Root}>
 				<Route component={Home} path="/" />
-				<Route component={About} path="/about" />
-				<Route component={Settings} path="/settings" />
 				<Route component={NotFound} path="*" />
 			</Router>
-		</CssVars.Provider>
+		</Context.Provider>
 	);
 }
 
 function Root(props: RouteSectionProps<unknown>) {
 	return (
-		<>
-			<Nav />
-			<main>
-				{props.children}
-			</main>
-		</>
+		<main>
+			{props.children}
+		</main>
 	);
 }
 

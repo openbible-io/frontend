@@ -1,7 +1,8 @@
 import { createSignal, createEffect, For, Switch, Match, batch, createMemo, Show } from 'solid-js';
-import { BookId, VersionBookChapter, BibleInfos, BibleInfo, bookNames, infoAboutUrl, bookChapters } from '../../bibles';
-import { InfoIcon, ThreeDotsVerticalIcon } from '../../icons/index';
-import { Dropdown, InnerHtml } from '../index';
+import { BookId, VersionBookChapter, BibleInfos, BibleInfo, infoAboutUrl, bookChapters } from '../bibles';
+import { InfoIcon, ThreeDotsVerticalIcon } from '../icons';
+import { Dropdown, InnerHtml } from '../components';
+import { t } from '../settings/values';
 import styles from './nav.module.css';
 
 export interface ReaderNavProps {
@@ -50,14 +51,14 @@ export function ReaderNav(props: ReaderNavProps) {
 
 	const nav = (
 		<nav class={styles.nav}>
-			<VersionInfo info={info()} />
+			<VersionInfo version={version()} info={info()} />
 			<select
 				name="book"
 				value={book()}
 				onChange={ev => onBookChange(ev.target.value as BookId)}
 			>
 				<For each={Object.keys(info().books) as BookId[]}>
-					{b => <option value={b}>{bookNames[b]}</option>}
+					{b => <option value={b}>{t()('books')[b]}</option>}
 				</For>
 			</select>
 			<select
@@ -99,12 +100,14 @@ export function ReaderNav(props: ReaderNavProps) {
 					class: styles.popover,
 					children: nav
 				}}
+				widthPx={175}
 			/>
 		</div>
 	);
 }
 
 interface VersionInfoProps {
+	version: string;
 	info: BibleInfo;
 }
 function VersionInfo(props: VersionInfoProps) {
@@ -150,7 +153,7 @@ function VersionInfo(props: VersionInfoProps) {
 					<a href={props.info.repo}>Repo</a>
 				</Match>
 				<Match when={view() == 'foreword'}>
-					<InnerHtml url={infoAboutUrl(props.info)} />
+					<InnerHtml url={infoAboutUrl(props.version, props.info)} />
 				</Match>
 			</Switch>
 		</div>

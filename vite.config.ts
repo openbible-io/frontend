@@ -24,9 +24,20 @@ export default defineConfig(async ({ mode }) => {
 		],
 		server: {
 			port: 3333,
+			headers: {
+				'Cross-Origin-Opener-Policy': 'same-origin',
+				'Cross-Origin-Embedder-Policy': 'require-corp',
+			},
 		},
 		build: {
 			target: 'esnext',
+			rollupOptions: {
+				output: {
+					manualChunks(id: string) {
+						if (id.includes('node_modules')) return 'vendor';
+					}
+				}
+			}
 		},
 		envPrefix,
 	};

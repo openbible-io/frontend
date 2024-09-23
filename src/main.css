@@ -1,10 +1,7 @@
 html {
 	--primary-text-color: #3b4351;
-	--primary-theme-color: #0b8dc4;
-	--primary-font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-	--reader-font-family: "Libre Baskerville", "Sentinel A", "Sentinel B", "Gentium Plus", Ezra, Georgia, Times, serif;
+	--reader-font-family: "Libre Baskerville", "Sentinel A", "Sentinel B", "Gentium Plus", Ezra, Georgia, Times, sans-serif;
 	--reader-font-size: 24px;
-	--global-font-size: 20px;
 	--reader-padding: 0.8rem;
 	--chapter-number-display: flex; /* none */
 	--chapter-number-hr-display: block; /* none */
@@ -12,8 +9,8 @@ html {
 	--verse-num-display: none; /* inline */
 	--sr-display: none; /* block */
 	--h-display: none; /* block */
-	--first-chapter-letter-weight: bold;
-	--first-chapter-letter-size: 2em;
+	--chapter-first-letter-weight: bold;
+	--chapter-first-letter-size: 2em;
 }
 /*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
 html,
@@ -38,8 +35,8 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 h1,
@@ -48,41 +45,39 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: normal;
+	font-weight: normal;
 }
 
 ul {
-  list-style: none;
+	list-style: none;
 }
 
 html {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 *, *::before, *::after {
-  box-sizing: inherit;
+	box-sizing: inherit;
 }
 
 img,
 video {
-  height: auto;
-  max-width: 100%;
+	height: auto;
+	max-width: 100%;
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 td,
 th {
-  padding: 0;
+	padding: 0;
 }
 /* end minireset */
 html,
 body {
-	font-size: var(--global-font-size);
-	font-family: var(--primary-font-stack);
 	color: var(--primary-text-color);
 	height: 100%;
 	display: flex;

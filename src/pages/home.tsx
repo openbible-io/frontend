@@ -1,4 +1,4 @@
-import { ReaderGroup } from '../components';
+import { ReaderGroup } from '../reader/group';
 
 export function Home() {
 	return <ReaderGroup />;

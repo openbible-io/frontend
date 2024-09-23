@@ -1,11 +1,12 @@
 import { createSignal, onCleanup, createEffect, For, Show } from 'solid-js';
-import { InnerHtml } from '../index';
-import { SolidPlusIcon, SolidXIcon } from '../../icons/index';
+import { t } from '../settings/values';
+import { InnerHtml, Dropdown, Settings } from '../components/index';
+import { SolidPlusIcon, SolidXIcon, SettingsIcon } from '../icons';
 import { ReaderNav } from './nav';
-import { BibleInfos, VersionBookChapter, BookChapter, Books, bookNames, vbcEql, vbcUrl, bookChapters, nextBookChapter, BookId } from '../../bibles';
+import { BibleInfos, VersionBookChapter, BookChapter, Books, vbcEql, vbcUrl, bookChapters, nextBookChapter, BookId } from '../bibles';
 import styles from './reader.module.css';
 
-const maxLoaded = 15;
+const maxLoadedChapters = 15;
 
 export interface ReaderProps {
 	vbc: VersionBookChapter;
@@ -14,6 +15,7 @@ export interface ReaderProps {
 	onCloseReader?: () => void;
 	onNavChange?: (chapter: VersionBookChapter) => void
 	canClose?: boolean;
+	isLast?: boolean;
 	class?: string;
 };
 export function Reader(props: ReaderProps) {
@@ -55,9 +57,9 @@ export function Reader(props: ReaderProps) {
 				<div class={styles.loadNext}>
 					<ChapterHeading vbc={next()!} indices={props.indices} />
 					<button
-						onClick={() => setVbcs(old => [...old, { vbc: next()!, loaded: false }].slice(-maxLoaded))}
+						onClick={() => setVbcs(old => [...old, { vbc: next()!, loaded: false }].slice(-maxLoadedChapters))}
 					>
-						Load {bookNames[next()!.book]} {next()!.chapter}
+						Load {t()('books')[next()!.book]} {next()!.chapter}
 						<link
 							rel="prefetch"
 							type="fetch"
@@ -100,7 +102,7 @@ export function Reader(props: ReaderProps) {
 			const next = nextBookChapter(last.vbc, props.indices[props.vbc.version].books, 1);
 			if (!next) return;
 			const vbc: VersionBookChapter = { version: last.vbc.version, ...next };
-			setVbcs(existing => [...existing, { vbc, loaded: false }].slice(-maxLoaded));
+			setVbcs(existing => [...existing, { vbc, loaded: false }].slice(-maxLoadedChapters));
 		}
 
 		if (target.scrollTop <= 300 && target.scrollTop < lastScroll) {
@@ -110,7 +112,7 @@ export function Reader(props: ReaderProps) {
 			const newPrev = nextBookChapter(first.vbc, books(version), -1);
 			if (!newPrev) return;
 			const vbc: VersionBookChapter = { version: first.vbc.version, ...newPrev };
-			setVbcs(existing => [{ vbc, loaded: false }, ...existing].slice(0, maxLoaded));
+			setVbcs(existing => [{ vbc, loaded: false }, ...existing].slice(0, maxLoadedChapters));
 		}
 		lastScroll = target.scrollTop;
 	}
@@ -128,7 +130,7 @@ export function Reader(props: ReaderProps) {
 		const last = chaps[chaps.length - 1];
 		const toLoad = nextN(last.vbc, books(last.vbc.version), 5)
 			.map(vbc => ({ vbc: { version: last.vbc.version, ...vbc }, loaded: false }));
-		setVbcs(existing => [...existing, ...toLoad].slice(-maxLoaded));
+		setVbcs(existing => [...existing, ...toLoad].slice(-maxLoadedChapters));
 	});
 	observer.observe(container);
 	onCleanup(() => observer.disconnect());
@@ -147,6 +149,17 @@ export function Reader(props: ReaderProps) {
 				/>
 				<div style="flex: 1" />
 				<span class={styles.windowButtons}>
+					{props.isLast && 
+						<Dropdown
+							button={{
+								children: <SettingsIcon width="1rem" height="1rem" />
+							}}
+							div={{
+								children: <Settings />
+							}}
+							widthPx={400}
+						/>
+					}
 					<button
 						onClick={props.onAddReader}
 						class={styles.windowButton}
@@ -197,7 +210,7 @@ function ChapterHeading(props: ChapterHeadingProps) {
 		<>
 			<Show when={isFirst()}>
 				<h1 class={styles.bookTitle}>
-					{bookNames[props.vbc.book]}
+					{t()('books')[props.vbc.book]}
 				</h1>
 			</Show>
 			<h2

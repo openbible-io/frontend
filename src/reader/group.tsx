@@ -1,34 +1,30 @@
-import { For, createResource, ResourceReturn, Show } from 'solid-js';
+import { For, createResource, Show } from 'solid-js';
 import { Reader } from '../reader/reader';
-import { useLocalStorage } from '../../reactivity/index';
-import { BibleInfos, VersionBookChapter, infosUrl, vbcUrl } from '../../bibles';
+import { useLocalStorage } from '../reactivity/index';
+import { BibleInfos, VersionBookChapter, infosUrl, vbcUrl } from '../bibles';
 import styles from './group.module.css';
 
 export const defaultReaders = [
 	// Single reader in case on small display
 	{ version: 'en_ust', book: 'gen', chapter: 1 },
 ] as VersionBookChapter[];
-// Only fetch this once.
-let indexCache: ResourceReturn<BibleInfos> | undefined;
 
 export function ReaderGroup() {
 	// Source of truth on load.
-	// Then <Reader /> becomes the source of truth and just calls back
-	// to update this.
-	const [readers, setReaders] = useLocalStorage('chapters', defaultReaders);
+	// Then <Reader /> becomes the source of truth and just calls back to update this.
+	const [readers, setReaders] = useLocalStorage('readers', defaultReaders);
 	if (readers().length == 0) setReaders(defaultReaders);
 
-	indexCache = indexCache || createResource<BibleInfos>(async () =>
-		 fetch(infosUrl)
-			.then(res => res.json() as Promise<BibleInfos>)
-			.then(res => {
-				Object.entries(res).forEach(([version, index]) => {
-					index.version = version;
-				});
-				return res;
-			})
+	const cached = localStorage.getItem('index');
+	const [indices] = createResource<BibleInfos>(
+		async () => fetch(infosUrl).then(res => res.json()).then(res => {
+			localStorage.setItem('index', JSON.stringify(res));
+			return res;
+		}),
+		{
+			initialValue: cached ? JSON.parse(cached) : undefined,
+		},
 	);
-	const [indices] = indexCache;
 
 	function onAddReader(index: number) {
 		const newReaders = [...readers()];
@@ -74,6 +70,7 @@ export function ReaderGroup() {
 							onCloseReader={() => onCloseReader(index())}
 							onNavChange={c => onNavChange(index(), c)}
 							canClose={readers().length > 1}
+							isLast={index() === readers().length - 1}
 						/>
 						{index() !== readers().length - 1 &&
 							<div class={styles.dragbar} />

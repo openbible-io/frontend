@@ -43,8 +43,8 @@
 	word-break: break-word;
 }
 .reader > p:first-of-type::first-letter {
-	font-size: var(--first-chapter-letter-size);
-	font-weight: var(--first-chapter-letter-weight);
+	font-size: var(--chapter-first-letter-size);
+	font-weight: var(--chapter-first-letter-weight);
 	line-height: 1;
 }
 .reader > :is(h1, h2, h3, h4, h5, h6):not(.chapterNumber):not(.bookTitle),
@@ -102,7 +102,7 @@
 .reader > :last-child {
 	margin-bottom: 1rem;
 }
-.reader > p:is(:global(.q1), :global(.q2), :global(.q3), :global(.q4), :global(.q5), :global(.q6)) {
+.reader > p:is(:global(.q1), :global(.q2), :global(.q3), :global(.q4), :global(.q5), :global(.q6)):not(:last-child) {
 	margin-bottom: 0;
 }
 .reader > p:global(.q1) {
