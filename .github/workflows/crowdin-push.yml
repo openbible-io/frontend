@@ -1,8 +1,8 @@
 name: Push to Crowdin
 on:
   push:
-    branch:
-        - master
+    paths: [ 'src/i18n/*.json' ]
+    branch: [ master ]
   workflow_dispatch:
 
 jobs:
