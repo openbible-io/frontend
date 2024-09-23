@@ -1,2 +1,2 @@
 //! These are the enabled languages.
-export const index = ['en', 'es'] as const;
+export const index = ['en'] as const;
