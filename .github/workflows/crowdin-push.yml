@@ -4,8 +4,6 @@ on:
     branch:
         - master
   workflow_dispatch:
-permissions:
-  contents: write
 
 jobs:
   sync:
