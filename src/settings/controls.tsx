@@ -9,7 +9,11 @@ export type Control<T> = (props: ControlProps<T>) => JSX.Element;
 
 export function String<T extends string>(props: ControlProps<T>) {
 	return (
-		<input id={props.id} value={props.getter()} onInput={ev => props.setter(ev.target.value as T)} />
+		<input
+			id={props.id}
+			value={props.getter()}
+			onInput={ev => props.setter(ev.target.value as T)}
+		/>
 	);
 }
 
@@ -19,7 +23,7 @@ export function Color<T extends string>(props: ControlProps<T>) {
 			id={props.id}
 			type="color"
 			value={props.getter()}
-			onChange={ev => props.setter(ev.target.value as T)}
+			onInput={ev => props.setter(ev.target.value as T)}
 		/>
 	);
 }
@@ -52,7 +56,11 @@ export function length(suffixes: readonly string[]) {
 				/>
 				<Switch>
 					<Match when={suffixes.length == 0}>
-						<input value={suffix()} onChange={ev => setSuffix(ev.target.value)} />
+						<input
+							width={4}
+							value={suffix()}
+							onInput={ev => setSuffix(ev.target.value)}
+						/>
 					</Match>
 					<Match when={suffixes.length == 1}>
 						<span>{suffixes[0]}</span>

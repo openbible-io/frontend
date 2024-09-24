@@ -1,9 +1,8 @@
 import * as i18n from "@solid-primitives/i18n";
 import { createContext, createResource, useContext } from 'solid-js';
 import { useLocalStorage, useUserStyle } from '../reactivity';
-import { index as languages } from '../i18n/index';
 import * as controls from './controls';
-import { fetchTranslator, defaultDict, Locale, navigatorLang } from '../i18n/ctx';
+import { fetchTranslator, defaultDict, Locale, navigatorLang, languages } from '../i18n';
 
 export const values = () => {
 	const languageSignal = useLocalStorage<Locale>('language', navigatorLang(), {
@@ -27,10 +26,6 @@ export const values = () => {
 			text_color: {
 				signal: useUserStyle('--primary-text-color'),
 				Control: controls.Color,
-			},
-			font_family: {
-				signal: useUserStyle('--primary-font-family'),
-				Control: controls.String,
 			},
 			reader_font_family: {
 				signal: useUserStyle('--reader-font-family'),

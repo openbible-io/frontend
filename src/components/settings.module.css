@@ -1,9 +1,10 @@
-.form {
-	flex: 1;
+.table {
+	width: 100%;
 }
-
-@media (max-width: 1200px) {
-	.settingsReader {
-		display: none;
-	}
+.control {
+	display: flex;
+	align-items: baseline;
+}
+.control > input:first-of-type:not([type=checkbox]) {
+	flex: 1;
 }
