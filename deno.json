@@ -1,0 +1,20 @@
+{
+	"tasks": {
+		"dev": "deno -A --node-modules-dir vite --mode=$(git rev-parse --abbrev-ref HEAD)",
+		"build": "deno -A --node-modules-dir vite build --mode=$(git rev-parse --abbrev-ref HEAD)",
+		"serve": "deno -A --node-modules-dir vite preview"
+	},
+	"imports": {
+		"@openbible/core": "jsr:@openbible/core@^0.1.19",
+		"preact": "npm:preact@^10.24.3"
+	},
+	"fmt": {
+		"useTabs": true,
+		"singleQuote": true,
+		"exclude": ["dist"]
+	},
+	"compilerOptions": {
+		"jsx": "precompile",
+		"jsxImportSource": "preact"
+	}
+}

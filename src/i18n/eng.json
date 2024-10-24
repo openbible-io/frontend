@@ -1,0 +1,168 @@
+{
+	"languages": {
+		"eng": "English",
+		"spa": "Spanish",
+		"heb": "Hebrew"
+	},
+	"books": {
+		"gen": "Genesis",
+		"exo": "Exodus",
+		"lev": "Leviticus",
+		"num": "Numbers",
+		"deu": "Deuteronomy",
+		"jos": "Joshua",
+		"jdg": "Judges",
+		"rut": "Ruth",
+		"1sa": {
+			"0": "1 Samuel",
+			"orthodox": ["1 Kings", "1 Kingdoms"]
+		},
+		"2sa": {
+			"0": "2 Samuel",
+			"orthodox": ["2 Kings", "2 Kingdoms"]
+		},
+		"1ki": {
+			"0": "1 Kings",
+			"orthodox": ["3 Kings", "3 Kingdoms"]
+		},
+		"2ki": {
+			"0": "2 Kings",
+			"orthodox": ["4 Kings", "4 Kingdoms"]
+		},
+		"1ch": {
+			"0": "1 Chronicles",
+			"orthodox": "1 Paralipomenon"
+		},
+		"2ch": {
+			"0": "2 Chronicles",
+			"orthodox": "2 Paralipomenon"
+		},
+		"ezr": {
+			"0": "Ezra",
+			"orthodox": ["1 Ezra", "1 Esdras"]
+		},
+		"neh": {
+			"0": "Nehemiah",
+			"orthodox": ["2 Ezra", "2 Esdras"]
+		},
+		"est": "Esther",
+		"job": "Job",
+		"psa": "Psalm",
+		"pro": "Proverbs",
+		"ecc": {
+			"0": "Ecclessiastes",
+			"catholic": "Qoholeth"
+		},
+		"sng": {
+			"0": ["Song of Songs", "Song of Solomon"],
+			"catholic": "Canticle of Canticles"
+		},
+		"isa": "Isaiah",
+		"jer": "Jeremiah",
+		"lam": ["Lamentations", "Lamentations of Jeremiah"],
+		"ezk": "Ezekiel",
+		"dan": "Daniel",
+		"hos": "Hosea",
+		"jol": "Joel",
+		"amo": "Amos",
+		"oba": "Obadiah",
+		"jon": "Jonah",
+		"mic": "Micah",
+		"nam": "Nahum",
+		"hab": "Habakkuk",
+		"zep": "Zephaniah",
+		"hag": "Haggai",
+		"zec": "Zechariah",
+		"mal": "Malachi",
+		"mat": ["Matthew", "The Gospel according to Matthew"],
+		"mrk": ["Mark", "The Gospel according to Mark"],
+		"luk": ["Luke", "The Gospel according to Luke"],
+		"jhn": ["John", "The Gospel according to John"],
+		"act": ["Acts", "The Acts of the Apostles"],
+		"rom": ["Romans", "The Letter of Paul to the Romans"],
+		"1co": ["1 Corinthians", "The First Letter of Paul to the Corinthians"],
+		"2co": ["2 Corinthians", "The Second Letter of Paul to the Corinthians"],
+		"gal": ["Galatians", "The Letter of Paul to the Galations"],
+		"eph": ["Ephesians", "The Letter of Paul to the Ephesians"],
+		"php": ["Philippians", "The Letter of Paul to the Philippians"],
+		"col": ["Colossians", "The Letter of Paul to the Colossians"],
+		"1th": ["1 Thessalonians", "The First Letter of Paul to the Thessalonians"],
+		"2th": ["2 Thessalonians", "The Second Letter of Paul to the Thessalonians"],
+		"1ti": ["1 Timothy", "The First Letter of Paul to Timothy"],
+		"2ti": ["2 Timothy", "The Second Letter of Paul to Timothy"],
+		"tit": ["Titus", "The Letter of Paul to Titus"],
+		"phm": ["Philemon", "The Letter of Paul to Philemon"],
+		"heb": ["Hebrews", "The Letter to the Hebrews"],
+		"jas": ["James", "The Letter of James"],
+		"1pe": ["1 Peter", "The First Letter of Peter"],
+		"2pe": ["2 Peter", "The Second Letter of Peter"],
+		"1jn": ["1 John", "The First Letter of John"],
+		"2jn": ["2 John", "The Second Letter of John"],
+		"3jn": ["3 John", "The Third Letter of John"],
+		"jud": ["Jude", "The Letter of Jude"],
+		"rev": {
+			"0": ["Revelation", "Relevation to John"],
+			"catholic": "Apocalypse"
+		},
+		"tob": "Tobit",
+		"jdt": "Judith",
+		"esg": "Esther Greek",
+		"wis": "Wisdom of Solomon",
+		"sir": ["Sirach", "Ecclesiasticus", "Jesus son of Sirach"],
+		"bar": "Baruch",
+		"lje": "Letter of Jeremiah",
+		"s3y": "Song of the 3 Young Men",
+		"sus": "Susanna",
+		"bel": "Bel and the Dragon",
+		"1ma": "1 Maccabees",
+		"2ma": "2 Maccabees",
+		"3ma": "3 Maccabees",
+		"4ma": "4 Maccabees",
+		"1es": "1 Esdras",
+		"2es": "2 Esdras",
+		"man": "Prayer of Manasseh",
+		"ps2": "Psalm 151",
+		"oda": ["Odae", "Odes"],
+		"pss": "Psalms of Solomon",
+		"eza": {
+			"0": "Ezra Apocalypse",
+			"armenian": "3 Ezra",
+			"ethiopian": "Ezra Shealtiel"
+		},
+		"5ez": "5 Ezra",
+		"6ez": "6 Ezra",
+		"dag": "Daniel Greek",
+		"ps3": "Psalms 152-155",
+		"2ba": {
+			"0": "2 Baruch (Apocalypse)",
+			"syriac": "The Apocalypse of Baruch"
+		},
+		"lba": "Letter of Baruch",
+		"jub": "Jubilees",
+		"eno": {
+			"0": "Enoch",
+			"ethiopian": "1 Enoch"
+		},
+		"1mq": {
+			"0": ["1 Meqabyan", "1 Mekabis"],
+			"ethiopian": "Book of Mekabis of Benjamin"
+		},
+		"2mq": {
+			"0": ["2 Meqabyan", "2 Mekabis"],
+			"ethiopian": "Book of Mekabis of Moab"
+		},
+		"3mq": {
+			"0": ["3 Meqabyan", "3 Mekabis"],
+			"ethiopian": "Book of Meqabyan"
+		},
+		"rep": {
+			"0": "Reproof",
+			"ethiopian": "Proverbs part 2"
+		},
+		"4ba": {
+			"0": "4 Baruch",
+			"ethiopian": "Rest of the Words of Baruch"
+		},
+		"lao": "Letter to the Laodiceans"
+	}
+}
