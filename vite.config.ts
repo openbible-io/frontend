@@ -1,74 +1,44 @@
 import { defineConfig } from 'vite';
-import solidPlugin from 'vite-plugin-solid';
-import solidSvg from 'vite-plugin-solid-svg';
+import deno from '@deno/vite-plugin';
+import preact from '@preact/preset-vite';
 import { execSync } from 'node:child_process';
+import { env } from 'node:process';
+import sources from './src/sources.ts';
 
 const envPrefix = 'OPENBIBLE_';
-const staticProd = 'https://static.openbible.io';
-const staticStaging = 'https://static2.openbible.io';
-
-export default defineConfig(async ({ mode }) => {
-	setEnv('COMMIT', getCommit());
-	setEnv('COMMIT_DATE', getCommitDate());
-	console.log('mode', mode);
-	if (mode == 'master') {
-		setEnv('STATIC_URL', staticProd);
-	} else {
-		await setStatic(['http://localhost:3003', staticStaging]);
-	}
-
-	return {
-		plugins: [
-			solidPlugin(),
-			solidSvg(),
-		],
-		server: {
-			port: 3333,
-			headers: {
-				'Cross-Origin-Opener-Policy': 'same-origin',
-				'Cross-Origin-Embedder-Policy': 'require-corp',
-			},
-		},
-		build: {
-			target: 'esnext',
-			rollupOptions: {
-				output: {
-					manualChunks(id: string) {
-						if (id.includes('node_modules')) return 'vendor';
-					}
-				}
-			}
-		},
-		envPrefix,
-	};
-});
-
 function setEnv(key: string, value: string) {
-	process.env[`${envPrefix}${key}`] = value;
+	env[`${envPrefix}${key}`] = value;
 }
-
 function getCommit() {
 	const sha = execSync(`git rev-parse HEAD`);
 	return sha.toString().trim();
 }
-
 function getCommitDate() {
-	const date = execSync(`git show --no-patch --format=%cd --date=format:'%Y-%m-%d'`);
+	const date = execSync(
+		`git show --no-patch --format=%cd --date=format:'%Y-%m-%d'`,
+	);
 	return date.toString().trim();
 }
+setEnv('COMMIT', getCommit());
+setEnv('COMMIT_DATE', getCommitDate());
+setEnv(
+	'VERSIONS_HTML',
+	Object.values(sources)
+		.map(({ title, url }) => `<li><a href="${url}">${title}</a></li>`)
+		.join(''),
+);
 
-async function setStatic(options: string[]) {
-	for (let url of options) {
-		try {
-			await fetch(url);
-			setEnv('STATIC_URL', url);
-			console.log('STATIC_URL', url);
-			return;
-		} catch {}
-	}
-
-	console.error('none of these urls is resolving:', options);
-	console.error('try:');
-	console.error('git clone --submodules https://github.com/openbible-io/static');
-	console.error('cd static && npm run build && npm run serve');
-}
+export default defineConfig({
+	plugins: [deno(), preact()],
+	build: {
+		target: 'esnext',
+		rollupOptions: {
+			output: {
+				manualChunks(id: string) {
+					if (id.includes('node_modules')) return 'vendor';
+				},
+			},
+		},
+	},
+	envPrefix,
+});

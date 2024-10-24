@@ -1,33 +1,30 @@
-//! These are the enabled languages.
-import * as i18n from '@solid-primitives/i18n';
-// TODO: remove this as default. ship default from server based on client HTTP header
-import en from './i18n/eng.json';
+import eng from './i18n/eng.json';
+import spa from './i18n/spa.json';
+import heb from './i18n/heb.json';
+import { signal, computed } from '@preact/signals';
 
 // Browsers use https://datatracker.ietf.org/doc/html/rfc5646#section-2.2.1
 // We use https://www.loc.gov/standards/iso639-2/php/code_list.php
-const langs = {
-	"en": "eng",
-	"es": "spa",
-	"he": "heb",
+export const langs = {
+	eng,
+	spa,
+	heb,
 } as const;
 
-export type Language = typeof langs[keyof typeof langs];
-export const languages = Object.values(langs) as Language[];
-export const defaultDict = en;
+export type Language = keyof typeof langs;
+export type Dictionary = typeof langs['eng'];
 
-export type Locale = typeof languages[number];
-export type RawDictionary = typeof en;
-export type Dictionary = i18n.Flatten<RawDictionary>;
-
-export async function fetchTranslator(locale: Locale) {
-	const dict: RawDictionary = await import(`./i18n/${locale}.json`);
-	return i18n.translator(() => dict);
-}
-
-export function navigatorLang(): Locale {
-	const alpha = navigator.language?.split('-')[0];
+function navigatorLang(): Language {
 	// Spec allows 3 letter codes.
-	if (languages.includes(alpha as Language)) return alpha as Language;
+	for (const e of Object.entries(langs)) {
+		const [id, dict] = e;
+		const re = new RegExp(dict['2letter']);
+		if (re.test(navigator.language)) return id;
+	}
 
-	return langs[alpha as keyof typeof langs] ?? 'eng';
+	return 'eng';
 }
+
+export const lang = signal(navigatorLang());
+const dict = computed(() => langs[lang.value]);
+export default dict;
