@@ -1,10 +1,10 @@
-import { JSX, createEffect, createSignal, Switch, Match } from 'solid-js';
+import { createEffect, createSignal, JSX, Match, Switch } from "solid-js";
 
 interface ControlProps<T> {
 	id: string;
 	getter: () => T;
 	setter: (v: T) => void;
-};
+}
 export type Control<T> = (props: ControlProps<T>) => JSX.Element;
 
 export function String<T extends string>(props: ControlProps<T>) {
@@ -12,7 +12,7 @@ export function String<T extends string>(props: ControlProps<T>) {
 		<input
 			id={props.id}
 			value={props.getter()}
-			onInput={ev => props.setter(ev.target.value as T)}
+			onInput={(ev) => props.setter(ev.target.value as T)}
 		/>
 	);
 }
@@ -23,7 +23,7 @@ export function Color<T extends string>(props: ControlProps<T>) {
 			id={props.id}
 			type="color"
 			value={props.getter()}
-			onInput={ev => props.setter(ev.target.value as T)}
+			onInput={(ev) => props.setter(ev.target.value as T)}
 		/>
 	);
 }
@@ -31,17 +31,23 @@ export function Color<T extends string>(props: ControlProps<T>) {
 export function select(options: readonly string[]) {
 	return function Select<T extends string>(props: ControlProps<T>) {
 		return (
-			<select id={props.id} value={props.getter()} onChange={ev => props.setter(ev.target.value as T)}>
-				{options.map(o => <option>{o}</option>)}
+			<select
+				id={props.id}
+				value={props.getter()}
+				onChange={(ev) => props.setter(ev.target.value as T)}
+			>
+				{options.map((o) => <option>{o}</option>)}
 			</select>
 		);
-	}
+	};
 }
 
 export function length(suffixes: readonly string[]) {
 	return function Length<T extends string>(props: ControlProps<T>) {
 		const [prefix, setPrefix] = createSignal(Number.parseFloat(props.getter()));
-		const [suffix, setSuffix] = createSignal(props.getter().replace(prefix().toString(), ''));
+		const [suffix, setSuffix] = createSignal(
+			props.getter().replace(prefix().toString(), ""),
+		);
 
 		createEffect(() => props.setter(`${prefix()}${suffix()}` as T));
 
@@ -51,7 +57,7 @@ export function length(suffixes: readonly string[]) {
 					id={props.id}
 					type="number"
 					value={prefix()}
-					onChange={ev => setPrefix(+ev.target.value)}
+					onChange={(ev) => setPrefix(+ev.target.value)}
 					min={0}
 				/>
 				<Switch>
@@ -59,15 +65,15 @@ export function length(suffixes: readonly string[]) {
 						<input
 							width={4}
 							value={suffix()}
-							onInput={ev => setSuffix(ev.target.value)}
+							onInput={(ev) => setSuffix(ev.target.value)}
 						/>
 					</Match>
 					<Match when={suffixes.length == 1}>
 						<span>{suffixes[0]}</span>
 					</Match>
 					<Match when={suffixes.length > 1}>
-						<select onChange={ev => setSuffix(ev.target.value)}>
-							{suffixes.map(s => <option>{s}</option>)}
+						<select onChange={(ev) => setSuffix(ev.target.value)}>
+							{suffixes.map((s) => <option>{s}</option>)}
 						</select>
 					</Match>
 				</Switch>
@@ -83,8 +89,9 @@ export function checkbox(checkedValue: string, uncheckedValue: string) {
 				id={props.id}
 				type="checkbox"
 				checked={props.getter() != uncheckedValue}
-				onInput={ev => props.setter(ev.target.checked ? checkedValue : uncheckedValue)}
+				onInput={(ev) =>
+					props.setter(ev.target.checked ? checkedValue : uncheckedValue)}
 			/>
 		);
-	}
+	};
 }

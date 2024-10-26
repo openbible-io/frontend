@@ -2,6 +2,7 @@
   "version": "4",
   "specifiers": {
     "jsr:@openbible/bsb@0.1.32": "0.1.32",
+    "jsr:@openbible/core@0.1.20": "0.1.20",
     "jsr:@openbible/core@~0.1.19": "0.1.19",
     "npm:@babel/plugin-transform-react-jsx-development@^7.22.5": "7.25.9_@babel+core@7.25.9",
     "npm:@babel/plugin-transform-react-jsx-development@^7.25.9": "7.25.9_@babel+core@7.25.9",
@@ -14,16 +15,23 @@
     "npm:babel-plugin-transform-hook-names@^1.0.2": "1.0.2_@babel+core@7.25.9",
     "npm:create-vite-extra@latest": "2.4.1",
     "npm:preact@^10.24.3": "10.24.3",
+    "npm:simple-worker-vite@0.3": "0.3.0",
     "npm:tinybase@^5.3.5": "5.3.5",
     "npm:vite@*": "5.4.9_@types+node@18.16.19",
     "npm:vite@^5.4.9": "5.4.9_@types+node@18.16.19"
   },
   "jsr": {
     "@openbible/bsb@0.1.32": {
-      "integrity": "6b3995c9ef9636021cdc403b7acbf2c2e09af7b2f86b72b567a9a5b867acd155"
+      "integrity": "6b3995c9ef9636021cdc403b7acbf2c2e09af7b2f86b72b567a9a5b867acd155",
+      "dependencies": [
+        "jsr:@openbible/core@0.1.20"
+      ]
     },
     "@openbible/core@0.1.19": {
       "integrity": "3fa56a7e8808dc3af7dfa5d0de103beca1040da6ca86bb587b931aa3e04aebfe"
+    },
+    "@openbible/core@0.1.20": {
+      "integrity": "5441d77744bea757e58d823a9bfde0fb0247762d19891638274525fc61f9a550"
     }
   },
   "npm": {
@@ -671,6 +679,9 @@
     "semver@6.3.1": {
       "integrity": "sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA=="
     },
+    "simple-worker-vite@0.3.0": {
+      "integrity": "sha512-CLoewdt8SiXA/GbbcHC+pcmdk3miY45AJj+b3HQYoglhEuqjkplFd83ftR8GW3YkXd17M+B62bVNMS7Zh30MDg=="
+    },
     "sisteransi@1.0.5": {
       "integrity": "sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg=="
     },
@@ -725,6 +736,7 @@
       "npm:@preact/preset-vite@^2.9.1",
       "npm:@preact/signals@^1.3.0",
       "npm:preact@^10.24.3",
+      "npm:simple-worker-vite@0.3",
       "npm:tinybase@^5.3.5",
       "npm:vite@^5.4.9"
     ]

@@ -1,56 +1,54 @@
-import type { Publication } from '@openbible/core';
-import { render } from 'preact';
-import {createStore} from 'tinybase';
+import type { Publication } from "@openbible/core";
+import { render } from "preact";
 //import { Router, Route, RouteSectionProps } from '@solidjs/router';
 //import { Home } from './pages/home';
 //import { NotFound } from './pages/404';
 //import { Context, values } from './settings/values';
-import sources from './sources.ts';
-import i18n, { lang } from './i18n.ts';
-import './app.css';
+import sources from "./sources.ts";
+import i18n, { lang } from "./i18n.ts";
+import "./app.css";
+import MyWorker from "./workers/service.ts?sharedworker&url";
 
-const store = createStore();
-window.store = store;
-store.setTablesSchema({
+const defaultPub = Object.values(sources).find((v) => v.lang == lang.value) ??
+	sources.bsb;
+
+let refreshing = false;
+navigator.serviceWorker.addEventListener('controllerchange', () => {
+	console.log('controllerchange');
+	if (refreshing) return;
+	refreshing = true;
+	location.reload();
 });
 
-const defaultPub = Object.values(sources).find(v => v.lang == lang) ?? sources.bsb;
+try {
+	const registration = await navigator.serviceWorker.register(MyWorker, {
+		type: "module",
+		scope: "/",
+	});
+	await navigator.serviceWorker.ready;
+	if (!registration.active) throw Error('Failed installing service worker');
 
-type Task = {
-	name: string,
-	worker(): Promise<void>,
-	state?: 'waiting' | 'running' | 'completed' | Error,
-	deps?: Task[],
-};
-
-async function run(task: Task) {
-	console.log(task.name);
-	task.state = 'running';
-	try {
-		await task.worker();
-	} catch (e) {
-		console.error(e);
-		task.state = e;
-		return;
-	}
-	task.state = 'completed';
-	(task.deps ?? []).forEach(run);
+	const links = [...document.head.querySelectorAll('link[href]')].map(e => (e as HTMLLinkElement).href);
+	const scripts = [...document.head.querySelectorAll('script[src]')].map(e => (e as HTMLScriptElement).src);
+	registration.active.postMessage({ type: "cache", hrefs: links.concat(scripts) });
+} catch (error) {
+	console.error(`Registration failed with ${error}!`);
 }
 
 function Main() {
-	run({
-		name: `${i18n.value.downloading} ${defaultPub.title}`,
-		async worker() {
-			const url = `${defaultPub.url}/all`;
-			console.log('fetching', url);
-			const resp = await fetch(url);
-			const html = await resp.text();
-			console.log('parsing');
-			const parser = new DOMParser();
-			window.parsed = parser.parseFromString(html, 'text/html');
-			console.log(window.parsed);
-		},
-	});
+	//run({
+	//	name: `${i18n.value.downloading} ${defaultPub.title}`,
+	//	async worker() {
+	//		const url = `${defaultPub.url}/all`;
+	//		console.log('fetching', url);
+	//		const resp = await fetch(url);
+	//		const html = await resp.text();
+	//		console.log('parsing');
+	//		const parser = new DOMParser();
+	//		window.parsed = parser.parseFromString(html, 'text/html');
+	//		console.log(window.parsed);
+	//	},
+	//});
 	return (
 		<div>hello</div>
 		//<Context.Provider value={values()}>

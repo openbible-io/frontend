@@ -4,7 +4,9 @@
 
 "preserve_hierarchy": true
 
-"files": [{
-  "source": "eng.json",
-  "translation": "%three_letters_code%.json"
-}]
+"files": [
+  {
+    "source": "eng.json",
+    "translation": "%three_letters_code%.json",
+  },
+]

@@ -1,11 +1,12 @@
-import { defineConfig } from 'vite';
-import deno from '@deno/vite-plugin';
-import preact from '@preact/preset-vite';
-import { execSync } from 'node:child_process';
-import { env } from 'node:process';
-import sources from './src/sources.ts';
+import { defineConfig } from "vite";
+import deno from "@deno/vite-plugin";
+import preact from "@preact/preset-vite";
+import { execSync } from "node:child_process";
+import { env } from "node:process";
 
-const envPrefix = 'OPENBIBLE_';
+import sources from "./src/sources.ts";
+
+const envPrefix = "OPENBIBLE_";
 function setEnv(key: string, value: string) {
 	env[`${envPrefix}${key}`] = value;
 }
@@ -19,26 +20,47 @@ function getCommitDate() {
 	);
 	return date.toString().trim();
 }
-setEnv('COMMIT', getCommit());
-setEnv('COMMIT_DATE', getCommitDate());
+setEnv("COMMIT", getCommit());
+setEnv("COMMIT_DATE", getCommitDate());
 setEnv(
-	'VERSIONS_HTML',
+	"VERSIONS_HTML",
 	Object.values(sources)
 		.map(({ title, url }) => `<li><a href="${url}">${title}</a></li>`)
-		.join(''),
+		.join(""),
 );
+setEnv('CACHE_FOREVER_REGEX', '-\\w{8}\\.[^.]*$');
 
 export default defineConfig({
 	plugins: [deno(), preact()],
 	build: {
-		target: 'esnext',
+		target: "esnext",
 		rollupOptions: {
 			output: {
+				 /** Must match CACHE_FOREVER_REGEX { */
+				hashCharacters: 'base36',
+				assetFileNames: "assets/[name]-[hash:8][extname]",
+				/** } */
+				// These rarely change.
 				manualChunks(id: string) {
-					if (id.includes('node_modules')) return 'vendor';
+					if (id.includes("node_modules")) return "vendor";
 				},
 			},
 		},
 	},
 	envPrefix,
+	// This following is so that we can put service workers under `src` but have the browser allow
+	// them to register under { scope: `/` }
+	server: {
+		headers: {
+			"Service-Worker-Allowed": "/",
+		},
+	},
+	worker: {
+		format: "es",
+		rollupOptions: {
+			output: {
+				entryFileNames: "[name].worker.js",
+			},
+		},
+	},
 });

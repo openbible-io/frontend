@@ -2,7 +2,9 @@ html {
 	--primary-text-color: #3b4351;
 	--primary-background-color: #f2f2f2;
 	--primary-theme-color: #0b8dc4;
-	--reader-font-family: "Libre Baskerville", "Sentinel A", "Sentinel B", "Gentium Plus", Ezra, Georgia, Times, sans-serif;
+	--reader-font-family:
+		"Libre Baskerville", "Sentinel A", "Sentinel B", "Gentium Plus", Ezra,
+		Georgia, Times, sans-serif;
 	--reader-font-size: 24px;
 	--reader-padding: 0.8rem;
 	--chapter-number-display: flex; /* none */
@@ -83,9 +85,21 @@ body {
 	color: var(--primary-text-color);
 	background-color: var(--primary-background-color);
 }
-h1 { font-size: 1.6em; }
-h2 { font-size: 1.5em; }
-h3 { font-size: 1.4em; }
-h4 { font-size: 1.3em; }
-h5 { font-size: 1.2em; }
-h6 { font-size: 1.1em; }
+h1 {
+	font-size: 1.6em;
+}
+h2 {
+	font-size: 1.5em;
+}
+h3 {
+	font-size: 1.4em;
+}
+h4 {
+	font-size: 1.3em;
+}
+h5 {
+	font-size: 1.2em;
+}
+h6 {
+	font-size: 1.1em;
+}
