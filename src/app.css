@@ -103,3 +103,7 @@ h5 {
 h6 {
 	font-size: 1.1em;
 }
+blockquote {
+	padding-left: 1em;
+	border-left: 3px solid #c1c1c1;
+}
