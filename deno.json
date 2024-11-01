@@ -5,6 +5,7 @@
 		"serve": "deno run -A --node-modules-dir npm:vite preview"
 	},
 	"imports": {
+		"@babel/plugin-syntax-import-attributes": "npm:@babel/plugin-syntax-import-attributes@^7.26.0",
 		"@deno/vite-plugin": "npm:@deno/vite-plugin@^1.0.0",
 		"@openbible/bsb": "jsr:@openbible/bsb@0.1.38",
 		"@openbible/core": "jsr:@openbible/core@^0.1.19",

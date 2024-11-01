@@ -1,5 +1,6 @@
 import { useEffect, useState } from "preact/hooks";
 import { type ComponentChildren } from "preact";
+// @ts-types="./types/css-modules.d.ts"
 import styles from "./dropdown.module.css";
 
 interface DropdownProps {
@@ -13,7 +14,7 @@ export default function Dropdown(props: DropdownProps) {
 		const close = () => setOpen(false);
 		document.addEventListener("click", close);
 
-		return () => document.removeEventListener('click', close);
+		return () => document.removeEventListener("click", close);
 	}, []);
 
 	function onClick(ev: MouseEvent) {

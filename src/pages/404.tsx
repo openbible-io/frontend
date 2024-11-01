@@ -1,5 +1,7 @@
+import { useDict } from "../i18n.ts";
+
 export default function NotFound() {
-	return (
-		<div>404</div>
-	);
+	const dict = useDict();
+
+	return <h1>404 - {dict["404"]}</h1>;
 }

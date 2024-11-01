@@ -1,64 +1,51 @@
-import { createMergeableStore } from "tinybase";
-import { createBroadcastChannelSynchronizer } from "tinybase/synchronizers/synchronizer-broadcast-channel";
-import { default as publications, type Publication } from "../publications.ts";
-import type { Dictionary } from "../i18n.ts";
-import { parse } from "html5parser";
+import sharedInit from "../stores/shared.ts";
+import { type Publication } from "../publications.ts";
+import { type ITag, type IText, parse } from "html5parser";
+import Task, { type Opts as TaskOpts } from "../task.ts";
 
 declare const self: ServiceWorkerGlobalScope;
 const cacheId = "v1";
 
-/** Non-document state. */
-const store = createMergeableStore();
-const sync = createBroadcastChannelSynchronizer(store, "store");
+const shared = sharedInit();
 
-function setState(verb?: keyof Dictionary, object?: string) {
-	store.setValue("verb", verb ?? "");
-	store.setValue("object", object ?? "");
-}
-
-// Run for very first time
-// Persistent DB init
-self.addEventListener("install", (ev) => {
+// Run for very first time.
+self.addEventListener("install", () => {
 	console.log("install");
 	// The promise that skipWaiting() returns can be safely ignored.
 	self.skipWaiting();
-	ev.waitUntil(async function install() {
-		const cache = await caches.open(cacheId);
-		await cache.add("/");
-	}());
 });
 
-async function deleteOldCaches() {
-	const keys = await caches.keys();
-	await Promise.all(keys.filter((k) => k != cacheId).map(caches.delete));
+function newTask(name: string, opts?: TaskOpts) {
+	return new Task(shared, "service", name, opts);
 }
 
-// All pages controlled by old version are gone
-// Delete old version persistent DB
-self.addEventListener("activate", (ev) => {
-	console.log("activate");
-	ev.waitUntil((async () => {
-		await deleteOldCaches();
-		await sync.startSync();
-	})());
-});
-
 async function cacheNew(urls: RequestInfo[]) {
+	const task = newTask("caching", {
+		total: urls.length,
+		directObject: "URLs",
+	});
+
 	const c = await caches.open(cacheId);
 	const uncached: RequestInfo[] = [];
 	for (const u of urls) {
-		if (!await c.match(u)) uncached.push(u);
+		if (!await c.match(u)) {
+			uncached.push(u);
+		} else {
+			task.cur++;
+		}
 	}
-	return c.addAll(uncached);
+
+	task.do(uncached, (u) => c.add(u));
 }
 
 async function addPub(pub: Publication) {
+	let task = newTask("downloading", {
+		directObject: pub.title,
+		total: pub.size,
+	});
 	const url = `${pub.url}/all`;
-	console.log("fetching", url);
 	const resp = await fetch(url);
 	const reader = resp.body!.getReader();
-
-	const contentLength = pub.size;
 
 	let receivedLength = 0;
 	const chunks: Uint8Array[] = [];
@@ -69,44 +56,49 @@ async function addPub(pub: Publication) {
 		chunks.push(value);
 		receivedLength += value.length;
 
-		console.log(`Received ${receivedLength} of ${contentLength}`);
+		task.cur = receivedLength;
 	}
 
+	task = newTask("parsing", {
+		directObject: pub.title,
+	});
+	task.status = "merging chunks";
 	const chunksAll = new Uint8Array(receivedLength);
 	let position = 0;
 	for (const chunk of chunks) {
-		chunksAll.set(chunk, position); // (4.2)
+		chunksAll.set(chunk, position);
 		position += chunk.length;
 	}
 
+	task.status = "decoding utf-8";
 	const html = new TextDecoder("utf-8").decode(chunksAll);
-	console.log("parsing", html.length);
+	task.status = "parsing html";
 	const ast = parse(html);
+	if (
+		ast?.[0].type != "Tag" || ast?.[0].body?.length != 2 ||
+		!Array.isArray((ast?.[0].body?.[1] as ITag)?.body)
+	) throw Error("Invalid publication data");
 
-	//const doc1 = new Doc();
-	//const store1 = createStore();
-	//const persister1 = createYjsPersister(store1, doc1);
-	//await persister1.startAutoLoad();
-	//await persister1.startAutoSave();
+	const body = (ast[0].body[1] as ITag).body as (IText | ITag)[];
+	task.status = "converting html";
+	task.total = body.length;
+	for (let i = 0; i < body.length; i++) {
+		if (i % 100 == 0) task.cur = i;
+	}
+	task.setDone();
 }
 
 self.addEventListener("message", (ev) => {
-	console.log("msg", ev.data);
 	switch (ev.data.type) {
 		case "cache":
 			// The browser doesn't trust "cache forever" headers when offline.
-			setState("downloading", ev.data.hrefs.join(" "));
-			cacheNew(ev.data.hrefs).then(() => setState());
+			cacheNew(ev.data.hrefs);
 			break;
 		case "add":
-			setState("downloading", ev.data.pub.title);
-			addPub(ev.data.pub as Publication).then(() => setState());
-			break;
-		case "test":
-			console.log(ev.data.test);
+			addPub(ev.data.pub as Publication);
 			break;
 		default:
-			throw Error("Handle message " + ev.data.type);
+			throw Error("Unknown message " + ev.data.type);
 	}
 });
 

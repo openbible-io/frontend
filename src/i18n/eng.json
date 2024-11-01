@@ -5,9 +5,15 @@
 		"spa": "Spanish",
 		"heb": "Hebrew"
 	},
-	"downloading": "Downloading",
-	"caching": "Caching",
-	"404": "Not Found",
-	"service worker": "service worker",
-	"this page": "this page"
+	"verbs": {
+		"loading": "Loading {}",
+		"downloading": "Downloading {}",
+		"parsing": "Parsing {}",
+		"caching": "Caching {}"
+	},
+	"nouns": {
+		"assets": "assets",
+		"service worker": "service worker"
+	},
+	"404": "Not Found"
 }

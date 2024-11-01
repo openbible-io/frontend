@@ -1,4 +1,4 @@
-import Editor from '../editor.tsx';
+import Editor from "../editor.tsx";
 
 interface ReaderPageProps {
 	pub: string;
@@ -6,9 +6,7 @@ interface ReaderPageProps {
 }
 
 export default function ReaderPage(props: ReaderPageProps) {
-	console.log('make doc model + fetch', props);
+	console.log("make doc model + fetch", props);
 
-	return (
-		<Editor toolbar />
-	);
+	return <Editor toolbar />;
 }

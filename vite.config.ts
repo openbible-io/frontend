@@ -31,7 +31,12 @@ setEnv(
 setEnv('CACHE_FOREVER_REGEX', '-\\w{8}\\.[^.]*$');
 
 export default defineConfig({
-	plugins: [deno(), preact()],
+	plugins: [deno(), preact({
+		prefreshEnabled: false, // It ignores the below plugin :(
+		babel: {
+			plugins: ['@babel/plugin-syntax-import-attributes']
+		},
+	})],
 	build: {
 		target: "esnext",
 		rollupOptions: {
@@ -46,6 +51,7 @@ export default defineConfig({
 					if (id.includes("node_modules/tinybase")) return "tinybase";
 					if (id.match(/node_modules\/@?preact/)) return "preact";
 					if (id.includes("node_modules/preact-iso")) return "preact-iso";
+					if (id.match(/node_modules\/[prosemirror|w3c-keyname|rope-sequence]/)) return 'prosemirror';
 					if (id.includes("node_modules")) {
 						console.warn('TODO: map to chunk', id);
 						return "vendor";

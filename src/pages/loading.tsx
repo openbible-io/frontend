@@ -1,20 +1,49 @@
-import i18n from "../i18n.ts";
-import {useValue} from 'tinybase/ui-react';
-import publications from "../publications.ts";
-import kv from '../store.ts';
+import { template, useDict } from "../i18n.ts";
+import { useTable } from "tinybase/ui-react";
+import { Context as ServiceWorker } from "../workers.ts";
+import { useContext } from "preact/hooks";
+import { useStore } from "../stores/client.ts";
+
+function defaultTask(worker?: ServiceWorker) {
+	if (worker != undefined) return;
+	const installed = Boolean(navigator.serviceWorker.controller);
+	const id = "ui";
+	return {
+		[id]: {
+			id,
+			verb: `${installed ? "" : "down"}loading`,
+			directObject: "service worker",
+			thread: id,
+			cur: 0,
+			total: 1,
+			status: "",
+		},
+	};
+}
 
 export default function Loading() {
-	const lang = useValue('lang', kv);
-	const verb = useValue('verb', kv);
-	const object = useValue('object', kv);
-	console.log({ lang, verb, object });
+	const dict = useDict();
+	const shared = useStore("shared");
+	const task = useTable("task", "shared");
+	const worker = useContext(ServiceWorker);
 
-			//<div>{i18n.value[state.verb]} {i18n.value[state.object as '2letter'] ?? state.object}</div>
 	return (
 		<div>
-			<pre>
-				{JSON.stringify({ lang, verb, object })}
-			</pre>
+			<h1>{template(dict, "loading", "OpenBible")}</h1>
+			<ul>
+				{Object.values(defaultTask(worker) ?? task).map((t) => {
+					if (t.cur == t.total) {
+						setTimeout(() => shared?.delRow("task", t.id as string), 1000);
+					}
+					return (
+						<li>
+							<h2>{template(dict, t.verb, t.directObject)}</h2>
+							<div>{t.cur} / {t.total}</div>
+							<div>{t.status}</div>
+						</li>
+					);
+				})}
+			</ul>
 		</div>
 	);
 }
