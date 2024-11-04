@@ -1,8 +1,10 @@
 import { template, useDict } from "../i18n.ts";
 import { useTable } from "tinybase/ui-react";
 import { Context as ServiceWorker } from "../workers.ts";
-import { useContext } from "preact/hooks";
+import { useContext, useEffect, useState } from "preact/hooks";
 import { useStore } from "../stores/client.ts";
+import publications, { type Publication } from "../publications.ts";
+import { useLocation } from "preact-iso";
 
 function defaultTask(worker?: ServiceWorker) {
 	if (worker != undefined) return;
@@ -21,11 +23,34 @@ function defaultTask(worker?: ServiceWorker) {
 	};
 }
 
-export default function Loading() {
+export default function Init() {
 	const dict = useDict();
 	const shared = useStore("shared");
 	const task = useTable("task", "shared");
 	const worker = useContext(ServiceWorker);
+	const [id, setId] = useState('');
+	const [pub, setPub] = useState<Publication | undefined>();
+	const { route } = useLocation();
+
+	useEffect(() => {
+		if (!worker || !shared) return;
+
+		const lang = shared.getValue("lang");
+		const [id, pub] = Object.entries(publications).find(([_, v]) =>
+			v.lang == lang
+		) ?? ["bsb", publications.bsb];
+		setId(id);
+		setPub(pub);
+		worker.postMessage({ type: "add", pub });
+
+	}, [worker, shared]);
+
+	useEffect(() => {
+		console.log('task', task, id);
+		if (id && pub && Object.keys(task).length == 0) {
+			route(`/${id}/${Object.keys(pub.toc)[0]}`, true);
+		}
+	}, [task, id]);
 
 	return (
 		<div>

@@ -131,4 +131,5 @@ self.addEventListener("fetch", (ev) => {
 	ev.respondWith(strategy(ev.request));
 });
 
+// To please tsc
 export default "";

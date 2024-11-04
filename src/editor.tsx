@@ -31,8 +31,8 @@ export default function Editor(props: EditorProps) {
 		});
 		const newView = new EditorView({ mount: ref.current }, { state });
 		setView(newView);
+		setTimeout(() => newView.focus());
 
-		console.log(props.toolbar);
 		return () => newView.destroy();
 	}, [ref]);
 

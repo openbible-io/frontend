@@ -1,12 +1,16 @@
+import { useRoute } from "preact-iso";
 import Editor from "../editor.tsx";
+import Header from "../header.tsx";
 
-interface ReaderPageProps {
-	pub: string;
-	book: string;
-}
+export default function ReaderPage() {
+	const props = useRoute();
+	// TODO: redirect to download page if not downloaded
+	console.log("fetch + make doc model", props);
 
-export default function ReaderPage(props: ReaderPageProps) {
-	console.log("make doc model + fetch", props);
-
-	return <Editor toolbar />;
+	return (
+		<>
+			<Header />
+			<Editor toolbar />
+		</>
+	);
 }
