@@ -1,10 +1,6 @@
 {
 	"2letter": "^en(-|$)",
-	"languages": {
-		"eng": "English",
-		"spa": "Spanish",
-		"heb": "Hebrew"
-	},
+	"name": "English",
 	"verbs": {
 		"loading": "Loading {}",
 		"downloading": "Downloading {}",

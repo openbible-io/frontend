@@ -1,4 +1,4 @@
-import { createContext } from "preact";
+import { langs, href } from './i18n.ts';
 import serviceWorkerUrl from "./workers/service.ts?worker&url";
 
 export async function initService() {
@@ -12,7 +12,7 @@ export async function initService() {
 	await navigator.serviceWorker.ready;
 	if (!registration.active) throw Error("Failed installing service worker");
 
-	const hrefs: string[] = ["/"];
+	const hrefs: string[] = langs.map(href).concat("/");
 	for (const link of document.head.querySelectorAll("link[href]")) {
 		hrefs.push((link as HTMLLinkElement).href);
 	}
@@ -23,5 +23,3 @@ export async function initService() {
 
 	return registration.active;
 }
-
-export const Context = createContext<ServiceWorker | undefined>(undefined);

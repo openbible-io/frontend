@@ -1,12 +1,10 @@
 {
 	"2letter": "^es(-|$)",
-	"languages": {
-		"eng": "Inglés",
-		"spa": "Español",
-		"heb": "Hebreo"
-	},
+	"name": "Español",
 	"verbs": {
 		"downloading": "Descargando"
+	},
+	"nouns": {
 	},
 	"title": "OpenBible",
 	"404": "Extraviado"
