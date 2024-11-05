@@ -1,33 +1,34 @@
 {
 	"tasks": {
-		"dev": "deno run -A npm:vite dev",
-		"build": "deno run -A npm:vite build",
-		"preview": "deno run -A npm:vite preview"
+		"dev": "deno run -A ./build/index.ts --dev",
+		"build": "deno run -A ./build/index.ts"
 	},
 	"imports": {
 		"@deno/vite-plugin": "npm:@deno/vite-plugin@^1.0.0",
 		"@openbible/bsb": "jsr:@openbible/bsb@0.1.38",
 		"@openbible/core": "jsr:@openbible/core@^0.1.19",
-		"@sveltejs/vite-plugin-svelte": "npm:@sveltejs/vite-plugin-svelte@^4.0.0",
+		"filesize": "npm:filesize@^10.1.6",
 		"html5parser": "npm:html5parser@^2.0.2",
+		"magic-string": "npm:magic-string@^0.30.12",
+		"markdown-table": "npm:markdown-table@^3.0.4",
 		"prosemirror-commands": "npm:prosemirror-commands@^1.6.2",
 		"prosemirror-history": "npm:prosemirror-history@^1.4.1",
 		"prosemirror-keymap": "npm:prosemirror-keymap@^1.2.2",
 		"prosemirror-model": "npm:prosemirror-model@^1.23.0",
 		"prosemirror-state": "npm:prosemirror-state@^1.4.3",
 		"prosemirror-view": "npm:prosemirror-view@^1.35.0",
+		"rolldown": "npm:rolldown@^0.14.0",
+		"rollup-plugin-svelte": "npm:rollup-plugin-svelte@^7.2.2",
 		"svelte": "npm:svelte@^5.1.9",
 		"tinro": "npm:tinro@^0.6.12",
-		"tinybase": "npm:tinybase@^5.3.5",
-		"vite": "npm:vite@^5.4.9",
-		"vite-plugin-html": "npm:vite-plugin-html@^3.2.2"
+		"tinybase": "npm:tinybase@^5.3.5"
 	},
 	"fmt": {
 		"useTabs": true,
-		"exclude": ["dist", ".vite"]
+		"exclude": ["dist"]
 	},
 	"compilerOptions": {
-		"lib": ["dom", "esnext", "WebWorker", "dom.iterable"]
+		"lib": ["dom", "esnext", "WebWorker", "dom.iterable", "node"]
 	},
 	"nodeModulesDir": "auto"
 }
