@@ -1,35 +1,27 @@
 {
 	"tasks": {
-		"dev": "deno run -A --node-modules-dir npm:vite dev",
-		"build": "deno run -A --node-modules-dir npm:vite build",
-		"serve": "deno run -A --node-modules-dir npm:vite preview"
+		"dev": "deno run -A npm:vite dev",
+		"build": "deno run -A npm:vite build",
+		"preview": "deno run -A npm:vite preview"
 	},
 	"imports": {
-		"@babel/plugin-syntax-import-attributes": "npm:@babel/plugin-syntax-import-attributes@^7.26.0",
 		"@deno/vite-plugin": "npm:@deno/vite-plugin@^1.0.0",
 		"@openbible/bsb": "jsr:@openbible/bsb@0.1.38",
 		"@openbible/core": "jsr:@openbible/core@^0.1.19",
-		"@preact/preset-vite": "npm:@preact/preset-vite@^2.9.1",
-		"@preact/signals": "npm:@preact/signals@^1.3.0",
+		"@sveltejs/vite-plugin-svelte": "npm:@sveltejs/vite-plugin-svelte@^4.0.0",
 		"html5parser": "npm:html5parser@^2.0.2",
-		"preact": "npm:preact@^10.24.3",
-		"preact-iso": "npm:preact-iso@^2.8.1",
-		"prosemirror-commands": "npm:prosemirror-commands@^1.6.2",
-		"prosemirror-history": "npm:prosemirror-history@^1.4.1",
-		"prosemirror-keymap": "npm:prosemirror-keymap@^1.2.2",
-		"prosemirror-model": "npm:prosemirror-model@^1.23.0",
-		"prosemirror-state": "npm:prosemirror-state@^1.4.3",
-		"prosemirror-view": "npm:prosemirror-view@^1.35.0",
+		"svelte": "npm:svelte@^5.1.9",
+		"tinro": "npm:tinro@^0.6.12",
 		"tinybase": "npm:tinybase@^5.3.5",
-		"vite": "npm:vite@^5.4.9"
+		"vite": "npm:vite@^5.4.9",
+		"vite-plugin-html": "npm:vite-plugin-html@^3.2.2"
 	},
 	"fmt": {
 		"useTabs": true,
 		"exclude": ["dist", ".vite"]
 	},
 	"compilerOptions": {
-		"lib": ["dom", "esnext", "WebWorker", "dom.iterable"],
-		"jsx": "react-jsx",
-		"jsxImportSource": "preact"
-	}
+		"lib": ["dom", "esnext", "WebWorker", "dom.iterable"]
+	},
+	"nodeModulesDir": "auto"
 }
