@@ -1,10 +1,30 @@
-import { readFileSync } from "node:fs";
+/** @module
+ * Builds an HTML file per-language with injected strings, css, and scripts.
+ */
 import type { Plugin } from "rolldown";
-import publications from "../publications.ts";
-import langs from "../i18n/index.ts";
+import publications from "../shared/publications.ts";
+import langs from "../shared/i18n.ts";
+
+const htmlTemplate = `
+<!doctype html>
+<html lang="<%- lang %>">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="shortcut icon" href="/favicon.svg" />
+		<link rel="manifest" href="/manifest.json" />
+		<%- stylesheet %>
+		<title><%- title %></title>
+	</head>
+	<body>
+		<%- noscript %>
+		<div id="app"></div>
+		<%- script %>
+	</body>
+</html>
+`;
 
 export default function pluginHtml(): Plugin {
-	const htmlTemplate = readFileSync("./src/app.html", "utf8");
 	return {
 		name: "html",
 		async generateBundle(_, b) {

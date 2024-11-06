@@ -1,7 +1,9 @@
 import type { Plugin, SourceDescription } from "rolldown";
 import MagicString from "magic-string";
 
-export default function pluginReplace(replacements: Map<string, string>): Plugin {
+// TODO: replace with ReplacePlugin after source map support
+// https://github.com/rolldown/rolldown/issues/2057
+export default function pluginReplace(replacements: { [k: string]: string }): Plugin {
 	let sourcemap = false;
 
 	return {

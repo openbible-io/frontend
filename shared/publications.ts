@@ -1,4 +1,3 @@
-// This file must run in deno and the browser.
 import bsb from "@openbible/bsb";
 
 const publications = {

@@ -6,5 +6,6 @@ import App from "./app.svelte";
 //initService();
 
 const app = mount(App, { target: document.getElementById("app")! });
+console.log('asdf');
 
 export default app;
