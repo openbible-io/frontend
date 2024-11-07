@@ -119,15 +119,8 @@ async function networkThenCache(request: Request): Promise<Response> {
 	throw Error("Network offline and uncached: " + request.url);
 }
 
-const cacheForeverRe = new RegExp(
-	import.meta.env.OPENBIBLE_CACHE_FOREVER_REGEX,
-);
-
 self.addEventListener("fetch", (ev) => {
-	const strategy =
-		(import.meta.env.PROD && ev.request.url.match(cacheForeverRe))
-			? cacheThenNetwork
-			: networkThenCache;
+	const strategy = ev.request.url == "/" ? networkThenCache : cacheThenNetwork;
 	ev.respondWith(strategy(ev.request));
 });
 
