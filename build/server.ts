@@ -86,7 +86,7 @@ export const plugin: Plugin = {
 			const removed = Array.from(files.difference(newFiles));
 			const added = Array.from(newFiles.difference(files));
 			// Disk space isn't free.
-			removed.forEach(r => Deno.remove(join(dir, r)));
+			removed.forEach((r) => Deno.remove(join(dir, r)));
 			if (added.length || removed.length) {
 				emitter.emit("change", { removed, added });
 			}

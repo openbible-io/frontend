@@ -32,16 +32,19 @@ export default function pluginHtml(): Plugin {
 		async generateBundle(_, b) {
 			const output = Object.values(b);
 
-			const ul = `<ul>${Object.values(publications)
+			const ul = `<ul>${
+				Object.values(publications)
 					.map(({ title, url }) => `<li><a href="${url}">${title}</a></li>`)
 					.join("")
-				}</ul>`;
+			}</ul>`;
 
 			const scripts = output
 				.filter(({ fileName }) => fileName.endsWith(".js"))
-				.map(({ isEntry, fileName }) => isEntry
-					? `<script type="module" src="/${fileName}"></script>`
-					: `<link rel="modulepreload" href="/${fileName}">`)
+				.map(({ isEntry, fileName }) =>
+					isEntry
+						? `<script type="module" src="/${fileName}"></script>`
+						: `<link rel="modulepreload" href="/${fileName}">`
+				)
 				.join("\n\t\t");
 
 			const bundled = output.map((o) => o.fileName);

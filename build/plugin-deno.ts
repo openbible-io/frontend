@@ -10,12 +10,14 @@ import {
 
 export default function denoPlugin(): Plugin {
 	let cwd = Deno.cwd();
+	let sourcemap = false;
 	const cache = new Map<string, DenoResolveResult>();
 
 	return {
 		name: "deno",
-		renderStart(_, config) {
-			if (config.cwd) cwd = config.cwd;
+		renderStart(outputConfig, inputConfig) {
+			if (inputConfig.cwd) cwd = inputConfig.cwd;
+			sourcemap = Boolean(outputConfig.sourcemap);
 		},
 		async resolveId(id, importer) {
 			return await resolveViteSpecifier(id, cache, cwd, importer);
@@ -27,13 +29,11 @@ export default function denoPlugin(): Plugin {
 
 			const content = await Deno.readTextFile(resolved);
 			if (loader === "JavaScript") return content;
-			if (loader === "Json") {
-				return `export default ${content}`;
-			}
+			if (loader === "Json") return `export default ${content}`;
 
 			const result = transform(resolved, content, {
 				sourceType: "module",
-				sourcemap: true,
+				sourcemap,
 				lang: mediaTypeToLoader(loader),
 			});
 

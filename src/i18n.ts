@@ -1,5 +1,5 @@
-import useLocalStorage from './hooks/useLocalStorage.ts';
-import langs, { type Language, type Dictionary } from '../shared/i18n.ts';
+import useLocalStorage from "./hooks/useLocalStorage.ts";
+import langs, { type Dictionary, type Language } from "../shared/i18n.ts";
 
 export function template(res: string, args: Map<string, string>) {
 	Object.entries(args).forEach(([k, v]) => {
@@ -20,10 +20,10 @@ export function getLang(): Language {
 }
 
 export function useLang(): Language {
-	const [lang, _] = useLocalStorage<string>('lang', getLang());
-	if ((lang ?? '') in langs) return lang as Language;
+	const [lang, _] = useLocalStorage<string>("lang", getLang());
+	if ((lang ?? "") in langs) return lang as Language;
 
-	console.warn('unknown language', lang);
+	console.warn("unknown language", lang);
 	return getLang();
 }
 

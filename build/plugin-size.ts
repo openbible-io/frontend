@@ -29,7 +29,7 @@ export default {
 		const rows = [["fname", "raw", "gzip", "ratio"]];
 		for (const e of Object.entries(bundle)) {
 			const [k, v] = e;
-			if (k.endsWith('.map')) continue;
+			if (k.endsWith(".map")) continue;
 
 			const gzip = createGzip();
 			const raw = v.code ?? v.source ?? "";

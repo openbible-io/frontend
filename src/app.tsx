@@ -10,7 +10,7 @@ import { Context as ServiceWorker, initService } from "./workers.ts";
 import "./app.css";
 import { useLang } from "./i18n.ts";
 
-console.log('hello');
+console.log("hello");
 
 // Handle new service worker installation.
 // We store all view state in the service worker, so it's safe to refresh.
@@ -32,9 +32,9 @@ function App() {
 		//	setWorker(w);
 		//});
 
-		shared.addValueListener('lang', (_, __, newValue) => {
-			console.log('lang change', arguments);
-			localStorage.setItem('lang', newValue);
+		shared.addValueListener("lang", (_, __, newValue) => {
+			console.log("lang change", arguments);
+			localStorage.setItem("lang", newValue);
 		});
 	}, []);
 
@@ -55,4 +55,4 @@ function App() {
 	);
 }
 
-render(<App />, document.getElementById('app')!);
+render(<App />, document.getElementById("app")!);

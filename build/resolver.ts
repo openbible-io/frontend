@@ -1,6 +1,5 @@
 import { exec } from "node:child_process";
 import process from "node:process";
-import { execAsync } from "./utils.ts";
 
 export type DenoMediaType =
 	| "TypeScript"
@@ -55,24 +54,12 @@ function isResolveError(
 	return "error" in info && typeof info.error === "string";
 }
 
-let checkedDenoInstall = false;
 const DENO_BINARY = process.platform === "win32" ? "deno.exe" : "deno";
 
 export async function resolveDeno(
 	id: string,
 	cwd: string,
-): Promise<DenoResolveResult | null> {
-	if (!checkedDenoInstall) {
-		try {
-			await execAsync(`${DENO_BINARY} --version`, { cwd });
-			checkedDenoInstall = true;
-		} catch {
-			throw new Error(
-				`Deno binary could not be found. Install Deno to resolve this error.`,
-			);
-		}
-	}
-
+): Promise<DenoResolveResult | undefined> {
 	// There is no JS-API in Deno to get the final file path in Deno's
 	// cache directory. The `deno info` command reveals that information
 	// though, so we can use that.
@@ -83,7 +70,7 @@ export async function resolveDeno(
 		});
 	});
 
-	if (output === null) return null;
+	if (output === null) return;
 
 	const json = JSON.parse(output) as DenoInfoJsonV1;
 	const actualId = json.roots[0];
@@ -96,12 +83,10 @@ export async function resolveDeno(
 
 	// Find the module information based on the redirected speciffier
 	const mod = json.modules.find((info) => info.specifier === redirected);
-	if (mod === undefined) return null;
+	if (mod === undefined) return;
 
 	// Specifier not found by deno
-	if (isResolveError(mod)) {
-		return null;
-	}
+	if (isResolveError(mod)) return;
 
 	if (mod.kind === "esm") {
 		return {
@@ -111,12 +96,7 @@ export async function resolveDeno(
 			dependencies: mod.dependencies,
 		};
 	} else if (mod.kind === "npm") {
-		return {
-			id: mod.npmPackage,
-			kind: mod.kind,
-			loader: null,
-			dependencies: [],
-		};
+		return;
 	}
 
 	throw new Error(`Unsupported: ${JSON.stringify(mod, null, 2)}`);
@@ -153,16 +133,13 @@ export async function resolveViteSpecifier(
 	}
 
 	const resolved = cache.get(id) ?? await resolveDeno(id, root);
+	if (!resolved) return;
 
-	if (resolved == null || resolved.kind == "npm") return;
-
-	console.log(resolved);
 	cache.set(resolved.id, resolved);
 
-	// Vite can load this
-	if (resolved.loader === null) return resolved.id;
+	if (!resolved.loader) return resolved.id;
 
-	// We must load it
+	// Ours to load
 	return toDenoSpecifier(resolved.loader, id, resolved.id);
 }
 

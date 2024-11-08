@@ -3,7 +3,9 @@ import MagicString from "magic-string";
 
 // TODO: replace with ReplacePlugin after source map support
 // https://github.com/rolldown/rolldown/issues/2057
-export default function pluginReplace(replacements: { [k: string]: string }): Plugin {
+export default function pluginReplace(
+	replacements: { [k: string]: string },
+): Plugin {
 	let sourcemap = false;
 
 	return {
@@ -18,7 +20,7 @@ export default function pluginReplace(replacements: { [k: string]: string }): Pl
 
 			const s = new MagicString(code);
 			Object.entries(replacements).forEach(([k, v]) => {
-				const re = new RegExp(k, 'g');
+				const re = new RegExp(k, "g");
 				s.replace(re, v);
 			});
 			const res: SourceDescription = { code: s.toString() };

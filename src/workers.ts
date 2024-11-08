@@ -2,7 +2,7 @@ import { createContext } from "preact";
 
 export async function initService() {
 	const registration = await navigator.serviceWorker.register(
-		'/service.js',
+		"/service.js",
 		{
 			type: "module",
 			scope: "/",
@@ -23,4 +23,6 @@ export async function initService() {
 	return registration.active;
 }
 
-export const Context = createContext<ServiceWorker | undefined>(navigator.serviceWorker.controller!);
+export const Context = createContext<ServiceWorker | undefined>(
+	navigator.serviceWorker.controller!,
+);

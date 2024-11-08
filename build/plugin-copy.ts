@@ -13,7 +13,7 @@ async function doCopy(srcDir: string, dstDir: string) {
 
 export default function copyPlugin(paths: string[]): Plugin {
 	let cwd = Deno.cwd();
-	let outDir = '';
+	let outDir = "";
 	return {
 		name: "copy",
 		async renderStart(opts, inOpts) {
@@ -32,7 +32,7 @@ export default function copyPlugin(paths: string[]): Plugin {
 				const extPath = absPath.substring(baseDir.length);
 				const dst = join(outDir, extPath);
 
-				if (event == 'delete') {
+				if (event == "delete") {
 					await Deno.remove(dst);
 				} else {
 					await ensureDir(dirname(dst));

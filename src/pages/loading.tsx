@@ -28,7 +28,7 @@ export default function Init() {
 	const shared = useStore("shared");
 	const task = useTable("task", "shared");
 	const worker = useContext(ServiceWorker);
-	const [id, setId] = useState('');
+	const [id, setId] = useState("");
 	const [pub, setPub] = useState<Publication | undefined>();
 	const { route } = useLocation();
 
@@ -42,11 +42,10 @@ export default function Init() {
 		setId(id);
 		setPub(pub);
 		worker.postMessage({ type: "add", pub });
-
 	}, [worker, shared]);
 
 	useEffect(() => {
-		console.log('task', task, id);
+		console.log("task", task, id);
 		if (id && pub && Object.keys(task).length == 0) {
 			route(`/${id}/${Object.keys(pub.toc)[0]}`, true);
 		}
