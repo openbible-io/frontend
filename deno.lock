@@ -1,11 +1,11 @@
 {
   "version": "4",
   "specifiers": {
-    "jsr:@openbible/bsb@0.1.38": "0.1.38",
-    "jsr:@openbible/core@0.1.20": "0.1.20",
     "jsr:@std/fs@^1.0.5": "1.0.5",
     "jsr:@std/media-types@^1.0.3": "1.0.3",
     "jsr:@std/path@^1.0.7": "1.0.8",
+    "npm:@jsr/openbible__bsb@~0.1.38": "0.1.38",
+    "npm:@jsr/openbible__core@~0.1.20": "0.1.20",
     "npm:@types/node@*": "22.5.4",
     "npm:filesize@^10.1.6": "10.1.6",
     "npm:html5parser@^2.0.2": "2.0.2",
@@ -23,15 +23,6 @@
     "npm:tinybase@^5.3.5": "5.3.8"
   },
   "jsr": {
-    "@openbible/bsb@0.1.38": {
-      "integrity": "b480015516b3ce72290b2694e27f9ecfa713f11c3a93dcb989333f405a7b31a6",
-      "dependencies": [
-        "jsr:@openbible/core"
-      ]
-    },
-    "@openbible/core@0.1.20": {
-      "integrity": "5441d77744bea757e58d823a9bfde0fb0247762d19891638274525fc61f9a550"
-    },
     "@std/fs@1.0.5": {
       "integrity": "41806ad6823d0b5f275f9849a2640d87e4ef67c51ee1b8fb02426f55e02fd44e",
       "dependencies": [
@@ -102,6 +93,15 @@
         "@jridgewell/resolve-uri",
         "@jridgewell/sourcemap-codec"
       ]
+    },
+    "@jsr/openbible__bsb@0.1.38": {
+      "integrity": "sha512-wTn0vCMPL1C2BrcBSAWEUAqXdHLSdGqt47lZ9rbfzerAuW6MemWraTsHyYsziKMwk1dcR5Sb4w/QwA+ZlQEhPg==",
+      "dependencies": [
+        "@jsr/openbible__core"
+      ]
+    },
+    "@jsr/openbible__core@0.1.20": {
+      "integrity": "sha512-rLrjnR+gc+LBCxW6c+iMf973DDyebhOOWSFa0iXcVNW4V6G1G7z2/ecF9AKdEySr/97BkKsTrmWqeMit6ZMupg=="
     },
     "@napi-rs/wasm-runtime@0.2.5": {
       "integrity": "sha512-kwUxR7J9WLutBbulqg1dfOrMTwhMdXLdcGUhcbCcGwnPLt3gz19uHVdwH1syKVDbE022ZS2vZxOWflFLS0YTjw==",
@@ -802,8 +802,6 @@
   },
   "workspace": {
     "dependencies": [
-      "jsr:@openbible/bsb@0.1.38",
-      "jsr:@openbible/core@~0.1.19",
       "jsr:@std/fs@^1.0.5",
       "jsr:@std/media-types@^1.0.3",
       "npm:filesize@^10.1.6",
@@ -820,6 +818,12 @@
       "npm:rolldown@~0.14.0-snapshot-3912c3a-20241108003352",
       "npm:tailwindcss@^3.4.14",
       "npm:tinybase@^5.3.5"
-    ]
+    ],
+    "packageJson": {
+      "dependencies": [
+        "npm:@jsr/openbible__bsb@~0.1.38",
+        "npm:@jsr/openbible__core@~0.1.20"
+      ]
+    }
   }
 }

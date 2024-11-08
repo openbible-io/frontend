@@ -4,8 +4,6 @@
 		"dev": "deno task build --dev"
 	},
 	"imports": {
-		"@openbible/bsb": "jsr:@openbible/bsb@0.1.38",
-		"@openbible/core": "jsr:@openbible/core@^0.1.19",
 		"@std/fs": "jsr:@std/fs@^1.0.5",
 		"@std/media-types": "jsr:@std/media-types@^1.0.3",
 		"filesize": "npm:filesize@^10.1.6",

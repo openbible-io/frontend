@@ -1,6 +1,5 @@
 import { type RolldownOptions } from "rolldown";
 import { replacePlugin as replace } from "rolldown/experimental";
-import deno from "./plugin-deno.ts";
 import html from "./plugin-html.ts";
 import size from "./plugin-size.ts";
 import copy from "./plugin-copy.ts";
@@ -21,7 +20,6 @@ export default {
 			OPENBIBLE_VERSION_DATE: JSON.stringify(getVersionDate()),
 			"import.meta.env.DEV": dev.toString(),
 		}),
-		deno(),
 		html(),
 		copy(["public"]),
 		...(dev ? [servePlugin] : [size]),
