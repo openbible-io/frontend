@@ -4,7 +4,6 @@
 		"dev": "deno task build --dev"
 	},
 	"imports": {
-		"@deno/vite-plugin": "npm:@deno/vite-plugin@^1.0.0",
 		"@openbible/bsb": "jsr:@openbible/bsb@0.1.38",
 		"@openbible/core": "jsr:@openbible/core@^0.1.19",
 		"@std/fs": "jsr:@std/fs@^1.0.5",

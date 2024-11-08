@@ -16,13 +16,12 @@ export default {
 		"./src/workers/service.ts",
 	],
 	plugins: [
-		//preact,
-		deno(),
 		replace({
 			OPENBIBLE_VERSION: JSON.stringify(getVersion()),
 			OPENBIBLE_VERSION_DATE: JSON.stringify(getVersionDate()),
 			"import.meta.env.DEV": dev.toString(),
 		}),
+		deno(),
 		html(),
 		copy(["public"]),
 		...(dev ? [servePlugin] : [size]),

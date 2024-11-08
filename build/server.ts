@@ -45,17 +45,24 @@ export default {
 				headers: { "content-type": "text/event-stream" },
 			});
 		}
-		if (url.pathname == "/") url.pathname = "/index.html";
-		const path = join(dir, url.pathname);
+		let path = join(dir, url.pathname);
 
-		let filesize;
+		let stat;
 		try {
-			filesize = (await Deno.stat(path)).size;
+			stat = await Deno.stat(path);
+			if (!stat.isFile) throw Error(`${path} not a file`);
 		} catch (e) {
-			if (e instanceof Deno.errors.NotFound) {
-				return new Response(null, { status: 404 });
+			let status = 500;
+			path = join(dir, "index.html");
+			try {
+				stat = await Deno.stat(path);
+				if (!stat.isFile) throw Error(`${path} not a file`);
 			}
-			return new Response(null, { status: 500 });
+			catch (e2) {
+				if (e2 instanceof Deno.errors.NotFound) status = 404;
+				return new Response(`stat ${path}: ${e2}`, { status });
+			}
+			if (!stat) return new Response((e as Error).toString(), { status });
 		}
 
 		const ty = contentType(extname(path)) || "application/octet-stream";
@@ -69,7 +76,7 @@ export default {
 
 		return new Response(body, {
 			headers: {
-				"content-length": filesize.toString(),
+				"content-length": stat.size.toString(),
 				"content-type": ty,
 			},
 		});

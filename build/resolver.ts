@@ -102,7 +102,7 @@ export async function resolveDeno(
 	throw new Error(`Unsupported: ${JSON.stringify(mod, null, 2)}`);
 }
 
-export async function resolveViteSpecifier(
+export async function resolveDenoSpecifier(
 	id: string,
 	cache: Map<string, DenoResolveResult>,
 	root: string,
@@ -114,6 +114,8 @@ export async function resolveViteSpecifier(
 	} catch {
 		return;
 	}
+	// Let nodeModulesDir: "auto" handle it.
+	if (id.startsWith('npm:')) return;
 
 	if (importer && isDenoSpecifier(importer)) {
 		const { resolved: parent } = parseDenoSpecifier(importer);

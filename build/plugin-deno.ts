@@ -5,9 +5,10 @@ import {
 	type DenoResolveResult,
 	isDenoSpecifier,
 	parseDenoSpecifier,
-	resolveViteSpecifier,
+	resolveDenoSpecifier,
 } from "./resolver.ts";
 
+// This is needed to resolve JSR deps.
 export default function denoPlugin(): Plugin {
 	let cwd = Deno.cwd();
 	let sourcemap = false;
@@ -20,7 +21,7 @@ export default function denoPlugin(): Plugin {
 			sourcemap = Boolean(outputConfig.sourcemap);
 		},
 		async resolveId(id, importer) {
-			return await resolveViteSpecifier(id, cache, cwd, importer);
+			return await resolveDenoSpecifier(id, cache, cwd, importer);
 		},
 		async load(id) {
 			if (!isDenoSpecifier(id)) return;

@@ -27,10 +27,10 @@ function App() {
 	const shared = useCreateStore(() => sharedInit().setValues({ lang }));
 	const [worker, setWorker] = useState<ServiceWorker>();
 	useEffect(() => {
-		//initService().then((w) => {
-		//	if (import.meta.env.DEV) console.log(w);
-		//	setWorker(w);
-		//});
+		initService().then((w) => {
+			if (import.meta.env.DEV) console.log(w);
+			setWorker(w);
+		});
 
 		shared.addValueListener("lang", (_, __, newValue) => {
 			console.log("lang change", arguments);
