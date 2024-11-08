@@ -1,5 +1,5 @@
 import { useValue } from "../stores/client.ts";
-import publications from '../publications.ts';
+import publications from '../../shared/publications.ts';
 import Redirect from '../redirect.tsx';
 
 export default function Landing() {

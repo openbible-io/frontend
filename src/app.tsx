@@ -10,6 +10,8 @@ import { Context as ServiceWorker, initService } from "./workers.ts";
 import "./app.css";
 import { useLang } from "./i18n.ts";
 
+console.log('hello');
+
 // Handle new service worker installation.
 // We store all view state in the service worker, so it's safe to refresh.
 let refreshing = false;
@@ -25,10 +27,10 @@ function App() {
 	const shared = useCreateStore(() => sharedInit().setValues({ lang }));
 	const [worker, setWorker] = useState<ServiceWorker>();
 	useEffect(() => {
-		initService().then((w) => {
-			if (import.meta.env.DEV) console.log(w);
-			setWorker(w);
-		});
+		//initService().then((w) => {
+		//	if (import.meta.env.DEV) console.log(w);
+		//	setWorker(w);
+		//});
 
 		shared.addValueListener('lang', (_, __, newValue) => {
 			console.log('lang change', arguments);
@@ -53,4 +55,4 @@ function App() {
 	);
 }
 
-render(<App />, document.body);
+render(<App />, document.getElementById('app')!);

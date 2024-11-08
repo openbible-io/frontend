@@ -1,7 +1,5 @@
 import { useEffect, useState } from "preact/hooks";
 import { type ComponentChildren } from "preact";
-// @ts-types="./types/css-modules.d.ts"
-import styles from "./dropdown.module.css";
 
 interface DropdownProps {
 	button: ComponentChildren;
@@ -23,12 +21,12 @@ export default function Dropdown(props: DropdownProps) {
 	}
 
 	return (
-		<div class={styles.container} onClick={onClick}>
+		<div class="relative inline-block" onClick={onClick}>
 			<button>
 				{props.button}
 			</button>
 			{open && (
-				<div class={styles.drop}>
+				<div class="absolute z-10">
 					{props.children}
 				</div>
 			)}

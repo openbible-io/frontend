@@ -1,3 +1,5 @@
+// This file must run in deno and the browser.
+
 // Browsers use https://datatracker.ietf.org/doc/html/rfc5646#section-2.2.1
 // We use https://www.loc.gov/standards/iso639-2/php/code_list.php
 const langs = {

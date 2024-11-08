@@ -1,7 +1,6 @@
 import { type RolldownOptions } from "rolldown";
-import svelte from "./plugin-svelte.ts";
-import replace from "./plugin-replace.ts";
-//import { replacePlugin as replace } from "rolldown/experimental";
+import { replacePlugin as replace } from "rolldown/experimental";
+import deno from "./plugin-deno.ts";
 import html from "./plugin-html.ts";
 import size from "./plugin-size.ts";
 import copy from "./plugin-copy.ts";
@@ -13,22 +12,27 @@ export const dev = Deno.args.includes("--dev");
 
 export default {
 	input: [
-		"./src/app.ts",
+		"./src/app.tsx",
 		"./src/workers/service.ts",
 	],
 	plugins: [
-		svelte,
+		//preact,
+		deno(),
 		replace({
 			OPENBIBLE_VERSION: JSON.stringify(getVersion()),
 			OPENBIBLE_VERSION_DATE: JSON.stringify(getVersionDate()),
-			["import.+from.+esm-env.+"]: "",
-			["DEV(?!\\s*=[^=])"]: dev.toString(),
-			["BROWSER(?!\\s*=[^=])"]: "true",
+			"import.meta.env.DEV": dev.toString(),
 		}),
 		html(),
 		copy(["public"]),
 		...(dev ? [servePlugin] : [size]),
 	],
+	resolve: {
+		alias: {
+			"react": "preact/compat",
+			"react-dom": "preact/compat",
+		},
+	},
 	profilerNames: false, // false = minified rolldown runtime
 	output: {
 		dir,
@@ -45,19 +49,13 @@ export default {
 		advancedChunks: {
 			groups: [
 				{
-					// TODO: remove after https://github.com/rolldown/rolldown/issues/2655
-					name: "tslib",
-					test: /node_modules\/tslib/,
-					priority: 11,
-				},
-				{
 					name: "tinybase",
 					test: /node_modules\/tinybase/,
 					priority: 10,
 				},
 				{
-					name: "svelte",
-					test: /node_modules\/(svelte|tinro|esm\-env)/,
+					name: "preact",
+					test: /node_modules\/preact/,
 					priority: 9,
 				},
 				{

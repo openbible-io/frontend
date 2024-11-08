@@ -3,9 +3,8 @@
 interface ImportMetaEnv {
 	readonly PROD: boolean;
 	readonly DEV: boolean;
-	readonly OPENBIBLE_COMMIT: string;
-	readonly OPENBIBLE_COMMIT_DATE: string;
-	readonly OPENBIBLE_CACHE_FOREVER_REGEX: string;
+	readonly OPENBIBLE_VERSION: string;
+	readonly OPENBIBLE_VERSION_DATE: string;
 }
 
 interface ImportMeta {

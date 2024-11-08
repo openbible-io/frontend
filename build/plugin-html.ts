@@ -1,7 +1,7 @@
 /** @module
  * Builds an HTML file per-language with injected strings, css, and scripts.
  */
-import type { Plugin } from "rolldown";
+import type { Plugin } from "rollup";
 import publications from "../shared/publications.ts";
 import langs from "../shared/i18n.ts";
 

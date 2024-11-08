@@ -5,7 +5,7 @@ const stdio = [
 	"ignore", // stdin
 	"pipe", // stdout
 	"ignore", // stderr
-];
+] as const;
 
 function hasUnstaged() {
 	try {
