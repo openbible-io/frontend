@@ -35,7 +35,9 @@ export default {
 		dir,
 		exports: "none", // app, not lib
 		externalLiveBindings: false, // we all use esm
-		entryFileNames: "[name]-[hash].js",
+		entryFileNames(chunk) {
+			return `[name]${chunk.name == "service" ? "" : "-[hash]"}.js`;
+		},
 		cssEntryFileNames: "[name]-[hash].css",
 		cssChunkFileNames: "chunks/[name]-[hash].css",
 		assetFileNames: "assets/[name]-[hash].js",

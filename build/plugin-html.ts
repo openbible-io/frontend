@@ -1,30 +1,12 @@
 /** @module
  * Builds an HTML file per-language with injected strings, css, and scripts.
  */
-import type { Plugin } from "rollup";
+import type { Plugin, RolldownOutputChunk } from "rolldown";
 import publications from "../shared/publications.ts";
 import langs from "../shared/i18n.ts";
 
-const htmlTemplate = `<!doctype html>
-<html lang="<%- lang %>">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="icon" href="/favicon.svg" />
-		<link rel="manifest" href="/manifest.json" />
-		<%- stylesheets %>
-		<title><%- title %></title>
-		<%- scripts %>
-	</head>
-	<body>
-		<%- noscript %>
-		<div id="app"></div>
-		<script>
-			window.MANIFEST = <%- manifest %>
-		</script>
-	</body>
-</html>
-`;
+const htmlUrl = import.meta.resolve("./template.html");
+const htmlTemplate = Deno.readTextFileSync(new URL(htmlUrl).pathname);
 
 export default function pluginHtml(): Plugin {
 	return {
@@ -40,10 +22,10 @@ export default function pluginHtml(): Plugin {
 
 			const scripts = output
 				.filter(({ fileName }) => fileName.endsWith(".js"))
-				.map(({ isEntry, fileName }) =>
-					isEntry
-						? `<script type="module" src="/${fileName}"></script>`
-						: `<link rel="modulepreload" href="/${fileName}">`
+				.map((s) =>
+					(s as RolldownOutputChunk)?.isEntry
+						? `<script type="module" src="/${s.fileName}"></script>`
+						: `<link rel="modulepreload" href="/${s.fileName}">`
 				)
 				.join("\n\t\t");
 

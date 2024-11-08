@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="<%- lang %>">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="icon" href="/favicon.svg" />
+		<link rel="manifest" href="/manifest.json" />
+		<%- stylesheets %>
+		<title><%- title %></title>
+		<%- scripts %>
+	</head>
+	<body>
+		<%- noscript %>
+		<div id="app"></div>
+		<script>
+			window.MANIFEST = <%- manifest %>
+		</script>
+	</body>
+</html>
