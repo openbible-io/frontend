@@ -3,6 +3,7 @@ import { replacePlugin as replace } from "rolldown/experimental";
 import html from "./plugin-html.ts";
 import size from "./plugin-size.ts";
 import copy from "./plugin-copy.ts";
+import postcss from "./plugin-postcss.ts";
 import { plugin as servePlugin } from "./server.ts";
 import { getVersion, getVersionDate } from "./version.ts";
 
@@ -20,7 +21,8 @@ export default {
 			OPENBIBLE_VERSION_DATE: JSON.stringify(getVersionDate()),
 			"import.meta.env.DEV": dev.toString(),
 		}),
-		html(),
+		html,
+		postcss,
 		copy(["public"]),
 		...(dev ? [servePlugin] : [size]),
 	],
@@ -36,7 +38,9 @@ export default {
 		exports: "none", // app, not lib
 		externalLiveBindings: false, // we all use esm
 		entryFileNames(chunk) {
-			return `[name]${chunk.name == "service" ? "" : "-[hash]"}.js`;
+			return chunk.name == "service"
+				? "[name].js"
+				: "[name]-[hash].js";
 		},
 		cssEntryFileNames: "[name]-[hash].css",
 		cssChunkFileNames: "chunks/[name]-[hash].css",
@@ -44,6 +48,7 @@ export default {
 		chunkFileNames: "chunks/[name]-[hash].js",
 		sourcemap: true,
 		minify: true,
+		comments: "none",
 		// This allows users to only download our changed dependencies.
 		advancedChunks: {
 			groups: [
