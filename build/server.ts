@@ -83,10 +83,10 @@ export const plugin: Plugin = {
 		// Rely on files names containing hash contents.
 		const newFiles = new Set<string>(fileList);
 		if (files.size) {
-			const added = Array.from(newFiles.difference(files));
 			const removed = Array.from(files.difference(newFiles));
+			const added = Array.from(newFiles.difference(files));
 			// Disk space isn't free.
-			//removed.forEach(r => Deno.remove(join(dir, r)));
+			removed.forEach(r => Deno.remove(join(dir, r)));
 			if (added.length || removed.length) {
 				emitter.emit("change", { removed, added });
 			}

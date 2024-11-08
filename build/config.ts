@@ -1,5 +1,5 @@
 import { type RolldownOptions } from "rolldown";
-import svelte from "rollup-plugin-svelte";
+import svelte from "./plugin-svelte.ts";
 import replace from "./plugin-replace.ts";
 //import { replacePlugin as replace } from "rolldown/experimental";
 import html from "./plugin-html.ts";
@@ -17,20 +17,19 @@ export default {
 		"./src/workers/service.ts",
 	],
 	plugins: [
-		svelte(),
+		svelte,
 		replace({
 			OPENBIBLE_VERSION: JSON.stringify(getVersion()),
 			OPENBIBLE_VERSION_DATE: JSON.stringify(getVersionDate()),
 			["import.+from.+esm-env.+"]: "",
-			DEV: dev.toString(),
-			BROWSER: "true",
+			["DEV(?!\\s*=[^=])"]: dev.toString(),
+			["BROWSER(?!\\s*=[^=])"]: "true",
 		}),
 		html(),
 		copy(["public"]),
 		...(dev ? [servePlugin] : [size]),
 	],
-	// false = minified rolldown runtime
-	profilerNames: false,
+	profilerNames: false, // false = minified rolldown runtime
 	output: {
 		dir,
 		exports: "none", // app, not lib
@@ -72,9 +71,15 @@ export default {
 					priority: 7,
 				},
 				{
+					name: "components",
+					test: /node_modules\/@skeletonlabs/,
+					priority: 9,
+				},
+				{
+					// If something's in this module we have an accounting error.
 					name: "vendor",
 					test: /node_modules/,
-					priority: 6,
+					priority: 4,
 				},
 			],
 		},

@@ -6,6 +6,7 @@
 	"imports": {
 		"@openbible/bsb": "jsr:@openbible/bsb@0.1.38",
 		"@openbible/core": "jsr:@openbible/core@^0.1.19",
+		"@skeletonlabs/skeleton": "npm:@skeletonlabs/skeleton@^2.10.3",
 		"@std/fs": "jsr:@std/fs@^1.0.5",
 		"@std/media-types": "jsr:@std/media-types@^1.0.3",
 		"filesize": "npm:filesize@^10.1.6",
@@ -18,9 +19,10 @@
 		"prosemirror-model": "npm:prosemirror-model@^1.23.0",
 		"prosemirror-state": "npm:prosemirror-state@^1.4.3",
 		"prosemirror-view": "npm:prosemirror-view@^1.35.0",
+		"resolve.exports": "npm:resolve.exports@^2.0.2",
 		"rolldown": "npm:rolldown@0.14.0-snapshot-beec3a9-20241107221705",
-		"rollup-plugin-svelte": "npm:rollup-plugin-svelte@^7.2.2",
 		"svelte": "npm:svelte@^5.1.9",
+		"tailwindcss": "npm:tailwindcss@^3.4.14",
 		"tinro": "npm:tinro@^0.6.12",
 		"tinybase": "npm:tinybase@^5.3.5"
 	},
