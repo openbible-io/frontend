@@ -8,8 +8,6 @@ import { dir } from "./config.ts";
 const liveReload = Deno.readTextFileSync(
 	join(import.meta.dirname!, "liveReload.js"),
 );
-
-let files = new Set<string>();
 const emitter = new EventEmitter();
 
 export default {
@@ -26,9 +24,7 @@ export default {
 			let listener: (ev: Event) => void;
 			const body = new ReadableStream({
 				start(controller) {
-					//console.log("sse connect");
 					listener = (ev) => {
-						console.log("send", ev);
 						const msg = new TextEncoder().encode(
 							`event: change\ndata: ${JSON.stringify(ev)}\n\n`,
 						);
@@ -37,7 +33,6 @@ export default {
 					emitter.addListener("change", listener);
 				},
 				cancel() {
-					//console.log("sse disconnect");
 					emitter.removeListener("change", listener);
 				},
 			});
@@ -85,19 +80,7 @@ export default {
 
 export const plugin: Plugin = {
 	name: "emit change to dev server",
-	writeBundle(_, b) {
-		const fileList = Object.keys(b).filter((f) => !f.endsWith(".map"));
-		// Rely on files names containing hash contents.
-		const newFiles = new Set<string>(fileList);
-		if (files.size) {
-			const removed = Array.from(files.difference(newFiles));
-			const added = Array.from(newFiles.difference(files));
-			// Disk space isn't free.
-			removed.forEach((r) => Deno.remove(join(dir, r)));
-			if (added.length || removed.length) {
-				emitter.emit("change", { removed, added });
-			}
-		}
-		files = newFiles;
+	writeBundle() {
+		emitter.emit("change");
 	},
 };

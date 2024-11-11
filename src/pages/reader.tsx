@@ -1,6 +1,6 @@
 import { useRoute } from "preact-iso";
+import Layout from './layouts/header.tsx';
 import Editor from "../editor.tsx";
-import Header from "../header.tsx";
 
 export default function ReaderPage() {
 	const props = useRoute();
@@ -8,9 +8,8 @@ export default function ReaderPage() {
 	console.log("fetch + make doc model", props);
 
 	return (
-		<>
-			<Header />
+		<Layout>
 			<Editor toolbar />
-		</>
+		</Layout>
 	);
 }

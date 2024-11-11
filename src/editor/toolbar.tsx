@@ -3,7 +3,8 @@ import type { Command } from "prosemirror-state";
 import { h } from "preact";
 import { setBlockType, toggleMark, wrapIn } from "prosemirror-commands";
 import { schema } from "./document.ts";
-import Dropdown from "../dropdown.tsx";
+import Dropdown from "../components/dropdown.tsx";
+import Button from "../components/button.tsx";
 
 const logState: Command = (_, __, view) => {
 	console.log(view);
@@ -25,13 +26,13 @@ export default function Toolbar(props: ToolbarProps) {
 	}
 
 	return (
-		<div class="toolbar">
+		<div>
 			{cmds.map((c) => (
 				<button onClick={() => doCommand(c.cmd)}>
 					{c.icon}
 				</button>
 			))}
-			<Dropdown button={<div style={{ width: "5em" }}>Block type</div>}>
+			<Dropdown button={{ children: "Block type" }}>
 				{[...Array(8).keys()].map((i) => {
 					const level = i + 1;
 					const Ele = "h" + level as
@@ -44,12 +45,12 @@ export default function Toolbar(props: ToolbarProps) {
 						| "h7"
 						| "h8";
 					return (
-						<button
+						<Button
 							onClick={() =>
 								doCommand(setBlockType(schema.nodes.heading, { level }))}
 						>
 							{h(Ele, {}, Ele)}
-						</button>
+						</Button>
 					);
 				})}
 			</Dropdown>

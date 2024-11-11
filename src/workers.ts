@@ -1,5 +1,11 @@
 import { createContext } from "preact";
 
+declare global {
+	interface Window {
+		MANIFEST: string;
+	}
+}
+
 export async function initService() {
 	const registration = await navigator.serviceWorker.register(
 		"/service.js",
@@ -12,12 +18,7 @@ export async function initService() {
 	if (!registration.active) throw Error("Failed installing service worker");
 
 	const hrefs: string[] = ["/"];
-	for (const link of document.head.querySelectorAll("link[href]")) {
-		hrefs.push((link as HTMLLinkElement).href);
-	}
-	for (const script of document.head.querySelectorAll("script[src]")) {
-		hrefs.push((script as HTMLScriptElement).src);
-	}
+	console.log(window.MANIFEST);
 	registration.active.postMessage({ type: "cache", hrefs });
 
 	return registration.active;

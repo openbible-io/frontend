@@ -1,8 +1,11 @@
 import { useEffect, useState } from "preact/hooks";
 import { type ComponentChildren } from "preact";
+import Button, { type ButtonProps } from "./button.tsx";
+import classes from '../classnames.ts';
 
 interface DropdownProps {
-	button: ComponentChildren;
+	button: ButtonProps;
+	class?: string;
 	children: ComponentChildren;
 }
 export default function Dropdown(props: DropdownProps) {
@@ -21,10 +24,8 @@ export default function Dropdown(props: DropdownProps) {
 	}
 
 	return (
-		<div class="relative inline-block" onClick={onClick}>
-			<button>
-				{props.button}
-			</button>
+		<div class={classes("relative", "inline-block", props.class)} onClick={onClick}>
+			<Button {...props.button} />
 			{open && (
 				<div class="absolute z-10">
 					{props.children}

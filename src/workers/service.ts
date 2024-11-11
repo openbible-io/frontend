@@ -1,5 +1,5 @@
 import sharedInit from "../stores/shared.ts";
-import { type Publication } from "../publications.ts";
+import { type Publication } from "../../shared/publications.ts";
 import { type ITag, type IText, parse } from "html5parser";
 import Task, { type Opts as TaskOpts } from "../task.ts";
 
@@ -102,12 +102,6 @@ self.addEventListener("message", (ev) => {
 	}
 });
 
-async function cacheThenNetwork(request: Request): Promise<Response> {
-	const cached = await caches.match(request);
-	if (cached) return cached;
-	return fetch(request);
-}
-
 async function networkThenCache(request: Request): Promise<Response> {
 	try {
 		const network = await fetch(request);
@@ -119,8 +113,27 @@ async function networkThenCache(request: Request): Promise<Response> {
 	throw Error("Network offline and uncached: " + request.url);
 }
 
+async function cacheStrategy(request: Request): Promise<Response> {
+	// Everything we cache (besides html) has a hash of its contents in its url.
+	const cached = await caches.match(request);
+	if (cached) return cached;
+
+	// HTML?
+	const url = new URL(request.url);
+	const re = /\.[^.]+$/;
+	const extname = re.exec(url.pathname)?.[0];
+	if (!extname || extname == '.html') return networkThenCache(new Request("/"));
+
+	console.warn('uncached', url.pathname);
+	return fetch(request);
+}
+
 self.addEventListener("fetch", (ev) => {
-	const strategy = ev.request.url == "/" ? networkThenCache : cacheThenNetwork;
+	const url = new URL(ev.request.url);
+	const strategy = (import.meta.env.DEV && url.pathname == "/liveReload")
+		? fetch
+		: cacheStrategy;
+
 	ev.respondWith(strategy(ev.request));
 });
 

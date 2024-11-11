@@ -2,8 +2,8 @@ import { type RolldownOptions } from "rolldown";
 import { replacePlugin as replace } from "rolldown/experimental";
 import html from "./plugin-html.ts";
 import size from "./plugin-size.ts";
-import copy from "./plugin-copy.ts";
 import postcss from "./plugin-postcss.ts";
+import image from "./plugin-image.ts";
 import { plugin as servePlugin } from "./server.ts";
 import { getVersion, getVersionDate } from "./version.ts";
 
@@ -12,18 +12,20 @@ export const dev = Deno.args.includes("--dev");
 
 export default {
 	input: [
-		"./src/app.tsx",
-		"./src/workers/service.ts",
+		"./src/index.html",
+		//"./src/workers/service.ts",
 	],
 	plugins: [
 		replace({
-			OPENBIBLE_VERSION: JSON.stringify(getVersion()),
-			OPENBIBLE_VERSION_DATE: JSON.stringify(getVersionDate()),
+			"import.meta.env.OPENBIBLE_VERSION": JSON.stringify(getVersion()),
+			"import.meta.env.OPENBIBLE_VERSION_DATE": JSON.stringify(
+				getVersionDate(),
+			),
 			"import.meta.env.DEV": dev.toString(),
 		}),
 		html,
 		postcss,
-		copy(["public"]),
+		image,
 		...(dev ? [servePlugin] : [size]),
 	],
 	resolve: {
@@ -32,26 +34,27 @@ export default {
 			"react-dom": "preact/compat",
 		},
 	},
-	profilerNames: false, // false = minified rolldown runtime
 	output: {
 		dir,
-		exports: "none", // app, not lib
-		externalLiveBindings: false, // we all use esm
-		entryFileNames(chunk) {
-			return chunk.name == "service"
-				? "[name].js"
-				: "[name]-[hash].js";
+		entryFileNames: "[name].js",
+		cssEntryFileNames: "[name].css",
+		cssChunkFileNames: "chunks/[name].css",
+		assetFileNames: "assets/[name][extname]",
+		chunkFileNames(ci) {
+			if (ci.facadeModuleId?.match(/i18n\/.*\.json/)) return "i18n/[name].js";
+			return "chunks/[name].js";
 		},
-		cssEntryFileNames: "[name]-[hash].css",
-		cssChunkFileNames: "chunks/[name]-[hash].css",
-		assetFileNames: "assets/[name]-[hash].js",
-		chunkFileNames: "chunks/[name]-[hash].js",
+		hashCharacters: "base36",
 		sourcemap: true,
 		minify: true,
-		comments: "none",
 		// This allows users to only download our changed dependencies.
 		advancedChunks: {
 			groups: [
+				{
+					name: "rolldown",
+					test: "rolldown:runtime",
+					priority: 100,
+				},
 				{
 					name: "tinybase",
 					test: /node_modules\/tinybase/,
@@ -71,11 +74,6 @@ export default {
 					name: "html5parser",
 					test: /node_modules\/html5parser/,
 					priority: 7,
-				},
-				{
-					name: "components",
-					test: /node_modules\/@skeletonlabs/,
-					priority: 9,
 				},
 				{
 					// If something's in this module we have an accounting error.

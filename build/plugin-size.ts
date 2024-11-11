@@ -26,23 +26,34 @@ function readable(size: number) {
 export default {
 	name: "size",
 	async generateBundle(_, bundle) {
-		const rows = [["fname", "raw", "gzip", "ratio"]];
+		const rows = [];
 		for (const e of Object.entries(bundle)) {
-			const [k, v] = e;
-			if (k.endsWith(".map")) continue;
+			const [fname, chunk] = e;
+			if (fname.endsWith(".map")) continue;
 
 			const gzip = createGzip();
-			const raw = v.code ?? v.source ?? "";
-			const readStream = Readable.from(raw);
+			const code = "code" in chunk ? chunk.code : chunk.source;
+			const readStream = Readable.from(code);
 			const writeStream = new NullStream();
 			await pipe(readStream, gzip, writeStream);
-			rows.push([
-				k,
-				readable(raw.length),
-				readable(writeStream.bytesWritten),
-				(raw.length / writeStream.bytesWritten).toPrecision(3),
-			]);
+			rows.push({
+				fname,
+				size: code.length,
+				gzip: writeStream.bytesWritten,
+			});
 		}
-		console.log(markdownTable(rows));
+		const sorted = rows.sort((r1, r2) => r1.size - r2.size);
+		console.log(markdownTable(
+			[["fname", "raw", "gzip", "ratio"]].concat(
+				...sorted.map((
+					{ fname, size, gzip },
+				) => [[
+					fname,
+					readable(size),
+					readable(gzip),
+					(size / gzip).toPrecision(3),
+				]]),
+			),
+		));
 	},
 } as Plugin;
