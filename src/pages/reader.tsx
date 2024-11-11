@@ -9,7 +9,6 @@ export default function ReaderPage() {
 
 	return (
 		<>
-			<h1 class="text-red-50">reddd</h1>
 			<Header />
 			<Editor toolbar />
 		</>

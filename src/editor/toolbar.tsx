@@ -11,7 +11,7 @@ const logState: Command = (_, __, view) => {
 };
 
 interface ToolbarProps {
-	view: EditorView | undefined;
+	view?: EditorView;
 }
 export default function Toolbar(props: ToolbarProps) {
 	const cmds = [
@@ -25,7 +25,7 @@ export default function Toolbar(props: ToolbarProps) {
 	}
 
 	return (
-		<div>
+		<div class="toolbar">
 			{cmds.map((c) => (
 				<button onClick={() => doCommand(c.cmd)}>
 					{c.icon}

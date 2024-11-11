@@ -28,7 +28,7 @@ export default {
 				start(controller) {
 					//console.log("sse connect");
 					listener = (ev) => {
-						//console.log("send", ev);
+						console.log("send", ev);
 						const msg = new TextEncoder().encode(
 							`event: change\ndata: ${JSON.stringify(ev)}\n\n`,
 						);
