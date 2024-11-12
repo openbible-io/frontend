@@ -2,9 +2,9 @@ import type { EditorView } from "prosemirror-view";
 import type { Command } from "prosemirror-state";
 import { h } from "preact";
 import { setBlockType, toggleMark, wrapIn } from "prosemirror-commands";
-import { schema } from "./document.ts";
-import Dropdown from "../components/dropdown.tsx";
-import Button from "../components/button.tsx";
+import { schema } from "../../lib/document.ts";
+import Dropdown from "../dropdown.tsx";
+import Button from "../button.tsx";
 
 const logState: Command = (_, __, view) => {
 	console.log(view);

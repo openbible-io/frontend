@@ -23,6 +23,19 @@ function readable(size: number) {
 	return filesize(size, { precision: 3 });
 }
 
+type Row = {
+	fname: string;
+	size: number;
+	gzip: number;
+};
+type MdRow = [[string, string, string, string]];
+const toMdRow = ({ fname, size, gzip }: Row): MdRow => [[
+	fname,
+	readable(size),
+	readable(gzip),
+	(size / gzip).toPrecision(3),
+]];
+
 export default {
 	name: "size",
 	async generateBundle(_, bundle) {
@@ -43,16 +56,17 @@ export default {
 			});
 		}
 		const sorted = rows.sort((r1, r2) => r1.size - r2.size);
+		const agg: typeof rows[number] = rows.reduce((acc, cur) => {
+			acc.size += cur.size;
+			acc.gzip += cur.gzip;
+			return acc;
+		}, { fname: "TOTAL", size: 0, gzip: 0 });
+
 		console.log(markdownTable(
 			[["fname", "raw", "gzip", "ratio"]].concat(
-				...sorted.map((
-					{ fname, size, gzip },
-				) => [[
-					fname,
-					readable(size),
-					readable(gzip),
-					(size / gzip).toPrecision(3),
-				]]),
+				...sorted.map(toMdRow),
+				[["", "", "", ""]],
+				toMdRow(agg),
 			),
 		));
 	},

@@ -6,9 +6,8 @@ import About from "./pages/about.tsx";
 import NotFound from "./pages/404.tsx";
 import Reader from "./pages/reader.tsx";
 import sharedInit from "./stores/shared.ts";
-import { useEffect, useState } from "preact/hooks";
-import { Context as ServiceWorker, initService } from "./workers.ts";
-import { useLang } from "./i18n.ts";
+import { useEffect } from "preact/hooks";
+import { useLang } from "./lib/i18n.ts";
 import './favicon.svg';
 import './app.css';
 
@@ -24,12 +23,7 @@ navigator.serviceWorker.addEventListener("controllerchange", () => {
 function App() {
 	const lang = useLang();
 	const shared = useCreateStore(() => sharedInit().setValues({ lang }));
-	const [worker, setWorker] = useState<ServiceWorker>();
 	useEffect(() => {
-		//initService().then((w) => {
-		//	if (import.meta.env.DEV) console.log(w);
-		//	setWorker(w);
-		//});
 
 		shared.addValueListener("lang", (_, __, newValue) => {
 			console.log("lang change", arguments);
@@ -39,7 +33,6 @@ function App() {
 
 	return (
 		<StoreProvider storesById={{ shared }}>
-			<ServiceWorker.Provider value={worker}>
 				<LocationProvider>
 					<ErrorBoundary>
 						<Router>
@@ -50,7 +43,6 @@ function App() {
 						</Router>
 					</ErrorBoundary>
 				</LocationProvider>
-			</ServiceWorker.Provider>
 		</StoreProvider>
 	);
 }

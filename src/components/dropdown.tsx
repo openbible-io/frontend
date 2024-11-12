@@ -1,7 +1,7 @@
 import { useEffect, useState } from "preact/hooks";
 import { type ComponentChildren } from "preact";
 import Button, { type ButtonProps } from "./button.tsx";
-import classes from '../classnames.ts';
+import classes from '../lib/classnames.ts';
 
 interface DropdownProps {
 	button: ButtonProps;

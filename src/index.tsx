@@ -1,8 +1,8 @@
-// This template is used in `../build/plugin-html.ts`
+// This HTML template is used in `../build/plugin-html.ts`
 import { Language } from "../shared/i18n.ts";
 import publications from "../shared/publications.ts";
 
-// In a perfect world we would be able to call this the entrypoint and write
+// In a perfect world we would be able to make this the entrypoint and write
 // something like:
 // import { entry, scripts, stylesheets } from './app.tsx?entry';
 // import favicon from './favicon.svg?favicon';

@@ -47,6 +47,8 @@ export default {
 			stat = await Deno.stat(path);
 			if (!stat.isFile) throw Error(`${path} not a file`);
 		} catch (e) {
+			if (extname(path) != ".html" && extname(path) != "")
+				return new Response((e as Error).toString(), { status: 404 });
 			let status = 500;
 			path = join(dir, "index.html");
 			try {

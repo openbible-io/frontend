@@ -7,10 +7,13 @@ import { rolldown, watch } from "rolldown";
 import rollOpts, { dev } from "./config.ts";
 import serveOpts from "./server.ts";
 
+// TODO: have watch mode print warnings
+const build = await rolldown(rollOpts);
+await build.write(rollOpts.output);
+
 if (dev) {
 	await watch(rollOpts);
 	Deno.serve(serveOpts);
 } else {
-	const build = await rolldown(rollOpts);
-	await build.write(rollOpts.output);
+	// move build here after watch mode prints same warnings as build
 }

@@ -1,5 +1,5 @@
 import type { JSX } from 'preact';
-import classes from "../classnames.ts";
+import classes from "../lib/classnames.ts";
 
 export type ButtonProps = JSX.HTMLAttributes<HTMLButtonElement>;
 export default function Button(props: ButtonProps) {

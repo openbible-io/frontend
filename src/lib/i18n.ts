@@ -1,5 +1,5 @@
-import useLocalStorage from "./hooks/useLocalStorage.ts";
-import langs, { type Dictionary, type Language } from "../shared/i18n.ts";
+import useLocalStorage from "./useLocalStorage.ts";
+import langs, { type Dictionary, type Language } from "../../shared/i18n.ts";
 
 export function template(res: string, args: Map<string, string>) {
 	Object.entries(args).forEach(([k, v]) => {

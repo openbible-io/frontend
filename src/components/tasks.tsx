@@ -1,4 +1,4 @@
-import { template, useDict } from "../i18n.ts";
+import { template, useDict } from "../lib/i18n.ts";
 
 function defaultTask() {
 	const installed = Boolean(navigator.serviceWorker.controller);

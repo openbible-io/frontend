@@ -5,8 +5,8 @@ import { EditorView } from "prosemirror-view";
 import { history, redo, undo } from "prosemirror-history";
 import { keymap } from "prosemirror-keymap";
 import { baseKeymap } from "prosemirror-commands";
-import { schema } from "./editor/document.ts";
-import Toolbar from "./editor/toolbar.tsx";
+import { schema } from "../../lib/document.ts";
+import Toolbar from "./toolbar.tsx";
 import "prosemirror-view/style/prosemirror.css"; // TODO: CSS module
 
 interface EditorProps {

@@ -47,6 +47,7 @@ export default {
 		hashCharacters: "base36",
 		sourcemap: true,
 		minify: true,
+		comments: 'none',
 		// This allows users to only download our changed dependencies.
 		advancedChunks: {
 			groups: [

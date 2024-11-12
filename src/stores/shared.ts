@@ -1,4 +1,4 @@
-/** @module
+/**
  * This store is shared between all clients and the single service worker.
  */
 import { createMergeableStore } from "tinybase/with-schemas";

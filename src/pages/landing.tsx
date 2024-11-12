@@ -1,6 +1,6 @@
 import { useValue } from "../stores/client.ts";
 import publications from "../../shared/publications.ts";
-import Redirect from "../redirect.tsx";
+import Redirect from "../components/redirect.tsx";
 
 export default function Landing() {
 	const lang = useValue("lang", "shared");

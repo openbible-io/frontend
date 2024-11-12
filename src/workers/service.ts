@@ -1,7 +1,7 @@
 import sharedInit from "../stores/shared.ts";
 import { type Publication } from "../../shared/publications.ts";
 import { type ITag, type IText, parse } from "html5parser";
-import Task, { type Opts as TaskOpts } from "../task.ts";
+import Task, { type Opts as TaskOpts } from "../lib/task.ts";
 
 declare const self: ServiceWorkerGlobalScope;
 const cacheId = "v1";
@@ -10,8 +10,8 @@ const shared = sharedInit();
 
 // Run for very first time.
 self.addEventListener("install", () => {
-	console.log("install");
-	// The promise that skipWaiting() returns can be safely ignored.
+	// Skip waiting for the old app to be fully closed.
+	// The promise that `skipWaiting` returns can be safely ignored.
 	self.skipWaiting();
 });
 
