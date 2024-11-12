@@ -78,7 +78,7 @@ export default {
 
 		for (const e2 of Object.entries(langs)) {
 			const [lang, imp] = e2;
-			const dict = (await imp()).default;
+			const dict = (await imp.dict()).default;
 
 			const props: Props = {
 				lang: lang as Language,

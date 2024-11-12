@@ -2,6 +2,7 @@ import sharedInit from "../stores/shared.ts";
 import { type Publication } from "../../shared/publications.ts";
 import { type ITag, type IText, parse } from "html5parser";
 import Task, { type Opts as TaskOpts } from "../lib/task.ts";
+import { useValue } from 'tinybase/ui-react';
 
 declare const self: ServiceWorkerGlobalScope;
 const cacheId = "v1";

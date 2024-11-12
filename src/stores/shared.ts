@@ -6,8 +6,10 @@ import { createBroadcastChannelSynchronizer } from "tinybase/synchronizers/synch
 
 // Settings.
 export const valueSchema = {
-	lang: { type: "string" },
+	lang: { type: "string" }, // Language
+	theme: { type: "string" }, // 'light' | 'dark' | 'device'
 } as const;
+export type ValueSchema = typeof valueSchema;
 
 export const tableSchema = {
 	task: {
@@ -64,6 +66,7 @@ export const tableSchema = {
 		author: { type: "string" },
 	},
 } as const;
+export type TableSchema = typeof tableSchema;
 
 export default function init() {
 	const res = createMergeableStore()

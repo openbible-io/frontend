@@ -5,12 +5,12 @@ import { Context as ServiceWorker, initService } from "../../workers/workers.ts"
 import Tasks from "../../components/tasks.tsx";
 
 interface LayoutProps {
-	/** Wait for provided worker */
-	worker: boolean;
-	children: ComponentChildren;
+	provideWorker?: boolean;
+	children?: ComponentChildren;
 }
-export default function Layout(props: LayoutProps) {
+export default function Layout({ provideWorker = true, children }: LayoutProps) {
 	const [worker, setWorker] = useState<ServiceWorker | null>(navigator.serviceWorker.controller);
+
 	useEffect(() => {
 		initService().then((w) => {
 			//if (import.meta.env.DEV) console.log(w);
@@ -21,13 +21,13 @@ export default function Layout(props: LayoutProps) {
 	const Inner = () => (
 		<>
 			<Header />
-			{props.children}
+			{children}
 		</>
 	);
 
-	if (props.worker == false) return <Inner />;
+	if (!provideWorker) return <Inner />;
 
-	return worker ? (
+	return provideWorker ? (
 		<ServiceWorker.Provider value={worker}>
 			<Inner />
 		</ServiceWorker.Provider>
