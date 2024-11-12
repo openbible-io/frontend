@@ -1,6 +1,6 @@
 // This HTML template is used in `../build/plugin-html.ts`
 import { Language } from "../shared/i18n.ts";
-import publications from "../shared/publications.ts";
+import publicationzzzz from "../shared/publications.ts";
 
 // In a perfect world we would be able to make this the entrypoint and write
 // something like:
@@ -40,7 +40,7 @@ export default (props: Props) => (
 			<noscript>
 				{props.noscript}
 				<ul>
-					{Object.values(publications).map((p) => (
+					{Object.values(publicationzzzz).map((p) => (
 						<li>
 							<a href={p.url}>{p.title}</a>
 						</li>

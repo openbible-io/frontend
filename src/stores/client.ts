@@ -1,8 +1,11 @@
-import sharedInit, { type TableSchema, type ValueSchema } from "./shared.ts";
+import sharedInit, { defaultTables, type TableSchema, type ValueSchema } from "./shared.ts";
 import { createLocalPersister } from "tinybase/persisters/persister-browser/with-schemas";
 import langs, { Language } from "../../shared/i18n.ts";
-import { useValue as useValue0, useTable as useTable0 } from "tinybase/ui-react";
-import { WithSchemas } from 'tinybase/ui-react/with-schemas';
+import {
+	useTable as useTable0,
+	useValue as useValue0,
+} from "tinybase/ui-react";
+import { WithSchemas } from "tinybase/ui-react/with-schemas";
 
 type UiReactWithSchemas = WithSchemas<
 	[TableSchema, ValueSchema]
@@ -21,8 +24,8 @@ function getLang(): Language {
 // to prevent a FOUC.
 async function init() {
 	const res = sharedInit();
-	const persister = createLocalPersister(res, "petStore");
-	await persister.startAutoLoad([{}, { lang: getLang(), theme: "device" }]);
+	const persister = createLocalPersister(res, "sharedStore");
+	await persister.load([defaultTables(), { lang: getLang(), theme: "device" }]);
 	await persister.startAutoSave();
 	return res;
 }

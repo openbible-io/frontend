@@ -1,8 +1,9 @@
 /**
  * This store is shared between all clients and the single service worker.
  */
-import { createMergeableStore } from "tinybase/with-schemas";
+import { createMergeableStore, type Tables } from "tinybase/with-schemas";
 import { createBroadcastChannelSynchronizer } from "tinybase/synchronizers/synchronizer-broadcast-channel/with-schemas";
+import publications, { Publication } from "../../shared/publications.ts";
 
 // Settings.
 export const valueSchema = {
@@ -13,7 +14,6 @@ export type ValueSchema = typeof valueSchema;
 
 export const tableSchema = {
 	task: {
-		id: { type: "string" }, // rowId
 		verb: { type: "string" },
 		directObject: { type: "string" },
 		thread: { type: "string" },
@@ -21,15 +21,12 @@ export const tableSchema = {
 		total: { type: "number" },
 		status: { type: "string" },
 	},
-	author: {
-		url: { type: "string" },
+	author: { // id: url
 		name: { type: "string" },
 		qualifications: { type: "string" },
-		contributions: { type: "string" },
 	},
 	toc: {
-		id: { type: "string" },
-		title: { type: "string" },
+		name: { type: "string" },
 		nChapters: { type: "number" },
 	},
 	audio: {
@@ -48,7 +45,6 @@ export const tableSchema = {
 		author: { type: "string" },
 	},
 	publication: {
-		id: { type: "string" },
 		title: { type: "string" },
 		lang: { type: "string" },
 		downloadUrl: { type: "string" },
@@ -58,20 +54,54 @@ export const tableSchema = {
 		isbn: { type: "number" },
 		license: { type: "string" },
 		licenseUrl: { type: "string" },
-		toc: { type: "string" },
 		size: { type: "number" },
 	},
 	publication_author: {
 		publication: { type: "string" },
 		author: { type: "string" },
+		contributions: { type: "string" },
 	},
 } as const;
 export type TableSchema = typeof tableSchema;
 
+export function defaultTables(): Tables<TableSchema, true> {
+	const res: Tables<TableSchema, true> = {
+		publication: {},
+		toc: {},
+		author: {},
+		publication_author: {},
+	};
+	Object.entries(publications).forEach(([k, v]) => {
+		const { toc, authors, audio, ...rest } = v;
+		res.publication![k] = rest;
+
+		//Object.entries(toc).forEach(([k2, v2]) => {
+		//	res.toc![`${k}/${k2}`] = v2;
+		//});
+		//authors?.forEach((v) => {
+		//	res.author![v.url] = {
+		//		name: v.name,
+		//		qualifications: v.qualifications?.join("\n"),
+		//	};
+		//	let i = 0;
+		//	res.publication_author![i++] = {
+		//		publication: k,
+		//		author: v.url,
+		//		contributions: v.contributions?.join("\n"),
+		//	};
+		//});
+		//Object.entries(audio ?? {}).forEach(([k2, v2]) => {
+		//});
+	});
+	console.log(res);
+	return res;
+}
+
 export default function init() {
 	const res = createMergeableStore()
 		.setValuesSchema(valueSchema)
-		.setTablesSchema(tableSchema);
+		.setTablesSchema(tableSchema)
+		.setTables(defaultTables());
 	createBroadcastChannelSynchronizer(res, "shared").startSync();
 	return res;
 }

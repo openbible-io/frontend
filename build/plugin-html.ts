@@ -7,17 +7,17 @@
  * of links to other files.
  */
 import type { Plugin } from "rolldown";
-import langs, { Language } from "../shared/i18n.ts";
 import { render } from "preact-render-to-string";
 import { h } from "preact";
 import sharp from "sharp";
+import { basename, extname } from "node:path";
+import langs, { Language } from "../shared/i18n.ts";
 // TODO:
 // 1.  pass this import as a config option
 // 2. dynamically import it
 // 3. watch it for changes
 // 4. publish it :)
 import Template, { type Props } from "../src/index.tsx";
-import { basename, extname } from "node:path";
 
 const base = "/";
 const webmanifest = {
@@ -116,6 +116,7 @@ export default {
 				icons,
 				start_url: base,
 				display: "standalone",
+				// TODO: tailwind as source of truth
 				background_color: "#f2f2f2",
 				theme_color: "#0b8dc4",
 			});
