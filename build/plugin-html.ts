@@ -84,11 +84,11 @@ export default {
 				lang: lang as Language,
 				noscript: dict.noscript,
 				entry,
-				favicon: "asdf.svg",
+				favicon: base + favicon.fileName,
 				scripts,
 				stylesheets,
 				manifest,
-				webmanifest: webmanifest.path,
+				webmanifest: base + webmanifest.path,
 			};
 
 			const template = h(Template, props);

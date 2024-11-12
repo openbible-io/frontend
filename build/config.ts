@@ -71,15 +71,9 @@ export default {
 					priority: 8,
 				},
 				{
-					name: "html5parser",
-					test: /node_modules\/html5parser/,
-					priority: 7,
-				},
-				{
-					// If something's in this module we have an accounting error.
-					name: "vendor",
-					test: /node_modules/,
-					priority: 4,
+					name: "openbible",
+					test: /node_modules\/@jsr\/openbible__/,
+					priority: 6,
 				},
 			],
 		},
