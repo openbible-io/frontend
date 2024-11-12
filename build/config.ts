@@ -12,8 +12,8 @@ export const dev = Deno.args.includes("--dev");
 
 export default {
 	input: [
-		"./src/index.html",
-		//"./src/workers/service.ts",
+		"./src/app.tsx",
+		"./src/workers/service.ts",
 	],
 	plugins: [
 		replace({

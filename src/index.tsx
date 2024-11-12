@@ -1,56 +1,54 @@
-import { render } from "preact";
-import { ErrorBoundary, LocationProvider, Route, Router } from "preact-iso";
-import { Provider as StoreProvider, useCreateStore } from "./stores/client.ts";
-import Landing from "./pages/landing.tsx";
-import About from "./pages/about.tsx";
-import NotFound from "./pages/404.tsx";
-import Reader from "./pages/reader.tsx";
-import sharedInit from "./stores/shared.ts";
-import { useEffect, useState } from "preact/hooks";
-import { Context as ServiceWorker, initService } from "./workers.ts";
-import { useLang } from "./i18n.ts";
+// This template is used in `../build/plugin-html.ts`
+import { Language } from "../shared/i18n.ts";
+import publications from "../shared/publications.ts";
 
-// Handle new service worker installation.
-// We store all view state in the service worker, so it's safe to refresh.
-let refreshing = false;
-navigator.serviceWorker.addEventListener("controllerchange", () => {
-	if (refreshing) return;
-	refreshing = true;
-	location.reload();
-});
+// In a perfect world we would be able to call this the entrypoint and write
+// something like:
+// import { entry, scripts, stylesheets } from './app.tsx?entry';
+// import favicon from './favicon.svg?favicon';
+// export { [fname: string]: html string };
 
-function App() {
-	const lang = useLang();
-	const shared = useCreateStore(() => sharedInit().setValues({ lang }));
-	const [worker, setWorker] = useState<ServiceWorker>();
-	useEffect(() => {
-		initService().then((w) => {
-			if (import.meta.env.DEV) console.log(w);
-			setWorker(w);
-		});
-
-		shared.addValueListener("lang", (_, __, newValue) => {
-			console.log("lang change", arguments);
-			localStorage.setItem("lang", newValue);
-		});
-	}, []);
-
-	return (
-		<StoreProvider storesById={{ shared }}>
-			<ServiceWorker.Provider value={worker}>
-				<LocationProvider>
-					<ErrorBoundary>
-						<Router>
-							<Route path="/" component={Landing} />
-							<Route path="/about" component={About} />
-							<Route path="/:pub/:book" component={Reader} />
-							<Route default component={NotFound} />
-						</Router>
-					</ErrorBoundary>
-				</LocationProvider>
-			</ServiceWorker.Provider>
-		</StoreProvider>
-	);
+export interface Props {
+	lang: Language;
+	noscript?: string;
+	entry: string;
+	favicon: string;
+	scripts: string[];
+	stylesheets: string[];
+	manifest: { [fname: string]: string };
+	webmanifest: string;
 }
-
-render(<App />, document.getElementById("app")!);
+export default (props: Props) => (
+	<html lang={props.lang}>
+		<head>
+			<meta charset="utf-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1" />
+			<title>OpenBible</title>
+			<link rel="icon" href={props.favicon} />
+			<link rel="manifest" href={props.webmanifest} />
+			<script type="module" src={props.entry} />
+			{props.stylesheets.map((s: string) => <link rel="stylesheet" href={s} />)}
+			{props.scripts
+				.filter((s: string) => {
+					if (!s.includes("i18n")) return true;
+					if (s.includes(props.lang)) return true;
+					return false;
+				})
+				.map((s: string) => <link rel="modulepreload" href={s} />)}
+		</head>
+		<body>
+			<noscript>
+				{props.noscript}
+				<ul>
+					{Object.values(publications).map((p) => (
+						<li>
+							<a href={p.url}>{p.title}</a>
+						</li>
+					))}
+				</ul>
+			</noscript>
+			<script dangerouslySetInnerHTML={{ __html: `window.MANIFEST = ${JSON.stringify(props.manifest)}` }} />
+			<div id="app" />
+		</body>
+	</html>
+);

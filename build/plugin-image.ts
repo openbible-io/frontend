@@ -1,27 +1,24 @@
 import type { Plugin } from "rolldown";
 import { contentType } from "@std/media-types";
-import { extname } from "node:path";
+import { dirname, extname, join } from "node:path";
 
-let cwd = Deno.cwd();
+const name = "image";
 
 export default {
-	name: "image",
-	buildStart(opts) {
-		if (opts.cwd) cwd = opts.cwd;
-	},
-	resolveId(id) {
+	name,
+	resolveId(id, importee) {
 		const ty = contentType(extname(id));
-		if (ty?.startsWith("image/")) return id;
+		if (ty?.startsWith("image/")) return `\0${name}\0${id}\0${importee}`;
 	},
-	async load(id) {
-		const ty = contentType(extname(id));
-		if (!ty?.startsWith("image/")) return;
+	async load(id0) {
+		if (!id0?.startsWith(`\0${name}`)) return;
+		const [_, __, id, importee] = id0.split('\0');
 
 		this.addWatchFile(id);
 
-		const relpath = id.replace(cwd, "");
+		const relpath = join(dirname(importee), id);
 
-		const source = await Deno.readTextFile(id);
+		const source = await Deno.readTextFile(relpath);
 		this.emitFile({ type: "asset", name: relpath, source });
 
 		return JSON.stringify(relpath);
