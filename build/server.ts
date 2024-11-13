@@ -8,7 +8,7 @@ import { dir } from "./config.ts";
 const liveReload = Deno.readTextFileSync(
 	join(import.meta.dirname!, "liveReload.js"),
 );
-const emitter = new EventEmitter();
+export const emitter = new EventEmitter();
 
 export default {
 	hostname: "localhost",
@@ -25,15 +25,18 @@ export default {
 			const body = new ReadableStream({
 				start(controller) {
 					listener = (ev) => {
+						ev = ev ?? "";
 						const msg = new TextEncoder().encode(
 							`event: change\ndata: ${JSON.stringify(ev)}\n\n`,
 						);
 						controller.enqueue(msg);
 					};
 					emitter.addListener("change", listener);
+					emitter.addListener("error", listener);
 				},
 				cancel() {
 					emitter.removeListener("change", listener);
+					emitter.removeListener("error", listener);
 				},
 			});
 			return new Response(body, {

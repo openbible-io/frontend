@@ -1,14 +1,14 @@
 import Redirect from "../components/redirect.tsx";
 import store, { useValue, useTable } from '../stores/client.ts';
+import publications from '../../shared/publications.ts';
 
 export default function Landing() {
 	const lang = useValue("lang");
-	const publications = useTable("publication");
-	console.log("landing", lang, store.getTables());
-	//const [id, pub] =
-	//	Object.entries(publicationzzzz).find(([_, v]) => v.lang == lang) ??
-	//		["bsb", publicationzzzz.bsb];
+	// TODO: redirect to most recently closed tab
 
-	return 'land it';
-	//return <Redirect to={`/${id}/${Object.keys(pub.toc)[0]}`} replace={true} />;
+	// This only happens on VERY first load before workspace is saved.
+	const [id, pub] = Object.entries(publications).find(([_, v]) => v.lang == lang) ??
+			["bsb", publications.bsb];
+
+	return <Redirect to={`/${id}/${Object.keys(pub.toc)[0]}`} replace={true} />;
 }

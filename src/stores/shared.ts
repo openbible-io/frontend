@@ -3,7 +3,7 @@
  */
 import { createMergeableStore, type Tables } from "tinybase/with-schemas";
 import { createBroadcastChannelSynchronizer } from "tinybase/synchronizers/synchronizer-broadcast-channel/with-schemas";
-import publications, { Publication } from "../../shared/publications.ts";
+import publications from "../../shared/publications.ts";
 
 // Settings.
 export const valueSchema = {
@@ -26,6 +26,8 @@ export const tableSchema = {
 		qualifications: { type: "string" },
 	},
 	toc: {
+		publication: { type: "string" },
+		book: { type: "string" },
 		name: { type: "string" },
 		nChapters: { type: "number" },
 	},
@@ -70,28 +72,48 @@ export function defaultTables(): Tables<TableSchema, true> {
 		toc: {},
 		author: {},
 		publication_author: {},
+		audio: {},
+		audio_author: {},
 	};
 	Object.entries(publications).forEach(([k, v]) => {
 		const { toc, authors, audio, ...rest } = v;
 		res.publication![k] = rest;
 
-		//Object.entries(toc).forEach(([k2, v2]) => {
-		//	res.toc![`${k}/${k2}`] = v2;
-		//});
-		//authors?.forEach((v) => {
-		//	res.author![v.url] = {
-		//		name: v.name,
-		//		qualifications: v.qualifications?.join("\n"),
-		//	};
-		//	let i = 0;
-		//	res.publication_author![i++] = {
-		//		publication: k,
-		//		author: v.url,
-		//		contributions: v.contributions?.join("\n"),
-		//	};
-		//});
-		//Object.entries(audio ?? {}).forEach(([k2, v2]) => {
-		//});
+		let i = 0;
+		Object.entries(toc).forEach(([k2, v2]) => {
+			res.toc![i++] = {
+				publication: k,
+				book: k2,
+				...v2,
+			};
+		});
+		authors?.forEach((v) => {
+			res.author![v.url] = {
+				name: v.name,
+				qualifications: v.qualifications?.join("\n"),
+			};
+			let i = 0;
+			res.publication_author![i++] = {
+				publication: k,
+				author: v.url,
+				contributions: v.contributions?.join("\n"),
+			};
+		});
+		Object.entries(audio ?? {}).forEach(([k2, v2]) => {
+			const { authors, ...rest } = v2;
+			let i = 0;
+			(authors ?? []).forEach((v3) => {
+				res.author![v3.url] = {
+					name: v3.name,
+					qualifications: v3.qualifications?.join("\n"),
+				};
+				res.audio_author![i++] = {
+					author: v3.url,
+					audio: k2,
+				};
+			});
+			res.audio![k2] = { publication: k, ...rest };
+		});
 	});
 	console.log(res);
 	return res;

@@ -1,15 +1,17 @@
-import sharedInit, { defaultTables, type TableSchema, type ValueSchema } from "./shared.ts";
+import sharedInit, { type TableSchema, type ValueSchema } from "./shared.ts";
 import { createLocalPersister } from "tinybase/persisters/persister-browser/with-schemas";
 import langs, { Language } from "../../shared/i18n.ts";
 import {
 	useTable as useTable0,
 	useValue as useValue0,
+	useCreateQueries as useCreateQueries0,
 } from "tinybase/ui-react";
-import { WithSchemas } from "tinybase/ui-react/with-schemas";
+import type { WithSchemas } from "tinybase/ui-react/with-schemas";
+import type { Queries } from "tinybase/queries/with-schemas";
+import type { Store } from "tinybase/with-schemas";
 
-type UiReactWithSchemas = WithSchemas<
-	[TableSchema, ValueSchema]
->;
+type Schema = [TableSchema, ValueSchema];
+type UiReactWithSchemas = WithSchemas<Schema>;
 
 function getLang(): Language {
 	for (const e of Object.entries(langs)) {
@@ -24,13 +26,14 @@ function getLang(): Language {
 // to prevent a FOUC.
 async function init() {
 	const res = sharedInit();
-	const persister = createLocalPersister(res, "sharedStore");
-	await persister.load([defaultTables(), { lang: getLang(), theme: "device" }]);
+	const persister = createLocalPersister(res, "shared");
+	await persister.load([{}, { lang: getLang(), theme: "device" }]);
 	await persister.startAutoSave();
+	res.merge(sharedInit());
 	return res;
 }
 
-const store = await init();
+const store: Store<Schema> = await init();
 export default store;
 
 export function useValue(key: keyof ValueSchema) {
@@ -39,4 +42,8 @@ export function useValue(key: keyof ValueSchema) {
 
 export function useTable(key: keyof TableSchema) {
 	return (useTable0 as UiReactWithSchemas["useTable"])(key, store);
+}
+
+export function useCreateQueries(create: (s: Store<Schema>) => Queries<Schema>) {
+	return (useCreateQueries0 as unknown as UiReactWithSchemas["useCreateQueries"])(store, create);
 }
