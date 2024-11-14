@@ -1,6 +1,6 @@
 new EventSource("/liveReload").addEventListener("change", (ev) => {
 	const data = JSON.parse(ev.data);
-	if (data) {
+	if (ev.data) {
 		// TODO: nice UI overlay
 		console.error(data);
 	} else {

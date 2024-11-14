@@ -1,10 +1,10 @@
 import { type RolldownOptions } from "rolldown";
 import { replacePlugin as replace } from "rolldown/experimental";
-import html from "./plugin-html.ts";
+import manifest from "./plugin-manifest.ts";
+import html from "../src/index.tsx";
 import size from "./plugin-size.ts";
 import postcss from "./plugin-postcss.ts";
 import image from "./plugin-image.ts";
-import { plugin as servePlugin } from "./server.ts";
 import { getVersion, getVersionDate } from "./version.ts";
 
 export const dir = "dist";
@@ -23,10 +23,20 @@ export default {
 			),
 			"import.meta.env.DEV": dev.toString(),
 		}),
-		html,
 		postcss,
 		image,
-		...(dev ? [servePlugin] : [size]),
+		manifest({
+			favicon: "./src/favicon.svg",
+			webmanifest: {
+				name: "OpenBible",
+				display: "standalone",
+				// TODO: tailwind as source of truth
+				background_color: "#f2f2f2",
+				theme_color: "#0b8dc4",
+			},
+			html,
+		}),
+		...(dev ? [] : [size]),
 	],
 	resolve: {
 		alias: {
@@ -47,7 +57,7 @@ export default {
 		hashCharacters: "base36",
 		sourcemap: true,
 		minify: true,
-		comments: 'none',
+		comments: "none",
 		// This allows users to only download our changed dependencies.
 		advancedChunks: {
 			groups: [

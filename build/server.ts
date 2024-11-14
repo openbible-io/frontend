@@ -1,5 +1,4 @@
 // Simple static dev server with live reloading.
-import type { Plugin } from "rolldown";
 import { extname, join } from "node:path";
 import EventEmitter from "node:events";
 import { contentType } from "@std/media-types";
@@ -9,6 +8,9 @@ const liveReload = Deno.readTextFileSync(
 	join(import.meta.dirname!, "liveReload.js"),
 );
 export const emitter = new EventEmitter();
+// To prevent `.emit` from blocking.
+emitter.addListener("change", () => {});
+emitter.addListener("error", () => {});
 
 export default {
 	hostname: "localhost",
@@ -82,10 +84,3 @@ export default {
 		});
 	},
 } as Deno.ServeTcpOptions & Deno.ServeInit<Deno.NetAddr>;
-
-export const plugin: Plugin = {
-	name: "emit change to dev server",
-	writeBundle() {
-		emitter.emit("change");
-	},
-};

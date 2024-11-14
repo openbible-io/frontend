@@ -115,7 +115,6 @@ export function defaultTables(): Tables<TableSchema, true> {
 			res.audio![k2] = { publication: k, ...rest };
 		});
 	});
-	console.log(res);
 	return res;
 }
 

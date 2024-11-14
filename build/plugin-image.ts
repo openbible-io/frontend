@@ -16,10 +16,11 @@ export default {
 
 		this.addWatchFile(id);
 
+		// dirname("undefined") == "."
 		const relpath = join(dirname(importee), id);
 
 		const source = await Deno.readTextFile(relpath);
-		this.emitFile({ type: "asset", name: relpath, source });
+		this.emitFile({ type: "asset", name: relpath, source, originalFileName: id });
 
 		return JSON.stringify(relpath);
 	},

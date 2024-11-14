@@ -1,24 +1,21 @@
-// This HTML template is used in `../build/plugin-html.ts`
-import { Language } from "../shared/i18n.ts";
-import publicationzzzz from "../shared/publications.ts";
+import { render } from "preact-render-to-string";
+import publications from "../shared/publications.ts";
+import type { HtmlProps } from "../build/plugin-manifest.ts";
+import langs from "../shared/i18n.ts";
 
-// In a perfect world we would be able to make this the entrypoint and write
-// something like:
-// import { entry, scripts, stylesheets } from './app.tsx?entry';
-// import favicon from './favicon.svg?favicon';
-// export { [fname: string]: html string };
-
-export interface Props {
-	lang: Language;
+interface Props {
+	lang: string;
 	noscript?: string;
-	entry: string;
-	favicon: string;
-	scripts: string[];
+	favicon?: string;
+	scripts: {
+		entries: string[];
+		other: string[];
+	};
 	stylesheets: string[];
+	webmanifest?: string;
 	manifest: { [fname: string]: string };
-	webmanifest: string;
 }
-export default (props: Props) => (
+const Html = (props: Props) => (
 	<html lang={props.lang}>
 		<head>
 			<meta charset="utf-8" />
@@ -26,29 +23,52 @@ export default (props: Props) => (
 			<title>OpenBible</title>
 			<link rel="icon" href={props.favicon} />
 			<link rel="manifest" href={props.webmanifest} />
-			<script type="module" src={props.entry} />
-			{props.stylesheets.map((s: string) => <link rel="stylesheet" href={s} />)}
-			{props.scripts
-				.filter((s: string) => {
-					if (!s.includes("i18n")) return true;
-					if (s.includes(props.lang)) return true;
-					return false;
-				})
-				.map((s: string) => <link rel="modulepreload" href={s} />)}
+			{props.scripts.entries
+				.filter((e) => !e.includes("service"))
+				.map((e) => <script type="module" src={e} />)}
+			{props.stylesheets.map((s) => <link rel="stylesheet" href={s} />)}
+			{props.scripts.other
+				.filter((s) => s.includes("i18n") ? s.includes(props.lang) : true)
+				.map((s) => <link rel="modulepreload" href={s} />)}
 		</head>
 		<body>
 			<noscript>
 				{props.noscript}
 				<ul>
-					{Object.values(publicationzzzz).map((p) => (
+					{Object.values(publications).map((p) => (
 						<li>
 							<a href={p.url}>{p.title}</a>
 						</li>
 					))}
 				</ul>
 			</noscript>
-			<script dangerouslySetInnerHTML={{ __html: `window.MANIFEST = ${JSON.stringify(props.manifest)}` }} />
+			<script
+				dangerouslySetInnerHTML={{
+					__html: `window.MANIFEST = ${JSON.stringify(props.manifest)}`,
+				}}
+			/>
 			<div id="app" />
 		</body>
 	</html>
 );
+
+export default async function sources(props: HtmlProps) {
+	const res: { [fname: string]: string } = {};
+
+	for (const e2 of Object.entries(langs)) {
+		const [lang, imp] = e2;
+		const dict = (await imp.dict()).default;
+
+		const source = "<!doctype html>" + render(
+			<Html
+				lang={lang}
+				noscript={dict.noscript}
+				{...props}
+			/>,
+		);
+		res[`i18n/${lang}/index.html`] = source;
+		if (lang == "eng") res["index.html"] = source;
+	}
+
+	return res;
+}

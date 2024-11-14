@@ -4,7 +4,6 @@ import Landing from "./pages/landing.tsx";
 import About from "./pages/about.tsx";
 import NotFound from "./pages/404.tsx";
 import Reader from "./pages/reader.tsx";
-import "./favicon.svg";
 import "./app.css";
 
 // Handle new service worker installation.

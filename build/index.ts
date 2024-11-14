@@ -10,11 +10,13 @@ if (dev) {
 	const watcher = await watch(rollOpts);
 	watcher.on("event", (ev) => {
 		if (ev.code == "BUNDLE_START") {
-			process.stdout.write(`[${new Date().toLocaleTimeString()}] bundling...`);
+			process.stderr.write(`[${new Date().toLocaleTimeString()}] bundling...`);
 		} else if (ev.code == "BUNDLE_END") {
-			console.log(` done in ${ev.duration}ms`);
+			process.stderr.write(` done in ${ev.duration}ms\n`);
+			emitter.emit("change");
 		} else if (ev.code == "ERROR") {
-			emitter.emit("error");
+			process.stderr.write(ev.error.message);
+			emitter.emit("error", ev.error.message);
 		}
 	});
 	Deno.serve(serveOpts);

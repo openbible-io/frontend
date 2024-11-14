@@ -4,7 +4,6 @@
 		"dev": "deno task build --dev"
 	},
 	"imports": {
-		"@std/fs": "jsr:@std/fs@^1.0.5",
 		"@std/media-types": "jsr:@std/media-types@^1.0.3",
 		"autoprefixer": "npm:autoprefixer@^10.4.20",
 		"filesize": "npm:filesize@^10.1.6",
@@ -19,7 +18,7 @@
 		"prosemirror-model": "npm:prosemirror-model@^1.23.0",
 		"prosemirror-state": "npm:prosemirror-state@^1.4.3",
 		"prosemirror-view": "npm:prosemirror-view@^1.35.0",
-		"rolldown": "npm:rolldown@0.14.0-snapshot-a07909e-20241111003354",
+		"rolldown": "npm:rolldown@0.14.0-snapshot-d5e797b-20241114003621",
 		"tailwindcss": "npm:tailwindcss@^3.4.14",
 		"tinybase": "npm:tinybase@^5.3.5"
 	},
