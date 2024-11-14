@@ -9,6 +9,7 @@ import sharp from "sharp";
 import { basename, extname } from "node:path";
 import { readFileSync } from "node:fs";
 import { Buffer } from "node:buffer";
+import hash from "../shared/hash.ts";
 
 export interface Options {
 	base?: string;
@@ -53,6 +54,7 @@ export interface HtmlProps {
 	webmanifest?: string;
 	manifest: { [fname: string]: string };
 }
+let generated = false;
 
 export default ({
 	base = "/",
@@ -61,6 +63,10 @@ export default ({
 	html,
 }: Options) => ({
 	name: "manifest",
+
+	options() {
+		generated = false;
+	},
 
 	buildStart() {
 		if (webmanifest) {
@@ -78,31 +84,12 @@ export default ({
 	},
 
 	async generateBundle(_, bundle) {
-		const scripts = {
-			entries: [] as string[],
-			other: [] as string[],
-		};
-		const stylesheets: string[] = [];
-
-		// 0. Emit icons
+		// These don't change between builds and can be expensive to compute.
+		if (generated) return;
+		// 1. Emit icons
 		const favicon = faviconPath && emitAsset(this, faviconPath);
-		const icon = webmanifest?.icon?.path && emitAsset(this, webmanifest.icon.path);
-
-		// 1. Create manifest from bundle
-		const manifest: { [fname: string]: string /* sha256 base64 hash */ } = {};
-		for (const chunk of Object.values(bundle)) {
-			if (chunk.fileName.endsWith(".map")) continue;
-
-			const path = base + chunk.fileName;
-
-			if (chunk.fileName.endsWith(".js") && chunk.type == "chunk") {
-				scripts[chunk.isEntry ? "entries" : "other"].push(path);
-			} else if (chunk.fileName.endsWith(".css")) {
-				stylesheets.push(path);
-			}
-
-			manifest[path] = await hashChunk(chunk);
-		}
+		const icon = webmanifest?.icon?.path &&
+			emitAsset(this, webmanifest.icon.path);
 
 		// 2. Emit webmanifest
 		if (webmanifest && webmanifest.icon) {
@@ -133,7 +120,25 @@ export default ({
 			}
 		}
 
-		// 3. Emit HTML
+		// 3. Create JSON manifest for service worker
+		const scripts = { entries: [] as string[], other: [] as string[] };
+		const stylesheets: string[] = [];
+		const manifest: { [fname: string]: string /* sha256 base64 hash */ } = {};
+		for (const chunk of Object.values(bundle)) {
+			if (chunk.fileName.endsWith(".map")) continue;
+
+			const path = base + chunk.fileName;
+
+			if (chunk.fileName.endsWith(".js") && chunk.type == "chunk") {
+				scripts[chunk.isEntry ? "entries" : "other"].push(path);
+			} else if (chunk.fileName.endsWith(".css")) {
+				stylesheets.push(path);
+			}
+
+			manifest[path] = await hashChunk(chunk);
+		}
+
+		// 4. Emit HTML
 		const props: HtmlProps = {
 			scripts,
 			stylesheets,
@@ -146,6 +151,7 @@ export default ({
 		Object.entries(indices).forEach(([fileName, source]) =>
 			this.emitFile({ type: "asset", fileName, source })
 		);
+		generated = true;
 	},
 } as Plugin);
 
@@ -180,10 +186,7 @@ function getSource(
 	return typeof code == "string" ? new TextEncoder().encode(code) : code;
 }
 
-async function hashChunk(chunk: RolldownOutputAsset | RolldownOutputChunk) {
+function hashChunk(chunk: RolldownOutputAsset | RolldownOutputChunk) {
 	const source = getSource(chunk);
-	const buffer = await crypto.subtle.digest("sha-256", source);
-	const arr = Array.from(new Uint8Array(buffer));
-
-	return arr.map((i) => i.toString(16).padStart(2, "0")).join("");
+	return hash(source);
 }

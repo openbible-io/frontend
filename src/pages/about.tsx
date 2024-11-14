@@ -2,7 +2,7 @@ import Layout from "./layouts/header.tsx";
 
 export default function About() {
 	return (
-		<Layout>
+		<Layout provideWorker={false}>
 			<table>
 				<tr>
 					<td>Version</td>

@@ -9,14 +9,19 @@ import process from "node:process";
 if (dev) {
 	const watcher = await watch(rollOpts);
 	watcher.on("event", (ev) => {
+		let msg = "";
 		if (ev.code == "BUNDLE_START") {
-			process.stderr.write(`[${new Date().toLocaleTimeString()}] bundling...`);
+			msg = "bundling...";
 		} else if (ev.code == "BUNDLE_END") {
-			process.stderr.write(` done in ${ev.duration}ms\n`);
+			msg = `bundled in ${ev.duration}ms`;
 			emitter.emit("change");
 		} else if (ev.code == "ERROR") {
-			process.stderr.write(ev.error.message);
+			msg = ev.error.message;
 			emitter.emit("error", ev.error.message);
+		}
+		if (msg) {
+			const date = new Date().toLocaleTimeString();
+			process.stderr.write(`[${date}] ${msg}\n`);
 		}
 	});
 	Deno.serve(serveOpts);

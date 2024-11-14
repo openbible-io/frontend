@@ -1,8 +1,9 @@
 import { createContext } from "preact";
+import hash from '../../shared/hash.ts';
 
 declare global {
 	interface Window {
-		MANIFEST: string;
+		MANIFEST: { [key: string]: string };
 	}
 }
 
@@ -17,9 +18,11 @@ export async function initService() {
 	await navigator.serviceWorker.ready;
 	if (!registration.active) throw Error("Failed installing service worker");
 
-	const hrefs: string[] = ["/"];
-	console.log(window.MANIFEST);
-	registration.active.postMessage({ type: "cache", hrefs });
+	// deno-lint-ignore no-window
+	const manifest = window.MANIFEST;
+	manifest["/"] = await hash(document.documentElement.outerHTML);
+	console.log(manifest);
+	//registration.active.postMessage({ type: "cache", hrefs });
 
 	return registration.active;
 }
