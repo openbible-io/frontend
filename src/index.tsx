@@ -1,11 +1,11 @@
 import { render } from "preact-render-to-string";
 import publications from "../shared/publications.ts";
 import type { HtmlProps } from "../build/plugin-manifest.ts";
-import langs from "../shared/i18n.ts";
+import langs, { Translation } from "../shared/i18n.ts";
 
 interface Props {
 	lang: string;
-	noscript?: string;
+	translation: Translation;
 	favicon?: string;
 	scripts: {
 		entries: string[];
@@ -28,12 +28,17 @@ const Html = (props: Props) => (
 				.map((e) => <script type="module" src={e} />)}
 			{props.stylesheets.map((s) => <link rel="stylesheet" href={s} />)}
 			{props.scripts.other
-				.filter((s) => s.includes("i18n") ? s.includes(props.lang) : true)
+				.filter((s) =>
+					s.includes("i18n")
+						? s.includes(props.lang)
+						: !s.includes("prerender") // preact-iso and https://github.com/rolldown/rolldown/issues/2604
+				)
+				.concat(...props.scripts.entries.filter(e => e.includes("service")))
 				.map((s) => <link rel="modulepreload" href={s} />)}
 		</head>
 		<body>
 			<noscript>
-				{props.noscript}
+				{props.translation.noscript}
 				<ul>
 					{Object.values(publications).map((p) => (
 						<li>
@@ -56,17 +61,17 @@ export default async function sources(props: HtmlProps) {
 	const res: { [fname: string]: string } = {};
 
 	for (const e2 of Object.entries(langs)) {
-		const [lang, imp] = e2;
-		const dict = (await imp.dict()).default;
+		const [lang, { translation }] = e2;
+		const t = (await translation()).default;
 
 		const source = "<!doctype html>" + render(
 			<Html
 				lang={lang}
-				noscript={dict.noscript}
+				translation={t}
 				{...props}
 			/>,
 		);
-		res[`i18n/${lang}/index.html`] = source;
+		res[`i18n/${lang}.html`] = source;
 		if (lang == "eng") res["index.html"] = source;
 	}
 

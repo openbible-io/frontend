@@ -5,6 +5,7 @@ import html from "../src/index.tsx";
 import size from "./plugin-size.ts";
 import postcss from "./plugin-postcss.ts";
 import image from "./plugin-image.ts";
+import json from "./plugin-json.ts";
 import { getVersion, getVersionDate } from "./version.ts";
 
 export const dir = "dist";
@@ -25,6 +26,7 @@ export default {
 		}),
 		postcss,
 		image,
+		json,
 		manifest({
 			favicon: "./src/favicon.svg",
 			webmanifest: {
@@ -50,10 +52,7 @@ export default {
 		cssEntryFileNames: "[name].css",
 		cssChunkFileNames: "chunks/[name].css",
 		assetFileNames: "assets/[name][extname]",
-		chunkFileNames(ci) {
-			if (ci.facadeModuleId?.match(/i18n\/.*\.json/)) return "i18n/[name].js";
-			return "chunks/[name].js";
-		},
+		chunkFileNames: "chunks/[name].js",
 		hashCharacters: "base36",
 		sourcemap: true,
 		minify: true,
@@ -62,18 +61,19 @@ export default {
 		advancedChunks: {
 			groups: [
 				{
+					// TODO: remove after https://github.com/rolldown/rolldown/issues/2654
 					name: "rolldown",
 					test: "rolldown:runtime",
 					priority: 100,
 				},
 				{
-					name: "tinybase",
-					test: /node_modules\/tinybase/,
+					name: "preact",
+					test: /node_modules\/preact/,
 					priority: 10,
 				},
 				{
-					name: "preact",
-					test: /node_modules\/preact/,
+					name: "tinybase",
+					test: /node_modules\/tinybase/,
 					priority: 9,
 				},
 				{

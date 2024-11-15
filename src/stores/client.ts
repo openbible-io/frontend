@@ -1,6 +1,6 @@
 import sharedInit, { type TableSchema, type ValueSchema } from "./shared.ts";
 import { createLocalPersister } from "tinybase/persisters/persister-browser/with-schemas";
-import langs, { Language } from "../../shared/i18n.ts";
+import { getLang } from "../lib/i18n.ts";
 import {
 	useCreateQueries as useCreateQueries0,
 	useTable as useTable0,
@@ -12,15 +12,6 @@ import type { Store } from "tinybase/with-schemas";
 
 type Schema = [TableSchema, ValueSchema];
 type UiReactWithSchemas = WithSchemas<Schema>;
-
-function getLang(): Language {
-	for (const e of Object.entries(langs)) {
-		const [id, { test }] = e;
-		if (test.test(navigator.language)) return id as Language;
-	}
-
-	return Object.keys(langs)[0] as Language;
-}
 
 // Persisted to localstorage for before service worker is loaded
 // to prevent a FOUC.

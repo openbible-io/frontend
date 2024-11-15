@@ -4,12 +4,14 @@
     "jsr:@std/media-types@^1.0.3": "1.0.3",
     "npm:@jsr/openbible__bsb@~0.1.38": "0.1.38",
     "npm:@jsr/openbible__core@~0.1.20": "0.1.20",
+    "npm:@nanostores/persistent@~0.10.2": "0.10.2_nanostores@0.11.3",
     "npm:@types/node@*": "22.5.4",
     "npm:autoprefixer@^10.4.20": "10.4.20_postcss@8.4.47",
     "npm:fancy-ansi@~0.1.3": "0.1.3",
     "npm:filesize@^10.1.6": "10.1.6",
     "npm:html5parser@^2.0.2": "2.0.2",
     "npm:markdown-table@^3.0.4": "3.0.4",
+    "npm:nanostores@~0.11.3": "0.11.3",
     "npm:postcss@^8.4.47": "8.4.47",
     "npm:preact-iso@^2.8.1": "2.8.1_preact@10.24.3_preact-render-to-string@6.5.11__preact@10.24.3",
     "npm:preact-render-to-string@^6.5.11": "6.5.11_preact@10.24.3",
@@ -180,6 +182,12 @@
     },
     "@jsr/openbible__core@0.1.20": {
       "integrity": "sha512-rLrjnR+gc+LBCxW6c+iMf973DDyebhOOWSFa0iXcVNW4V6G1G7z2/ecF9AKdEySr/97BkKsTrmWqeMit6ZMupg=="
+    },
+    "@nanostores/persistent@0.10.2_nanostores@0.11.3": {
+      "integrity": "sha512-BEndnLhRC+yP7gXTESepBbSj8XNl8OXK9hu4xAgKC7MWJHKXnEqJMqY47LUyHxK6vYgFnisyHmqq+vq8AUFyIg==",
+      "dependencies": [
+        "nanostores"
+      ]
     },
     "@napi-rs/wasm-runtime@0.2.5": {
       "integrity": "sha512-kwUxR7J9WLutBbulqg1dfOrMTwhMdXLdcGUhcbCcGwnPLt3gz19uHVdwH1syKVDbE022ZS2vZxOWflFLS0YTjw==",
@@ -579,6 +587,9 @@
     },
     "nanoid@3.3.7": {
       "integrity": "sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g=="
+    },
+    "nanostores@0.11.3": {
+      "integrity": "sha512-TUes3xKIX33re4QzdxwZ6tdbodjmn3tWXCEc1uokiEmo14sI1EaGYNs2k3bU2pyyGNmBqFGAVl6jAGWd06AVIg=="
     },
     "node-releases@2.0.18": {
       "integrity": "sha512-d9VeXT4SJ7ZeOqGX6R5EM022wpL+eWPooLI+5UpWn2jCT1aosUQEhQP214x33Wkwx3JQMvIm+tIoVOdodFS40g=="
@@ -1016,7 +1027,9 @@
     "packageJson": {
       "dependencies": [
         "npm:@jsr/openbible__bsb@~0.1.38",
-        "npm:@jsr/openbible__core@~0.1.20"
+        "npm:@jsr/openbible__core@~0.1.20",
+        "npm:@nanostores/persistent@~0.10.2",
+        "npm:nanostores@~0.11.3"
       ]
     }
   }

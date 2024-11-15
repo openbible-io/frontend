@@ -1,4 +1,5 @@
-import langs, { type Dictionary } from "../../shared/i18n.ts";
+import { useEffect, useMemo, useState } from 'preact/hooks';
+import langs, { Language, type Translation } from "../../shared/i18n.ts";
 import { useValue } from "../stores/client.ts";
 
 export function template(res: string, args: Map<string, string>) {
@@ -8,9 +9,31 @@ export function template(res: string, args: Map<string, string>) {
 	return res;
 }
 
-// Source of truth for language is the local ui store.
-export function useDict(): Dictionary {
-	const lang = useValue("lang");
+export function getLang(): Language {
+	for (const e of Object.entries(langs)) {
+		const [id, { test }] = e;
+		if (test.test(navigator.language)) return id as Language;
+	}
 
-	return langs[lang] as Dictionary;
+	return Object.keys(langs)[0] as Language;
+}
+
+export function useLang(): Language {
+	const res = useValue("lang");
+	if (res && res in langs) return res as Language;
+
+	return getLang();
+}
+
+// Source of truth for language is the local ui store.
+export function useTranslation(): Translation | undefined {
+	const lang = useLang();
+	const [translation, setTranslation] = useState<Translation>();
+
+	useMemo(() => {
+		console.log("fetching", lang);
+		langs[lang].translation().then(t => setTranslation(t.default));
+	}, [lang]);
+
+	return translation;
 }

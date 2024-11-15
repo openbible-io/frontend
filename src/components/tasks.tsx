@@ -1,4 +1,4 @@
-import { template, useDict } from "../lib/i18n.ts";
+import { template, useTranslation } from "../lib/i18n.ts";
 
 function defaultTask() {
 	const installed = Boolean(navigator.serviceWorker.controller);
@@ -17,9 +17,9 @@ function defaultTask() {
 }
 
 export default function Tasks() {
-	return "tasks";
+	const translation = useTranslation();
+	return <pre>{JSON.stringify(translation)}</pre>;
 
-	const dict = useDict();
 	return (
 		<div>
 			<h1>{template(dict, "loading", "OpenBible")}</h1>

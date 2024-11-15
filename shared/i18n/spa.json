@@ -1,10 +1,14 @@
 {
-	"name": "Español",
 	"verbs": {
-		"downloading": "Descargando"
+		"loading": "Cargando {}",
+		"downloading": "Descargando {}",
+		"parsing": "Analizando {}",
+		"caching": "Ahorrando {}"
 	},
 	"nouns": {
+		"assets": "activos",
+		"service worker": "trabajadora de servicio"
 	},
-	"title": "OpenBible",
+	"noscript": "Habilite JavaScript o visite:",
 	"404": "Extraviado"
 }

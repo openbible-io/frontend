@@ -1,10 +1,14 @@
 {
-	"name": "עִברִית",
 	"verbs": {
-		"downloading": "מוריד"
+		"loading":"{} טְעִינָה",
+		"downloading":"{} מוריד",
+		"parsing":"{} ניתוח",
+		"caching":"{} שמירה במטמון"
 	},
 	"nouns": {
+		"assets": "נכסים",
+		"service worker": "עובד שירות"
 	},
-	"title": "OpenBible",
+	"noscript": "אפשר JavaScript או בקר",
 	"404": "לא נמצא"
 }

@@ -1,6 +1,6 @@
 import type { Plugin } from "rolldown";
 import { contentType } from "@std/media-types";
-import { dirname, extname, join } from "node:path";
+import { dirname, extname, join, normalize } from "node:path";
 
 const name = "image";
 
@@ -17,16 +17,16 @@ export default {
 		this.addWatchFile(id);
 
 		// dirname("undefined") == "."
-		const relpath = join(dirname(importee), id);
+		const path = join(dirname(importee), id);
+		const source = await Deno.readTextFile(path);
 
-		const source = await Deno.readTextFile(relpath);
 		this.emitFile({
 			type: "asset",
-			name: relpath,
+			name: normalize(id),
 			source,
 			originalFileName: id,
 		});
 
-		return JSON.stringify(relpath);
+		return JSON.stringify(path);
 	},
 } as Plugin;

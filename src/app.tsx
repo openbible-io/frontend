@@ -8,6 +8,7 @@ import Reader from "./pages/reader.tsx";
 import { Context as ServiceWorker, initService } from "./workers/workers.ts";
 import Tasks from "./components/tasks.tsx";
 import "./app.css";
+import { useTranslation } from "./lib/i18n.ts";
 
 // Handle new service worker installation.
 // We store all view state in the service worker, so it's safe to refresh.
@@ -19,14 +20,16 @@ navigator.serviceWorker.addEventListener("controllerchange", () => {
 });
 
 function App() {
+	const translation = useTranslation();
 	const [worker, setWorker] = useState<ServiceWorker | undefined>();
+
 
 	useEffect(() => {
 		//initService().then((w) => {
 		//	//if (import.meta.env.DEV) console.log(w);
 		//	//setWorker(w);
 		//});
-	}, []);
+	}, [translation]);
 
 	if (!worker) return <Tasks />;
 
