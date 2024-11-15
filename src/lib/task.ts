@@ -1,42 +1,39 @@
-// Reminder: Shared between UI and service worker.
-// Everything here is duplicated!
-import type { SharedStore } from "./stores/shared.ts";
-
+// TODO: wire up
+// Shared between UI and service worker.
 export type Opts = {
 	directObject?: string;
 	total?: number;
 };
 
-let id = 0;
+//let id = 0;
 export default class Task {
-	#id: string;
+	//#id: string;
 	#cur = 0;
 	#total = 0;
 	directObject: string;
 	#status = "";
 
 	constructor(
-		public store: SharedStore,
 		public thread: string,
 		public verb: string,
 		opts?: Opts,
 	) {
-		this.#id = `${thread}${id++}`;
+		//this.#id = `${thread}${id++}`;
 		this.#total = opts?.total ?? 1;
 		this.directObject = opts?.directObject ?? "";
 		this.updateStore();
 	}
 
 	updateStore() {
-		this.store.setRow("task", this.#id, {
-			id: this.#id,
-			verb: this.verb,
-			directObject: this.directObject ?? "",
-			thread: this.thread,
-			cur: this.#cur,
-			total: this.#total,
-			status: this.#status,
-		});
+		//this.store.setRow("task", this.#id, {
+		//	id: this.#id,
+		//	verb: this.verb,
+		//	directObject: this.directObject ?? "",
+		//	thread: this.thread,
+		//	cur: this.#cur,
+		//	total: this.#total,
+		//	status: this.#status,
+		//});
 	}
 
 	set cur(val: number) {

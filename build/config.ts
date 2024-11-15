@@ -7,6 +7,7 @@ import postcss from "./plugin-postcss.ts";
 import image from "./plugin-image.ts";
 import json from "./plugin-json.ts";
 import { getVersion, getVersionDate } from "./version.ts";
+import denoJson from "../deno.json" with { type: "json" };
 
 export const dir = "dist";
 export const dev = Deno.args.includes("--dev");
@@ -16,19 +17,25 @@ export default {
 		"./src/app.tsx",
 		"./src/workers/service.ts",
 	],
+	jsx: {
+		mode: "automatic",
+		jsxImportSource: denoJson.compilerOptions.jsxImportSource,
+		development: dev,
+	},
 	plugins: [
 		replace({
 			"import.meta.env.OPENBIBLE_VERSION": JSON.stringify(getVersion()),
 			"import.meta.env.OPENBIBLE_VERSION_DATE": JSON.stringify(
 				getVersionDate(),
 			),
-			"import.meta.env.DEV": dev.toString(),
+			"import.meta.env.DEV": dev ? "true" : "false",
+			"process.env.NODE_ENV": JSON.stringify(dev ? "dev" : "production"),
 		}),
 		postcss,
 		image,
 		json,
 		manifest({
-			favicon: "./src/favicon.svg",
+			favicon: import.meta.resolve("../assets/favicon.svg").replace("file://", ""),
 			webmanifest: {
 				name: "OpenBible",
 				display: "standalone",
@@ -40,12 +47,6 @@ export default {
 		}),
 		...(dev ? [] : [size]),
 	],
-	resolve: {
-		alias: {
-			"react": "preact/compat",
-			"react-dom": "preact/compat",
-		},
-	},
 	output: {
 		dir,
 		entryFileNames: "[name].js",
@@ -53,7 +54,6 @@ export default {
 		cssChunkFileNames: "chunks/[name].css",
 		assetFileNames: "assets/[name][extname]",
 		chunkFileNames: "chunks/[name].js",
-		hashCharacters: "base36",
 		sourcemap: true,
 		minify: true,
 		comments: "none",

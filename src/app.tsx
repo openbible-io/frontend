@@ -1,17 +1,17 @@
 import { render } from "preact";
-import { useEffect, useState } from "preact/hooks";
-import { LocationProvider, Route, Router } from "preact-iso";
+import { useStore } from "@nanostores/preact";
+import { lang, type Theme, theme, themes } from "./stores/client.ts";
 import Landing from "./pages/landing.tsx";
 import About from "./pages/about.tsx";
 import NotFound from "./pages/404.tsx";
 import Reader from "./pages/reader.tsx";
-import { Context as ServiceWorker, initService } from "./workers/workers.ts";
 import Tasks from "./components/tasks.tsx";
 import "./app.css";
-import { useTranslation } from "./lib/i18n.ts";
+import langs, { Language } from "../shared/i18n.ts";
 
 // Handle new service worker installation.
-// We store all view state in the service worker, so it's safe to refresh.
+// We store most view state so it's safe to refresh
+// when we get a new worker.
 let refreshing = false;
 navigator.serviceWorker.addEventListener("controllerchange", () => {
 	if (refreshing) return;
@@ -20,31 +20,36 @@ navigator.serviceWorker.addEventListener("controllerchange", () => {
 });
 
 function App() {
-	const translation = useTranslation();
-	const [worker, setWorker] = useState<ServiceWorker | undefined>();
-
-
-	useEffect(() => {
-		//initService().then((w) => {
-		//	//if (import.meta.env.DEV) console.log(w);
-		//	//setWorker(w);
-		//});
-	}, [translation]);
-
-	if (!worker) return <Tasks />;
+	const t = useStore(theme);
+	const l = useStore(lang);
 
 	return (
-		<ServiceWorker.Provider value={worker}>
-			<LocationProvider>
-				<Router>
-					<Route path="/" component={Landing} />
-					<Route path="/about" component={About} />
-					<Route path="/:pub/:book" component={Reader} />
-					<Route default component={NotFound} />
-				</Router>
-			</LocationProvider>
-		</ServiceWorker.Provider>
+		<div>
+			<select
+				onChange={(ev) => theme.set(ev.currentTarget.value as Theme)}
+				value={t}
+			>
+				{themes.map((t) => <option>{t}</option>)}
+			</select>
+			<select
+				onChange={(ev) => lang.set(ev.currentTarget.value as Language)}
+				value={l}
+			>
+				{Object.keys(langs).map((t) => <option>{t}</option>)}
+			</select>
+		</div>
 	);
+	//if (!worker) return <Tasks />;
+	//return (
+	//	<LocationProvider>
+	//		<Router>
+	//			<Route path="/" component={Landing} />
+	//			<Route path="/about" component={About} />
+	//			<Route path="/:pub/:book" component={Reader} />
+	//			<Route default component={NotFound} />
+	//		</Router>
+	//	</LocationProvider>
+	//);
 }
 
 render(<App />, document.getElementById("app")!);

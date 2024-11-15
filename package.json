@@ -1,8 +1,6 @@
 {
 	"dependencies": {
-		"@nanostores/persistent": "^0.10.2",
 		"@openbible/bsb": "npm:@jsr/openbible__bsb@^0.1.38",
-		"@openbible/core": "npm:@jsr/openbible__core@^0.1.20",
-		"nanostores": "^0.11.3"
+		"@openbible/core": "npm:@jsr/openbible__core@^0.1.20"
 	}
 }

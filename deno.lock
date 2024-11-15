@@ -1,10 +1,13 @@
 {
   "version": "4",
   "specifiers": {
+    "jsr:@std/fs@^1.0.5": "1.0.5",
     "jsr:@std/media-types@^1.0.3": "1.0.3",
+    "jsr:@std/path@^1.0.7": "1.0.8",
     "npm:@jsr/openbible__bsb@~0.1.38": "0.1.38",
     "npm:@jsr/openbible__core@~0.1.20": "0.1.20",
     "npm:@nanostores/persistent@~0.10.2": "0.10.2_nanostores@0.11.3",
+    "npm:@nanostores/preact@~0.5.2": "0.5.2_nanostores@0.11.3_preact@10.24.3",
     "npm:@types/node@*": "22.5.4",
     "npm:autoprefixer@^10.4.20": "10.4.20_postcss@8.4.47",
     "npm:fancy-ansi@~0.1.3": "0.1.3",
@@ -13,7 +16,6 @@
     "npm:markdown-table@^3.0.4": "3.0.4",
     "npm:nanostores@~0.11.3": "0.11.3",
     "npm:postcss@^8.4.47": "8.4.47",
-    "npm:preact-iso@^2.8.1": "2.8.1_preact@10.24.3_preact-render-to-string@6.5.11__preact@10.24.3",
     "npm:preact-render-to-string@^6.5.11": "6.5.11_preact@10.24.3",
     "npm:preact@^10.24.3": "10.24.3",
     "npm:prosemirror-commands@^1.6.2": "1.6.2",
@@ -24,12 +26,20 @@
     "npm:prosemirror-view@^1.35.0": "1.36.0",
     "npm:rolldown@0.14.0-snapshot-d5e797b-20241114003621": "0.14.0-snapshot-d5e797b-20241114003621",
     "npm:sharp@~0.33.5": "0.33.5",
-    "npm:tailwindcss@^3.4.14": "3.4.14_postcss@8.4.47",
-    "npm:tinybase@^5.3.5": "5.3.8"
+    "npm:tailwindcss@^3.4.14": "3.4.14_postcss@8.4.47"
   },
   "jsr": {
+    "@std/fs@1.0.5": {
+      "integrity": "41806ad6823d0b5f275f9849a2640d87e4ef67c51ee1b8fb02426f55e02fd44e",
+      "dependencies": [
+        "jsr:@std/path"
+      ]
+    },
     "@std/media-types@1.0.3": {
       "integrity": "b12d30a7852f7578f4d210622df713bbfd1cbdd9b4ec2eaf5c1845ab70bab159"
+    },
+    "@std/path@1.0.8": {
+      "integrity": "548fa456bb6a04d3c1a1e7477986b6cffbce95102d0bb447c67c4ee70e0364be"
     }
   },
   "npm": {
@@ -187,6 +197,13 @@
       "integrity": "sha512-BEndnLhRC+yP7gXTESepBbSj8XNl8OXK9hu4xAgKC7MWJHKXnEqJMqY47LUyHxK6vYgFnisyHmqq+vq8AUFyIg==",
       "dependencies": [
         "nanostores"
+      ]
+    },
+    "@nanostores/preact@0.5.2_nanostores@0.11.3_preact@10.24.3": {
+      "integrity": "sha512-DZ5G0UuHTJ8NNS8I3Jd6f4RCcWIl4siYD+vaV6jQf0T6xJ3QqTSkJkYNQTZK7O+7NC/mzaLkomyLQqD+w1E0Tg==",
+      "dependencies": [
+        "nanostores",
+        "preact"
       ]
     },
     "@napi-rs/wasm-runtime@0.2.5": {
@@ -686,13 +703,6 @@
         "source-map-js"
       ]
     },
-    "preact-iso@2.8.1_preact@10.24.3_preact-render-to-string@6.5.11__preact@10.24.3": {
-      "integrity": "sha512-RL0yDdJcSiB4Wnk4fBqq0OE9QCfTEW7B2ULf8GHPx72AtFE+j1NvabjBF6y3rBgrNWSuuPuuiN4L4KxYteQD2Q==",
-      "dependencies": [
-        "preact",
-        "preact-render-to-string"
-      ]
-    },
     "preact-render-to-string@6.5.11_preact@10.24.3": {
       "integrity": "sha512-ubnauqoGczeGISiOh6RjX0/cdaF8v/oDXIjO85XALCQjwQP+SB4RDXXtvZ6yTYSjG+PC1QRP2AhPgCEsM2EvUw==",
       "dependencies": [
@@ -940,9 +950,6 @@
         "any-promise"
       ]
     },
-    "tinybase@5.3.8": {
-      "integrity": "sha512-GWcOgFFOpWbOQo1+0wvx7s+CPJK+RFdveeoqFUMSWeumYa0pN7OdbI6C8dTC8BRvGPsnUyY5GuUCZSYd6mRRIw=="
-    },
     "to-regex-range@5.0.1": {
       "integrity": "sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==",
       "dependencies": [
@@ -1003,14 +1010,17 @@
   },
   "workspace": {
     "dependencies": [
+      "jsr:@std/fs@^1.0.5",
       "jsr:@std/media-types@^1.0.3",
+      "npm:@nanostores/persistent@~0.10.2",
+      "npm:@nanostores/preact@~0.5.2",
       "npm:autoprefixer@^10.4.20",
       "npm:fancy-ansi@~0.1.3",
       "npm:filesize@^10.1.6",
       "npm:html5parser@^2.0.2",
       "npm:markdown-table@^3.0.4",
+      "npm:nanostores@~0.11.3",
       "npm:postcss@^8.4.47",
-      "npm:preact-iso@^2.8.1",
       "npm:preact-render-to-string@^6.5.11",
       "npm:preact@^10.24.3",
       "npm:prosemirror-commands@^1.6.2",
@@ -1021,15 +1031,12 @@
       "npm:prosemirror-view@^1.35.0",
       "npm:rolldown@0.14.0-snapshot-d5e797b-20241114003621",
       "npm:sharp@~0.33.5",
-      "npm:tailwindcss@^3.4.14",
-      "npm:tinybase@^5.3.5"
+      "npm:tailwindcss@^3.4.14"
     ],
     "packageJson": {
       "dependencies": [
         "npm:@jsr/openbible__bsb@~0.1.38",
-        "npm:@jsr/openbible__core@~0.1.20",
-        "npm:@nanostores/persistent@~0.10.2",
-        "npm:nanostores@~0.11.3"
+        "npm:@jsr/openbible__core@~0.1.20"
       ]
     }
   }

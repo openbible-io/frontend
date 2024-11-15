@@ -31,7 +31,7 @@ const Html = (props: Props) => (
 				.filter((s) =>
 					s.includes("i18n")
 						? s.includes(props.lang)
-						: !s.includes("prerender") // preact-iso and https://github.com/rolldown/rolldown/issues/2604
+						: true
 				)
 				.concat(...props.scripts.entries.filter(e => e.includes("service")))
 				.map((s) => <link rel="modulepreload" href={s} />)}

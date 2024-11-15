@@ -1,44 +1,32 @@
-import sharedInit, { type TableSchema, type ValueSchema } from "./shared.ts";
-import { createLocalPersister } from "tinybase/persisters/persister-browser/with-schemas";
+import { persistentAtom } from "@nanostores/persistent";
+import { Context as ServiceWorker, initService } from "../workers/workers.ts";
+import langs, { Language } from "../../shared/i18n.ts";
 import { getLang } from "../lib/i18n.ts";
-import {
-	useCreateQueries as useCreateQueries0,
-	useTable as useTable0,
-	useValue as useValue0,
-} from "tinybase/ui-react";
-import type { WithSchemas } from "tinybase/ui-react/with-schemas";
-import type { Queries } from "tinybase/queries/with-schemas";
-import type { Store } from "tinybase/with-schemas";
 
-type Schema = [TableSchema, ValueSchema];
-type UiReactWithSchemas = WithSchemas<Schema>;
-
-// Persisted to localstorage for before service worker is loaded
-// to prevent a FOUC.
-async function init() {
-	const res = sharedInit();
-	const persister = createLocalPersister(res, "shared");
-	await persister.load([{}, { lang: getLang(), theme: "device" }]);
-	await persister.startAutoSave();
-	res.merge(sharedInit());
-	return res;
+function createStore<T>(name: string, defaultValue: T, options: readonly T[]) {
+	return persistentAtom<T>(
+		name,
+		defaultValue,
+		{
+			encode: JSON.stringify,
+			decode(s) {
+				const res = JSON.parse(s);
+				if (options.includes(res)) return res;
+				return defaultValue;
+			},
+		},
+	);
 }
 
-const store: Store<Schema> = await init();
-export default store;
+export const themes = ["system", "dark", "light"] as const;
+export type Theme = typeof themes[number];
+export const theme = createStore("theme", "system", themes);
 
-export function useValue(key: keyof ValueSchema) {
-	return (useValue0 as UiReactWithSchemas["useValue"])(key, store);
-}
+export const lang = createStore("lang", getLang(), Object.keys(langs) as Language[]);
 
-export function useTable(key: keyof TableSchema) {
-	return (useTable0 as UiReactWithSchemas["useTable"])(key, store);
-}
-
-export function useCreateQueries(
-	create: (s: Store<Schema>) => Queries<Schema>,
-) {
-	return (useCreateQueries0 as unknown as UiReactWithSchemas[
-		"useCreateQueries"
-	])(store, create);
-}
+//useEffect(() => {
+//	//initService().then((w) => {
+//	//	//if (import.meta.env.DEV) console.log(w);
+//	//	//setWorker(w);
+//	//});
+//}, [translation]);

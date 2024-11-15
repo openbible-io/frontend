@@ -1,10 +1,9 @@
-import { template, useDict } from "../i18n.ts";
-import { useTable } from "tinybase/ui-react";
-import { Context as ServiceWorker } from "../workers.ts";
 import { useContext, useEffect, useState } from "preact/hooks";
+import { useLocation } from "preact-iso";
+import { template, useDict } from "../i18n.ts";
+import { Context as ServiceWorker } from "../workers.ts";
 import { useStore } from "../stores/client.ts";
 import publications, { type Publication } from "../publications.ts";
-import { useLocation } from "preact-iso";
 
 function defaultTask(worker?: ServiceWorker) {
 	if (worker != undefined) return;

@@ -1,4 +1,3 @@
-import sharedInit from "../stores/shared.ts";
 import { type Publication } from "../../shared/publications.ts";
 import { type ITag, type IText, parse } from "html5parser";
 import Task, { type Opts as TaskOpts } from "../lib/task.ts";
@@ -6,7 +5,7 @@ import Task, { type Opts as TaskOpts } from "../lib/task.ts";
 declare const self: ServiceWorkerGlobalScope;
 const cacheId = "v1";
 
-const shared = sharedInit();
+//const shared = sharedInit();
 
 // Run for very first time.
 self.addEventListener("install", () => {
@@ -16,7 +15,7 @@ self.addEventListener("install", () => {
 });
 
 function newTask(name: string, opts?: TaskOpts) {
-	return new Task(shared, "service", name, opts);
+	return new Task("service", name, opts);
 }
 
 async function cacheNew(urls: RequestInfo[]) {
