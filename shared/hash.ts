@@ -1,4 +1,6 @@
-export default async function hash(data: string | BufferSource): Promise<string> {
+export default async function hash(
+	data: string | BufferSource,
+): Promise<string> {
 	if (typeof data == "string") data = new TextEncoder().encode(data);
 
 	const buffer = await crypto.subtle.digest("sha-256", data);

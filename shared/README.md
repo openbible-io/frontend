@@ -1,3 +1,3 @@
 # shared
 
-Code here must be shared between the browser and  Deno.
+Code here must be shared between the browser and Deno.

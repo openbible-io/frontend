@@ -2,9 +2,9 @@ import sharedInit, { type TableSchema, type ValueSchema } from "./shared.ts";
 import { createLocalPersister } from "tinybase/persisters/persister-browser/with-schemas";
 import langs, { Language } from "../../shared/i18n.ts";
 import {
+	useCreateQueries as useCreateQueries0,
 	useTable as useTable0,
 	useValue as useValue0,
-	useCreateQueries as useCreateQueries0,
 } from "tinybase/ui-react";
 import type { WithSchemas } from "tinybase/ui-react/with-schemas";
 import type { Queries } from "tinybase/queries/with-schemas";
@@ -44,6 +44,10 @@ export function useTable(key: keyof TableSchema) {
 	return (useTable0 as UiReactWithSchemas["useTable"])(key, store);
 }
 
-export function useCreateQueries(create: (s: Store<Schema>) => Queries<Schema>) {
-	return (useCreateQueries0 as unknown as UiReactWithSchemas["useCreateQueries"])(store, create);
+export function useCreateQueries(
+	create: (s: Store<Schema>) => Queries<Schema>,
+) {
+	return (useCreateQueries0 as unknown as UiReactWithSchemas[
+		"useCreateQueries"
+	])(store, create);
 }

@@ -1,5 +1,5 @@
 import { useRoute } from "preact-iso";
-import Layout from './layouts/header.tsx';
+import Layout from "./layouts/header.tsx";
 import Editor from "../components/editor/editor.tsx";
 
 export default function ReaderPage() {

@@ -14,10 +14,10 @@ if (dev) {
 			msg = "bundling...";
 		} else if (ev.code == "BUNDLE_END") {
 			msg = `bundled in ${ev.duration}ms`;
-			emitter.emit("change");
+			emitter.change();
 		} else if (ev.code == "ERROR") {
 			msg = ev.error.message;
-			emitter.emit("error", ev.error.message);
+			emitter.error(ev.error.message);
 		}
 		if (msg) {
 			const date = new Date().toLocaleTimeString();

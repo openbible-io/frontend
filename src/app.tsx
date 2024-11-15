@@ -22,10 +22,10 @@ function App() {
 	const [worker, setWorker] = useState<ServiceWorker | undefined>();
 
 	useEffect(() => {
-		initService().then((w) => {
-			//if (import.meta.env.DEV) console.log(w);
-			//setWorker(w);
-		});
+		//initService().then((w) => {
+		//	//if (import.meta.env.DEV) console.log(w);
+		//	//setWorker(w);
+		//});
 	}, []);
 
 	if (!worker) return <Tasks />;

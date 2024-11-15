@@ -1,5 +1,5 @@
 import { useDict } from "../lib/i18n.ts";
-import Layout from './layouts/header.tsx';
+import Layout from "./layouts/header.tsx";
 
 export default function NotFound() {
 	const dict = useDict();

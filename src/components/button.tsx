@@ -1,4 +1,4 @@
-import type { JSX } from 'preact';
+import type { JSX } from "preact";
 import classes from "../lib/classnames.ts";
 
 export type ButtonProps = JSX.HTMLAttributes<HTMLButtonElement>;

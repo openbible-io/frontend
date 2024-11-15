@@ -12,7 +12,7 @@ export default {
 	},
 	async load(id0) {
 		if (!id0?.startsWith(`\0${name}`)) return;
-		const [_, __, id, importee] = id0.split('\0');
+		const [_, __, id, importee] = id0.split("\0");
 
 		this.addWatchFile(id);
 
@@ -20,7 +20,12 @@ export default {
 		const relpath = join(dirname(importee), id);
 
 		const source = await Deno.readTextFile(relpath);
-		this.emitFile({ type: "asset", name: relpath, source, originalFileName: id });
+		this.emitFile({
+			type: "asset",
+			name: relpath,
+			source,
+			originalFileName: id,
+		});
 
 		return JSON.stringify(relpath);
 	},

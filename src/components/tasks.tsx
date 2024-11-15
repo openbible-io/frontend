@@ -17,8 +17,9 @@ function defaultTask() {
 }
 
 export default function Tasks() {
-	const dict = useDict();
+	return "tasks";
 
+	const dict = useDict();
 	return (
 		<div>
 			<h1>{template(dict, "loading", "OpenBible")}</h1>

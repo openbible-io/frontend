@@ -122,9 +122,9 @@ async function cacheStrategy(request: Request): Promise<Response> {
 	const url = new URL(request.url);
 	const re = /\.[^.]+$/;
 	const extname = re.exec(url.pathname)?.[0];
-	if (!extname || extname == '.html') return networkThenCache(new Request("/"));
+	if (!extname || extname == ".html") return networkThenCache(new Request("/"));
 
-	console.warn('uncached', url.pathname);
+	console.warn("uncached", url.pathname);
 	return fetch(request);
 }
 

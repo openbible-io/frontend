@@ -6,6 +6,7 @@
     "npm:@jsr/openbible__core@~0.1.20": "0.1.20",
     "npm:@types/node@*": "22.5.4",
     "npm:autoprefixer@^10.4.20": "10.4.20_postcss@8.4.47",
+    "npm:fancy-ansi@~0.1.3": "0.1.3",
     "npm:filesize@^10.1.6": "10.1.6",
     "npm:html5parser@^2.0.2": "2.0.2",
     "npm:markdown-table@^3.0.4": "3.0.4",
@@ -405,6 +406,15 @@
     },
     "escalade@3.2.0": {
       "integrity": "sha512-WUj2qlxaQtO4g6Pq5c29GTcWGDyd8itL8zTlipgECz3JesAiiOKotd8JU6otB3PACgG6xkJUyVhboMS+bje/jA=="
+    },
+    "escape-html@1.0.3": {
+      "integrity": "sha512-NiSupZ4OeuGwr68lGIeym/ksIZMJodUGOSCZ/FSnTxcrekbvqrgdUxlJOMpijaKZVjAJrWrGs/6Jy8OMuyj9ow=="
+    },
+    "fancy-ansi@0.1.3": {
+      "integrity": "sha512-tRQVTo5jjdSIiydqgzIIEZpKddzSsfGLsSVt6vWdjVm7fbvDTiQkyoPu6Z3dIPlAM4OZk0jP5jmTCX4G8WGgBw==",
+      "dependencies": [
+        "escape-html"
+      ]
     },
     "fast-glob@3.3.2": {
       "integrity": "sha512-oX2ruAFQwf/Orj8m737Y5adxDQO0LAB7/S5MnxCdTNDd4p6BsyIVsv9JQsATbTSq8KHRpLwIHbVlUNatxd+1Ow==",
@@ -984,11 +994,13 @@
     "dependencies": [
       "jsr:@std/media-types@^1.0.3",
       "npm:autoprefixer@^10.4.20",
+      "npm:fancy-ansi@~0.1.3",
       "npm:filesize@^10.1.6",
       "npm:html5parser@^2.0.2",
       "npm:markdown-table@^3.0.4",
       "npm:postcss@^8.4.47",
       "npm:preact-iso@^2.8.1",
+      "npm:preact-render-to-string@^6.5.11",
       "npm:preact@^10.24.3",
       "npm:prosemirror-commands@^1.6.2",
       "npm:prosemirror-history@^1.4.1",
@@ -997,15 +1009,14 @@
       "npm:prosemirror-state@^1.4.3",
       "npm:prosemirror-view@^1.35.0",
       "npm:rolldown@0.14.0-snapshot-d5e797b-20241114003621",
+      "npm:sharp@~0.33.5",
       "npm:tailwindcss@^3.4.14",
       "npm:tinybase@^5.3.5"
     ],
     "packageJson": {
       "dependencies": [
         "npm:@jsr/openbible__bsb@~0.1.38",
-        "npm:@jsr/openbible__core@~0.1.20",
-        "npm:preact-render-to-string@^6.5.11",
-        "npm:sharp@~0.33.5"
+        "npm:@jsr/openbible__core@~0.1.20"
       ]
     }
   }

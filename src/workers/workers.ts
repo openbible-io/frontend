@@ -1,5 +1,5 @@
 import { createContext } from "preact";
-import hash from '../../shared/hash.ts';
+import hash from "../../shared/hash.ts";
 
 declare global {
 	interface Window {

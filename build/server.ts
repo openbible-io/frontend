@@ -3,14 +3,37 @@ import { extname, join } from "node:path";
 import EventEmitter from "node:events";
 import { contentType } from "@std/media-types";
 import { dir } from "./config.ts";
+import { FancyAnsi } from "fancy-ansi";
+
+const convert = new FancyAnsi();
 
 const liveReload = Deno.readTextFileSync(
 	join(import.meta.dirname!, "liveReload.js"),
 );
-export const emitter = new EventEmitter();
-// To prevent `.emit` from blocking.
-emitter.addListener("change", () => {});
-emitter.addListener("error", () => {});
+
+type WatcherMessage = { type: "change" } | {
+	type: "error";
+	raw: string;
+	html: string;
+};
+declare interface Emitter {
+	addListener(event: "watcher", listener: (msg: WatcherMessage) => void): this;
+}
+class Emitter extends EventEmitter {
+	lastError?: { type: "error"; raw: string; html: string };
+
+	change() {
+		this.lastError = undefined;
+		this.emit("watcher", { type: "change" });
+	}
+	error(raw: string) {
+		const html = convert.toHtml(raw).replaceAll("\n", "<br>");
+		this.lastError = { type: "error", raw, html };
+		this.emit("watcher", this.lastError);
+	}
+}
+export const emitter = new Emitter();
+emitter.addListener("watcher", () => {}); // To prevent `.emit` from blocking.
 
 export default {
 	hostname: "localhost",
@@ -23,22 +46,20 @@ export default {
 	async handler(req) {
 		const url = new URL(req.url);
 		if (url.pathname == "/liveReload") {
-			let listener: (ev: Event) => void;
+			let listener: (ev: WatcherMessage) => void;
 			const body = new ReadableStream({
 				start(controller) {
 					listener = (ev) => {
-						ev = ev ?? "";
 						const msg = new TextEncoder().encode(
 							`event: change\ndata: ${JSON.stringify(ev)}\n\n`,
 						);
 						controller.enqueue(msg);
 					};
-					emitter.addListener("change", listener);
-					emitter.addListener("error", listener);
+					emitter.addListener("watcher", listener);
+					if (emitter.lastError) listener(emitter.lastError);
 				},
 				cancel() {
-					emitter.removeListener("change", listener);
-					emitter.removeListener("error", listener);
+					emitter.removeListener("watcher", listener);
 				},
 			});
 			return new Response(body, {
@@ -52,15 +73,15 @@ export default {
 			stat = await Deno.stat(path);
 			if (!stat.isFile) throw Error(`${path} not a file`);
 		} catch (e) {
-			if (extname(path) != ".html" && extname(path) != "")
+			if (extname(path) != ".html" && extname(path) != "") {
 				return new Response((e as Error).toString(), { status: 404 });
+			}
 			let status = 500;
 			path = join(dir, "index.html");
 			try {
 				stat = await Deno.stat(path);
 				if (!stat.isFile) throw Error(`${path} not a file`);
-			}
-			catch (e2) {
+			} catch (e2) {
 				if (e2 instanceof Deno.errors.NotFound) status = 404;
 				return new Response(`stat ${path}: ${e2}`, { status });
 			}
