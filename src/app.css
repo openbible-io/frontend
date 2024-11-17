@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+	:root {
+		--color-bg: 243, 244, 246;
+		--color-text: 17 24 39;
+	}
+
+	.dark {
+		--color-bg: 17 24 39;
+		--color-text: 243, 244, 246;
+	}
+
+	* {
+		@apply transition-colors duration-500 ease-in-out;
+	}
+}

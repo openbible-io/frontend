@@ -84,15 +84,14 @@ export default ({
 	},
 
 	async generateBundle(_, bundle) {
-		// These don't change between builds and can be expensive to compute.
-		if (generated) return;
 		// 1. Emit icons
 		const favicon = faviconPath && emitAsset(this, faviconPath);
 		const icon = webmanifest?.icon?.path &&
 			emitAsset(this, webmanifest.icon.path);
 
 		// 2. Emit webmanifest
-		if (webmanifest && webmanifest.icon) {
+		// These don't change between builds and can be expensive to compute.
+		if (webmanifest && webmanifest.icon && !generated) {
 			const { icon: { sizes }, ...rest } = webmanifest;
 			try {
 				if (!icon) throw Error("must provide icon for webmanifest");

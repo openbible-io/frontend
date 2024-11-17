@@ -1,11 +1,12 @@
 import { render } from "preact";
 import { useStore } from "@nanostores/preact";
-import { lang, type Theme, theme, themes } from "./stores/client.ts";
-import Landing from "./pages/landing.tsx";
-import About from "./pages/about.tsx";
-import NotFound from "./pages/404.tsx";
-import Reader from "./pages/reader.tsx";
-import Tasks from "./components/tasks.tsx";
+import * as store from "./stores/client.ts";
+//import Landing from "./pages/landing.tsx";
+//import About from "./pages/about.tsx";
+//import NotFound from "./pages/404.tsx";
+//import Reader from "./pages/reader.tsx";
+//import Tasks from "./components/tasks.tsx";
+import classnames from "./lib/classnames.ts";
 import "./app.css";
 import langs, { Language } from "../shared/i18n.ts";
 
@@ -20,20 +21,23 @@ navigator.serviceWorker.addEventListener("controllerchange", () => {
 });
 
 function App() {
-	const t = useStore(theme);
-	const l = useStore(lang);
+	const theme = useStore(store.theme);
+	const lang = useStore(store.lang);
+	const systemLang = useStore(store.systemTheme);
 
 	return (
-		<div>
+		<div class={classnames("w-screen h-screen bg-bg text-text", theme == "system" ? systemLang : theme)}>
 			<select
-				onChange={(ev) => theme.set(ev.currentTarget.value as Theme)}
-				value={t}
+				class="bg-inherit"
+				onChange={(ev) => store.theme.set(ev.currentTarget.value as store.Theme)}
+				value={theme}
 			>
-				{themes.map((t) => <option>{t}</option>)}
+				{store.themes.map((t) => <option>{t}</option>)}
 			</select>
 			<select
-				onChange={(ev) => lang.set(ev.currentTarget.value as Language)}
-				value={l}
+				class="bg-inherit"
+				onChange={(ev) => store.lang.set(ev.currentTarget.value as Language)}
+				value={lang}
 			>
 				{Object.keys(langs).map((t) => <option>{t}</option>)}
 			</select>
