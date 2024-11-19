@@ -6,8 +6,9 @@ import size from "./plugin-size.ts";
 import postcss from "./plugin-postcss.ts";
 import image from "./plugin-image.ts";
 import json from "./plugin-json.ts";
+import i18n from "./plugin-i18n.ts";
 import { getVersion, getVersionDate } from "./version.ts";
-import denoJson from "../deno.json" with { type: "json" };
+import tailwind from "../tailwind.config.js";
 
 export const dir = "dist";
 export const dev = Deno.args.includes("--dev");
@@ -19,7 +20,7 @@ export default {
 	],
 	jsx: {
 		mode: "automatic",
-		jsxImportSource: denoJson.compilerOptions.jsxImportSource,
+		jsxImportSource: "preact",
 		development: dev,
 	},
 	plugins: [
@@ -34,14 +35,14 @@ export default {
 		postcss,
 		image,
 		json,
+		i18n,
 		manifest({
 			favicon: import.meta.resolve("../assets/favicon.svg").replace("file://", ""),
 			webmanifest: {
 				name: "OpenBible",
 				display: "standalone",
-				// TODO: tailwind as source of truth
-				background_color: "#f2f2f2",
-				theme_color: "#0b8dc4",
+				background_color: tailwind.bgColor,
+				theme_color: tailwind.brandColor,
 			},
 			html,
 		}),

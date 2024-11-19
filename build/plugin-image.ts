@@ -14,11 +14,11 @@ export default {
 		if (!id0?.startsWith(`\0${name}`)) return;
 		const [_, __, id, importee] = id0.split("\0");
 
-		this.addWatchFile(id);
 
 		// dirname("undefined") == "."
-		const path = join(dirname(importee), id);
-		const source = await Deno.readTextFile(path);
+		const abspath = join(dirname(importee), id);
+		this.addWatchFile(abspath);
+		const source = await Deno.readTextFile(abspath);
 
 		this.emitFile({
 			type: "asset",
@@ -27,6 +27,6 @@ export default {
 			originalFileName: id,
 		});
 
-		return JSON.stringify(path);
+		return JSON.stringify(abspath);
 	},
 } as Plugin;

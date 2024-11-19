@@ -6,7 +6,7 @@ export default function Button(props: ButtonProps) {
 	const { class: className, children, ...rest } = props;
 
 	return (
-		<button class={classes("bg-pink-50", className)} {...rest}>
+		<button class={classes("bg-primary rounded-md hover:bg-primary/80 p-1 m-1", className)} {...rest}>
 			{children}
 		</button>
 	);

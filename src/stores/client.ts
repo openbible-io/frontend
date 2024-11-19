@@ -1,8 +1,8 @@
+import { createI18n, formatter } from "@nanostores/i18n";
 import { persistentAtom } from "@nanostores/persistent";
-import { atom } from "nanostores";
+import { createRouter } from "@nanostores/router";
 import { Context as ServiceWorker, initService } from "../workers/workers.ts";
-import langs, { Language } from "../../shared/i18n.ts";
-import { getLang } from "../lib/i18n.ts";
+import translations, { base, type Locale, locales } from "../../shared/i18n.ts";
 
 function createStore<T>(name: string, defaultValue: T, options: readonly T[]) {
 	return persistentAtom<T>(
@@ -22,15 +22,31 @@ function createStore<T>(name: string, defaultValue: T, options: readonly T[]) {
 export const themes = ["system", "dark", "light"] as const;
 export type Theme = typeof themes[number];
 export const theme = createStore("theme", "system", themes);
-export const systemTheme = atom(
-	matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light",
-);
 
-export const lang = createStore(
-	"lang",
-	getLang(),
-	Object.keys(langs) as Language[],
-);
+let locale = base;
+for (const k of locales) {
+	if (navigator.language.startsWith(k)) {
+		locale = k;
+		break;
+	}
+}
+export const lang = createStore("lang", locale, locales);
+export const format = formatter(lang);
+/** Per-component */
+export const i18n = createI18n(lang, {
+	baseLocale: Object.keys(translations)[0] as Locale,
+	async get(lang: Locale) {
+		const t = await translations[lang];
+		return t.default;
+	},
+});
+
+export const router = createRouter({
+	home: "/",
+	about: "/about",
+	pub: "/:pub",
+	book: "/:pub/:book",
+});
 
 //useEffect(() => {
 //	//initService().then((w) => {

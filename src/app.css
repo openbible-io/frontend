@@ -4,16 +4,33 @@
 
 @layer base {
 	:root {
-		--color-bg: 243, 244, 246;
+		--color-primary: 0 125 181;
+		--color-icon: var(--color-text);
+	}
+	/** Webmanifest will use first theme in this file. */
+	.light {
+		--color-bg: 243 244 246;
 		--color-text: 17 24 39;
 	}
-
 	.dark {
 		--color-bg: 17 24 39;
-		--color-text: 243, 244, 246;
+		--color-text: 243 244 246;
+	}
+	@media (prefers-color-scheme: dark) { .system { @apply dark } }
+
+	.color-transition {
+		@apply transition-colors duration-500 ease-out;
 	}
 
-	* {
-		@apply transition-colors duration-500 ease-in-out;
+	.icon {
+		width: 2em;
+		height: 2em;
+		background-color: currentColor;
+		-webkit-mask-image: var(--svg);
+		mask-image: var(--svg);
+		-webkit-mask-repeat: no-repeat;
+		mask-repeat: no-repeat;
+		-webkit-mask-size: 100% 100%;
+		mask-size: 100% 100%;	
 	}
 }

@@ -14,14 +14,21 @@ async function doCopy(srcDir: string, dstDir: string) {
 export default function copyPlugin(paths: string[]): Plugin {
 	let cwd = Deno.cwd();
 	let outDir = "";
+
 	return {
 		name: "copy",
 		async renderStart(opts, inOpts) {
 			if (inOpts.cwd) cwd = inOpts.cwd;
 			if (opts.dir) {
 				outDir = opts.dir;
-				await Promise.all(paths.map((p) => doCopy(join(cwd, p), opts.dir!)));
-				paths.forEach((p) => this.addWatchFile(p));
+				await Promise.all(
+					paths
+						.map((p) => join(cwd, p))
+						.map((p) => {
+							this.addWatchFile(p);
+							doCopy(p, opts.dir!);
+						}),
+				);
 			}
 		},
 		async watchChange(absPath, { event }) {

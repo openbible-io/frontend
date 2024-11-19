@@ -1,7 +1,7 @@
 import { render } from "preact-render-to-string";
 import publications from "../shared/publications.ts";
 import type { HtmlProps } from "../build/plugin-manifest.ts";
-import langs, { Translation } from "../shared/i18n.ts";
+import translations, { base, Translation } from "../shared/i18n.ts";
 
 interface Props {
 	lang: string;
@@ -60,9 +60,9 @@ const Html = (props: Props) => (
 export default async function sources(props: HtmlProps) {
 	const res: { [fname: string]: string } = {};
 
-	for (const e2 of Object.entries(langs)) {
-		const [lang, { translation }] = e2;
-		const t = (await translation()).default;
+	for (const e2 of Object.entries(translations)) {
+		const [lang, translation] = e2;
+		const t = (await translation).default;
 
 		const source = "<!doctype html>" + render(
 			<Html
@@ -72,7 +72,7 @@ export default async function sources(props: HtmlProps) {
 			/>,
 		);
 		res[`i18n/${lang}.html`] = source;
-		if (lang == "eng") res["index.html"] = source;
+		if (lang == base) res["index.html"] = source;
 	}
 
 	return res;

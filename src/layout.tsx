@@ -1,5 +1,5 @@
 import type { ComponentChildren } from "preact";
-import Header from "../../components/header.tsx";
+import Header from "./components/header.tsx";
 
 interface LayoutProps {
 	children?: ComponentChildren;

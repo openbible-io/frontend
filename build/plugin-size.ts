@@ -56,11 +56,21 @@ export default {
 			});
 		}
 		const sorted = rows.sort((r1, r2) => r1.size - r2.size);
-		const agg: typeof rows[number] = rows.reduce((acc, cur) => {
-			acc.size += cur.size;
-			acc.gzip += cur.gzip;
-			return acc;
-		}, { fname: "TOTAL", size: 0, gzip: 0 });
+		let i18nJson = false;
+		const agg: typeof rows[number] = rows
+			.filter((cur) => {
+				if (cur.fname.match(/i18n\/.*.json/)) {
+					if (i18nJson) return false;
+					i18nJson = true;
+				}
+				if (cur.fname.match(/i18n\/.*.html/)) return false;
+				return true;
+			})
+			.reduce((acc, cur) => {
+				acc.size += cur.size;
+				acc.gzip += cur.gzip;
+				return acc;
+			}, { fname: "TOTAL", size: 0, gzip: 0 });
 
 		console.log(markdownTable(
 			[["fname", "raw", "gzip", "ratio"]].concat(

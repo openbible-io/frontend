@@ -4,15 +4,20 @@
     "jsr:@std/fs@^1.0.5": "1.0.5",
     "jsr:@std/media-types@^1.0.3": "1.0.3",
     "jsr:@std/path@^1.0.7": "1.0.8",
+    "npm:@iconify/json@^2.2.273": "2.2.273",
+    "npm:@iconify/tailwind@^1.1.3": "1.1.3",
     "npm:@jsr/openbible__bsb@~0.1.38": "0.1.38",
     "npm:@jsr/openbible__core@~0.1.20": "0.1.20",
+    "npm:@nanostores/i18n@~0.12.2": "0.12.2_nanostores@0.11.3",
     "npm:@nanostores/persistent@~0.10.2": "0.10.2_nanostores@0.11.3",
     "npm:@nanostores/preact@~0.5.2": "0.5.2_nanostores@0.11.3_preact@10.24.3",
+    "npm:@nanostores/router@~0.16.1": "0.16.1_nanostores@0.11.3",
     "npm:@types/node@*": "22.5.4",
     "npm:autoprefixer@^10.4.20": "10.4.20_postcss@8.4.47",
     "npm:fancy-ansi@~0.1.3": "0.1.3",
     "npm:filesize@^10.1.6": "10.1.6",
     "npm:html5parser@^2.0.2": "2.0.2",
+    "npm:lucide-preact@0.460": "0.460.0_preact@10.24.3",
     "npm:markdown-table@^3.0.4": "3.0.4",
     "npm:nanostores@~0.11.3": "0.11.3",
     "npm:postcss@^8.4.47": "8.4.47",
@@ -26,6 +31,7 @@
     "npm:prosemirror-view@^1.35.0": "1.36.0",
     "npm:rolldown@0.14.0-snapshot-d5e797b-20241114003621": "0.14.0-snapshot-d5e797b-20241114003621",
     "npm:sharp@~0.33.5": "0.33.5",
+    "npm:tailwindcss-color-mix@^0.0.8": "0.0.8_tailwindcss@3.4.14__postcss@8.4.47",
     "npm:tailwindcss@^3.4.14": "3.4.14_postcss@8.4.47"
   },
   "jsr": {
@@ -64,6 +70,22 @@
       "dependencies": [
         "tslib"
       ]
+    },
+    "@iconify/json@2.2.273": {
+      "integrity": "sha512-HTnvNpfeFxrMu39VaSTU+UE+ai75Yxa5BbuHmQz9EAtgyPqTqxLgBXPX1sPeMQP8Fxc2X9UrmDwbH5dOEaWthw==",
+      "dependencies": [
+        "@iconify/types",
+        "pathe"
+      ]
+    },
+    "@iconify/tailwind@1.1.3": {
+      "integrity": "sha512-SfyeT+2b/aKWA6DjwdevXdLUqaEqJ5xWTegD92KItaWc47IYsGuqrt/GOz4dJCPcTVCrsUjlvMpy8cNd+uV5nQ==",
+      "dependencies": [
+        "@iconify/types"
+      ]
+    },
+    "@iconify/types@2.0.0": {
+      "integrity": "sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg=="
     },
     "@img/sharp-darwin-arm64@0.33.5": {
       "integrity": "sha512-UT4p+iz/2H4twwAoLCqfA9UH5pI6DggwKEGuaPy7nCVQ8ZsiY5PIcrRvD1DzuY3qYL07NtIQcWnBSY/heikIFQ==",
@@ -193,6 +215,12 @@
     "@jsr/openbible__core@0.1.20": {
       "integrity": "sha512-rLrjnR+gc+LBCxW6c+iMf973DDyebhOOWSFa0iXcVNW4V6G1G7z2/ecF9AKdEySr/97BkKsTrmWqeMit6ZMupg=="
     },
+    "@nanostores/i18n@0.12.2_nanostores@0.11.3": {
+      "integrity": "sha512-BZNDNB83qwfU8YGYEI5zwstBZGPRUfifhZcw0SqaiGLqUBe4onpQ/NCr4cRg0khlsvPtJ37MQ/XZaT7dN+/RvA==",
+      "dependencies": [
+        "nanostores"
+      ]
+    },
     "@nanostores/persistent@0.10.2_nanostores@0.11.3": {
       "integrity": "sha512-BEndnLhRC+yP7gXTESepBbSj8XNl8OXK9hu4xAgKC7MWJHKXnEqJMqY47LUyHxK6vYgFnisyHmqq+vq8AUFyIg==",
       "dependencies": [
@@ -204,6 +232,12 @@
       "dependencies": [
         "nanostores",
         "preact"
+      ]
+    },
+    "@nanostores/router@0.16.1_nanostores@0.11.3": {
+      "integrity": "sha512-An3REnN66g8jRA6Y4Lio5zj2vW7REqlqN+m1cgCTGFtV1EA0g80V2PmgH94KO/h14gPa1/AiU+6r0s+e9kBzPA==",
+      "dependencies": [
+        "nanostores"
       ]
     },
     "@napi-rs/wasm-runtime@0.2.5": {
@@ -572,6 +606,12 @@
     "lru-cache@10.4.3": {
       "integrity": "sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ=="
     },
+    "lucide-preact@0.460.0_preact@10.24.3": {
+      "integrity": "sha512-5wjHmK5PZrCg4wjlRUZOyhNSnUEMNW42f4fIn11s0K5COeSQpRLuPaH+QFrjz+1Me5DBgfBBL528rgD9ClFqCA==",
+      "dependencies": [
+        "preact"
+      ]
+    },
     "markdown-table@3.0.4": {
       "integrity": "sha512-wiYz4+JrLyb/DqW2hkFJxP7Vd7JuTDm77fvbM8VfEQdmSMqcImWeeRbHwZjBjIFki/VaMK2BhFi7oUUZeM5bqw=="
     },
@@ -641,6 +681,9 @@
         "lru-cache",
         "minipass"
       ]
+    },
+    "pathe@1.1.2": {
+      "integrity": "sha512-whLdWMYL2TwI08hn8/ZqAbrVemu0LNaNNJZX73O6qaIdCTfXutsLhMkjdENX0qhsQ9uIimo4/aQOmXkoon2nDQ=="
     },
     "picocolors@1.1.1": {
       "integrity": "sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA=="
@@ -911,6 +954,12 @@
     "supports-preserve-symlinks-flag@1.0.0": {
       "integrity": "sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w=="
     },
+    "tailwindcss-color-mix@0.0.8_tailwindcss@3.4.14__postcss@8.4.47": {
+      "integrity": "sha512-agTN7BAA9eny2WABRX6jpHciQoBoSYGkZfLM1PpHAyNBPErQKFWUm1o1HjwNsZkilJL3hhUi2+H9MoCg+HT89A==",
+      "dependencies": [
+        "tailwindcss"
+      ]
+    },
     "tailwindcss@3.4.14_postcss@8.4.47": {
       "integrity": "sha512-IcSvOcTRcUtQQ7ILQL5quRDg7Xs93PdJEk1ZLbhhvJc7uj/OAhYOnruEiwnGgBvUtaUAJ8/mhSw1o8L2jCiENA==",
       "dependencies": [
@@ -1035,8 +1084,14 @@
     ],
     "packageJson": {
       "dependencies": [
+        "npm:@iconify/json@^2.2.273",
+        "npm:@iconify/tailwind@^1.1.3",
         "npm:@jsr/openbible__bsb@~0.1.38",
-        "npm:@jsr/openbible__core@~0.1.20"
+        "npm:@jsr/openbible__core@~0.1.20",
+        "npm:@nanostores/i18n@~0.12.2",
+        "npm:@nanostores/router@~0.16.1",
+        "npm:lucide-preact@0.460",
+        "npm:tailwindcss-color-mix@^0.0.8"
       ]
     }
   }
