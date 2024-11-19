@@ -9,7 +9,7 @@ export default function Header() {
 				class={classnames(
 					"flex items-center col-start-2 col-span-4 w-full m-1 rounded-lg p-1",
 					"drop-shadow-lg",
-					"bg-bg bg-mix-white bg-mix-amount-20 hover:bg-mix-amount-50",
+					"bg-bg bg-mix-text bg-mix-amount-10 hover:bg-mix-amount-20",
 				)}
 			>
 				<div class="icon icon-[lucide--search] text-xs mx-2" />
