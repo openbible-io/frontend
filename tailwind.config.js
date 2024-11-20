@@ -14,8 +14,9 @@ const css = Deno.readTextFileSync("./src/app.css");
 export const bgColor = rgbToHex(
 	...css.match(/--color-bg: (\d+ \d+ \d+)/)[1].split(/\s+/),
 );
-const brandSvg = Deno.readTextFileSync("./assets/favicon.svg");
-export const brandColor = brandSvg.match(/fill="(#[^"]*)"/)[1];
+export const brandColor = rgbToHex(
+	...css.match(/--color-primary: (\d+ \d+ \d+)/)[1].split(/\s+/),
+);
 
 /** @type {import('tailwindcss').Config} */
 export default {

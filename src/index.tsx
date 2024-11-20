@@ -1,7 +1,13 @@
+// This is run in deno.
 import { render } from "preact-render-to-string";
 import publications from "../shared/publications.ts";
 import type { HtmlProps } from "../build/plugin-manifest.ts";
-import translations, { base, Translation } from "../shared/i18n.ts";
+import translations, {
+	base,
+	impDeno,
+	Locale,
+	Translation,
+} from "../shared/i18n.ts";
 
 interface Props {
 	lang: string;
@@ -23,22 +29,18 @@ const Html = (props: Props) => (
 			<title>OpenBible</title>
 			<link rel="icon" href={props.favicon} />
 			<link rel="manifest" href={props.webmanifest} />
+			{props.stylesheets.map((s) => <link rel="stylesheet" href={s} />)}
 			{props.scripts.entries
 				.filter((e) => !e.includes("service"))
 				.map((e) => <script type="module" src={e} />)}
-			{props.stylesheets.map((s) => <link rel="stylesheet" href={s} />)}
 			{props.scripts.other
-				.filter((s) =>
-					s.includes("i18n")
-						? s.includes(props.lang)
-						: true
-				)
-				.concat(...props.scripts.entries.filter(e => e.includes("service")))
+				.filter((s) => s.includes("i18n") ? s.includes(props.lang) : true)
+				.concat(...props.scripts.entries.filter((e) => e.includes("service")))
 				.map((s) => <link rel="modulepreload" href={s} />)}
 		</head>
 		<body>
 			<noscript>
-				{props.translation.noscript}
+				{props.translation.ssr.noscript}
 				<ul>
 					{Object.values(publications).map((p) => (
 						<li>
@@ -60,14 +62,13 @@ const Html = (props: Props) => (
 export default async function sources(props: HtmlProps) {
 	const res: { [fname: string]: string } = {};
 
-	for (const e2 of Object.entries(translations)) {
-		const [lang, translation] = e2;
-		const t = (await translation).default;
+	for (const lang of (Object.keys(translations) as Locale[])) {
+		const t = await impDeno(lang);
 
 		const source = "<!doctype html>" + render(
 			<Html
 				lang={lang}
-				translation={t}
+				translation={t.default}
 				{...props}
 			/>,
 		);

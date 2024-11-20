@@ -4,6 +4,9 @@
 		"light": "Luz",
 		"dark": "Oscura"
 	},
+	"header": {
+		"settings": "Ajustes"
+	},
 	"verbs": {
 		"loading": "Cargando {}",
 		"downloading": "Descargando {}",
@@ -14,6 +17,8 @@
 		"assets": "activos",
 		"service worker": "trabajadora de servicio"
 	},
-	"noscript": "Habilite JavaScript o visite:",
-	"404": "Extraviado"
+	"ssr": {
+		"noscript": "Habilite JavaScript o visite:",
+		"404": "Extraviado"
+	}
 }

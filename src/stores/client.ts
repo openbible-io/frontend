@@ -1,8 +1,13 @@
-import { createI18n, formatter } from "@nanostores/i18n";
+import { ComponentsJSON, createI18n, formatter } from "@nanostores/i18n";
 import { persistentAtom } from "@nanostores/persistent";
 import { createRouter } from "@nanostores/router";
 import { Context as ServiceWorker, initService } from "../workers/workers.ts";
-import translations, { base, type Locale, locales } from "../../shared/i18n.ts";
+import translations, {
+	base,
+	type Locale,
+	locales,
+	Translation,
+} from "../../shared/i18n.ts";
 
 function createStore<T>(name: string, defaultValue: T, options: readonly T[]) {
 	return persistentAtom<T>(
@@ -23,7 +28,7 @@ export const themes = ["system", "dark", "light"] as const;
 export type Theme = typeof themes[number];
 export const theme = createStore("theme", "system", themes);
 
-let locale = base;
+let locale: Locale = base;
 for (const k of locales) {
 	if (navigator.language.startsWith(k)) {
 		locale = k;
@@ -31,13 +36,33 @@ for (const k of locales) {
 	}
 }
 export const lang = createStore("lang", locale, locales);
+
+// FF doesn't support https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/getTextInfo
+function getDir(loc: Locale) {
+	switch (loc) {
+		case "he":
+			return "rtl";
+		default:
+			return "ltr";
+	}
+}
+lang.subscribe((l) => {
+	document.documentElement.dir = getDir(l);
+	document.documentElement.lang = l;
+});
+
 export const format = formatter(lang);
 /** Per-component */
 export const i18n = createI18n(lang, {
-	baseLocale: Object.keys(translations)[0] as Locale,
-	async get(lang: Locale) {
-		const t = await translations[lang];
-		return t.default;
+	baseLocale: base,
+	async get(lang, components): Promise<ComponentsJSON> {
+		if (lang == base) throw Error("base translation is already in bundle");
+
+		const t = (await translations[lang]()).default;
+		(components as (keyof Translation)[]).forEach((c) => {
+			if (!(c in t)) t[c] = {}; // without this no components will load
+		});
+		return t;
 	},
 });
 

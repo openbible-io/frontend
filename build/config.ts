@@ -5,10 +5,9 @@ import html from "../src/index.tsx";
 import size from "./plugin-size.ts";
 import postcss from "./plugin-postcss.ts";
 import image from "./plugin-image.ts";
-import json from "./plugin-json.ts";
 import i18n from "./plugin-i18n.ts";
 import { getVersion, getVersionDate } from "./version.ts";
-import tailwind from "../tailwind.config.js";
+import { bgColor, brandColor } from "../tailwind.config.js";
 
 export const dir = "dist";
 export const dev = Deno.args.includes("--dev");
@@ -34,15 +33,17 @@ export default {
 		}),
 		postcss,
 		image,
-		json,
 		i18n,
 		manifest({
-			favicon: import.meta.resolve("../assets/favicon.svg").replace("file://", ""),
+			favicon: import.meta.resolve("../assets/favicon.svg").replace(
+				"file://",
+				"",
+			),
 			webmanifest: {
 				name: "OpenBible",
 				display: "standalone",
-				background_color: tailwind.bgColor,
-				theme_color: tailwind.brandColor,
+				background_color: bgColor,
+				theme_color: brandColor,
 			},
 			html,
 		}),
@@ -54,9 +55,14 @@ export default {
 		cssEntryFileNames: "[name].css",
 		cssChunkFileNames: "chunks/[name].css",
 		assetFileNames: "assets/[name][extname]",
-		chunkFileNames: "chunks/[name].js",
+		chunkFileNames(id) {
+			if (id?.facadeModuleId?.match(/i18n\/[^/]+.json/)) {
+				return "i18n/[name].js";
+			}
+			return "chunks/[name].js";
+		},
 		sourcemap: true,
-		minify: true,
+		minify: !dev,
 		comments: "none",
 		// This allows users to only download our changed dependencies.
 		advancedChunks: {

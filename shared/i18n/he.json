@@ -4,6 +4,9 @@
 		"light": "אוֹר",
 		"dark": "כֵּהֶה"
 	},
+	"header": {
+		"settings": "הגדרות"
+	},
 	"verbs": {
 		"loading":"{} טְעִינָה",
 		"downloading":"{} מוריד",
@@ -14,6 +17,8 @@
 		"assets": "נכסים",
 		"service worker": "עובד שירות"
 	},
-	"noscript": "אפשר JavaScript או בקר",
-	"404": "לא נמצא"
+	"ssr": {
+		"noscript": "אפשר JavaScript או בקר",
+		"404": "לא נמצא"
+	}
 }

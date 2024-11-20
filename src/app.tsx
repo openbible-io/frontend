@@ -35,10 +35,4 @@ function App() {
 	return <Layout><Router /></Layout>;
 }
 
-// Add classes to `app` to avoid a wrapper div.
-const app = document.getElementById("app")!;
-app.className = "w-screen h-screen bg-bg text-text";
-app.classList.add(store.theme.get());
-store.theme.listen((n, o) => app.classList.replace(o!, n));
-
-render(<App />, app);
+render(<App />, document.getElementById("app")!);

@@ -16,7 +16,7 @@ export default {
 	},
 	async generateBundle() {
 		const languages = await import("../shared/i18n.ts");
-		const lang = await languages.default[languages.base];
+		const lang = await languages.impDeno(languages.base);
 		const json = {
 			...lang.default,
 			...messagesToJSON(...messages),
@@ -27,5 +27,4 @@ export default {
 			fileName: "i18n/base.json",
 		});
 	},
-	
 } as Plugin;

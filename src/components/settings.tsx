@@ -28,7 +28,9 @@ export default function Settings() {
 			>
 				{locales.map((k) => (
 					<option value={k}>
-						{new Intl.DisplayNames([k], { type: "language" }).of(k)}
+						{new Intl.DisplayNames([k], { type: "language" }).of(
+							k,
+						)}
 					</option>
 				))}
 			</select>

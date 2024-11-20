@@ -18,8 +18,34 @@
 	}
 	@media (prefers-color-scheme: dark) { .system { @apply dark } }
 
-	.color-transition {
-		@apply transition-colors duration-500 ease-out;
+	html { overflow: hidden; }
+
+
+	#drawer {
+		--top: 0;
+		--dir: 1;
+		&:dir(rtl) {
+			--dir: -1;
+		}
+		--transform: translateX(calc(var(--dir) * 100%));
+
+		opacity: 0;
+		transform: var(--transform);
+		transition: opacity 0.2s, transform 0.2s, display 0.2s allow-discrete;
+		top: var(--top);
+		height: calc(100vh - var(--top));
+
+		&:popover-open {
+			opacity: 1;
+			transform: none;
+
+			@starting-style {
+				& {
+					opacity: 0;
+					transform: var(--transform);
+				}
+			}
+		}
 	}
 
 	.icon {
