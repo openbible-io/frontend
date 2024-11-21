@@ -22,7 +22,6 @@
 
 
 	#drawer {
-		--top: 0;
 		--dir: 1;
 		&:dir(rtl) {
 			--dir: -1;
@@ -32,8 +31,8 @@
 		opacity: 0;
 		transform: var(--transform);
 		transition: opacity 0.2s, transform 0.2s, display 0.2s allow-discrete;
-		top: var(--top);
-		height: calc(100vh - var(--top));
+		top: var(--top, 0);
+		height: calc(100vh - var(--top, 0));
 
 		&:popover-open {
 			opacity: 1;
