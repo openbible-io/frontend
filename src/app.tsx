@@ -24,15 +24,22 @@ function Router() {
 
 	switch (page?.route) {
 		//case "home": return <HomePage />;
-		case "about": return <About />;
+		case "about":
+			return <About />;
 		//case "pub": return ;
-		case "book": return <Reader {...page.params} />;
-		default: return <NotFound />;
+		case "book":
+			return <Reader {...page.params} />;
+		default:
+			return <NotFound />;
 	}
 }
 
 function App() {
-	return <Layout><Router /></Layout>;
+	return (
+		<Layout>
+			<Router />
+		</Layout>
+	);
 }
 
 render(<App />, document.getElementById("app")!);

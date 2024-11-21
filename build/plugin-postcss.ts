@@ -12,11 +12,9 @@ const processor = postcss([
 export default {
 	name: "postcss",
 	async transform(code, id) {
-		if (id.endsWith(".css")) {
-			const result = await processor.process(code, { from: id });
-			return result.css;
-		}
+		if (!id.endsWith(".css")) return;
 
-		return code;
+		const result = await processor.process(code, { from: id });
+		return result.css;
 	},
 } as Plugin;

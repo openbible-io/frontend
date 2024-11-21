@@ -1,5 +1,5 @@
-import { addDynamicIconSelectors } from '@iconify/tailwind';
-import colorMix from 'tailwindcss-color-mix';
+import { addDynamicIconSelectors } from "@iconify/tailwind";
+import colorMix from "tailwindcss-color-mix";
 
 //import colors from 'tailwindcss/colors.js';
 const rgbToHex = (r, g, b) =>
@@ -22,12 +22,20 @@ export const brandColor = rgbToHex(
 export default {
 	content: ["./src/**/*.{tsx,ts,js,jsx}"],
 	theme: {
+		fontFamily: {
+			// This is what tailwind applies to `html, :host`.
+			sans: ['"Libre Baskerville"', "Ezra", "serif", "system-ui"],
+			koine: ["KoineGreek"],
+		},
 		extend: {
 			colors: {
 				bg: "rgb(var(--color-bg))",
 				text: "rgb(var(--color-text))",
 				icon: "rgb(var(--color-icon))",
 				primary: "rgb(var(--color-primary))",
+			},
+			backdropBlur: {
+				xs: "2px",
 			},
 		},
 	},

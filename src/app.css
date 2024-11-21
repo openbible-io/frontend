@@ -20,7 +20,6 @@
 
 	html { overflow: hidden; }
 
-
 	#drawer {
 		--dir: 1;
 		&:dir(rtl) {
@@ -51,11 +50,23 @@
 		width: 2em;
 		height: 2em;
 		background-color: currentColor;
-		-webkit-mask-image: var(--svg);
 		mask-image: var(--svg);
-		-webkit-mask-repeat: no-repeat;
 		mask-repeat: no-repeat;
-		-webkit-mask-size: 100% 100%;
 		mask-size: 100% 100%;	
+	}
+
+	@font-face {
+		font-family: 'Libre Baskerville';
+		src: url(/assets/libre-baskerville.woff2) format('woff2');
+	}
+
+	@font-face {
+		font-family: 'Ezra';
+		src: url(/assets/ezra.woff2) format('woff2');
+	}
+
+	@font-face {
+		font-family: 'KoineGreek';
+		src: url(/assets/koine.woff2) format('woff2');
 	}
 }

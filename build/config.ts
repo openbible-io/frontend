@@ -4,8 +4,8 @@ import manifest from "./plugin-manifest.ts";
 import html from "../src/index.tsx";
 import size from "./plugin-size.ts";
 import postcss from "./plugin-postcss.ts";
-import image from "./plugin-image.ts";
 import i18n from "./plugin-i18n.ts";
+import asset from "./plugin-assets.ts";
 import { getVersion, getVersionDate } from "./version.ts";
 import { bgColor, brandColor } from "../tailwind.config.js";
 
@@ -30,9 +30,10 @@ export default {
 			),
 			"import.meta.env.DEV": dev ? "true" : "false",
 			"process.env.NODE_ENV": JSON.stringify(dev ? "dev" : "production"),
+			"../assets": "/assets",
 		}),
+		asset,
 		postcss,
-		image,
 		i18n,
 		manifest({
 			favicon: import.meta.resolve("../assets/favicon.svg").replace(

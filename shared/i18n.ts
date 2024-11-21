@@ -38,6 +38,8 @@ export const locales = Object.keys(translations) as Locale[];
 export const base = "en";
 
 export type Locale = keyof typeof translations;
-export type Translation = Awaited<ReturnType<(typeof translations)[Exclude<Locale, typeof base>]>>["default"];
+export type Translation = Awaited<
+	ReturnType<(typeof translations)[Exclude<Locale, typeof base>]>
+>["default"];
 
 export default translations;

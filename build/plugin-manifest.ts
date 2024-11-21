@@ -92,7 +92,8 @@ export default ({
 		// 2. Emit webmanifest
 		// These don't change between builds and can be expensive to compute.
 		if (webmanifest && webmanifest.icon && !generated) {
-			const { icon: { sizes }, fileName: fileNameManifest, ...rest } = webmanifest;
+			const { icon: { sizes }, fileName: fileNameManifest, ...rest } =
+				webmanifest;
 			try {
 				if (!icon) throw Error("must provide icon for webmanifest");
 				const fileName = icon.fileName;

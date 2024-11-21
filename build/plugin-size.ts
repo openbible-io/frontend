@@ -55,7 +55,7 @@ export default {
 				gzip: writeStream.bytesWritten,
 			});
 		}
-		const sorted = rows.sort((r1, r2) => r1.size - r2.size);
+		const sorted = rows.sort((r1, r2) => r1.gzip - r2.gzip);
 		let i18nJson = false;
 		const agg: typeof rows[number] = rows
 			.filter((cur) => {
@@ -73,7 +73,7 @@ export default {
 			}, { fname: "TOTAL", size: 0, gzip: 0 });
 
 		console.log(markdownTable(
-			[["fname", "raw", "gzip", "ratio"]].concat(
+			[["fname", "raw", "gzip ↓", "ratio"]].concat(
 				...sorted.map(toMdRow),
 				[["", "", "", ""]],
 				toMdRow(agg),
