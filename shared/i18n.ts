@@ -24,6 +24,16 @@ export function impDeno(t: Locale) {
 	return import(`./i18n/${t}.json`, { with: { type: "json" } });
 }
 
+// FF doesn't support https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/getTextInfo
+export function dir(loc: Locale) {
+	switch (loc) {
+		case "he":
+			return "rtl";
+		default:
+			return "ltr";
+	}
+}
+
 export const locales = Object.keys(translations) as Locale[];
 export const base = "en";
 
@@ -31,4 +41,3 @@ export type Locale = keyof typeof translations;
 export type Translation = Awaited<ReturnType<(typeof translations)[Exclude<Locale, typeof base>]>>["default"];
 
 export default translations;
-

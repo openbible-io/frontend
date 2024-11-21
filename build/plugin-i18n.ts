@@ -1,10 +1,15 @@
 // Extracts base translation to JSON
 import type { Plugin } from "rolldown";
 import { type Messages, messagesToJSON } from "@nanostores/i18n";
+import { Window } from 'happy-dom';
 
+// We set `document.documentElement.dir` based on localStorage
+// in the global scope
+globalThis.document = new Window().document;
 let messages: Messages[] = [];
 
 export default {
+	name: "i18n",
 	options() {
 		messages = [];
 	},

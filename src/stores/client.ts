@@ -4,6 +4,7 @@ import { createRouter } from "@nanostores/router";
 import { Context as ServiceWorker, initService } from "../workers/workers.ts";
 import translations, {
 	base,
+	dir,
 	type Locale,
 	locales,
 	Translation,
@@ -36,18 +37,8 @@ for (const k of locales) {
 	}
 }
 export const lang = createStore("lang", locale, locales);
-
-// FF doesn't support https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale/getTextInfo
-function getDir(loc: Locale) {
-	switch (loc) {
-		case "he":
-			return "rtl";
-		default:
-			return "ltr";
-	}
-}
 lang.subscribe((l) => {
-	document.documentElement.dir = getDir(l);
+	document.documentElement.dir = dir(l);
 	document.documentElement.lang = l;
 });
 
