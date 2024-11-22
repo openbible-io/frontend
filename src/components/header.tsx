@@ -63,6 +63,7 @@ export default function Header() {
 					"w-screen md:w-96",
 					"m-0 p-2 md:p-4 rounded-lg drop-shadow-2xl",
 					"[--top:50vh] md:[--top:var(--height-header)]",
+					"[--rot:180deg] md:[--rot:90deg]",
 					"absolute ltr:left-auto ltr:right-0 rtl:right-auto rtl:left-0",
 					"bg-bg bg-mix-text bg-mix-amount-20 text-text",
 					"flex flex-col backdrop:backdrop-blur-xs",

@@ -1,6 +1,7 @@
 {
 	"dependencies": {
 		"@openbible/bsb": "npm:@jsr/openbible__bsb@^0.1.38",
-		"@openbible/core": "npm:@jsr/openbible__core@^0.1.20"
+		"@openbible/core": "npm:@jsr/openbible__core@^0.1.20",
+		"loro-crdt": "^1.1.3"
 	}
 }

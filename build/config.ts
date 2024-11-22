@@ -1,5 +1,9 @@
 import { type RolldownOptions } from "rolldown";
-import { replacePlugin as replace } from "rolldown/experimental";
+import {
+	replacePlugin as replace,
+	wasmFallbackPlugin,
+	wasmHelperPlugin,
+} from "rolldown/experimental";
 import manifest from "./plugin-manifest.ts";
 import html from "../src/index.tsx";
 import size from "./plugin-size.ts";
@@ -48,6 +52,8 @@ export default {
 			},
 			html,
 		}),
+		wasmFallbackPlugin(),
+		wasmHelperPlugin(),
 		...(dev ? [] : [size]),
 	],
 	output: {

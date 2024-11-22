@@ -15,12 +15,12 @@ export default function Layout({ children }: LayoutProps) {
 			class={classnames(
 				"w-screen h-screen bg-bg text-text",
 				"flex flex-col",
-				theme,
 				"transition-colors duration-300 ease-out",
+				theme,
 			)}
 		>
 			<Header />
-			<div class="flex-grow min-h-0 overflow-x-auto">
+			<div class="flex-grow min-h-0 overflow-x-auto p-2">
 				{children}
 			</div>
 		</div>

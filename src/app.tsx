@@ -1,7 +1,7 @@
 import { render } from "preact";
 import { useStore } from "@nanostores/preact";
 import * as store from "./stores/client.ts";
-//import Landing from "./pages/landing.tsx";
+import Home from "./pages/home.tsx";
 import About from "./pages/about.tsx";
 import NotFound from "./pages/404.tsx";
 import Reader from "./pages/reader.tsx";
@@ -23,7 +23,8 @@ function Router() {
 	const page = useStore(store.router);
 
 	switch (page?.route) {
-		//case "home": return <HomePage />;
+		case "home":
+			return <Home />;
 		case "about":
 			return <About />;
 		//case "pub": return ;

@@ -29,7 +29,7 @@ export const themes = ["system", "dark", "light"] as const;
 export type Theme = typeof themes[number];
 export const theme = createStore("theme", "system", themes);
 
-let locale: Locale = base;
+export let locale: Locale = base;
 for (const k of locales) {
 	if (navigator.language.startsWith(k)) {
 		locale = k;
@@ -41,6 +41,9 @@ lang.subscribe((l) => {
 	document.documentElement.dir = dir(l);
 	document.documentElement.lang = l;
 });
+
+export const defaultUsername = () => `user${Math.round(Math.random() * 3000)}`;
+export const username = persistentAtom<string>("username", defaultUsername());
 
 export const format = formatter(lang);
 /** Per-component */

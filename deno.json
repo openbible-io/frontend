@@ -43,8 +43,7 @@
 			"dom.iterable",
 			"dom.asynciterable",
 			"webworker",
-			"deno.ns",
-			"node"
+			"deno.ns"
 		],
 		"jsx": "react-jsx",
 		"jsxImportSource": "preact"

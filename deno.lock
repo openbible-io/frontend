@@ -18,6 +18,7 @@
     "npm:filesize@^10.1.6": "10.1.6",
     "npm:happy-dom@^15.11.6": "15.11.6",
     "npm:html5parser@^2.0.2": "2.0.2",
+    "npm:loro-crdt@^1.1.3": "1.1.3",
     "npm:markdown-table@^3.0.4": "3.0.4",
     "npm:nanostores@~0.11.3": "0.11.3",
     "npm:postcss@^8.4.47": "8.4.47",
@@ -614,6 +615,9 @@
     "lines-and-columns@1.2.4": {
       "integrity": "sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg=="
     },
+    "loro-crdt@1.1.3": {
+      "integrity": "sha512-B/tsQysTHSFMoiHqn5DTXuDAnOvSq2AGGbnjD+AmJBP9HRObOXa9lXlGsLyaArkpwa6LDehzz0euiJU9/KH4Sw=="
+    },
     "lru-cache@10.4.3": {
       "integrity": "sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ=="
     },
@@ -1102,7 +1106,8 @@
     "packageJson": {
       "dependencies": [
         "npm:@jsr/openbible__bsb@~0.1.38",
-        "npm:@jsr/openbible__core@~0.1.20"
+        "npm:@jsr/openbible__core@~0.1.20",
+        "npm:loro-crdt@^1.1.3"
       ]
     }
   }

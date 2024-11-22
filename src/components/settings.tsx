@@ -11,6 +11,7 @@ export const i18n = store.i18n("settings", {
 	dark: "Dark",
 	lang: "Language",
 	reset: "Reset",
+	username: "Username",
 });
 
 export default function Settings() {
@@ -20,11 +21,9 @@ export default function Settings() {
 		<form
 			onSubmit={(ev) => ev.preventDefault()}
 			onReset={(ev) => {
-				// Bit dirty, but gets the job done.
-				const { elements } = ev.currentTarget;
-				setTimeout(() => {
-					for (const e of elements) e.dispatchEvent(new Event("change"));
-				});
+				ev.preventDefault();
+				store.theme.set(store.themes[0]);
+				store.lang.set(store.locale);
 			}}
 			class="grid grid-cols-[33%_1fr] gap-y-2 break-all"
 		>
@@ -40,6 +39,7 @@ export default function Settings() {
 					k,
 				) => [k, new Intl.DisplayNames([k], { type: "language" }).of(k) ?? k])}
 			/>
+			<Input name="username" store={store.username} />
 			<Button class="mt-4" type="reset">{t9n.reset}</Button>
 		</form>
 	);
@@ -68,6 +68,29 @@ function Select<T extends string>(props: SelectProps<T>) {
 				{props.options
 					.map(([k, v]) => <option class="bg-bg" value={k}>{v}</option>)}
 			</select>
+		</>
+	);
+}
+
+interface InputProps {
+	name: "username";
+	store: WritableAtom<string>;
+}
+function Input(props: InputProps) {
+	const t9n = useStore(i18n);
+	const val = useStore(props.store);
+
+	return (
+		<>
+			<label for={props.name}>
+				{t9n[props.name]}
+			</label>
+			<input
+				id={props.name}
+				class="bg-inherit w-full"
+				onChange={(ev) => props.store.set(ev.currentTarget.value)}
+				value={val}
+			/>
 		</>
 	);
 }
