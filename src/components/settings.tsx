@@ -2,6 +2,8 @@ import { locales } from "../../shared/i18n.ts";
 import * as store from "../stores/client.ts";
 import type { WritableAtom } from "nanostores";
 import { useStore } from "@nanostores/preact";
+import { Native as NativeSelect } from "./select.tsx";
+import NativeInput from "./input.tsx";
 import Button from "./button.tsx";
 
 export const i18n = store.i18n("settings", {
@@ -25,7 +27,7 @@ export default function Settings() {
 				store.theme.set(store.themes[0]);
 				store.lang.set(store.locale);
 			}}
-			class="grid grid-cols-[33%_1fr] gap-y-2 break-all"
+			class="grid grid-cols-[33%_1fr] gap-y-2 break-all p-2"
 		>
 			<Select
 				name="theme"
@@ -59,15 +61,15 @@ function Select<T extends string>(props: SelectProps<T>) {
 			<label for={props.name}>
 				{t9n[props.name]}
 			</label>
-			<select
+			<NativeSelect
 				id={props.name}
-				class="bg-inherit w-full"
+				class="w-full"
 				onChange={(ev) => props.store.set(ev.currentTarget.value as T)}
 				value={val}
 			>
 				{props.options
 					.map(([k, v]) => <option class="bg-bg" value={k}>{v}</option>)}
-			</select>
+			</NativeSelect>
 		</>
 	);
 }
@@ -85,10 +87,11 @@ function Input(props: InputProps) {
 			<label for={props.name}>
 				{t9n[props.name]}
 			</label>
-			<input
+			<NativeInput
 				id={props.name}
-				class="bg-inherit w-full"
-				onChange={(ev) => props.store.set(ev.currentTarget.value)}
+				autocomplete={props.name}
+				class="w-full"
+				onInput={(ev) => props.store.set(ev.currentTarget.value)}
 				value={val}
 			/>
 		</>

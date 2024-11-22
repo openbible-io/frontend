@@ -12,6 +12,7 @@
     "npm:@nanostores/persistent@~0.10.2": "0.10.2_nanostores@0.11.3",
     "npm:@nanostores/preact@~0.5.2": "0.5.2_nanostores@0.11.3_preact@10.24.3",
     "npm:@nanostores/router@~0.16.1": "0.16.1_nanostores@0.11.3",
+    "npm:@tailwindcss/forms@~0.5.9": "0.5.9_tailwindcss@3.4.14__postcss@8.4.47",
     "npm:@types/node@*": "22.5.4",
     "npm:autoprefixer@^10.4.20": "10.4.20_postcss@8.4.47",
     "npm:fancy-ansi@~0.1.3": "0.1.3",
@@ -307,6 +308,13 @@
     },
     "@rolldown/binding-win32-x64-msvc@0.14.0-snapshot-ae73254-20241120003454": {
       "integrity": "sha512-csu6RMiYM169XCGeDeN+cK41wtx6MKcZpxMX5ssVmOSelegIo8ILwC1FSTPjs+YA65WDV3laW4R1Br2qA3OgeQ=="
+    },
+    "@tailwindcss/forms@0.5.9_tailwindcss@3.4.14__postcss@8.4.47": {
+      "integrity": "sha512-tM4XVr2+UVTxXJzey9Twx48c1gcxFStqn1pQz0tRsX8o3DvxhN5oY5pvyAbUx7VTaZxpej4Zzvc6h+1RJBzpIg==",
+      "dependencies": [
+        "mini-svg-data-uri",
+        "tailwindcss"
+      ]
     },
     "@tybys/wasm-util@0.9.0": {
       "integrity": "sha512-6+7nlbMVX/PVDCwaIQ8nTOPveOcFLSt8GcXdx8hD0bt39uWxYT88uXzqTd4fTvqta7oeUJqudepapKNt2DYJFw==",
@@ -633,6 +641,9 @@
         "braces",
         "picomatch"
       ]
+    },
+    "mini-svg-data-uri@1.4.4": {
+      "integrity": "sha512-r9deDe9p5FJUPZAk3A59wGH7Ii9YrjjWw0jmw/liSbHl2CHiyXj6FcDXDu2K3TjVAXqiJdaw3xxwlZZr9E6nHg=="
     },
     "minimatch@9.0.5": {
       "integrity": "sha512-G6T0ZX48xgozx7587koeX9Ys2NYy6Gmv//P89sEte9V9whIapMNF4idKxnW2QtCcLiTWlb/wfCabAtAFWhhBow==",
@@ -1107,6 +1118,7 @@
       "dependencies": [
         "npm:@jsr/openbible__bsb@~0.1.38",
         "npm:@jsr/openbible__core@~0.1.20",
+        "npm:@tailwindcss/forms@~0.5.9",
         "npm:loro-crdt@^1.1.3"
       ]
     }

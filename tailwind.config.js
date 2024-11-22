@@ -1,4 +1,5 @@
 import { addDynamicIconSelectors } from "@iconify/tailwind";
+import forms from "@tailwindcss/forms";
 import colorMix from "tailwindcss-color-mix";
 
 //import colors from 'tailwindcss/colors.js';
@@ -33,6 +34,7 @@ export default {
 				text: "rgb(var(--color-text))",
 				icon: "rgb(var(--color-icon))",
 				primary: "rgb(var(--color-primary))",
+				focus: "rgb(var(--color-focus))",
 			},
 			backdropBlur: {
 				xs: "2px",
@@ -45,5 +47,6 @@ export default {
 			overrideOnly: true,
 		}),
 		colorMix(),
+		forms(),
 	],
 };

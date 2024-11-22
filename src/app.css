@@ -9,6 +9,7 @@
 		/** Webmanifest will use first theme in this file. */
 		--color-bg: 243 244 246;
 		--color-text: 17 24 39;
+		--color-focus: 0 0 255;
 	}
 	.dark {
 		--color-bg: 17 24 39;
@@ -25,26 +26,40 @@
 		}
 		--transform: translateX(calc(var(--dir) * 100%));
 
-		opacity: 0;
-		transform: var(--transform);
-		transition: opacity .2s, transform .2s, display .2s allow-discrete;
 		top: var(--top, 0);
 		height: calc(100vh - var(--top, 0));
+	}
 
+	/* Drawer animation */
+	.drawer-closed {
+		opacity: 0;
+		transform: var(--transform);
+	}
+	#drawer {
+		transition: opacity 0.7s, transform 0.7s, overlay 0.7s allow-discrete;
+		@apply drawer-closed;
 		&:popover-open {
-			opacity: 0.95;
+			opacity: 1;
 			transform: none;
 		}
-
+	}
+	@starting-style { #drawer { @apply drawer-closed; } }
+	/* Drawer backdrop animation */
+	.backdrop-closed {
+		background-color: rgb(var(--color-bg) / 0%);
+		backdrop-filter: none;
+	}
+	#drawer {
 		&::backdrop {
-			background: linear-gradient(
-				var(--rot),
-				rgba(var(--color-bg) / 0.2) 0%,
-				rgba(var(--color-text) / 1) 100%
-			);
-			opacity: 0.9;
+			transition: all 0.7s allow-discrete;
+			@apply backdrop-closed;
+		}
+		&:popover-open::backdrop {
+			background-color: rgb(var(--color-bg) / 50%);
+			backdrop-filter: blur(2px);
 		}
 	}
+	@starting-style { #drawer:popover-open::backdrop { @apply backdrop-closed; } }
 
 	.icon {
 		width: 2em;
@@ -52,7 +67,7 @@
 		background-color: currentColor;
 		mask-image: var(--svg);
 		mask-repeat: no-repeat;
-		mask-size: 100% 100%;	
+		mask-size: 100% 100%;
 	}
 
 	@font-face {

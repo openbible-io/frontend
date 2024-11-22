@@ -4,16 +4,7 @@ import Settings from "./settings.tsx";
 import * as store from "../stores/client.ts";
 import { useStore } from "@nanostores/preact";
 import { useEffect, useRef, useState } from "preact/hooks";
-//import resolveConfig from 'tailwindcss/resolveConfig';
-//
-//const fullConfig = resolveConfig({ content: [] });
-//const breakpoints = (Object.entries(fullConfig.theme.screens)
-//	.map(([k, v]) => [k, parseInt(v)]) as [string, number][])
-//	.sort(([_, v1], [__, v2]) => v2 - v1);
-//
-//function getCurrentBreakpoints() {
-//    return breakpoints.find(([_, v]) => globalThis.innerWidth > v)?.[0];
-//}
+import Input from "./input.tsx";
 
 export const i18n = store.i18n("header", {
 	settings: "Settings",
@@ -32,7 +23,7 @@ export default function Header() {
 	return (
 		<header
 			ref={ref}
-			class="grid grid-cols-6 w-full p-2"
+			class="flex align-center justify-between gap-2 w-full p-2"
 			style={`--height-header:${height}`}
 		>
 			<a href="/" class="block">
@@ -40,14 +31,18 @@ export default function Header() {
 			</a>
 			<div
 				class={classnames(
-					"col-span-4",
-					"w-full m-1 rounded-lg p-1 drop-shadow-lg",
-					"bg-bg bg-mix-text bg-mix-amount-10 hover:bg-mix-amount-20",
+					"w-[36rem] m-1 rounded-lg p-1",
+					"bg-bg bg-mix-text bg-mix-amount-10",
 					"flex items-center",
+					"drop-shadow-sm focus-within:drop-shadow-2xl hover:drop-shadow-2xl"
 				)}
+				onClick={(ev) => ev.currentTarget.querySelector("input")?.focus()}
 			>
 				<div class="icon icon-[lucide--search] text-xs mx-2" />
-				<input name="search1" class="ml-1 flex-1 bg-transparent outline-none" />
+				<Input
+					name="search"
+					class="flex-1 bg-transparent border-none focus:ring-0 p-0"
+				/>
 			</div>
 
 			<div class="ltr:text-right rtl:text-left">
@@ -63,10 +58,9 @@ export default function Header() {
 					"w-screen md:w-96",
 					"m-0 p-2 md:p-4 rounded-lg drop-shadow-2xl",
 					"[--top:50vh] md:[--top:var(--height-header)]",
-					"[--rot:180deg] md:[--rot:90deg]",
 					"absolute ltr:left-auto ltr:right-0 rtl:right-auto rtl:left-0",
 					"bg-bg bg-mix-text bg-mix-amount-20 text-text",
-					"flex flex-col backdrop:backdrop-blur-xs",
+					"flex flex-col",
 				)}
 			>
 				<h1 class="text-2xl pb-4">{t9n.settings}</h1>
