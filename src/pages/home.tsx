@@ -1,6 +1,8 @@
 import { params } from "@nanostores/i18n";
+import { render } from "preact";
 import * as store from "../stores/client.ts";
 import { useStore } from "@nanostores/preact";
+import { addNotification } from "../components/notifications-drawer.tsx";
 //import { LoroDoc, LoroList } from "loro-crdt";
 
 export const i18n = store.i18n("home", {
@@ -22,6 +24,9 @@ export default function Home() {
 			<h1 class="text-center text-2xl">
 				{t9n.welcome({ username })}
 			</h1>
+			<button onClick={addNotification}>
+				Toast
+			</button>
 		</>
 	);
 }

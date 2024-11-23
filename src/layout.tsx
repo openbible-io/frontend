@@ -3,6 +3,7 @@ import Header from "./components/header.tsx";
 import { useStore } from "@nanostores/preact";
 import * as store from "./stores/client.ts";
 import classnames from "./lib/classnames.ts";
+import NotificationsDrawer from "./components/notifications-drawer.tsx";
 
 interface LayoutProps {
 	children?: ComponentChildren;
@@ -23,6 +24,7 @@ export default function Layout({ children }: LayoutProps) {
 			<div class="flex-grow min-h-0 overflow-x-auto p-2">
 				{children}
 			</div>
+			<NotificationsDrawer />
 		</div>
 	);
 }

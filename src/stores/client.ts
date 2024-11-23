@@ -1,7 +1,7 @@
 import { ComponentsJSON, createI18n, formatter } from "@nanostores/i18n";
+import { atom } from "nanostores";
 import { persistentAtom } from "@nanostores/persistent";
 import { createRouter } from "@nanostores/router";
-import { Context as ServiceWorker, initService } from "../workers/workers.ts";
 import translations, {
 	base,
 	dir,
@@ -9,8 +9,17 @@ import translations, {
 	locales,
 	Translation,
 } from "../../shared/i18n.ts";
+//import { Context as ServiceWorker, initService } from "../workers/workers.ts";
+import type { NotificationProps } from "../components/notifications-drawer.tsx";
 
-function createStore<T>(name: string, defaultValue: T, options: readonly T[]) {
+export const router = createRouter({
+	home: "/",
+	about: "/about",
+	pub: "/:pub",
+	book: "/:pub/:book",
+});
+
+function selectStore<T>(name: string, defaultValue: T, options: readonly T[]) {
 	return persistentAtom<T>(
 		name,
 		defaultValue,
@@ -27,7 +36,7 @@ function createStore<T>(name: string, defaultValue: T, options: readonly T[]) {
 
 export const themes = ["system", "dark", "light"] as const;
 export type Theme = typeof themes[number];
-export const theme = createStore("theme", "system", themes);
+export const theme = selectStore("theme", "system", themes);
 
 export let locale: Locale = base;
 for (const k of locales) {
@@ -36,14 +45,11 @@ for (const k of locales) {
 		break;
 	}
 }
-export const lang = createStore("lang", locale, locales);
+export const lang = selectStore("lang", locale, locales);
 lang.subscribe((l) => {
 	document.documentElement.dir = dir(l);
 	document.documentElement.lang = l;
 });
-
-export const defaultUsername = () => `user${Math.round(Math.random() * 3000)}`;
-export const username = persistentAtom<string>("username", defaultUsername());
 
 export const format = formatter(lang);
 /** Per-component */
@@ -60,12 +66,10 @@ export const i18n = createI18n(lang, {
 	},
 });
 
-export const router = createRouter({
-	home: "/",
-	about: "/about",
-	pub: "/:pub",
-	book: "/:pub/:book",
-});
+export const defaultUsername = () => `user${Math.round(Math.random() * 3000)}`;
+export const username = persistentAtom<string>("username", defaultUsername());
+
+export const notifications = atom<NotificationProps[]>([]);
 
 //useEffect(() => {
 //	//initService().then((w) => {

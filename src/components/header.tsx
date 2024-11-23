@@ -1,10 +1,11 @@
 import classnames from "../lib/classnames.ts";
-import Button from "./button.tsx";
+import Button, { CloseButton } from "./button.tsx";
 import Settings from "./settings.tsx";
 import * as store from "../stores/client.ts";
 import { useStore } from "@nanostores/preact";
 import { useEffect, useRef, useState } from "preact/hooks";
 import Input from "./input.tsx";
+import Drawer from "./drawer.tsx";
 
 export const i18n = store.i18n("header", {
 	settings: "Settings",
@@ -12,62 +13,51 @@ export const i18n = store.i18n("header", {
 });
 
 export default function Header() {
-	const ref = useRef<HTMLElement>(null);
+	const ref = useRef<HTMLDivElement>(null);
 	const t9n = useStore(i18n);
-	const [height, setHeight] = useState("0");
-
-	useEffect(() => {
-		setHeight(getComputedStyle(ref.current!).height);
-	}, []);
 
 	return (
-		<header
-			ref={ref}
-			class="flex align-center justify-between gap-2 w-full p-2"
-			style={`--height-header:${height}`}
-		>
-			<a href="/" class="block">
-				<img class="h-12" src="../../assets/favicon.svg" alt={t9n.home} />
-			</a>
+		<header class="flex align-center justify-between gap-2 w-full p-2">
+			<div class="ltr:text-right rtl:text-left">
+				<Button popovertarget="settingsDrawer" class="m-2">
+					<div class="icon icon-[lucide--settings]" />
+				</Button>
+			</div>
 			<div
 				class={classnames(
-					"w-[36rem] m-1 rounded-lg p-1",
+					"w-[36rem] rounded-lg",
 					"bg-bg bg-mix-text bg-mix-amount-10",
 					"flex items-center",
-					"drop-shadow-sm focus-within:drop-shadow-2xl hover:drop-shadow-2xl"
+					"drop-shadow-sm focus-within:drop-shadow-2xl hover:drop-shadow-2xl",
 				)}
 				onClick={(ev) => ev.currentTarget.querySelector("input")?.focus()}
 			>
 				<div class="icon icon-[lucide--search] text-xs mx-2" />
 				<Input
 					name="search"
+					autocomplete="off"
 					class="flex-1 bg-transparent border-none focus:ring-0 p-0"
 				/>
 			</div>
+			<div />
 
-			<div class="ltr:text-right rtl:text-left">
-				<Button popovertarget="drawer">
-					<div class="icon icon-[lucide--settings]" />
-				</Button>
-			</div>
-
-			<div
-				id="drawer"
-				popover
+			<Drawer
+				ref={ref}
+				position="left"
+				id="settingsDrawer"
 				class={classnames(
-					"w-screen md:w-96",
-					"m-0 p-2 md:p-4 rounded-lg drop-shadow-2xl",
-					"[--top:50vh] md:[--top:var(--height-header)]",
-					"absolute ltr:left-auto ltr:right-0 rtl:right-auto rtl:left-0",
-					"bg-bg bg-mix-text bg-mix-amount-20 text-text",
-					"flex flex-col",
+					"drawer-animate drawer-backdrop",
+					"bg-bg bg-mix-text bg-mix-amount-20",
 				)}
 			>
-				<h1 class="text-2xl pb-4">{t9n.settings}</h1>
+				<div class="pb-4 flex justify-between">
+					<h1 class="text-2xl">{t9n.settings}</h1>
+					<CloseButton onClick={() => ref.current?.hidePopover()} />
+				</div>
 				<div class="flex-grow overflow-auto">
 					<Settings />
 				</div>
-			</div>
+			</Drawer>
 		</header>
 	);
 }
