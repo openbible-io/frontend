@@ -1,73 +1,45 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@plugin "@tailwindcss/forms";
+@plugin "../build/tailwind/iconify.ts";
+@plugin "../build/tailwind/color-mix.ts";
+
+@theme {
+	/* Disable large and unused tailwind defaults */
+	--font-*: initial;
+	--color-*: initial;
+	--animate-*: initial;
+	--perspective-*: initial;
+	--tracking-*: initial;
+	--leading-*: initial;
+
+	--font-sans: "Libre Baskerville", Ezra, serif, system-ui;
+	--font-koine: KoineGreek;
+
+
+	--color-primary: oklch(59% 0.095 260);
+
+	/* Default light theme */
+	--color-bg: oklch(97% 0.003 265);
+	/* TODO: replace with `color-contrast(var(--color-bg))` once stable AND remove from other themes. */
+	--color-text: black;
+}
+
+@utility dark {
+	--color-bg: oklch(21% 0.032 265);
+	--color-text: white;
+}
 
 @layer base {
-	:root {
-		--color-primary: 0 125 181;
-		--color-icon: var(--color-text);
-		/** Webmanifest will use first theme in this file. */
-		--color-bg: 243 244 246;
-		--color-text: 17 24 39;
-		--color-focus: 0 0 255;
+	html {
+		overflow: hidden;
 	}
-	.dark {
-		--color-bg: 17 24 39;
-		--color-text: 243 244 246;
-	}
-	@media (prefers-color-scheme: dark) { .system { @apply dark } }
 
-	html { overflow: hidden; }
-
-	/* Drawer animation */
-	/* Starting state is same as end state. */
-	.drawer-animate-start {
-		display: none !important;
-		opacity: 0;
-		transform: var(--transform);
-	}
-	.drawer-animate {
-		--dir: 1;
-		&:dir(rtl) { --dir: calc(-1 * var(--dir)); }
-		--transform: translateX(calc(var(--dir) * 100%));
-		--duration-in: 0.5s;
-		--duration-out: 0.3s;
-
-		transition: opacity, transform, overlay, display;
-		transition-duration: var(--duration-in);
-		/* for transitioning out */
-		transition-behavior: allow-discrete;
-
-		&.hidden, 
-		&[popover]:not(:popover-open) { 
-			transition-duration: var(--duration-out);
-			@apply drawer-animate-start;
+	@media (prefers-color-scheme: dark) {
+		.system {
+			@apply dark;
 		}
 	}
-	/*must be after .drawer-animate for higher specificity*/
-	@starting-style { .drawer-animate { @apply drawer-animate-start; } }
-
-	/* Drawer backdrop w/animation */
-	.drawer-backdrop-start {
-		background: transparent;
-		backdrop-filter: none;
-	}
-	.drawer-backdrop {
-		&::backdrop {
-			transition: background-color, backdrop-filter;
-			transition-duration: var(--duration-in);
-
-			background-color: rgb(var(--color-bg) / 50%);
-			backdrop-filter: blur(2px);
-		}
-
-		&[popover]:not(:popover-open)::backdrop { 
-			transition-duration: var(--duration-out);
-			@apply drawer-backdrop-start;
-		}
-	}
-	/*must be after .drawer-backdrop for higher specificity*/
-	@starting-style { .drawer-backdrop::backdrop { @apply drawer-backdrop-start; } }
 
 	.icon {
 		width: 2em;
@@ -79,17 +51,85 @@
 	}
 
 	@font-face {
-		font-family: 'Libre Baskerville';
-		src: url(/assets/libre-baskerville.woff2) format('woff2');
+		font-family: "Libre Baskerville";
+		src: url(/assets/libre-baskerville.woff2) format("woff2");
 	}
 
 	@font-face {
-		font-family: 'Ezra';
-		src: url(/assets/ezra.woff2) format('woff2');
+		font-family: "Ezra";
+		src: url(/assets/ezra.woff2) format("woff2");
 	}
 
 	@font-face {
-		font-family: 'KoineGreek';
-		src: url(/assets/koine.woff2) format('woff2');
+		font-family: "KoineGreek";
+		src: url(/assets/koine.woff2) format("woff2");
+	}
+}
+
+@layer components {
+	.ProseMirror {
+		position: relative;
+	}
+
+	.ProseMirror {
+		word-wrap: break-word;
+		white-space: pre-wrap;
+		white-space: break-spaces;
+		-webkit-font-variant-ligatures: none;
+		font-variant-ligatures: none;
+		font-feature-settings: "liga"
+			0; /* the above doesn't seem to work in Edge */
+	}
+
+	.ProseMirror pre {
+		white-space: pre-wrap;
+	}
+
+	.ProseMirror li {
+		position: relative;
+	}
+
+	.ProseMirror-hideselection *::selection {
+		background: transparent;
+	}
+	.ProseMirror-hideselection *::-moz-selection {
+		background: transparent;
+	}
+	.ProseMirror-hideselection {
+		caret-color: transparent;
+	}
+
+	/* See https://github.com/ProseMirror/prosemirror/issues/1421#issuecomment-1759320191 */
+	.ProseMirror [draggable][contenteditable="false"] {
+		user-select: text;
+	}
+
+	.ProseMirror-selectednode {
+		outline: 2px solid #8cf;
+	}
+
+	/* Make sure li selections wrap around markers */
+
+	li.ProseMirror-selectednode {
+		outline: none;
+	}
+
+	li.ProseMirror-selectednode:after {
+		content: "";
+		position: absolute;
+		left: -32px;
+		right: -2px;
+		top: -2px;
+		bottom: -2px;
+		border: 2px solid #8cf;
+		pointer-events: none;
+	}
+
+	/* Protect against generic img rules */
+
+	img.ProseMirror-separator {
+		display: inline !important;
+		border: none !important;
+		margin: 0 !important;
 	}
 }

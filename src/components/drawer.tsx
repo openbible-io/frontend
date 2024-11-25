@@ -29,7 +29,7 @@ export default forwardRef<HTMLDivElement, Props>(
 						? "[--dir:1] ltr:left-auto  rtl:right-auto ltr:right-0 rtl:left-0"
 						: "[--dir:-1] ltr:right-auto rtl:left-auto ltr:left-0 rtl:right-0",
 					"text-text",
-					"flex flex-col",
+					"open:flex flex-col",
 					className,
 				)}
 				{...rest}

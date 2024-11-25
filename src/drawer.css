@@ -1,0 +1,59 @@
+	/* Drawer animation */
+	/* Starting state is same as end state. */
+	.drawer-animate-start {
+		display: none !important;
+		opacity: 0;
+		transform: var(--transform);
+	}
+	.drawer-animate {
+		--dir: 1;
+		&:dir(rtl) {
+			--dir: calc(-1 * var(--dir));
+		}
+		--transform: translateX(calc(var(--dir) * 100%));
+		--duration-in: 0.5s;
+		--duration-out: 0.3s;
+
+		transition: opacity, transform, overlay, display;
+		transition-duration: var(--duration-in);
+		/* for transitioning out */
+		transition-behavior: allow-discrete;
+
+		&.hidden,
+		&[popover]:not(:popover-open) {
+			transition-duration: var(--duration-out);
+			@apply drawer-animate-start;
+		}
+	}
+	/*must be after .drawer-animate for higher specificity*/
+	@starting-style {
+		.drawer-animate {
+			@apply drawer-animate-start;
+		}
+	}
+
+	/* Drawer backdrop w/animation */
+	.drawer-backdrop-start {
+		background: transparent;
+		backdrop-filter: none;
+	}
+	.drawer-backdrop {
+		&::backdrop {
+			transition: background-color, backdrop-filter;
+			transition-duration: var(--duration-in);
+
+			background-color: rgb(var(--color-bg) / 50%);
+			backdrop-filter: blur(2px);
+		}
+
+		&[popover]:not(:popover-open)::backdrop {
+			transition-duration: var(--duration-out);
+			@apply drawer-backdrop-start;
+		}
+	}
+	/*must be after .drawer-backdrop for higher specificity*/
+	@starting-style {
+		.drawer-backdrop::backdrop {
+			@apply drawer-backdrop-start;
+		}
+	}

@@ -4,7 +4,6 @@ import publications from "../shared/publications.ts";
 import type { HtmlProps } from "../build/plugin-manifest.ts";
 import translations, {
 	base,
-	dir,
 	impDeno,
 	Locale,
 	Translation,

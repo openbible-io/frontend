@@ -3,7 +3,7 @@ import Button, { CloseButton } from "./button.tsx";
 import Settings from "./settings.tsx";
 import * as store from "../stores/client.ts";
 import { useStore } from "@nanostores/preact";
-import { useEffect, useRef, useState } from "preact/hooks";
+import { useRef } from "preact/hooks";
 import Input from "./input.tsx";
 import Drawer from "./drawer.tsx";
 
@@ -26,7 +26,7 @@ export default function Header() {
 			<div
 				class={classnames(
 					"w-[36rem] rounded-lg",
-					"bg-bg bg-mix-text bg-mix-amount-10",
+					"bg-bg/10",
 					"flex items-center",
 					"drop-shadow-sm focus-within:drop-shadow-2xl hover:drop-shadow-2xl",
 				)}

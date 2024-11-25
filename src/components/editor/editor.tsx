@@ -7,7 +7,6 @@ import { keymap } from "prosemirror-keymap";
 import { baseKeymap } from "prosemirror-commands";
 import { schema } from "../../lib/document.ts";
 import Toolbar from "./toolbar.tsx";
-import "prosemirror-view/style/prosemirror.css"; // TODO: CSS module
 
 interface EditorProps {
 	toolbar: boolean;

@@ -7,12 +7,14 @@ import {
 import manifest from "./plugin-manifest.ts";
 import html from "../src/index.tsx";
 import size from "./plugin-size.ts";
-import postcss from "./plugin-postcss.ts";
+import tailwind from "./plugin-tailwind.ts";
 import i18n from "./plugin-i18n.ts";
 import asset from "./plugin-assets.ts";
 import { getVersion, getVersionDate } from "./version.ts";
-import { bgColor, brandColor } from "../tailwind.config.js";
 
+// TODO: make dynamic
+const bgColor = '#f3f4f6';
+const brandColor = '#007db5';
 export const dir = "dist";
 export const dev = Deno.args.includes("--dev");
 
@@ -37,7 +39,7 @@ export default {
 			"../assets": "/assets",
 		}),
 		asset,
-		postcss,
+		tailwind,
 		i18n,
 		manifest({
 			favicon: import.meta.resolve("../assets/favicon.svg").replace(
@@ -69,6 +71,8 @@ export default {
 			return "chunks/[name].js";
 		},
 		sourcemap: true,
+		// We don't minify in dev because not all plugins support source maps AND
+		// it takes slightly longer (ms).
 		minify: !dev,
 		comments: "none",
 		// This allows users to only download our changed dependencies.
