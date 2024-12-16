@@ -1,5 +1,5 @@
 // Fork of: https://github.com/tailwindlabs/tailwindcss/blob/bd43d63df27b89947c13d49f0e4ecdd94e925f33/packages/%40tailwindcss-vite/src/index.ts#L239
-// framework-specific, vite-specific, and SSR parts removed
+// svelte, vite, and SSR parts removed
 import type { Plugin } from "rolldown";
 import { compile, env, normalizePath } from "@tailwindcss/node";
 import { clearRequireCache } from "@tailwindcss/node/require-cache";
@@ -8,8 +8,6 @@ import { Features, transform } from "lightningcss";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { Buffer } from "node:buffer";
-
-let minify = false;
 
 /**
  * A Map that can generate default values for keys that don't exist.
@@ -318,21 +316,21 @@ const transformPlugin: Plugin = {
 	},
 
 	// Minify.
-	generateBundle(opts, bundle) {
-		Object.values(bundle).forEach((chunk) => {
-			if (!chunk.fileName.endsWith(".css") || chunk.type != "asset") return;
-			// overwrite it
-			this.emitFile({
-				type: "asset",
-				fileName: chunk.fileName,
-				source: optimizeCss(
-					chunk.source as string,
-					chunk.fileName,
-					!!opts.minify,
-				),
-			});
-		});
-	},
+	//generateBundle(opts, bundle) {
+	//	Object.values(bundle).forEach((chunk) => {
+	//		if (!chunk.fileName.endsWith(".css") || chunk.type != "asset") return;
+	//		// overwrite it
+	//		this.emitFile({
+	//			type: "asset",
+	//			fileName: chunk.fileName,
+	//			source: optimizeCss(
+	//				chunk.source as string,
+	//				chunk.fileName,
+	//				!!opts.minify,
+	//			),
+	//		});
+	//	});
+	//},
 };
 
 export default [scanCandidates, transformPlugin];

@@ -16,9 +16,8 @@
 	--font-sans: "Libre Baskerville", Ezra, serif, system-ui;
 	--font-koine: KoineGreek;
 
-
+	/* Brand color */
 	--color-primary: oklch(59% 0.095 260);
-
 	/* Default light theme */
 	--color-bg: oklch(97% 0.003 265);
 	/* TODO: replace with `color-contrast(var(--color-bg))` once stable AND remove from other themes. */

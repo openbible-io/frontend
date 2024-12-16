@@ -5,6 +5,7 @@ import { promisify } from "node:util";
 import { filesize } from "filesize";
 import { markdownTable } from "markdown-table";
 
+const compressedFormats = [".woff2"];
 const pipe = promisify(pipeline);
 class NullStream extends Stream.Writable {
 	bytesWritten = 0;
@@ -36,6 +37,17 @@ const toMdRow = ({ fname, size, gzip }: Row): MdRow => [[
 	(size / gzip).toPrecision(3),
 ]];
 
+async function compressedSize(fname: string, code: string | Uint8Array): Promise<number> {
+	if (compressedFormats.some(f => fname.endsWith(f))) return code.length;
+
+	const gzip = createGzip();
+	const readStream = Readable.from(code);
+	const writeStream = new NullStream();
+	await pipe(readStream, gzip, writeStream);
+
+	return writeStream.bytesWritten;
+}
+
 export default {
 	name: "size",
 	async generateBundle(_, bundle) {
@@ -44,16 +56,10 @@ export default {
 			const [fname, chunk] = e;
 			if (fname.endsWith(".map")) continue;
 
-			const gzip = createGzip();
 			const code = "code" in chunk ? chunk.code : chunk.source;
-			const readStream = Readable.from(code);
-			const writeStream = new NullStream();
-			await pipe(readStream, gzip, writeStream);
-			rows.push({
-				fname,
-				size: code.length,
-				gzip: writeStream.bytesWritten,
-			});
+			const gzip = await compressedSize(fname, code);
+
+			rows.push({ fname, size: code.length, gzip });
 		}
 		const sorted = rows.sort((r1, r2) => r1.gzip - r2.gzip);
 		let i18nJson = false;

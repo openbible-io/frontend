@@ -55,7 +55,7 @@ export const Notification = (props: NotificationProps) => {
 		<article
 			ref={ref}
 			class={classnames(
-				"bg-bg bg-mix-text bg-mix-amount-20",
+				"bg-mix-[text/20]",
 				"ring-1 drop-shadow-2xl pointer-events-auto",
 				"p-4 flex items-start justify-between gap-4",
 				"drawer-animate",

@@ -24,6 +24,7 @@ export default forwardRef<HTMLDivElement, Props>(
 					"drawer",
 					"w-screen h-screen md:w-96",
 					"m-0 p-2 md:p-4 rounded-lg drop-shadow-2xl",
+					"bg-bg/10",
 					"absolute",
 					position == "right"
 						? "[--dir:1] ltr:left-auto  rtl:right-auto ltr:right-0 rtl:left-0"

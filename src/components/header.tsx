@@ -26,7 +26,7 @@ export default function Header() {
 			<div
 				class={classnames(
 					"w-[36rem] rounded-lg",
-					"bg-bg/10",
+					"bg-mix-[text/10]",
 					"flex items-center",
 					"drop-shadow-sm focus-within:drop-shadow-2xl hover:drop-shadow-2xl",
 				)}
@@ -47,7 +47,7 @@ export default function Header() {
 				id="settingsDrawer"
 				class={classnames(
 					"drawer-animate drawer-backdrop",
-					"bg-bg bg-mix-text bg-mix-amount-20",
+					"bg-mix-[text/20]",
 				)}
 			>
 				<div class="pb-4 flex justify-between">
