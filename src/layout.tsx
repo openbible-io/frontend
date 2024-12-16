@@ -21,9 +21,9 @@ export default function Layout({ children }: LayoutProps) {
 			)}
 		>
 			<Header />
-			<div class="grow-1 min-h-0 overflow-x-auto p-2">
+			<main class="grow-1 min-h-0 overflow-x-auto p-4" dir="auto">
 				{children}
-			</div>
+			</main>
 			<NotificationsDrawer />
 		</div>
 	);

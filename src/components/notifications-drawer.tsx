@@ -2,7 +2,7 @@ import classnames from "../lib/classnames.ts";
 import Drawer from "./drawer.tsx";
 import { useStore } from "@nanostores/preact";
 import { notifications } from "../stores/client.ts";
-import { useEffect, useRef } from "preact/hooks";
+import { useEffect, useRef, useState } from "preact/hooks";
 import { CloseButton } from "./button.tsx";
 
 let count = 0;
@@ -20,8 +20,6 @@ export function addNotification() {
 export default function NotificationsDrawer() {
 	const nots = useStore(notifications);
 	const ref = useRef<HTMLDivElement>(null);
-
-	useEffect(addNotification, []);
 
 	useEffect(() => {
 		const r = ref.current;
@@ -50,6 +48,32 @@ export interface NotificationProps {
 }
 export const Notification = (props: NotificationProps) => {
 	const ref = useRef<HTMLElement>(null);
+	const [dirty, setDirty] = useState(false);
+	const dirtyRef = useRef(dirty);
+
+	dirtyRef.current = dirty;
+
+	function remove() {
+		const newNotifications = notifications.get().filter((n) =>
+			n.id != props.id
+		);
+		console.log("remove", props.id);
+		notifications.set(newNotifications);
+	}
+
+	//useEffect(() => {
+	//	if (!ref.current) return;
+	//	console.log(props.id);
+	//
+	//	console.log("listen", props.id);
+	//
+	//	Promise.allSettled(
+	//		ref.current.getAnimations().map((animation) => animation.finished),
+	//	)
+	//		.then(() => {
+	//			if (!dirtyRef.current) remove();
+	//		});
+	//}, [ref.current]);
 
 	return (
 		<article
@@ -60,27 +84,17 @@ export const Notification = (props: NotificationProps) => {
 				"p-4 flex items-start justify-between gap-4",
 				"drawer-animate",
 			)}
+			onPointerOver={() => {
+				console.log("cancel", props.id);
+				setDirty(true);
+			}}
 		>
 			<div class={classnames("icon mr-1", props.icon)} />
 			<div class="flex-1">
 				<p class="text-lg font-semibold">{props.title}</p>
 				<p>{props.body}</p>
 			</div>
-			<CloseButton
-				onClick={() => {
-					// Could apply hidden class and wait for:
-					// ```ts
-					// Promise.allSettled(
-					// 	node.getAnimations().map((animation) => animation.finished),
-					// )
-					// ```
-					// ...but spam clicking dismiss feels too good!
-					const newNotifications = notifications.get().filter((n) =>
-						n.id != props.id
-					);
-					notifications.set(newNotifications);
-				}}
-			/>
+			<CloseButton onClick={remove} />
 		</article>
 	);
 };

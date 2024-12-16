@@ -290,7 +290,7 @@ function getExtension(id: string) {
 
 // Looks for tailwind class names in source files.
 const scanCandidates: Plugin = {
-	name: "tailwindcss-scan",
+	name: "tailwind-scan",
 	transform(src, id, { moduleType }) {
 		if (moduleType == "css") return;
 
@@ -299,7 +299,7 @@ const scanCandidates: Plugin = {
 };
 
 const transformPlugin: Plugin = {
-	name: "tailwindcss-transform",
+	name: "tailwind-transform",
 
 	// Assumption: only one root file.
 	async transform(src, id, { moduleType }) {
@@ -316,21 +316,21 @@ const transformPlugin: Plugin = {
 	},
 
 	// Minify.
-	//generateBundle(opts, bundle) {
-	//	Object.values(bundle).forEach((chunk) => {
-	//		if (!chunk.fileName.endsWith(".css") || chunk.type != "asset") return;
-	//		// overwrite it
-	//		this.emitFile({
-	//			type: "asset",
-	//			fileName: chunk.fileName,
-	//			source: optimizeCss(
-	//				chunk.source as string,
-	//				chunk.fileName,
-	//				!!opts.minify,
-	//			),
-	//		});
-	//	});
-	//},
+	generateBundle(opts, bundle) {
+		Object.values(bundle).forEach((chunk) => {
+			if (!chunk.fileName.endsWith(".css") || chunk.type != "asset") return;
+			// overwrite it
+			this.emitFile({
+				type: "asset",
+				fileName: chunk.fileName,
+				source: optimizeCss(
+					chunk.source as string,
+					chunk.fileName,
+					!!opts.minify,
+				),
+			});
+		});
+	},
 };
 
 export default [scanCandidates, transformPlugin];

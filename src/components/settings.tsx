@@ -42,7 +42,7 @@ export default function Settings() {
 				) => [k, new Intl.DisplayNames([k], { type: "language" }).of(k) ?? k])}
 			/>
 			<Input name="username" store={store.username} />
-			<Button class="mt-4" type="reset">{t9n.reset}</Button>
+			<Button class="p-1 mt-4" type="reset">{t9n.reset}</Button>
 		</form>
 	);
 }

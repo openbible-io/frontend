@@ -1,7 +1,7 @@
 import { useEffect, useState } from "preact/hooks";
 import { type ComponentChildren } from "preact";
 import Button, { type ButtonProps } from "./button.tsx";
-import classes from "../lib/classnames.ts";
+import classnames from "../lib/classnames.ts";
 
 interface DropdownProps {
 	button: ButtonProps;
@@ -25,7 +25,7 @@ export default function Dropdown(props: DropdownProps) {
 
 	return (
 		<div
-			class={classes("relative", "inline-block", props.class)}
+			class={classnames("relative", "inline-block", props.class)}
 			onClick={onClick}
 		>
 			<Button {...props.button} />

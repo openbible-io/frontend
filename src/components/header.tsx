@@ -19,8 +19,8 @@ export default function Header() {
 	return (
 		<header class="flex align-center justify-between gap-2 w-full p-2">
 			<div class="ltr:text-right rtl:text-left">
-				<Button popovertarget="settingsDrawer" class="m-2">
-					<div class="icon icon-[lucide--settings]" />
+				<Button popovertarget="settingsDrawer" class="p-1 m-2">
+					<div class="icon icon-[lucide--menu]" />
 				</Button>
 			</div>
 			<div
@@ -45,10 +45,9 @@ export default function Header() {
 				ref={ref}
 				position="left"
 				id="settingsDrawer"
-				class={classnames(
-					"drawer-animate drawer-backdrop",
-					"bg-mix-[text/20]",
-				)}
+				animate
+				backdrop
+				class="bg-mix-[text/20]"
 			>
 				<div class="pb-4 flex justify-between">
 					<h1 class="text-2xl">{t9n.settings}</h1>
