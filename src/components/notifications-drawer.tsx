@@ -35,7 +35,7 @@ export default function NotificationsDrawer() {
 			autoOpen
 			class="bg-transparent pointer-events-none overflow-x-hidden [scrollbar-width:none] gap-4 justify-end"
 		>
-			{nots.map((n) => <Notification {...n} />)}
+			{nots.map((n) => <Notification key={n.id} {...n} />)}
 		</Drawer>
 	);
 }
@@ -48,32 +48,19 @@ export interface NotificationProps {
 }
 export const Notification = (props: NotificationProps) => {
 	const ref = useRef<HTMLElement>(null);
-	const [dirty, setDirty] = useState(false);
-	const dirtyRef = useRef(dirty);
-
-	dirtyRef.current = dirty;
+	const [fadingOut, setFadingOut] = useState(false);
+	const timer = useRef(-1);
 
 	function remove() {
 		const newNotifications = notifications.get().filter((n) =>
 			n.id != props.id
 		);
-		console.log("remove", props.id);
 		notifications.set(newNotifications);
 	}
 
-	//useEffect(() => {
-	//	if (!ref.current) return;
-	//	console.log(props.id);
-	//
-	//	console.log("listen", props.id);
-	//
-	//	Promise.allSettled(
-	//		ref.current.getAnimations().map((animation) => animation.finished),
-	//	)
-	//		.then(() => {
-	//			if (!dirtyRef.current) remove();
-	//		});
-	//}, [ref.current]);
+	useEffect(() => {
+		timer.current = setTimeout(() => setFadingOut(true), 1000);
+	}, []);
 
 	return (
 		<article
@@ -82,12 +69,22 @@ export const Notification = (props: NotificationProps) => {
 				"bg-mix-[text/20]",
 				"ring-1 drop-shadow-2xl pointer-events-auto",
 				"p-4 flex items-start justify-between gap-4",
-				"drawer-animate",
+				// Animate
+				fadingOut ? "duration-1000" : "duration-200",
+				// Animate opacity
+				"starting:opacity-0",
+				// Animate translation
+				"starting:translate-x-[calc(var(--dir)*100%)]",
+				// Animate exit
+				fadingOut && "opacity-0"
 			)}
 			onPointerOver={() => {
 				console.log("cancel", props.id);
-				setDirty(true);
+				setFadingOut(false);
+				clearTimeout(timer.current);
+				ref.current?.getAnimations().forEach(a => a.cancel());
 			}}
+			onTransitionEnd={() => fadingOut && remove()}
 		>
 			<div class={classnames("icon mr-1", props.icon)} />
 			<div class="flex-1">
