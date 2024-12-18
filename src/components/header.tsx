@@ -13,7 +13,6 @@ export const i18n = store.i18n("header", {
 });
 
 export default function Header() {
-	const ref = useRef<HTMLDivElement>(null);
 	const t9n = useStore(i18n);
 
 	return (
@@ -42,7 +41,6 @@ export default function Header() {
 			<div />
 
 			<Drawer
-				ref={ref}
 				position="left"
 				id="settingsDrawer"
 				animate
@@ -51,7 +49,10 @@ export default function Header() {
 			>
 				<div class="pb-4 flex justify-between">
 					<h1 class="text-2xl">{t9n.settings}</h1>
-					<CloseButton onClick={() => ref.current?.hidePopover()} />
+					<CloseButton
+						onClick={() =>
+							document.getElementById("settingsDrawer")?.hidePopover()}
+					/>
 				</div>
 				<div class="flex-grow overflow-auto">
 					<Settings />

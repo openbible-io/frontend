@@ -4,11 +4,14 @@ import Task, { type Opts as TaskOpts } from "../lib/task.ts";
 
 declare const self: ServiceWorkerGlobalScope;
 const cacheId = "v1";
+const cacheIdHash = cacheId + "-hash";
 
-//const shared = sharedInit();
+type Hash = string;
+type Manifest = { [url: string]: Hash };
 
 // Run for very first time.
 self.addEventListener("install", () => {
+	console.log("install", 17);
 	// Skip waiting for the old app to be fully closed.
 	// The promise that `skipWaiting` returns can be safely ignored.
 	self.skipWaiting();
@@ -18,23 +21,37 @@ function newTask(name: string, opts?: TaskOpts) {
 	return new Task("service", name, opts);
 }
 
-async function cacheNew(urls: RequestInfo[]) {
-	const task = newTask("caching", {
-		total: urls.length,
-		directObject: "URLs",
-	});
+async function cacheNew(manifest: Manifest) {
+	const respCache = await caches.open(cacheId);
+	const hashCache = await caches.open(cacheIdHash);
 
-	const c = await caches.open(cacheId);
-	const uncached: RequestInfo[] = [];
-	for (const u of urls) {
-		if (!await c.match(u)) {
-			uncached.push(u);
+	for (const [url, hash] of Object.entries(manifest)) {
+		const hashCached = await hashCache.match(url);
+		if (!hashCached || (await hashCached.text()) != hash) {
+			console.log("miss", url);
+			respCache.add(url);
+			hashCache.put(url, new Response(hash));
 		} else {
-			task.cur++;
+			console.log("hit", url);
 		}
 	}
 
-	task.do(uncached, (u) => c.add(u));
+	//const task = newTask("caching", {
+	//	total: urls.length,
+	//	directObject: "URLs",
+	//});
+	//
+	//const c = await caches.open(cacheId);
+	//const uncached: RequestInfo[] = [];
+	//for (const u of urls) {
+	//	if (!await c.match(u)) {
+	//		uncached.push(u);
+	//	} else {
+	//		task.cur++;
+	//	}
+	//}
+	//
+	//task.do(uncached, (u) => c.add(u));
 }
 
 async function addPub(pub: Publication) {
@@ -90,8 +107,7 @@ async function addPub(pub: Publication) {
 self.addEventListener("message", (ev) => {
 	switch (ev.data.type) {
 		case "cache":
-			// The browser doesn't trust "cache forever" headers when offline.
-			cacheNew(ev.data.hrefs);
+			cacheNew(ev.data.manifest);
 			break;
 		case "add":
 			addPub(ev.data.pub as Publication);
@@ -103,8 +119,7 @@ self.addEventListener("message", (ev) => {
 
 async function networkThenCache(request: Request): Promise<Response> {
 	try {
-		const network = await fetch(request);
-		return network;
+		return await fetch(request);
 	} catch {
 		const cached = await caches.match(request);
 		if (cached) return cached;
@@ -112,29 +127,29 @@ async function networkThenCache(request: Request): Promise<Response> {
 	throw Error("Network offline and uncached: " + request.url);
 }
 
-async function cacheStrategy(request: Request): Promise<Response> {
-	// Everything we cache (besides html) has a hash of its contents in its url.
-	const cached = await caches.match(request);
+async function networkThenEmpty(request: Request): Promise<Response> {
+	try {
+		return await fetch(request);
+	} catch {
+		return new Response();
+	}
+}
+
+async function cacheThenNetwork(request: Request): Promise<Response> {
+	const cache = await caches.open(cacheId);
+	const cached = await cache.match(request);
 	if (cached) return cached;
 
-	// HTML?
-	const url = new URL(request.url);
-	const re = /\.[^.]+$/;
-	const extname = re.exec(url.pathname)?.[0];
-	if (!extname || extname == ".html") return networkThenCache(new Request("/"));
-
-	console.warn("uncached", url.pathname);
+	console.warn("uncached", request.url);
 	return fetch(request);
 }
 
 self.addEventListener("fetch", (ev) => {
 	const url = new URL(ev.request.url);
-	const strategy = (import.meta.env.DEV && url.pathname == "/liveReload")
-		? fetch
-		: cacheStrategy;
+
+	let strategy = cacheThenNetwork;
+	if (["/", "/service.js"].includes(url.pathname)) strategy = networkThenCache;
+	if (import.meta.env.DEV && url.pathname == "/liveReload") strategy = networkThenEmpty;
 
 	ev.respondWith(strategy(ev.request));
 });
-
-// To please tsc
-export default "";

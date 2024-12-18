@@ -1,5 +1,5 @@
 import { createContext } from "preact";
-import hash from "../../shared/hash.ts";
+import hash from "../shared/hash.ts";
 
 declare global {
 	interface Window {
@@ -22,7 +22,7 @@ export async function initService() {
 	const manifest = window.MANIFEST;
 	manifest["/"] = await hash(document.documentElement.outerHTML);
 	console.log(manifest);
-	//registration.active.postMessage({ type: "cache", hrefs });
+	registration.active.postMessage({ type: "cache", manifest });
 
 	return registration.active;
 }

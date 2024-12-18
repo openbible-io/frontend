@@ -47,8 +47,10 @@ for (const k of locales) {
 }
 export const lang = selectStore("lang", locale, locales);
 lang.subscribe((l) => {
-	document.documentElement.dir = dir(l);
-	document.documentElement.lang = l;
+	if (typeof document != "undefined") {
+		document.documentElement.dir = dir(l);
+		document.documentElement.lang = l;
+	}
 });
 
 export const format = formatter(lang);

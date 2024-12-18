@@ -54,9 +54,48 @@ export interface HtmlProps {
 	webmanifest?: string;
 	manifest: { [fname: string]: string };
 }
-let generated = false;
 
-export default ({
+const manifestPlugin = ({
+	base = "/",
+	favicon: faviconPath,
+	webmanifest,
+}: Options) => ({
+	name: "manifest",
+
+	async generateBundle() {
+		// 1. Emit icons
+		if (faviconPath) emitAsset(this, faviconPath);
+		const icon = webmanifest?.icon?.path &&
+			emitAsset(this, webmanifest.icon.path);
+
+		// 2. Emit webmanifest
+		if (webmanifest && webmanifest.icon) {
+			const { icon: { sizes }, fileName: fileNameManifest, ...rest } =
+				webmanifest;
+			if (!icon) throw Error("must provide icon for webmanifest");
+			const fileName = icon.fileName;
+			const rootName = basename(fileName, extname(fileName));
+
+			const icons = [{ src: base + fileName, sizes: "any" }];
+			const img = sharp(icon.source);
+			for (const size of sizes!) {
+				const resized = img.resize(size);
+				const source = await resized.toFormat("png").toBuffer();
+				const name = `${rootName}-${size}.png`;
+				const mId = this.emitFile({ type: "asset", name, source });
+				const fileName = this.getFileName(mId);
+				icons.push({ src: base + fileName, sizes: `${size}x${size}` });
+			}
+			this.emitFile({
+				type: "asset",
+				fileName: fileNameManifest,
+				source: JSON.stringify({ icons, ...rest }),
+			});
+		}
+	},
+} as Plugin);
+
+const htmlPlugin = ({
 	base = "/",
 	favicon: faviconPath,
 	webmanifest,
@@ -64,96 +103,71 @@ export default ({
 }: Options) => ({
 	name: "manifest",
 
-	options() {
-		generated = false;
-	},
+	generateBundle: {
+		order: "post",
+		async handler(_, bundle) {
+			type Hash = string; // sha256 base64 hash
+			const manifest: { [fname: string]: Hash } = {};
 
-	buildStart() {
-		if (webmanifest) {
-			webmanifest.icon = {
-				path: faviconPath,
-				sizes: [128, 512],
-				...webmanifest.icon,
-			};
-			webmanifest = {
-				start_url: base,
-				fileName: "index.webmanifest",
-				...webmanifest,
-			};
-		}
-	},
+			// 3. Create JSON manifest for service worker
+			const scripts = { entries: [] as string[], other: [] as string[] };
+			const stylesheets: string[] = [];
+			for (const chunk of Object.values(bundle)) {
+				if (chunk.fileName.endsWith(".map")) continue;
 
-	async generateBundle(_, bundle) {
-		// 1. Emit icons
-		const favicon = faviconPath && emitAsset(this, faviconPath);
-		const icon = webmanifest?.icon?.path &&
-			emitAsset(this, webmanifest.icon.path);
+				const path = base + chunk.fileName;
 
-		// 2. Emit webmanifest
-		// These don't change between builds and can be expensive to compute.
-		if (webmanifest && webmanifest.icon && !generated) {
-			const { icon: { sizes }, fileName: fileNameManifest, ...rest } =
-				webmanifest;
-			try {
-				if (!icon) throw Error("must provide icon for webmanifest");
-				const fileName = icon.fileName;
-				const rootName = basename(fileName, extname(fileName));
-
-				const icons = [{ src: base + fileName, sizes: "any" }];
-				const img = sharp(icon.source);
-				for (const size of sizes!) {
-					const resized = img.resize(size);
-					const source = await resized.toFormat("png").toBuffer();
-					const name = `${rootName}-${size}.png`;
-					const mId = this.emitFile({ type: "asset", name, source });
-					const fileName = this.getFileName(mId);
-					icons.push({ src: base + fileName, sizes: `${size}x${size}` });
+				if (chunk.fileName.endsWith(".js") && chunk.type == "chunk") {
+					scripts[chunk.isEntry ? "entries" : "other"].push(path);
+				} else if (chunk.fileName.endsWith(".css")) {
+					stylesheets.push(path);
 				}
-				this.emitFile({
-					type: "asset",
-					fileName: fileNameManifest,
-					source: JSON.stringify({ icons, ...rest }),
-				});
-			} catch (e) {
-				// TODO: remove try/catch after https://github.com/rolldown/rolldown/issues/2736
-				this.error(`${e}`);
-			}
-		}
 
-		// 3. Create JSON manifest for service worker
-		const scripts = { entries: [] as string[], other: [] as string[] };
-		const stylesheets: string[] = [];
-		const manifest: { [fname: string]: string /* sha256 base64 hash */ } = {};
-		for (const chunk of Object.values(bundle)) {
-			if (chunk.fileName.endsWith(".map")) continue;
-
-			const path = base + chunk.fileName;
-
-			if (chunk.fileName.endsWith(".js") && chunk.type == "chunk") {
-				scripts[chunk.isEntry ? "entries" : "other"].push(path);
-			} else if (chunk.fileName.endsWith(".css")) {
-				stylesheets.push(path);
+				manifest[path] = await hashChunk(chunk);
 			}
 
-			manifest[path] = await hashChunk(chunk);
-		}
+			// 4. Emit HTML
+			const props: HtmlProps = {
+				scripts,
+				stylesheets,
+				manifest,
+				webmanifest: base + webmanifest?.fileName,
+			};
+			if (faviconPath) {
+				const asset = Object.values(bundle).find((v) =>
+					v.type == "asset" && v.originalFileName == faviconPath
+				);
+				if (asset) {
+					props.favicon = base + asset?.fileName;
+				} else {
+					this.error("could not find emitted favicon");
+				}
+			}
 
-		// 4. Emit HTML
-		const props: HtmlProps = {
-			scripts,
-			stylesheets,
-			manifest,
-			webmanifest: base + webmanifest?.fileName,
-		};
-		if (favicon) props.favicon = base + favicon.fileName;
-
-		const indices = await html(props);
-		Object.entries(indices).forEach(([fileName, source]) =>
-			this.emitFile({ type: "asset", fileName, source })
-		);
-		generated = true;
+			const indices = await html(props);
+			Object.entries(indices).forEach(([fileName, source]) =>
+				this.emitFile({ type: "asset", fileName, source })
+			);
+		},
 	},
 } as Plugin);
+
+export default (opts: Options) => {
+	if (opts.webmanifest) {
+		opts.webmanifest.icon = {
+			path: opts.favicon,
+			sizes: [128, 512],
+			...opts.webmanifest.icon,
+		};
+		opts.webmanifest = {
+			start_url: opts.base,
+			fileName: "index.webmanifest",
+			...opts.webmanifest,
+		};
+	}
+
+	return [manifestPlugin(opts), htmlPlugin(opts)];
+};
 
 const assetInfo = (originalFileName: string): EmittedAsset => ({
 	type: "asset",
@@ -162,18 +176,15 @@ const assetInfo = (originalFileName: string): EmittedAsset => ({
 	originalFileName,
 });
 
-function emitAsset(
-	ctx: PluginContext,
-	originalFileName: string,
-): RolldownOutputAsset {
-	const info = assetInfo(originalFileName);
+function emitAsset(ctx: PluginContext, path: string): RolldownOutputAsset {
+	const info = assetInfo(path);
 	const id = ctx.emitFile(info);
 	const fileName = ctx.getFileName(id);
 
 	return {
 		type: "asset",
 		fileName,
-		originalFileName,
+		originalFileName: path,
 		source: info.source,
 		name: info.name,
 	};

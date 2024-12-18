@@ -19,22 +19,28 @@ export function addNotification() {
 
 export default function NotificationsDrawer() {
 	const nots = useStore(notifications);
-	const ref = useRef<HTMLDivElement>(null);
 
 	useEffect(() => {
-		const r = ref.current;
-		if (!r) return;
-
-		r.scrollTo(0, r.scrollHeight);
+		const ref = document.getElementById("notificationsDrawer") as HTMLDivElement;
+		ref?.scrollTo(0, ref.scrollHeight);
 	}, [nots]);
 
 	return (
 		<Drawer
-			ref={ref}
+			id="notificationsDrawer"
 			position="right"
 			autoOpen
-			class="bg-transparent pointer-events-none overflow-x-hidden [scrollbar-width:none] gap-4 justify-end"
+			class={classnames(
+				"bg-transparent pointer-events-none",
+				"overflow-x-hidden [scrollbar-width:none]",
+				"open:flex flex-col gap-4",
+			)}
 		>
+			{/*
+				* Workaround for justify-end not allowing scrolling.
+				* See https://stackoverflow.com/questions/36130760/use-justify-content-flex-end-and-to-have-vertical-scrollbar
+				*/}
+			<div class="mt-auto" />
 			{nots.map((n) => <Notification key={n.id} {...n} />)}
 		</Drawer>
 	);
@@ -59,7 +65,7 @@ export const Notification = (props: NotificationProps) => {
 	}
 
 	useEffect(() => {
-		timer.current = setTimeout(() => setFadingOut(true), 1000);
+		timer.current = setTimeout(() => setFadingOut(true), 4000);
 	}, []);
 
 	return (
@@ -68,7 +74,8 @@ export const Notification = (props: NotificationProps) => {
 			class={classnames(
 				"bg-mix-[text/20]",
 				"ring-1 drop-shadow-2xl pointer-events-auto",
-				"p-4 flex items-start justify-between gap-4",
+				"p-4",
+				"flex items-start justify-between gap-4",
 				// Animate
 				fadingOut ? "duration-1000" : "duration-200",
 				// Animate opacity
@@ -76,13 +83,12 @@ export const Notification = (props: NotificationProps) => {
 				// Animate translation
 				"starting:translate-x-[calc(var(--dir)*100%)]",
 				// Animate exit
-				fadingOut && "opacity-0"
+				fadingOut && "opacity-0",
 			)}
 			onPointerOver={() => {
-				console.log("cancel", props.id);
 				setFadingOut(false);
 				clearTimeout(timer.current);
-				ref.current?.getAnimations().forEach(a => a.cancel());
+				ref.current?.getAnimations().forEach((a) => a.cancel());
 			}}
 			onTransitionEnd={() => fadingOut && remove()}
 		>
