@@ -27,7 +27,7 @@ export default function Settings() {
 				store.theme.set(store.themes[0]);
 				store.lang.set(store.locale);
 			}}
-			class="grid grid-cols-[33%_1fr] gap-y-2 break-all p-2"
+			class="grid grid-cols-[33%_1fr] gap-y-2 break-all p-2 items-baseline"
 		>
 			<Select
 				name="theme"
