@@ -45,26 +45,29 @@ export default {
 	},
 	async handler(req) {
 		const url = new URL(req.url);
+		// Unfortunately service workers intercept SSE streams and prevent a new
+		// worker from activating until its closed.
+		// Web workers can't currently touch websockets, so use that instead.
 		if (url.pathname == "/liveReload") {
+			if (req.headers.get("upgrade") != "websocket") {
+				return new Response(null, { status: 501 });
+			}
+
+			const { socket, response } = Deno.upgradeWebSocket(req);
+
 			let listener: (ev: WatcherMessage) => void;
-			const body = new ReadableStream({
-				start(controller) {
-					listener = (ev) => {
-						const msg = new TextEncoder().encode(
-							`event: change\ndata: ${JSON.stringify(ev)}\n\n`,
-						);
-						controller.enqueue(msg);
-					};
-					emitter.addListener("watcher", listener);
-					if (emitter.lastError) listener(emitter.lastError);
-				},
-				cancel() {
-					emitter.removeListener("watcher", listener);
-				},
+			socket.addEventListener("open", () => {
+				listener = (ev) => {
+					socket.send(JSON.stringify(ev));
+				};
+				emitter.addListener("watcher", listener);
+				if (emitter.lastError) listener(emitter.lastError);
 			});
-			return new Response(body, {
-				headers: { "content-type": "text/event-stream" },
+			socket.addEventListener("close", () => {
+				emitter.removeListener("watcher", listener);
 			});
+
+			return response;
 		}
 		let path = join(dir, url.pathname);
 
@@ -101,6 +104,7 @@ export default {
 			headers: {
 				"content-length": stat.size.toString(),
 				"content-type": ty,
+				"cache-control": "no-cache", // service worker does caching
 			},
 		});
 	},

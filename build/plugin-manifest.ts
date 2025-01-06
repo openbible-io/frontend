@@ -9,7 +9,7 @@ import sharp from "sharp";
 import { basename, extname } from "node:path";
 import { readFileSync } from "node:fs";
 import { Buffer } from "node:buffer";
-import hash from "../shared/hash.ts";
+import hashFn from "../shared/hash.ts";
 
 export interface Options {
 	base?: string;
@@ -199,5 +199,5 @@ function getSource(
 
 function hashChunk(chunk: RolldownOutputAsset | RolldownOutputChunk) {
 	const source = getSource(chunk);
-	return hash(source);
+	return hashFn(source);
 }

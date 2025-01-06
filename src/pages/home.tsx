@@ -1,5 +1,4 @@
 import { params } from "@nanostores/i18n";
-import { render } from "preact";
 import * as store from "../stores/client.ts";
 import { useStore } from "@nanostores/preact";
 import { addNotification } from "../components/notifications-drawer.tsx";
@@ -24,7 +23,14 @@ export default function Home() {
 			<h1 class="text-center text-2xl">
 				{t9n.welcome({ username })}
 			</h1>
-			<button onClick={addNotification}>
+			<button
+				onClick={() =>
+					addNotification({
+						icon: "icon-[lucide--circle-check-big] text-green-300",
+						title: "great success",
+						body: "much good such wow so hap many celebrate",
+					})}
+			>
 				Toast
 			</button>
 		</>

@@ -1,4 +1,4 @@
-export default async function hash(
+export default async function hashFn(
 	data: string | BufferSource,
 ): Promise<string> {
 	if (typeof data == "string") data = new TextEncoder().encode(data);

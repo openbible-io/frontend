@@ -15,7 +15,7 @@ const contents = document.createElement("pre");
 overlay.append(contents);
 document.body.append(overlay);
 
-new EventSource("/liveReload").addEventListener("change", (ev) => {
+new WebSocket("/liveReload").addEventListener("message", (ev) => {
 	/** @type { type: "change"  } | { type: "error", raw: string, html: string }; */
 	const data = JSON.parse(ev.data);
 	if (data.type == "error") {

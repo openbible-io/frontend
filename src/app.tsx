@@ -9,15 +9,10 @@ import Reader from "./pages/reader.tsx";
 import Layout from "./layout.tsx";
 import { initService } from './workers.ts';
 import "./app.css";
+import { NotificationProps, addNotification } from "./components/notifications-drawer.tsx";
 
 // Handle new service worker installation.
 // We store most view state so refresh when we get a new worker.
-let refreshing = false;
-navigator.serviceWorker.addEventListener("controllerchange", () => {
-	if (refreshing) return;
-	refreshing = true;
-	location.reload();
-});
 
 function Router() {
 	const page = useStore(store.router);
@@ -36,9 +31,11 @@ function Router() {
 }
 
 function App() {
-	//useEffect(() => {
-	//	initService();
-	//}, []);
+	useEffect(() => {
+		addNotification({ icon: "icon-[lucide--download]", title: "Downloading OpenBible" });
+
+		initService();
+	}, []);
 
 	return (
 		<Layout>

@@ -6,15 +6,8 @@ import { useEffect, useRef, useState } from "preact/hooks";
 import { CloseButton } from "./button.tsx";
 
 let count = 0;
-export function addNotification() {
-	const id = count++;
-	const props: NotificationProps = {
-		id,
-		icon: "icon-[lucide--circle-check-big] text-green-300",
-		title: `great success ${id}`,
-		body: "much good such wow so hap many celebrate",
-	};
-	notifications.set([...notifications.get(), props]);
+export function addNotification(props: Omit<NotificationProps, "id">) {
+	notifications.set([...notifications.get(), { id: count++, ...props }]);
 }
 
 export default function NotificationsDrawer() {
@@ -48,9 +41,9 @@ export default function NotificationsDrawer() {
 
 export interface NotificationProps {
 	id: number;
-	icon: string;
+	icon?: string;
 	title: string;
-	body: string;
+	body?: string;
 }
 export const Notification = (props: NotificationProps) => {
 	const ref = useRef<HTMLElement>(null);
@@ -92,7 +85,7 @@ export const Notification = (props: NotificationProps) => {
 			}}
 			onTransitionEnd={() => fadingOut && remove()}
 		>
-			<div class={classnames("icon mr-1", props.icon)} />
+			{props.icon && <div class={classnames("icon mr-1", props.icon)} />}
 			<div class="flex-1">
 				<p class="text-lg font-semibold">{props.title}</p>
 				<p>{props.body}</p>

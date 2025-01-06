@@ -8,6 +8,7 @@ import translations, {
 	Locale,
 	Translation,
 } from "../shared/i18n.ts";
+import { servicePath } from "../shared/workers.ts";
 
 interface Props {
 	lang: string;
@@ -31,11 +32,10 @@ const Html = (props: Props) => (
 			<link rel="manifest" href={props.webmanifest} />
 			{props.stylesheets.map((s) => <link rel="stylesheet" href={s} />)}
 			{props.scripts.entries
-				.filter((e) => !e.includes("service"))
+				.filter((e) => e != servicePath)
 				.map((e) => <script type="module" src={e} />)}
 			{props.scripts.other
 				.filter((s) => s.includes("i18n") ? s.includes(props.lang) : true)
-				.concat(...props.scripts.entries.filter((e) => e.includes("service")))
 				.map((s) => <link rel="modulepreload" href={s} />)}
 		</head>
 		<body>
