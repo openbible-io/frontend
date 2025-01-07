@@ -51,7 +51,7 @@ const Html = (props: Props) => (
 			</noscript>
 			<script
 				dangerouslySetInnerHTML={{
-					__html: `window.MANIFEST = ${JSON.stringify(props.manifest)}`,
+					__html: `window.MANIFEST=${JSON.stringify(props.manifest)}`,
 				}}
 			/>
 			<div id="app" />

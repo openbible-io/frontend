@@ -6,8 +6,20 @@ import { useEffect, useRef, useState } from "preact/hooks";
 import { CloseButton } from "./button.tsx";
 
 let count = 0;
-export function addNotification(props: Omit<NotificationProps, "id">) {
-	notifications.set([...notifications.get(), { id: count++, ...props }]);
+export function addNotification(props: Omit<NotificationProps, "id">): NotificationProps {
+	const newNotification = { id: count++, ...props };
+	notifications.set([...notifications.get(), newNotification]);
+
+	return newNotification;
+}
+
+export function setNotification(props: NotificationProps) {
+	const index = notifications.get().findIndex(n => n.id == props.id);
+	if (index == -1) return;
+
+	const newNotifications = [...notifications.get()];
+	newNotifications[index] = { ...newNotifications[index], ...props };
+	notifications.set(newNotifications);
 }
 
 export default function NotificationsDrawer() {

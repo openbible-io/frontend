@@ -1,5 +1,5 @@
-import { ComponentsJSON, createI18n, formatter } from "@nanostores/i18n";
 import { atom } from "nanostores";
+import { ComponentsJSON, createI18n, formatter } from "@nanostores/i18n";
 import { persistentAtom } from "@nanostores/persistent";
 import { createRouter } from "@nanostores/router";
 import translations, {
@@ -9,7 +9,6 @@ import translations, {
 	locales,
 	Translation,
 } from "../../shared/i18n.ts";
-//import { Context as ServiceWorker, initService } from "../workers/workers.ts";
 import type { NotificationProps } from "../components/notifications-drawer.tsx";
 
 export const router = createRouter({
@@ -73,9 +72,3 @@ export const username = persistentAtom<string>("username", defaultUsername());
 
 export const notifications = atom<NotificationProps[]>([]);
 
-//useEffect(() => {
-//	//initService().then((w) => {
-//	//	//if (import.meta.env.DEV) console.log(w);
-//	//	//setWorker(w);
-//	//});
-//}, [translation]);

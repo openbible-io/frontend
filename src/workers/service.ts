@@ -1,5 +1,4 @@
 import { type Publication } from "../../shared/publications.ts";
-import Task, { type Opts as TaskOpts } from "../lib/task.ts";
 import hashFn from "../../shared/hash.ts";
 
 declare const self: ServiceWorkerGlobalScope;
@@ -24,11 +23,7 @@ async function setManifest(manifest: Manifest) {
 	cache.put("manifest", resp);
 }
 
-function newTask(name: string, opts?: TaskOpts) {
-	return new Task("service", name, opts);
-}
-
-async function cacheNew(manifest: Manifest) {
+async function cacheNew(manifest: Manifest, source: Client | ServiceWorker | MessagePort | null) {
 	const cache = await getCache();
 
 	const promises: Promise<void>[] = [];
@@ -40,30 +35,10 @@ async function cacheNew(manifest: Manifest) {
 		}
 	}
 	await Promise.all(promises);
-
-	try {
-		await cache.add("/");
-	} catch {
-		// offline
-	}
 	await setManifest(manifest);
 
-	//const task = newTask("caching", {
-	//	total: urls.length,
-	//	directObject: "URLs",
-	//});
-	//
-	//const c = await getCache();
-	//const uncached: RequestInfo[] = [];
-	//for (const u of urls) {
-	//	if (!await c.match(u)) {
-	//		uncached.push(u);
-	//	} else {
-	//		task.cur++;
-	//	}
-	//}
-	//
-	//task.do(uncached, (u) => c.add(u));
+	const count = promises.length;
+	source?.postMessage({ type: "cacheNew", count });
 }
 
 type Message =
@@ -79,7 +54,7 @@ self.addEventListener("message", (ev) => {
 			self.skipWaiting();
 			break;
 		case "cache":
-			cacheNew(msg.manifest);
+			cacheNew(msg.manifest, ev.source);
 			break;
 		case "add":
 			break;
@@ -102,8 +77,8 @@ async function getResponseHash(request: RequestInfo | URL): Promise<string> {
 	const cached = await (await getCache()).match(request);
 	if (!cached) return "";
 
-	const text = await cached.arrayBuffer();
-	return hashFn(text);
+	const bytes = await cached.arrayBuffer();
+	return hashFn(bytes);
 }
 
 async function cacheThenNetwork(request: Request): Promise<Response> {
@@ -126,12 +101,14 @@ async function fetchStrategy(request: Request) {
 
 	let strategy = cacheThenNetwork;
 	if (url.pathname == "/") {
+		// Old worker needs to update manifest before `cacheNew` is called.
 		try {
 			const resp = await fetch(request);
 			const text = await resp.text();
-			const manifestString = text.match("window.MANIFEST = ({.*})");
+			const manifestString = text.match("window.MANIFEST=({.*});");
 			if (manifestString && manifestString[1]) {
-				await setManifest(JSON.parse(manifestString[1]));
+				const manifest = JSON.parse(manifestString[1]);
+				await setManifest(manifest);
 			}
 			return new Response(text, { headers: resp.headers });
 		} catch {
