@@ -18,6 +18,10 @@ const brandColor = '#007db5';
 export const dir = "dist";
 export const dev = Deno.args.includes("--dev");
 
+// We don't minify in dev because not all plugins support source maps AND
+// it takes slightly longer (few ms).
+const minify = !dev;
+
 export default {
 	input: [
 		"./src/app.tsx",
@@ -39,7 +43,7 @@ export default {
 			"../assets": "/assets",
 		}),
 		asset,
-		tailwind,
+		tailwind({ minify }),
 		i18n,
 		manifest({
 			favicon: import.meta.resolve("../assets/favicon.svg").replace(
@@ -71,9 +75,7 @@ export default {
 			return "chunks/[name].js";
 		},
 		sourcemap: true,
-		// We don't minify in dev because not all plugins support source maps AND
-		// it takes slightly longer (ms).
-		minify: !dev,
+		minify,
 		comments: "none",
 		// This allows users to only download our changed dependencies.
 		advancedChunks: {

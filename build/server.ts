@@ -95,7 +95,7 @@ export default {
 		let body;
 		if (ty.includes("text/html")) {
 			body = await Deno.readTextFile(path);
-			body = body.replace("</body>", `<script>${liveReload}</script></body>`);
+			body = body.replace("</body>", `<script id="liveReload">${liveReload}</script></body>`);
 		} else {
 			body = (await Deno.open(path)).readable;
 		}

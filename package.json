@@ -2,11 +2,11 @@
   "dependencies": {
     "@openbible/bsb": "npm:@jsr/openbible__bsb@^0.1.38",
     "@openbible/core": "npm:@jsr/openbible__core@^0.1.20",
-    "@tailwindcss/forms": "^0.5.9",
-    "@tailwindcss/node": "^4.0.0-beta.2",
-    "@tailwindcss/oxide": "^4.0.0-beta.2",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/node": "^4.0.0-beta.8",
+    "@tailwindcss/oxide": "^4.0.0-beta.8",
     "lightningcss": "^1.28.2",
     "loro-crdt": "^1.1.3",
-    "tailwindcss": "^4.0.0-beta.2"
+    "tailwindcss": "^4.0.0-beta.8"
   }
 }

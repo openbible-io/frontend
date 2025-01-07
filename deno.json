@@ -12,13 +12,10 @@
 		"@nanostores/router": "npm:@nanostores/router@^0.16.1",
 		"@std/fs": "jsr:@std/fs@^1.0.5",
 		"@std/media-types": "jsr:@std/media-types@^1.0.3",
-		"autoprefixer": "npm:autoprefixer@^10.4.20",
 		"fancy-ansi": "npm:fancy-ansi@^0.1.3",
 		"filesize": "npm:filesize@^10.1.6",
-		"html5parser": "npm:html5parser@^2.0.2",
 		"markdown-table": "npm:markdown-table@^3.0.4",
 		"nanostores": "npm:nanostores@^0.11.3",
-		"postcss": "npm:postcss@^8.4.47",
 		"preact": "npm:preact@^10.24.3",
 		"preact-render-to-string": "npm:preact-render-to-string@^6.5.11",
 		"prosemirror-commands": "npm:prosemirror-commands@^1.6.2",
@@ -27,10 +24,8 @@
 		"prosemirror-model": "npm:prosemirror-model@^1.23.0",
 		"prosemirror-state": "npm:prosemirror-state@^1.4.3",
 		"prosemirror-view": "npm:prosemirror-view@^1.35.0",
-		"rolldown": "npm:rolldown@0.14.0-snapshot-ae73254-20241120003454",
-		"sharp": "npm:sharp@^0.33.5",
-		"tailwindcss": "npm:tailwindcss@^3.4.14",
-		"tailwindcss-color-mix": "npm:tailwindcss-color-mix@^0.0.8"
+		"rolldown": "npm:rolldown@1.0.0-beta.1",
+		"sharp": "npm:sharp@^0.33.5"
 	},
 	"fmt": {
 		"useTabs": true,

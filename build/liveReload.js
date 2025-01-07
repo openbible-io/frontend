@@ -1,4 +1,5 @@
 const overlay = document.createElement("div");
+overlay.id = "liveReloadOverlay";
 overlay.style.position = "fixed";
 overlay.style.top = "0";
 overlay.style.left = "0";
