@@ -7,25 +7,29 @@ import serveOpts, { emitter } from "./server.ts";
 import process from "node:process";
 
 if (dev) {
-	const watcher = await watch(rollOpts);
-	watcher.on("event", (ev) => {
-		let msg = "";
-		if (ev.code == "BUNDLE_START") {
-			msg = "bundling...";
-		} else if (ev.code == "BUNDLE_END") {
-			msg = `bundled in ${ev.duration}ms`;
-			emitter.change();
-		} else if (ev.code == "ERROR") {
-			msg = ev.error.message;
-			emitter.error(ev.error.message);
-		}
-		if (msg) {
-			const date = new Date().toLocaleTimeString();
-			process.stderr.write(`[${date}] ${msg}\n`);
-		}
-	});
+	const watchers = rollOpts.map((o) => watch(o));
+	watchers.forEach((w) =>
+		w.on("event", (ev) => {
+			let msg = "";
+			if (ev.code == "BUNDLE_START") {
+				msg = "bundling...";
+			} else if (ev.code == "BUNDLE_END") {
+				msg = `bundled in ${ev.duration}ms`;
+				emitter.change();
+			} else if (ev.code == "ERROR") {
+				msg = ev.error.message;
+				emitter.error(ev.error.message);
+			}
+			if (msg) {
+				const date = new Date().toLocaleTimeString();
+				process.stderr.write(`[${date}] ${msg}\n`);
+			}
+		})
+	);
 	Deno.serve(serveOpts);
 } else {
-	const build = await rolldown(rollOpts);
-	await build.write(rollOpts.output);
+	await Promise.all(rollOpts.map(async (o) => {
+		const builder = await rolldown(o);
+		await builder.write(o.output!);
+	}));
 }

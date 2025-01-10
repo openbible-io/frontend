@@ -16,7 +16,7 @@ export default (
 		animate,
 		backdrop,
 		...rest
-	}: Props
+	}: Props,
 ) => {
 	const ref = useRef<HTMLDivElement>(null);
 

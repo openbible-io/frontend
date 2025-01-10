@@ -71,4 +71,3 @@ export const defaultUsername = () => `user${Math.round(Math.random() * 3000)}`;
 export const username = persistentAtom<string>("username", defaultUsername());
 
 export const notifications = atom<NotificationProps[]>([]);
-

@@ -1,9 +1,9 @@
 import type {
 	EmittedAsset,
+	OutputAsset,
+	OutputChunk,
 	Plugin,
 	PluginContext,
-	RolldownOutputAsset,
-	RolldownOutputChunk,
 } from "rolldown";
 import sharp from "sharp";
 import { basename, extname } from "node:path";
@@ -109,7 +109,7 @@ const htmlPlugin = ({
 			type Hash = string; // sha256 base64 hash
 			const manifest: { [fname: string]: Hash } = {};
 
-			// 3. Create JSON manifest for service worker
+			// 3. Create web app manifest
 			const scripts = { entries: [] as string[], other: [] as string[] };
 			const stylesheets: string[] = [];
 			for (const chunk of Object.values(bundle)) {
@@ -135,7 +135,7 @@ const htmlPlugin = ({
 			};
 			if (faviconPath) {
 				const asset = Object.values(bundle).find((v) =>
-					v.type == "asset" && v.originalFileName == faviconPath
+					v.type == "asset" && v.originalFileNames.includes(faviconPath)
 				);
 				if (asset) {
 					props.favicon = base + asset?.fileName;
@@ -176,7 +176,7 @@ const assetInfo = (originalFileName: string): EmittedAsset => ({
 	originalFileName,
 });
 
-function emitAsset(ctx: PluginContext, path: string): RolldownOutputAsset {
+function emitAsset(ctx: PluginContext, path: string): OutputAsset {
 	const info = assetInfo(path);
 	const id = ctx.emitFile(info);
 	const fileName = ctx.getFileName(id);
@@ -185,19 +185,21 @@ function emitAsset(ctx: PluginContext, path: string): RolldownOutputAsset {
 		type: "asset",
 		fileName,
 		originalFileName: path,
+		originalFileNames: [path],
 		source: info.source,
 		name: info.name,
+		names: [info.name!],
 	};
 }
 
 function getSource(
-	chunk: RolldownOutputAsset | RolldownOutputChunk,
+	chunk: OutputAsset | OutputChunk,
 ): Uint8Array {
 	const code = "code" in chunk ? chunk.code : chunk.source;
 	return typeof code == "string" ? new TextEncoder().encode(code) : code;
 }
 
-function hashChunk(chunk: RolldownOutputAsset | RolldownOutputChunk) {
+function hashChunk(chunk: OutputAsset | OutputChunk) {
 	const source = getSource(chunk);
 	return hashFn(source);
 }

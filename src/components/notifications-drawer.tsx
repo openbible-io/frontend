@@ -6,7 +6,9 @@ import { useEffect, useRef, useState } from "preact/hooks";
 import { CloseButton } from "./button.tsx";
 
 let count = 0;
-export function addNotification(props: Omit<NotificationProps, "id">): NotificationProps {
+export function addNotification(
+	props: Omit<NotificationProps, "id">,
+): NotificationProps {
 	const newNotification = { id: count++, ...props };
 	notifications.set([...notifications.get(), newNotification]);
 
@@ -14,7 +16,7 @@ export function addNotification(props: Omit<NotificationProps, "id">): Notificat
 }
 
 export function setNotification(props: NotificationProps) {
-	const index = notifications.get().findIndex(n => n.id == props.id);
+	const index = notifications.get().findIndex((n) => n.id == props.id);
 	if (index == -1) return;
 
 	const newNotifications = [...notifications.get()];
@@ -26,7 +28,9 @@ export default function NotificationsDrawer() {
 	const nots = useStore(notifications);
 
 	useEffect(() => {
-		const ref = document.getElementById("notificationsDrawer") as HTMLDivElement;
+		const ref = document.getElementById(
+			"notificationsDrawer",
+		) as HTMLDivElement;
 		ref?.scrollTo(0, ref.scrollHeight);
 	}, [nots]);
 
@@ -41,10 +45,12 @@ export default function NotificationsDrawer() {
 				"open:flex flex-col gap-4",
 			)}
 		>
-			{/*
-				* Workaround for justify-end not allowing scrolling.
-				* See https://stackoverflow.com/questions/36130760/use-justify-content-flex-end-and-to-have-vertical-scrollbar
-				*/}
+			{
+				/*
+				 * Workaround for justify-end not allowing scrolling.
+				 * See https://stackoverflow.com/questions/36130760/use-justify-content-flex-end-and-to-have-vertical-scrollbar
+				 */
+			}
 			<div class="mt-auto" />
 			{nots.map((n) => <Notification key={n.id} {...n} />)}
 		</Drawer>

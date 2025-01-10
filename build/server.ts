@@ -95,7 +95,10 @@ export default {
 		let body;
 		if (ty.includes("text/html")) {
 			body = await Deno.readTextFile(path);
-			body = body.replace("</body>", `<script id="liveReload">${liveReload}</script></body>`);
+			body = body.replace(
+				"</body>",
+				`<script id="liveReload">${liveReload}</script></body>`,
+			);
 		} else {
 			body = (await Deno.open(path)).readable;
 		}
@@ -104,7 +107,7 @@ export default {
 			headers: {
 				"content-length": stat.size.toString(),
 				"content-type": ty,
-				"cache-control": "no-cache", // service worker does caching
+				"cache-control": "max-age=1", // service worker does caching
 			},
 		});
 	},

@@ -37,8 +37,11 @@ const toMdRow = ({ fname, size, gzip }: Row): MdRow => [[
 	(size / gzip).toPrecision(3),
 ]];
 
-async function compressedSize(fname: string, code: string | Uint8Array): Promise<number> {
-	if (compressedFormats.some(f => fname.endsWith(f))) return code.length;
+async function compressedSize(
+	fname: string,
+	code: string | Uint8Array,
+): Promise<number> {
+	if (compressedFormats.some((f) => fname.endsWith(f))) return code.length;
 
 	const gzip = createGzip();
 	const readStream = Readable.from(code);

@@ -51,17 +51,17 @@
 
 	@font-face {
 		font-family: "Libre Baskerville";
-		src: url(/assets/libre-baskerville.woff2) format("woff2");
+		src: url(../assets/libre-baskerville.woff2) format("woff2");
 	}
 
 	@font-face {
 		font-family: "Ezra";
-		src: url(/assets/ezra.woff2) format("woff2");
+		src: url(../assets/ezra.woff2) format("woff2");
 	}
 
 	@font-face {
 		font-family: "KoineGreek";
-		src: url(/assets/koine.woff2) format("woff2");
+		src: url(../assets/koine.woff2) format("woff2");
 	}
 }
 

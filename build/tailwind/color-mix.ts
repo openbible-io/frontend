@@ -7,21 +7,22 @@ export default plugin(({ matchUtilities, theme }) => {
 		{
 			"bg-mix": (value) => {
 				let color = value;
-				let amount = '';
+				let amount = "";
 				const split = value.split("/");
 				if (split.length == 2) {
 					color = split[0].trim();
-					amount = split[1].trim() + '%';
+					amount = split[1].trim() + "%";
 				}
 
 				return {
-					background: `color-mix(in oklab, var(--color-bg), var(--color-${color}) ${amount})`,
+					background:
+						`color-mix(in oklab, var(--color-bg), var(--color-${color}) ${amount})`,
 				};
 			},
 		},
 		{
 			values: theme("backgroundColor"),
 			type: "any", // "color" statically resolves to @theme instead of dynamic css variable
-		}
+		},
 	);
 });

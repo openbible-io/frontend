@@ -34,8 +34,12 @@ export default ({ minify = false }: { minify: boolean }) => ({
 	async transform(src, id, { moduleType }) {
 		if (moduleType != "css") return;
 
-		// Yeah, this is slow. Not sure how to deduplicate Rolldown work.
-		const sources = [{ base: join(import.meta.dirname!, "../src"), pattern: "**" }];
+		// Yeah, this is slow. Not sure how to deduplicate Rolldown work since it
+		// doesn't give us an AST to crawl for strings.
+		const sources = [{
+			base: join(import.meta.dirname!, "../src"),
+			pattern: "**",
+		}];
 		const scanner = new Scanner({ sources });
 		const candidates = scanner.scan();
 

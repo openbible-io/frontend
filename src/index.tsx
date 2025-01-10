@@ -36,6 +36,7 @@ const Html = (props: Props) => (
 				.map((e) => <script type="module" src={e} />)}
 			{props.scripts.other
 				.filter((s) => s.includes("i18n") ? s.includes(props.lang) : true)
+				.concat(servicePath)
 				.map((s) => <link rel="modulepreload" href={s} />)}
 		</head>
 		<body>

@@ -1,5 +1,6 @@
 import { type Publication } from "../../shared/publications.ts";
 import hashFn from "../../shared/hash.ts";
+import { type Locale } from "../../shared/i18n.ts";
 
 declare const self: ServiceWorkerGlobalScope;
 const cacheId = "v1";
@@ -23,27 +24,50 @@ async function setManifest(manifest: Manifest) {
 	cache.put("manifest", resp);
 }
 
-async function cacheNew(manifest: Manifest, source: Client | ServiceWorker | MessagePort | null) {
-	const cache = await getCache();
+let initializing = false;
 
-	const promises: Promise<void>[] = [];
+async function invalidFiles(manifest: Manifest): Promise<string[]> {
+	const res = [];
+
 	for (const [pathname, hash] of Object.entries(manifest)) {
 		const cachedHash = await getResponseHash(pathname);
 		if (hash != cachedHash) {
-			console.log("cacheNew", cacheId, pathname, hash, cachedHash);
-			promises.push(cache.add(pathname));
+			console.log("invalidating", pathname);
+			//console.log(hash, cachedHash);
+			res.push(pathname);
 		}
 	}
-	await Promise.all(promises);
-	await setManifest(manifest);
 
-	const count = promises.length;
-	source?.postMessage({ type: "cacheNew", count });
+	return res;
 }
 
-type Message =
+async function init(
+	source: Client | ServiceWorker | MessagePort | null,
+	manifest: Manifest,
+	lang: Locale,
+) {
+	if (initializing) return;
+	initializing = true;
+
+	const cache = await getCache();
+	const pathnames = await invalidFiles(manifest);
+
+	if (pathnames.length > 0) {
+		source?.postMessage({ type: "initAppCache", pathnames });
+	}
+
+	await Promise.all(pathnames.map((pathname) => {
+		source?.postMessage({ type: "initAppCacheProgress", pathname });
+		return cache.add(pathname);
+	}));
+	await setManifest(manifest);
+
+	// 2. Update Bible resources.
+}
+
+export type Message =
 	| { type: "skipWaiting" }
-	| { type: "cache"; manifest: Manifest }
+	| { type: "init"; manifest: Manifest; lang: Locale }
 	| { type: "add"; publication: Publication };
 
 self.addEventListener("message", (ev) => {
@@ -53,8 +77,8 @@ self.addEventListener("message", (ev) => {
 			console.log("skipWaiting", cacheId);
 			self.skipWaiting();
 			break;
-		case "cache":
-			cacheNew(msg.manifest, ev.source);
+		case "init":
+			init(ev.source, msg.manifest, msg.lang);
 			break;
 		case "add":
 			break;
