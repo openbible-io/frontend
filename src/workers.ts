@@ -7,12 +7,6 @@ import {
 import { lang } from "./stores/client.ts";
 import { Message } from "./workers/service.ts";
 
-declare global {
-	interface Window {
-		MANIFEST: { [key: string]: string };
-	}
-}
-
 export async function initService(): Promise<ServiceWorker | undefined> {
 	if (!("serviceWorker" in navigator)) {
 		addNotification({
@@ -45,27 +39,19 @@ export async function initService(): Promise<ServiceWorker | undefined> {
 	// If an update occured and a previous version is installed, it will now be
 	// "installing" and then "waiting" to be "activated" once the old version
 	// is unloaded.
-	const newSw = reg.installing;
+	const updatedSw = reg.installing;
 
-	if (newSw) {
+	if (updatedSw) {
 		// Just unload the old version and lose its state.
-		newSw.postMessage({ type: "skipWaiting" });
+		updatedSw.postMessage({ type: "skipWaiting" });
 		res = await new Promise((resolve) => {
-			newSw.addEventListener("statechange", () => {
-				if (newSw.state == "installed") resolve(newSw);
+			updatedSw.addEventListener("statechange", () => {
+				if (updatedSw.state == "installed") resolve(updatedSw);
 			});
 		});
 		// Wait for it to be "active".
 		await navigator.serviceWorker.ready;
 	}
-
-	// deno-lint-ignore no-window
-	const manifest = window.MANIFEST;
-	delete manifest[servicePath];
-	// No easy way around this because of differences in .outerHTML impls :(
-	// Hopefully it's cached so this is much cheaper.
-	const doc = await fetch(".");
-	manifest["/"] = await hashFn(await doc.arrayBuffer());
 
 	// Show a nice notification with progress as the service worker installs
 	// itself and Bible resources.
@@ -73,8 +59,18 @@ export async function initService(): Promise<ServiceWorker | undefined> {
 	//	console.log(2, "got msg from sw", ev.data);
 	//	if (ev.data.type == "initApp")
 	//});
+	const toCache = [...document.head.children]
+		.reduce((acc, cur) => {
+			if (cur.tagName == "SCRIPT") acc.push((cur as HTMLScriptElement).src);
+			else if (cur.tagName == "LINK") {
+				const href = (cur as HTMLLinkElement).href;
+				if (href != servicePath) acc.push(href);
+			}
 
-	res.postMessage({ type: "init", manifest, lang: lang.get() } as Message);
+			return acc;
+		}, [`${origin}/?integrity=${await hashFn(document.documentElement.outerHTML)}`]);
+
+	res.postMessage({ type: "init", toCache, lang: lang.get() } as Message);
 
 	return res;
 }

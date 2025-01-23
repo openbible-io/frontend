@@ -46,10 +46,7 @@ export interface WebManifest extends Record<string, any> {
 }
 export interface HtmlProps {
 	favicon?: string;
-	scripts: {
-		entries: string[];
-		other: string[];
-	};
+	scripts: string[];
 	stylesheets: string[];
 	webmanifest?: string;
 	manifest: { [fname: string]: string };
@@ -110,15 +107,16 @@ const htmlPlugin = ({
 			const manifest: { [fname: string]: Hash } = {};
 
 			// 3. Create web app manifest
-			const scripts = { entries: [] as string[], other: [] as string[] };
+			const scripts: string[] = [];
 			const stylesheets: string[] = [];
+
 			for (const chunk of Object.values(bundle)) {
 				if (chunk.fileName.endsWith(".map")) continue;
 
 				const path = base + chunk.fileName;
 
-				if (chunk.fileName.endsWith(".js") && chunk.type == "chunk") {
-					scripts[chunk.isEntry ? "entries" : "other"].push(path);
+				if (chunk.type == "chunk" && chunk.isEntry) {
+					scripts.push(path);
 				} else if (chunk.fileName.endsWith(".css")) {
 					stylesheets.push(path);
 				}
@@ -130,8 +128,8 @@ const htmlPlugin = ({
 			const props: HtmlProps = {
 				scripts,
 				stylesheets,
-				manifest,
 				webmanifest: base + webmanifest?.fileName,
+				manifest,
 			};
 			if (faviconPath) {
 				const asset = Object.values(bundle).find((v) =>

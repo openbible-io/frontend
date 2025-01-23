@@ -4,6 +4,7 @@ import EventEmitter from "node:events";
 import { contentType } from "@std/media-types";
 import { dir } from "./config.ts";
 import { FancyAnsi } from "fancy-ansi";
+import hashFn from "../shared/hash.ts";
 
 const convert = new FancyAnsi();
 
@@ -69,8 +70,8 @@ export default {
 
 			return response;
 		}
-		let path = join(dir, url.pathname);
 
+		let path = join(dir, url.pathname);
 		let stat;
 		try {
 			stat = await Deno.stat(path);
@@ -100,14 +101,18 @@ export default {
 				`<script id="liveReload">${liveReload}</script></body>`,
 			);
 		} else {
-			body = (await Deno.open(path)).readable;
+			body = await Deno.readFile(path);
 		}
 
 		return new Response(body, {
 			headers: {
 				"content-length": stat.size.toString(),
 				"content-type": ty,
-				"cache-control": "max-age=1", // service worker does caching
+				// spoof cloudflare headers that may cause app problems
+				// https://developers.cloudflare.com/pages/configuration/serving-pages/
+				"access-control-allow-origin": "*",
+				"cache-control": "public, max-age=0, must-revalidate",
+				"etag": `W/${await hashFn(body)}`
 			},
 		});
 	},

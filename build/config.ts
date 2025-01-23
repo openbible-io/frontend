@@ -12,7 +12,6 @@ import manifest from "./plugin-manifest.ts";
 import html from "../src/index.tsx";
 import size from "./plugin-size.ts";
 import tailwind from "./plugin-tailwind.ts";
-import i18n from "./plugin-i18n.ts";
 import assets from "./plugin-assets.ts";
 import { getVersion, getVersionDate } from "./version.ts";
 
@@ -49,7 +48,6 @@ const app: Options = {
 		}),
 		assets,
 		tailwind({ minify }),
-		i18n,
 		manifest({
 			favicon: import.meta.resolve("../assets/favicon.svg").replace(
 				"file://",

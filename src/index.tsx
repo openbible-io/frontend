@@ -8,36 +8,92 @@ import translations, {
 	Locale,
 	Translation,
 } from "../shared/i18n.ts";
+import type { JSX } from "preact";
 import { servicePath } from "../shared/workers.ts";
 
 interface Props {
 	lang: string;
 	translation: Translation;
 	favicon?: string;
-	scripts: {
-		entries: string[];
-		other: string[];
-	};
+	scripts: string[];
 	stylesheets: string[];
 	webmanifest?: string;
 	manifest: { [fname: string]: string };
 }
+
+// TODO: remove ?integrity= after https://issues.chromium.org/issues/40579931
 const Html = (props: Props) => (
 	<html lang={props.lang}>
 		<head>
 			<meta charset="utf-8" />
 			<meta name="viewport" content="width=device-width, initial-scale=1" />
 			<title>OpenBible</title>
-			<link rel="icon" href={props.favicon} />
-			<link rel="manifest" href={props.webmanifest} />
-			{props.stylesheets.map((s) => <link rel="stylesheet" href={s} />)}
-			{props.scripts.entries
-				.filter((e) => e != servicePath)
-				.map((e) => <script type="module" src={e} />)}
-			{props.scripts.other
-				.filter((s) => s.includes("i18n") ? s.includes(props.lang) : true)
-				.concat(servicePath)
-				.map((s) => <link rel="modulepreload" href={s} />)}
+			{props.scripts
+				.filter((s) => s != servicePath)
+				.map((src) => (
+					<script
+						src={`${src}?integrity=${props.manifest[src]}`}
+						type="module"
+						integrity={props.manifest[src]}
+					/>
+				))}
+			{Object.entries(props.manifest)
+				.filter(([pathname]) =>
+					(!props.scripts.includes(pathname) || pathname == servicePath) &&
+					!pathname.includes("favicon-")
+				)
+				.map(([pathname, hash]) => {
+					const res: JSX.LinkHTMLAttributes<HTMLLinkElement> = {
+						href: `${pathname}?integrity=${hash}`,
+					};
+					if (pathname == props.webmanifest) res.rel = "manifest";
+					else if (pathname == props.favicon) res.rel = "icon";
+					else if (props.stylesheets.includes(pathname)) {
+						res.rel = "stylesheet";
+					} else if (props.scripts.includes(pathname)) {
+						res.rel = "serviceworker";
+					} else {
+						res.rel = "preload";
+						if (pathname.endsWith(".woff2")) {
+							res.as = "font";
+							res.crossorigin = "anonymous";
+						} else if (
+							pathname.endsWith(".webp") || pathname.endsWith(".png")
+						) {
+							res.as = "image";
+						} else if (pathname.endsWith(".json")) {
+							res.as = "fetch";
+							res.crossorigin = "anonymous";
+						} else if (pathname.endsWith(".js")) {
+							res.as = "script";
+							res.rel = "modulepreload";
+						} else {
+							console.error(
+								"add `as`=https://fetch.spec.whatwg.org/#concept-request-destination:",
+								pathname,
+							);
+						}
+					}
+
+					res.integrity = hash;
+					return res;
+				})
+				.sort((p1, p2) => {
+					const preload1 = (p1.rel?.toString() ?? "").includes("preload");
+					const preload2 = (p2.rel?.toString() ?? "").includes("preload");
+					if (preload1 != preload2) return preload1 > preload2 ? 1 : -1;
+
+					return p1.href!.toString().localeCompare(p2.href!.toString());
+				})
+				.map((props) =>
+					props.type
+						? (
+							<script
+								{...(props as JSX.ScriptHTMLAttributes<HTMLScriptElement>)}
+							/>
+						)
+						: <link {...(props as JSX.LinkHTMLAttributes<HTMLLinkElement>)} />
+				)}
 		</head>
 		<body>
 			<noscript>
@@ -50,11 +106,6 @@ const Html = (props: Props) => (
 					))}
 				</ul>
 			</noscript>
-			<script
-				dangerouslySetInnerHTML={{
-					__html: `window.MANIFEST=${JSON.stringify(props.manifest)}`,
-				}}
-			/>
 			<div id="app" />
 		</body>
 	</html>

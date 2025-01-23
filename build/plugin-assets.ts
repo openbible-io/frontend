@@ -1,13 +1,17 @@
+// Simpler version of
+// https://github.com/rollup/plugins/blob/master/packages/url/src/index.js
 import type { Plugin } from "rolldown";
-import { normalize } from "node:path";
+import { dirname, normalize, resolve } from "node:path";
 import { readFile } from "node:fs/promises";
+
+const re = /\.(woff2)$/;
 
 export default {
 	name: "assets",
-	async resolveId(id) {
-		if (!id.startsWith("/assets")) return;
+	async resolveId(id, importee) {
+		if (!id.match(re)) return;
 
-		const originalFileName = id.substring(1);
+		const originalFileName = resolve(dirname(importee!), id);
 		const source = await readFile(originalFileName);
 		const name = normalize(originalFileName);
 
@@ -21,6 +25,6 @@ export default {
 		return this.getFileName(refId);
 	},
 	load(id) {
-		if (id.includes("assets/")) return "";
+		if (id.match(re)) return "";
 	},
 } as Plugin;

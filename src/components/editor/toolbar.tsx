@@ -26,7 +26,7 @@ export default function Toolbar(props: ToolbarProps) {
 	}
 
 	return (
-		<div>
+		<div class="p-2 flex gap-2">
 			{cmds.map((c) => (
 				<button onClick={() => doCommand(c.cmd)}>
 					{c.icon}
