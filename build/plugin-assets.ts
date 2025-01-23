@@ -11,18 +11,22 @@ export default {
 	async resolveId(id, importee) {
 		if (!id.match(re)) return;
 
-		const originalFileName = resolve(dirname(importee!), id);
-		const source = await readFile(originalFileName);
-		const name = normalize(originalFileName);
+		try {
+			const originalFileName = resolve(dirname(importee!), id);
+			const source = await readFile(originalFileName);
+			const name = normalize(originalFileName);
 
-		const refId = this.emitFile({
-			type: "asset",
-			name,
-			source,
-			originalFileName,
-		});
+			const refId = this.emitFile({
+				type: "asset",
+				name,
+				source,
+				originalFileName,
+			});
 
-		return this.getFileName(refId);
+			return this.getFileName(refId);
+		} catch {
+			return `assets/missing-${id}`;
+		}
 	},
 	load(id) {
 		if (id.match(re)) return "";

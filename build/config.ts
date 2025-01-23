@@ -67,15 +67,19 @@ const app: Options = {
 	],
 	output: {
 		dir,
-		entryFileNames: "[name].js",
-		cssEntryFileNames: "[name].css",
-		cssChunkFileNames: "chunks/[name].css",
-		assetFileNames: "assets/[name][extname]",
+		hashCharacters: "base36",
+		entryFileNames(id: PreRenderedChunk) {
+			if (id.name == "service") return "[name].js";
+			return "[name]-[hash].js"; 
+		},
+		cssEntryFileNames: "[name]-[hash].css",
+		cssChunkFileNames: "chunks/[name]-[hash].css",
+		assetFileNames: "assets/[name]-[hash][extname]",
 		chunkFileNames(id: PreRenderedChunk) {
 			if (id?.facadeModuleId?.match(/i18n\/[^/]+.json/)) {
-				return "i18n/[name].js";
+				return "i18n/[name]-[hash].js";
 			}
-			return "chunks/[name].js";
+			return "chunks/[name]-[hash].js";
 		},
 		sourcemap: true,
 		minify,
@@ -83,12 +87,12 @@ const app: Options = {
 		// This allows users to only download our changed dependencies.
 		advancedChunks: {
 			groups: [
-				//{
-				//	// TODO: remove after https://github.com/rolldown/rolldown/issues/2654
-				//	name: "rolldown",
-				//	test: "rolldown:runtime",
-				//	priority: 100,
-				//},
+				{
+					// TODO: remove after https://github.com/rolldown/rolldown/issues/2654
+					name: "rolldown",
+					test: "rolldown:runtime",
+					priority: 100,
+				},
 				{
 					name: "preact",
 					test: /node_modules\/preact/,

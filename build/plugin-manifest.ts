@@ -70,7 +70,7 @@ const manifestPlugin = ({
 			const { icon: { sizes }, fileName: fileNameManifest, ...rest } =
 				webmanifest;
 			if (!icon) throw Error("must provide icon for webmanifest");
-			const fileName = icon.fileName;
+			const fileName = webmanifest.icon.path!;
 			const rootName = basename(fileName, extname(fileName));
 
 			const icons = [{ src: base + fileName, sizes: "any" }];
@@ -85,7 +85,7 @@ const manifestPlugin = ({
 			}
 			this.emitFile({
 				type: "asset",
-				fileName: fileNameManifest,
+				name: fileNameManifest,
 				source: JSON.stringify({ icons, ...rest }),
 			});
 		}
@@ -106,7 +106,8 @@ const htmlPlugin = ({
 			type Hash = string; // sha256 base64 hash
 			const manifest: { [fname: string]: Hash } = {};
 
-			// 3. Create web app manifest
+			// 3. Create manifest for service worker to cache
+			let webmanifestPath = "";
 			const scripts: string[] = [];
 			const stylesheets: string[] = [];
 
@@ -119,8 +120,12 @@ const htmlPlugin = ({
 					scripts.push(path);
 				} else if (chunk.fileName.endsWith(".css")) {
 					stylesheets.push(path);
+				} else if (
+					chunk.type == "asset" &&
+					chunk.names.includes(webmanifest?.fileName ?? "")
+				) {
+					webmanifestPath = path;
 				}
-
 				manifest[path] = await hashChunk(chunk);
 			}
 
@@ -128,7 +133,7 @@ const htmlPlugin = ({
 			const props: HtmlProps = {
 				scripts,
 				stylesheets,
-				webmanifest: base + webmanifest?.fileName,
+				webmanifest: webmanifestPath,
 				manifest,
 			};
 			if (faviconPath) {

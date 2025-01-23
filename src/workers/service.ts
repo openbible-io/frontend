@@ -5,11 +5,8 @@ declare const self: ServiceWorkerGlobalScope;
 const cacheId = "v1";
 const getCache = () => caches.open(cacheId);
 
-async function onActivate() {
+function onActivate() {
 	console.log("activate", cacheId);
-	if (self.registration.navigationPreload) {
-		await self.registration.navigationPreload.disable();
-	}
 }
 
 let initializing = false;
@@ -28,11 +25,11 @@ async function init(
 		const cached = await cache.match(url);
 		if (!cached) {
 			toUpdate.push(url);
-			const old = await cache.matchAll(url, { ignoreSearch: true });
-			for (const toPurge of old) {
-				console.log("purge", toPurge.url);
-				await cache.delete(toPurge.url);
-			}
+			//const old = await cache.matchAll(url, { ignoreSearch: true });
+			//for (const toPurge of old) {
+			//	console.log("purge", toPurge.url);
+			//	await cache.delete(toPurge.url);
+			//}
 		}
 	}
 
@@ -78,25 +75,17 @@ async function networkThenCache(request: Request): Promise<Response> {
 		return await fetch(request);
 	} catch {
 		const cache = await getCache();
-		console.log(cache);
-		const cached = await cache.match(request, { ignoreSearch: true });
-		if (cached) {
-			if (cached.url != request.url) {
-				console.warn("serving stale", cached.url, "instead of", request.url);
-			}
-			return cached;
-		}
+		const cached = await cache.match(request);
+		if (cached) return cached;
 	}
 	throw Error("Network offline and uncached: " + request.url);
 }
 
 async function cacheThenNetwork(request: Request): Promise<Response> {
-	const url = new URL(request.url);
+	//const url = new URL(request.url);
 
 	const cache = await getCache();
-	const opts: CacheQueryOptions = {};
-	if (!url.search) opts.ignoreSearch = true;
-	const cached = await cache.match(request, opts);
+	const cached = await cache.match(request);
 	if (cached) {
 		//console.log("hit", url.toString());
 		return cached;
@@ -120,6 +109,6 @@ function onFetch(ev: FetchEvent) {
 	return cacheThenNetwork(ev.request);
 }
 
-self.addEventListener("activate", (ev) => ev.waitUntil(onActivate()));
+self.addEventListener("activate", onActivate);
 self.addEventListener("message", (ev) => ev.waitUntil(onMessage(ev)));
 self.addEventListener("fetch", (ev) => ev.respondWith(onFetch(ev)));

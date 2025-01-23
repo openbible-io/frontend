@@ -28,11 +28,11 @@ export default function Toolbar(props: ToolbarProps) {
 	return (
 		<div class="p-2 flex gap-2">
 			{cmds.map((c) => (
-				<button onClick={() => doCommand(c.cmd)}>
+				<button onClick={() => doCommand(c.cmd)} class="p-2">
 					{c.icon}
 				</button>
 			))}
-			<Dropdown button={{ children: "Block type" }}>
+			<Dropdown button={{ children: "Block type" }} class="p-2">
 				{[...Array(8).keys()].map((i) => {
 					const level = i + 1;
 					const Ele = "h" + level as
@@ -48,6 +48,7 @@ export default function Toolbar(props: ToolbarProps) {
 						<Button
 							onClick={() =>
 								doCommand(setBlockType(schema.nodes.heading, { level }))}
+							class="p-2"
 						>
 							{h(Ele, {}, Ele)}
 						</Button>
@@ -55,7 +56,7 @@ export default function Toolbar(props: ToolbarProps) {
 				})}
 			</Dropdown>
 			{import.meta.env.DEV && (
-				<button onClick={() => doCommand(logState)}>
+				<button onClick={() => doCommand(logState)} class="p-2">
 					Log state
 				</button>
 			)}

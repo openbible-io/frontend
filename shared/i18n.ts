@@ -15,7 +15,7 @@ const translations = {
 	es: () => import("./i18n/es.json"),
 	he: () => import("./i18n/he.json"),
 	// mainland China and Singapore both use simplified chinese: zh-Hans
-	//	- more commonly used are  zh-CN and zh-SG
+	//	- more commonly used are zh-CN and zh-SG
 	// rest use traditional chinese: zh-Hant
 	//	- more commonly used are zh-TW and zh-HK
 } as const;

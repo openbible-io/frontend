@@ -8,8 +8,9 @@ import translations, {
 	Locale,
 	Translation,
 } from "../shared/i18n.ts";
-import type { JSX } from "preact";
 import { servicePath } from "../shared/workers.ts";
+
+let warned = false;
 
 interface Props {
 	lang: string;
@@ -21,7 +22,8 @@ interface Props {
 	manifest: { [fname: string]: string };
 }
 
-// TODO: remove ?integrity= after https://issues.chromium.org/issues/40579931
+// TODO: remove [hash] and add integrity= after
+// https://issues.chromium.org/issues/40579931
 const Html = (props: Props) => (
 	<html lang={props.lang}>
 		<head>
@@ -30,70 +32,47 @@ const Html = (props: Props) => (
 			<title>OpenBible</title>
 			{props.scripts
 				.filter((s) => s != servicePath)
-				.map((src) => (
-					<script
-						src={`${src}?integrity=${props.manifest[src]}`}
-						type="module"
-						integrity={props.manifest[src]}
-					/>
-				))}
+				.map((src) => <script src={src} type="module" />)}
+			{props.stylesheets.map((s) => <link rel="stylesheet" href={s} />)}
+			<link rel="icon" href={props.favicon} />
+			<link rel="webmanifest" href={props.webmanifest} />
+			{
+				/* Prefetch for faster first load AND store what to cache to
+			 service worker WITHOUT having to reload and intercept requests. */
+			}
 			{Object.entries(props.manifest)
 				.filter(([pathname]) =>
-					(!props.scripts.includes(pathname) || pathname == servicePath) &&
-					!pathname.includes("favicon-")
+					!props.scripts.includes(pathname) &&
+					!props.stylesheets.includes(pathname) &&
+					!pathname.includes("favicon") && pathname != props.webmanifest
 				)
-				.map(([pathname, hash]) => {
-					const res: JSX.LinkHTMLAttributes<HTMLLinkElement> = {
-						href: `${pathname}?integrity=${hash}`,
-					};
-					if (pathname == props.webmanifest) res.rel = "manifest";
-					else if (pathname == props.favicon) res.rel = "icon";
-					else if (props.stylesheets.includes(pathname)) {
-						res.rel = "stylesheet";
-					} else if (props.scripts.includes(pathname)) {
-						res.rel = "serviceworker";
-					} else {
-						res.rel = "preload";
-						if (pathname.endsWith(".woff2")) {
-							res.as = "font";
-							res.crossorigin = "anonymous";
-						} else if (
-							pathname.endsWith(".webp") || pathname.endsWith(".png")
-						) {
-							res.as = "image";
-						} else if (pathname.endsWith(".json")) {
-							res.as = "fetch";
-							res.crossorigin = "anonymous";
-						} else if (pathname.endsWith(".js")) {
-							res.as = "script";
-							res.rel = "modulepreload";
-						} else {
-							console.error(
-								"add `as`=https://fetch.spec.whatwg.org/#concept-request-destination:",
-								pathname,
-							);
-						}
+				.map(([pathname]) => {
+					if (pathname.endsWith(".woff2")) {
+						return (
+							<link
+								rel="preload"
+								as="font"
+								type="font/woff2"
+								crossorigin="anonymous"
+								href={pathname}
+							/>
+						);
+					}
+					if (pathname.endsWith(".js")) {
+						return (
+							<link
+								rel={(pathname.includes("i18n") &&
+										!pathname.includes(props.lang))
+									? "prefetch"
+									: "modulepreload"}
+								as={pathname == servicePath ? "serviceworker" : "script"}
+								href={pathname}
+							/>
+						);
 					}
 
-					res.integrity = hash;
-					return res;
-				})
-				.sort((p1, p2) => {
-					const preload1 = (p1.rel?.toString() ?? "").includes("preload");
-					const preload2 = (p2.rel?.toString() ?? "").includes("preload");
-					if (preload1 != preload2) return preload1 > preload2 ? 1 : -1;
-
-					return p1.href!.toString().localeCompare(p2.href!.toString());
-				})
-				.map((props) =>
-					props.type
-						? (
-							<script
-								{...(props as JSX.ScriptHTMLAttributes<HTMLScriptElement>)}
-							/>
-						)
-						: <link {...(props as JSX.LinkHTMLAttributes<HTMLLinkElement>)} />
-				)}
+					if (!warned) console.warn(pathname, "will NOT be cached for offline use");
+				})}
 		</head>
 		<body>
 			<noscript>
@@ -126,6 +105,7 @@ export default async function sources(props: HtmlProps) {
 		);
 		res[`i18n/${lang}.html`] = source;
 		if (lang == base) res["index.html"] = source;
+		warned = true;
 	}
 
 	return res;

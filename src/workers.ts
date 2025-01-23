@@ -68,7 +68,7 @@ export async function initService(): Promise<ServiceWorker | undefined> {
 			}
 
 			return acc;
-		}, [`${origin}/?integrity=${await hashFn(document.documentElement.outerHTML)}`]);
+		}, ["/"]);
 
 	res.postMessage({ type: "init", toCache, lang: lang.get() } as Message);
 
