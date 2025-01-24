@@ -14,6 +14,7 @@ import size from "./plugin-size.ts";
 import tailwind from "./plugin-tailwind.ts";
 import assets from "./plugin-assets.ts";
 import { getVersion, getVersionDate } from "./version.ts";
+import { servicePath } from "../shared/workers.ts";
 
 // TODO: make dynamic
 const bgColor = "#f3f4f6";
@@ -69,7 +70,7 @@ const app: Options = {
 		dir,
 		hashCharacters: "base36",
 		entryFileNames(id: PreRenderedChunk) {
-			if (id.name == "service") return "[name].js";
+			if (id.name == "service") return servicePath.substring(1);
 			return "[name]-[hash].js"; 
 		},
 		cssEntryFileNames: "[name]-[hash].css",
@@ -84,7 +85,8 @@ const app: Options = {
 		sourcemap: true,
 		minify,
 		comments: "none",
-		// This allows users to only download our changed dependencies.
+		// Goal: Put rarely changing deps into chunks so users do not have to
+		// redownload them when we update.
 		advancedChunks: {
 			groups: [
 				{

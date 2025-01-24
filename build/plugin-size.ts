@@ -79,7 +79,7 @@ export default {
 				acc.size += cur.size;
 				acc.gzip += cur.gzip;
 				return acc;
-			}, { fname: "TOTAL", size: 0, gzip: 0 });
+			}, { fname: `${rows.length} files`, size: 0, gzip: 0 });
 
 		console.log(markdownTable(
 			[["fname", "raw", "gzip ↓", "ratio"]].concat(

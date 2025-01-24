@@ -1,4 +1,3 @@
-import hashFn from "../shared/hash.ts";
 import { servicePath } from "../shared/workers.ts";
 import {
 	addNotification,
@@ -68,7 +67,7 @@ export async function initService(): Promise<ServiceWorker | undefined> {
 			}
 
 			return acc;
-		}, ["/"]);
+		}, [origin]);
 
 	res.postMessage({ type: "init", toCache, lang: lang.get() } as Message);
 

@@ -73,7 +73,7 @@ const manifestPlugin = ({
 			const fileName = webmanifest.icon.path!;
 			const rootName = basename(fileName, extname(fileName));
 
-			const icons = [{ src: base + fileName, sizes: "any" }];
+			const icons = [{ src: base + icon.fileName, sizes: "any" }];
 			const img = sharp(icon.source);
 			for (const size of sizes!) {
 				const resized = img.resize(size);

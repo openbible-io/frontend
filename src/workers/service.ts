@@ -20,28 +20,28 @@ async function init(
 	initializing = true;
 
 	const cache = await getCache();
+	const oldKeys = new Set((await cache.keys()).map(r => r.url.replace(/\/$/, '')));
 	const toUpdate: string[] = [];
 	for (const url of toCache) {
 		const cached = await cache.match(url);
-		if (!cached) {
-			toUpdate.push(url);
-			//const old = await cache.matchAll(url, { ignoreSearch: true });
-			//for (const toPurge of old) {
-			//	console.log("purge", toPurge.url);
-			//	await cache.delete(toPurge.url);
-			//}
-		}
+		if (!cached) toUpdate.push(url);
 	}
 
 	if (toUpdate.length > 0) {
 		source?.postMessage({ type: "initAppCache", toUpdate });
 	}
 
+	console.log("add", toUpdate);
 	await Promise.all(toUpdate.map((pathname) => {
 		source?.postMessage({ type: "initAppCacheProgress", pathname });
-		console.log("add", pathname);
 		return cache.add(pathname);
 	}));
+
+	// Purge old items
+	const newKeys = new Set(toCache);
+	const toPurge = [...oldKeys.difference(newKeys).keys()];
+	console.log("remove", toPurge);
+	await Promise.all(toPurge.map(p => cache.delete(p)));
 
 	initializing = false;
 

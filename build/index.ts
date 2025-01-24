@@ -2,7 +2,7 @@
 // offline use, BUT the dev mode asset tree looks nothing like the prod
 // asset tree, making offline caching strategies difficult to test in dev.
 import { rolldown, watch } from "rolldown";
-import rollOpts, { dev } from "./config.ts";
+import rollOpts, { dev, dir } from "./config.ts";
 import serveOpts, { emitter } from "./server.ts";
 import process from "node:process";
 
@@ -28,6 +28,11 @@ if (dev) {
 	);
 	Deno.serve(serveOpts);
 } else {
+	try {
+		await Deno.remove(dir, { recursive: true });
+	} catch {
+		// Doesn't exist.
+	}
 	await Promise.all(rollOpts.map(async (o) => {
 		const builder = await rolldown(o);
 		await builder.write(o.output!);

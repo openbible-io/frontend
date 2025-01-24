@@ -22,8 +22,7 @@ interface Props {
 	manifest: { [fname: string]: string };
 }
 
-// TODO: remove [hash] and add integrity= after
-// https://issues.chromium.org/issues/40579931
+// TODO: after https://issues.chromium.org/issues/40579931 remove [hash] and add integrity=
 const Html = (props: Props) => (
 	<html lang={props.lang}>
 		<head>
@@ -37,8 +36,10 @@ const Html = (props: Props) => (
 			<link rel="icon" href={props.favicon} />
 			<link rel="webmanifest" href={props.webmanifest} />
 			{
-				/* Prefetch for faster first load AND store what to cache to
-			 service worker WITHOUT having to reload and intercept requests. */
+				/*
+				* Prefetch for faster first load AND to store what to cache to
+				* service worker WITHOUT having to reload and intercept requests.
+			 */
 			}
 			{Object.entries(props.manifest)
 				.filter(([pathname]) =>
