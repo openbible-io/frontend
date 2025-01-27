@@ -1,5 +1,4 @@
 import { type Publication } from "../../shared/publications.ts";
-import { type Locale } from "../../shared/i18n.ts";
 
 declare const self: ServiceWorkerGlobalScope;
 const cacheId = "v1";
@@ -7,50 +6,12 @@ const getCache = () => caches.open(cacheId);
 
 function onActivate() {
 	console.log("activate", cacheId);
-}
-
-let initializing = false;
-
-async function init(
-	source: Client | ServiceWorker | MessagePort | null,
-	toCache: string[],
-	lang: Locale,
-) {
-	if (initializing) return;
-	initializing = true;
-
-	const cache = await getCache();
-	const oldKeys = new Set((await cache.keys()).map(r => r.url.replace(/\/$/, '')));
-	const toUpdate: string[] = [];
-	for (const url of toCache) {
-		const cached = await cache.match(url);
-		if (!cached) toUpdate.push(url);
-	}
-
-	if (toUpdate.length > 0) {
-		source?.postMessage({ type: "initAppCache", toUpdate });
-	}
-
-	console.log("add", toUpdate);
-	await Promise.all(toUpdate.map((pathname) => {
-		source?.postMessage({ type: "initAppCacheProgress", pathname });
-		return cache.add(pathname);
-	}));
-
-	// Purge old items
-	const newKeys = new Set(toCache);
-	const toPurge = [...oldKeys.difference(newKeys).keys()];
-	console.log("remove", toPurge);
-	await Promise.all(toPurge.map(p => cache.delete(p)));
-
-	initializing = false;
-
-	console.log("local upsert default bible for", lang);
+	self.clients.claim();
 }
 
 export type Message =
 	| { type: "skipWaiting" }
-	| { type: "init"; toCache: string[]; lang: Locale }
+	| { type: "claimMe" }
 	| { type: "add"; publication: Publication };
 
 async function onMessage(ev: ExtendableMessageEvent) {
@@ -58,23 +19,27 @@ async function onMessage(ev: ExtendableMessageEvent) {
 	switch (msg.type) {
 		case "skipWaiting":
 			console.log("skipWaiting", cacheId);
-			self.skipWaiting();
+			ev.waitUntil(self.skipWaiting());
 			break;
-		case "init":
-			await init(ev.source, msg.toCache, msg.lang);
+		case "claimMe":
+			self.clients.claim();
+			ev.source?.postMessage("claimed");
 			break;
 		case "add":
 			break;
 		default:
-			throw Error("Unknown message " + ev.data.type);
+			throw Error("Unknown message " + ev.data);
 	}
 }
 
 async function networkThenCache(request: Request): Promise<Response> {
+	const cache = await getCache();
+
 	try {
-		return await fetch(request);
+		const resp = await fetch(request);
+		await cache.put(request, resp);
+		return cache.match(request) as Promise<Response>;
 	} catch {
-		const cache = await getCache();
 		const cached = await cache.match(request);
 		if (cached) return cached;
 	}
@@ -82,21 +47,19 @@ async function networkThenCache(request: Request): Promise<Response> {
 }
 
 async function cacheThenNetwork(request: Request): Promise<Response> {
-	//const url = new URL(request.url);
-
 	const cache = await getCache();
 	const cached = await cache.match(request);
 	if (cached) {
-		//console.log("hit", url.toString());
+		//console.log("hit", request.url);
 		return cached;
 	}
 
-	//console.log("miss", url.toString());
-	return fetch(request);
+	//console.log("miss", request.url);
+	return networkThenCache(request);
 }
 
 // Once installed, this handles all fetch requests.
-// Its possible that `init` was not have been called before.
+// It's possible that `init` has not been called before.
 function onFetch(ev: FetchEvent) {
 	const url = new URL(ev.request.url);
 	//console.log("onFetch", url.toString());

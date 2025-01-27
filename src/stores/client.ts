@@ -4,7 +4,6 @@ import { persistentAtom } from "@nanostores/persistent";
 import { createRouter } from "@nanostores/router";
 import translations, {
 	base,
-	dir,
 	type Locale,
 	locales,
 	Translation,
@@ -47,7 +46,7 @@ for (const k of locales) {
 export const lang = selectStore("lang", locale, locales);
 lang.subscribe((l) => {
 	if (typeof document != "undefined") {
-		document.documentElement.dir = dir(l);
+		document.documentElement.dir = translations[l].dir;
 		document.documentElement.lang = l;
 	}
 });
@@ -59,9 +58,11 @@ export const i18n = createI18n(lang, {
 	async get(lang, components): Promise<ComponentsJSON> {
 		if (lang == base) throw Error("base translation is already in bundle");
 
-		const t = (await translations[lang]()).default;
+		const t = (await translations[lang].translation()).default;
+		// without this components will not load
 		(components as (keyof Translation)[]).forEach((c) => {
-			if (!(c in t)) t[c] = {}; // without this no components will load
+			// @ts-ignore-next-line
+			if (!(c in t)) t[c] = {};
 		});
 		return t;
 	},

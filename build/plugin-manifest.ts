@@ -46,10 +46,10 @@ export interface WebManifest extends Record<string, any> {
 }
 export interface HtmlProps {
 	favicon?: string;
-	scripts: string[];
-	stylesheets: string[];
+	entrypoints: string[];
 	webmanifest?: string;
-	manifest: { [fname: string]: string };
+	rest: string[];
+	dir: string;
 }
 
 const manifestPlugin = ({
@@ -67,8 +67,11 @@ const manifestPlugin = ({
 
 		// 2. Emit webmanifest
 		if (webmanifest && webmanifest.icon) {
-			const { icon: { sizes }, fileName: fileNameManifest, ...rest } =
-				webmanifest;
+			const {
+				icon: { sizes },
+				fileName: fileNameManifest,
+				...rest
+			} = webmanifest;
 			if (!icon) throw Error("must provide icon for webmanifest");
 			const fileName = webmanifest.icon.path!;
 			const rootName = basename(fileName, extname(fileName));
@@ -92,6 +95,8 @@ const manifestPlugin = ({
 	},
 } as Plugin);
 
+let dir = "";
+
 const htmlPlugin = ({
 	base = "/",
 	favicon: faviconPath,
@@ -100,16 +105,18 @@ const htmlPlugin = ({
 }: Options) => ({
 	name: "manifest",
 
+	renderStart(opts) {
+		if (opts.dir) dir = opts.dir;
+	},
+
 	generateBundle: {
 		order: "post",
 		async handler(_, bundle) {
-			type Hash = string; // sha256 base64 hash
-			const manifest: { [fname: string]: Hash } = {};
+			const rest: string[] = [];
 
 			// 3. Create manifest for service worker to cache
 			let webmanifestPath = "";
-			const scripts: string[] = [];
-			const stylesheets: string[] = [];
+			const entrypoints: string[] = [];
 
 			for (const chunk of Object.values(bundle)) {
 				if (chunk.fileName.endsWith(".map")) continue;
@@ -117,24 +124,25 @@ const htmlPlugin = ({
 				const path = base + chunk.fileName;
 
 				if (chunk.type == "chunk" && chunk.isEntry) {
-					scripts.push(path);
+					entrypoints.push(path);
 				} else if (chunk.fileName.endsWith(".css")) {
-					stylesheets.push(path);
+					entrypoints.push(path);
 				} else if (
 					chunk.type == "asset" &&
 					chunk.names.includes(webmanifest?.fileName ?? "")
 				) {
 					webmanifestPath = path;
+				} else {
+					rest.push(path);
 				}
-				manifest[path] = await hashChunk(chunk);
 			}
 
 			// 4. Emit HTML
 			const props: HtmlProps = {
-				scripts,
-				stylesheets,
+				entrypoints,
 				webmanifest: webmanifestPath,
-				manifest,
+				rest,
+				dir,
 			};
 			if (faviconPath) {
 				const asset = Object.values(bundle).find((v) =>

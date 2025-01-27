@@ -3,11 +3,7 @@ import {
 	PreRenderedChunk,
 	type RolldownOptions,
 } from "rolldown";
-import {
-	replacePlugin as replace,
-	wasmFallbackPlugin,
-	wasmHelperPlugin,
-} from "rolldown/experimental";
+import { replacePlugin } from "rolldown/experimental";
 import manifest from "./plugin-manifest.ts";
 import html from "../src/index.tsx";
 import size from "./plugin-size.ts";
@@ -30,6 +26,7 @@ type Options = RolldownOptions & { output: OutputOptions };
 
 const app: Options = {
 	input: [
+		"./src/bootstrap.ts",
 		"./src/app.tsx",
 		"./src/workers/service.ts",
 	],
@@ -39,7 +36,7 @@ const app: Options = {
 		development: dev,
 	},
 	plugins: [
-		replace({
+		replacePlugin({
 			"import.meta.env.OPENBIBLE_VERSION": JSON.stringify(getVersion()),
 			"import.meta.env.OPENBIBLE_VERSION_DATE": JSON.stringify(
 				getVersionDate(),
@@ -57,18 +54,20 @@ const app: Options = {
 			webmanifest: {
 				name: "OpenBible",
 				display: "standalone",
+				start_url: "/",
 				background_color: bgColor,
 				theme_color: brandColor,
 			},
 			html,
 		}),
-		wasmFallbackPlugin(),
-		wasmHelperPlugin(),
+		// TODO: add plugin to remove "ssr" from i18n JSON 
 		...(dev ? [] : [size]),
 	],
 	output: {
 		dir,
 		hashCharacters: "base36",
+		// TODO: after https://issues.chromium.org/issues/40579931 remove [hash]
+		// and add integrity= to <link> and <script>s in HTML
 		entryFileNames(id: PreRenderedChunk) {
 			if (id.name == "service") return servicePath.substring(1);
 			return "[name]-[hash].js"; 

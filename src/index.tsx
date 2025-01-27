@@ -9,71 +9,36 @@ import translations, {
 	Translation,
 } from "../shared/i18n.ts";
 import { servicePath } from "../shared/workers.ts";
-
-let warned = false;
+import { SSR } from "./bootstrap.ts";
 
 interface Props {
 	lang: string;
 	translation: Translation;
+	entrypoints: string[];
 	favicon?: string;
-	scripts: string[];
-	stylesheets: string[];
 	webmanifest?: string;
-	manifest: { [fname: string]: string };
+	rest: string[];
 }
 
-// TODO: after https://issues.chromium.org/issues/40579931 remove [hash] and add integrity=
 const Html = (props: Props) => (
 	<html lang={props.lang}>
 		<head>
 			<meta charset="utf-8" />
 			<meta name="viewport" content="width=device-width, initial-scale=1" />
 			<title>OpenBible</title>
-			{props.scripts
-				.filter((s) => s != servicePath)
-				.map((src) => <script src={src} type="module" />)}
-			{props.stylesheets.map((s) => <link rel="stylesheet" href={s} />)}
+			{/* Load bootstrap and its deps. */}
+			<script
+				type="module"
+				src={props.entrypoints.find((e) => e.includes("bootstrap"))}
+			/>
+			<link rel="modulepreload" as="script" href={servicePath} />
+			<link
+				rel="modulepreload"
+				as="script"
+				href={props.rest.find((e) => e.includes("rolldown"))}
+			/>
+			{/* Prevent browser foolishly fetching "favicon.ico" */}
 			<link rel="icon" href={props.favicon} />
-			<link rel="webmanifest" href={props.webmanifest} />
-			{
-				/*
-				* Prefetch for faster first load AND to store what to cache to
-				* service worker WITHOUT having to reload and intercept requests.
-			 */
-			}
-			{Object.entries(props.manifest)
-				.filter(([pathname]) =>
-					!props.scripts.includes(pathname) &&
-					!props.stylesheets.includes(pathname) &&
-					!pathname.includes("favicon") && pathname != props.webmanifest
-				)
-				.map(([pathname]) => {
-					if (pathname.endsWith(".woff2")) {
-						return (
-							<link
-								rel="preload"
-								as="font"
-								type="font/woff2"
-								crossorigin="anonymous"
-								href={pathname}
-							/>
-						);
-					}
-					if (pathname.endsWith(".js")) {
-						return (
-							<link
-								rel={(pathname.includes("i18n") &&
-										!pathname.includes(props.lang))
-									? "prefetch"
-									: "modulepreload"}
-								as={pathname == servicePath ? "serviceworker" : "script"}
-								href={pathname}
-							/>
-						);
-					}
-
-					if (!warned) console.warn(pathname, "will NOT be cached for offline use");
-				})}
 		</head>
 		<body>
 			<noscript>
@@ -87,6 +52,19 @@ const Html = (props: Props) => (
 				</ul>
 			</noscript>
 			<div id="app" />
+			<script
+				dangerouslySetInnerHTML={{
+					__html: `window.SSR=${
+						JSON.stringify({
+							noworker: props.translation.ssr.noworker,
+							entrypoints: props.entrypoints,
+							webmanifest: props.webmanifest,
+							rest: props.rest,
+							lang: props.lang,
+						} as SSR)
+					}`,
+				}}
+			/>
 		</body>
 	</html>
 );
@@ -106,7 +84,6 @@ export default async function sources(props: HtmlProps) {
 		);
 		res[`i18n/${lang}.html`] = source;
 		if (lang == base) res["index.html"] = source;
-		warned = true;
 	}
 
 	return res;

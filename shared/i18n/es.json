@@ -7,18 +7,9 @@
 	"header": {
 		"settings": "Ajustes"
 	},
-	"verbs": {
-		"loading": "Cargando {}",
-		"downloading": "Descargando {}",
-		"parsing": "Analizando {}",
-		"caching": "Ahorrando {}"
-	},
-	"nouns": {
-		"assets": "activos",
-		"service worker": "trabajadora de servicio"
-	},
 	"ssr": {
 		"noscript": "Habilite JavaScript o visite:",
+		"noworker": "Su navegador no admite Service Workers. Son necesarios para que esta aplicación funcione sin conexión y para la comunicación entre pestañas del navegador. Esta función está disponible en los principales navegadores a partir de abril de 2018.",
 		"404": "Extraviado"
 	}
 }

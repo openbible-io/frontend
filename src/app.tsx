@@ -1,5 +1,4 @@
 import { render } from "preact";
-import { useEffect } from "preact/hooks";
 import { useStore } from "@nanostores/preact";
 import * as store from "./stores/client.ts";
 import Home from "./pages/home.tsx";
@@ -7,7 +6,6 @@ import About from "./pages/about.tsx";
 import NotFound from "./pages/404.tsx";
 import Reader from "./pages/reader.tsx";
 import Layout from "./layout.tsx";
-import { initService } from "./workers.ts";
 import "./app.css";
 
 function Router() {
@@ -26,16 +24,10 @@ function Router() {
 	}
 }
 
-function App() {
-	useEffect(() => {
-		initService();
-	}, []);
-
-	return (
-		<Layout>
-			<Router />
-		</Layout>
-	);
-}
+const App = () => (
+	<Layout>
+		<Router />
+	</Layout>
+);
 
 render(<App />, document.getElementById("app")!);

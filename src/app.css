@@ -13,8 +13,8 @@
 	--tracking-*: initial;
 	--leading-*: initial;
 
-	--font-sans: "Libre Baskerville", Ezra, serif, system-ui;
-	--font-koine: KoineGreek;
+	/* User's native language font is up to them. We install Hebrew and Greek ones. */
+	--font-sans: Ezra, KoineGreek, serif, system-ui;
 
 	/* Brand color */
 	--color-primary: oklch(59% 0.095 260);
@@ -47,11 +47,6 @@
 		mask-image: var(--svg);
 		mask-repeat: no-repeat;
 		mask-size: 100% 100%;
-	}
-
-	@font-face {
-		font-family: "Libre Baskerville";
-		src: url(../assets/libre-baskerville.woff2) format("woff2");
 	}
 
 	@font-face {

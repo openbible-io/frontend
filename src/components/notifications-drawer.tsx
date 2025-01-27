@@ -24,6 +24,13 @@ export function setNotification(props: NotificationProps) {
 	notifications.set(newNotifications);
 }
 
+// Show a nice notification with progress as the service worker installs
+// itself and Bible resources.
+//navigator.serviceWorker.addEventListener("message", ev => {
+//	console.log(2, "got msg from sw", ev.data);
+//	if (ev.data.type == "initApp")
+//});
+
 export default function NotificationsDrawer() {
 	const nots = useStore(notifications);
 

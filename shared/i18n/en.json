@@ -1,6 +1,7 @@
 {
 	"ssr": {
 		"noscript": "Enable JavaScript or visit:",
+		"noworker": "Your browser does not support Service Workers. They are required for this app to work offline and for communication between browser tabs. This feature is available in major browser after April 2018.",
 		"404": "Not Found"
 	}
 }

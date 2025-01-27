@@ -4,9 +4,8 @@ import EventEmitter from "node:events";
 import { contentType } from "@std/media-types";
 import { dir } from "./config.ts";
 import { FancyAnsi } from "fancy-ansi";
-import hashFn from "../shared/hash.ts";
 
-const convert = new FancyAnsi();
+const ansi = new FancyAnsi();
 
 const liveReload = Deno.readTextFileSync(
 	join(import.meta.dirname!, "liveReload.js"),
@@ -28,7 +27,7 @@ class Emitter extends EventEmitter {
 		this.emit("watcher", { type: "change" });
 	}
 	error(raw: string) {
-		const html = convert.toHtml(raw).replaceAll("\n", "<br>");
+		const html = ansi.toHtml(raw).replaceAll("\n", "<br>");
 		this.lastError = { type: "error", raw, html };
 		this.emit("watcher", this.lastError);
 	}
@@ -92,6 +91,12 @@ export default {
 			if (!stat) return new Response((e as Error).toString(), { status });
 		}
 
+		// Cloudflare uses weak etags.
+		const etag = `W/"${(stat.mtime!.getTime() * stat.size).toString(16)}"`;
+		if (req.headers.get("if-none-match") == etag) {
+			return new Response(null, { status: 304 });
+		}
+
 		const ty = contentType(extname(path)) || "application/octet-stream";
 		let body;
 		if (ty.includes("text/html")) {
@@ -112,7 +117,7 @@ export default {
 				// https://developers.cloudflare.com/pages/configuration/serving-pages/
 				"access-control-allow-origin": "*",
 				"cache-control": "public, max-age=0, must-revalidate",
-				"etag": `W/${await hashFn(body)}`
+				etag,
 			},
 		});
 	},
